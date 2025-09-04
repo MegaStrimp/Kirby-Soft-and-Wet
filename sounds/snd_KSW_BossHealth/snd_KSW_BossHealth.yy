@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.09288,
+  "duration":0.09287982,
   "name":"snd_KSW_BossHealth",
   "parent":{
     "name":"Sound Effects",
