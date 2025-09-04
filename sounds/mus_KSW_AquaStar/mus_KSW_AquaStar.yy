@@ -1,0 +1,28 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_KSW_AquaStar",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":102.724335,
+  "name":"mus_KSW_AquaStar",
+  "parent":{
+    "name":"Afternoon",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Afternoon.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_AquaStar.ogg",
+  "tags":[
+    "Music",
+  ],
+  "type":1,
+  "volume":1.0,
+}

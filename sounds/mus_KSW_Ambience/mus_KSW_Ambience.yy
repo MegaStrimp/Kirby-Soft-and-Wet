@@ -1,0 +1,28 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_KSW_Ambience",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":1,
+  "duration":13.270205,
+  "name":"mus_KSW_Ambience",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Misc.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"mus_KSW_Ambience.ogg",
+  "tags":[
+    "Music",
+  ],
+  "type":1,
+  "volume":1.0,
+}

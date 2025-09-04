@@ -1,0 +1,28 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_KSW_FloatIslands3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":108.2486,
+  "name":"mus_KSW_FloatIslands3",
+  "parent":{
+    "name":"Day",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Day.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_FloatIslands3.ogg",
+  "tags":[
+    "Music",
+  ],
+  "type":1,
+  "volume":1.0,
+}

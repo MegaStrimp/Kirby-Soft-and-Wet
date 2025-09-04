@@ -1,0 +1,28 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_KSW_Fishbook",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":1,
+  "duration":72.72823,
+  "name":"mus_KSW_Fishbook",
+  "parent":{
+    "name":"Menus",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Menus.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"mus_KSW_Fishbook.ogg",
+  "tags":[
+    "Music",
+  ],
+  "type":1,
+  "volume":1.0,
+}

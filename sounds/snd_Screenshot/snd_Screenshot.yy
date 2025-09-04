@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_Screenshot",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.417959,
+  "name":"snd_Screenshot",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/StarDream Framework/Audio/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_Screenshot.mp3",
+  "type":1,
+  "volume":1.0,
+}

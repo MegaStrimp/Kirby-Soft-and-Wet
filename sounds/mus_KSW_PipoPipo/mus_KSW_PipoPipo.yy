@@ -1,0 +1,28 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_KSW_PipoPipo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":1,
+  "duration":259.18872,
+  "name":"mus_KSW_PipoPipo",
+  "parent":{
+    "name":"Day",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Day.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"mus_KSW_PipoPipo.ogg",
+  "tags":[
+    "Music",
+  ],
+  "type":1,
+  "volume":1.0,
+}

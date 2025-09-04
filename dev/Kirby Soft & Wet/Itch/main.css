@@ -1,0 +1,96 @@
+body
+{
+    background: none;
+}
+
+#wrapper
+{
+    position: relative;
+    background: none;
+    overflow: hidden;
+    filter: none !important;
+}
+
+#wrapper::before
+{
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+        url('https://img.itch.zone/aW1nLzIyNjc4OTgzLnBuZw==/original/TDtXp6.png'), /* Shine */
+        linear-gradient(-45deg,#53b3fc,#006eff,#006bc9,#0055cc); /* Background Color */
+    background-size:
+        200%,
+        400% 400%;
+    background-repeat:
+        repeat,
+        no-repeat;
+    background-position:
+        left,
+        center;
+    animation: hueShift 5s infinite ease-in-out;
+    image-rendering: pixelated;
+    filter: hue-rotate(-10deg);
+    z-index: 0;
+    pointer-events: none;
+}
+
+@keyframes hueShift
+{
+    0%
+    {
+        filter: hue-rotate(-10deg);
+    }
+
+    50%
+    {
+        filter: hue-rotate(30deg);
+    }
+
+    100%
+    {
+        filter: hue-rotate(-10deg);
+    }
+}
+
+#inner_column
+{
+    background: transparent !important;
+}
+
+.columns {
+    position: relative;
+    z-index: 1;
+    background:
+        url('https://img.itch.zone/aW1nLzIyOTk0ODg4LmdpZg==/original/taGcm1.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0ODk3LmdpZg==/original/OZ05Nr.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTAwLmdpZg==/original/%2BLzNfs.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTAzLmdpZg==/original/j%2B2MX2.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTA0LmdpZg==/original/fp6TqN.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTA2LmdpZg==/original/AKl%2Bmr.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTEwLmdpZg==/original/%2Bx%2Bpz2.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTEzLmdpZg==/original/J7h26W.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTE4LmdpZg==/original/eFNOdR.gif'),
+        url('https://img.itch.zone/aW1nLzIyOTk0OTIwLmdpZg==/original/udBcbL.gif');
+    background-size: 10%;
+    background-position:
+        0% 0%,
+        100% 10%,
+        2% 20%,
+        96% 30%,
+        4% 40%,
+        98% 50%,
+        2% 60%,
+        98% 70%,
+        0% 80%,
+        96% 90%;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+}
+
+/* 
+p.empty_text
+{
+    visibility: hidden;
+}
+*/

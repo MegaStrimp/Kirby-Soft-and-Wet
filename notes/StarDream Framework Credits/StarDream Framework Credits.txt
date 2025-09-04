@@ -1,0 +1,16 @@
+* Strimp - Creator & Programmer
+
+[Additional Help]
+* WaddleDev - Programming
+* Subsandwich - Sprites
+* SideLineGames - Sprites
+
+* Nkrapivindev - Neko Presence
+* Azifly - ZincLock Music
+* Pixelated Pope - Retro Palette Swapper & Twerp Script
+* Pixelated Pope - Twerp Script
+* Pixelated Pope - Draw Surface Ext Origin Script
+* JujuAdams - Input
+* QuantumV - Color Key Mask
+* Mimpy - Sine Script
+* Pringle - Sprite Line Script
