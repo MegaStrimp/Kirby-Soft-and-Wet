@@ -68,6 +68,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Rip Van Fish",spr_KSW_Fish_RipVanFish,spr_KSW_Fish_RipVanFish_Pal_Normal,flux,0,KSW_Phases.day,800);
 	scr_KSW_AddFish("Fish Bone",spr_KSW_Fish_FishBone,spr_KSW_Fish_FishBone_Pal_Normal,legion,1,KSW_Phases.night,1200,-2,0);
 	scr_KSW_AddFish("Morton",spr_KSW_Fish_Morton,spr_KSW_Fish_Morton_Pal_Normal,mage,3,KSW_Phases.afternoon,30000,-2,2);
+	scr_KSW_AddFish("Sonic the Fish",spr_KSW_Fish_SonicFish,spr_KSW_Fish_SonicFish_Pal_Normal,legion,3,KSW_Phases.day,30000);
 	scr_KSW_AddFish("Chopper",spr_KSW_Fish_Chopper,spr_KSW_Fish_Chopper_Pal_Normal,candy,0,KSW_Phases.day,2000,-8,-1);
 	scr_KSW_AddFish("Crabmeat",spr_KSW_Fish_Crabmeat,spr_KSW_Fish_Crabmeat_Pal_Normal,candy,0,KSW_Phases.day,3000,0,4);
 	scr_KSW_AddFish("Masher",spr_KSW_Fish_Masher,spr_KSW_Fish_Masher_Pal_Normal,candy,0,KSW_Phases.day,1500,-6,2);
