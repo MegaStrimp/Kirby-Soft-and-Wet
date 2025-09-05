@@ -25,8 +25,8 @@ function __input_config_verbs()
 	        X:		input_binding_key("A"),
 	        Y:		input_binding_key("S"),
 			
-	        L:		input_binding_key("C"),
-	        R:		input_binding_key(vk_space),
+	        L:		input_binding_key("Q"),
+	        R:		input_binding_key("W"),
 	        LT:		input_binding_key(vk_control),
 	        RT:		input_binding_key(vk_shift),
 			
