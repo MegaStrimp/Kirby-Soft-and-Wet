@@ -3,7 +3,7 @@
   "%Name":"iOS",
   "ConfigValues":{
     "DesktopDebug":{
-      "option_ios_splashscreen_background_colour":"4278190080",
+      "option_ios_splashscreen_background_colour":"0",
       "option_ios_launchscreen_fill":"0",
       "option_ios_launchscreen_image":"splash/launchscreen.png",
       "option_ios_launchscreen_image_landscape":"splash/launchscreen-landscape.png",
@@ -90,7 +90,7 @@
   "option_ios_podfile_lock_path":"${options_dir}/ios/Podfile.lock",
   "option_ios_podfile_path":"${options_dir}/ios/Podfile",
   "option_ios_scale":0,
-  "option_ios_splashscreen_background_colour":4278190080,
+  "option_ios_splashscreen_background_colour":0,
   "option_ios_team_id":"",
   "option_ios_texture_page":"2048x2048",
   "option_ios_version":"1.0.0.0",

@@ -68,7 +68,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Rip Van Fish",spr_KSW_Fish_RipVanFish,spr_KSW_Fish_RipVanFish_Pal_Normal,flux,0,KSW_Phases.day,800);
 	scr_KSW_AddFish("Fish Bone",spr_KSW_Fish_FishBone,spr_KSW_Fish_FishBone_Pal_Normal,legion,1,KSW_Phases.night,1200,-2,0);
 	scr_KSW_AddFish("Morton",spr_KSW_Fish_Morton,spr_KSW_Fish_Morton_Pal_Normal,mage,3,KSW_Phases.afternoon,30000,-2,2);
-	scr_KSW_AddFish("Sonic the Fish",spr_KSW_Fish_SonicFish,spr_KSW_Fish_SonicFish_Pal_Normal,legion,3,KSW_Phases.day,30000);
+	scr_KSW_AddFish("Sonic the Fish",spr_KSW_Fish_SonicFish,spr_KSW_Fish_SonicFish_Pal_Normal,legion,3,KSW_Phases.day,30000,-38,-16);
+	scr_KSW_AddFish("Ring",spr_KSW_Fish_Ring,spr_KSW_Fish_Ring_Pal_Normal,glimmer,1,KSW_Phases.day,2500,-8,-8);
+	scr_KSW_AddFish("Star Post",spr_KSW_Fish_StarPost,spr_KSW_Fish_StarPost_Pal_Normal,legion,2,KSW_Phases.afternoon,4250,-8,-16);
+	scr_KSW_AddFish("Goal Plate",spr_KSW_Fish_GoalPlate,spr_KSW_Fish_GoalPlate_Pal_Normal,candy,2,KSW_Phases.afternoon,8500,-20,-16);
+	scr_KSW_AddFish("Item Box",spr_KSW_Fish_ItemBox,spr_KSW_Fish_ItemBox_Pal_Normal,mage,1,KSW_Phases.night,4000,-15,-12);
+	scr_KSW_AddFish("Spring",spr_KSW_Fish_Spring,spr_KSW_Fish_Spring_Pal_Normal,candy,0,KSW_Phases.night,500,-16,-20);
 	scr_KSW_AddFish("Chopper",spr_KSW_Fish_Chopper,spr_KSW_Fish_Chopper_Pal_Normal,candy,0,KSW_Phases.day,2000,-8,-1);
 	scr_KSW_AddFish("Crabmeat",spr_KSW_Fish_Crabmeat,spr_KSW_Fish_Crabmeat_Pal_Normal,candy,0,KSW_Phases.day,3000,0,4);
 	scr_KSW_AddFish("Masher",spr_KSW_Fish_Masher,spr_KSW_Fish_Masher_Pal_Normal,candy,0,KSW_Phases.day,1500,-6,2);

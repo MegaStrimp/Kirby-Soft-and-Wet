@@ -160,6 +160,16 @@ function scr_KSW_Player_Kirby_State_Normal_Step()
 		case sprRightAnim:
 		switch (floor(image_index))
 		{
+			case 0:
+			rodX = x + 33;
+			rodY = y - 19;
+			break;
+			
+			case 1:
+			rodX = x + 39;
+			rodY = y - 14;
+			break;
+			
 			default:
 			rodX = x + 34;
 			rodY = y - 12;
