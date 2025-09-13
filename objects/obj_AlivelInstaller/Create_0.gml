@@ -10,14 +10,12 @@ text = "";
 #endregion
 
 #region Skip Installing
-/*if ((!os_is_network_connected()) or (global.alivelInstaller_TargetUrl == "") or (global.alivelInstaller_TargetVersionNumberUrl == ""))
+if ((!os_is_network_connected()) or (global.alivelInstaller_TargetUrl == "") or (global.alivelInstaller_TargetVersionNumberUrl == ""))
 {
 	room_goto(global.alivelInstaller_TargetRoom);
 }
 else
 {
 	requestVersionNumberId = http_get(global.alivelInstaller_TargetVersionNumberUrl);
-}*/
-// STRIMPTODO ENABLE LATER
-room_goto(global.alivelInstaller_TargetRoom);
+}
 #endregion
