@@ -41,8 +41,7 @@ if (canSelect)
 			mediumTimer = mediumTimerMax;
 		}
 		
-		global.KSW_MainMenuSelection -= 1;
-		if (global.KSW_MainMenuSelection < 0) global.KSW_MainMenuSelection += buttonsList_Max + 1;
+		global.KSW_MainMenuSelection = (global.KSW_MainMenuSelection - 1 + bubbleCount) % bubbleCount;
 		
 		with (bubble[global.KSW_MainMenuSelection])
 		{
@@ -52,6 +51,8 @@ if (canSelect)
 			isBig = true;
 			mediumTimer = mediumTimerMax;
 		}
+		
+		with (obj_KSW_Menu_TitleScreen_Bubble) targetOffset = sign(index - global.KSW_MainMenuSelection) * other.bubbleOffsetMax;
 	}
 	
 	if (input_check_pressed("right",playerNum))
@@ -67,8 +68,7 @@ if (canSelect)
 			mediumTimer = mediumTimerMax;
 		}
 		
-		global.KSW_MainMenuSelection += 1;
-		if (global.KSW_MainMenuSelection > buttonsList_Max) global.KSW_MainMenuSelection -= buttonsList_Max + 1;
+		global.KSW_MainMenuSelection = (global.KSW_MainMenuSelection + 1 + bubbleCount) % bubbleCount;
 		
 		with (bubble[global.KSW_MainMenuSelection])
 		{
@@ -78,6 +78,8 @@ if (canSelect)
 			isBig = true;
 			mediumTimer = mediumTimerMax;
 		}
+		
+		with (obj_KSW_Menu_TitleScreen_Bubble) targetOffset = sign(index - global.KSW_MainMenuSelection) * other.bubbleOffsetMax;
 	}
 	
 	switch (global.KSW_MainMenuSelection)

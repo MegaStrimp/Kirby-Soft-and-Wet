@@ -12,9 +12,8 @@ enum KSW_MainMenu_Buttons
 	stars,
 	startFishing,
 	fishbook,
-	discord,
-	
-	length
+	shop,
+	discord
 }
 
 playerNum = 0;
@@ -23,7 +22,6 @@ state = 0;
 
 logoWave = 0;
 
-bubbleWidthMax = 0;
 phaseTimerMax = 3600;
 phaseTimer = phaseTimerMax;
 background_TextY = 48;
@@ -31,100 +29,29 @@ background_TextY = 48;
 bubbleTimer = 0;
 bubbleTimerMax = 10;
 
-buttonsList_Max = KSW_MainMenu_Buttons.length - 1;
-
 global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
 #endregion
 #endregion
 
 #region Create Bubbles
-var i = 0;
-bubble[i] = instance_create_depth(48 + (36 * i),102,depth - 1,obj_KSW_Menu_TitleScreen_Bubble);
-with (bubble[i])
-{
-	sprSmall = spr_KSW_Menu_TitleScreen_Bubble_Settings_Small;
-	sprMedium = spr_KSW_Menu_TitleScreen_Bubble_Settings_Medium;
-	sprBig = spr_KSW_Menu_TitleScreen_Bubble_Settings_Big;
-	sprText = spr_KSW_Menu_TitleScreen_Text_Settings;
-	
-	number = KSW_MainMenu_Buttons.settings;
-	
-	if (global.KSW_MainMenuSelection == number)
-	{
-		sprite_index = sprBig;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Big;
-		
-		isBig = true;
-	}
-	else
-	{
-		sprite_index = sprSmall;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Small;
-	}
-}
+bubbleCount = 0;
 
-i += 1;
-bubble[i] = instance_create_depth(48 + (36 * i),102,depth - 1,obj_KSW_Menu_TitleScreen_Bubble);
-with (bubble[i])
-{
-	sprSmall = spr_KSW_Menu_TitleScreen_Bubble_Stars_Small;
-	sprMedium = spr_KSW_Menu_TitleScreen_Bubble_Stars_Medium;
-	sprBig = spr_KSW_Menu_TitleScreen_Bubble_Stars_Big;
-	sprText = spr_KSW_Menu_TitleScreen_Text_Stars;
-	
-	number = KSW_MainMenu_Buttons.stars;
-	
-	if (global.KSW_MainMenuSelection == number)
-	{
-		sprite_index = sprBig;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Big;
-		
-		isBig = true;
-	}
-	else
-	{
-		sprite_index = sprSmall;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Small;
-	}
-}
+scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.settings,spr_KSW_Menu_TitleScreen_Bubble_Settings_Small,spr_KSW_Menu_TitleScreen_Bubble_Settings_Medium,spr_KSW_Menu_TitleScreen_Bubble_Settings_Big,spr_KSW_Menu_TitleScreen_Text_Settings);
+scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.stars,spr_KSW_Menu_TitleScreen_Bubble_Stars_Small,spr_KSW_Menu_TitleScreen_Bubble_Stars_Medium,spr_KSW_Menu_TitleScreen_Bubble_Stars_Big,spr_KSW_Menu_TitleScreen_Text_Stars);
+scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.startFishing,spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Small,spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Medium,spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Big,spr_KSW_Menu_TitleScreen_Text_StartFishing);
+scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.fishbook,spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Small,spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Medium,spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Big,spr_KSW_Menu_TitleScreen_Text_Fishbook);
+//scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.shop,spr_KSW_Menu_TitleScreen_Bubble_Discord_Small,spr_KSW_Menu_TitleScreen_Bubble_Discord_Medium,spr_KSW_Menu_TitleScreen_Bubble_Discord_Big,spr_KSW_Menu_TitleScreen_Text_Discord);
+scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.discord,spr_KSW_Menu_TitleScreen_Bubble_Discord_Small,spr_KSW_Menu_TitleScreen_Bubble_Discord_Medium,spr_KSW_Menu_TitleScreen_Bubble_Discord_Big,spr_KSW_Menu_TitleScreen_Text_Discord);
 
-i += 1;
-bubble[i] = instance_create_depth(48 + (36 * i),102,depth - 1,obj_KSW_Menu_TitleScreen_Bubble);
-with (bubble[i])
-{
-	sprSmall = spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Small;
-	sprMedium = spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Medium;
-	sprBig = spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Big;
-	sprText = spr_KSW_Menu_TitleScreen_Text_StartFishing;
-	
-	number = KSW_MainMenu_Buttons.startFishing;
-	
-	if (global.KSW_MainMenuSelection == number)
-	{
-		sprite_index = sprBig;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Big;
-		
-		isBig = true;
-	}
-	else
-	{
-		sprite_index = sprSmall;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Small;
-	}
-}
+bubbleOffsetMax = 20 / ln(bubbleCount);
 
-i += 1;
-bubble[i] = instance_create_depth(48 + (36 * i),102,depth - 1,obj_KSW_Menu_TitleScreen_Bubble);
-with (bubble[i])
+with (obj_KSW_Menu_TitleScreen_Bubble)
 {
-	sprSmall = spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Small;
-	sprMedium = spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Medium;
-	sprBig = spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Big;
-	sprText = spr_KSW_Menu_TitleScreen_Text_Fishbook;
+	xAnchor = 48 + (((240 - 96) / (other.bubbleCount - 1)) * index);
 	
-	number = KSW_MainMenu_Buttons.fishbook;
+	targetOffset = sign(index - global.KSW_MainMenuSelection) * other.bubbleOffsetMax;
 	
-	if (global.KSW_MainMenuSelection == number)
+	if (global.KSW_MainMenuSelection == index)
 	{
 		sprite_index = sprBig;
 		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Big;
@@ -136,30 +63,6 @@ with (bubble[i])
 		sprite_index = sprSmall;
 		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Small;
 	}
-}
 
-i += 1;
-bubble[i] = instance_create_depth(48 + (36 * i),102,depth - 1,obj_KSW_Menu_TitleScreen_Bubble);
-with (bubble[i])
-{
-	sprSmall = spr_KSW_Menu_TitleScreen_Bubble_Discord_Small;
-	sprMedium = spr_KSW_Menu_TitleScreen_Bubble_Discord_Medium;
-	sprBig = spr_KSW_Menu_TitleScreen_Bubble_Discord_Big;
-	sprText = spr_KSW_Menu_TitleScreen_Text_Discord;
-	
-	number = KSW_MainMenu_Buttons.discord;
-	
-	if (global.KSW_MainMenuSelection == number)
-	{
-		sprite_index = sprBig;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Big;
-		
-		isBig = true;
-	}
-	else
-	{
-		sprite_index = sprSmall;
-		sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Small;
-	}
 }
 #endregion

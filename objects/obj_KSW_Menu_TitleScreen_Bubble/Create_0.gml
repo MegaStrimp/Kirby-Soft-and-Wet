@@ -10,11 +10,16 @@ sprText = spr_KSW_Menu_TitleScreen_Text_Settings;
 #endregion
 
 #region Bubble Variables
+index = 0;
 number = KSW_MainMenu_Buttons.settings;
 mediumTimer = -1;
 mediumTimerMax = 2;
 isBig = false;
 waveNum = irandom_range(3600,5000);
 textWave = 0;
+targetOffset = 0;
+offset = 0;
+xAnchor = x;
+yAnchor = y;
 #endregion
 #endregion

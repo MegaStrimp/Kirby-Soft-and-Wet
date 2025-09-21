@@ -16,27 +16,39 @@ function scr_KSW_LoadData(file)
 	global.KSW_CaughtTotalFishCount_Day = ini_read_real("gameplay","caughtTotalFishCount_Day",0);
 	global.KSW_CaughtTotalFishCount_Afternoon = ini_read_real("gameplay","caughtTotalFishCount_Afternoon",0);
 	global.KSW_CaughtTotalFishCount_Night = ini_read_real("gameplay","caughtTotalFishCount_Night",0);
-	global.KSW_CaughtUniqueFishCount = ini_read_real("gameplay","caughtUniqueFishCount",0);
-	global.KSW_CaughtShinyFishCount = ini_read_real("gameplay","caughtShinyFishCount",0);
-	global.KSW_ObtainedAchievementCount = ini_read_real("gameplay","obtainedAchievementCount",0);
 	#endregion
 	
 	#region Fish Status
+	global.KSW_CaughtUniqueFishCount = 0;
+	global.KSW_CaughtShinyFishCount = 0;
+	
 	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 	{
 		var fishTitle = global.KSW_FishList[i].name;
 		
-		global.KSW_FishList[i].isCaught = ini_read_real("fishStatus",string(fishTitle) + "_Caught",0);
-		global.KSW_FishList[i].isCaughtShiny = ini_read_real("fishStatus",string(fishTitle) + "_CaughtShiny",0);
+		var fishIsCaught = ini_read_real("fishStatus",string(fishTitle) + "_Caught",0);
+		var fishIsCaughtShiny = ini_read_real("fishStatus",string(fishTitle) + "_CaughtShiny",0);
+		
+		global.KSW_FishList[i].isCaught = fishIsCaught;
+		global.KSW_FishList[i].isCaughtShiny = fishIsCaughtShiny;
+		
+		if (fishIsCaught) global.KSW_CaughtUniqueFishCount += 1;
+		if (fishIsCaughtShiny) global.KSW_CaughtShinyFishCount += 1;
 	}
 	#endregion
 	
 	#region Achievement Status
+	global.KSW_ObtainedAchievementCount = 0;
+	
 	for (var i = 0; i < ds_map_size(global.KSW_AchievementIDs); i++)
 	{
 		var achievementID = global.KSW_AchievementList[i].id;
 		
-		global.KSW_AchievementList[i].isObtained = ini_read_real("achievementStatus",string(achievementID) + "_Obtained",false);
+		var achievementIsObtained = ini_read_real("achievementStatus",string(achievementID) + "_Obtained",false);
+		
+		global.KSW_AchievementList[i].isObtained = achievementIsObtained;
+		
+		if (achievementIsObtained) global.KSW_ObtainedAchievementCount += 1;
 	}
 	#endregion
 	

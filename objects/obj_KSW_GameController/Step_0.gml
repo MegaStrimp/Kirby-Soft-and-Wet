@@ -207,7 +207,7 @@ if (!localPause)
 			
 			case KSW_GameStates.catchAnimation:
 			#region Check If Fish Is New
-			currentFishIsNew = ((!global.KSW_FishList[other.currentFish].isCaught) or ((other.currentFishIsShiny) and (!global.KSW_FishList[other.currentFish].isCaught)));
+			currentFishIsNew = ((!global.KSW_FishList[other.currentFish].isCaught) or ((other.currentFishIsShiny) and (!global.KSW_FishList[other.currentFish].isCaughtShiny)));
 			#endregion
 			
 			#region Catch Animation Timer

@@ -2,16 +2,17 @@
 
 if (!localPause)
 {
+	#region Offset
+	offset = lerp(offset,targetOffset,.05);
+	#endregion
+	
 	#region Movement
 	var waveX = sine_wave(current_time / waveNum,1,3,0);
 	var waveY = sine_wave(current_time / (waveNum + 300),.7,4,0);
 	textWave = sine_wave(current_time / floor(waveNum * 1.5),1,4,0);
 	
-	x = xstart + waveX;
-	y = ystart + waveY;
-	
-	//image_xscale = 1 - (waveX / 50);
-	//image_yscale = 1 - (waveY / 50);
+	x = xAnchor + offset + waveX;
+	y = yAnchor + waveY;
 	#endregion
 	
 	#region Medium Timer

@@ -91,7 +91,11 @@ function scr_KSW_SetFlavorText()
 	"Moist!",
 	"Can You Beat This Game With No Z Presses?",
 	"New Funky Mode!",
-	"Catch Catch Catch!"
+	"Catch Catch Catch!",
+	"Henna Yatsu!",
+	"Chaos Chaos!",
+	"Won't Stop Rocking Til He Clocked In a Gazzilion Grand!",
+	"I'm so much flavor you can taste me!"
 	];
 	
 	var flavorText = flavorTextArray[irandom_range(0,array_length(flavorTextArray) - 1)];

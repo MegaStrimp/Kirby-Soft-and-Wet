@@ -1378,6 +1378,7 @@
     {"id":{"name":"scr_KSW_LoadMysteryTreats","path":"scripts/scr_KSW_LoadMysteryTreats/scr_KSW_LoadMysteryTreats.yy",},},
     {"id":{"name":"scr_KSW_Menu_Fishbook_SetBackground","path":"scripts/scr_KSW_Menu_Fishbook_SetBackground/scr_KSW_Menu_Fishbook_SetBackground.yy",},},
     {"id":{"name":"scr_KSW_Menu_Stars_SetBackground","path":"scripts/scr_KSW_Menu_Stars_SetBackground/scr_KSW_Menu_Stars_SetBackground.yy",},},
+    {"id":{"name":"scr_KSW_Menu_TitleScreen_CreateBubble","path":"scripts/scr_KSW_Menu_TitleScreen_CreateBubble/scr_KSW_Menu_TitleScreen_CreateBubble.yy",},},
     {"id":{"name":"scr_KSW_ObtainAchievement","path":"scripts/scr_KSW_ObtainAchievement/scr_KSW_ObtainAchievement.yy",},},
     {"id":{"name":"scr_KSW_ObtainNotif","path":"scripts/scr_KSW_ObtainNotif/scr_KSW_ObtainNotif.yy",},},
     {"id":{"name":"scr_KSW_ObtainStealthTutorial","path":"scripts/scr_KSW_ObtainStealthTutorial/scr_KSW_ObtainStealthTutorial.yy",},},

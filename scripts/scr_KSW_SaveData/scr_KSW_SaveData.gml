@@ -18,9 +18,6 @@ function scr_KSW_SaveData(file)
 	if (global.KSW_CaughtTotalFishCount_Day != 0) ini_write_real("gameplay","caughtTotalFishCount_Day",global.KSW_CaughtTotalFishCount_Day);
 	if (global.KSW_CaughtTotalFishCount_Afternoon != 0) ini_write_real("gameplay","caughtTotalFishCount_Afternoon",global.KSW_CaughtTotalFishCount_Afternoon);
 	if (global.KSW_CaughtTotalFishCount_Night != 0) ini_write_real("gameplay","caughtTotalFishCount_Night",global.KSW_CaughtTotalFishCount_Night);
-	if (global.KSW_CaughtUniqueFishCount != 0) ini_write_real("gameplay","caughtUniqueFishCount",global.KSW_CaughtUniqueFishCount);
-	if (global.KSW_CaughtShinyFishCount != 0) ini_write_real("gameplay","caughtShinyFishCount",global.KSW_CaughtShinyFishCount);
-	if (global.KSW_ObtainedAchievementCount != 0) ini_write_real("gameplay","obtainedAchievementCount",global.KSW_ObtainedAchievementCount);
 	#endregion
 	
 	#region Fish Status
