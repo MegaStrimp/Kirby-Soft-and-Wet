@@ -295,7 +295,7 @@ if (!localPause)
 			
 			case KSW_GameStates.catched:
 			var gramOffset = global.KSW_FishList[other.currentFish].gramOffset;
-			global.levelScoreCurrent += global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset);
+			global.levelScoreCurrent += floor((global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset)) * (1 + (global.KSW_CurrentFishCombo / 20)));
 			flag_ScoreSfx = true;
 			global.KSW_CaughtTotalFishCount += 1;
 			global.KSW_CurrentFishCombo += 1;
