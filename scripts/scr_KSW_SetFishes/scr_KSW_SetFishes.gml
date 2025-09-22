@@ -290,11 +290,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mizzle",spr_KSW_Fish_Mizzle,spr_KSW_Fish_Mizzle_Pal_Normal,mage,1,KSW_Phases.night,2000,-8,8);
 	scr_KSW_AddFish("Pluey",spr_KSW_Fish_Pluey,spr_KSW_Fish_Pluey_Pal_Normal,mage,2,KSW_Phases.none,4800);
 	scr_KSW_AddFish("Annoying Dogfish",spr_KSW_Fish_AnnoyingDogfish,spr_KSW_Fish_AnnoyingDogfish_Pal_Normal,mint,3,KSW_Phases.day,20015);
-	scr_KSW_AddFish("SPAM[FISH]",spr_KSW_Fish_Spamfish,spr_KSW_Fish_Spamfish_Pal_Normal,glimmer,3,KSW_Phases.none,1997,-26,-12);
+	scr_KSW_AddFish("SPAMFISH",spr_KSW_Fish_Spamfish,spr_KSW_Fish_Spamfish_Pal_Normal,glimmer,3,KSW_Phases.none,1997,-26,-12);
 	scr_KSW_AddFish("Mr Ant Tenna",spr_KSW_Fish_MrAntTenna,spr_KSW_Fish_MrAntTenna_Pal_Normal,tvtime,3,KSW_Phases.none,300000,0,20).isTenna = true;
 	scr_KSW_AddFish("Quirky Knight",spr_KSW_Fish_QuirkyKnight,spr_KSW_Fish_QuirkyKnight_Pal_Normal,mint,3,KSW_Phases.night,20000,0,8);
 	scr_KSW_AddFish("Big Lenny",spr_KSW_Fish_Big_Lenny_Normal,spr_KSW_Fish_Big_Lenny_Pal_Normal,flux,3,KSW_Phases.night,100000,23,10);
 	scr_KSW_AddFish("Game Shark",spr_KSW_Fish_GameShark,spr_KSW_Fish_GameShark_Pal_Normal,legion,3,KSW_Phases.afternoon,8000,-12,4);
+	scr_KSW_AddFish("Gulugulugulu Wator Fish",spr_KSW_Fish_GuluguluguluFish,spr_KSW_Fish_GuluguluguluFish_Pal_Normal,mint,3,KSW_Phases.afternoon,100000);
 	scr_KSW_AddFish("Egg Fish",spr_KSW_Fish_EggFish,spr_KSW_Fish_EggFish_Pal_Normal,borange,1,KSW_Phases.afternoon,2000,-4,0);
 	scr_KSW_AddFish("Ikachan",spr_KSW_Fish_Ikachan,spr_KSW_Fish_Ikachan_Pal_Normal,mage,2,KSW_Phases.night,4600);
 	scr_KSW_AddFish("Ironhead",spr_KSW_Fish_Ironhead,spr_KSW_Fish_Ironhead_Pal_Normal,legion,3,KSW_Phases.night,55480,-46,-10);
