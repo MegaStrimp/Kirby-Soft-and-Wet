@@ -314,14 +314,24 @@ if (!localPause)
 			var achievementID = global.KSW_AchievementIDs[? "catch2500"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			var achievementID = global.KSW_AchievementIDs[? "catch5000"];
-			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			if (global.KSW_AchievementList[achievementID].unlockScript())
+			{
+				scr_KSW_ObtainAchievement(achievementID);
+				
+				scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "star"]);
+			}
 			
 			var achievementID = global.KSW_AchievementIDs[? "combo25"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			var achievementID = global.KSW_AchievementIDs[? "combo50"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			var achievementID = global.KSW_AchievementIDs[? "combo100"];
-			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			if (global.KSW_AchievementList[achievementID].unlockScript())
+			{
+				scr_KSW_ObtainAchievement(achievementID);
+				
+				scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "starry"]);
+			}
 			
 			var achievementID = global.KSW_AchievementIDs[? "grams10k"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
@@ -330,7 +340,12 @@ if (!localPause)
 			var achievementID = global.KSW_AchievementIDs[? "grams1m"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			var achievementID = global.KSW_AchievementIDs[? "grams10m"];
-			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			if (global.KSW_AchievementList[achievementID].unlockScript())
+			{
+				scr_KSW_ObtainAchievement(achievementID);
+				
+				scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "darkMatter"]);
+			}
 			
 			switch (global.KSW_CurrentPhase)
 			{
@@ -386,7 +401,12 @@ if (!localPause)
 					var achievementID = global.KSW_AchievementIDs[? "catchUnique100"];
 					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 					var achievementID = global.KSW_AchievementIDs[? "catchUniqueAll"];
-					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+					if (global.KSW_AchievementList[achievementID].unlockScript())
+					{
+						scr_KSW_ObtainAchievement(achievementID);
+						
+						scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "rainbowDrop"]);
+					}
 				}
 				
 				scr_KSW_Game_UpdateDiscord();

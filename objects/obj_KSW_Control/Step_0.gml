@@ -11,7 +11,12 @@ if (playtimeAchievementTimer != -1)
 		var achievementID = global.KSW_AchievementIDs[? "playtime5"];
 		if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 		var achievementID = global.KSW_AchievementIDs[? "playtime20"];
-		if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+		if (global.KSW_AchievementList[achievementID].unlockScript())
+		{
+			scr_KSW_ObtainAchievement(achievementID);
+			
+			scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "kirby"]);
+		}
 		
 		playtimeAchievementTimer = playtimeAchievementTimerMax;
 	}

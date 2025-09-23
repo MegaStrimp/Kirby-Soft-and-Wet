@@ -21,6 +21,11 @@ function scr_KSW_ObtainAchievement(targetAchievementID)
 		var achievementID = global.KSW_AchievementIDs[? "getAllStars"];
 		if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 		var achievementID = global.KSW_AchievementIDs[? "doEverything"];
-		if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+		if (global.KSW_AchievementList[achievementID].unlockScript())
+		{
+			scr_KSW_ObtainAchievement(achievementID);
+			
+			scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "legend"]);
+		}
 	}
 }

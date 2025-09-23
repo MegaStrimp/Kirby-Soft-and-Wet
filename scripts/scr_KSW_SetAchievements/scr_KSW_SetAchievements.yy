@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_KSW_SetAchievements",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Kirby ~ Soft & Wet/Achievements/Scripts.yy",
+    "name":"Initialization",
+    "path":"folders/Kirby ~ Soft & Wet/Achievements/Scripts/Initialization.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

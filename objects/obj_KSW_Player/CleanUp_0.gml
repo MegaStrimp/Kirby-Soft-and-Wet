@@ -4,5 +4,5 @@
 #endregion
 
 #region Destroy Lists
-ds_list_destroy(bobberList);
+ds_list_destroy(global.KSW_AvailableBobbers);
 #endregion

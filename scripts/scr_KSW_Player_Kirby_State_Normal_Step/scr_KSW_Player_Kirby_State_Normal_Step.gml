@@ -35,7 +35,7 @@ function scr_KSW_Player_Kirby_State_Normal_Step()
 			
 			if (image_index >= 4)
 			{
-				scr_KSW_Player_ThrowBobber();
+				scr_KSW_ThrowBobber();
 				rodX = x + 15;
 				rodY = y - 24;
 				

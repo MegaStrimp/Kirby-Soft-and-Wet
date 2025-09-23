@@ -20,6 +20,70 @@ function scr_KSW_SaveData(file)
 	if (global.KSW_CaughtTotalFishCount_Night != 0) ini_write_real("gameplay","caughtTotalFishCount_Night",global.KSW_CaughtTotalFishCount_Night);
 	#endregion
 	
+	#region Character Status
+	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
+	{
+		var characterID = global.KSW_CharacterList[i].ID;
+		
+		if (global.KSW_CharacterList[i].isUnlocked != false) ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
+		
+		#region Spray Paint Status
+		for (var j = 0; j < ds_map_size(global.KSW_SprayPaintIDs); j++)
+		{
+			var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
+			
+			if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked != false) ini_write_real("sprayPaintStatus",string(characterID) + "_" + string(sprayPaintID) + "_IsUnlocked",global.KSW_CharacterList[i].sprayPaints[j].isUnlocked);
+		}
+		#endregion
+		
+		#region Hat Status
+		for (var j = 0; j < ds_map_size(global.KSW_HatIDs); j++)
+		{
+			var hatID = global.KSW_CharacterList[i].hats[j].ID;
+		
+			if (global.KSW_CharacterList[i].hats[j].isUnlocked != false) ini_write_real("hatStatus",string(characterID) + "_" + string(hatID) + "_IsUnlocked",global.KSW_CharacterList[i].hats[j].isUnlocked);
+		}
+		#endregion
+	}
+	#endregion
+	
+	#region Bobber Status
+	for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
+	{
+		var bobberID = global.KSW_BobberList[i].ID;
+		
+		if (global.KSW_BobberList[i].isUnlocked != false) ini_write_real("bobberStatus",string(bobberID) + "_IsUnlocked",global.KSW_BobberList[i].isUnlocked);
+	}
+	#endregion
+	
+	#region Bait Status
+	for (var i = 0; i < ds_map_size(global.KSW_BaitIDs); i++)
+	{
+		var baitID = global.KSW_BaitList[i].ID;
+		
+		if (global.KSW_BaitList[i].isUnlocked != false) ini_write_real("baitStatus",string(baitID) + "_IsUnlocked",global.KSW_BaitList[i].isUnlocked);
+	}
+	#endregion
+	
+	#region Hat Status
+	for (var i = 0; i < ds_map_size(global.KSW_HatIDs); i++)
+	{
+		var hatID = global.KSW_HatList[i].ID;
+		
+		if (global.KSW_HatList[i].isUnlocked != false) ini_write_real("hatStatus",string(hatID) + "_IsUnlocked",global.KSW_HatList[i].isUnlocked);
+	}
+	#endregion
+	
+	#region Stage Status
+	for (var i = 0; i < ds_map_size(global.KSW_StageIDs); i++)
+	{
+		var stageID = global.KSW_StageList[i].ID;
+		
+		if (global.KSW_StageList[i].isAvailable != false) ini_write_real("stageStatus",string(stageID) + "_IsAvailable",global.KSW_StageList[i].isAvailable);
+		if (global.KSW_StageList[i].isUnlocked != false) ini_write_real("stageStatus",string(stageID) + "_IsUnlocked",global.KSW_StageList[i].isUnlocked);
+	}
+	#endregion
+	
 	#region Fish Status
 	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 	{

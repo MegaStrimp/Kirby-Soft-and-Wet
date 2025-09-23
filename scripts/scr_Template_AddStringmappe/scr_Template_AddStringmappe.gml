@@ -1,8 +1,8 @@
 ///@description Template - Add Stringmappe
 
-function scr_Template_AddStringmappe(targetStringID)
+function scr_Template_AddStringmappe(targetID)
 {
-	ds_map_add(global.Template_StringmappeIDs,targetStringID,global.Template_StringmappeCount);
+	ds_map_add(global.Template_StringmappeIDs,targetID,global.Template_StringmappeCount);
 	
 	global.Template_StringmappeList[global.Template_StringmappeCount] = 
 	{

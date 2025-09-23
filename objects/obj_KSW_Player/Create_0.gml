@@ -7,7 +7,8 @@ event_inherited();
 #region Character Setup
 if (characterSetup)
 {
-	if (global.playerCharacterSetup[playerNum] != -1) script_execute(global.playerCharacterSetup[playerNum]);
+	var targetSetupScript = global.KSW_CharacterList[global.playerCharacter[playerNum]].setupScript;
+	if (targetSetupScript != undefined) script_execute(targetSetupScript);
 	
 	characterSetup = false;
 }

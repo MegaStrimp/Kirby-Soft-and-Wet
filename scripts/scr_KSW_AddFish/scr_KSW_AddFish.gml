@@ -1,6 +1,6 @@
 ///@description KSW - Add Fish
 
-function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPalette,targetRarity,targetPhase,targetGram,targetXOffset = 0,targetYOffset = 0,targetCatchScript = -1,targetGramOffset = -1)
+function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPalette,targetRarity,targetStage,targetPhase,targetGram,targetXOffset = 0,targetYOffset = 0,targetCatchScript = -1,targetGramOffset = -1)
 {
 	if (targetGramOffset == -1) targetGramOffset = floor(targetGram / 5);
 	targetRarity = clamp(targetRarity,0,3);
@@ -15,6 +15,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
         palette: targetPalette,
         caughtBoxPalette: targetCaughtBoxPalette,
         rarity: targetRarity,
+        stage: targetStage,
         phase: targetPhase,
         gram: targetGram,
         gramOffset: targetGramOffset,

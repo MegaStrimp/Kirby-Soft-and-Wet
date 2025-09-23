@@ -21,17 +21,31 @@ global.pauseScript = scr_KSW_PauseScript;
 
 global.maxPlayers = 1;
 
-for (var i = 0; i < global.maxPlayers; i++)
-{
-	global.playerCharacterSetup[i] = scr_KSW_Player_Kirby_Setup;
-}
-
+scr_KSW_SetCharacters();
+scr_KSW_SetBobbers();
+scr_KSW_SetBaits();
+scr_KSW_SetHats();
+scr_KSW_SetSprayPaints();
+scr_KSW_SetStages();
 scr_KSW_SetFishes();
+scr_KSW_SetAchievements();
 scr_KSW_SetNotifs();
 scr_KSW_SetStealthTutorials();
-scr_KSW_SetAchievements();
+scr_KSW_SetMusic();
+
+for (var i = 0; i < global.maxPlayers; i++)
+{
+	global.playerCharacter[i] = global.KSW_CharacterIDs[? "kirby"];
+}
 
 global.KSW_PopupQueue = ds_list_create();
+global.KSW_UnlockedCharacterCount = 0;
+global.KSW_UnlockedBobberCount = 0;
+global.KSW_UnlockedBaitCount = 0;
+global.KSW_UnlockedHatCount = 0;
+global.KSW_UnlockedSprayPaintCount = 0;
+global.KSW_AvailableStageCount = 0;
+global.KSW_UnlockedStageCount = 0;
 global.KSW_CaughtTotalFishCount = 0;
 global.KSW_CaughtTotalFishCount_Day = 0;
 global.KSW_CaughtTotalFishCount_Afternoon = 0;
@@ -39,6 +53,7 @@ global.KSW_CaughtTotalFishCount_Night = 0;
 global.KSW_CaughtUniqueFishCount = 0;
 global.KSW_CaughtShinyFishCount = 0;
 global.KSW_ObtainedAchievementCount = 0;
+global.KSW_AvailableBobbers = ds_list_create();
 
 global.KSW_CurrentPhase = KSW_Phases.day;
 global.KSW_MainMenuSelection = KSW_MainMenu_Buttons.startFishing;

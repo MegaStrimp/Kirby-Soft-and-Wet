@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_KSW_ObtainAchievement",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Kirby ~ Soft & Wet/Achievements/Scripts.yy",
+    "name":"Obtain",
+    "path":"folders/Kirby ~ Soft & Wet/Achievements/Scripts/Obtain.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

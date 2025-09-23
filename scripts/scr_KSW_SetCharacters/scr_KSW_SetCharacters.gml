@@ -1,0 +1,15 @@
+///@description KSW - Set Characters
+
+function scr_KSW_SetCharacters()
+{
+	#region Setup
+	global.KSW_CharacterCount = 0;
+	
+	global.KSW_CharacterList = [];
+	global.KSW_CharacterIDs = ds_map_create();
+	#endregion
+	
+	#region Add Characters Here
+	scr_KSW_AddCharacter("kirby","Kirby",scr_KSW_Player_Kirby_Setup);
+	#endregion
+}
