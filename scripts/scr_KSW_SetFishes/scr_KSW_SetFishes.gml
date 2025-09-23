@@ -25,7 +25,7 @@ function scr_KSW_SetFishes()
 	#endregion
 	
 	#region Add Fishes Here
-	scr_KSW_AddFish("Blipper",spr_KSW_Fish_Blipper,spr_KSW_Fish_Blipper_Pal_Normal,candy,0,grassBeach,grassBeach,KSW_Phases.day,500);
+	scr_KSW_AddFish("Blipper",spr_KSW_Fish_Blipper,spr_KSW_Fish_Blipper_Pal_Normal,candy,0,grassBeach,KSW_Phases.day,500);
 	scr_KSW_AddFish("Slippy",spr_KSW_Fish_Slippy,spr_KSW_Fish_Slippy_Pal_Normal,borange,0,grassBeach,KSW_Phases.day,400);
 	scr_KSW_AddFish("Glunk",spr_KSW_Fish_Glunk,spr_KSW_Fish_Glunk_Pal_Normal,mint,0,grassBeach,KSW_Phases.day,450);
 	scr_KSW_AddFish("Diving Gordo",spr_KSW_Fish_DivingGordo,spr_KSW_Fish_DivingGordo_Pal_Normal,flux,1,grassBeach,KSW_Phases.day,800);
@@ -436,5 +436,6 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Soda",spr_KSW_Fish_Soda,spr_KSW_Fish_Soda_Pal_Normal,legion,2,grassBeach,KSW_Phases.none,18000);
 	scr_KSW_AddFish("Grape Soda",spr_KSW_Fish_GrapeSoda,spr_KSW_Fish_GrapeSoda_Pal_Normal,flux,2,grassBeach,KSW_Phases.none,1800);
 	scr_KSW_AddFish("Kirburger",spr_KSW_Fish_Kirburger,spr_KSW_Fish_Kirburger_Pal_Normal,borange,2,grassBeach,KSW_Phases.none,5000);
+	scr_KSW_AddFish("Gulugulugulu Wator Fish",spr_KSW_Fish_GuluguluguluFish,spr_KSW_Fish_GuluguluguluFish_Pal_Normal,mint,3,grassBeach,KSW_Phases.afternoon,100000);
 	#endregion
 }
