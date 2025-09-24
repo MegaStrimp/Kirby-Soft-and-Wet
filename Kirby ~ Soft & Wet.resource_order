@@ -544,6 +544,8 @@
     {"name":"Palettes","order":6,"path":"folders/Kirby ~ Soft & Wet/UI/Caught Box/Sprites/Palettes.yy",},
     {"name":"Coin","order":7,"path":"folders/Kirby ~ Soft & Wet/UI/Coin.yy",},
     {"name":"Sprites","order":1,"path":"folders/Kirby ~ Soft & Wet/UI/Coin/Sprites.yy",},
+    {"name":"Customize","order":8,"path":"folders/Kirby ~ Soft & Wet/UI/Customize.yy",},
+    {"name":"Objects","order":1,"path":"folders/Kirby ~ Soft & Wet/UI/Customize/Objects.yy",},
     {"name":"Fail Timer Bar","order":5,"path":"folders/Kirby ~ Soft & Wet/UI/Fail Timer Bar.yy",},
     {"name":"Notif Box","order":2,"path":"folders/Kirby ~ Soft & Wet/UI/Notif Box.yy",},
     {"name":"Objects","order":2,"path":"folders/Kirby ~ Soft & Wet/UI/Notif Box/Objects.yy",},

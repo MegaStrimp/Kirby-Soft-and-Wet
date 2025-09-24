@@ -132,6 +132,15 @@ if (canGoToFishbook)
 	text.draw(room_width - 4 - text.get_width(),room_height - 16 + hintOffset + (2 * (buttonInputTimerComponent_YTimer != -1)));
 }
 
+if (canOpenCustomize)
+{
+	var customizeIcon = "";
+	var targetIcon = global.UI_IconBindings[? string(input_binding_get("X"))];
+	if (targetIcon != undefined) customizeIcon = "[" + sprite_get_name(targetIcon) + "]";
+	
+	scribble(customizeIcon + "CUSTOMIZE").align(fa_center).draw(room_width / 2,room_height - 16 + hintOffset + (2 * (buttonInputTimerComponent_XTimer != -1)));
+}
+
 if ((state == KSW_GameStates.idle) and (!canOffset))
 {
 	var selectIcon = "";

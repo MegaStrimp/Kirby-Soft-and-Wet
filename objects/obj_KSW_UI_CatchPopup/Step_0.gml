@@ -18,6 +18,7 @@ alpha = lerp(alpha,alphaTarget,.3);
 if ((alphaTarget == 0) and (alpha == 0)) instance_destroy();
 #endregion
 
+#region Close
 if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (!instance_exists(obj_KSW_UI_NotifBox)) and (endTimer == -1) and (alphaTarget == 1))
 {
 	scr_PlaySfx(snd_KSW_Unlock);
@@ -25,6 +26,7 @@ if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",player
 	global.pause = false;
 	alphaTarget = 0;
 }
+#endregion
 
 #region Star Timer
 if (starTimer != -1)

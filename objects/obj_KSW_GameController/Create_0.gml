@@ -46,6 +46,7 @@ catchInput_RightTriggered = false;
 
 canGoToMenu = false;
 canGoToFishbook = false;
+canOpenCustomize = false;
 
 exitTarget = rm_KSW_Menu_TitleScreen;
 exitTimer = -1;

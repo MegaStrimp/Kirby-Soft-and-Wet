@@ -13,6 +13,7 @@ if (!localPause)
 				state = KSW_GameStates.waiting_Ready;
 				canGoToMenu = false;
 				canGoToFishbook = false;
+				canOpenCustomize = false;
 				
 				with (obj_KSW_Player)
 				{
@@ -491,6 +492,20 @@ if (!localPause)
 		}
 		#endregion
 		
+		#region Open Customize
+		if (canOpenCustomize)
+		{
+			if (input_check_pressed("X",playerNum))
+			{
+				scr_PlaySfx(snd_KSW_ButtonYes);
+				
+				global.pause = true;
+				
+				instance_create_depth(0,0,depth - 1,obj_KSW_UI_Customize);
+			}
+		}
+		#endregion
+		
 		#region Find Fish Timer
 		if (findFishTimer != -1)
 		{
@@ -601,6 +616,7 @@ if (!localPause)
 					state = KSW_GameStates.idle;
 					canGoToMenu = true;
 					canGoToFishbook = true;
+					canOpenCustomize = true;
 					
 					var notifID = global.KSW_NotifIDs[? "welcome"];
 					if (global.KSW_NotifList[notifID].unlockScript()) scr_KSW_ObtainNotif(notifID);
