@@ -571,6 +571,8 @@ if (!localPause)
 					switch (line)
 					{
 						case KSW_CatchInputList.up:
+						scr_PlaySfx(snd_KSW_CatchInputUp);
+						
 						catchInput_SoundCount += 1;
 						catchInput_UpTriggered = true;
 						failTimer = failTimerTarget;
@@ -579,6 +581,8 @@ if (!localPause)
 						break;
 						
 						case KSW_CatchInputList.down:
+						scr_PlaySfx(snd_KSW_CatchInputDown);
+						
 						catchInput_SoundCount += 1;
 						catchInput_DownTriggered = true;
 						failTimer = failTimerTarget;
@@ -587,6 +591,8 @@ if (!localPause)
 						break;
 						
 						case KSW_CatchInputList.left:
+						scr_PlaySfx(snd_KSW_CatchInputLeft);
+						
 						catchInput_SoundCount += 1;
 						catchInput_LeftTriggered = true;
 						failTimer = failTimerTarget;
@@ -595,6 +601,8 @@ if (!localPause)
 						break;
 						
 						case KSW_CatchInputList.right:
+						scr_PlaySfx(snd_KSW_CatchInputRight);
+						
 						catchInput_SoundCount += 1;
 						catchInput_RightTriggered = true;
 						failTimer = failTimerTarget;
