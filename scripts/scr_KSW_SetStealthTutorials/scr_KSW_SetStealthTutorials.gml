@@ -13,7 +13,7 @@ function scr_KSW_SetStealthTutorials()
 	{
 		return ((global.KSW_CurrentFishCombo >= 3) and (global.KSW_CaughtShinyFishCount >= 1));
 	};
-	scr_KSW_AddStealthTutorial("catchComboShinyRate","CATCH COMBOS\nINCREASE SHINY CHANCE!",24,127,stealthTutorialUnlockMethod,false);
+	scr_KSW_AddStealthTutorial("catchComboShinyRate","CATCH COMBOS\nINCREASE SHINY CHANCE!",24,127,stealthTutorialUnlockMethod);
 	#endregion
 	#endregion
 }

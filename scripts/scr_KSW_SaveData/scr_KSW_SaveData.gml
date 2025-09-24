@@ -18,6 +18,7 @@ function scr_KSW_SaveData(file)
 	if (global.KSW_CaughtTotalFishCount_Day != 0) ini_write_real("gameplay","caughtTotalFishCount_Day",global.KSW_CaughtTotalFishCount_Day);
 	if (global.KSW_CaughtTotalFishCount_Afternoon != 0) ini_write_real("gameplay","caughtTotalFishCount_Afternoon",global.KSW_CaughtTotalFishCount_Afternoon);
 	if (global.KSW_CaughtTotalFishCount_Night != 0) ini_write_real("gameplay","caughtTotalFishCount_Night",global.KSW_CaughtTotalFishCount_Night);
+	if (global.KSW_CurrentFishCombo != 0) ini_write_real("gameplay","currentFishCombo",global.KSW_CurrentFishCombo);
 	#endregion
 	
 	#region Character Status

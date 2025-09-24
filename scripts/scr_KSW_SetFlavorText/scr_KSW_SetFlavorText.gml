@@ -95,7 +95,8 @@ function scr_KSW_SetFlavorText()
 	"Henna Yatsu!",
 	"Chaos Chaos!",
 	"Won't Stop Rocking Til He Clocked In a Gazzilion Grand!",
-	"I'm So Much Flavor You Can Taste Me!"
+	"I'm So Much Flavor You Can Taste Me!",
+	"Berry Game!"
 	];
 	
 	var flavorText = flavorTextArray[irandom_range(0,array_length(flavorTextArray) - 1)];
