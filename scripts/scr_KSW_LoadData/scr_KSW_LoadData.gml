@@ -16,6 +16,7 @@ function scr_KSW_LoadData(file)
 	global.KSW_CaughtTotalFishCount_Day = ini_read_real("gameplay","caughtTotalFishCount_Day",0);
 	global.KSW_CaughtTotalFishCount_Afternoon = ini_read_real("gameplay","caughtTotalFishCount_Afternoon",0);
 	global.KSW_CaughtTotalFishCount_Night = ini_read_real("gameplay","caughtTotalFishCount_Night",0);
+	global.KSW_CurrentFishCombo = ini_read_real("gameplay","currentFishCombo",0);
 	#endregion
 	
 	#region Fish Status
@@ -69,7 +70,7 @@ function scr_KSW_LoadData(file)
 	{
 		var stealthTutorialID = global.KSW_StealthTutorialList[i].id;
 		
-		if (global.KSW_StealthTutorialList[i].isSavable != false) global.KSW_StealthTutorialList[i].isObtained = ini_read_real("StealthTutorialStatus",string(stealthTutorialID) + "_Obtained",false);
+		if (global.KSW_StealthTutorialList[i].isSavable != false) global.KSW_StealthTutorialList[i].isObtained = ini_read_real("stealthTutorialStatus",string(stealthTutorialID) + "_Obtained",false);
 	}
 	#endregion
 	

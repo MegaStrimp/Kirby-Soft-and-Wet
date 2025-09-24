@@ -1,6 +1,6 @@
 ///@description KSW - Add Stealth Tutorial
 
-function scr_KSW_AddStealthTutorial(targetID,targetText,targetX,targetY,targetUnlockScript,targetIsSavable)
+function scr_KSW_AddStealthTutorial(targetID,targetText,targetX,targetY,targetUnlockScript,targetIsSavable = true)
 {
 	ds_map_add(global.KSW_StealthTutorialIDs,targetID,ds_map_size(global.KSW_StealthTutorialIDs));
 	

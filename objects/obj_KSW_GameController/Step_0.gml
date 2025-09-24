@@ -178,6 +178,8 @@ if (!localPause)
 			{
 				global.KSW_CurrentFishCombo = 0;
 				
+				scr_KSW_SaveData("data1.ini");
+				
 				state = KSW_GameStates.waiting_End;
 				stateReadyTimer = stateReadyTimerMax * 2;
 				
