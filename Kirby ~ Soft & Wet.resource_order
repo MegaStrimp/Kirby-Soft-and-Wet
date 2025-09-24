@@ -1470,6 +1470,7 @@
     {"name":"spr_KSW_Bobber_Hayuto","order":10,"path":"sprites/spr_KSW_Bobber_Hayuto/spr_KSW_Bobber_Hayuto.yy",},
     {"name":"spr_KSW_Bobber_Kirby","order":5,"path":"sprites/spr_KSW_Bobber_Kirby/spr_KSW_Bobber_Kirby.yy",},
     {"name":"spr_KSW_Bobber_Legend","order":8,"path":"sprites/spr_KSW_Bobber_Legend/spr_KSW_Bobber_Legend.yy",},
+    {"name":"spr_KSW_Bobber_PhaseBaitAura","order":12,"path":"sprites/spr_KSW_Bobber_PhaseBaitAura/spr_KSW_Bobber_PhaseBaitAura.yy",},
     {"name":"spr_KSW_Bobber_RainbowDrop","order":4,"path":"sprites/spr_KSW_Bobber_RainbowDrop/spr_KSW_Bobber_RainbowDrop.yy",},
     {"name":"spr_KSW_Bobber_RogueMatter","order":9,"path":"sprites/spr_KSW_Bobber_RogueMatter/spr_KSW_Bobber_RogueMatter.yy",},
     {"name":"spr_KSW_Bobber_Star","order":6,"path":"sprites/spr_KSW_Bobber_Star/spr_KSW_Bobber_Star.yy",},
