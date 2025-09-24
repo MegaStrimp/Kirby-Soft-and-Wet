@@ -321,6 +321,12 @@ else
 	scribble("CAUGHT " + string(targetCatchAmount)).align(fa_right).draw(room_width - 4,18 + (12 * (phaseSprite != -1)));
 	#endregion
 	
+	#region Gram Amount
+	var targetGramAmount = global.KSW_FishList[selection].gram;
+	
+	scribble(string(targetGramAmount) + "G").align(fa_right).draw(room_width - 4,30 + (12 * (phaseSprite != -1)));
+	#endregion
+	
 	#region Button Hints
 	var exitIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("B"))];

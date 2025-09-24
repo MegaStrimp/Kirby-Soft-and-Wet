@@ -10,7 +10,7 @@ for (var ix = 0; ix < 3; ix++)
 	for (var iy = 0; iy < 3; iy++)
 	{
 		if ((global.shaders) and (backgroundPalette != -1)) pal_swap_set(backgroundPalette,1,false);
-		draw_sprite(spr_KSW_UI_CaughtBox_Texture,0,x + backgroundX + ((ix - 2) * 50),y + backgroundY + ((iy - 2) * 40));
+		draw_sprite(spr_KSW_UI_CaughtBox_Texture,0,x - (flag_ThrowCoin * 2) + backgroundX + ((ix - 2) * 50),y + backgroundY + ((iy - 2) * 40));
 		if ((global.shaders) and (backgroundPalette != -1)) pal_swap_reset();
 	}
 }
@@ -24,7 +24,7 @@ if (isShiny) draw_sprite(spr_KSW_UI_CaughtBox_Shine,shineIndex,x,y);
 if (spriteIndex != -1)
 {
 	if ((global.shaders) and (spritePalette != -1)) pal_swap_set(spritePalette,isShiny,false);
-	draw_sprite(spriteIndex,imageIndex,x + 14 + spriteXOffset,y + 14 + spriteYOffset);
+	draw_sprite(spriteIndex,imageIndex,x - (flag_ThrowCoin * 2) + 14 + spriteXOffset,y + 14 + spriteYOffset);
 	if ((global.shaders) and (spritePalette != -1)) pal_swap_reset();
 }
 #endregion
@@ -39,7 +39,7 @@ draw_sprite(spr_KSW_UI_CaughtBox_Box,isShiny,x,y);
 #region Rarity
 for (var i = 0; i < rarity; i++)
 {
-	draw_sprite(spr_KSW_UI_CaughtBox_Star,0,x - 2 + (12 * i),y + 22);
+	draw_sprite(spr_KSW_UI_CaughtBox_Star,0,x - (flag_ThrowCoin * 2) - 2 + (12 * i),y + 22);
 }
 #endregion
 
@@ -68,9 +68,9 @@ else
 	}
 }
 
-if (phaseSprite != -1) draw_sprite(phaseSprite,0,x + 17,y - 6)
+if (phaseSprite != -1) draw_sprite(phaseSprite,0,x - (flag_ThrowCoin * 2) + 17,y - 6)
 #endregion
 
 #region New
-if (isNew) draw_sprite(spr_KSW_Particle_New,newIndex,x - 1,y - 2);
+if (isNew) draw_sprite(spr_KSW_Particle_New,newIndex,x - (flag_ThrowCoin * 2) - 1,y - 2);
 #endregion

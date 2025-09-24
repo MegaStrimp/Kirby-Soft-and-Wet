@@ -26,7 +26,31 @@ if (!localPause)
 	shineIndex = (shineIndex + shineSpd) % shineNumber;
 	#endregion
 	
+	#region Timer
+	if (coinTimer != -1)
+	{
+		coinTimer = max(coinTimer - speedMultFinal,0);
+		if (coinTimer == 0)
+		{
+			storedCoins -= 1;
+			
+			instance_create_depth(x + 14 + (irandom_range(-6,6)),y + 14 + (irandom_range(-6,6)),depth - 1,obj_KSW_UI_Coin);
+			
+			flag_ThrowCoin = true;
+			
+			if (storedCoins == 0)
+			{
+				coinTimer = -1;
+			}
+			else
+			{
+				coinTimer = coinTimerMax;
+			}
+		}
+	}
+	#endregion
+	
 	#region Destroy
-	if (y <= -30) instance_destroy();
+	if ((y <= -30) and (storedCoins == 0)) instance_destroy();
 	#endregion
 }

@@ -58,6 +58,7 @@ global.KSW_AvailableBobbers = ds_list_create();
 global.KSW_CurrentPhase = KSW_Phases.day;
 global.KSW_MainMenuSelection = KSW_MainMenu_Buttons.startFishing;
 global.KSW_CurrentFishCombo = 0;
+global.KSW_CurrentCoins = 0;
 
 global.KSW_EnteredFishbook = false;
 global.KSW_EnteredSettings = false;

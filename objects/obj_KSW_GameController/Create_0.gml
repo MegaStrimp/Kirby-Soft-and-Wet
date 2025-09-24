@@ -59,6 +59,10 @@ displayedScore = global.levelScoreCurrent;
 displayedScore_YOffsetTimer = -1;
 displayedScore_YOffsetTimerMax = 4;
 
+displayedCoins = global.KSW_CurrentCoins;
+displayedCoins_YOffsetTimer = -1;
+displayedCoins_YOffsetTimerMax = 4;
+
 catchCombo_YOffsetTimer = -1;
 catchCombo_YOffsetTimerMax = 4;
 
@@ -81,6 +85,7 @@ catchAnimationState = 0;
 catchAnimationTimer = -1;
 
 flag_ScoreSfx = false;
+flag_CoinGet = false;
 
 canOffset = false;
 hintOffset = 0;

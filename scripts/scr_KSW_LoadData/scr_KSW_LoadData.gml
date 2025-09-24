@@ -17,6 +17,7 @@ function scr_KSW_LoadData(file)
 	global.KSW_CaughtTotalFishCount_Afternoon = ini_read_real("gameplay","caughtTotalFishCount_Afternoon",0);
 	global.KSW_CaughtTotalFishCount_Night = ini_read_real("gameplay","caughtTotalFishCount_Night",0);
 	global.KSW_CurrentFishCombo = ini_read_real("gameplay","currentFishCombo",0);
+	global.KSW_CurrentCoins = ini_read_real("gameplay","coins",0);
 	#endregion
 	
 	#region Character Status

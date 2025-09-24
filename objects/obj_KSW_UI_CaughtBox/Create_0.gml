@@ -24,5 +24,10 @@ newNumber = sprite_get_number(spr_KSW_Particle_New);
 shineIndex = 0;
 shineSpd = sprite_get_speed(spr_KSW_UI_CaughtBox_Shine) / 60;
 shineNumber = sprite_get_number(spr_KSW_UI_CaughtBox_Shine);
+
+storedCoins = 0;
+coinTimer = -1;
+coinTimerMax = 5;
+flag_ThrowCoin = false;
 #endregion
 #endregion

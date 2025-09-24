@@ -297,9 +297,17 @@ if (!localPause)
 			break;
 			
 			case KSW_GameStates.catched:
+			#region Give Grams
 			var gramOffset = global.KSW_FishList[other.currentFish].gramOffset;
 			global.levelScoreCurrent += floor((global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset)) * (1 + (global.KSW_CurrentFishCombo / 20)));
 			flag_ScoreSfx = true;
+			#endregion
+			
+			#region Give Coins
+			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3);
+			global.KSW_CurrentCoins += targetCoins;
+			#endregion
+			
 			global.KSW_CaughtTotalFishCount += 1;
 			global.KSW_CurrentFishCombo += 1;
 			global.KSW_FishList[other.currentFish].isCaught += 1;
@@ -459,6 +467,11 @@ if (!localPause)
 				isNew = other.currentFishIsNew;
 				backgroundPalette = global.KSW_FishList[other.currentFish].caughtBoxPalette;
 				isTenna = global.KSW_FishList[other.currentFish].isTenna;
+				if (targetCoins != 0)
+				{
+					storedCoins = targetCoins;
+					coinTimer = other.stateReadyTimerMax + coinTimerMax;
+				}
 			}
 			
 			findFishTimer = -1;
@@ -684,7 +697,7 @@ if (!localPause)
 		if (phaseTimer != -1)
 		{
 			phaseTimer = max(phaseTimer - speedMultFinal,0);
-			if ((phaseTimer == 0) and (state == KSW_GameStates.idle))
+			if ((phaseTimer == 0) and (!canOffset) and (state == KSW_GameStates.idle))
 			{
 				var targetPhase = scr_KSW_Game_UpdatePhase();
 				if (global.KSW_CurrentPhase != targetPhase)
@@ -726,6 +739,7 @@ if (!localPause)
 		if (flag_ScoreSfx)
 		{
 			scr_PlaySfx(snd_KSW_Score);
+			displayedScore_YOffsetTimer = displayedScore_YOffsetTimerMax;
 			
 			flag_ScoreSfx = false;
 		}
@@ -741,6 +755,34 @@ if (!localPause)
 		if (displayedScore_YOffsetTimer == 0)
 		{
 			displayedScore_YOffsetTimer = -1;
+		}
+	}
+	#endregion
+	
+	#region Coins
+	if ((state == KSW_GameStates.idle) and (!canOffset))
+	{
+		if (flag_CoinGet)
+		{
+			scr_PlaySfx(snd_KSW_Coin);
+			
+			displayedCoins += 1;
+			displayedCoins_YOffsetTimer = displayedCoins_YOffsetTimerMax;
+			
+			flag_CoinGet = false;
+		}
+		
+		displayedCoins = lerp(displayedCoins,global.KSW_CurrentCoins,.2);
+	}
+	#endregion
+	
+	#region Displayed Coins - Y Offset Timer
+	if (displayedCoins_YOffsetTimer != -1)
+	{
+		displayedCoins_YOffsetTimer = max(displayedCoins_YOffsetTimer - speedMultFinal,0);
+		if (displayedCoins_YOffsetTimer == 0)
+		{
+			displayedCoins_YOffsetTimer = -1;
 		}
 	}
 	#endregion

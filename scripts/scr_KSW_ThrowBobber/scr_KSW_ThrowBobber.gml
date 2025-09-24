@@ -6,7 +6,9 @@ function scr_KSW_ThrowBobber()
 	
 	bobberInWater = false;
 	
-	sprBobber = global.KSW_BobberList[ds_list_find_value(global.KSW_AvailableBobbers,irandom_range(0,ds_list_size(global.KSW_AvailableBobbers) - 1))].sprite;
+	var targetBobberIndex = ds_list_find_value(global.KSW_AvailableBobbers,irandom_range(0,ds_list_size(global.KSW_AvailableBobbers) - 1));
+	
+	sprBobber = global.KSW_BobberList[targetBobberIndex].sprite;
 	
 	sprBobberImageIndex = 0;
 	sprBobberSpeed = sprite_get_speed(sprBobber) / 60;

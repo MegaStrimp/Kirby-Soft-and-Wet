@@ -1,7 +1,7 @@
 ///@description Main
 
-if (!localPause)
-{
+//if (!localPause)
+//{
 	#region Movement
 	if (x <= limit1) dirX = 1;
 	if (x >= limit2) dirX = -1;
@@ -19,4 +19,4 @@ if (!localPause)
 	#region Scale
 	image_xscale = dirX;
 	#endregion
-}
+//}

@@ -9,7 +9,13 @@ if (state == KSW_GameStates.idle)
 	#region Score
 	var formattedScore = string_replace_all(string_format(min(displayedScore,999999999999),6,0)," ","0");
 	
-	scribble(string(formattedScore)).align(fa_right).draw(236,4 - hintOffset - (2 * (displayedScore_YOffsetTimer != -1)));
+	scribble(string(formattedScore) + "G").align(fa_right).draw(236,4 - hintOffset - (2 * (displayedScore_YOffsetTimer != -1)));
+	#endregion
+	
+	#region Coins
+	var formattedCoins = string_replace_all(string_format(min(displayedCoins,999999999999),3,0)," ","0");
+	
+	scribble(string(formattedCoins) + "[spr_KSW_UI_Coin]").align(fa_right).draw(236,13 - hintOffset - (2 * (displayedCoins_YOffsetTimer != -1)));
 	#endregion
 	
 	#region Catch Combo
