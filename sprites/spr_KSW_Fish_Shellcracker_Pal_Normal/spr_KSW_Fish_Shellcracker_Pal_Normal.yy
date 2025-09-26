@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Shellcracker",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Shellcracker.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Shellcracker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

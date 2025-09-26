@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cap'n Tunabeard",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cap'n Tunabeard.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cap'n Tunabeard.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Zora",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Zora.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Zora.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

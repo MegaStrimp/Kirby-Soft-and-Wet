@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Glunk",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Glunk.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Glunk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

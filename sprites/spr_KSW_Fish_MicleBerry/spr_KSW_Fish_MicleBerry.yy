@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Micle Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Micle Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Micle Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

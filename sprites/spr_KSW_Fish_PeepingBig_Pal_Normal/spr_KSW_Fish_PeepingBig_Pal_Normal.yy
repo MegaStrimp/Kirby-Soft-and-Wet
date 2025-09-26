@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Peeping Big",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Peeping Big.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Peeping Big.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

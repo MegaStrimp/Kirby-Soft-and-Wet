@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Archfiend Skull",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Archfiend Skull.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Archfiend Skull.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

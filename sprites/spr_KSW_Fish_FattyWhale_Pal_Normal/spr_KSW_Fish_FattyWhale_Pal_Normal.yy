@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Fatty Whale",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fatty Whale.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fatty Whale.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

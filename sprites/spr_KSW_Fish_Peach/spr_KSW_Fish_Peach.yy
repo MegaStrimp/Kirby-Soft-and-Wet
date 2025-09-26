@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Peach",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Peach.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Peach.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Gold Coin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Gold Coin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Gold Coin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

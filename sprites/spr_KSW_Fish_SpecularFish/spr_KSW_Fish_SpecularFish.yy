@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Specular Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Specular Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Specular Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

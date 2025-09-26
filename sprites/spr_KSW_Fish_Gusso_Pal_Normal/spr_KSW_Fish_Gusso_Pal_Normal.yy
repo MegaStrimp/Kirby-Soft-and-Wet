@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Gusso",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Gusso.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Gusso.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

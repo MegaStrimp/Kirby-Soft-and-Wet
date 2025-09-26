@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Golden Carp",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Golden Carp.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Golden Carp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

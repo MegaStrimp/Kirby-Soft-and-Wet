@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Clownfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Clownfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Clownfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

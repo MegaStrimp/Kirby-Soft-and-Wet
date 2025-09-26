@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Grape Soda",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Grape Soda.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Grape Soda.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

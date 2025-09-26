@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"7 Colored Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/7 Colored Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/7 Colored Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

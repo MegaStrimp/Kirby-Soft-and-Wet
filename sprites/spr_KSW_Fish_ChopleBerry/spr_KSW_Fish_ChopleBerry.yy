@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Chople Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Chople Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Chople Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

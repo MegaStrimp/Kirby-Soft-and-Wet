@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Chop Chop",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Chop Chop.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Chop Chop.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

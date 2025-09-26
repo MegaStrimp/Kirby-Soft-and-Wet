@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Chuchu",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Chuchu.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Chuchu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

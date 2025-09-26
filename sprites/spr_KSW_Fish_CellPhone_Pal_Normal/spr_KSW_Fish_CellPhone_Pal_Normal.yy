@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Cell Phone",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cell Phone.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cell Phone.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

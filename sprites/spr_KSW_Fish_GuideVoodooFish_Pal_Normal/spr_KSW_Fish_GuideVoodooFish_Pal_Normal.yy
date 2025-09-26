@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Guide Voodoo Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Guide Voodoo Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Guide Voodoo Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

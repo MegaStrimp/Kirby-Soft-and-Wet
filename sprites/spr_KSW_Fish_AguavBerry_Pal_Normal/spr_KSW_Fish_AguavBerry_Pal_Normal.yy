@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Aguav Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Aguav Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Aguav Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

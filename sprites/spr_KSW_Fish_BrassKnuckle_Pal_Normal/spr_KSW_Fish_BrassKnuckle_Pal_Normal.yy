@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Brass Knuckle",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Brass Knuckle.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Brass Knuckle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

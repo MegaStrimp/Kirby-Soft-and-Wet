@@ -40,7 +40,7 @@
   "origin":4,
   "parent":{
     "name":"Prey",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Prey.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Prey.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

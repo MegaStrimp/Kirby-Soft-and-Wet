@@ -50,7 +50,7 @@
   "origin":9,
   "parent":{
     "name":"Peezer",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Peezer.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Peezer.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

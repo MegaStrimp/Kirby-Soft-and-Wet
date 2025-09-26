@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Screw Attack",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Screw Attack.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Screw Attack.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

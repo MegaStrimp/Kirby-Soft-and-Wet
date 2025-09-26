@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Chesto Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Chesto Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Chesto Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

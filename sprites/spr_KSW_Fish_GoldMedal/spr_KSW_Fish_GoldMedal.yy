@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Gold Medal",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Gold Medal.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Gold Medal.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

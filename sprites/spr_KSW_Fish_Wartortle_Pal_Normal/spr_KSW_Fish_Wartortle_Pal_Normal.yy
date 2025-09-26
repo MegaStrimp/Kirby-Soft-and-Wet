@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Wartortle",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Wartortle.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Wartortle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

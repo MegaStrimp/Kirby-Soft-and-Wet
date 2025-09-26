@@ -35,7 +35,7 @@
   "origin":4,
   "parent":{
     "name":"Squishy",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Squishy.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Squishy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

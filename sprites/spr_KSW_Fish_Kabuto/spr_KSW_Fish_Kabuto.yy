@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Kabuto",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kabuto.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kabuto.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

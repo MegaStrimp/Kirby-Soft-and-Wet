@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Rahab",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Rahab.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Rahab.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

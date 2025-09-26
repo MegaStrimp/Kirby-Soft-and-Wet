@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Coba Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Coba Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Coba Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

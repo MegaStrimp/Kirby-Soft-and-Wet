@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Watermelon",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Watermelon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Watermelon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

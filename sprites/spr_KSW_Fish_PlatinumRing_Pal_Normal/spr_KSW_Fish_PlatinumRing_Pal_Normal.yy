@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Platinum Ring",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Platinum Ring.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Platinum Ring.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

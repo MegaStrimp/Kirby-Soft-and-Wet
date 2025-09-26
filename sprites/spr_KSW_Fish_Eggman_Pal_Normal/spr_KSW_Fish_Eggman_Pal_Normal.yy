@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Eggman",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Eggman.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Eggman.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

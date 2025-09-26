@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Bass",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bass.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bass.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

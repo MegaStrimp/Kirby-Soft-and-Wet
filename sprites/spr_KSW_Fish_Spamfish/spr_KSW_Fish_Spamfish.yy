@@ -36,7 +36,7 @@
   "origin":0,
   "parent":{
     "name":"Spamfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Spamfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Spamfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

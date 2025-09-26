@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Ichorfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ichorfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ichorfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

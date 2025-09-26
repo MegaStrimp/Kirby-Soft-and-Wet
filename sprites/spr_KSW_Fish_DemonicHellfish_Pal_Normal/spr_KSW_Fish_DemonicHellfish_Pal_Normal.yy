@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Demonic Hellfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Demonic Hellfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Demonic Hellfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

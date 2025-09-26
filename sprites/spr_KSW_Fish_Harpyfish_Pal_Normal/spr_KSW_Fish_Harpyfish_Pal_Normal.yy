@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Harpyfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Harpyfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Harpyfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

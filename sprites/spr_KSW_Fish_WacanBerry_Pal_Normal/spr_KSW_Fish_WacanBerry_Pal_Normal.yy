@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Wacan Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Wacan Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Wacan Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

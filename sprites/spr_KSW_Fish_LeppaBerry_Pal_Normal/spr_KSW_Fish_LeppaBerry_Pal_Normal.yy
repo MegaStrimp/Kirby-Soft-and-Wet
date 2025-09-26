@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Leppa Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Leppa Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Leppa Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

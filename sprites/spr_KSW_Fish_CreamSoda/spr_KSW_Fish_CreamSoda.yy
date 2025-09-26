@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cream Soda",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cream Soda.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cream Soda.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

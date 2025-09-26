@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Unicorn Horn",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Unicorn Horn.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Unicorn Horn.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

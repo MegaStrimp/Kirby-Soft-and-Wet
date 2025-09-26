@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Botwoon",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Botwoon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Botwoon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Starf Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Starf Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Starf Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

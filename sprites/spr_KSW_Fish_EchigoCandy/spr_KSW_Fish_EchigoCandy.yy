@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Echigo Candy",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Echigo Candy.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Echigo Candy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

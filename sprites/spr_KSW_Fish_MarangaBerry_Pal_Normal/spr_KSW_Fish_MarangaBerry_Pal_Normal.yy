@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Maranga Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Maranga Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Maranga Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

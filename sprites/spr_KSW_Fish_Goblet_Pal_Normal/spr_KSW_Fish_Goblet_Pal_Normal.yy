@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Goblet",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Goblet.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Goblet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

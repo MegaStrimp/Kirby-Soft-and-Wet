@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Invader UFO",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Invader UFO.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Invader UFO.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

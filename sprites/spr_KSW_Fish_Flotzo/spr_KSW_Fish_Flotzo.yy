@@ -35,7 +35,7 @@
   "origin":4,
   "parent":{
     "name":"Flotzo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Flotzo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Flotzo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

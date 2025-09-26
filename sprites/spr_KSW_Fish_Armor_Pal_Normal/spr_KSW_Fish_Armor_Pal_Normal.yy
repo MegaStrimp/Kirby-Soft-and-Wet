@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Armor",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Armor.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Armor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
