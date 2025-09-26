@@ -36,6 +36,14 @@ scr_KSW_SetMusic();
 for (var i = 0; i < global.maxPlayers; i++)
 {
 	global.playerCharacter[i] = global.KSW_CharacterIDs[? "kirby"];
+	global.KSW_PlayerEquippedSprayPaintShuffle[i] = true;
+	global.KSW_PlayerEquippedHatShuffle[i] = true;
+	
+	for (var h = 0; h < global.KSW_CharacterCount; h++)
+	{
+		global.KSW_PlayerEquippedSprayPaintID[i][h] = 0;
+		global.KSW_PlayerEquippedHatID[i][h] = 0;
+	}
 }
 
 global.KSW_PopupQueue = ds_list_create();

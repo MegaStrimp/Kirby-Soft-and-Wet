@@ -17,16 +17,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"89465619-d6a5-4368-9edf-6ff088a02543","name":"89465619-d6a5-4368-9edf-6ff088a02543","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f7012ee4-a0e4-4586-98a6-4e419e422679","name":"f7012ee4-a0e4-4586-98a6-4e419e422679","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2b4470dd-1245-4773-81e3-a44624fcb18d","name":"2b4470dd-1245-4773-81e3-a44624fcb18d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"bd95718d-8d33-4e32-be29-f65c30f8a721","name":"bd95718d-8d33-4e32-be29-f65c30f8a721","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"df7ea92f-e1de-4c07-a949-8a1263028d5e","name":"df7ea92f-e1de-4c07-a949-8a1263028d5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"37b95360-92fb-45b9-ad96-72a7851d0604","name":"37b95360-92fb-45b9-ad96-72a7851d0604","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":20,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4d166746-cbe1-4f4b-855e-f8fd76226e30","blendMode":0,"displayName":"default","isLocked":false,"name":"4d166746-cbe1-4f4b-855e-f8fd76226e30","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ee4d37bc-ec5b-49f3-8cc9-0761a8a1f282","blendMode":0,"displayName":"default","isLocked":false,"name":"ee4d37bc-ec5b-49f3-8cc9-0761a8a1f282","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Kirby_DownAnim",
   "nineSlice":null,
@@ -78,14 +78,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89465619-d6a5-4368-9edf-6ff088a02543","path":"sprites/spr_KSW_Player_Kirby_DownAnim/spr_KSW_Player_Kirby_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f3c1d5f2-9d00-47df-b4c2-99e5bd179f99","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd95718d-8d33-4e32-be29-f65c30f8a721","path":"sprites/spr_KSW_Player_Kirby_DownAnim/spr_KSW_Player_Kirby_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dbc5df07-924b-4bc7-97e8-74bb27dbc2d4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7012ee4-a0e4-4586-98a6-4e419e422679","path":"sprites/spr_KSW_Player_Kirby_DownAnim/spr_KSW_Player_Kirby_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"82de6dce-4d4c-41d0-8a49-2a5c70b1befa","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df7ea92f-e1de-4c07-a949-8a1263028d5e","path":"sprites/spr_KSW_Player_Kirby_DownAnim/spr_KSW_Player_Kirby_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"859db0cb-9900-4295-954c-cd096a8a28a3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b4470dd-1245-4773-81e3-a44624fcb18d","path":"sprites/spr_KSW_Player_Kirby_DownAnim/spr_KSW_Player_Kirby_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d2d3038f-c44b-4a76-9ee7-9cd5648d39f3","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37b95360-92fb-45b9-ad96-72a7851d0604","path":"sprites/spr_KSW_Player_Kirby_DownAnim/spr_KSW_Player_Kirby_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fc91c227-69fd-41de-aec1-a0a15b2ab481","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
