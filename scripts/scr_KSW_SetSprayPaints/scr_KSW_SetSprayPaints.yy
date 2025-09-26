@@ -6,7 +6,7 @@
   "name":"scr_KSW_SetSprayPaints",
   "parent":{
     "name":"Initialization",
-    "path":"folders/Kirby ~ Soft & Wet/Spray Paints/Scripts/Initialization.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Scripts/Initialization.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

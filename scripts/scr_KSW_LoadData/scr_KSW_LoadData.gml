@@ -20,6 +20,21 @@ function scr_KSW_LoadData(file)
 	global.KSW_CurrentCoins = ini_read_real("gameplay","coins",0);
 	#endregion
 	
+	#region Player Status
+	for (var i = 0; i < global.maxPlayers; i++)
+	{
+	    global.playerCharacter[i] = global.KSW_CharacterIDs[? ini_read_string("playerStatus","playerCharacter_" + string(i),"kirby")];
+	    global.KSW_PlayerEquippedSprayPaintShuffle[i] = ini_read_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),true);
+	    global.KSW_PlayerEquippedHatShuffle[i] = ini_read_real("playerStatus","playerEquippedHatShuffle_" + string(i),true);
+		
+	    for (var h = 0; h < global.KSW_CharacterCount; h++)
+	    {
+	        global.KSW_PlayerEquippedSprayPaintID[i][h] = ini_read_real("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),0);
+	        global.KSW_PlayerEquippedHatID[i][h] = ini_read_real("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),0);
+	    }
+	}
+	#endregion
+	
 	#region Character Status
 	global.KSW_UnlockedCharacterCount = 0;
 	

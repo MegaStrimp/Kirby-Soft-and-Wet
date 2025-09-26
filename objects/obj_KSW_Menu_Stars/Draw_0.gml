@@ -20,13 +20,13 @@ scribble(color + string(global.KSW_ObtainedAchievementCount) + "/" + string(glob
 #endregion
 
 #region Stars
-for (var i = page * 8; i < min((page + 1) * 8,buttonsList_Max); i++)
+for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,selectionCount); i++)
 {
 	#region Variables
-	var waveX = sine_wave(current_time / waveNum[i % 8], 1, 3, 0);
-	var waveY = sine_wave(current_time / (waveNum[i % 8] + 300), .7, 4, 0);
+	var waveX = sine_wave(current_time / waveNum[i % pageSelectionCount], 1, 3, 0);
+	var waveY = sine_wave(current_time / (waveNum[i % pageSelectionCount] + 300), .7, 4, 0);
 	var starX = 25 + (120 * (i % 2)) + waveX;
-	var starY = 32 + (32 * floor((i - page * 8) / 2)) + waveY;
+	var starY = 32 + (32 * floor((i - page * pageSelectionCount) / 2)) + waveY;
 	var title = string_upper(global.KSW_AchievementList[starList[i]].name);
 	var description = string_upper(global.KSW_AchievementList[starList[i]].description);
 	var spriteIndex = global.KSW_AchievementList[starList[i]].icon;

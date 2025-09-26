@@ -42,7 +42,7 @@ function scr_KSW_SetFlavorText()
 	"Hello. I am Under the Water, Please Help!",
 	"'ÆUGH' - That one Pufferfish",
 	"Berries!",
-	"The Title doesn’t lie!",
+	"The Title Doesn’t lie!",
 	"The Title Don’t Lie, It’s Anything but Dry!",
 	"When's Kirby Hard and Dry?",
 	"Pufferfish = Needle Kirby!",
