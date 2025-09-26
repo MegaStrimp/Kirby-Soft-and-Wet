@@ -1,15 +1,29 @@
 ///@description Main
 
-#region Close
-if ((exitTimer == -1) and (input_check_pressed("B",playerNum)))
+if (exitTimer == -1)
 {
-	scr_PlaySfx(snd_KSW_ButtonNo);
+	#region Close
+	if (input_check_pressed("B",playerNum))
+	{
+		scr_PlaySfx(snd_KSW_ButtonNo);
 	
-	global.pause = false;
+		global.pause = false;
 	
-	exitTimer = exitTimerMax;
+		exitTimer = exitTimerMax;
+	}
+	#endregion
+
+	#region Go To Shop
+	if (input_check_pressed("X",playerNum))
+	{
+		scr_PlaySfx(snd_KSW_ButtonChange);
+		
+		goToShop = true;
+		
+		exitTimer = exitTimerMax;
+	}
+	#endregion
 }
-#endregion
 
 #region Exit Timer
 if (exitTimer != -1)
@@ -23,6 +37,8 @@ if (exitTimer != -1)
 		}
 		else
 		{
+			with (obj_KSW_UI_Customize_Bubble) instance_destroy();
+			
 			instance_destroy();
 		}
 	}
