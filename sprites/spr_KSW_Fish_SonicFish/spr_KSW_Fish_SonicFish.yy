@@ -8,11 +8,6 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
-  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,

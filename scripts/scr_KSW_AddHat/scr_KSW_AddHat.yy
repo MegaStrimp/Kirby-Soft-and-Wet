@@ -6,7 +6,7 @@
   "name":"scr_KSW_AddHat",
   "parent":{
     "name":"Initialization",
-    "path":"folders/Kirby ~ Soft & Wet/Player/Hats/Scripts/Initialization.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Hats/Scripts/Initialization.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

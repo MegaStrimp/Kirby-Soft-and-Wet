@@ -41,7 +41,6 @@ function scr_KSW_Player_Kirby_Setup()
 	sprRightAnim = spr_KSW_Player_Kirby_RightAnim;
 	sprFailed = spr_KSW_Player_Kirby_Failed;
 	sprSuccess = spr_KSW_Player_Kirby_Success;
-	
 	sprBobber = spr_KSW_Bobber_Red;
 	sprBobberImageIndex = 0;
 	sprBobberSpeed = 0;

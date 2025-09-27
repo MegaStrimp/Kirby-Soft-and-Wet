@@ -26,12 +26,6 @@ if (targetIcon != undefined) exitIcon = "[" + sprite_get_name(targetIcon) + "]";
 
 scribble(exitIcon + "BACK").draw(4,room_height - 16 + hintOffset + (2 * (buttonInputTimerComponent_BTimer != -1)));
 
-var shopIcon = "";
-var targetIcon = global.UI_IconBindings[? string(input_binding_get("X"))];
-if (targetIcon != undefined) shopIcon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble(shopIcon + "SHOP").align(fa_center).draw(room_width / 2,room_height - 16 + hintOffset + (2 * (buttonInputTimerComponent_XTimer != -1)));
-
 var selectIcon = "";
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("A"))];
 if (targetIcon != undefined) selectIcon = "[" + sprite_get_name(targetIcon) + "]";

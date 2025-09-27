@@ -10,9 +10,6 @@ function scr_KSW_SetHats()
 	#endregion
 	
 	#region Add Hats Here
-	var playerID = "kirby";
-	
-	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",undefined);
-	scr_KSW_AddHat(playerID + "_" + "Shades",playerID,"Shades",scr_KSW_Player_Kirby_Hat_Shades_SpriteSet());
+	//scr_KSW_AddHat("");
 	#endregion
 }

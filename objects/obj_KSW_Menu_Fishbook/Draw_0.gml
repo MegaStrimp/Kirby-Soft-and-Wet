@@ -33,8 +33,8 @@ fishName.draw(room_width - 4,room_height - 14 + hintOffset);
 for (var i = page * 18; i < min((page + 1) * 18,global.KSW_FishCount); i++)
 {
 	#region Variables
-	var boxX = 6 + (40 * (i % pageColumns));
-	var boxY = 34 + (40 * floor((i - page * 18) / pageColumns));
+	var boxX = 6 + (40 * (i % 6));
+	var boxY = 34 + (40 * floor((i - page * 18) / 6));
 	var spriteIndex = global.KSW_FishList[i].sprite;
 	var spritePalette = global.KSW_FishList[i].palette;
 	var spriteXOffset = global.KSW_FishList[i].xOffset;

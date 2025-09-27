@@ -4,12 +4,47 @@
 var canSelect = true;
 if ((localPause) or
 (instance_exists(obj_Transition))) canSelect = false;
+
+var selectionStart = page * 18;
+var selectionEnd = min((page + 1) * 18,global.KSW_FishCount);
 #endregion
 
 #region Calib Mobe
 if (global.debug)
 {
-	scr_KSW_Menu_Fishbook_CalibMode_Step();
+	if (mouse_check_button_pressed(mb_middle))
+	{
+		calibX = 0;
+		calibY = 0;
+	}
+	
+	if (mouse_wheel_up())
+	{
+		calibMode = true;
+		
+		if (keyboard_check(vk_shift))
+		{
+			calibX -= 1;
+		}
+		else
+		{
+			calibY -= 1;
+		}
+	}
+	
+	if (mouse_wheel_down())
+	{
+		calibMode = true;
+		
+		if (keyboard_check(vk_shift))
+		{
+			calibX += 1;
+		}
+		else
+		{
+			calibY += 1;
+		}
+	}
 }
 #endregion
 
@@ -22,17 +57,87 @@ if (canSelect)
 {
 	if (!isZoomed)
 	{
-		scr_KSW_Menu_Component_Navigate_Up();
+		if (input_check_pressed("up",playerNum))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			
+			selection -= 6;
+			if (selection < selectionStart)
+			{
+				selection = ((selectionStart - 1) + ((ceil((selectionEnd - selectionStart) / 6) - 1) * 6) + (1 + ((6 + selection) % 6)));
+				if (selection >= selectionEnd) selection -= 6;
+			}
+		}
 		
-		scr_KSW_Menu_Component_Navigate_Down();
+		if (input_check_pressed("down",playerNum))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			
+			selection += 6;
+			if (selection >= selectionEnd) selection = (selectionStart + (selection % 6));
+		}
 		
-		scr_KSW_Menu_Component_Navigate_Left();
+		if (input_check_pressed("left",playerNum))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			
+			if ((selection % 6) == 0)
+			{
+				selection = min(selection + 5,selectionEnd - 1);
+			}
+			else
+			{
+				selection -= 1;
+			}
+		}
 		
-		scr_KSW_Menu_Component_Navigate_Right();
+		if (input_check_pressed("right",playerNum))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			
+			if ((selection % 6) == 5)
+			{
+				selection -= 5;
+			}
+			else if ((selection) >= selectionEnd - 1)
+			{
+				selection -= (selection % 6);
+			}
+			else
+			{
+				selection += 1;
+			}
+		}
 		
-		scr_KSW_Menu_Component_SwitchPage_L();
+		if (input_check_pressed("L",playerNum))
+		{
+			scr_PlaySfx(snd_KSW_ButtonChange);
+			
+			if (page == 0)
+			{
+				page = page_Max;
+			}
+			else
+			{
+				page -= 1;
+			}
+			selection = min(((page + 1) * 18),global.KSW_FishCount) - 1;
+		}
 		
-		scr_KSW_Menu_Component_SwitchPage_R();
+		if (input_check_pressed("R",playerNum))
+		{
+			scr_PlaySfx(snd_KSW_ButtonChange);
+			
+			if (page == page_Max)
+			{
+				page = 0;
+			}
+			else
+			{
+				page += 1;
+			}
+			selection = page * 18;
+		}
 		
 		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (global.KSW_FishList[selection].isCaught != 0))
 		{
@@ -92,9 +197,6 @@ if (!localPause)
 	#endregion
 	
 	#region Sprite Animation
-	var selectionStart = page * pageSelectionCount;
-	var selectionEnd = min((page + 1) * 18,selectionCount);
-	
 	for (var i = selectionStart; i < selectionEnd; i++)
 	{
 		var spriteIndex = global.KSW_FishList[i].sprite;

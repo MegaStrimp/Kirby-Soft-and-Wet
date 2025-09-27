@@ -1,6 +1,6 @@
 ///@description KSW - Add Spray Paint
 
-function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprite)
+function scr_KSW_AddSprayPaint(targetCharacterID,targetID,targetName,targetSprite)
 {
 	ds_map_add(global.KSW_SprayPaintIDs,targetID,global.KSW_SprayPaintCount);
 	

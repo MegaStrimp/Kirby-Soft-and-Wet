@@ -2,105 +2,13 @@
 
 function scr_KSW_Player_Kirby_Draw()
 {
-	#region Rod
+	#region Draw Rod
 	var bobberShakeFinal = bobberShake * irandom_range(-1,1);
 	scr_DrawCurve(rodX + shakeXFinal,rodY,bobberX + bobberShakeFinal,bobberY,0,8);
 	draw_sprite(sprBobber,sprBobberImageIndex,bobberX + bobberShakeFinal,bobberY);
 	#endregion
 	
-	#region Hat
-	var currentHat = global.KSW_PlayerEquippedHatID[playerNum][global.playerCharacter[playerNum]];
-	var targetHatSprite = undefined;
-	var targetHatShadowSprite = undefined;
-	
-	if (currentHat != 0)
-	{
-		switch (sprite_index)
-		{
-			case sprReady:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprReady;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprReady_Shadow;
-			break;
-			
-			case sprThrow:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprThrow;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprThrow_Shadow;
-			break;
-			
-			case sprWait:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprWait;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprWait_Shadow;
-			break;
-			
-			case sprFound:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprFound;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprFound_Shadow;
-			break;
-			
-			case sprUp:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprUp;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprUp_Shadow;
-			break;
-			
-			case sprUpAnim:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprUpAnim;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprUpAnim_Shadow;
-			break;
-			
-			case sprDown:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprDown;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprDown_Shadow;
-			break;
-			
-			case sprDownAnim:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprDownAnim;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprDownAnim_Shadow;
-			break;
-			
-			case sprLeft:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprLeft;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprLeft_Shadow;
-			break;
-			
-			case sprLeftAnim:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprLeftAnim;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprLeftAnim_Shadow;
-			break;
-			
-			case sprRight:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprRight;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprRight_Shadow;
-			break;
-			
-			case sprRightAnim:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprRightAnim;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprRightAnim_Shadow;
-			break;
-			
-			case sprFailed:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprFailed;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprFailed_Shadow;
-			break;
-			
-			case sprSuccess:
-			targetHatSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprSuccess;
-			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprSuccess_Shadow;
-			break;
-		}
-	#endregion
-	}
-	
 	#region Draw Self
-	if (sprite_index != -1)
-	{
-		var currentSprayPaint = global.KSW_PlayerEquippedSprayPaintID[playerNum][global.playerCharacter[playerNum]];
-		
-		if ((global.shaders) and (currentSprayPaint != 0)) pal_swap_set(global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[currentSprayPaint].sprite,1,false);
-		draw_sprite_ext(sprite_index,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
-		if (targetHatShadowSprite != undefined) draw_sprite_ext(targetHatShadowSprite,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
-		if ((global.shaders) and (currentSprayPaint != 0)) pal_swap_reset();
-		
-		if (targetHatSprite != undefined) draw_sprite_ext(targetHatSprite,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
-	}
+	if (sprite_index != -1) draw_sprite_ext(sprite_index,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 	#endregion
 }

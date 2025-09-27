@@ -1,6 +1,6 @@
 ///@description KSW - Add Hat
 
-function scr_KSW_AddHat(targetID,targetCharacterID,targetName,targetSpriteSet)
+function scr_KSW_AddHat(targetCharacterID,targetID,targetName,targetSpriteSet)
 {
 	ds_map_add(global.KSW_HatIDs,targetID,global.KSW_HatCount);
 	
