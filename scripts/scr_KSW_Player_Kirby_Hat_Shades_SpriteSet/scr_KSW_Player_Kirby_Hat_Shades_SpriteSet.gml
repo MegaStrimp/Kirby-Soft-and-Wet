@@ -30,8 +30,8 @@ function scr_KSW_Player_Kirby_Hat_Shades_SpriteSet()
 		sprRightAnim_Shadow: spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow,
 		sprFailed: spr_KSW_Player_Kirby_Hat_Shades_Failed,
 		sprFailed_Shadow: spr_KSW_Player_Kirby_Hat_Shades_Failed_Shadow,
-		sprSuccess: undefined,
-		sprSuccess_Shadow: undefined
+		sprSuccess: spr_KSW_Player_Kirby_Hat_Shades_Success,
+		sprSuccess_Shadow: spr_KSW_Player_Kirby_Hat_Shades_Success_Shadow
 	};
 	
 	return spriteSet;

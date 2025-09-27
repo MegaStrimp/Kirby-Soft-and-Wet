@@ -31,8 +31,8 @@ function scr_KSW_SaveData(file)
 		
 		for (var h = 0; h < global.KSW_CharacterCount; h++)
 		{
-			if (global.KSW_PlayerEquippedSprayPaintID[i][h] != 0) ini_write_real("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_PlayerEquippedSprayPaintID[i][h]);
-			if (global.KSW_PlayerEquippedHatID[i][h] != 0) ini_write_real("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_PlayerEquippedHatID[i][h]);
+			if (global.KSW_CharacterList[h].sprayPaints[global.KSW_PlayerEquippedSprayPaintID[i][h]].ID != global.KSW_CharacterList[h].defaultSprayPaint) ini_write_string("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].sprayPaints[global.KSW_PlayerEquippedSprayPaintID[i][h]].ID);
+			if (global.KSW_CharacterList[h].hats[global.KSW_PlayerEquippedHatID[i][h]].ID != global.KSW_CharacterList[h].defaultHat) ini_write_string("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].hats[global.KSW_PlayerEquippedHatID[i][h]].ID);
 		}
 	}
 	#endregion

@@ -33,7 +33,7 @@
   "origin":9,
   "parent":{
     "name":"Aquatic Spawn",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Aquatic Spawn.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Aquatic Spawn.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

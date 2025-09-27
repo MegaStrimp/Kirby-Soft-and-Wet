@@ -29,9 +29,9 @@ function scr_KSW_LoadData(file)
 		
 	    for (var h = 0; h < global.KSW_CharacterCount; h++)
 	    {
-	        global.KSW_PlayerEquippedSprayPaintID[i][h] = ini_read_real("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),0);
-	        global.KSW_PlayerEquippedHatID[i][h] = ini_read_real("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),0);
-	    }
+	        global.KSW_PlayerEquippedSprayPaintID[i][h] = global.KSW_SprayPaintIDs[? ini_read_string("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].defaultSprayPaint)];
+	        global.KSW_PlayerEquippedHatID[i][h] = global.KSW_HatIDs[? ini_read_string("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].defaultHat)];
+		}
 	}
 	#endregion
 	

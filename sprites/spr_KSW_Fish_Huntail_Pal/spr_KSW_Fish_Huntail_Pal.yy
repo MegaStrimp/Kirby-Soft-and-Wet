@@ -8,6 +8,11 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "DesktopDebug":{
+      "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -26,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Huntail",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/New/Huntail.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Huntail.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

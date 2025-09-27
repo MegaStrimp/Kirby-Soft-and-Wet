@@ -8,6 +8,11 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "DesktopDebug":{
+      "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -35,7 +40,7 @@
   "origin":4,
   "parent":{
     "name":"Kyogre",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/New/Kyogre.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Kyogre.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -8,6 +8,11 @@
   "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "DesktopDebug":{
+      "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -29,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Wingull",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/New/Wingull.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Wingull.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

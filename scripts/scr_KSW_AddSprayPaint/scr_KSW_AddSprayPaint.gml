@@ -1,6 +1,6 @@
 ///@description KSW - Add Spray Paint
 
-function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprite)
+function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprite,targetPrice,isDefault = false)
 {
 	ds_map_add(global.KSW_SprayPaintIDs,targetID,global.KSW_SprayPaintCount);
 	
@@ -12,8 +12,14 @@ function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprit
         ID: targetID,
         name: targetName,
         sprite: targetSprite,
+        price: targetPrice,
 		isUnlocked: false
     };
+	
+	if (isDefault)
+	{
+		global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].defaultSprayPaint = targetID;
+	}
 	
 	global.KSW_SprayPaintCount += 1;
 }

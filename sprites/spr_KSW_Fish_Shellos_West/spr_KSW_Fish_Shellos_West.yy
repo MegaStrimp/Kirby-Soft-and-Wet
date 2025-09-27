@@ -8,6 +8,11 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "DesktopDebug":{
+      "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -29,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Shellos (West)",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/New/Shellos (West).yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Shellos (West).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
