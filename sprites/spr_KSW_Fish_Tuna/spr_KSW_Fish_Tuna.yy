@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Tuna",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tuna.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tuna.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

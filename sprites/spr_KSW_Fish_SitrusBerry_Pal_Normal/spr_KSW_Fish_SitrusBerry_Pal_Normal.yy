@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Sitrus Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Sitrus Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Sitrus Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

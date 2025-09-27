@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Slowking",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Slowking.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Slowking.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

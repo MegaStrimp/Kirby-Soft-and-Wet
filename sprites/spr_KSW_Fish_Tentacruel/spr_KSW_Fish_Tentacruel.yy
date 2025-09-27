@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Tentacruel",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tentacruel.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tentacruel.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

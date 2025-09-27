@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Sauce Pan",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Sauce Pan.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Sauce Pan.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

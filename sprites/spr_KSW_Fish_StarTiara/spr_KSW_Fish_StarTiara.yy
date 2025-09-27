@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Star Tiara",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Star Tiara.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Star Tiara.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

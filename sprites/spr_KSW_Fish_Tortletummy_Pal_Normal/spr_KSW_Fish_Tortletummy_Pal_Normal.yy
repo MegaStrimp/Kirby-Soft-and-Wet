@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Tortletummy",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tortletummy.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tortletummy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

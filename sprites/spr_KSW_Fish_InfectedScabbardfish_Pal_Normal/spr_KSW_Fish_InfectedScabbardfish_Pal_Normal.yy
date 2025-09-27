@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Infected Scabbardfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Infected Scabbardfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Infected Scabbardfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

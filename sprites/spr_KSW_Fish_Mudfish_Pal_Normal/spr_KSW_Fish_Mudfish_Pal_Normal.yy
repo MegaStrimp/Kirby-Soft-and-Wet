@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Mudfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mudfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mudfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

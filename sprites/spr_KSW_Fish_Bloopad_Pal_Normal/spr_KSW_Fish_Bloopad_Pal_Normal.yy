@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Bloopad",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bloopad.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bloopad.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

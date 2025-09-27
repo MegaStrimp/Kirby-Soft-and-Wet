@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Lansat Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Lansat Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Lansat Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

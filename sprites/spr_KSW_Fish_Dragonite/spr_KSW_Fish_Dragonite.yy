@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Dragonite",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Dragonite.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Dragonite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

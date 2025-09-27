@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Bluk Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bluk Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bluk Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

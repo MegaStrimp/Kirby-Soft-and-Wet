@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Frost Minnow",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Frost Minnow.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Frost Minnow.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

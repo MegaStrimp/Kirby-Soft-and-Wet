@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Oran Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Oran Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Oran Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

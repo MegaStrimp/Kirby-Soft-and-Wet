@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Trout",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Trout.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Trout.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

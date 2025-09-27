@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Truth Mirror",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Truth Mirror.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Truth Mirror.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

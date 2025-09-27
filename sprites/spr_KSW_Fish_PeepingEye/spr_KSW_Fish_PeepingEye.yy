@@ -40,7 +40,7 @@
   "origin":4,
   "parent":{
     "name":"Peeping Eye",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Peeping Eye.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Peeping Eye.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

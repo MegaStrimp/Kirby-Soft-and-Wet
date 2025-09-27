@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Bowl",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bowl.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bowl.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

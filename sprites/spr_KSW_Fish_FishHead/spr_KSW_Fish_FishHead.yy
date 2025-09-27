@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Fish Head",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fish Head.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fish Head.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

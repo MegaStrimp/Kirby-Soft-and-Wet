@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Sea-Shroom",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Sea-Shroom.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Sea-Shroom.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

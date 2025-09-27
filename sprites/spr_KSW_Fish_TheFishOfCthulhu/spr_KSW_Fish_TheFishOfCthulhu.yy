@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"The Fish of Cthulhu",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/The Fish of Cthulhu.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/The Fish of Cthulhu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Custap Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Custap Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Custap Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Lucky Cat",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Lucky Cat.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Lucky Cat.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

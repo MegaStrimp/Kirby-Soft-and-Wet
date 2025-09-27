@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Dynamite Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Dynamite Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Dynamite Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

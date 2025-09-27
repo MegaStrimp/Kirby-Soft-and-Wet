@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Lil Blub",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Lil Blub.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Lil Blub.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

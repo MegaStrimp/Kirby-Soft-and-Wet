@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Crimson Tigerfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Crimson Tigerfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Crimson Tigerfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Pacto",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Pacto.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Pacto.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

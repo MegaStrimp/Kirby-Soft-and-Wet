@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Dratini",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Dratini.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Dratini.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

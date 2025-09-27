@@ -38,7 +38,7 @@
   "origin":4,
   "parent":{
     "name":"Psyduck",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Psyduck.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Psyduck.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

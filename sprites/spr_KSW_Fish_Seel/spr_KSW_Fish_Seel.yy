@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Seel",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Seel.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Seel.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

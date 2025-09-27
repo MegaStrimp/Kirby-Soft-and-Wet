@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Spelon Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Spelon Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Spelon Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

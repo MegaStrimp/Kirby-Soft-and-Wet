@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Phantoon",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Phantoon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Phantoon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

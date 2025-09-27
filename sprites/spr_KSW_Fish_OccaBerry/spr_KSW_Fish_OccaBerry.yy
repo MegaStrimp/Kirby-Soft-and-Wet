@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Occa Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Occa Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Occa Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

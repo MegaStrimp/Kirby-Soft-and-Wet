@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Angelfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Angelfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Angelfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

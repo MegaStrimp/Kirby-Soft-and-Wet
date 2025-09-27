@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cornn Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cornn Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cornn Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

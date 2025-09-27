@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Acro",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Acro.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Acro.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Bananas",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bananas.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bananas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

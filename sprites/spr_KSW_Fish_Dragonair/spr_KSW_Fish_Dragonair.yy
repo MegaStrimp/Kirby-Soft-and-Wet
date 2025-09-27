@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Dragonair",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Dragonair.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Dragonair.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

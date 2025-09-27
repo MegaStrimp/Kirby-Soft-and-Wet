@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kirburger",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kirburger.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kirburger.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

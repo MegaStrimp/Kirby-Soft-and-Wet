@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Atlantic Cod",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Atlantic Cod.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Atlantic Cod.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

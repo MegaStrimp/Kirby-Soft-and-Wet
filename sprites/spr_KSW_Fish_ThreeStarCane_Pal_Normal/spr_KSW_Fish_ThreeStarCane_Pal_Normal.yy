@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Three-Star Cane",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Three-Star Cane.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Three-Star Cane.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

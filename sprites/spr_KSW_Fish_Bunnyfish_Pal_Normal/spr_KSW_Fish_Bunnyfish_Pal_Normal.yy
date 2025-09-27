@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Bunnyfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bunnyfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bunnyfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

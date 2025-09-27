@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Cheri Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cheri Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cheri Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

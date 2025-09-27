@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Metroid",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Metroid.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Metroid.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

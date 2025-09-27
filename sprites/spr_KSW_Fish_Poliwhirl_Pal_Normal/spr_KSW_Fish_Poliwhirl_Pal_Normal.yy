@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Poliwhirl",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Poliwhirl.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Poliwhirl.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

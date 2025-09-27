@@ -36,7 +36,7 @@
   "origin":4,
   "parent":{
     "name":"Kalamar",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kalamar.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kalamar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

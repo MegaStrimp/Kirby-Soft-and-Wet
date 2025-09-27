@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Draygon",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Draygon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Draygon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

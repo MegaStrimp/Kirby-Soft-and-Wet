@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Milk Carton",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Milk Carton.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Milk Carton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

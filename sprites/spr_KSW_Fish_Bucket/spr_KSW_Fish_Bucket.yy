@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Bucket",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bucket.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bucket.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

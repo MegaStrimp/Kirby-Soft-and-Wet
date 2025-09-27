@@ -36,7 +36,7 @@
   "origin":9,
   "parent":{
     "name":"Cacodemon",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cacodemon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cacodemon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

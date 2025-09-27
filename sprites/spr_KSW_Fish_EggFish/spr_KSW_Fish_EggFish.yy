@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Egg Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Egg Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Egg Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

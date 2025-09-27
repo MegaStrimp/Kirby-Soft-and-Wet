@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Armored Cavefish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Armored Cavefish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Armored Cavefish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

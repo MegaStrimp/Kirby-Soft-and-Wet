@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cloudfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cloudfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cloudfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

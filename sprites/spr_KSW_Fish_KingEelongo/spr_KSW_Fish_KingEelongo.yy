@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"King Eelongo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/King Eelongo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/King Eelongo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Extra Life",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Extra Life.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Extra Life.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

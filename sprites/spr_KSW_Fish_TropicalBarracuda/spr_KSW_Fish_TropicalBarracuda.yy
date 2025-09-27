@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Tropical Barracuda",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tropical Barracuda.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tropical Barracuda.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

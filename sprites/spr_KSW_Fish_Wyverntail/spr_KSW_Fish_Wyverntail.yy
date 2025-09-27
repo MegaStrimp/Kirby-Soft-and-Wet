@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Wyverntail",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Wyverntail.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Wyverntail.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

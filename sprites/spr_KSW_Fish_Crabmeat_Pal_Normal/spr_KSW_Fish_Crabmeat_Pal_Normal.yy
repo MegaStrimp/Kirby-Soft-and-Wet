@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Crabmeat",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Crabmeat.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Crabmeat.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

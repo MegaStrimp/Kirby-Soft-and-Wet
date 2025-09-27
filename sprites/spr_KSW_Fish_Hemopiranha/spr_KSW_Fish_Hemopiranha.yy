@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Hemopiranha",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Hemopiranha.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Hemopiranha.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

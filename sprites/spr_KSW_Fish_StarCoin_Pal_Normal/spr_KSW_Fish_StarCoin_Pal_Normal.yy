@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Star Coin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Star Coin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Star Coin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

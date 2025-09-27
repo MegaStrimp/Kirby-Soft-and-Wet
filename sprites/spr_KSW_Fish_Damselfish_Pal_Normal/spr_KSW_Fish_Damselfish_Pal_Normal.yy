@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Damselfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Damselfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Damselfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
