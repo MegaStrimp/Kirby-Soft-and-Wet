@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Slowpoke",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Slowpoke.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Slowpoke.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

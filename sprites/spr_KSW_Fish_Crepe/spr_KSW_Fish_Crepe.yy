@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Crepe",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Crepe.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Crepe.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

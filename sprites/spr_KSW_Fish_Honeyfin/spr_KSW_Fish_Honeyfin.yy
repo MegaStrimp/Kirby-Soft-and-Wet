@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Honeyfin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Honeyfin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Honeyfin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

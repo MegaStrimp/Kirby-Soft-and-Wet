@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Blastoise",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Blastoise.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Blastoise.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

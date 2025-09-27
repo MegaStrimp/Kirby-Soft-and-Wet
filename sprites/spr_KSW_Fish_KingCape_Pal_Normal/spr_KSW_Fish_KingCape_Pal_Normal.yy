@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"King Cape",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/King Cape.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/King Cape.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

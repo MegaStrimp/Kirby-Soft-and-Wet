@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kine",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kine.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kine.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

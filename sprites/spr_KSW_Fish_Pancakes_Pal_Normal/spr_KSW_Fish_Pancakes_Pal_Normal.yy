@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Pancakes",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Pancakes.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Pancakes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

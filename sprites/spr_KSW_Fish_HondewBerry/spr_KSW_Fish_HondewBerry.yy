@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Hondew Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Hondew Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Hondew Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

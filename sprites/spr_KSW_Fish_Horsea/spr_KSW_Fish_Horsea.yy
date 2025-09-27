@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Horsea",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Horsea.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Horsea.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

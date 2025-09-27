@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Annoying Dogfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Annoying Dogfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Annoying Dogfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

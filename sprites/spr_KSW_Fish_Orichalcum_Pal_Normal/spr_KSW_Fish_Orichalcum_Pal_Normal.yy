@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Orichalcum",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Orichalcum.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Orichalcum.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

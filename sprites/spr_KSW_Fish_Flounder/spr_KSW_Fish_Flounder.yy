@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Flounder",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Flounder.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Flounder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

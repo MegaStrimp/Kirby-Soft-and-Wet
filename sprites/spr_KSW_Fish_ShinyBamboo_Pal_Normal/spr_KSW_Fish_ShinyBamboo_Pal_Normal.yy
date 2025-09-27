@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Shiny Bamboo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Shiny Bamboo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Shiny Bamboo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

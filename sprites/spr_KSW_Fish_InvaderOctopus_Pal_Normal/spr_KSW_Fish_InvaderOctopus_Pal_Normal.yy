@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Invader Octopus",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Invader Octopus.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Invader Octopus.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

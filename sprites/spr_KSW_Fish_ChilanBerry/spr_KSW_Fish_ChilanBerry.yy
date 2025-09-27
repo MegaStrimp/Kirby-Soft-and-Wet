@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Chilan Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Chilan Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Chilan Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

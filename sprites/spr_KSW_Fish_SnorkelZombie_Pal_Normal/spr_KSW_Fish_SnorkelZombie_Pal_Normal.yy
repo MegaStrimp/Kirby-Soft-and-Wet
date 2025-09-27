@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Snorkel Zombie",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Snorkel Zombie.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Snorkel Zombie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

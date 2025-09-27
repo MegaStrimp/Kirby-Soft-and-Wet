@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Burger",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Burger.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Burger.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

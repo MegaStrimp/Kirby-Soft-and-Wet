@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Roseli Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Roseli Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Roseli Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

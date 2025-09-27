@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Hungerfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Hungerfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Hungerfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

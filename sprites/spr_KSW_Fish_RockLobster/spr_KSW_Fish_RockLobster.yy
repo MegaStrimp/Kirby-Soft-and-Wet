@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Rock Lobster",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Rock Lobster.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Rock Lobster.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

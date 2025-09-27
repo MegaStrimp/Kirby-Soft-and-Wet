@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Fried Eggs",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fried Eggs.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fried Eggs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

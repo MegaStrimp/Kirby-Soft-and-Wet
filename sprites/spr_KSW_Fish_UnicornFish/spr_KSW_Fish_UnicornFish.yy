@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Unicorn Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Unicorn Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Unicorn Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

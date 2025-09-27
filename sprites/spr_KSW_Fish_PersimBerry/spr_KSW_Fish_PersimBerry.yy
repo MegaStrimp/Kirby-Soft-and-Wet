@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Persim Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Persim Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Persim Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

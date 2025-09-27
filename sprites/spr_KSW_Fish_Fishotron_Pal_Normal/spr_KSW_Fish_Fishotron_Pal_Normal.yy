@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Fishotron",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fishotron.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fishotron.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

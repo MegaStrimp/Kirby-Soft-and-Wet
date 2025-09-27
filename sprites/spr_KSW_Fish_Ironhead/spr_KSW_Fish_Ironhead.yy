@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Ironhead",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ironhead.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ironhead.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

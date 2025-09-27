@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Triforce",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Triforce.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Triforce.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

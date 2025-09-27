@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Apicot Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Apicot Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Apicot Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

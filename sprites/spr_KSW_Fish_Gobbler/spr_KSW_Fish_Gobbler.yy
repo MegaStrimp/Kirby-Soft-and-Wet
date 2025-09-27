@@ -54,7 +54,7 @@
   "origin":4,
   "parent":{
     "name":"Gobbler",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Gobbler.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Gobbler.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

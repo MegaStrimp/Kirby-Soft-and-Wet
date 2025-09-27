@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Evir",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Evir.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Evir.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

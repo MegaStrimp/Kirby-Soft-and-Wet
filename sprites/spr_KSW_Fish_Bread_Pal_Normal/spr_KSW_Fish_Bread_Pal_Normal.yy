@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Bread",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bread.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bread.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

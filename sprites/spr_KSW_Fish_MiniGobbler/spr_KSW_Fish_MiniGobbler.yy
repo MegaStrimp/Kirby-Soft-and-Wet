@@ -54,7 +54,7 @@
   "origin":4,
   "parent":{
     "name":"Mini Gobbler",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mini Gobbler.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mini Gobbler.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

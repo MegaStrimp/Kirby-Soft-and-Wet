@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Shrimp",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Shrimp.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Shrimp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

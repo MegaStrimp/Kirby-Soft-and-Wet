@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Wolpole",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Wolpole.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Wolpole.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Squister",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Squister.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Squister.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

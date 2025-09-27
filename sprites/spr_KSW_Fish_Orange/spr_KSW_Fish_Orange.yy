@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Orange",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Orange.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Orange.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

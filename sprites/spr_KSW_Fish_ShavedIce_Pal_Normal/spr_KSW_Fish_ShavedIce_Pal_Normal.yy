@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Shaved Ice",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Shaved Ice.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Shaved Ice.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

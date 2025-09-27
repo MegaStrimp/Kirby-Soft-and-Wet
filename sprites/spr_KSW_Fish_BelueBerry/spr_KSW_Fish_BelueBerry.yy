@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Belue Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Belue Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Belue Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

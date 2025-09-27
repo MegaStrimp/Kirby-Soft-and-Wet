@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Gulugulugulu Wator Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Gulugulugulu Wator Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Gulugulugulu Wator Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

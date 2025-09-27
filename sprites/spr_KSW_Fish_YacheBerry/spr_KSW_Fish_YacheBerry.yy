@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Yache Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Yache Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Yache Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

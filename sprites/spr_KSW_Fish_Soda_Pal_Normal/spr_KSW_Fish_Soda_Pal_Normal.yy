@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Soda",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Soda.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Soda.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

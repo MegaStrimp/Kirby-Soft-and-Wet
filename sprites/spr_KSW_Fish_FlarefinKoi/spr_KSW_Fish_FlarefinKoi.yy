@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Flarefin Koi",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Flarefin Koi.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Flarefin Koi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

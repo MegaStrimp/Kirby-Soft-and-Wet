@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Batfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Batfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Batfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

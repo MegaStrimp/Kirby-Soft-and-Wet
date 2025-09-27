@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Staryu",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Staryu.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Staryu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Octus",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Octus.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Octus.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

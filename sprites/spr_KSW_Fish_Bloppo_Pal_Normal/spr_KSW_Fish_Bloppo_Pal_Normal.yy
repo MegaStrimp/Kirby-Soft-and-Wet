@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Bloppo The Warbler",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bloppo The Warbler.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bloppo The Warbler.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

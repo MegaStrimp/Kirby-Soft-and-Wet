@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Elebli",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Elebli.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Elebli.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

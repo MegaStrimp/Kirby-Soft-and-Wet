@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Invincibility Candy",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Invincibility Candy.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Invincibility Candy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Blipper",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Blipper.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Blipper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

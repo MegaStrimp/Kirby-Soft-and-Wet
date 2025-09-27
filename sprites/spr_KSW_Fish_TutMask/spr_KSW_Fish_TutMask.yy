@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Tut Mask",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tut Mask.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tut Mask.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

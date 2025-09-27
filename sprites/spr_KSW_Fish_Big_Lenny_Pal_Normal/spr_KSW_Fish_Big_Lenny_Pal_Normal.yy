@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Big Lenny",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Big Lenny.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Big Lenny.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

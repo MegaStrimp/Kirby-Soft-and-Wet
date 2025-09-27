@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Xmas Tree",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Xmas Tree.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Xmas Tree.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

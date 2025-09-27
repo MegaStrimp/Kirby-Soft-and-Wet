@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"French Fries",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/French Fries.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/French Fries.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

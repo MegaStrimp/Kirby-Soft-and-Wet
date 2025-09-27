@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Dewgong",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Dewgong.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Dewgong.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

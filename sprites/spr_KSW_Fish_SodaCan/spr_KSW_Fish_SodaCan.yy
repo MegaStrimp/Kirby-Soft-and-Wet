@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Soda Can",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Soda Can.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Soda Can.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

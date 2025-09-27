@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Charti Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Charti Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Charti Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

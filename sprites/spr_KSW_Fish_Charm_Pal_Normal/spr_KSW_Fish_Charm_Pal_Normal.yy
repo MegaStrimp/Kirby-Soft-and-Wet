@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Charm",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Charm.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Charm.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

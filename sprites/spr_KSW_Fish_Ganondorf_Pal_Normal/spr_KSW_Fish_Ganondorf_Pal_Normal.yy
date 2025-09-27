@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Ganondorf",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ganondorf.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ganondorf.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Rowap Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Rowap Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Rowap Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

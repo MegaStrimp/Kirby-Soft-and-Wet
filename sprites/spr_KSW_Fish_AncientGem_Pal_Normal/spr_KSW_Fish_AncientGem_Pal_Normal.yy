@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Ancient Gem",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ancient Gem.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ancient Gem.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

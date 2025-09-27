@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Razz Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Razz Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Razz Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

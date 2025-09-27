@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Zombie Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Zombie Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Zombie Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

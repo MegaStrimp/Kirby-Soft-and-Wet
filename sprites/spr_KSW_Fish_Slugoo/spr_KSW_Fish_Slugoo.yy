@@ -36,7 +36,7 @@
   "origin":4,
   "parent":{
     "name":"Slugoo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Slugoo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Slugoo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Fallen Starfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fallen Starfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fallen Starfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

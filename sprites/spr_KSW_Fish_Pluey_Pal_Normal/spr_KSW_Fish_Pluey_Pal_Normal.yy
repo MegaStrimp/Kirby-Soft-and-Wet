@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Pluey",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Pluey.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Pluey.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

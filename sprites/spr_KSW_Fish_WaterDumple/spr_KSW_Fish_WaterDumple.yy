@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Water Dumple",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Water Dumple.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Water Dumple.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

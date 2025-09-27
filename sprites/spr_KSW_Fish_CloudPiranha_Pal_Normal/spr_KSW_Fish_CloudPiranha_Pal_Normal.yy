@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cloud Piranha",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cloud Piranha.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cloud Piranha.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

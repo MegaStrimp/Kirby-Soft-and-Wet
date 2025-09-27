@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Turbo Spiker",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Turbo Spiker.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Turbo Spiker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

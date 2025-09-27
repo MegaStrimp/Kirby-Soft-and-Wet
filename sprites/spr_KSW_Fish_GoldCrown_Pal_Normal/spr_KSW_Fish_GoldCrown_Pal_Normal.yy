@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Gold Crown",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Gold Crown.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Gold Crown.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

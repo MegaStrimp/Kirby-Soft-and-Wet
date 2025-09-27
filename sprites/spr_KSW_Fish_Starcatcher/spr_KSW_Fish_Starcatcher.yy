@@ -40,7 +40,7 @@
   "origin":4,
   "parent":{
     "name":"Starcatcher",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Starcatcher.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Starcatcher.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

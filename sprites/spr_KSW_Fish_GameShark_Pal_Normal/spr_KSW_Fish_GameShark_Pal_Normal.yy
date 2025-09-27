@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Game Shark",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Game Shark.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Game Shark.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

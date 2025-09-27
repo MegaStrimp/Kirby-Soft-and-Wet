@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Maxim Tomato",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Maxim Tomato.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Maxim Tomato.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

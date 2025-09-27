@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Carrot",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Carrot.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Carrot.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

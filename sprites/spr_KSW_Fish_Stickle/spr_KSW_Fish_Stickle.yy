@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Stickle",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Stickle.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Stickle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

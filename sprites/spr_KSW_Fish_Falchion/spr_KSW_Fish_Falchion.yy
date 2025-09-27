@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Falchion",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Falchion.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Falchion.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

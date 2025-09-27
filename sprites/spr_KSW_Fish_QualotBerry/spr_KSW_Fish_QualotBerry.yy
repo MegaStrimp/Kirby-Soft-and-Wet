@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Qualot Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Qualot Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Qualot Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -43,7 +43,7 @@
   "origin":9,
   "parent":{
     "name":"Pipe Fiend",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Pipe Fiend.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Pipe Fiend.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

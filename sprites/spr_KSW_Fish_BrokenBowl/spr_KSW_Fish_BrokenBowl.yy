@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Broken Bowl",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Broken Bowl.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Broken Bowl.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

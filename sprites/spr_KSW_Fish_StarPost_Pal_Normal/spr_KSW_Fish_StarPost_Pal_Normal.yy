@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Star Post",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Star Post.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Star Post.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

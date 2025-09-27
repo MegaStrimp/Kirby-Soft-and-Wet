@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Falcon Helmet",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Falcon Helmet.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Falcon Helmet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

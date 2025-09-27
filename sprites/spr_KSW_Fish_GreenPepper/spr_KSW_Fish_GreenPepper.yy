@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Green Pepper",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Green Pepper.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Green Pepper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

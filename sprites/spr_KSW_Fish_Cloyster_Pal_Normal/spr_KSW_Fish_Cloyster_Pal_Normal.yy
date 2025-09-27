@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cloyster",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cloyster.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cloyster.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -68,8 +68,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":8.0,
-    "seqWidth":4.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

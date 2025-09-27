@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Ice Cream Bar",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ice Cream Bar.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ice Cream Bar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

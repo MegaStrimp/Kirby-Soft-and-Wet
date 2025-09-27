@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Grepa Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Grepa Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Grepa Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

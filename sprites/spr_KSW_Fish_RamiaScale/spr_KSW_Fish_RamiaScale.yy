@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Ramia Scale",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ramia Scale.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ramia Scale.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

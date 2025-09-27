@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Crystal Ball",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Crystal Ball.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Crystal Ball.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

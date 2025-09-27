@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Octorok",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Octorok.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Octorok.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -40,7 +40,7 @@
   "origin":9,
   "parent":{
     "name":"Carnivore",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Carnivore.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Carnivore.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

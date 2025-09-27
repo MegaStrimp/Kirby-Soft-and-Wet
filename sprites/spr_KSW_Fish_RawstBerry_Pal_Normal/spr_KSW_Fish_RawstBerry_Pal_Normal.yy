@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Rawst Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Rawst Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Rawst Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

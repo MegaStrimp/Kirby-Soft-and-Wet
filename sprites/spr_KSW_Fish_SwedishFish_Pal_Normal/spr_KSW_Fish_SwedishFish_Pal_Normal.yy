@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Swedish Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Swedish Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Swedish Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

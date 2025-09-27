@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Leap",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Leap.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Leap.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

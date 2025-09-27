@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Seiryu Sword",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Seiryu Sword.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Seiryu Sword.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

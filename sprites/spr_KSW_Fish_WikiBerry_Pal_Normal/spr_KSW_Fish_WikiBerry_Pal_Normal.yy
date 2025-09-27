@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Wiki Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Wiki Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Wiki Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

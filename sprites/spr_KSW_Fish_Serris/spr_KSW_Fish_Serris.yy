@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Serris",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Serris.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Serris.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Slippy",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Slippy.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Slippy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

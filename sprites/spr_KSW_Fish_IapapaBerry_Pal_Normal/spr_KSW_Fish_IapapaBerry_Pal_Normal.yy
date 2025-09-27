@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Iapapa Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Iapapa Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Iapapa Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

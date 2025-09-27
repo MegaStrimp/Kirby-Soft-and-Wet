@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Princess Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Princess Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Princess Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

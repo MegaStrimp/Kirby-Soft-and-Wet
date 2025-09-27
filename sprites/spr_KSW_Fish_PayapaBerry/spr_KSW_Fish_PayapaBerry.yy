@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Payapa Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Payapa Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Payapa Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -35,7 +35,7 @@
   "origin":9,
   "parent":{
     "name":"Mizzle",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mizzle.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mizzle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

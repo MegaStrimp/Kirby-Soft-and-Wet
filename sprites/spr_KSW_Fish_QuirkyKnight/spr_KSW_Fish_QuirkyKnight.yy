@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Quirky Knight",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Quirky Knight.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Quirky Knight.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

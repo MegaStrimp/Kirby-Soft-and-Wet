@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Treasure Chest",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Treasure Chest.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Treasure Chest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

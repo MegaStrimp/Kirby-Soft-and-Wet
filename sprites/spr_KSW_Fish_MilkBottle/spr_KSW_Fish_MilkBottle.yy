@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Milk Bottle",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Milk Bottle.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Milk Bottle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
