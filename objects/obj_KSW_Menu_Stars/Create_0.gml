@@ -2,17 +2,6 @@
 
 #region Initialize Variables
 #region Component Setup
-scr_Component_ButtonInputTimer_Setup(5);
-#endregion
-
-#region Menu Variables
-playerNum = 0;
-
-selection = 0;
-page = 0;
-selectionScale = 1;
-isCompleted = (global.KSW_ObtainedAchievementCount >= global.KSW_VisibleAchievementCount);
-
 starList = [];
 for (var i = 0; i < global.KSW_TotalAchievementCount; i++)
 {
@@ -21,8 +10,16 @@ for (var i = 0; i < global.KSW_TotalAchievementCount; i++)
 		starList[array_length(starList)] = i;
 	}
 }
-buttonsList_Max = array_length(starList);
-page_Max = floor(buttonsList_Max / 8);
+scr_KSW_Menu_Component_Navigate_Setup(array_length(starList));
+scr_KSW_Menu_Component_SwitchPage_Setup(4,2);
+scr_Component_ButtonInputTimer_Setup(5);
+#endregion
+
+#region Menu Variables
+playerNum = 0;
+
+selectionScale = 1;
+isCompleted = (global.KSW_ObtainedAchievementCount >= global.KSW_VisibleAchievementCount);
 
 for (var i = 0; i < 8; i++)
 {

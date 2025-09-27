@@ -4,101 +4,35 @@
 var canSelect = true;
 if ((localPause) or
 (instance_exists(obj_Transition))) canSelect = false;
-
-var selectionStart = page * 8;
-var selectionEnd = min((page + 1) * 8,buttonsList_Max);
 #endregion
 
 #region Selection
 if (canSelect)
 {
-	if (input_check_pressed("up",playerNum))
-	{
-		scr_PlaySfx(snd_KSW_BossHealth);
-		
-		selection -= 2;
-		if (selection < selectionStart) selection = ((selectionStart - 1) + ((ceil((selectionEnd - selectionStart) / 2) - 1) * 2) + (1 + ((2 + selection) % 2)));
-		if (selection >= selectionEnd) selection -= 2;
-	}
+	scr_KSW_Menu_Component_Navigate_Up();
 	
-	if (input_check_pressed("down",playerNum))
-	{
-		scr_PlaySfx(snd_KSW_BossHealth);
-		
-		selection += 2;
-		if (selection >= selectionEnd) selection = (selectionStart + (selection % 2));
-	}
+	scr_KSW_Menu_Component_Navigate_Down();
 	
-	if (input_check_pressed("left",playerNum))
-	{
-		scr_PlaySfx(snd_KSW_BossHealth);
-		
-		if ((selection % 2) == 0)
-		{
-			selection = min(selection + 1,selectionEnd - 1);
-		}
-		else
-		{
-			selection -= 1;
-		}
-	}
+	scr_KSW_Menu_Component_Navigate_Left();
 	
-	if (input_check_pressed("right",playerNum))
-	{
-		scr_PlaySfx(snd_KSW_BossHealth);
-		
-		if ((selection % 2) == 1)
-		{
-			selection -= 1;
-		}
-		else if ((selection) >= selectionEnd - 1)
-		{
-			selection -= (selection % 2);
-		}
-		else
-		{
-			selection += 1;
-		}
-	}
+	scr_KSW_Menu_Component_Navigate_Right();
 	
-	if (input_check_pressed("L",playerNum))
+	var pressFlag = scr_KSW_Menu_Component_SwitchPage_L();
+	if (pressFlag)
 	{
-		scr_PlaySfx(snd_KSW_ButtonChange);
-		
-		for (var i = 0; i < 8; i++)
+		for (var i = 0; i < pageSelectionCount; i++)
 		{
 			waveNum[i] = irandom_range(3600,5000);
 		}
-		
-		if (page == 0)
-		{
-			page = page_Max;
-		}
-		else
-		{
-			page -= 1;
-		}
-		selection = min(((page + 1) * 8) - 1,buttonsList_Max - 1);
 	}
 	
-	if (input_check_pressed("R",playerNum))
+	var pressFlag = scr_KSW_Menu_Component_SwitchPage_R();
+	if (pressFlag)
 	{
-		scr_PlaySfx(snd_KSW_ButtonChange);
-		
-		for (var i = 0; i < 8; i++)
+		for (var i = 0; i < pageSelectionCount; i++)
 		{
 			waveNum[i] = irandom_range(3600,5000);
 		}
-		
-		if (page == page_Max)
-		{
-			page = 0;
-		}
-		else
-		{
-			page += 1;
-		}
-		selection = page * 8;
 	}
 	
 	if (input_check_pressed("B",playerNum))

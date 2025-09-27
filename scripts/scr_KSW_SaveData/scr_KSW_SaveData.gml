@@ -22,6 +22,21 @@ function scr_KSW_SaveData(file)
 	if (global.KSW_CurrentCoins != 0) ini_write_real("gameplay","coins",global.KSW_CurrentCoins);
 	#endregion
 	
+	#region Player Status
+	for (var i = 0; i < global.maxPlayers; i++)
+	{
+		if (global.KSW_CharacterList[global.playerCharacter[i]].ID != "kirby") ini_write_string("playerStatus","playerCharacter_" + string(i),global.KSW_CharacterList[global.playerCharacter[i]].ID);
+		if (global.KSW_PlayerEquippedSprayPaintShuffle[i] != true) ini_write_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),global.KSW_PlayerEquippedSprayPaintShuffle[i]);
+		if (global.KSW_PlayerEquippedHatShuffle[i] != true) ini_write_real("playerStatus","playerEquippedHatShuffle_" + string(i),global.KSW_PlayerEquippedHatShuffle[i]);
+		
+		for (var h = 0; h < global.KSW_CharacterCount; h++)
+		{
+			if (global.KSW_PlayerEquippedSprayPaintID[i][h] != 0) ini_write_real("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_PlayerEquippedSprayPaintID[i][h]);
+			if (global.KSW_PlayerEquippedHatID[i][h] != 0) ini_write_real("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_PlayerEquippedHatID[i][h]);
+		}
+	}
+	#endregion
+	
 	#region Character Status
 	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 	{
@@ -64,15 +79,6 @@ function scr_KSW_SaveData(file)
 		var baitID = global.KSW_BaitList[i].ID;
 		
 		if (global.KSW_BaitList[i].isUnlocked != false) ini_write_real("baitStatus",string(baitID) + "_IsUnlocked",global.KSW_BaitList[i].isUnlocked);
-	}
-	#endregion
-	
-	#region Hat Status
-	for (var i = 0; i < ds_map_size(global.KSW_HatIDs); i++)
-	{
-		var hatID = global.KSW_HatList[i].ID;
-		
-		if (global.KSW_HatList[i].isUnlocked != false) ini_write_real("hatStatus",string(hatID) + "_IsUnlocked",global.KSW_HatList[i].isUnlocked);
 	}
 	#endregion
 	

@@ -2,14 +2,14 @@
 
 #region Initialize Variables
 #region Component Setup
+scr_KSW_Menu_Component_Navigate_Setup(global.KSW_FishCount);
+scr_KSW_Menu_Component_SwitchPage_Setup(3,6);
 scr_Component_ButtonInputTimer_Setup(5);
 #endregion
 
 #region Menu Variables
 playerNum = 0;
 
-selection = 0;
-page = 0;
 isZoomed = false;
 isCompleted = (global.KSW_CaughtUniqueFishCount >= global.KSW_FishCount);
 zoomAlpha = isZoomed;
@@ -21,9 +21,6 @@ selectionStarTimerMax = 5;
 backgroundX = 0;
 backgroundY = 0;
 backgroundSpd = .1;
-calibMode = false;
-calibX = 0;
-calibY = 0;
 hintOffset = 0;
 shineIndex = 0;
 shineSpd = sprite_get_speed(spr_KSW_UI_CaughtBox_Shine) / 60;
@@ -41,11 +38,11 @@ for (var i = 0; i < global.KSW_FishCount; i++)
 	fishIsShiny[i] = false;
 	fishImageIndex[i] = 0;
 }
-buttonsList_Max = global.KSW_FishCount;
-page_Max = floor((buttonsList_Max - 1) / 18);
 
 selectionIndex = 0;
 selectionSpd = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60;
 selectionNumber = sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
+
+scr_KSW_Menu_Fishbook_CalibMode_Setup();
 #endregion
 #endregion
