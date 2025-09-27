@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Hot Dog",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Hot Dog.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Hot Dog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

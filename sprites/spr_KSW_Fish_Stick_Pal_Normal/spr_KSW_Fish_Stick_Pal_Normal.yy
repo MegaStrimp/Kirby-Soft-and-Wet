@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Stick",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Stick.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Stick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

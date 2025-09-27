@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Politoed",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Politoed.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Politoed.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

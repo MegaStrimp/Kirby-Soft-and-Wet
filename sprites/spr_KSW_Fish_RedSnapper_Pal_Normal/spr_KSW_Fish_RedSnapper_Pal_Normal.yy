@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Red Snapper",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Red Snapper.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Red Snapper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

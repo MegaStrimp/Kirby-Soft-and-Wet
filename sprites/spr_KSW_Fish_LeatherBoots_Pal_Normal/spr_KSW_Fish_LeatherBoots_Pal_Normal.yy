@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Leather Boots",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Leather Boots.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Leather Boots.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

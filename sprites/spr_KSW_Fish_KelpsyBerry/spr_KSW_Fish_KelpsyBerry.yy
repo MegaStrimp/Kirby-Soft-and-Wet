@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kelpsy Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kelpsy Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kelpsy Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

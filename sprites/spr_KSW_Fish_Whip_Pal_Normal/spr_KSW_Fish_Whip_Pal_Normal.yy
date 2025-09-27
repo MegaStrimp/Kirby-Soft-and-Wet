@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Whip",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Whip.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Whip.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

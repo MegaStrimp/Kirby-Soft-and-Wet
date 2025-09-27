@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Pointdexter",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Pointdexter.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Pointdexter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

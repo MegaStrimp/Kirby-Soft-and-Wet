@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Nanab Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Nanab Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Nanab Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

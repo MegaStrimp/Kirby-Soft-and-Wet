@@ -36,7 +36,7 @@
   "origin":9,
   "parent":{
     "name":"Omni Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Omni Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Omni Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

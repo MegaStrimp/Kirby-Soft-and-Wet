@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Summertime",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Summertime.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Summertime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

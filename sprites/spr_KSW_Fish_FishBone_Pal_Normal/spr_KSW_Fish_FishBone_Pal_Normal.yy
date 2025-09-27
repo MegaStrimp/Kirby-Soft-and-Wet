@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Fish Bone",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fish Bone.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fish Bone.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

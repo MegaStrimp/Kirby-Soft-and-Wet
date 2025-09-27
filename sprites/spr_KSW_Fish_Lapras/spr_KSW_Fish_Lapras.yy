@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Lapras",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Lapras.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Lapras.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Ganlon Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ganlon Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ganlon Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

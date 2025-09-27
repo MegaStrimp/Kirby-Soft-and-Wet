@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Wepear Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Wepear Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Wepear Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Kong Barrel",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kong Barrel.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kong Barrel.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

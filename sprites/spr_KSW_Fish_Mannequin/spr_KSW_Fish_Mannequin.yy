@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Mannequin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mannequin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mannequin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

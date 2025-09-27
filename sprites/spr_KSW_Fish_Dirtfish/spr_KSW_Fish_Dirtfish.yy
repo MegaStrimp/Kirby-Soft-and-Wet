@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Dirtfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Dirtfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Dirtfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

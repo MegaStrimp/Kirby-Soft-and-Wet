@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Fish Taco",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fish Taco.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fish Taco.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

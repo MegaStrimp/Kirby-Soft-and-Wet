@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cookie",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cookie.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cookie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

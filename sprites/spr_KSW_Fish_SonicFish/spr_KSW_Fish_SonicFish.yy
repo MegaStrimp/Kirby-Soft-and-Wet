@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Sonic Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Sonic Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Sonic Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

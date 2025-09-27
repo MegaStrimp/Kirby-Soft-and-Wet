@@ -27,7 +27,7 @@
   "name":"seq_KSW_Fish_OmniFish",
   "parent":{
     "name":"Omni Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Omni Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Omni Fish.yy",
   },
   "playback":1,
   "playbackSpeed":4.0,

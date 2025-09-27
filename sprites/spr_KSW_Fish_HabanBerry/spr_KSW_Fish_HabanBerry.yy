@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Haban Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Haban Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Haban Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

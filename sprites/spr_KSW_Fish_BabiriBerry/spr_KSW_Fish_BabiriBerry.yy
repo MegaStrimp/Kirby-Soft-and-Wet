@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Babiri Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Babiri Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Babiri Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

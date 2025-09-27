@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cloyster",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cloyster.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cloyster.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

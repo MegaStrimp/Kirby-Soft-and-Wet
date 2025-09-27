@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Candy",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Candy.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Candy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

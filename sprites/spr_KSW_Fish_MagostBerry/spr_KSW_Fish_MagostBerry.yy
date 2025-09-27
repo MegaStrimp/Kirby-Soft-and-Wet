@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Magost Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Magost Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Magost Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

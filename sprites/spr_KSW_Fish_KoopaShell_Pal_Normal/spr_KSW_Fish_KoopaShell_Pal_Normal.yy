@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Koopa Shell",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Koopa Shell.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Koopa Shell.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

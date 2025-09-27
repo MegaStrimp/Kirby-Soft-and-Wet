@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Springtime",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Springtime.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Springtime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

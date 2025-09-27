@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Mega Chopper",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mega Chopper.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mega Chopper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

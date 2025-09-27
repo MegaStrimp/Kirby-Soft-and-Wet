@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Blish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Blish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Blish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

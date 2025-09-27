@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Crewmate",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Crewmate.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Crewmate.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

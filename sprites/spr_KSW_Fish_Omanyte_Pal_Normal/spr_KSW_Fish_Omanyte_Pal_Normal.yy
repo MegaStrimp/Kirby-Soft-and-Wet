@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Omanyte",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Omanyte.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Omanyte.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

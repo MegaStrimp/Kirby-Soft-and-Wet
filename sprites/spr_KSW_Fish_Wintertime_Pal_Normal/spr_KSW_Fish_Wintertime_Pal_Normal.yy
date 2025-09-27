@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Wintertime",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Wintertime.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Wintertime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Invader Squid",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Invader Squid.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Invader Squid.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"String",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/String.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/String.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -39,7 +39,7 @@
   "origin":4,
   "parent":{
     "name":"Fecal Forgo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fecal Forgo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fecal Forgo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

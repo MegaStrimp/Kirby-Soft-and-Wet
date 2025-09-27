@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Passho Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Passho Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Passho Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

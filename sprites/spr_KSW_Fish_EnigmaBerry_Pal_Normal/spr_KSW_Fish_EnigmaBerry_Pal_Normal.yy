@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Enigma Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Enigma Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Enigma Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Shellder",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Shellder.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Shellder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

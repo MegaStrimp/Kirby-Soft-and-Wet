@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Tire",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tire.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tire.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

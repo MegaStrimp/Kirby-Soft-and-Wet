@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Warrior Shield",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Warrior Shield.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Warrior Shield.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

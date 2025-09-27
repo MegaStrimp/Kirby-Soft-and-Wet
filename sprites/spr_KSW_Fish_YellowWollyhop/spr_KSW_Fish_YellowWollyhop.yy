@@ -41,7 +41,7 @@
   "origin":4,
   "parent":{
     "name":"Yellow Wollyhop",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Yellow Wollyhop.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Yellow Wollyhop.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

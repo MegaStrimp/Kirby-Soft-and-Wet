@@ -34,7 +34,7 @@
   "origin":9,
   "parent":{
     "name":"Toady Bloyster",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Toady Bloyster.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Toady Bloyster.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

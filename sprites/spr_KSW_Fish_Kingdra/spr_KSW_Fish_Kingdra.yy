@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Kingdra",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kingdra.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kingdra.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

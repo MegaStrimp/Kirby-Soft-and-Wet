@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Model Ship",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Model Ship.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Model Ship.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

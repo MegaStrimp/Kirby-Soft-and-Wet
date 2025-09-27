@@ -38,7 +38,7 @@
   "origin":4,
   "parent":{
     "name":"Chainsaw Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Chainsaw Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Chainsaw Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

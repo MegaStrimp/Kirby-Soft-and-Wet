@@ -35,7 +35,7 @@
   "origin":4,
   "parent":{
     "name":"Guppy",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Guppy.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Guppy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

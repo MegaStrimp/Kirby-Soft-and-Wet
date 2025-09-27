@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kabutops",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kabutops.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kabutops.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

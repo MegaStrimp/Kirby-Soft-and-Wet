@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Poliwag",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Poliwag.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Poliwag.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

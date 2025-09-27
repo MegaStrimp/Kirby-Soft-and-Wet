@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Seaking",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Seaking.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Seaking.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

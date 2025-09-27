@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Krabby",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Krabby.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Krabby.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

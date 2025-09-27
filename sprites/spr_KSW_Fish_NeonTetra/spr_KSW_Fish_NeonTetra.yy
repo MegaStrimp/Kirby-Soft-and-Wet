@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Neon Tetra",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Neon Tetra.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Neon Tetra.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

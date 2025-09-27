@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Roast Chicken",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Roast Chicken.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Roast Chicken.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

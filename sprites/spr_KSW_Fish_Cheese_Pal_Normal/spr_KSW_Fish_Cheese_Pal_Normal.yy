@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cheese",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cheese.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cheese.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

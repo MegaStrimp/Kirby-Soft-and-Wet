@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Morton",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Morton.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Morton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

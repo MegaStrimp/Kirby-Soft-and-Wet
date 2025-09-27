@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Cursedfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cursedfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cursedfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

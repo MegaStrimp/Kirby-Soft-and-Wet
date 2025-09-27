@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Bandanna",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bandanna.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bandanna.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

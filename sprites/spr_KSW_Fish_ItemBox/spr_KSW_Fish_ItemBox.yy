@@ -34,7 +34,7 @@
   "origin":0,
   "parent":{
     "name":"Item Box",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Item Box.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Item Box.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

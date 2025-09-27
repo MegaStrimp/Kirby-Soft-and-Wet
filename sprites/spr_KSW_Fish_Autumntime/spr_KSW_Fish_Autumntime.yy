@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Autumntime",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Autumntime.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Autumntime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

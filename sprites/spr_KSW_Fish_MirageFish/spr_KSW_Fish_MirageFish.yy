@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Mirage Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mirage Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mirage Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Tanglekelp",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tanglekelp.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tanglekelp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

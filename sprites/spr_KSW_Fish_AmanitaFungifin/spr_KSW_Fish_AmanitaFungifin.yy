@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Amanita Fungifin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Amanita Fungifin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Amanita Fungifin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

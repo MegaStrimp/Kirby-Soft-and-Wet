@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kabocha",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kabocha.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kabocha.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

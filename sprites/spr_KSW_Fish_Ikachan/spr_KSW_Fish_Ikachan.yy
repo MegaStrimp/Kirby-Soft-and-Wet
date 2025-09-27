@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Ikachan",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ikachan.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ikachan.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Variegated Lardfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Variegated Lardfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Variegated Lardfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Goldeen",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Goldeen.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Goldeen.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

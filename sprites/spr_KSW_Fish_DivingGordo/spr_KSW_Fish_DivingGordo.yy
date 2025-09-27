@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Diving Gordo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Diving Gordo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Diving Gordo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Starmie",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Starmie.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Starmie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

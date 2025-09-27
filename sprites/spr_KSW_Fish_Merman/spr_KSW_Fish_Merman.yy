@@ -38,7 +38,7 @@
   "origin":4,
   "parent":{
     "name":"Merman",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Merman.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Merman.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

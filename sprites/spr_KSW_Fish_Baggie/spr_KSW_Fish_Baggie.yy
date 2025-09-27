@@ -36,7 +36,7 @@
   "origin":9,
   "parent":{
     "name":"Baggie",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Baggie.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Baggie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

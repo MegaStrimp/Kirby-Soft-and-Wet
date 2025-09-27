@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Asteron",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Asteron.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Asteron.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

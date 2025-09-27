@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Cheep Cheep Green",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cheep Cheep Green.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cheep Cheep Green.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

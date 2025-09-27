@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Bonefish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bonefish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bonefish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

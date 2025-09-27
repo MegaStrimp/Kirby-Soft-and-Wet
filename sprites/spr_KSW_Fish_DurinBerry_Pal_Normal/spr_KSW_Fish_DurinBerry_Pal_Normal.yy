@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Durin Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Durin Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Durin Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

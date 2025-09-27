@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Flan",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Flan.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Flan.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

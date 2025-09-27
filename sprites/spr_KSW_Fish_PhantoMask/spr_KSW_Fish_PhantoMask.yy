@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Phanto Mask",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Phanto Mask.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Phanto Mask.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

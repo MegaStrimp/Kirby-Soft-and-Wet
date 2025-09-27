@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Corn",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Corn.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Corn.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

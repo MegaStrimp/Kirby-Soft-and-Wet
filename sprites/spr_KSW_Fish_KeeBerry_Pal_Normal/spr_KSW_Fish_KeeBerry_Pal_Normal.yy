@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Kee Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kee Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kee Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

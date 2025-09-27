@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Double Cod",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Double Cod.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Double Cod.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

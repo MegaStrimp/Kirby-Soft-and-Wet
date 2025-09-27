@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Masher",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Masher.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Masher.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

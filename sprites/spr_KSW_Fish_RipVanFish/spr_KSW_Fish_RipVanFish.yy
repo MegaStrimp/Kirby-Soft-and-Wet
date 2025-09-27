@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Rip Van Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Rip Van Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Rip Van Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

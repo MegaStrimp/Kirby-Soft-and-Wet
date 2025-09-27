@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Chaos Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Chaos Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Chaos Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

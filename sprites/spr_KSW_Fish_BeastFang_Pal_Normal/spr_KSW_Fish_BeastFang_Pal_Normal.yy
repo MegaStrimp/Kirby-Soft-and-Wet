@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Beast Fang",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Beast Fang.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Beast Fang.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

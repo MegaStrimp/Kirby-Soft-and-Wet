@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Jewelfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Jewelfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Jewelfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Amber Rose",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Amber Rose.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Amber Rose.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
