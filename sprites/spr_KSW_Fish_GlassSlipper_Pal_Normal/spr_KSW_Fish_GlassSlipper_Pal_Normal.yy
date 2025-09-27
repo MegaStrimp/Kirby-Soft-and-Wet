@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Glass Slipper",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Glass Slipper.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Glass Slipper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

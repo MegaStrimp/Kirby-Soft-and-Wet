@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Squirtle",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Squirtle.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Squirtle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

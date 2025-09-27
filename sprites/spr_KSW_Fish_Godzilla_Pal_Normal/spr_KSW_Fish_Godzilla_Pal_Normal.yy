@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Godzilla",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Godzilla.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Godzilla.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

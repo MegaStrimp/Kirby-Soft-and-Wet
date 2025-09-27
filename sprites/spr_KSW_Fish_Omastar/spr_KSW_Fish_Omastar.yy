@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Omastar",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Omastar.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Omastar.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Sandwich",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Sandwich.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Sandwich.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Jawz",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Jawz.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Jawz.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Slowbro",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Slowbro.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Slowbro.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

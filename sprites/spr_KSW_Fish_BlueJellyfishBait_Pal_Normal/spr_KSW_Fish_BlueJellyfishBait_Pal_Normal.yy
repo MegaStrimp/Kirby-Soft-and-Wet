@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Blue Jellyfish (Bait)",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Blue Jellyfish (Bait).yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Blue Jellyfish (Bait).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

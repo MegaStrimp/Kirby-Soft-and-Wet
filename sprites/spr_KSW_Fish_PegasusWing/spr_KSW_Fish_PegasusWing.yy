@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Pegasus Wing",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Pegasus Wing.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Pegasus Wing.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

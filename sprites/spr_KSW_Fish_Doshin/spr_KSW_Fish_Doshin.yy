@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Doshin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Doshin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Doshin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

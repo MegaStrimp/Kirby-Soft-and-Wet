@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Plesioth",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Plesioth.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Plesioth.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

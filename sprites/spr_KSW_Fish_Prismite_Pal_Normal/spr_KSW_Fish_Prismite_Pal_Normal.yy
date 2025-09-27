@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Prismite",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Prismite.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Prismite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

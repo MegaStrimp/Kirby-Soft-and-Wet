@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Lobster Dish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Lobster Dish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Lobster Dish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

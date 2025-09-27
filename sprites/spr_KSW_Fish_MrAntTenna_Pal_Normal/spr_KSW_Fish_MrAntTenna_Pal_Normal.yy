@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Mr. 'Ant' Tenna",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mr. 'Ant' Tenna.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mr. 'Ant' Tenna.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

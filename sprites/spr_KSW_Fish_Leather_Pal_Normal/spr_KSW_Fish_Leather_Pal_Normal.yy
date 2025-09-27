@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Leather",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Leather.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Leather.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

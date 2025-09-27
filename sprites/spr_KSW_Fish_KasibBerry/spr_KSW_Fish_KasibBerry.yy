@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kasib Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kasib Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kasib Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

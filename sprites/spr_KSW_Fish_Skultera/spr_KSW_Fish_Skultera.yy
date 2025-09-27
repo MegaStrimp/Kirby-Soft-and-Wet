@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Skultera",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Skultera.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Skultera.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

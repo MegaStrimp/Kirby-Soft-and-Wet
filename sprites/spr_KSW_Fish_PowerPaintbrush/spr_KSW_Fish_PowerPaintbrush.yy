@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Power Paintbrush",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Power Paintbrush.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Power Paintbrush.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

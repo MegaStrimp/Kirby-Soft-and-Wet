@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Star Stone",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Star Stone.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Star Stone.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

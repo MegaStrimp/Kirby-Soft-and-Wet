@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kebia Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kebia Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kebia Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

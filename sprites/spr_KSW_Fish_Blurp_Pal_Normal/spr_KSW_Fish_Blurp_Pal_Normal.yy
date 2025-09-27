@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Blurp",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Blurp.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Blurp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

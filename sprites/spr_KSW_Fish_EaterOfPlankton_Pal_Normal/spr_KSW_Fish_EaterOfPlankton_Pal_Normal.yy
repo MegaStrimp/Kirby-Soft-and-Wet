@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Eater of Plankton",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Eater of Plankton.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Eater of Plankton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Mutant Flinxfin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mutant Flinxfin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mutant Flinxfin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

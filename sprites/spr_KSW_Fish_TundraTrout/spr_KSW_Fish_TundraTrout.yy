@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Tundra Trout",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tundra Trout.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tundra Trout.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

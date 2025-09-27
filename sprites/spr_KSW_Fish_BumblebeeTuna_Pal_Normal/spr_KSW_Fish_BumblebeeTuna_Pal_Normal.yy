@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Bumblebee Tuna",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Bumblebee Tuna.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Bumblebee Tuna.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

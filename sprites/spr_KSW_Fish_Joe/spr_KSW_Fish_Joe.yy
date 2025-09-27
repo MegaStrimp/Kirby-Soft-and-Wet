@@ -34,7 +34,7 @@
   "origin":9,
   "parent":{
     "name":"Joe",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Joe.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Joe.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

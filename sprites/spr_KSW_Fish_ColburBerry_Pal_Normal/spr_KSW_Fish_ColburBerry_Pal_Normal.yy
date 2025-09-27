@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Colbur Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Colbur Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Colbur Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

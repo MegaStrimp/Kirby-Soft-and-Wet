@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Blooper",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Blooper.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Blooper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

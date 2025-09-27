@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Ghost Hamster",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ghost Hamster.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ghost Hamster.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

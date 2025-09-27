@@ -87,7 +87,7 @@
   "origin":4,
   "parent":{
     "name":"That Pufferfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/That Pufferfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/That Pufferfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

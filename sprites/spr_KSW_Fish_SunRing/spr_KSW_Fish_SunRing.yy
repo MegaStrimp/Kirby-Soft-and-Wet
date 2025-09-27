@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Sun Ring",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Sun Ring.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Sun Ring.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

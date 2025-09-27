@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Magikarp",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Magikarp.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Magikarp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

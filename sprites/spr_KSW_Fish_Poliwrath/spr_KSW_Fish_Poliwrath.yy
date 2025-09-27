@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Poliwrath",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Poliwrath.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Poliwrath.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

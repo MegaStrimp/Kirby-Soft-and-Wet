@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Seadra",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Seadra.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Seadra.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Tomato",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tomato.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tomato.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

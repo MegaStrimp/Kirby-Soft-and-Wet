@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Spiderfish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Spiderfish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Spiderfish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

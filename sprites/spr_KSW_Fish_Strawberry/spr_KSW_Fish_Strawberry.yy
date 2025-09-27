@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Strawberry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Strawberry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Strawberry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

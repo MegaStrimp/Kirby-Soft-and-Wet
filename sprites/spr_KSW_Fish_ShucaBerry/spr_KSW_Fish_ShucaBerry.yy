@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Shuca Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Shuca Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Shuca Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

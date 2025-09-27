@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Kingler",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Kingler.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Kingler.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

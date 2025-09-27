@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Jaboca Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Jaboca Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Jaboca Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Fish Fossil",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Fish Fossil.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Fish Fossil.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

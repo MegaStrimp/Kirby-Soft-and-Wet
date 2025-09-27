@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Ebonkoi",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ebonkoi.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ebonkoi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

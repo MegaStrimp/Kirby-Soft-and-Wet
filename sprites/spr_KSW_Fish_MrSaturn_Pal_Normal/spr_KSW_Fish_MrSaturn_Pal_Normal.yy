@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Mr Saturn",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Mr Saturn.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Mr Saturn.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

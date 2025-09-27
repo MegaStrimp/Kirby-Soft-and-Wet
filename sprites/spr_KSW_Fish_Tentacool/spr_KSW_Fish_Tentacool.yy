@@ -34,7 +34,7 @@
   "origin":4,
   "parent":{
     "name":"Tentacool",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Tentacool.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Tentacool.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

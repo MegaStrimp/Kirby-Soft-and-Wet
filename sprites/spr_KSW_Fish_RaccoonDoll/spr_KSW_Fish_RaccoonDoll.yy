@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Raccoon Doll",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Raccoon Doll.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Raccoon Doll.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Pink Jellyfish (Bait)",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Pink Jellyfish (Bait).yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Pink Jellyfish (Bait).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

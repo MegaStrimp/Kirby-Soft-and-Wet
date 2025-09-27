@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Melon",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Melon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Melon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

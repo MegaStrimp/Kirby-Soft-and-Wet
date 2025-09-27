@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Scarab Fish",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Scarab Fish.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Scarab Fish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

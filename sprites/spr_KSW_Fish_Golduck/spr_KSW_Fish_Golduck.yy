@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Golduck",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Golduck.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Golduck.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

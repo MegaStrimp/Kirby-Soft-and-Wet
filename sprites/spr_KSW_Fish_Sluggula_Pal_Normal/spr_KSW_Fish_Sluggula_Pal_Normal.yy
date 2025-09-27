@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Sluggula",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Sluggula.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Sluggula.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

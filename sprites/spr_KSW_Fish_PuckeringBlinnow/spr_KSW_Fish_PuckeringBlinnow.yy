@@ -36,7 +36,7 @@
   "origin":4,
   "parent":{
     "name":"Puckering Blinnow",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Puckering Blinnow.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Puckering Blinnow.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

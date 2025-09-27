@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Salmon",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Salmon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Salmon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

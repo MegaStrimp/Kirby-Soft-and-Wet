@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"100-Dollar Coin",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/100-Dollar Coin.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/100-Dollar Coin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

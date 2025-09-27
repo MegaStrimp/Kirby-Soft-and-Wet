@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Rotten Flesh",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Rotten Flesh.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Rotten Flesh.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

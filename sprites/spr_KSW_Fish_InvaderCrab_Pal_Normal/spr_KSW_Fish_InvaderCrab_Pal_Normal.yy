@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Invader Crab",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Invader Crab.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Invader Crab.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

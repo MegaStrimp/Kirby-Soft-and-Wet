@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Liechi Berry",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Liechi Berry.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Liechi Berry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Dime",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Dime.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Dime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

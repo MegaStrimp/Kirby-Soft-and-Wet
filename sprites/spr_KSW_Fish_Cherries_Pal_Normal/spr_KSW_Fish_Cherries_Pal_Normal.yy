@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Cherries",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Cherries.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Cherries.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

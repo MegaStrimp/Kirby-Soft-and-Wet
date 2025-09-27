@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Aquis",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Aquis.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Aquis.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

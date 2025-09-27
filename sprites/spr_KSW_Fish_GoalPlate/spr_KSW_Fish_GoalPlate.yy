@@ -38,7 +38,7 @@
   "origin":0,
   "parent":{
     "name":"Goal Plate",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Goal Plate.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Goal Plate.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

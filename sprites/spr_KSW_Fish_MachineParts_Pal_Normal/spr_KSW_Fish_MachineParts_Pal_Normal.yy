@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Machine Parts",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Machine Parts.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Machine Parts.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

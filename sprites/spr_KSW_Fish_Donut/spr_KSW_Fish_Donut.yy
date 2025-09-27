@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Donut",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Donut.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Donut.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

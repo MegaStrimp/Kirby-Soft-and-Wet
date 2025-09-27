@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Shell Whistle",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Shell Whistle.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Shell Whistle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

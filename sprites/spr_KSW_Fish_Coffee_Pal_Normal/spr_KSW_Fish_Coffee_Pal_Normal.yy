@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Coffee",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Coffee.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Coffee.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

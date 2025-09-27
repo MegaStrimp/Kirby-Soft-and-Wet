@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Ice Cream Cone",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/Ice Cream Cone.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.0/Ice Cream Cone.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
