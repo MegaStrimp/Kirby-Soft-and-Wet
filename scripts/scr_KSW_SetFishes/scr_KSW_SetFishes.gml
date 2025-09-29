@@ -503,5 +503,6 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Hedorah",spr_KSW_Fish_Hedorah,spr_KSW_Fish_Hedorah_Pal,flux,2,grassBeach,KSW_Phases.night,11500);
 	scr_KSW_AddFish("Biollante Rose",spr_KSW_Fish_Biollante_Rose,spr_KSW_Fish_Biollante_Rose_Pal,mint,2,grassBeach,KSW_Phases.afternoon,10500);
 	scr_KSW_AddFish("Biollante",spr_KSW_Fish_Biollante,spr_KSW_Fish_Biollante_Pal,mint,3,grassBeach,KSW_Phases.night,45000);
+	scr_KSW_AddFish("Varan",spr_KSW_Fish_Varan,spr_KSW_Fish_Varan_Pal,flux,3,grassBeach,KSW_Phases.afternoon,40000);
 	#endregion
 }
