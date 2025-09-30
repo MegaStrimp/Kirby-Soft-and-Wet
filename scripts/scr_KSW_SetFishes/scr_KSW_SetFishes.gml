@@ -504,5 +504,19 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Biollante Rose",spr_KSW_Fish_Biollante_Rose,spr_KSW_Fish_Biollante_Rose_Pal,mint,2,grassBeach,KSW_Phases.afternoon,10500);
 	scr_KSW_AddFish("Biollante",spr_KSW_Fish_Biollante,spr_KSW_Fish_Biollante_Pal,mint,3,grassBeach,KSW_Phases.night,45000);
 	scr_KSW_AddFish("Varan",spr_KSW_Fish_Varan,spr_KSW_Fish_Varan_Pal,flux,3,grassBeach,KSW_Phases.afternoon,40000);
+	scr_KSW_AddFish("Goomdiver",spr_KSW_Fish_Goomdiver,spr_KSW_Fish_Goomdiver_Pal,borange,0,grassBeach,KSW_Phases.afternoon,500);
+	scr_KSW_AddFish("Enguarde",spr_KSW_Fish_Enguarde,spr_KSW_Fish_Enguarde_Pal,legion,2,grassBeach,KSW_Phases.day,8000);
+	scr_KSW_AddFish("Bitesize",spr_KSW_Fish_Bitesize,spr_KSW_Fish_Bitesize_Pal,flux,0,grassBeach,KSW_Phases.afternoon,600);
+	scr_KSW_AddFish("ChompsJr",spr_KSW_Fish_ChompsJr,spr_KSW_Fish_ChompsJr_Pal,mage,0,grassBeach,KSW_Phases.day,750);
+	scr_KSW_AddFish("Chomps",spr_KSW_Fish_Chomps,spr_KSW_Fish_Chomps_Pal,mage,1,grassBeach,KSW_Phases.day,1900);
+	scr_KSW_AddFish("Croctopus",spr_KSW_Fish_Croctopus,spr_KSW_Fish_Croctopus_Pal,flux,1,grassBeach,KSW_Phases.night,1750);
+	scr_KSW_AddFish("Squidge",spr_KSW_Fish_Squidge,spr_KSW_Fish_Squidge_Pal,flux,1,grassBeach,KSW_Phases.night,1550);
+	scr_KSW_AddFish("Clambo",spr_KSW_Fish_Clambo,spr_KSW_Fish_Clambo_Pal,candy,1,grassBeach,KSW_Phases.afternoon,5000);
+	scr_KSW_AddFish("Klaptrap",spr_KSW_Fish_Klaptrap,spr_KSW_Fish_Klaptrap_Pal,mage,0,grassBeach,KSW_Phases.day,800);
+	scr_KSW_AddFish("Kritter",spr_KSW_Fish_Kritter,spr_KSW_Fish_Kritter_Pal,mint,0,grassBeach,KSW_Phases.day,1000);
+	scr_KSW_AddFish("Krash",spr_KSW_Fish_Krash,spr_KSW_Fish_Krash_Pal,mint,1,grassBeach,KSW_Phases.night,2100);
+	scr_KSW_AddFish("Klump",spr_KSW_Fish_Klump,spr_KSW_Fish_Klump_Pal,mint,2,grassBeach,KSW_Phases.afternoon,7050);
+	scr_KSW_AddFish("Krusha",spr_KSW_Fish_Krusha,spr_KSW_Fish_Krusha_Pal,mint,2,grassBeach,KSW_Phases.day,6500);
+	scr_KSW_AddFish("King K. Rool",spr_KSW_Fish_KingKRool,spr_KSW_Fish_KingKRool_Pal,mint,3,grassBeach,KSW_Phases.day,25000);
 	#endregion
 }
