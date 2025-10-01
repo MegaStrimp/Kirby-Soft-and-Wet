@@ -33,6 +33,9 @@ alphaTarget = 1;
 starCount = 0;
 starTimer = -1;
 starTimerMax = 5;
+escapeTimer = -1;
+var escapeRng = irandom_range(0,666);
+if (escapeRng == 0) escapeTimer = 15;
 endTimer = 60;
 #endregion
 #endregion

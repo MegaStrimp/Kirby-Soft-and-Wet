@@ -92,6 +92,7 @@ draw_set_alpha(alpha);
 
 var subtitle = "NEW FISH GET!";
 if (isShiny) subtitle = "NEW SHINY GET!";
+if (escapeTimer != -1) subtitle = "ESCAPE ESCAPE ESCAPE";
 
 scribble(subtitle).align(fa_center).blend(c_white,alpha).draw(room_width / 2,6);
 
@@ -101,7 +102,10 @@ if (isTenna)
 }
 else
 {
-	scribble(name).align(fa_center).blend(c_white,alpha).draw(room_width / 2,18);
+	var nameFinal = name;
+	if (escapeTimer != -1) nameFinal = "ESCAPE";
+	
+	scribble(nameFinal).align(fa_center).blend(c_white,alpha).draw(room_width / 2,18);
 }
 #endregion
 

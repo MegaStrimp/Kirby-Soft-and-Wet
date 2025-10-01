@@ -162,6 +162,9 @@ if (!localPause)
 				
 				scr_KSW_ParticleSet_Circle(parTargetX,parTargetY);
 				
+				var ringRng = irandom_range(0,6666);
+				if (ringRng == 0) instance_create_depth(0,0,-666,obj_KSW_Ring);
+				
 				if (((catchInput_SoundCount % 4) == 3) or (catchInput_CurrentLine == catchInput_CurrentLineMax - 1))
 				{
 					scr_PlaySfx(snd_KSW_CatchInputSpecial);

@@ -50,6 +50,17 @@ if (starTimer != -1)
 }
 #endregion
 
+#region Escape Timer
+if (escapeTimer != -1)
+{
+	escapeTimer = max(escapeTimer - speedMultFinal,0);
+	if (escapeTimer == 0)
+	{
+		escapeTimer = -1;
+	}
+}
+#endregion
+
 #region End Timer
 if (endTimer != -1)
 {
