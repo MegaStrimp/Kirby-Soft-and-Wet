@@ -38,6 +38,8 @@ if (canSelect)
 		{
 			scr_PlaySfx(snd_KSW_ButtonYes);
 			
+			if (global.KSW_FishList[selection].catchAudio != -1) scr_PlaySfx(global.KSW_FishList[selection].catchAudio);
+			
 			isZoomed = true;
 			selectionImageIndex = 0;
 			selectionStarCount = 0;

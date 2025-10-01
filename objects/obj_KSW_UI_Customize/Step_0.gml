@@ -2,25 +2,45 @@
 
 if (exitTimer == -1)
 {
-	#region Close
+	#region Selection
+	if (input_check_pressed("up",playerNum))
+	{
+		if (currentUpAction != -1) script_execute(currentUpAction);
+	}
+	
+	if (input_check_pressed("down",playerNum))
+	{
+		if (currentDownAction != -1) script_execute(currentDownAction);
+	}
+	
+	if (input_check_pressed("left",playerNum))
+	{
+		if (currentLeftAction != -1) script_execute(currentLeftAction);
+	}
+	
+	if (input_check_pressed("right",playerNum))
+	{
+		if (currentRightAction != -1) script_execute(currentRightAction);
+	}
+	
+	if (input_check_pressed("L",playerNum))
+	{
+		if (currentLAction != -1) script_execute(currentLAction);
+	}
+	
+	if (input_check_pressed("R",playerNum))
+	{
+		if (currentRAction != -1) script_execute(currentRAction);
+	}
+	
+	if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+	{
+		if (currentSelectAction != -1) script_execute(currentSelectAction);
+	}
+	
 	if (input_check_pressed("B",playerNum))
 	{
-		scr_PlaySfx(snd_KSW_ButtonNo);
-	
-		global.pause = false;
-	
-		exitTimer = exitTimerMax;
-	}
-	#endregion
-
-	#region Go To Shop
-	if (input_check_pressed("X",playerNum))
-	{
-		scr_PlaySfx(snd_KSW_ButtonChange);
-		
-		goToShop = true;
-		
-		exitTimer = exitTimerMax;
+		if (currentBackAction != -1) script_execute(currentBackAction);
 	}
 	#endregion
 }
@@ -31,16 +51,9 @@ if (exitTimer != -1)
 	exitTimer = max(exitTimer - speedMultFinal,0);
 	if (exitTimer == 0)
 	{
-		if (goToShop)
-		{
-			scr_GoToRoom(rm_KSW_Menu_Shop,false);
-		}
-		else
-		{
-			with (obj_KSW_UI_Customize_Bubble) instance_destroy();
-			
-			instance_destroy();
-		}
+		with (obj_KSW_UI_Customize_Bubble) instance_destroy();
+		
+		instance_destroy();
 	}
 }
 #endregion

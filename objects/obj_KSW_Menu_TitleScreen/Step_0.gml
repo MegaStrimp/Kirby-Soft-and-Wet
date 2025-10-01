@@ -120,15 +120,6 @@ if (canSelect)
 		}
 		break;
 		
-		case KSW_MainMenu_Buttons.shop:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
-		{
-			scr_PlaySfx(snd_KSW_Enter);
-			
-			scr_GoToRoom(rm_KSW_Menu_Shop,false);
-		}
-		break;
-		
 		case KSW_MainMenu_Buttons.discord:
 		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{

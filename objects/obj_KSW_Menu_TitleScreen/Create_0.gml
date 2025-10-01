@@ -12,7 +12,6 @@ enum KSW_MainMenu_Buttons
 	stars,
 	startFishing,
 	fishbook,
-	shop,
 	discord
 }
 
@@ -40,7 +39,6 @@ scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.settings,spr_KSW_Menu
 scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.stars,spr_KSW_Menu_TitleScreen_Bubble_Stars_Small,spr_KSW_Menu_TitleScreen_Bubble_Stars_Medium,spr_KSW_Menu_TitleScreen_Bubble_Stars_Big,spr_KSW_Menu_TitleScreen_Text_Stars);
 scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.startFishing,spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Small,spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Medium,spr_KSW_Menu_TitleScreen_Bubble_StartFishing_Big,spr_KSW_Menu_TitleScreen_Text_StartFishing);
 scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.fishbook,spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Small,spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Medium,spr_KSW_Menu_TitleScreen_Bubble_Fishbook_Big,spr_KSW_Menu_TitleScreen_Text_Fishbook);
-scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.shop,spr_KSW_Menu_TitleScreen_Bubble_Shop_Small,spr_KSW_Menu_TitleScreen_Bubble_Shop_Medium,spr_KSW_Menu_TitleScreen_Bubble_Shop_Big,spr_KSW_Menu_TitleScreen_Text_Shop);
 scr_KSW_Menu_TitleScreen_CreateBubble(KSW_MainMenu_Buttons.discord,spr_KSW_Menu_TitleScreen_Bubble_Discord_Small,spr_KSW_Menu_TitleScreen_Bubble_Discord_Medium,spr_KSW_Menu_TitleScreen_Bubble_Discord_Big,spr_KSW_Menu_TitleScreen_Text_Discord);
 
 bubbleOffsetMax = 20 / ln(bubbleCount);
@@ -48,6 +46,7 @@ bubbleOffsetMax = 20 / ln(bubbleCount);
 with (obj_KSW_Menu_TitleScreen_Bubble)
 {
 	xAnchor = 48 + (((240 - 96) / (other.bubbleCount - 1)) * index);
+	x = xAnchor;
 	
 	targetOffset = sign(index - global.KSW_MainMenuSelection) * other.bubbleOffsetMax;
 	

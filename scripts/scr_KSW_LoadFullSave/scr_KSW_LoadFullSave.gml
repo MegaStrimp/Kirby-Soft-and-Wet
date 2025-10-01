@@ -4,6 +4,8 @@ function scr_KSW_LoadFullSave()
 {
 	#region Character Status
 	global.KSW_UnlockedCharacterCount = 0;
+	global.KSW_UnlockedSprayPaintCount = 0;
+	global.KSW_UnlockedHatCount = 0;
 	
 	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 	{
@@ -12,24 +14,24 @@ function scr_KSW_LoadFullSave()
 		global.KSW_UnlockedCharacterCount += 1;
 		
 		#region Spray Paint Status
-		global.KSW_UnlockedSprayPaintCount = 0;
+		global.KSW_UnlockedSprayPaintCount[i] = 0;
 		
 		for (var j = 0; j < ds_map_size(global.KSW_SprayPaintIDs); j++)
 		{
 			global.KSW_CharacterList[i].sprayPaints[j].isUnlocked = true;
 			
-			global.KSW_UnlockedSprayPaintCount[j] += 1;
+			global.KSW_UnlockedSprayPaintCount[i] += 1;
 		}
 		#endregion
 		
 		#region Hat Status
-		global.KSW_UnlockedHatCount = 0;
+		global.KSW_UnlockedHatCount[i] = 0;
 		
 		for (var j = 0; j < ds_map_size(global.KSW_HatIDs); j++)
 		{
 			global.KSW_CharacterList[i].hats[j].isUnlocked = true;
 			
-			global.KSW_UnlockedHatCount[j] += 1;
+			global.KSW_UnlockedHatCount[i] += 1;
 		}
 		#endregion
 	}

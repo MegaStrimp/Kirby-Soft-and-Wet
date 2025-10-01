@@ -14,4 +14,6 @@ function scr_KSW_UI_Customize_ChangePage(targetPageID)
 	currentLAction = KSW_PageList[finalID].lAction;
 	currentRAction = KSW_PageList[finalID].rAction;
 	currentDrawScript = KSW_PageList[finalID].drawScript;
+	
+	if (currentSetupScript != -1) script_execute(currentSetupScript);
 }

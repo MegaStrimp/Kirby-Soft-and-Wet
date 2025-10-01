@@ -260,6 +260,8 @@ if (!localPause)
 						
 						if (global.KSW_FishList[currentFish].catchScript != -1) script_execute(global.KSW_FishList[currentFish].catchScript);
 						
+						if (global.KSW_FishList[currentFish].catchAudio != -1) scr_PlaySfx(global.KSW_FishList[currentFish].catchAudio);
+						
 						with (obj_KSW_Player)
 						{
 							scr_ChangeSprite(sprSuccess);

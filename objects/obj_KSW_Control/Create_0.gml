@@ -71,7 +71,6 @@ global.KSW_CurrentCoins = 0;
 global.KSW_EnteredFishbook = false;
 global.KSW_EnteredSettings = false;
 global.KSW_EnteredStars = false;
-global.KSW_EnteredShop = false;
 
 playtimeAchievementTimerMax = 3600;
 playtimeAchievementTimer = playtimeAchievementTimerMax;

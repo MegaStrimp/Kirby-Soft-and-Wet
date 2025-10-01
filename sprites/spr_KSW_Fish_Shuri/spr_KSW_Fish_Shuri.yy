@@ -8,6 +8,11 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "DesktopDebug":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -29,7 +34,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":42,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"f3982ab0-82c2-4c7a-835a-fcecfdfbf415","blendMode":0,"displayName":"default","isLocked":false,"name":"f3982ab0-82c2-4c7a-835a-fcecfdfbf415","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -130,7 +135,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":15,
-    "yorigin":21,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
