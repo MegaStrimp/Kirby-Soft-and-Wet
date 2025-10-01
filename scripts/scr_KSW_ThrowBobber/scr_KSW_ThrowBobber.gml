@@ -6,9 +6,9 @@ function scr_KSW_ThrowBobber()
 	
 	bobberInWater = false;
 	
-	var targetBobberIndex = ds_list_find_value(global.KSW_AvailableBobbers,irandom_range(0,ds_list_size(global.KSW_AvailableBobbers) - 1));
+	if (global.KSW_EquippedBobberShuffle[playerNum]) global.KSW_EquippedBobberID[playerNum] = ds_list_find_value(global.KSW_AvailableBobbers,irandom_range(0,ds_list_size(global.KSW_AvailableBobbers) - 1));
 	
-	sprBobber = global.KSW_BobberList[targetBobberIndex].sprite;
+	sprBobber = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].sprite;
 	
 	sprBobberImageIndex = 0;
 	sprBobberSpeed = sprite_get_speed(sprBobber) / 60;

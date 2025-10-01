@@ -10,6 +10,6 @@ function scr_KSW_SetBaits()
 	#endregion
 	
 	#region Add Baits Here
-	//scr_KSW_AddBait("");
+	scr_KSW_AddBait("none","None",-1,0);
 	#endregion
 }

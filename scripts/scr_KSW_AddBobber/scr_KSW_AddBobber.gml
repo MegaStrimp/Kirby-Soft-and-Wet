@@ -1,6 +1,6 @@
 ///@description KSW - Add Bobber
 
-function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetIsInShop = true,targetIsHidden = false,targetIsDefault = false)
+function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetPrice,targetIsHidden = false,targetIsDefault = false)
 {
 	ds_map_add(global.KSW_BobberIDs,targetID,global.KSW_BobberCount);
 	
@@ -9,7 +9,7 @@ function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetIsInShop = tru
         ID: targetID,
         name: targetName,
         sprite: targetSprite,
-		isInShop: targetIsInShop,
+		price: targetPrice,
 		isHidden: targetIsHidden,
 		isDefault: targetIsDefault,
 		isUnlocked: false

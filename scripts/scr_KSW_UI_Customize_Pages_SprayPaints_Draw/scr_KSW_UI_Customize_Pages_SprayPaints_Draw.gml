@@ -23,6 +23,6 @@ function scr_KSW_UI_Customize_Pages_SprayPaints_Draw()
 	if (targetIcon != undefined) selectIcon = "[" + sprite_get_name(targetIcon) + "]";
 	
 	var text = scribble(selectIcon + "SELECT");
-	text.draw(room_width - 4 - text.get_width(),room_height + hintOffset - 16 + (2 * (buttonInputTimerComponent_YTimer != -1)));
+	text.draw(room_width - 4 - text.get_width(),room_height + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
 	#endregion
 }

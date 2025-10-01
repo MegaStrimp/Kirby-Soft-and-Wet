@@ -9,26 +9,40 @@ if ((localPause) or
 #region Selection
 if (canSelect)
 {
-	scr_KSW_Menu_Component_Navigate_Up();
-	
-	scr_KSW_Menu_Component_Navigate_Down();
-	
-	scr_KSW_Menu_Component_Navigate_Left();
-	
-	scr_KSW_Menu_Component_Navigate_Right();
-	
-	var pressFlag = scr_KSW_Menu_Component_SwitchPage_L();
-	if (pressFlag)
+	if (input_check_pressed("up",playerNum))
 	{
+		scr_KSW_Menu_Component_Navigate_Up();
+	}
+	
+	if (input_check_pressed("down",playerNum))
+	{
+		scr_KSW_Menu_Component_Navigate_Down();
+	}
+	
+	if (input_check_pressed("left",playerNum))
+	{
+		scr_KSW_Menu_Component_Navigate_Left();
+	}
+	
+	if (input_check_pressed("right",playerNum))
+	{
+		scr_KSW_Menu_Component_Navigate_Right();
+	}
+	
+	if (input_check_pressed("L",playerNum))
+	{
+		scr_KSW_Menu_Component_SwitchPage_L();
+		
 		for (var i = 0; i < pageSelectionCount; i++)
 		{
 			waveNum[i] = irandom_range(3600,5000);
 		}
 	}
 	
-	var pressFlag = scr_KSW_Menu_Component_SwitchPage_R();
-	if (pressFlag)
+	if (input_check_pressed("R",playerNum))
 	{
+		scr_KSW_Menu_Component_SwitchPage_R();
+		
 		for (var i = 0; i < pageSelectionCount; i++)
 		{
 			waveNum[i] = irandom_range(3600,5000);

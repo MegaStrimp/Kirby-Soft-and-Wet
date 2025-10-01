@@ -5,6 +5,7 @@ function scr_KSW_UI_Customize_ChangePage(targetPageID)
 	var finalID = KSW_PageIDs[? targetPageID];
 	
 	currentSetupScript = KSW_PageList[finalID].setupScript;
+	currentMainScript = KSW_PageList[finalID].mainScript;
 	currentSelectAction = KSW_PageList[finalID].selectAction;
 	currentBackAction = KSW_PageList[finalID].backAction;
 	currentUpAction = KSW_PageList[finalID].upAction;

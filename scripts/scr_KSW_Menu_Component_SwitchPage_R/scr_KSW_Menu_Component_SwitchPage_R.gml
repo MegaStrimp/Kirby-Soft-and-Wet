@@ -2,24 +2,15 @@
 
 function scr_KSW_Menu_Component_SwitchPage_R()
 {
-	var pressFlag = false;
+	scr_PlaySfx(snd_KSW_ButtonChange);
 	
-	if (input_check_pressed("R",playerNum))
+	if (page == pageMax)
 	{
-		pressFlag = true;
-		
-		scr_PlaySfx(snd_KSW_ButtonChange);
-		
-		if (page == pageMax)
-		{
-			page = 0;
-		}
-		else
-		{
-			page += 1;
-		}
-		selection = page * pageSelectionCount;
+		page = 0;
 	}
-	
-	return pressFlag;
+	else
+	{
+		page += 1;
+	}
+	selection = page * pageSelectionCount;
 }

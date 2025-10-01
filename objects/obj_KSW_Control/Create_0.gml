@@ -15,7 +15,7 @@ global.fullscreen = true;
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.0.2";
+global.versionNumber = "1.1.0";
 
 global.pauseScript = scr_KSW_PauseScript;
 
@@ -38,6 +38,9 @@ for (var i = 0; i < global.maxPlayers; i++)
 	global.playerCharacter[i] = global.KSW_CharacterIDs[? "kirby"];
 	global.KSW_PlayerEquippedSprayPaintShuffle[i] = true;
 	global.KSW_PlayerEquippedHatShuffle[i] = true;
+	global.KSW_EquippedBobberShuffle[i] = true;
+	global.KSW_EquippedBobberID[i] = 0;
+	global.KSW_EquippedBaitID[i] = 0;
 	
 	for (var h = 0; h < global.KSW_CharacterCount; h++)
 	{

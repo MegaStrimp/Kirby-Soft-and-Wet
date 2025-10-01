@@ -1,6 +1,6 @@
 ///@description KSW - UI - Customize - Add Page
 
-function scr_KSW_UI_Customize_AddPage(targetID,targetSetupScript,targetSelectAction,targetBackAction,targetUpAction,targetDownAction,targetLeftAction,targetRightAction,targetLAction,targetRAction,targetDrawScript)
+function scr_KSW_UI_Customize_AddPage(targetID,targetSetupScript,targetMainScript,targetSelectAction,targetBackAction,targetUpAction,targetDownAction,targetLeftAction,targetRightAction,targetLAction,targetRAction,targetDrawScript)
 {
 	ds_map_add(KSW_PageIDs,targetID,KSW_PageCount);
 	
@@ -8,6 +8,7 @@ function scr_KSW_UI_Customize_AddPage(targetID,targetSetupScript,targetSelectAct
 	{
         ID: targetID,
         setupScript: targetSetupScript,
+        mainScript: targetMainScript,
 		selectAction: targetSelectAction,
 		backAction: targetBackAction,
 		upAction: targetUpAction,

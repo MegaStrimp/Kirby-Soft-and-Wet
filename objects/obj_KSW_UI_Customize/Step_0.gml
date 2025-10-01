@@ -45,6 +45,10 @@ if (exitTimer == -1)
 	#endregion
 }
 
+#region Main
+if (currentMainScript != -1) script_execute(currentMainScript);
+#endregion
+
 #region Exit Timer
 if (exitTimer != -1)
 {

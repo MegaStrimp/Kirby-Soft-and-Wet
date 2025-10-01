@@ -26,6 +26,9 @@ function scr_KSW_LoadData(file)
 	    global.playerCharacter[i] = global.KSW_CharacterIDs[? ini_read_string("playerStatus","playerCharacter_" + string(i),"kirby")];
 	    global.KSW_PlayerEquippedSprayPaintShuffle[i] = ini_read_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),true);
 	    global.KSW_PlayerEquippedHatShuffle[i] = ini_read_real("playerStatus","playerEquippedHatShuffle_" + string(i),true);
+		global.KSW_EquippedBobberShuffle[i] = ini_read_real("playerStatus","equippedBobberShuffle",true);
+		global.KSW_EquippedBobberID[i] = global.KSW_BobberIDs[? ini_read_string("playerStatus","equippedBobber","red")];
+		global.KSW_EquippedBaitID[i] = global.KSW_BaitIDs[? ini_read_string("playerStatus","equippedBait","none")];
 		
 	    for (var h = 0; h < global.KSW_CharacterCount; h++)
 	    {

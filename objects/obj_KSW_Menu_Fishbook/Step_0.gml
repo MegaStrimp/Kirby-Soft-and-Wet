@@ -22,17 +22,35 @@ if (canSelect)
 {
 	if (!isZoomed)
 	{
-		scr_KSW_Menu_Component_Navigate_Up();
+		if (input_check_pressed("up",playerNum))
+		{
+			scr_KSW_Menu_Component_Navigate_Up();
+		}
 		
-		scr_KSW_Menu_Component_Navigate_Down();
+		if (input_check_pressed("down",playerNum))
+		{
+			scr_KSW_Menu_Component_Navigate_Down();
+		}
 		
-		scr_KSW_Menu_Component_Navigate_Left();
+		if (input_check_pressed("left",playerNum))
+		{
+			scr_KSW_Menu_Component_Navigate_Left();
+		}
 		
-		scr_KSW_Menu_Component_Navigate_Right();
+		if (input_check_pressed("right",playerNum))
+		{
+			scr_KSW_Menu_Component_Navigate_Right();
+		}
 		
-		scr_KSW_Menu_Component_SwitchPage_L();
+		if (input_check_pressed("L",playerNum))
+		{
+			scr_KSW_Menu_Component_SwitchPage_L();
+		}
 		
-		scr_KSW_Menu_Component_SwitchPage_R();
+		if (input_check_pressed("R",playerNum))
+		{
+			scr_KSW_Menu_Component_SwitchPage_R();
+		}
 		
 		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (global.KSW_FishList[selection].isCaught != 0))
 		{

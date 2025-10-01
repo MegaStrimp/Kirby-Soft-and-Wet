@@ -22,16 +22,17 @@ playerNum = 0;
 selection = 0;
 currentPage = 0;
 
-currentSetupScript = undefined;
-currentSelectAction = undefined;
-currentBackAction = undefined;
-currentUpAction = undefined;
-currentDownAction = undefined;
-currentLeftAction = undefined;
-currentRightAction = undefined;
-currentLAction = undefined;
-currentRAction = undefined;
-currentDrawScript = undefined;
+currentSetupScript = -1;
+currentMainScript = -1;
+currentSelectAction = -1;
+currentBackAction = -1;
+currentUpAction = -1;
+currentDownAction = -1;
+currentLeftAction = -1;
+currentRightAction = -1;
+currentLAction = -1;
+currentRAction = -1;
+currentDrawScript = -1;
 
 exitTimer = -1;
 exitTimerMax = 10;
