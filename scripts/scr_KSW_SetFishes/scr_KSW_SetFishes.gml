@@ -442,6 +442,7 @@ function scr_KSW_SetFishes()
 	#endregion
 	
 	#region 1.1
+	scr_KSW_AddFish("Fizzy",spr_KSW_Fish_Fizzy,spr_KSW_Fish_Fizzy_Pal,flux,0,grassBeach,KSW_Phases.day,300);
 	scr_KSW_AddFish("Azurill",spr_KSW_Fish_Azurill,spr_KSW_Fish_Azurill_Pal,mage,0,grassBeach,KSW_Phases.day,300);
 	scr_KSW_AddFish("Marill",spr_KSW_Fish_Marill,spr_KSW_Fish_Marill_Pal,mage,1,grassBeach,KSW_Phases.day,1800);
 	scr_KSW_AddFish("Azumarill",spr_KSW_Fish_Azumarill,spr_KSW_Fish_Azumarill_Pal,mage,2,grassBeach,KSW_Phases.day,6000);
@@ -534,6 +535,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Seadramon",spr_KSW_Fish_Seadramon,spr_KSW_Fish_Seadramon_Pal,mage,2,grassBeach,KSW_Phases.day,10000,4,24);
 	scr_KSW_AddFish("Trout Master Grimm",spr_KSW_Fish_TroutMasterGrimm,spr_KSW_Fish_TroutMasterGrimm_Pal,candy,3,grassBeach,KSW_Phases.night,100000,-2,30);
 	scr_KSW_AddFish("Freezer",spr_KSW_Fish_Freezer,spr_KSW_Fish_Freezer_Pal,mage,2,grassBeach,KSW_Phases.none,7000,0,40);
+	scr_KSW_AddFish("Strimpfish",spr_KSW_Fish_Strimpfish,spr_KSW_Fish_Strimpfish_Pal,legion,3,grassBeach,KSW_Phases.night,600000,0,0,,snd_KSW_Fish_Strimpfish);
 	#endregion
 	#endregion
 }

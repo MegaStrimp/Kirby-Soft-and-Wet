@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.230875,
+  "duration":0.23088436,
   "name":"snd_KSW_ButtonNo",
   "parent":{
     "name":"Sound Effects",
