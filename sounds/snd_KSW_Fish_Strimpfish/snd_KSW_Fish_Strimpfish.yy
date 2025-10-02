@@ -20,6 +20,9 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_KSW_Fish_Strimpfish.mp3",
+  "tags":[
+    "Sound Effect",
+  ],
   "type":1,
   "volume":1.0,
 }

@@ -297,7 +297,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Annoying Dogfish",spr_KSW_Fish_AnnoyingDogfish,spr_KSW_Fish_AnnoyingDogfish_Pal_Normal,mint,3,grassBeach,KSW_Phases.day,20015);
 	scr_KSW_AddFish("SPAM[FISH]",spr_KSW_Fish_Spamfish,spr_KSW_Fish_Spamfish_Pal_Normal,glimmer,3,grassBeach,KSW_Phases.none,1997,-26,-12);
 	scr_KSW_AddFish("Mr Ant Tenna",spr_KSW_Fish_MrAntTenna,spr_KSW_Fish_MrAntTenna_Pal_Normal,tvtime,3,grassBeach,KSW_Phases.none,300000,0,20).isTenna = true;
-	scr_KSW_AddFish("Aquatic Spawn",spr_KSW_Fish_AquaticSpawn,spr_KSW_Fish_AquaticSpawn_Pal_Normal,flux,3,grassBeach,KSW_Phases.night,122597);
+	scr_KSW_AddFish("Aquatic Spawn",spr_KSW_Fish_AquaticSpawn,spr_KSW_Fish_AquaticSpawn_Pal_Normal,flux,3,grassBeach,KSW_Phases.night,122597,12,12);
 	scr_KSW_AddFish("Quirky Knight",spr_KSW_Fish_QuirkyKnight,spr_KSW_Fish_QuirkyKnight_Pal_Normal,mint,3,grassBeach,KSW_Phases.night,20000,0,8);
 	scr_KSW_AddFish("Big Lenny",spr_KSW_Fish_Big_Lenny_Normal,spr_KSW_Fish_Big_Lenny_Pal_Normal,flux,3,grassBeach,KSW_Phases.night,100000,23,10);
 	scr_KSW_AddFish("Game Shark",spr_KSW_Fish_GameShark,spr_KSW_Fish_GameShark_Pal_Normal,legion,3,grassBeach,KSW_Phases.afternoon,8000,-12,4);
@@ -535,7 +535,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Seadramon",spr_KSW_Fish_Seadramon,spr_KSW_Fish_Seadramon_Pal,mage,2,grassBeach,KSW_Phases.day,10000,4,24);
 	scr_KSW_AddFish("Trout Master Grimm",spr_KSW_Fish_TroutMasterGrimm,spr_KSW_Fish_TroutMasterGrimm_Pal,candy,3,grassBeach,KSW_Phases.night,100000,-2,30);
 	scr_KSW_AddFish("Freezer",spr_KSW_Fish_Freezer,spr_KSW_Fish_Freezer_Pal,mage,2,grassBeach,KSW_Phases.none,7000,0,40);
-	scr_KSW_AddFish("Strimpfish",spr_KSW_Fish_Strimpfish,spr_KSW_Fish_Strimpfish_Pal,legion,3,grassBeach,KSW_Phases.night,600000,0,0,,snd_KSW_Fish_Strimpfish);
+	scr_KSW_AddFish("Strimpfish",spr_KSW_Fish_Strimpfish,spr_KSW_Fish_Strimpfish_Pal,legion,3,grassBeach,KSW_Phases.night,600000,-21,0,-1,snd_KSW_Fish_Strimpfish);
 	#endregion
 	#endregion
 }
