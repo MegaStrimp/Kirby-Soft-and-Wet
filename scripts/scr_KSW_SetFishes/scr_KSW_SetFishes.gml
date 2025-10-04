@@ -538,6 +538,15 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Trout Master Grimm",spr_KSW_Fish_TroutMasterGrimm,spr_KSW_Fish_TroutMasterGrimm_Pal,candy,3,grassBeach,KSW_Phases.night,100000,-2,30);
 	scr_KSW_AddFish("Freezer",spr_KSW_Fish_Freezer,spr_KSW_Fish_Freezer_Pal,mage,2,grassBeach,KSW_Phases.none,7000,0,40);
 	scr_KSW_AddFish("Strimpfish",spr_KSW_Fish_Strimpfish,spr_KSW_Fish_Strimpfish_Pal,legion,3,grassBeach,KSW_Phases.night,600000,-21,0,-1,snd_KSW_Fish_Strimpfish);
+	scr_KSW_AddFish("King Fossil",spr_KSW_Fish_KingFossil,spr_KSW_Fish_KingFossil_Pal,legion,2,grassBeach,KSW_Phases.day,15000);
+	scr_KSW_AddFish("Great Thing",spr_KSW_Fish_GreatThing,spr_KSW_Fish_GreatThing_Pal,legion,3,grassBeach,KSW_Phases.night,100000);
+	scr_KSW_AddFish("Moe",spr_KSW_Fish_Moe,spr_KSW_Fish_Moe_Pal,borange,1,grassBeach,KSW_Phases.day,2500);
+	scr_KSW_AddFish("Old Man Lobber",spr_KSW_Fish_OldManLobber,spr_KSW_Fish_OldManLobber_Pal,candy,1,grassBeach,KSW_Phases.day,3200);
+	scr_KSW_AddFish("Starly",spr_KSW_Fish_Starly,spr_KSW_Fish_Starly_Pal,glimmer,2,grassBeach,KSW_Phases.day,8900);
+	scr_KSW_AddFish("Starfy",spr_KSW_Fish_Starfy,spr_KSW_Fish_Starfy_Pal,mage,3,grassBeach,KSW_Phases.day,25000);
+	scr_KSW_AddFish("Mine",spr_KSW_Fish_Mine,spr_KSW_Fish_Mine_Pal,borange,0,grassBeach,KSW_Phases.none,1500);
+	scr_KSW_AddFish("N. Trance",spr_KSW_Fish_NTrance,spr_KSW_Fish_NTrance_Pal,flux,2,grassBeach,KSW_Phases.afternoon,12500);
+	scr_KSW_AddFish("Crash Bandicoot",spr_KSW_Fish_CrashBandicoot,spr_KSW_Fish_CrashBandicoot_Pal,borange,3,grassBeach,KSW_Phases.afternoon,25000);
 	#endregion
 	#endregion
 }
