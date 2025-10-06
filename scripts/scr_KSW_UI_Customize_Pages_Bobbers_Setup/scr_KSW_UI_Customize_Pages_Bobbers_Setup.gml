@@ -3,15 +3,31 @@
 function scr_KSW_UI_Customize_Pages_Bobbers_Setup()
 {
 	#region Initialize Variables
+	#region Selection List
+	scr_KSW_Menu_Component_CreateSelectionList(global.KSW_BobberList,global.KSW_BobberCount,true);
+	
+	for (var i = 0; i < ds_list_size(selectionList); i++)
+	{
+		if (ds_list_find_value(selectionList,i) != -1)
+		{
+			if ((global.KSW_BobberList[ds_list_find_value(selectionList,i)].isHidden) and (!global.KSW_BobberList[ds_list_find_value(selectionList,i)].isUnlocked))
+			{
+				ds_list_delete(selectionList,i);
+				i--;
+			}
+		}
+	}
+	#endregion
+	
 	#region Component Setup
-	scr_KSW_Menu_Component_Navigate_Setup(global.KSW_BobberCount);
+	scr_KSW_Menu_Component_Navigate_Setup(ds_list_size(selectionList));
 	scr_KSW_Menu_Component_SwitchPage_Setup(3,6);
 	#endregion
 	
 	#region Menu Variables
 	playerNum = 0;
 	
-	isCompleted = (global.KSW_UnlockedBobberCount >= global.KSW_BobberCount);
+	isCompleted = (global.KSW_UnlockedBobberCount >= global.KSW_VisibleBobberCount);
 	selectionImageIndex = 0;
 	selectionScale = 1;
 	selectionStarCount = 0;
@@ -30,8 +46,6 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Setup()
 	selectionIndex = 0;
 	selectionSpd = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60;
 	selectionNumber = sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
-	
-	scr_KSW_Menu_Component_CreateSelectionList(global.KSW_BobberList,global.KSW_BobberCount,true);
 	
 	bobberImageIndex = [];
 	for (var i = 0; i < ds_list_size(selectionList); i++)

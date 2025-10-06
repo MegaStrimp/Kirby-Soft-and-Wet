@@ -23,16 +23,16 @@ function scr_KSW_SetBobbers()
 	
 	#region Add Bobbers Here
 	scr_KSW_AddBobber("red","Red",spr_KSW_Bobber_Red,candy,0,0,-4,false,true);
-	scr_KSW_AddBobber("blue","Blue",spr_KSW_Bobber_Blue,candy,0,0,-4,false,true);
-	scr_KSW_AddBobber("green","Green",spr_KSW_Bobber_Green,candy,0,0,-4,false,true);
-	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,candy,0,0,-4);
-	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,candy,100,0,-4);
-	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,candy,0,0,-4);
-	scr_KSW_AddBobber("darkMatter","Dark Matter",spr_KSW_Bobber_DarkMatter,candy,0,0,-7);
-	scr_KSW_AddBobber("starry","Starry",spr_KSW_Bobber_Starry,candy,0,0,-4);
-	scr_KSW_AddBobber("legend","Legend",spr_KSW_Bobber_Legend,candy,0,0,-8,true);
-	scr_KSW_AddBobber("hayuto","Hayuto",spr_KSW_Bobber_Hayuto,candy,0,0,-8,true);
-	scr_KSW_AddBobber("deirdre","Deirdre",spr_KSW_Bobber_Deirdre,candy,0,0,-5,true);
-	scr_KSW_AddBobber("rogueMatter","Rogue Matter",spr_KSW_Bobber_RogueMatter,candy,0,0,-5,true);
+	scr_KSW_AddBobber("blue","Blue",spr_KSW_Bobber_Blue,mage,0,0,-4,false,true);
+	scr_KSW_AddBobber("green","Green",spr_KSW_Bobber_Green,mint,0,0,-4,false,true);
+	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,glimmer,0,0,-4);
+	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,candy,0,0,-4);
+	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,glimmer,0,0,-4);
+	scr_KSW_AddBobber("darkMatter","Dark Matter",spr_KSW_Bobber_DarkMatter,flux,0,0,-7);
+	scr_KSW_AddBobber("starry","Starry",spr_KSW_Bobber_Starry,mage,0,0,-4);
+	scr_KSW_AddBobber("legend","Legend",spr_KSW_Bobber_Legend,flux,0,0,-8,true);
+	scr_KSW_AddBobber("hayuto","Hayuto",spr_KSW_Bobber_Hayuto,legion,0,0,-8,true);
+	scr_KSW_AddBobber("deirdre","Deirdre",spr_KSW_Bobber_Deirdre,borange,0,0,-5,true);
+	scr_KSW_AddBobber("rogueMatter","Rogue Matter",spr_KSW_Bobber_RogueMatter,flux,0,0,-5,true);
 	#endregion
 }
