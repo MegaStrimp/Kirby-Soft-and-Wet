@@ -27,15 +27,17 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Setup()
 	drawSurface_PixelW = shader_get_uniform(shd_ColoredOutline,"pixelW");
 	drawSurface_OutlineColor = shader_get_uniform(shd_ColoredOutline,"outlineColor");
 	
-	bobberImageIndex = [];
-	for (var i = 0; i < global.KSW_FishCount; i++)
-	{
-		bobberImageIndex[i] = 0;
-	}
-	
 	selectionIndex = 0;
 	selectionSpd = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60;
 	selectionNumber = sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
+	
+	scr_KSW_Menu_Component_CreateSelectionList(global.KSW_BobberList,global.KSW_BobberCount,true);
+	
+	bobberImageIndex = [];
+	for (var i = 0; i < ds_list_size(selectionList); i++)
+	{
+		bobberImageIndex[i] = 0;
+	}
 	#endregion
 	#endregion
 }

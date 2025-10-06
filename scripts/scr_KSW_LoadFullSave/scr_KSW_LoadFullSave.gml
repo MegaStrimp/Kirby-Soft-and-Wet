@@ -49,7 +49,7 @@ function scr_KSW_LoadFullSave()
 		
 		ds_list_add(global.KSW_AvailableBobbers,i);
 		
-		global.KSW_UnlockedBobberCount += 1;
+		if (!global.KSW_BobberList[i].isHidden) global.KSW_UnlockedBobberCount += 1;
 	}
 	#endregion
 	

@@ -20,6 +20,7 @@ enum KSW_UI_Customize_Bubbles
 playerNum = 0;
 
 selection = 0;
+selectionList = -1;
 currentPage = 0;
 
 currentSetupScript = -1;
@@ -42,5 +43,7 @@ hintOffset = 32;
 scr_KSW_UI_Customize_SetPages();
 
 scr_KSW_UI_Customize_ChangePage("main");
+
+scr_KSW_Menu_Fishbook_CalibMode_Setup();
 #endregion
 #endregion

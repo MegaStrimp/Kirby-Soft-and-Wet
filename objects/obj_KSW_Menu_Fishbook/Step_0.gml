@@ -7,10 +7,7 @@ if ((localPause) or
 #endregion
 
 #region Calib Mobe
-if (global.debug)
-{
-	scr_KSW_Menu_Fishbook_CalibMode_Step();
-}
+if (global.debug) scr_KSW_Menu_Fishbook_CalibMode_Step();
 #endregion
 
 #region Shine
@@ -52,19 +49,19 @@ if (canSelect)
 			scr_KSW_Menu_Component_SwitchPage_R();
 		}
 		
-		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (global.KSW_FishList[selection].isCaught != 0))
+		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0))
 		{
 			scr_PlaySfx(snd_KSW_ButtonYes);
 			
-			if (global.KSW_FishList[selection].catchAudio != -1) scr_PlaySfx(global.KSW_FishList[selection].catchAudio);
+			if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio != -1) scr_PlaySfx(global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio);
 			
 			isZoomed = true;
 			selectionImageIndex = 0;
 			selectionStarCount = 0;
-			if (selectionStarCount < global.KSW_FishList[selection].rarity) selectionStarTimer = 20;
+			if (selectionStarCount < global.KSW_FishList[ds_list_find_value(selectionList,selection)].rarity) selectionStarTimer = 20;
 		}
 		
-		if ((input_check_pressed("Y",playerNum)) and (global.KSW_FishList[selection].isCaught != 0) and (global.KSW_FishList[selection].isCaughtShiny != 0))
+		if ((input_check_pressed("Y",playerNum)) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
 		{
 			scr_PlaySfx(snd_KSW_ButtonChange);
 			
@@ -80,7 +77,7 @@ if (canSelect)
 	}
 	else
 	{
-		if ((input_check_pressed("Y",playerNum)) and (global.KSW_FishList[selection].isCaught != 0) and (global.KSW_FishList[selection].isCaughtShiny != 0))
+		if ((input_check_pressed("Y",playerNum)) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
 		{
 			scr_PlaySfx(snd_KSW_ButtonChange);
 			
@@ -117,7 +114,7 @@ if (!localPause)
 	
 	for (var i = selectionStart; i < selectionEnd; i++)
 	{
-		var spriteIndex = global.KSW_FishList[i].sprite;
+		var spriteIndex = global.KSW_FishList[ds_list_find_value(selectionList,i)].sprite;
 		
 		if (spriteIndex != -1)
 		{
@@ -126,13 +123,10 @@ if (!localPause)
 		}
 	}
 	
-	var spriteIndex = global.KSW_FishList[selection].sprite;
+	var spriteIndex = global.KSW_FishList[ds_list_find_value(selectionList,selection)].sprite;
 	
-	if (spriteIndex != -1)
-	{
-		var imageSpeed = sprite_get_speed(spriteIndex) / 60 * speedMultFinal;
-		selectionImageIndex = (selectionImageIndex + imageSpeed) % sprite_get_number(spriteIndex);
-	}
+	var imageSpeed = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60 * speedMultFinal;
+	selectionImageIndex = (selectionImageIndex + imageSpeed) % sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
 	#endregion
 	
 	#region Zoom Alpha
@@ -145,7 +139,7 @@ if (!localPause)
 		selectionStarTimer = max(selectionStarTimer - speedMultFinal,0);
 		if (selectionStarTimer == 0)
 		{
-			if (selectionStarCount < global.KSW_FishList[selection].rarity)
+			if (selectionStarCount < global.KSW_FishList[ds_list_find_value(selectionList,selection)].rarity)
 			{
 				scr_PlaySfx(snd_KSW_Star);
 				

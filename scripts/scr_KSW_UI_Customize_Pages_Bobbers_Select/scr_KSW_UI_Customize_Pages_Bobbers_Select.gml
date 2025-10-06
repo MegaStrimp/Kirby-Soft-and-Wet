@@ -2,5 +2,31 @@
 
 function scr_KSW_UI_Customize_Pages_Bobbers_Select()
 {
-
+	if (ds_list_find_value(selectionList,selection) == -1)
+	{
+		scr_PlaySfx(snd_KSW_ButtonYes);
+		
+		global.KSW_EquippedBobberShuffle[playerNum] = true;
+	}
+	else
+	{
+		if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked)
+		{
+			scr_PlaySfx(snd_KSW_ButtonYes);
+			
+			global.KSW_EquippedBobberShuffle[playerNum] = false;
+			global.KSW_EquippedBobberID[playerNum] = ds_list_find_value(selectionList,selection);
+		}
+		else
+		{
+			if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price == 0)
+			{
+				scr_PlaySfx(snd_KSW_ButtonError);
+			}
+			else
+			{
+				//BUY
+			}
+		}
+	}
 }

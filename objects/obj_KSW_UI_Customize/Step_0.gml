@@ -1,5 +1,9 @@
 ///@description Main
 
+#region Calib Mobe
+if (global.debug) scr_KSW_Menu_Fishbook_CalibMode_Step();
+#endregion
+
 if (exitTimer == -1)
 {
 	#region Selection

@@ -10,6 +10,7 @@ scr_Component_ButtonInputTimer_Setup(5);
 #region Menu Variables
 playerNum = 0;
 
+selectionList = -1;
 isZoomed = false;
 isCompleted = (global.KSW_CaughtUniqueFishCount >= global.KSW_FishCount);
 zoomAlpha = isZoomed;
@@ -42,6 +43,8 @@ for (var i = 0; i < global.KSW_FishCount; i++)
 selectionIndex = 0;
 selectionSpd = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60;
 selectionNumber = sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
+
+scr_KSW_Menu_Component_CreateSelectionList(global.KSW_FishList,global.KSW_FishCount);
 
 scr_KSW_Menu_Fishbook_CalibMode_Setup();
 #endregion

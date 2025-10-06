@@ -20,8 +20,15 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Main()
 		
 		for (var i = selectionStart; i < selectionEnd; i++)
 		{
-			var spriteIndex = global.KSW_BobberList[i].sprite;
-		
+			if (ds_list_find_value(selectionList,i) == -1)
+			{
+				var spriteIndex = spr_KSW_UI_Customize_Random;
+			}
+			else
+			{
+				var spriteIndex = global.KSW_BobberList[ds_list_find_value(selectionList,i)].sprite;
+			}
+			
 			if (spriteIndex != -1)
 			{
 				var imageSpeed = sprite_get_speed(spriteIndex) / 60 * speedMultFinal;
@@ -29,13 +36,8 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Main()
 			}
 		}
 		
-		var spriteIndex = global.KSW_BobberList[selection].sprite;
-		
-		if (spriteIndex != -1)
-		{
-			var imageSpeed = sprite_get_speed(spriteIndex) / 60 * speedMultFinal;
-			selectionImageIndex = (selectionImageIndex + imageSpeed) % sprite_get_number(spriteIndex);
-		}
+		var imageSpeed = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60 * speedMultFinal;
+		selectionImageIndex = (selectionImageIndex + imageSpeed) % sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
 		#endregion
 	}
 }
