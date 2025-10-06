@@ -24,9 +24,9 @@ function scr_KSW_LoadData(file)
 	for (var i = 0; i < global.maxPlayers; i++)
 	{
 	    global.playerCharacter[i] = global.KSW_CharacterIDs[? ini_read_string("playerStatus","playerCharacter_" + string(i),"kirby")];
-	    global.KSW_PlayerEquippedSprayPaintShuffle[i] = ini_read_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),true);
-	    global.KSW_PlayerEquippedHatShuffle[i] = ini_read_real("playerStatus","playerEquippedHatShuffle_" + string(i),true);
-		global.KSW_EquippedBobberShuffle[i] = ini_read_real("playerStatus","equippedBobberShuffle",true);
+	    global.KSW_PlayerEquippedSprayPaintShuffle[i] = ini_read_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),false);
+	    global.KSW_PlayerEquippedHatShuffle[i] = ini_read_real("playerStatus","playerEquippedHatShuffle_" + string(i),false);
+		global.KSW_EquippedBobberShuffle[i] = ini_read_real("playerStatus","equippedBobberShuffle_" + string(i),true);
 		global.KSW_EquippedBobberID[i] = global.KSW_BobberIDs[? ini_read_string("playerStatus","equippedBobber","red")];
 		global.KSW_EquippedBaitID[i] = global.KSW_BaitIDs[? ini_read_string("playerStatus","equippedBait","none")];
 		
@@ -48,6 +48,7 @@ function scr_KSW_LoadData(file)
 		var characterID = global.KSW_CharacterList[i].ID;
 		
 		var characterIsUnlocked = ini_read_real("characterStatus",string(characterID) + "_IsUnlocked",false);
+		if (global.KSW_CharacterList[i].isDefault) characterIsUnlocked = true;
 		
 		global.KSW_CharacterList[i].isUnlocked = characterIsUnlocked;
 		
@@ -61,6 +62,7 @@ function scr_KSW_LoadData(file)
 			var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
 			
 			var sprayPaintIsUnlocked = ini_read_real("sprayPaintStatus",string(characterID) + "_" + string(sprayPaintID) + "_IsUnlocked",false);
+			if (global.KSW_CharacterList[i].sprayPaints[j].isDefault) sprayPaintIsUnlocked = true;
 			
 			global.KSW_CharacterList[i].sprayPaints[j].isUnlocked = sprayPaintIsUnlocked;
 			
@@ -76,6 +78,7 @@ function scr_KSW_LoadData(file)
 			var hatID = global.KSW_CharacterList[i].hats[j].ID;
 			
 			var hatIsUnlocked = ini_read_real("hatStatus",string(characterID) + "_" + string(hatID) + "_IsUnlocked",false);
+			if (global.KSW_CharacterList[i].hats[j].isDefault) hatIsUnlocked = true;
 			
 			global.KSW_CharacterList[i].hats[j].isUnlocked = hatIsUnlocked;
 			
@@ -116,6 +119,7 @@ function scr_KSW_LoadData(file)
 		var baitID = global.KSW_BaitList[i].ID;
 		
 		var baitIsUnlocked = ini_read_real("baitStatus",string(baitID) + "_IsUnlocked",false);
+		if (global.KSW_BaitList[i].isDefault) baitIsUnlocked = true;
 		
 		global.KSW_BaitList[i].isUnlocked = baitIsUnlocked;
 		

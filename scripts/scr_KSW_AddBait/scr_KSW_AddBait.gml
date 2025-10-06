@@ -1,6 +1,6 @@
 ///@description KSW - Add Bait
 
-function scr_KSW_AddBait(targetID,targetName,targetSprite,targetPrice)
+function scr_KSW_AddBait(targetID,targetName,targetSprite,targetPrice,targetIsDefault = false)
 {
 	ds_map_add(global.KSW_BaitIDs,targetID,global.KSW_BaitCount);
 	
@@ -10,6 +10,7 @@ function scr_KSW_AddBait(targetID,targetName,targetSprite,targetPrice)
         name: targetName,
         sprite: targetSprite,
         price: targetPrice,
+		isDefault: targetIsDefault,
 		isUnlocked: false
     };
 	

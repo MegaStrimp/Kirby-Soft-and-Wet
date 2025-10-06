@@ -1,6 +1,6 @@
 ///@description KSW - Menu - Component - Create Selection List
 
-function scr_KSW_Menu_Component_CreateSelectionList(targetList,targetLength,extraFirstIndex = false)
+function scr_KSW_Menu_Component_CreateSelectionList(targetLength,extraFirstIndex = false)
 {
 	if (ds_exists(selectionList,ds_type_list)) ds_list_destroy(selectionList);
 	selectionList = ds_list_create();

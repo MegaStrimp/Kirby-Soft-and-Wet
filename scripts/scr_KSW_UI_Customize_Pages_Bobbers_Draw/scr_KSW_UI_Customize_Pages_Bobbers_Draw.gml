@@ -8,7 +8,7 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 	#endregion
 	
 	#region Page Title
-	scribble("BOBBERS - PAGE " + string(page + 1)).align(fa_center).draw(xx + (global.gameWidth / 2),yy + 6 - hintOffset);
+	scribble("BOBBERS " + string(page + 1)).align(fa_center).draw(xx + (global.gameWidth / 2),yy + 6 - hintOffset);
 	#endregion
 	
 	#region Completion
@@ -17,23 +17,9 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 	if (isCompleted)
 	{
 		color = "[#FFD800]";
-		draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,room_width - 54,2 - hintOffset);
+		draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,global.gameWidth - 54,2 - hintOffset);
 	}
-	scribble(color + string(global.KSW_UnlockedBobberCount) + "/" + string(global.KSW_VisibleBobberCount) + "[/color]").align(fa_right).draw(room_width - 4,6 - hintOffset);
-	#endregion
-	
-	#region Bobber Name
-	if (ds_list_find_value(selectionList,selection) == -1)
-	{
-		var targetName = "RANDOMIZE";
-	}
-	else
-	{
-		var targetName = "???";
-		if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked) targetName = global.KSW_BobberList[ds_list_find_value(selectionList,selection)].name;
-	}
-	
-	scribble(targetName).align(fa_left).draw(4,18 - hintOffset);
+	scribble(color + string(global.KSW_UnlockedBobberCount) + "/" + string(global.KSW_VisibleBobberCount) + "[/color]").align(fa_right).draw(global.gameWidth - 4,6 - hintOffset);
 	#endregion
 	
 	for (var i = (page * pageSelectionCount); i < min((page + 1) * pageSelectionCount,ds_list_size(selectionList)); i++)
@@ -54,7 +40,7 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 			var spriteIndex = spr_KSW_UI_Customize_Random;
 			var spriteXOffset = 0;
 			var spriteYOffset = 0;
-			backgroundPalette = spr_KSW_UI_CaughtBox_Palette_TVTime;
+			backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Randomize;
 		}
 		#endregion
 		
@@ -109,7 +95,7 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 			}
 			else
 			{
-				draw_sprite(spr_KSW_UI_Coin,0,boxX + 14,boxY + 11);
+				draw_sprite(spr_KSW_UI_Coin,0,boxX + 13,boxY + 11);
 				scribble(string(global.KSW_BobberList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX + 14,boxY + 17);
 			}
 		}
@@ -124,12 +110,35 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 		#endregion
 	}
 	
+	#region Bobber Name
+	if (ds_list_find_value(selectionList,selection) == -1)
+	{
+		var targetName = "RANDOMIZE";
+	}
+	else
+	{
+		var targetName = "???";
+		if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked) targetName = global.KSW_BobberList[ds_list_find_value(selectionList,selection)].name;
+	}
+	
+	scribble(targetName).align(fa_center).draw(global.gameWidth / 2,global.gameHeight - 14 + hintOffset);
+	#endregion
+	
 	#region Button Hints
+	if (pageMax >= 1)
+	{
+		var targetIcon = global.UI_IconBindings[? string(input_binding_get("L"))];
+		if (targetIcon != undefined) draw_sprite(targetIcon,0,72,3 - hintOffset + (2 * (buttonInputTimerComponent_LTimer != -1)));
+		
+		var targetIcon = global.UI_IconBindings[? string(input_binding_get("R"))];
+		if (targetIcon != undefined) draw_sprite(targetIcon,0,157,3 - hintOffset + (2 * (buttonInputTimerComponent_RTimer != -1)));
+	}
+	
 	var exitIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("B"))];
 	if (targetIcon != undefined) exitIcon = "[" + sprite_get_name(targetIcon) + "]";
 	
-	scribble(exitIcon + "BACK").draw(4,room_height - 16 + hintOffset + (2 * (buttonInputTimerComponent_BTimer != -1)));
+	scribble(exitIcon + "BACK").draw(4,global.gameHeight - 16 + hintOffset + (2 * (buttonInputTimerComponent_BTimer != -1)));
 	
 	var selectIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("A"))];
@@ -137,6 +146,6 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 	
 	var text = scribble(selectIcon + "SELECT");
 	if ((ds_list_find_value(selectionList,selection) != -1) and (!global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked) and (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price != 0)) text = scribble(selectIcon + "BUY");
-	text.draw(room_width - 4 - text.get_width(),room_height + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
+	text.draw(global.gameWidth - 4 - text.get_width(),global.gameHeight + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
 	#endregion
 }

@@ -1,8 +1,8 @@
 ///@description KSW - Add Spray Paint
 
-function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprite,targetPrice,isDefault = false)
+function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprite,targetBoxPalette,targetPrice,targetIsDefault = false)
 {
-	ds_map_add(global.KSW_SprayPaintIDs,targetID,global.KSW_SprayPaintCount);
+	ds_map_add(global.KSW_SprayPaintIDs,targetID,global.KSW_TotalSprayPaintCount);
 	
 	var tempSprayPaintCount = global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaintCount;
 	global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaintCount += 1;
@@ -12,14 +12,17 @@ function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprit
         ID: targetID,
         name: targetName,
         sprite: targetSprite,
+		boxPalette: targetBoxPalette,
         price: targetPrice,
+		isDefault: targetIsDefault,
 		isUnlocked: false
     };
 	
-	if (isDefault)
+	if (targetIsDefault)
 	{
 		global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].defaultSprayPaint = targetID;
 	}
 	
-	global.KSW_SprayPaintCount += 1;
+	global.KSW_SprayPaintCount[global.KSW_CharacterIDs[? targetCharacterID]] += 1;
+	global.KSW_TotalSprayPaintCount += 1;
 }

@@ -4,7 +4,7 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Setup()
 {
 	#region Initialize Variables
 	#region Selection List
-	scr_KSW_Menu_Component_CreateSelectionList(global.KSW_BobberList,global.KSW_BobberCount,true);
+	scr_KSW_Menu_Component_CreateSelectionList(global.KSW_BobberCount,true);
 	
 	for (var i = 0; i < ds_list_size(selectionList); i++)
 	{
@@ -30,9 +30,6 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Setup()
 	isCompleted = (global.KSW_UnlockedBobberCount >= global.KSW_VisibleBobberCount);
 	selectionImageIndex = 0;
 	selectionScale = 1;
-	selectionStarCount = 0;
-	selectionStarTimer = -1;
-	selectionStarTimerMax = 5;
 	backgroundX = 0;
 	backgroundY = 0;
 	backgroundSpd = .1;

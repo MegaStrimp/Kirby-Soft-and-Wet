@@ -44,7 +44,7 @@ selectionIndex = 0;
 selectionSpd = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60;
 selectionNumber = sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
 
-scr_KSW_Menu_Component_CreateSelectionList(global.KSW_FishList,global.KSW_FishCount);
+scr_KSW_Menu_Component_CreateSelectionList(global.KSW_FishCount);
 
 scr_KSW_Menu_Fishbook_CalibMode_Setup();
 #endregion
