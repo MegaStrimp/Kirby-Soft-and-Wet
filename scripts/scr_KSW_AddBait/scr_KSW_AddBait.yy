@@ -6,7 +6,7 @@
   "name":"scr_KSW_AddBait",
   "parent":{
     "name":"Initialization",
-    "path":"folders/Kirby ~ Soft & Wet/Baits/Initialization.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Baits/Scripts/Initialization.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
