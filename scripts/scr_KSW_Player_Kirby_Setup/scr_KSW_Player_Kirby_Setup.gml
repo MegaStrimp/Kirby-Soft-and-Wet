@@ -17,6 +17,17 @@ function scr_KSW_Player_Kirby_Setup()
 	bobberShake = false;
 	bobberXTarget = -100;
 	bobberYTarget = -100;
+	bobberXOffset = 0;
+	bobberYOffset = 0;
+	
+	baitSurface = -1;
+	baitTexture = -1;
+	baitWidth = 0;
+	baitHeight = 0;
+	baitX = 0;
+	baitY = 0;
+	baitSpd = .3;
+	baitAngle = 0;
 	
 	rodX = -100;
 	rodY = -100;

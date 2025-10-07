@@ -19,13 +19,20 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Select()
 		}
 		else
 		{
-			if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price == 0)
+			if ((global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price == 0) or (global.KSW_CurrentCoins < global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price))
 			{
 				scr_PlaySfx(snd_KSW_ButtonError);
 			}
 			else
 			{
-				//BUY
+				scr_PlaySfx(snd_KSW_Coin);
+				scr_PlaySfx(snd_KSW_Buy);
+				
+				global.KSW_CurrentCoins -= global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price;
+				
+				displayedCoins_YOffsetTimer = displayedCoins_YOffsetTimerMax;
+				
+				global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked = true;
 			}
 		}
 	}

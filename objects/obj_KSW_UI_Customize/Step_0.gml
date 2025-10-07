@@ -66,6 +66,17 @@ if (exitTimer != -1)
 }
 #endregion
 
+#region Displayed Coins - Y Offset Timer
+if (displayedCoins_YOffsetTimer != -1)
+{
+	displayedCoins_YOffsetTimer = max(displayedCoins_YOffsetTimer - speedMultFinal,0);
+	if (displayedCoins_YOffsetTimer == 0)
+	{
+		displayedCoins_YOffsetTimer = -1;
+	}
+}
+#endregion
+
 #region Button Input Timers
 scr_Component_ButtonInputTimer_Step();
 #endregion

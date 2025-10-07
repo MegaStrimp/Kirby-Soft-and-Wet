@@ -1,6 +1,6 @@
 ///@description KSW - Add Music
 
-function scr_KSW_AddMusic(targetID,targetName,targetAuthor,targetAudio,targetLoopBegin = 0)
+function scr_KSW_AddMusic(targetID,targetName,targetAuthor,targetPhase,targetAudio,targetLoopBegin = 0)
 {
 	ds_map_add(global.KSW_MusicIDs,targetID,global.KSW_MusicCount);
 	
@@ -9,9 +9,12 @@ function scr_KSW_AddMusic(targetID,targetName,targetAuthor,targetAudio,targetLoo
         ID: targetID,
 		name: targetName,
 		author: targetAuthor,
+		phase: targetPhase,
 		audio: targetAudio,
 		loopBegin: targetLoopBegin,
     };
+	
+	audio_sound_loop_start(targetAudio,targetLoopBegin);
 	
 	global.KSW_MusicCount += 1;
 }

@@ -1,8 +1,21 @@
 ///@description Room Creation Code
 
 #region Music
-var targetPool = global.KSW_PhaseMusicPools[global.KSW_CurrentPhase]
-var targetMusic = targetPool[irandom_range(0,array_length(targetPool) - 1)];
+var musicTemp = ds_list_create();
+
+for (var i = 0; i < global.KSW_MusicCount; i++)
+{
+    if (global.KSW_MusicList[i].phase == global.KSW_CurrentPhase)
+	{
+        ds_list_add(musicTemp,i);
+    }
+}
+
+ds_list_shuffle(musicTemp);
+
+var targetMusic = global.KSW_MusicList[ds_list_find_value(musicTemp,0)].audio;
+
+ds_list_destroy(musicTemp);
 
 if (audio_get_name(global.musicPlaying) != audio_get_name(targetMusic))
 {

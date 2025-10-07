@@ -40,6 +40,9 @@ exitTimerMax = 10;
 
 hintOffset = 32;
 
+displayedCoins_YOffsetTimer = -1;
+displayedCoins_YOffsetTimerMax = 4;
+
 scr_KSW_UI_Customize_SetPages();
 
 scr_KSW_UI_Customize_ChangePage("main");

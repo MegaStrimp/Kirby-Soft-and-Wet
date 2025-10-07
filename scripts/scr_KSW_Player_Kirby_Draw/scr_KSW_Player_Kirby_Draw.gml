@@ -2,8 +2,45 @@
 
 function scr_KSW_Player_Kirby_Draw()
 {
-	#region Rod
+	#region Variables
 	var bobberShakeFinal = bobberShake * irandom_range(-1,1);
+	#endregion
+	
+	#region Bait
+	if (baitTexture != -1)
+	{
+		var surfaceWidth = baitWidth * 2;
+		var surfaceHeight = baitHeight * 2;
+		
+		if (!surface_exists(baitSurface)) baitSurface = surface_create(surfaceWidth,surfaceHeight);
+		
+		var surfaceOffsetX = bobberX + bobberShakeFinal - (surfaceWidth / 2);
+		var surfaceOffsetY = bobberY - (surfaceHeight / 2);
+		
+		surface_set_target(baitSurface);
+		draw_clear_alpha(c_black,0);
+		
+		gpu_set_blendmode(bm_normal);
+		draw_sprite_ext(spr_KSW_Bait_Mask,0,(surfaceWidth / 2),(surfaceHeight / 2),1,1,baitAngle,c_white,.9);
+		
+		gpu_set_blendmode_ext_sepalpha(bm_dest_alpha,bm_zero,bm_zero,bm_one);
+		for (var i = -2; i < 2; i++)
+		{
+		    for (var h = -2; h < 2; h++)
+		    {
+		        draw_sprite(spr_KSW_UI_NotifBox_Texture,0,(surfaceWidth / 2) + baitX + bobberXOffset + (baitWidth * i),(surfaceHeight / 2) + baitY + bobberYOffset + (baitHeight * h));
+		    }
+		}
+		
+		show_debug_message(bobberYOffset)
+		gpu_set_blendmode(bm_normal);
+		surface_reset_target();
+		
+		draw_surface(baitSurface,surfaceOffsetX,surfaceOffsetY);
+	}
+	#endregion
+	
+	#region Bobber
 	scr_DrawCurve(rodX + shakeXFinal,rodY,bobberX + bobberShakeFinal,bobberY,0,8);
 	draw_sprite(sprBobber,sprBobberImageIndex,bobberX + bobberShakeFinal,bobberY);
 	#endregion

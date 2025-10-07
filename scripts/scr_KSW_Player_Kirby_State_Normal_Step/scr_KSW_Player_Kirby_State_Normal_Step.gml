@@ -21,6 +21,7 @@ function scr_KSW_Player_Kirby_State_Normal_Step()
 		bobberY = -100;
 		bobberXTarget = -100;
 		bobberYTarget = -100;
+		baitTexture = -1;
 		break;
 		
 		case sprThrow:
@@ -32,6 +33,7 @@ function scr_KSW_Player_Kirby_State_Normal_Step()
 			bobberY = -100;
 			bobberXTarget = -100;
 			bobberYTarget = -100;
+			baitTexture = -1;
 			
 			if (image_index >= 4)
 			{
@@ -185,6 +187,7 @@ function scr_KSW_Player_Kirby_State_Normal_Step()
 		bobberY = -100;
 		bobberXTarget = -100;
 		bobberYTarget = -100;
+		baitTexture = -1;
 		break;
 		
 		case sprSuccess:
@@ -194,12 +197,22 @@ function scr_KSW_Player_Kirby_State_Normal_Step()
 		bobberY = -100;
 		bobberXTarget = -100;
 		bobberYTarget = -100;
+		baitTexture = -1;
 		break;
 		
 		default:
 		rodX = x;
 		rodY = y;
 		break;
+	}
+	#endregion
+	
+	#region Bait Movement
+	if (baitTexture != -1)
+	{
+		baitX = (baitX + baitSpd) % baitWidth;
+		baitY = (baitY + baitSpd) % baitHeight;
+		baitAngle = (baitAngle + baitSpd) % 360;
 	}
 	#endregion
 	
