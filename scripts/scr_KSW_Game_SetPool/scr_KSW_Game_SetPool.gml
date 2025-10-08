@@ -13,7 +13,9 @@ function scr_KSW_Game_SetPool()
 	
 	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 	{
-		if ((global.KSW_CurrentPhase == global.KSW_FishList[i].phase) or (global.KSW_FishList[i].phase == KSW_Phases.none))
+		var passPhaseCheck = false;
+		
+		if ((global.KSW_CurrentPhase == global.KSW_FishList[i].phase) or (passPhaseCheck) or (global.KSW_FishList[i].phase == KSW_Phases.none))
 		{
 			for (var j = 0; j < rate[global.KSW_FishList[i].rarity]; j++)
 			{

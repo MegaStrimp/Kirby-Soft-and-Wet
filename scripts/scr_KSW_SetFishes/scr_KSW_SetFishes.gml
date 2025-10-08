@@ -296,7 +296,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Pluey",spr_KSW_Fish_Pluey,spr_KSW_Fish_Pluey_Pal_Normal,mage,2,grassBeach,KSW_Phases.none,4800);
 	scr_KSW_AddFish("Annoying Dogfish",spr_KSW_Fish_AnnoyingDogfish,spr_KSW_Fish_AnnoyingDogfish_Pal_Normal,mint,3,grassBeach,KSW_Phases.day,20015);
 	scr_KSW_AddFish("SPAM[FISH]",spr_KSW_Fish_Spamfish,spr_KSW_Fish_Spamfish_Pal_Normal,glimmer,3,grassBeach,KSW_Phases.none,1997,-26,-12);
-	scr_KSW_AddFish("Mr Ant Tenna",spr_KSW_Fish_MrAntTenna,spr_KSW_Fish_MrAntTenna_Pal_Normal,tvtime,3,grassBeach,KSW_Phases.none,300000,0,20,,snd_KSW_Fish_Tenna).isTenna = true;
+	var tenna = scr_KSW_AddFish("Mr Ant Tenna",spr_KSW_Fish_MrAntTenna,spr_KSW_Fish_MrAntTenna_Pal_Normal,tvtime,3,grassBeach,KSW_Phases.none,300000,0,20,-1,snd_KSW_Fish_Tenna);
+	tenna.phaseIcon = spr_KSW_Menu_TitleScreen_Phase_TVTime;
 	scr_KSW_AddFish("Aquatic Spawn",spr_KSW_Fish_AquaticSpawn,spr_KSW_Fish_AquaticSpawn_Pal_Normal,flux,3,grassBeach,KSW_Phases.night,122597,12,12);
 	scr_KSW_AddFish("Quirky Knight",spr_KSW_Fish_QuirkyKnight,spr_KSW_Fish_QuirkyKnight_Pal_Normal,mint,3,grassBeach,KSW_Phases.night,20000,0,8);
 	scr_KSW_AddFish("Big Lenny",spr_KSW_Fish_Big_Lenny_Normal,spr_KSW_Fish_Big_Lenny_Pal_Normal,flux,3,grassBeach,KSW_Phases.night,100000,23,10);

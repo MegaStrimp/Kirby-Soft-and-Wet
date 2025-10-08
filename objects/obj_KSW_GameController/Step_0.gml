@@ -440,9 +440,9 @@ if (!localPause)
 					name = string_upper(global.KSW_FishList[other.currentFish].name);
 					rarity = global.KSW_FishList[other.currentFish].rarity;
 					phase = global.KSW_FishList[other.currentFish].phase;
+					phaseIcon = global.KSW_FishList[other.currentFish].phaseIcon;
 					isShiny = other.currentFishIsShiny;
 					backgroundPalette = global.KSW_FishList[other.currentFish].caughtBoxPalette;
-					isTenna = global.KSW_FishList[other.currentFish].isTenna;
 					
 					if (rarity > 0) starTimer = 20;
 				}
@@ -468,10 +468,10 @@ if (!localPause)
 				spriteYOffset = global.KSW_FishList[other.currentFish].yOffset;
 				rarity = global.KSW_FishList[other.currentFish].rarity;
 				phase = global.KSW_FishList[other.currentFish].phase;
+				phaseIcon = global.KSW_FishList[other.currentFish].phaseIcon;
 				isShiny = other.currentFishIsShiny;
 				isNew = other.currentFishIsNew;
 				backgroundPalette = global.KSW_FishList[other.currentFish].caughtBoxPalette;
-				isTenna = global.KSW_FishList[other.currentFish].isTenna;
 				if (targetCoins != 0)
 				{
 					storedCoins = targetCoins;

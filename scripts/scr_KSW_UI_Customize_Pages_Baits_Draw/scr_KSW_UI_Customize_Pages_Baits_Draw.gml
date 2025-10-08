@@ -111,7 +111,7 @@ function scr_KSW_UI_Customize_Pages_Baits_Draw()
 	
 	#region Bait Description
 	var targetDescription = "???";
-	if (global.KSW_BaitList[ds_list_find_value(selectionList,selection)].isUnlocked) targetDescription = global.KSW_BaitList[ds_list_find_value(selectionList,selection)].description;
+	if (global.KSW_BaitList[ds_list_find_value(selectionList,selection)].isUnlocked) targetDescription = "[#F5FF77]" + string(global.KSW_BaitList[ds_list_find_value(selectionList,selection)].description) + "[/color]";
 	
 	scribble(targetDescription).draw(4,18 - hintOffset);
 	#endregion

@@ -14,25 +14,24 @@ function scr_KSW_Player_Kirby_Draw()
 		
 		if (!surface_exists(baitSurface)) baitSurface = surface_create(surfaceWidth,surfaceHeight);
 		
-		var surfaceOffsetX = bobberX + bobberShakeFinal - (surfaceWidth / 2);
-		var surfaceOffsetY = bobberY - (surfaceHeight / 2);
+		var surfaceOffsetX = bobberX + bobberShakeFinal - (surfaceWidth / 2) - bobberXOffset;
+		var surfaceOffsetY = bobberY - (surfaceHeight / 2) - bobberYOffset;
 		
 		surface_set_target(baitSurface);
 		draw_clear_alpha(c_black,0);
 		
 		gpu_set_blendmode(bm_normal);
-		draw_sprite_ext(spr_KSW_Bait_Mask,0,(surfaceWidth / 2),(surfaceHeight / 2),1,1,baitAngle,c_white,.9);
+		draw_sprite_ext(spr_KSW_Bait_Mask,0,(surfaceWidth / 2),(surfaceHeight / 2),1,1,baitAngle,c_white,.95);
 		
 		gpu_set_blendmode_ext_sepalpha(bm_dest_alpha,bm_zero,bm_zero,bm_one);
 		for (var i = -2; i < 2; i++)
 		{
 		    for (var h = -2; h < 2; h++)
 		    {
-		        draw_sprite(spr_KSW_UI_NotifBox_Texture,0,(surfaceWidth / 2) + baitX + bobberXOffset + (baitWidth * i),(surfaceHeight / 2) + baitY + bobberYOffset + (baitHeight * h));
+		        draw_sprite(spr_KSW_UI_NotifBox_Texture,0,(surfaceWidth / 2) + baitX + (baitWidth * i),(surfaceHeight / 2) + baitY + (baitHeight * h));
 		    }
 		}
 		
-		show_debug_message(bobberYOffset)
 		gpu_set_blendmode(bm_normal);
 		surface_reset_target();
 		

@@ -3282,6 +3282,7 @@
     {"id":{"name":"spr_KSW_UI_Customize_Bubble_Stages_Big","path":"sprites/spr_KSW_UI_Customize_Bubble_Stages_Big/spr_KSW_UI_Customize_Bubble_Stages_Big.yy",},},
     {"id":{"name":"spr_KSW_UI_Customize_Bubble_Stages_Medium","path":"sprites/spr_KSW_UI_Customize_Bubble_Stages_Medium/spr_KSW_UI_Customize_Bubble_Stages_Medium.yy",},},
     {"id":{"name":"spr_KSW_UI_Customize_Bubble_Stages_Small","path":"sprites/spr_KSW_UI_Customize_Bubble_Stages_Small/spr_KSW_UI_Customize_Bubble_Stages_Small.yy",},},
+    {"id":{"name":"spr_KSW_UI_Customize_Decal1","path":"sprites/spr_KSW_UI_Customize_Decal1/spr_KSW_UI_Customize_Decal1.yy",},},
     {"id":{"name":"spr_KSW_UI_Customize_Random","path":"sprites/spr_KSW_UI_Customize_Random/spr_KSW_UI_Customize_Random.yy",},},
     {"id":{"name":"spr_KSW_UI_Customize_Spray","path":"sprites/spr_KSW_UI_Customize_Spray/spr_KSW_UI_Customize_Spray.yy",},},
     {"id":{"name":"spr_KSW_UI_Customize_Text_Baits","path":"sprites/spr_KSW_UI_Customize_Text_Baits/spr_KSW_UI_Customize_Text_Baits.yy",},},

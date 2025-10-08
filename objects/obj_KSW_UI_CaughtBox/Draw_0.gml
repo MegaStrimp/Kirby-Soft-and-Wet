@@ -44,31 +44,7 @@ for (var i = 0; i < rarity; i++)
 #endregion
 
 #region Phase
-var phaseSprite = -1;
-
-if (isTenna)
-{
-	phaseSprite = spr_KSW_Menu_TitleScreen_Phase_TVTime;
-}
-else
-{
-	switch (phase)
-	{
-		case KSW_Phases.day:
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Day;
-		break;
-		
-		case KSW_Phases.afternoon:
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
-		break;
-		
-		case KSW_Phases.night:
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Night;
-		break;
-	}
-}
-
-if (phaseSprite != -1) draw_sprite(phaseSprite,0,x - (flag_ThrowCoin * 2) + 17,y - 6)
+if (phaseIcon != -1) draw_sprite(phaseIcon,0,x - (flag_ThrowCoin * 2) + 17,y - 6)
 #endregion
 
 #region New

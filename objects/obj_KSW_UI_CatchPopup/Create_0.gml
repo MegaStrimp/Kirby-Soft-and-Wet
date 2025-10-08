@@ -16,9 +16,9 @@ spriteYOffset = 0;
 name = "";
 rarity = 0;
 phase = KSW_Phases.none;
+phaseIcon = -1;
 isShiny = false;
 backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
-isTenna = false;
 
 drawSurface = -1;
 drawSurface_PixelH = shader_get_uniform(shd_ColoredOutline,"pixelH");

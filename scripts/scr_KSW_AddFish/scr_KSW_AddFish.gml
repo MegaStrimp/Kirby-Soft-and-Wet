@@ -7,6 +7,22 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
 	
 	ds_map_add(global.KSW_FishIDs,targetName,global.KSW_FishCount);
 	
+	var targetPhaseIcon = -1;
+	switch (targetPhase)
+	{
+		case KSW_Phases.day:
+		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Day;
+		break;
+		
+		case KSW_Phases.afternoon:
+		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
+		break;
+		
+		case KSW_Phases.night:
+		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Night;
+		break;
+	}
+	
 	global.KSW_FishList[global.KSW_FishIDs[? targetName]] = 
 	{
         id: global.KSW_FishCount,
@@ -17,6 +33,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
         rarity: targetRarity,
         stage: targetStage,
         phase: targetPhase,
+		phaseIcon: targetPhaseIcon,
         gram: targetGram,
         gramOffset: targetGramOffset,
         xOffset: targetXOffset,
@@ -24,8 +41,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
         catchScript: targetCatchScript,
         catchAudio: targetCatchAudio,
 		isCaught: 0,
-		isCaughtShiny: 0,
-		isTenna: false
+		isCaughtShiny: 0
     };
 	
 	global.KSW_FishCount += 1;

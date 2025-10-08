@@ -125,8 +125,8 @@ if (!localPause)
 	
 	var spriteIndex = global.KSW_FishList[ds_list_find_value(selectionList,selection)].sprite;
 	
-	var imageSpeed = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60 * speedMultFinal;
-	selectionImageIndex = (selectionImageIndex + imageSpeed) % sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
+	var imageSpeed = sprite_get_speed(spriteIndex) / 60 * speedMultFinal;
+	selectionImageIndex = (selectionImageIndex + imageSpeed) % sprite_get_number(spriteIndex);
 	#endregion
 	
 	#region Zoom Alpha

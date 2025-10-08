@@ -99,30 +99,7 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	#endregion
 	
 	#region Phase
-	var phaseSprite = -1;
-	if ((global.KSW_FishList[ds_list_find_value(selectionList,i)].isTenna) and (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught != 0))
-	{
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_TVTime;
-	}
-	else
-	{
-		switch (global.KSW_FishList[ds_list_find_value(selectionList,i)].phase)
-		{
-			case KSW_Phases.day:
-			phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Day;
-			break;
-			
-			case KSW_Phases.afternoon:
-			phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
-			break;
-			
-			case KSW_Phases.night:
-			phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Night;
-			break;
-		}
-	}
-	
-	if (phaseSprite != -1) draw_sprite(phaseSprite,0,boxX + 17,boxY - 6);
+	if (global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIcon != -1) draw_sprite(global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIcon,0,boxX + 17,boxY - 6);
 	#endregion
 	
 	#region Calib Mode
@@ -258,7 +235,7 @@ else
 	#endregion
 	
 	#region Fish Name
-	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isTenna)
+	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIcon == spr_KSW_Menu_TitleScreen_Phase_TVTime)
 	{
 		draw_sprite(spr_KSW_UI_CatchPopup_TennaName,0,room_width / 2,0);
 	}
@@ -282,43 +259,20 @@ else
 	#endregion
 	
 	#region Phase
-	var phaseSprite = -1;
-	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isTenna)
-	{
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_TVTime;
-	}
-	else
-	{
-		switch (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phase)
-		{
-			case KSW_Phases.day:
-			phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Day;
-			break;
-			
-			case KSW_Phases.afternoon:
-			phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
-			break;
-			
-			case KSW_Phases.night:
-			phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Night;
-			break;
-		}
-	}
-	
-	if (phaseSprite != -1) draw_sprite(phaseSprite,0,217,6)
+	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIcon != -1) draw_sprite(global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIcon,0,217,6)
 	#endregion
 	
 	#region Catch Amount
 	var targetCatchAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught;
 	if (fishIsShiny[selection]) targetCatchAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny;
 	
-	scribble("CAUGHT " + string(targetCatchAmount)).align(fa_right).draw(room_width - 4,18 + (12 * (phaseSprite != -1)));
+	scribble("CAUGHT " + string(targetCatchAmount)).align(fa_right).draw(room_width - 4,18 + (12 * (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIcon != -1)));
 	#endregion
 	
 	#region Gram Amount
 	var targetGramAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].gram;
 	
-	scribble(string(targetGramAmount) + "G").align(fa_right).draw(room_width - 4,30 + (12 * (phaseSprite != -1)));
+	scribble(string(targetGramAmount) + "G").align(fa_right).draw(room_width - 4,30 + (12 * (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIcon != -1)));
 	#endregion
 	
 	#region Button Hints

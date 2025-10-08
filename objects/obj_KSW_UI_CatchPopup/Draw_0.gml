@@ -96,7 +96,7 @@ if (escapeTimer != -1) subtitle = "ESCAPE ESCAPE ESCAPE";
 
 scribble(subtitle).align(fa_center).blend(c_white,alpha).draw(room_width / 2,6);
 
-if (isTenna)
+if (phaseIcon == spr_KSW_Menu_TitleScreen_Phase_TVTime)
 {
 	draw_sprite(spr_KSW_UI_CatchPopup_TennaName,0,room_width / 2,15);
 }
@@ -120,31 +120,7 @@ for (var h = 0; h < starCount; h++)
 #endregion
 
 #region Phase
-var phaseSprite = -1;
-
-if (isTenna)
-{
-	phaseSprite = spr_KSW_Menu_TitleScreen_Phase_TVTime;
-}
-else
-{
-	switch (phase)
-	{
-		case KSW_Phases.day:
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Day;
-		break;
-		
-		case KSW_Phases.afternoon:
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
-		break;
-		
-		case KSW_Phases.night:
-		phaseSprite = spr_KSW_Menu_TitleScreen_Phase_Night;
-		break;
-	}
-}
-
-if (phaseSprite != -1) draw_sprite(phaseSprite,0,217,6)
+if (phaseIcon != -1) draw_sprite(phaseIcon,0,217,6)
 #endregion
 
 #region Button Hints

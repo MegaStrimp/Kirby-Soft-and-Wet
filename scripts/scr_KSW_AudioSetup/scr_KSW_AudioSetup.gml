@@ -10,11 +10,4 @@ function scr_KSW_AudioSetup()
 	global.KSW_AudioStartPoints[mus_KSW_Settings] = [0,22.5,37.5];
 	global.KSW_AudioStartPoints[mus_KSW_Stars] = [0,16.6,46.6];
 	#endregion
-	
-	#region Loop Points
-	audio_sound_loop_start(mus_KSW_Title,0);
-	audio_sound_loop_start(mus_KSW_Credits,5.66);
-	audio_sound_loop_start(mus_KSW_Settings,7.5);
-	audio_sound_loop_start(mus_KSW_Stars,5.66);
-	#endregion
 }

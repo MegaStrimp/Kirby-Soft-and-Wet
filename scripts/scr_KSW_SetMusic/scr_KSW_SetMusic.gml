@@ -17,7 +17,7 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("floatIslands2","Float Islands","Kirby Super Star Ultra",KSW_Phases.day,mus_KSW_FloatIslands2);
 	scr_KSW_AddMusic("floatIslands3","Float Islands","Kirby's Blowout Blast",KSW_Phases.day,mus_KSW_FloatIslands3);
 	scr_KSW_AddMusic("floralFields","Floral Fields","Kirby Triple Deluxe",KSW_Phases.day,mus_KSW_FloralFields);
-	scr_KSW_AddMusic("submarineTorpedo","Kirby's Submarine Torpedo Time","Kirby and the Rainbow Curse",KSW_Phases.day,mus_KSW_SubmarineTorpedo);
+	scr_KSW_AddMusic("submarineTorpedo","Submarine Torpedo Time","Kirby and the Rainbow Curse",KSW_Phases.day,mus_KSW_SubmarineTorpedo);
 	scr_KSW_AddMusic("surfingStars","Surfing Stars","Kirby Mass Attack",KSW_Phases.day,mus_KSW_SurfingStars);
 	scr_KSW_AddMusic("whispyStage","Whispy Woods Land","Kirby's Pinball Land",KSW_Phases.day,mus_KSW_WhispyStage);
 	scr_KSW_AddMusic("firstHole","The First Hole","Kirby's Dream Course",KSW_Phases.day,mus_KSW_FirstHole);
@@ -52,5 +52,13 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("jigsawPlains","Jigsaw Plains","Kirby's Dream Course",KSW_Phases.night,mus_KSW_JigsawPlains);
 	scr_KSW_AddMusic("rideSky","Ride to the Sky","Kirby's Dream Course",KSW_Phases.night,mus_KSW_RideSky);
 	#endregion
+	
+	#region Any
+	#endregion
+	scr_KSW_AddMusic("goBeyond","Go Beyond","Nico Bellisario",KSW_Phases.none,mus_KSW_Title);
+	scr_KSW_AddMusic("excessExpress","Excess Express at Dusk","Paper Mario TTYD",KSW_Phases.none,mus_KSW_Fishbook);
+	scr_KSW_AddMusic("kommSusserTodd","Komm Susser Tod","Shiro Sagisu",KSW_Phases.none,mus_KSW_Credits,5.66);
+	scr_KSW_AddMusic("floatIslandsSettings","Float Islands KDL3","What.sf2",KSW_Phases.none,mus_KSW_Settings,7.5);
+	scr_KSW_AddMusic("lake","Lake","Pokemon Diamond - Pearl",KSW_Phases.none,mus_KSW_Stars,5.66);
 	#endregion
 }
