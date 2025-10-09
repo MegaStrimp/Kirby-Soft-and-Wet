@@ -68,6 +68,13 @@ if (canSelect)
 			fishIsShiny[selection] = !fishIsShiny[selection];
 		}
 		
+		if ((global.debug) and (keyboard_check_pressed(ord("L"))))
+		{
+			scr_PlaySfx(snd_KSW_FishFound);
+			
+			global.KSW_DebugRig = ds_list_find_value(selectionList,selection);
+		}
+		
 		if (input_check_pressed("B",playerNum))
 		{
 			scr_PlaySfx(snd_KSW_ButtonNo);

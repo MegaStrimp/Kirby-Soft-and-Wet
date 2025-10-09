@@ -75,6 +75,8 @@ global.KSW_EnteredFishbook = false;
 global.KSW_EnteredSettings = false;
 global.KSW_EnteredStars = false;
 
+global.KSW_DebugRig = -1;
+
 playtimeAchievementTimerMax = 3600;
 playtimeAchievementTimer = playtimeAchievementTimerMax;
 #endregion

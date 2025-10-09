@@ -543,6 +543,8 @@ if (!localPause)
 					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny))) break;
 				}
 				
+				if (global.KSW_DebugRig != -1) currentFish = global.KSW_DebugRig;
+				
 				var shinyRng = 1;
 				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31,1024 - (global.KSW_CurrentFishCombo * 20)));
 				currentFishIsShiny = (shinyRng == 0);
