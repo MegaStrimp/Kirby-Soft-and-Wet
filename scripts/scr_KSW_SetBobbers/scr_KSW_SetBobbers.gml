@@ -26,6 +26,7 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("blue","Blue",spr_KSW_Bobber_Blue,mage,0,0,-4,false,true);
 	scr_KSW_AddBobber("green","Green",spr_KSW_Bobber_Green,mint,0,0,-4,false,true);
 	scr_KSW_AddBobber("anchor","Anchor",spr_KSW_Bobber_Anchor,legion,5,0,-4);
+	scr_KSW_AddBobber("worm","Wormiller",spr_KSW_Bobber_Wormiller,glimmer,0,0,-4);
 	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,glimmer,0,0,-4);
 	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,candy,0,0,-4);
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,glimmer,0,0,-4);

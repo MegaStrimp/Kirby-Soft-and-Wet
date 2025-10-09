@@ -443,7 +443,10 @@ function scr_KSW_SetFishes()
 	#endregion
 	
 	#region 1.1
-	scr_KSW_AddFish("Rango",spr_KSW_Fish_Rango,spr_KSW_FIsh_Rango_Pal,mage,0,grassBeach,KSW_Phases.day,400,-2,3);
+	scr_KSW_AddFish("Small Silhouette Fish",spr_KSW_Fish_SmallSil,spr_KSW_Fish_Silhouette_Pal,legion,0,grassBeach,KSW_Phases.night,100);
+	scr_KSW_AddFish("Silhouette Fish",spr_KSW_Fish_RegularSil,spr_KSW_Fish_Silhouette_Pal,legion,0,grassBeach,KSW_Phases.night,300);
+	scr_KSW_AddFish("Big Silhouette Fish",spr_KSW_Fish_LargeSil,spr_KSW_Fish_Silhouette_Pal,legion,0,grassBeach,KSW_Phases.night,450);
+	scr_KSW_AddFish("Rango",spr_KSW_Fish_Rango,spr_KSW_Fish_Rango_Pal,mage,0,grassBeach,KSW_Phases.day,400,-2,3);
 	scr_KSW_AddFish("Fizzy",spr_KSW_Fish_Fizzy,spr_KSW_Fish_Fizzy_Pal,flux,0,grassBeach,KSW_Phases.day,300);
 	scr_KSW_AddFish("Blubby",spr_KSW_FIsh_Blubby,spr_KSW_Fish_Blubby_Pal,candy,0,grassBeach,KSW_Phases.day,300,,,,snd_KSW_Bubble1);
 	scr_KSW_AddFish("Azurill",spr_KSW_Fish_Azurill,spr_KSW_Fish_Azurill_Pal,mage,0,grassBeach,KSW_Phases.day,300);
