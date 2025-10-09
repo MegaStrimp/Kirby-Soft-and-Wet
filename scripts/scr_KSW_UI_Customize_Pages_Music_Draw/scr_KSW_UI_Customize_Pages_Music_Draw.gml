@@ -36,11 +36,11 @@ function scr_KSW_UI_Customize_Pages_Music_Draw()
 	#endregion
 	
 	#region Button Hints
-	var targetIcon = global.UI_IconBindings[? string(input_binding_get("up"))];
+	/*var targetIcon = global.UI_IconBindings[? string(input_binding_get("up"))];
 	if (targetIcon != undefined) draw_sprite(targetIcon,0,3,21 + (selectionOffset * selection) - pageOffset);
 	
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("down"))];
-	if (targetIcon != undefined) draw_sprite(targetIcon,0,3,41 + (selectionOffset * selection) - pageOffset);
+	if (targetIcon != undefined) draw_sprite(targetIcon,0,3,41 + (selectionOffset * selection) - pageOffset);*/
 	
 	var exitIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("B"))];

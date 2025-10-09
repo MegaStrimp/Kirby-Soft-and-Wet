@@ -21,7 +21,7 @@ function scr_KSW_SetBaits()
 	#endregion
 	
 	#region Add Baits Here
-	scr_KSW_AddBait("none","None","For the purists!",-1,spr_KSW_UI_NotifBox_Texture,candy,0,0,0,true);
+	scr_KSW_AddBait("none","None","For the purists!",-1,-1,candy,0,0,0,true);
 	scr_KSW_AddBait("0rarity","Glod Berry","More 0 rarity fish!",spr_KSW_Bait_Icon_GlodBerry,spr_KSW_Bait_Texture_GlodBerry,glimmer,0,0,0,true);
 	scr_KSW_AddBait("1rarity","Rare Cookie","More 1 rarity fish!",spr_KSW_Bait_Icon_RareCookie,spr_KSW_Bait_Texture_RareCookie,borange,0,0,0,true);
 	scr_KSW_AddBait("2rarity","Big Bun","More 2 rarity fish!",spr_KSW_Bait_Icon_BigBun,spr_KSW_Bait_Texture_BigBun,borange,0,0,0,true);

@@ -3251,6 +3251,7 @@
     {"id":{"name":"spr_KSW_UI_CatchPopup_Decal2","path":"sprites/spr_KSW_UI_CatchPopup_Decal2/spr_KSW_UI_CatchPopup_Decal2.yy",},},
     {"id":{"name":"spr_KSW_UI_CatchPopup_ShineEffect","path":"sprites/spr_KSW_UI_CatchPopup_ShineEffect/spr_KSW_UI_CatchPopup_ShineEffect.yy",},},
     {"id":{"name":"spr_KSW_UI_CatchPopup_TennaName","path":"sprites/spr_KSW_UI_CatchPopup_TennaName/spr_KSW_UI_CatchPopup_TennaName.yy",},},
+    {"id":{"name":"spr_KSW_UI_CaughtBox_Box_Big","path":"sprites/spr_KSW_UI_CaughtBox_Box_Big/spr_KSW_UI_CaughtBox_Box_Big.yy",},},
     {"id":{"name":"spr_KSW_UI_CaughtBox_Box","path":"sprites/spr_KSW_UI_CaughtBox_Box/spr_KSW_UI_CaughtBox_Box.yy",},},
     {"id":{"name":"spr_KSW_UI_CaughtBox_Mask","path":"sprites/spr_KSW_UI_CaughtBox_Mask/spr_KSW_UI_CaughtBox_Mask.yy",},},
     {"id":{"name":"spr_KSW_UI_CaughtBox_Palette_Borange","path":"sprites/spr_KSW_UI_CaughtBox_Palette_Borange/spr_KSW_UI_CaughtBox_Palette_Borange.yy",},},
