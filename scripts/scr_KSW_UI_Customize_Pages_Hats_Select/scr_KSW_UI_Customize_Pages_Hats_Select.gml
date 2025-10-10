@@ -32,6 +32,7 @@ function scr_KSW_UI_Customize_Pages_Hats_Select()
 				
 				displayedCoins_YOffsetTimer = displayedCoins_YOffsetTimerMax;
 				
+				global.KSW_UnlockedHatCount[global.playerCharacter[playerNum]] += 1;
 				global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,selection)].isUnlocked = true;
 			}
 		}

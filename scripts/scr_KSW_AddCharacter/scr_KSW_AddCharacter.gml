@@ -13,14 +13,10 @@ function scr_KSW_AddCharacter(targetID,targetName,targetSetupScript,targetIsDefa
 		isUnlocked: false,
 		
 		sprayPaints: [],
-		sprayPaintCount: 0,
-		obtainedSprayPaintCount: 0,
 		defaultSprayPaint: undefined,
 		equippedSprayPaint: -1,
 		
 		hats: [],
-		hatCount: 0,
-		obtainedHatCount: 0,
 		defaultHat: undefined,
 		equippedHat: -1
     };
