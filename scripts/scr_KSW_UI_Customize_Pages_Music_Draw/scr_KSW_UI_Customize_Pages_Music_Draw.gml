@@ -26,7 +26,7 @@ function scr_KSW_UI_Customize_Pages_Music_Draw()
 		scribble_font_set_default("fnt_Advance");
 		
 		#region Selection
-		if (i == selection) draw_sprite_ext(spr_KSW_Menu_Fishbook_Selection,selectionIndex,24,36 + selectionY,selectionScale,selectionScale,0,c_white,1);
+		if (i == selection) draw_sprite_ext(spr_KSW_Menu_Fishbook_Selection,selectionIndex,120,36 + selectionY,selectionScale + 5,selectionScale,0,c_white,1);
 		#endregion
 	}
 	#endregion

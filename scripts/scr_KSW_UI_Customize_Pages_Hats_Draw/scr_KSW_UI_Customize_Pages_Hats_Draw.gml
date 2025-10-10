@@ -91,7 +91,7 @@ function scr_KSW_UI_Customize_Pages_Hats_Draw()
 			}
 			else
 			{
-				draw_sprite(spr_KSW_UI_Coin,0,boxX + 13,boxY + 11);
+				draw_sprite(spr_KSW_UI_Coin,0,boxX + 14,boxY + 11);
 				scribble(string(global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX + 14,boxY + 17);
 			}
 		}

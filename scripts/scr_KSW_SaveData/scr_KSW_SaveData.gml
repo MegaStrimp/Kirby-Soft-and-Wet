@@ -53,7 +53,7 @@ function scr_KSW_SaveData(file)
 		{
 			var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
 			
-			if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked != false) ini_write_real("sprayPaintStatus",string(characterID) + "_" + string(sprayPaintID) + "_IsUnlocked",global.KSW_CharacterList[i].sprayPaints[j].isUnlocked);
+			if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked != false) ini_write_real("sprayPaintStatus",string(sprayPaintID) + "_IsUnlocked",global.KSW_CharacterList[i].sprayPaints[j].isUnlocked);
 		}
 		#endregion
 		
@@ -62,7 +62,7 @@ function scr_KSW_SaveData(file)
 		{
 			var hatID = global.KSW_CharacterList[i].hats[j].ID;
 		
-			if (global.KSW_CharacterList[i].hats[j].isUnlocked != false) ini_write_real("hatStatus",string(characterID) + "_" + string(hatID) + "_IsUnlocked",global.KSW_CharacterList[i].hats[j].isUnlocked);
+			if (global.KSW_CharacterList[i].hats[j].isUnlocked != false) ini_write_real("hatStatus",string(hatID) + "_IsUnlocked",global.KSW_CharacterList[i].hats[j].isUnlocked);
 		}
 		#endregion
 	}

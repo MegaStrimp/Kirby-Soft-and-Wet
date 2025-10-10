@@ -28,7 +28,7 @@ function scr_KSW_Player_Kirby_Draw()
 		{
 		    for (var h = -2; h < 2; h++)
 		    {
-		        draw_sprite(spr_KSW_UI_NotifBox_Texture,0,(surfaceWidth / 2) + baitX + (baitWidth * i),(surfaceHeight / 2) + baitY + (baitHeight * h));
+		        draw_sprite(baitTexture,0,(surfaceWidth / 2) + baitX + (baitWidth * i),(surfaceHeight / 2) + baitY + (baitHeight * h));
 		    }
 		}
 		

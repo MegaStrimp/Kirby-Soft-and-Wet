@@ -62,7 +62,7 @@ function scr_KSW_LoadData(file)
 		{
 			var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
 			
-			var sprayPaintIsUnlocked = ini_read_real("sprayPaintStatus",string(characterID) + "_" + string(sprayPaintID) + "_IsUnlocked",false);
+			var sprayPaintIsUnlocked = ini_read_real("sprayPaintStatus",string(sprayPaintID) + "_IsUnlocked",false);
 			if (global.KSW_CharacterList[i].sprayPaints[j].isDefault) sprayPaintIsUnlocked = true;
 			
 			global.KSW_CharacterList[i].sprayPaints[j].isUnlocked = sprayPaintIsUnlocked;
@@ -78,7 +78,7 @@ function scr_KSW_LoadData(file)
 		{
 			var hatID = global.KSW_CharacterList[i].hats[j].ID;
 			
-			var hatIsUnlocked = ini_read_real("hatStatus",string(characterID) + "_" + string(hatID) + "_IsUnlocked",false);
+			var hatIsUnlocked = ini_read_real("hatStatus",string(hatID) + "_IsUnlocked",false);
 			if (global.KSW_CharacterList[i].hats[j].isDefault) hatIsUnlocked = true;
 			
 			global.KSW_CharacterList[i].hats[j].isUnlocked = hatIsUnlocked;

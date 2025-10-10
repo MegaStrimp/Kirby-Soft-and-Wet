@@ -11,9 +11,12 @@ draw_set_alpha(1);
 #endregion
 
 #region Coins
-var formattedCoins = string_replace_all(string_format(min(global.KSW_CurrentCoins,999999999999),3,0)," ","0");
-
-scribble(string(formattedCoins) + "[spr_KSW_UI_Coin]").align(fa_right).draw(236,16 - hintOffset - (2 * (displayedCoins_YOffsetTimer != -1)));
+if (coinsVisible)
+{
+	var formattedCoins = string_replace_all(string_format(min(global.KSW_CurrentCoins,999999999999),3,0)," ","0");
+	
+	scribble(string(formattedCoins) + "[spr_KSW_UI_Coin]").align(fa_right).draw(236,16 - hintOffset - (2 * (displayedCoins_YOffsetTimer != -1)));
+}
 #endregion
 
 #region Draw Script

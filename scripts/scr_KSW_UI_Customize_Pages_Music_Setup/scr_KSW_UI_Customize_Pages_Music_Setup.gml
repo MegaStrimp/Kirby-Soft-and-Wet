@@ -34,6 +34,18 @@ function scr_KSW_UI_Customize_Pages_Music_Setup()
 	
 	pageOffset = 0;
 	pageOffsetTarget = 0;
+	
+	coinsVisible = false;
+	
+	for (var i = 0; i < ds_list_size(selectionList); i++)
+	{
+		if (audio_get_name(global.musicPlaying) == audio_get_name(global.KSW_MusicList[ds_list_find_value(selectionList,i)].audio))
+		{
+			selection = i;
+			pageOffsetTarget = selection * selectionOffset;
+			pageOffset = pageOffsetTarget;
+		}
+	}
 	#endregion
 	#endregion
 }
