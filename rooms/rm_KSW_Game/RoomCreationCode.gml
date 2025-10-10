@@ -30,21 +30,24 @@ if (audio_get_name(global.musicPlaying) != audio_get_name(targetMusic))
 switch (global.KSW_CurrentPhase)
 {
 	case KSW_Phases.day:
-	layer_sprite_create("Layout",0,0,spr_KSW_Layout_Day);
+	layer_sprite_create("Layout",0,0,global.KSW_StageList[global.KSW_CurrentStageID].dayLayout);
 	
-	scr_Camera_SetBackground(choose(scr_KSW_SetBackground_Day_1,scr_KSW_SetBackground_Day_2,scr_KSW_SetBackground_Day_3,scr_KSW_SetBackground_Day_4,scr_KSW_SetBackground_Day_5));
+	var targetBackground = irandom_range(0,array_length(global.KSW_StageList[global.KSW_CurrentStageID].dayBackgrounds) - 1)
+	scr_Camera_SetBackground(global.KSW_StageList[global.KSW_CurrentStageID].dayBackgrounds[targetBackground]);
 	break;
 	
 	case KSW_Phases.afternoon:
-	layer_sprite_create("Layout",0,0,spr_KSW_Layout_Afternoon);
+	layer_sprite_create("Layout",0,0,global.KSW_StageList[global.KSW_CurrentStageID].afternoonLayout);
 	
-	scr_Camera_SetBackground(choose(scr_KSW_SetBackground_Afternoon_1,scr_KSW_SetBackground_Afternoon_2,scr_KSW_SetBackground_Afternoon_3,scr_KSW_SetBackground_Afternoon_4,scr_KSW_SetBackground_Afternoon_5));
+	var targetBackground = irandom_range(0,array_length(global.KSW_StageList[global.KSW_CurrentStageID].afternoonBackgrounds) - 1)
+	scr_Camera_SetBackground(global.KSW_StageList[global.KSW_CurrentStageID].afternoonBackgrounds[targetBackground]);
 	break;
 	
 	case KSW_Phases.night:
-	layer_sprite_create("Layout",0,0,spr_KSW_Layout_Night);
+	layer_sprite_create("Layout",0,0,global.KSW_StageList[global.KSW_CurrentStageID].nightLayout);
 	
-	scr_Camera_SetBackground(choose(scr_KSW_SetBackground_Night_1,scr_KSW_SetBackground_Night_2,scr_KSW_SetBackground_Night_3,scr_KSW_SetBackground_Night_4,scr_KSW_SetBackground_Night_5));
+	var targetBackground = irandom_range(0,array_length(global.KSW_StageList[global.KSW_CurrentStageID].nightBackgrounds) - 1)
+	scr_Camera_SetBackground(global.KSW_StageList[global.KSW_CurrentStageID].nightBackgrounds[targetBackground]);
 	break;
 }
 #endregion

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_KSW_Layout_Snow_Afternoon",
+  "%Name":"spr_KSW_Layout_CreamCrevasse_Afternoon",
   "bboxMode":0,
   "bbox_bottom":159,
   "bbox_left":0,
@@ -29,19 +29,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"08cdba64-c3a9-49ad-9c4d-bc2bf0f223fb","blendMode":0,"displayName":"default","isLocked":false,"name":"08cdba64-c3a9-49ad-9c4d-bc2bf0f223fb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Layout_Snow_Afternoon",
+  "name":"spr_KSW_Layout_CreamCrevasse_Afternoon",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Snowy Shore",
-    "path":"folders/Kirby ~ Soft & Wet/Layouts/Sprites/Snowy Shore.yy",
+    "name":"Cream Crevasse",
+    "path":"folders/Kirby ~ Soft & Wet/Stages/Sprites/Layouts/Cream Crevasse.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Layout_Snow_Afternoon",
+    "%Name":"spr_KSW_Layout_CreamCrevasse_Afternoon",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -65,7 +65,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Layout_Snow_Afternoon",
+    "name":"spr_KSW_Layout_CreamCrevasse_Afternoon",
     "playback":1,
     "playbackSpeed":6.0,
     "playbackSpeedType":0,
@@ -79,16 +79,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"491ae9bb-a773-4b93-9769-594b12c273ec","path":"sprites/spr_KSW_Layout_Snow_Afternoon/spr_KSW_Layout_Snow_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"491ae9bb-a773-4b93-9769-594b12c273ec","path":"sprites/spr_KSW_Layout_CreamCrevasse_Afternoon/spr_KSW_Layout_CreamCrevasse_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"987bc212-9180-4df1-8eab-b46e5c165812","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7875c94-b3df-48be-8bc4-67cd73a698ce","path":"sprites/spr_KSW_Layout_Snow_Afternoon/spr_KSW_Layout_Snow_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7875c94-b3df-48be-8bc4-67cd73a698ce","path":"sprites/spr_KSW_Layout_CreamCrevasse_Afternoon/spr_KSW_Layout_CreamCrevasse_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7f72245e-c92e-4698-bcc7-5de3ab776b69","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a887b91a-feb1-4368-80ed-c8684f73bdf6","path":"sprites/spr_KSW_Layout_Snow_Afternoon/spr_KSW_Layout_Snow_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a887b91a-feb1-4368-80ed-c8684f73bdf6","path":"sprites/spr_KSW_Layout_CreamCrevasse_Afternoon/spr_KSW_Layout_CreamCrevasse_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bb1f0a53-2faa-45a6-a964-056cd55312ae","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"142c64db-b020-4ae4-89e2-1244c1c29e66","path":"sprites/spr_KSW_Layout_Snow_Afternoon/spr_KSW_Layout_Snow_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"142c64db-b020-4ae4-89e2-1244c1c29e66","path":"sprites/spr_KSW_Layout_CreamCrevasse_Afternoon/spr_KSW_Layout_CreamCrevasse_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1bafff2b-2188-4af8-875f-f764586238c1","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

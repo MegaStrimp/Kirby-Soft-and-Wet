@@ -4,19 +4,19 @@ function scr_KSW_AddMusic(targetID,targetName,targetAuthor,targetPhase,targetAud
 {
 	ds_map_add(global.KSW_MusicIDs,targetID,global.KSW_MusicCount);
 	
-	var targetPhaseIcon = -1;
+	var targetPhaseIconRight = -1;
 	switch (targetPhase)
 	{
 		case KSW_Phases.day:
-		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Day;
+		targetPhaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Day;
 		break;
 		
 		case KSW_Phases.afternoon:
-		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
+		targetPhaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
 		break;
 		
 		case KSW_Phases.night:
-		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Night;
+		targetPhaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Night;
 		break;
 	}
 	
@@ -26,7 +26,7 @@ function scr_KSW_AddMusic(targetID,targetName,targetAuthor,targetPhase,targetAud
 		name: targetName,
 		author: targetAuthor,
 		phase: targetPhase,
-		phaseIcon: targetPhaseIcon,
+		phaseIconRight: targetPhaseIconRight,
 		audio: targetAudio,
 		loopBegin: targetLoopBegin,
     };

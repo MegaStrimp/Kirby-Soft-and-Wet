@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_KSW_Layout_Night",
+  "%Name":"spr_KSW_Layout_GrassBeach_Night",
   "bboxMode":0,
   "bbox_bottom":159,
   "bbox_left":0,
@@ -29,19 +29,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"7fdf38bf-e4b7-48b0-ad86-b62c4993b573","blendMode":0,"displayName":"default","isLocked":false,"name":"7fdf38bf-e4b7-48b0-ad86-b62c4993b573","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Layout_Night",
+  "name":"spr_KSW_Layout_GrassBeach_Night",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Kirby ~ Soft & Wet/Layouts/Sprites.yy",
+    "name":"Grass Beach",
+    "path":"folders/Kirby ~ Soft & Wet/Stages/Sprites/Layouts/Grass Beach.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Layout_Night",
+    "%Name":"spr_KSW_Layout_GrassBeach_Night",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -65,7 +65,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Layout_Night",
+    "name":"spr_KSW_Layout_GrassBeach_Night",
     "playback":1,
     "playbackSpeed":6.0,
     "playbackSpeedType":0,
@@ -79,16 +79,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c33cec5c-e4db-4955-a303-8c796080e2d2","path":"sprites/spr_KSW_Layout_Night/spr_KSW_Layout_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c33cec5c-e4db-4955-a303-8c796080e2d2","path":"sprites/spr_KSW_Layout_GrassBeach_Night/spr_KSW_Layout_GrassBeach_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3741eafa-8ed0-474c-b4c9-395e358169c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"18554cb7-6310-44ed-a14c-884d93432eca","path":"sprites/spr_KSW_Layout_Night/spr_KSW_Layout_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"18554cb7-6310-44ed-a14c-884d93432eca","path":"sprites/spr_KSW_Layout_GrassBeach_Night/spr_KSW_Layout_GrassBeach_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5132efa5-2fd2-4783-acb8-bedeb1af4885","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a612696a-bb44-4837-aa30-0a869df0be74","path":"sprites/spr_KSW_Layout_Night/spr_KSW_Layout_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a612696a-bb44-4837-aa30-0a869df0be74","path":"sprites/spr_KSW_Layout_GrassBeach_Night/spr_KSW_Layout_GrassBeach_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"da4f7a42-43df-4fb6-8557-a2cbb99633fc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","path":"sprites/spr_KSW_Layout_Night/spr_KSW_Layout_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","path":"sprites/spr_KSW_Layout_GrassBeach_Night/spr_KSW_Layout_GrassBeach_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2062a68b-a88c-4e85-b762-885a78faac4c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

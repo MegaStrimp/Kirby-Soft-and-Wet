@@ -17,19 +17,19 @@ draw_sprite(spr_KSW_Menu_TitleScreen_Logo,0,room_width / 2,36 + logoWave);
 switch (global.KSW_CurrentPhase)
 {
 	case KSW_Phases.day:
-	var phaseIcon = spr_KSW_Menu_TitleScreen_Phase_Day;
+	var phaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Day;
 	break;
 	
 	case KSW_Phases.afternoon:
-	var phaseIcon = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
+	var phaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
 	break;
 	
 	case KSW_Phases.night:
-	var phaseIcon = spr_KSW_Menu_TitleScreen_Phase_Night;
+	var phaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Night;
 	break;
 }
 
-draw_sprite(phaseIcon,0,9,4);
+draw_sprite(phaseIconRight,0,9,4);
 
 var hourText = current_hour;
 var hourPrefix = "AM";

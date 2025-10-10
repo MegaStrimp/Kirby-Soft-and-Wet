@@ -96,7 +96,7 @@ if (escapeTimer != -1) subtitle = "ESCAPE ESCAPE ESCAPE";
 
 scribble(subtitle).align(fa_center).blend(c_white,alpha).draw(room_width / 2,6);
 
-if (phaseIcon == spr_KSW_Menu_TitleScreen_Phase_TVTime)
+if (phaseIconRight == spr_KSW_Menu_TitleScreen_Phase_TVTime)
 {
 	draw_sprite(spr_KSW_UI_CatchPopup_TennaName,0,room_width / 2,15);
 }
@@ -120,7 +120,8 @@ for (var h = 0; h < starCount; h++)
 #endregion
 
 #region Phase
-if (phaseIcon != -1) draw_sprite(phaseIcon,0,217,6)
+if (phaseIconLeft != -1) draw_sprite(phaseIconLeft,0,193,6)
+if (phaseIconRight != -1) draw_sprite(phaseIconRight,0,217,6)
 #endregion
 
 #region Button Hints

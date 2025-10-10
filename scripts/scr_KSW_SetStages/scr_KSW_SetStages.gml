@@ -10,7 +10,48 @@ function scr_KSW_SetStages()
 	#endregion
 	
 	#region Add Stages Here
-	scr_KSW_AddStage("grassBeach","Grass Beach",spr_KSW_Layout_Day,spr_KSW_Layout_Afternoon,spr_KSW_Layout_Night);
-	scr_KSW_AddStage("snow","Snow",spr_KSW_Layout_Day,spr_KSW_Layout_Afternoon,spr_KSW_Layout_Night,KSW_Phases.day);
+	#region Grass Beach
+	var targetDayBackgrounds = [scr_KSW_SetBackground_Day_1,
+	scr_KSW_SetBackground_Day_2,
+	scr_KSW_SetBackground_Day_3,
+	scr_KSW_SetBackground_Day_4,
+	scr_KSW_SetBackground_Day_5];
+	
+	var targetAfternoonBackgrounds = [scr_KSW_SetBackground_Afternoon_1,
+	scr_KSW_SetBackground_Afternoon_2,
+	scr_KSW_SetBackground_Afternoon_3,
+	scr_KSW_SetBackground_Afternoon_4,
+	scr_KSW_SetBackground_Afternoon_5];
+	
+	var targetNightBackgrounds = [scr_KSW_SetBackground_Night_1,
+	scr_KSW_SetBackground_Night_2,
+	scr_KSW_SetBackground_Night_3,
+	scr_KSW_SetBackground_Night_4,
+	scr_KSW_SetBackground_Night_5];
+	
+	scr_KSW_AddStage("grassBeach","Grass Beach",spr_KSW_Layout_GrassBeach_Day,targetDayBackgrounds,spr_KSW_Layout_GrassBeach_Afternoon,targetAfternoonBackgrounds,spr_KSW_Layout_GrassBeach_Night,targetNightBackgrounds);
+	#endregion
+	
+	#region Cream Crevasse
+	var targetDayBackgrounds = [scr_KSW_SetBackground_Day_1,
+	scr_KSW_SetBackground_Day_2,
+	scr_KSW_SetBackground_Day_3,
+	scr_KSW_SetBackground_Day_4,
+	scr_KSW_SetBackground_Day_5];
+	
+	var targetAfternoonBackgrounds = [scr_KSW_SetBackground_Afternoon_1,
+	scr_KSW_SetBackground_Afternoon_2,
+	scr_KSW_SetBackground_Afternoon_3,
+	scr_KSW_SetBackground_Afternoon_4,
+	scr_KSW_SetBackground_Afternoon_5];
+	
+	var targetNightBackgrounds = [scr_KSW_SetBackground_Night_1,
+	scr_KSW_SetBackground_Night_2,
+	scr_KSW_SetBackground_Night_3,
+	scr_KSW_SetBackground_Night_4,
+	scr_KSW_SetBackground_Night_5];
+	
+	scr_KSW_AddStage("creamCrevasse","Cream Crevasse",spr_KSW_Layout_CreamCrevasse_Day,targetDayBackgrounds,spr_KSW_Layout_CreamCrevasse_Afternoon,targetAfternoonBackgrounds,spr_KSW_Layout_CreamCrevasse_Night,targetNightBackgrounds);
+	#endregion
 	#endregion
 }

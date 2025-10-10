@@ -16,7 +16,7 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 	{
 		var selectionX = (selectionOffset * i) - pageOffset;
 		
-		if (global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIcon != -1) draw_sprite(global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIcon,0,16,28 + selectionX);
+		if (global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIconRight != -1) draw_sprite(global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIconRight,0,16,28 + selectionX);
 		
 		scribble(string(global.KSW_MusicList[ds_list_find_value(selectionList,i)].name)).draw(42,28 + selectionX);
 		scribble_font_set_default("fnt_Advance_Small");

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_KSW_Layout_Snow_Overlay",
+  "%Name":"spr_KSW_Layout_CreamCrevasse_Overlay",
   "bboxMode":0,
   "bbox_bottom":159,
   "bbox_left":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"b99d4080-e292-49dd-aadd-6a35f77c5524","blendMode":0,"displayName":"default","isLocked":false,"name":"b99d4080-e292-49dd-aadd-6a35f77c5524","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Layout_Snow_Overlay",
+  "name":"spr_KSW_Layout_CreamCrevasse_Overlay",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Snowy Shore",
-    "path":"folders/Kirby ~ Soft & Wet/Layouts/Sprites/Snowy Shore.yy",
+    "name":"Cream Crevasse",
+    "path":"folders/Kirby ~ Soft & Wet/Stages/Sprites/Layouts/Cream Crevasse.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Layout_Snow_Overlay",
+    "%Name":"spr_KSW_Layout_CreamCrevasse_Overlay",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Layout_Snow_Overlay",
+    "name":"spr_KSW_Layout_CreamCrevasse_Overlay",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -71,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"61e08188-a58b-46ed-8996-a685251d4ab4","path":"sprites/spr_KSW_Layout_Snow_Overlay/spr_KSW_Layout_Snow_Overlay.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"61e08188-a58b-46ed-8996-a685251d4ab4","path":"sprites/spr_KSW_Layout_CreamCrevasse_Overlay/spr_KSW_Layout_CreamCrevasse_Overlay.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5691d3d3-d0b0-4dac-9eb1-04e12034c12f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

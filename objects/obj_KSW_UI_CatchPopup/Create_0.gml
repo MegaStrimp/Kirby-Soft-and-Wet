@@ -16,7 +16,8 @@ spriteYOffset = 0;
 name = "";
 rarity = 0;
 phase = KSW_Phases.none;
-phaseIcon = -1;
+phaseIconLeft = -1;
+phaseIconRight = -1;
 isShiny = false;
 backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
 

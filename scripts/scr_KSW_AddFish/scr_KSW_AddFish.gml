@@ -7,19 +7,27 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
 	
 	ds_map_add(global.KSW_FishIDs,targetName,global.KSW_FishCount);
 	
-	var targetPhaseIcon = -1;
+	var targetPhaseIconLeft = -1;
+	switch (global.KSW_StageList[targetStage].ID)
+	{
+		case "creamCrevasse":
+		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_Christmas;
+		break;
+	}
+	
+	var targetPhaseIconRight = -1;
 	switch (targetPhase)
 	{
 		case KSW_Phases.day:
-		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Day;
+		targetPhaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Day;
 		break;
 		
 		case KSW_Phases.afternoon:
-		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
+		targetPhaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Afternoon;
 		break;
 		
 		case KSW_Phases.night:
-		targetPhaseIcon = spr_KSW_Menu_TitleScreen_Phase_Night;
+		targetPhaseIconRight = spr_KSW_Menu_TitleScreen_Phase_Night;
 		break;
 	}
 	
@@ -33,7 +41,8 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
         rarity: targetRarity,
         stage: targetStage,
         phase: targetPhase,
-		phaseIcon: targetPhaseIcon,
+		phaseIconLeft: targetPhaseIconLeft,
+		phaseIconRight: targetPhaseIconRight,
         gram: targetGram,
         gramOffset: targetGramOffset,
         xOffset: targetXOffset,

@@ -44,7 +44,8 @@ for (var i = 0; i < rarity; i++)
 #endregion
 
 #region Phase
-if (phaseIcon != -1) draw_sprite(phaseIcon,0,x - (flag_ThrowCoin * 2) + 17,y - 6)
+if (phaseIconLeft != -1) draw_sprite(phaseIconLeft,0,x - (flag_ThrowCoin * 2) - 8,y - 6)
+if (phaseIconRight != -1) draw_sprite(phaseIconRight,0,x - (flag_ThrowCoin * 2) + 17,y - 6)
 #endregion
 
 #region New

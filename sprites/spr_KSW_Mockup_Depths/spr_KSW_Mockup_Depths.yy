@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Mockups",
-    "path":"folders/Kirby ~ Soft & Wet/Layouts/Sprites/Mockups.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Stages/Sprites/Layouts/Mockups.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

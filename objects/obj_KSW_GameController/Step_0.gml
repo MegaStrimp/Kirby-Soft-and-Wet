@@ -440,7 +440,8 @@ if (!localPause)
 					name = string_upper(global.KSW_FishList[other.currentFish].name);
 					rarity = global.KSW_FishList[other.currentFish].rarity;
 					phase = global.KSW_FishList[other.currentFish].phase;
-					phaseIcon = global.KSW_FishList[other.currentFish].phaseIcon;
+					phaseIconLeft = global.KSW_FishList[other.currentFish].phaseIconLeft;
+					phaseIconRight = global.KSW_FishList[other.currentFish].phaseIconRight;
 					isShiny = other.currentFishIsShiny;
 					backgroundPalette = global.KSW_FishList[other.currentFish].caughtBoxPalette;
 					
@@ -468,7 +469,8 @@ if (!localPause)
 				spriteYOffset = global.KSW_FishList[other.currentFish].yOffset;
 				rarity = global.KSW_FishList[other.currentFish].rarity;
 				phase = global.KSW_FishList[other.currentFish].phase;
-				phaseIcon = global.KSW_FishList[other.currentFish].phaseIcon;
+				phaseIconLeft = global.KSW_FishList[other.currentFish].phaseIconLeft;
+				phaseIconRight = global.KSW_FishList[other.currentFish].phaseIconRight;
 				isShiny = other.currentFishIsShiny;
 				isNew = other.currentFishIsNew;
 				backgroundPalette = global.KSW_FishList[other.currentFish].caughtBoxPalette;
