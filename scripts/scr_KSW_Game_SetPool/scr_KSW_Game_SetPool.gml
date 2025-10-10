@@ -13,7 +13,7 @@ function scr_KSW_Game_SetPool()
 	
 	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 	{
-		if (global.KSW_CurrentStageID == global.KSW_FishList[i].stage)
+		if ((global.KSW_FishList[i].stage == -1) and (global.KSW_CurrentStageID == global.KSW_FishList[i].stage))
 		{
 			var passPhaseCheck = false;
 			switch (global.KSW_BaitIDs[? global.KSW_EquippedBaitID])
