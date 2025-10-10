@@ -22,7 +22,7 @@ function scr_KSW_ThrowBobber()
 	bobberX = x + 17;
 	bobberY = y - 15;
 	
-	baitTexture = global.KSW_BaitList[global.KSW_EquippedBobberID[playerNum]].texture;
+	baitTexture = global.KSW_BaitList[global.KSW_EquippedBaitID[playerNum]].texture;
 	if (baitTexture != -1)
 	{
 		baitWidth = sprite_get_width(baitTexture);

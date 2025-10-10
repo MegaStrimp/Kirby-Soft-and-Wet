@@ -3,24 +3,43 @@
 function scr_KSW_Game_SetPool()
 {
 	var rate = [];
-	rate[0] = 8;
-	rate[1] = 5;
-	rate[2] = 3;
-	rate[3] = 1;
+	rate[0] = 24 - ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "0rarity"]) * 5);
+	rate[1] = 15 - ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "1rarity"]) * 4);
+	rate[2] = 9 - ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "2rarity"]) * 3);
+	rate[3] = 3 - ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "3rarity"]) * 2);
 	
 	var list = [];
 	var index = 0;
 	
 	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 	{
-		var passPhaseCheck = false;
-		
-		if ((global.KSW_CurrentPhase == global.KSW_FishList[i].phase) or (passPhaseCheck) or (global.KSW_FishList[i].phase == KSW_Phases.none))
+		if (global.KSW_CurrentStage == global.KSW_FishList[i].stage)
 		{
-			for (var j = 0; j < rate[global.KSW_FishList[i].rarity]; j++)
+			var passPhaseCheck = false;
+			switch (global.KSW_EquippedBaitID)
 			{
-				list[index] = i;
-				index += 1;
+				case global.KSW_BaitList[? "extraDay"]:
+				passPhaseCheck = ((global.KSW_CurrentPhase != KSW_Phases.day) and (global.KSW_FishList[i].phase == KSW_Phases.day))
+				break;
+				
+				case global.KSW_BaitList[? "extraAfternoon"]:
+				passPhaseCheck = ((global.KSW_CurrentPhase != KSW_Phases.afternoon) and (global.KSW_FishList[i].phase == KSW_Phases.afternoon))
+				break;
+				
+				case global.KSW_BaitList[? "extraNight"]:
+				passPhaseCheck = ((global.KSW_CurrentPhase != KSW_Phases.night) and (global.KSW_FishList[i].phase == KSW_Phases.night))
+				break;
+			}
+			
+			if ((global.KSW_CurrentPhase == global.KSW_FishList[i].phase) or (passPhaseCheck) or (global.KSW_FishList[i].phase == KSW_Phases.none))
+			{
+				var maxRarity = ((rate[global.KSW_FishList[i].rarity]) - (passPhaseCheck));
+				
+				for (var j = 0; j < maxRarity; j++)
+				{
+					list[index] = i;
+					index += 1;
+				}
 			}
 		}
 	}

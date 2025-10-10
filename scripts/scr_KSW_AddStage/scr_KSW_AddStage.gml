@@ -1,6 +1,6 @@
 ///@description KSW - Add Stage
 
-function scr_KSW_AddStage(targetID,targetName,targetDayLayout,targetAfternoonLayout,targetNightLayout,targetBackgrounds)
+function scr_KSW_AddStage(targetID,targetName,targetDayLayout,targetAfternoonLayout,targetNightLayout,targetForcedPhase = KSW_Phases.none)
 {
 	ds_map_add(global.KSW_StageIDs,targetID,global.KSW_StageCount);
 	
@@ -11,7 +11,7 @@ function scr_KSW_AddStage(targetID,targetName,targetDayLayout,targetAfternoonLay
 		dayLayout: targetDayLayout,
 		afternoonLayout: targetAfternoonLayout,
 		nightLayout: targetNightLayout,
-		backgrounds: targetBackgrounds,
+		forcedPhase: targetForcedPhase,
 		isAvailable: false,
 		isUnlocked: false
     };

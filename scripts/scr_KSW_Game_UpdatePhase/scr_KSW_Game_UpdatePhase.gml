@@ -19,5 +19,7 @@ function scr_KSW_Game_UpdatePhase()
 	    targetPhase = KSW_Phases.night;
 	}
 	
+	if (global.KSW_ForcedPhase != KSW_Phases.none) targetPhase = global.KSW_ForcedPhase;
+	
 	return targetPhase;
 }

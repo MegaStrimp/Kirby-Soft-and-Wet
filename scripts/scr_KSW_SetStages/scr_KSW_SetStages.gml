@@ -10,6 +10,7 @@ function scr_KSW_SetStages()
 	#endregion
 	
 	#region Add Stages Here
-	//scr_KSW_AddStage("");
+	scr_KSW_AddStage("grassBeach","Grass Beach",spr_KSW_Layout_Day,spr_KSW_Layout_Afternoon,spr_KSW_Layout_Night);
+	scr_KSW_AddStage("snow","Snow",spr_KSW_Layout_Day,spr_KSW_Layout_Afternoon,spr_KSW_Layout_Night,KSW_Phases.day);
 	#endregion
 }

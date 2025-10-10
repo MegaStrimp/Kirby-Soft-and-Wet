@@ -67,6 +67,8 @@ global.KSW_ObtainedAchievementCount = 0;
 global.KSW_AvailableBobbers = ds_list_create();
 
 global.KSW_CurrentPhase = KSW_Phases.day;
+global.KSW_CurrentStage = global.KSW_StageList[global.KSW_StageIDs[? "grassBeach"]];
+global.KSW_ForcedPhase = KSW_Phases.none;
 global.KSW_MainMenuSelection = KSW_MainMenu_Buttons.startFishing;
 global.KSW_CurrentFishCombo = 0;
 global.KSW_CurrentCoins = 0;

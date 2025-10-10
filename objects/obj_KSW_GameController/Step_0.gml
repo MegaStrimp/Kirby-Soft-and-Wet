@@ -304,12 +304,12 @@ if (!localPause)
 			case KSW_GameStates.catched:
 			#region Give Grams
 			var gramOffset = global.KSW_FishList[other.currentFish].gramOffset;
-			global.levelScoreCurrent += floor((global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset)) * (1 + (global.KSW_CurrentFishCombo / 20)));
+			global.levelScoreCurrent += floor((global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset)) * (1 + (global.KSW_CurrentFishCombo / 20)) * ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "moreGrams"]) * 1.5));
 			flag_ScoreSfx = true;
 			#endregion
 			
 			#region Give Coins
-			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3);
+			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "moreCoins"]) * (choose(1,2)));
 			global.KSW_CurrentCoins += targetCoins;
 			#endregion
 			
@@ -546,7 +546,7 @@ if (!localPause)
 				if (global.KSW_DebugRig != -1) currentFish = global.KSW_DebugRig;
 				
 				var shinyRng = 1;
-				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31,1024 - (global.KSW_CurrentFishCombo * 20)));
+				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31,1024 - (global.KSW_CurrentFishCombo * 20) - ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "moreShinies"]) * 333)));
 				currentFishIsShiny = (shinyRng == 0);
 				
 				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(global.KSW_FishList[currentFish].rarity);
@@ -676,7 +676,7 @@ if (!localPause)
 					catchInput_CurrentLine = -1;
 					catchInput_CurrentLineMax = -1;
 					catchInput_SfxIndex = 0;
-					findFishTimer = irandom_range(60,400);
+					findFishTimer = irandom_range(60,400 - ((global.KSW_EquippedBaitID == global.KSW_BaitList[? "fasterFinds"]) * 250));
 					
 					stateReadyTimer = -1;
 					break;

@@ -1,6 +1,6 @@
 ///@description KSW - Game - Generate Catch Input List
 
-function scr_KSW_Game_GenerateCatchInputList(rarity = 0)
+function scr_KSW_Game_GenerateCatchInputList(targeteRarity = 0)
 {
 	enum KSW_CatchInputList
 	{
@@ -13,6 +13,9 @@ function scr_KSW_Game_GenerateCatchInputList(rarity = 0)
 	
 	var list = -1;
 	var currentLine = 0;
+	
+	var rarity = max(0,targeteRarity - (global.KSW_EquippedBaitID == global.KSW_BaitList[? "easyInputs"]));
+	
 	var length = irandom_range(2 + (rarity * 2),3 + (rarity * 3));
 	
 	for (var i = 0; i < length; i++)

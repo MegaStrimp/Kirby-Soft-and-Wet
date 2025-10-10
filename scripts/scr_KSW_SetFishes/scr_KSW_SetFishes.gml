@@ -10,7 +10,7 @@ function scr_KSW_SetFishes()
 	#endregion
 	
 	#region Stages STRIMPTODO
-	var grassBeach = 0;
+	var grassBeach = global.KSW_StageIDs[? "grassBeach"];
 	#endregion
 	
 	#region Caught Box Palettes
