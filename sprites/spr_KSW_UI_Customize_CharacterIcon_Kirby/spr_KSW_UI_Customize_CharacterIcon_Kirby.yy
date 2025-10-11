@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_KSW_UI_Customize_StageIcon_GrassBeach",
+  "%Name":"spr_KSW_UI_Customize_CharacterIcon_Kirby",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -26,19 +26,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"1b2cc53c-6dcc-428f-bbaa-191554a24c93","blendMode":0,"displayName":"default","isLocked":false,"name":"1b2cc53c-6dcc-428f-bbaa-191554a24c93","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_UI_Customize_StageIcon_GrassBeach",
+  "name":"spr_KSW_UI_Customize_CharacterIcon_Kirby",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Stage Icons",
-    "path":"folders/Kirby ~ Soft & Wet/UI/Customize/Sprites/Stage Icons.yy",
+    "name":"Character Icons",
+    "path":"folders/Kirby ~ Soft & Wet/UI/Customize/Sprites/Character Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_UI_Customize_StageIcon_GrassBeach",
+    "%Name":"spr_KSW_UI_Customize_CharacterIcon_Kirby",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -62,7 +62,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_UI_Customize_StageIcon_GrassBeach",
+    "name":"spr_KSW_UI_Customize_CharacterIcon_Kirby",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -76,7 +76,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52c2960c-a4d0-476a-8799-e47c43260140","path":"sprites/spr_KSW_UI_Customize_StageIcon_GrassBeach/spr_KSW_UI_Customize_StageIcon_GrassBeach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52c2960c-a4d0-476a-8799-e47c43260140","path":"sprites/spr_KSW_UI_Customize_CharacterIcon_Kirby/spr_KSW_UI_Customize_CharacterIcon_Kirby.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"fa32ae3f-42de-4572-bd8b-4d48ea4f46bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

@@ -10,6 +10,6 @@ function scr_KSW_SetCharacters()
 	#endregion
 	
 	#region Add Characters Here
-	scr_KSW_AddCharacter("kirby","Kirby",scr_KSW_Player_Kirby_Setup,true);
+	scr_KSW_AddCharacter("kirby","Kirby",spr_KSW_UI_Customize_CharacterIcon_Kirby,scr_KSW_Player_Kirby_Setup,true);
 	#endregion
 }

@@ -20,7 +20,7 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 		var boxX = 10 + selectionX;
 		var boxY = 48;
 		
-		var isSelected = (ds_list_find_value(selectionList,i) == global.KSW_EquippedStageID);
+		var isSelected = (ds_list_find_value(selectionList,i) == global.KSW_CurrentStageID);
 		
 		draw_sprite(spr_KSW_UI_CaughtBox_Box_Big,isSelected,boxX,boxY);
 		#endregion
@@ -44,7 +44,7 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 			else
 			{
 				draw_sprite(spr_KSW_UI_Coin,0,boxX + 34,boxY + 34);
-				scribble(string(global.KSW_StageList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX +  34,boxY + 38);
+				scribble(string(global.KSW_StageList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX +  34,boxY + 40);
 			}
 		}
 		#endregion
