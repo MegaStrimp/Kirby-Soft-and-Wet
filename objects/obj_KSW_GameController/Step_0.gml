@@ -389,7 +389,13 @@ if (!localPause)
 				var achievementID = global.KSW_AchievementIDs[? "catchNight100"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				var achievementID = global.KSW_AchievementIDs[? "catchNight1000"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				if (global.KSW_AchievementList[achievementID].unlockScript())
+				{
+					scr_KSW_ObtainAchievement(achievementID);
+					
+					scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "nightmareOrb"]);
+				}
 				break;
 			}
 			

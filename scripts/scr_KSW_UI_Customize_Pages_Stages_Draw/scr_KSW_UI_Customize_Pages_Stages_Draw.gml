@@ -7,30 +7,74 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 	var yy = camera_get_view_y(mainView);
 	#endregion
 	
-	#region Music
+	#region Stages
 	var visibleCount = 3;
 	var startIndex = max(0,floor(pageOffset / selectionOffset) - 1);
 	var endIndex = min(startIndex + visibleCount + 2,selectionCount);
 	
 	for (var i = startIndex; i < endIndex; i++)
 	{
+		#region Box
 		var selectionX = (selectionOffset * i) - pageOffset;
 		
-		if (global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIconRight != -1) draw_sprite(global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIconRight,0,16,28 + selectionX);
+		var boxX = 10 + selectionX;
+		var boxY = 48;
 		
-		scribble(string(global.KSW_MusicList[ds_list_find_value(selectionList,i)].name)).draw(42,28 + selectionX);
-		scribble_font_set_default("fnt_Advance_Small");
-		scribble(string(global.KSW_MusicList[ds_list_find_value(selectionList,i)].author)).wrap(186).draw(42,38 + selectionX);
-		scribble_font_set_default("fnt_Advance");
+		var isSelected = (ds_list_find_value(selectionList,i) == global.KSW_EquippedStageID);
+		
+		draw_sprite(spr_KSW_UI_CaughtBox_Box_Big,isSelected,boxX,boxY);
+		#endregion
+		
+		#region Sprite
+		if (global.KSW_StageList[ds_list_find_value(selectionList,i)].icon != -1)
+		{
+			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_StageList[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(true,c_black,0,0);
+			draw_sprite(global.KSW_StageList[ds_list_find_value(selectionList,i)].icon,0,boxX + 2,boxY + 2);
+			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_StageList[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(false,c_black,0,0);
+		}
+		#endregion
+		
+		#region Unlock Method
+		if (!global.KSW_StageList[ds_list_find_value(selectionList,i)].isUnlocked)
+		{
+			if (global.KSW_StageList[ds_list_find_value(selectionList,i)].price == 0)
+			{
+				draw_sprite(spr_KSW_Menu_TitleScreen_Bubble_Stars_Small,0,boxX + 34,boxY + 38);
+			}
+			else
+			{
+				draw_sprite(spr_KSW_UI_Coin,0,boxX + 34,boxY + 34);
+				scribble(string(global.KSW_StageList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX +  34,boxY + 38);
+			}
+		}
+		#endregion
 		
 		#region Selection
-		if (i == selection) draw_sprite_ext(spr_KSW_Menu_Fishbook_Selection,selectionIndex,24,36 + selectionX,selectionScale,selectionScale,0,c_white,1);
+		if (i == selection) draw_sprite_ext(spr_KSW_Menu_Fishbook_Selection,selectionIndex,boxX + 34,boxY + 34,selectionScale + 1,selectionScale + 1,0,c_white,1);
 		#endregion
 	}
 	#endregion
 	
 	#region Page Title
 	scribble("STAGES").align(fa_center).draw(xx + (global.gameWidth / 2),yy + 6 - hintOffset);
+	#endregion
+	
+	#region Completion
+	var color = "[#FFFFFF]";
+	
+	if (isCompleted)
+	{
+		color = "[#FFD800]";
+		draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,global.gameWidth - 40,2 - hintOffset);
+	}
+	scribble(color + string(global.KSW_UnlockedStageCount) + "/" + string(global.KSW_StageCount) + "[/color]").align(fa_right).draw(global.gameWidth - 4,6 - hintOffset);
+	#endregion
+	
+	#region Stage Name
+	var targetName = "???";
+	if (global.KSW_StageList[ds_list_find_value(selectionList,selection)].isUnlocked) targetName = global.KSW_StageList[ds_list_find_value(selectionList,selection)].name;
+	
+	scribble(targetName).align(fa_center).draw(global.gameWidth / 2,global.gameHeight - 14 + hintOffset);
 	#endregion
 	
 	#region Button Hints

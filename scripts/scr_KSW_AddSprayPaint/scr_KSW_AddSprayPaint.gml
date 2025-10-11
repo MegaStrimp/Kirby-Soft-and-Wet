@@ -4,8 +4,8 @@ function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprit
 {
 	ds_map_add(global.KSW_SprayPaintIDs,targetID,global.KSW_TotalSprayPaintCount);
 	
-	var tempSprayPaintCount = global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaintCount;
-	global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaintCount += 1;
+	var tempSprayPaintCount = global.KSW_SprayPaintCount[global.KSW_CharacterIDs[? targetCharacterID]];
+	global.KSW_SprayPaintCount[global.KSW_CharacterIDs[? targetCharacterID]] += 1;
 	
 	global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaints[tempSprayPaintCount] = 
 	{
@@ -23,6 +23,5 @@ function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprit
 		global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].defaultSprayPaint = targetID;
 	}
 	
-	global.KSW_SprayPaintCount[global.KSW_CharacterIDs[? targetCharacterID]] += 1;
 	global.KSW_TotalSprayPaintCount += 1;
 }

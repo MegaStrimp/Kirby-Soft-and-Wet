@@ -25,6 +25,8 @@ function scr_KSW_UI_Customize_Pages_Baits_Select()
 			
 			global.KSW_UnlockedBaitCount += 1;
 			global.KSW_BaitList[ds_list_find_value(selectionList,selection)].isUnlocked = true;
+			
+			isCompleted = (global.KSW_UnlockedBaitCount >= global.KSW_BaitCount);
 		}
 	}
 }

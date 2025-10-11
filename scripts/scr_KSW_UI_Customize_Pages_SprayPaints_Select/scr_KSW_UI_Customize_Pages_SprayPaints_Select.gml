@@ -34,6 +34,8 @@ function scr_KSW_UI_Customize_Pages_SprayPaints_Select()
 				
 				global.KSW_UnlockedSprayPaintCount[global.playerCharacter[playerNum]] += 1;
 				global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[ds_list_find_value(selectionList,selection)].isUnlocked = true;
+				
+				isCompleted = (global.KSW_UnlockedSprayPaintCount[global.playerCharacter[playerNum]] >= global.KSW_SprayPaintCount[global.playerCharacter[playerNum]]);
 			}
 		}
 	}

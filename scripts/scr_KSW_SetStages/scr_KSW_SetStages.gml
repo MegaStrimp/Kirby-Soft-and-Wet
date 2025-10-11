@@ -29,7 +29,7 @@ function scr_KSW_SetStages()
 	scr_KSW_SetBackground_Night_4,
 	scr_KSW_SetBackground_Night_5];
 	
-	scr_KSW_AddStage("grassBeach","Grass Beach",spr_KSW_Layout_GrassBeach_Day,targetDayBackgrounds,spr_KSW_Layout_GrassBeach_Afternoon,targetAfternoonBackgrounds,spr_KSW_Layout_GrassBeach_Night,targetNightBackgrounds);
+	scr_KSW_AddStage("grassBeach","Grass Beach",spr_KSW_UI_Customize_StageIcon_GrassBeach,spr_KSW_Layout_GrassBeach_Day,targetDayBackgrounds,spr_KSW_Layout_GrassBeach_Afternoon,targetAfternoonBackgrounds,spr_KSW_Layout_GrassBeach_Night,targetNightBackgrounds,0,true);
 	#endregion
 	
 	#region Cream Crevasse
@@ -51,7 +51,7 @@ function scr_KSW_SetStages()
 	scr_KSW_SetBackground_Night_4,
 	scr_KSW_SetBackground_Night_5];
 	
-	scr_KSW_AddStage("creamCrevasse","Cream Crevasse",spr_KSW_Layout_CreamCrevasse_Day,targetDayBackgrounds,spr_KSW_Layout_CreamCrevasse_Afternoon,targetAfternoonBackgrounds,spr_KSW_Layout_CreamCrevasse_Night,targetNightBackgrounds);
+	scr_KSW_AddStage("creamCrevasse","Cream Crevasse",spr_KSW_UI_Customize_StageIcon_CreamCrevasse,spr_KSW_Layout_CreamCrevasse_Day,targetDayBackgrounds,spr_KSW_Layout_CreamCrevasse_Afternoon,targetAfternoonBackgrounds,spr_KSW_Layout_CreamCrevasse_Night,targetNightBackgrounds,1000);
 	#endregion
 	#endregion
 }

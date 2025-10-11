@@ -9,6 +9,6 @@ function scr_KSW_UI_Customize_Pages_Music_Main()
 	
 	#region Page Offset
 	pageOffset = lerp(pageOffset,pageOffsetTarget,.1);
-	pageOffset = clamp(pageOffset,0,(selectionCount - 3) * selectionOffset);
+	pageOffset = clamp(pageOffset,0,max(0,selectionCount - 3) * selectionOffset);
 	#endregion
 }

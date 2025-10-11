@@ -138,6 +138,7 @@ function scr_KSW_LoadData(file)
 		
 		var stageIsAvailable = ini_read_real("stageStatus",string(stageID) + "_IsAvailable",false);
 		var stageIsUnlocked = ini_read_real("stageStatus",string(stageID) + "_IsUnlocked",false);
+		if (global.KSW_StageList[i].isDefault) stageIsUnlocked = true;
 		
 		global.KSW_StageList[i].isAvailable = stageIsAvailable;
 		global.KSW_StageList[i].isUnlocked = stageIsUnlocked;

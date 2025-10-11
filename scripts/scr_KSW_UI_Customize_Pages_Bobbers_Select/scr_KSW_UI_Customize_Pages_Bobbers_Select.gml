@@ -33,6 +33,8 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Select()
 				displayedCoins_YOffsetTimer = displayedCoins_YOffsetTimerMax;
 				
 				scr_KSW_ObtainBobber(ds_list_find_value(selectionList,selection));
+				
+				isCompleted = (global.KSW_UnlockedBobberCount >= global.KSW_VisibleBobberCount);
 			}
 		}
 	}

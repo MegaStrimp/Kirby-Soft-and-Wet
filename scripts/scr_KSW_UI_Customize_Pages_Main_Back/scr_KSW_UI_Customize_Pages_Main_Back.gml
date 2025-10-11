@@ -8,5 +8,7 @@ function scr_KSW_UI_Customize_Pages_Main_Back()
 	
 	global.pause = false;
 	
+	if (switchStage) instance_create_depth(0,0,0,obj_KSW_PhaseShifter);
+	
 	exitTimer = exitTimerMax;
 }
