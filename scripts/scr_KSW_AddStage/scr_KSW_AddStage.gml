@@ -1,6 +1,6 @@
 ///@description KSW - Add Stage
 
-function scr_KSW_AddStage(targetID,targetName,targetIcon,targetDayLayout,targetDayBackgrounds,targetAfternoonLayout,targetAfternoonBackgrounds,targetNightLayout,targetNightBackgrounds,targetPrice,targetIsDefault = false)
+function scr_KSW_AddStage(targetID,targetName,targetIcon,targetDayLayout,targetDayBackgrounds,targetDayBgColors,targetAfternoonLayout,targetAfternoonBackgrounds,targetAfternoonBgColors,targetNightLayout,targetNightBackgrounds,targetNightBgColors,targetPrice,targetIsDefault = false)
 {
 	ds_map_add(global.KSW_StageIDs,targetID,global.KSW_StageCount);
 	
@@ -11,10 +11,13 @@ function scr_KSW_AddStage(targetID,targetName,targetIcon,targetDayLayout,targetD
 		icon: targetIcon,
 		dayLayout: targetDayLayout,
 		dayBackgrounds: targetDayBackgrounds,
+		dayBgColors: targetDayBgColors,
 		afternoonLayout: targetAfternoonLayout,
 		afternoonBackgrounds: targetAfternoonBackgrounds,
+		afternoonBgColors: targetAfternoonBgColors,
 		nightLayout: targetNightLayout,
 		nightBackgrounds: targetNightBackgrounds,
+		nightBgColors: targetNightBgColors,
 		price: targetPrice,
 		isDefault: targetIsDefault,
 		forcedPhase: KSW_Phases.none,

@@ -6,33 +6,33 @@ lightPeriod = irandom_range(900,1300);
 switch (global.KSW_CurrentPhase)
 {
 	case KSW_Phases.day:
-	bgColor1 = 134;
-	bgSaturation1 = 255;
-	bgValue1 = 255;
+	bgColor1 = global.KSW_StageList[global.KSW_CurrentStageID].dayBgColors[0];
+	bgSaturation1 = global.KSW_StageList[global.KSW_CurrentStageID].dayBgColors[1];
+	bgValue1 = global.KSW_StageList[global.KSW_CurrentStageID].dayBgColors[2];
 	
-	bgColor2 = 142;
-	bgSaturation2 = 255;
-	bgValue2 = 255;
+	bgColor2 = global.KSW_StageList[global.KSW_CurrentStageID].dayBgColors[3];
+	bgSaturation2 = global.KSW_StageList[global.KSW_CurrentStageID].dayBgColors[4];
+	bgValue2 = global.KSW_StageList[global.KSW_CurrentStageID].dayBgColors[5];
 	break;
 	
 	case KSW_Phases.afternoon:
-	bgColor1 = 23;
-	bgSaturation1 = 204;
-	bgValue1 = 255;
+	bgColor1 = global.KSW_StageList[global.KSW_CurrentStageID].afternoonBgColors[0];
+	bgSaturation1 = global.KSW_StageList[global.KSW_CurrentStageID].afternoonBgColors[1];
+	bgValue1 = global.KSW_StageList[global.KSW_CurrentStageID].afternoonBgColors[2];
 	
-	bgColor2 = 247;
-	bgSaturation2 = 127;
-	bgValue2 = 255;
+	bgColor2 = global.KSW_StageList[global.KSW_CurrentStageID].afternoonBgColors[3];
+	bgSaturation2 = global.KSW_StageList[global.KSW_CurrentStageID].afternoonBgColors[4];
+	bgValue2 = global.KSW_StageList[global.KSW_CurrentStageID].afternoonBgColors[5];
 	break;
 	
 	case KSW_Phases.night:
-	bgColor1 = 161;
-	bgSaturation1 = 255;
-	bgValue1 = 102;
+	bgColor1 = global.KSW_StageList[global.KSW_CurrentStageID].nightBgColors[0];
+	bgSaturation1 = global.KSW_StageList[global.KSW_CurrentStageID].nightBgColors[1];
+	bgValue1 = global.KSW_StageList[global.KSW_CurrentStageID].nightBgColors[2];
 	
-	bgColor2 = 205;
-	bgSaturation2 = 191;
-	bgValue2 = 140;
+	bgColor2 = global.KSW_StageList[global.KSW_CurrentStageID].nightBgColors[3];
+	bgSaturation2 = global.KSW_StageList[global.KSW_CurrentStageID].nightBgColors[4];
+	bgValue2 = global.KSW_StageList[global.KSW_CurrentStageID].nightBgColors[5];
 	break;
 }
 #endregion
