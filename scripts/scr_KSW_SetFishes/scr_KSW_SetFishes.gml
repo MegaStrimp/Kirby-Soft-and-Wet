@@ -297,7 +297,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mizzle",spr_KSW_Fish_Mizzle,spr_KSW_Fish_Mizzle_Pal_Normal,mage,1,grassBeach,KSW_Phases.night,2000,-8,8);
 	scr_KSW_AddFish("Pluey",spr_KSW_Fish_Pluey,spr_KSW_Fish_Pluey_Pal_Normal,mage,2,grassBeach,KSW_Phases.none,4800);
 	scr_KSW_AddFish("Annoying Dogfish",spr_KSW_Fish_AnnoyingDogfish,spr_KSW_Fish_AnnoyingDogfish_Pal_Normal,mint,3,grassBeach,KSW_Phases.day,20015);
-	scr_KSW_AddFish("SPAM[FISH]",spr_KSW_Fish_Spamfish,spr_KSW_Fish_Spamfish_Pal_Normal,glimmer,3,grassBeach,KSW_Phases.none,1997,-26,-12);
+	scr_KSW_AddFish("SPAMFISH",spr_KSW_Fish_Spamfish,spr_KSW_Fish_Spamfish_Pal_Normal,glimmer,3,grassBeach,KSW_Phases.none,1997,-26,-12);
 	var tenna = scr_KSW_AddFish("Mr Ant Tenna",spr_KSW_Fish_MrAntTenna,spr_KSW_Fish_MrAntTenna_Pal_Normal,tvtime,3,grassBeach,KSW_Phases.none,300000,0,20,-1,snd_KSW_Fish_Tenna);
 	tenna.phaseIconRight = spr_KSW_Menu_TitleScreen_Phase_TVTime;
 	scr_KSW_AddFish("Aquatic Spawn",spr_KSW_Fish_AquaticSpawn,spr_KSW_Fish_AquaticSpawn_Pal_Normal,flux,3,creamCrevasse,KSW_Phases.night,122597,12,12);
@@ -540,6 +540,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("King K. Rool",spr_KSW_Fish_KingKRool,spr_KSW_Fish_KingKRool_Pal,mint,3,grassBeach,KSW_Phases.day,25000,0,22);
 	scr_KSW_AddFish("Funky Kong",spr_KSW_Fish_FunkyKong,spr_KSW_Fish_FunkyKong_Pal,candy,3,grassBeach,KSW_Phases.day,22500,0,10);
 	scr_KSW_AddFish("Duke Fishron",spr_KSW_Fish_DukeFishron,spr_KSW_Fish_DukeFishron_Pal,mint,3,grassBeach,KSW_Phases.night,66666,-30,-2);
+	scr_KSW_AddFish("YOUR TAKING TOO LONG",spr_KSW_Fish_Jackenstein,spr_KSW_Fish_Jackenstein_Pal,flux,3,grassBeach,KSW_Phases.none,25000,,,,snd_KSW_Fish_TOOLONG);
 	scr_KSW_AddFish("Seadramon",spr_KSW_Fish_Seadramon,spr_KSW_Fish_Seadramon_Pal,mage,2,grassBeach,KSW_Phases.day,10000,4,24);
 	scr_KSW_AddFish("Trout Master Grimm",spr_KSW_Fish_TroutMasterGrimm,spr_KSW_Fish_TroutMasterGrimm_Pal,candy,3,grassBeach,KSW_Phases.night,100000,-2,30);
 	scr_KSW_AddFish("Freezer",spr_KSW_Fish_Freezer,spr_KSW_Fish_Freezer_Pal,mage,2,creamCrevasse,KSW_Phases.none,7000,0,40);
