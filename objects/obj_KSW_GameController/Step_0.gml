@@ -554,7 +554,8 @@ if (!localPause)
 				if (global.KSW_DebugRig != -1) currentFish = global.KSW_DebugRig;
 				
 				var shinyRng = 1;
-				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31,1024 - (global.KSW_CurrentFishCombo * 20) - ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "moreShinies"]) * 333)));
+				var hasShinyBait = (global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "moreShinies"]);
+				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
 				currentFishIsShiny = (shinyRng == 0);
 				
 				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(global.KSW_FishList[currentFish].rarity);
