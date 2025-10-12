@@ -1,0 +1,28 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_KSW_IceMountain",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":68.56315,
+  "name":"mus_KSW_IceMountain",
+  "parent":{
+    "name":"Night",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse/Night.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_IceMountain.ogg",
+  "tags":[
+    "Music",
+  ],
+  "type":1,
+  "volume":0.9,
+}

@@ -1,0 +1,28 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_KSW_SnowballScuffle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":69.1136,
+  "name":"mus_KSW_SnowballScuffle",
+  "parent":{
+    "name":"Day",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse/Day.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_SnowballScuffle.ogg",
+  "tags":[
+    "Music",
+  ],
+  "type":1,
+  "volume":0.45,
+}
