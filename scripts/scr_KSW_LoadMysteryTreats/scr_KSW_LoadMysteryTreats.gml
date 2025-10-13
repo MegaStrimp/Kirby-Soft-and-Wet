@@ -8,7 +8,6 @@ function scr_KSW_LoadMysteryTreats(file)
 	
 	ini_open(fileFinal);
 	
-	global.KSW_MysteryTreat_DeirdreBobber = ini_read_real("mysteryTreats","deirdreBobber",false);
 	global.KSW_MysteryTreat_GooeyBobber = ini_read_real("mysteryTreats","gooeyBobber",false);
 	global.KSW_MysteryTreat_ArenaBobber = ini_read_real("mysteryTreats","arenaBobber",false);
 	global.KSW_MysteryTreat_GaidenBobber = ini_read_real("mysteryTreats","gaidenBobber",false);
@@ -17,12 +16,6 @@ function scr_KSW_LoadMysteryTreats(file)
 	#endregion
 	
 	#region Obtain Bobbers
-	if (global.KSW_MysteryTreat_DeirdreBobber)
-	{
-		scr_KSW_ObtainBobber("deirdre");
-		scr_KSW_ObtainBobber("hayuto");
-	}
-	
 	if (global.KSW_MysteryTreat_GooeyBobber) scr_KSW_ObtainBobber("rogueMatter");
 	
 	if (global.KSW_MysteryTreat_ArenaBobber) scr_KSW_ObtainBobber("rosemarie");

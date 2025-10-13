@@ -33,6 +33,8 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("dynamite","Dynamite",spr_KSW_Bobber_Dynamite,glimmer,100,1,-3);
 	scr_KSW_AddBobber("rocketSlime","Rocket Slime",spr_KSW_Bobber_RocketSlime,mage,100,0,-7);
 	scr_KSW_AddBobber("dedede","Dedede",spr_KSW_Bobber_Dedede,borange,100,0,-9);
+	scr_KSW_AddBobber("hayuto","Hayuto",spr_KSW_Bobber_Hayuto,legion,100,0,-8,true);
+	scr_KSW_AddBobber("deirdre","Deirdre",spr_KSW_Bobber_Deirdre,borange,100,0,-5,true);
 	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,glimmer,0,0,-4);
 	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,candy,0,0,-5);
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,glimmer,0,0,-4);
@@ -41,8 +43,6 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("nightmareOrb","Nightmare Orb",spr_KSW_Bobber_NightmareOrb,mage,0,1,-7);
 	scr_KSW_AddBobber("masterCrown","Master Crown",spr_KSW_Bobber_MasterCrown,glimmer,0,1,-7);
 	scr_KSW_AddBobber("legend","Legend",spr_KSW_Bobber_Legend,flux,0,0,-7,true);
-	scr_KSW_AddBobber("hayuto","Hayuto",spr_KSW_Bobber_TK_Hayuto,legion,0,0,-8,true);
-	scr_KSW_AddBobber("deirdre","Deirdre",spr_KSW_Bobber_TK_Deirdre,borange,0,0,-5,true);
 	scr_KSW_AddBobber("rogueMatter","Rogue Matter",spr_KSW_Bobber_TK_RogueMatter,flux,0,0,-5,true);
 	scr_KSW_AddBobber("daremo","Daremo",spr_KSW_Bobber_TK_Daremo,legion,0,0,-6,true);
 	scr_KSW_AddBobber("rosemarie","Rosemarie",spr_KSW_Bobber_TK_Rosemarie,flux,0,0,-9,true);

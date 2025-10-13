@@ -766,8 +766,6 @@ if (canSelect)
 		#region Reset Keys
 		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
-			//scr_PlaySfx(snd_Deirdre_Health);
-			
 			scr_KSW_DefaultKeybindings();
 			
 			var i = 0;
