@@ -35,6 +35,15 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("dedede","Dedede",spr_KSW_Bobber_Dedede,borange,100,0,-9);
 	scr_KSW_AddBobber("hayuto","Hayuto",spr_KSW_Bobber_Hayuto,legion,100,0,-8,true);
 	scr_KSW_AddBobber("deirdre","Deirdre",spr_KSW_Bobber_Deirdre,borange,100,0,-5,true);
+	scr_KSW_AddBobber("superMushroom","Super Mushroom",spr_KSW_Bobber_SuperMushroom,candy,100,0,-7,true);
+	scr_KSW_AddBobber("zebraBloon","Zebra Bloon",spr_KSW_Bobber_ZebraBloon,legion,100,0,-7,true);
+	scr_KSW_AddBobber("astroBot","Astro Bot",spr_KSW_Bobber_AstroBot,mage,100,0,-7,true);
+	scr_KSW_AddBobber("badPiggie","Bad Piggie",spr_KSW_Bobber_BadPiggie,mint,100,0,-5,true);
+	scr_KSW_AddBobber("dreamPeace","Dream Peace",spr_KSW_Bobber_DreamPeace,borange,100,0,-3,true);
+	scr_KSW_AddBobber("bejewel","Bejewel",spr_KSW_Bobber_Bejewel,mage,100,0,-5,true);
+	scr_KSW_AddBobber("masterBall","Master Ball",spr_KSW_Bobber_MasterBall,flux,100,0,-6,true);
+	scr_KSW_AddBobber("blinky","Blinky",spr_KSW_Bobber_Blinky,candy,100,0,-6,true);
+	scr_KSW_AddBobber("smash","Smash",spr_KSW_Bobber_Smash,legion,100,0,-6,true);
 	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,glimmer,0,0,-4);
 	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,candy,0,0,-5);
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,glimmer,0,0,-4);
