@@ -21,7 +21,8 @@ scribble_font_set_default("fnt_Advance");
 
 for (var i = 0; i < array_length(creditsNames); i++)
 {
-	text = string_upper(creditsNames[i]);
+	//text = string_upper(creditsNames[i]);
+	text = creditsNames[i];
 	
 	scribble(text).draw(8,yStart + yScroll + yy);
 	yy += sep;
