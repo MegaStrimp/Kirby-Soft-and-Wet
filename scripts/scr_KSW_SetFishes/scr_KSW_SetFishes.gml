@@ -13,6 +13,7 @@ function scr_KSW_SetFishes()
 	var anyStage = -1;
 	var grassBeach = global.KSW_StageIDs[? "grassBeach"];
 	var creamCrevasse = global.KSW_StageIDs[? "creamCrevasse"];
+	var tempHalloweenStage = global.KSW_StageIDs[? "creamCrevasse"]; //STRIMPTODO
 	#endregion
 	
 	#region Caught Box Palettes
@@ -540,9 +541,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("King K. Rool",spr_KSW_Fish_KingKRool,spr_KSW_Fish_KingKRool_Pal,mint,3,grassBeach,KSW_Phases.day,25000,0,22);
 	scr_KSW_AddFish("Funky Kong",spr_KSW_Fish_FunkyKong,spr_KSW_Fish_FunkyKong_Pal,candy,3,grassBeach,KSW_Phases.day,22500,0,10);
 	scr_KSW_AddFish("Duke Fishron",spr_KSW_Fish_DukeFishron,spr_KSW_Fish_DukeFishron_Pal,mint,3,grassBeach,KSW_Phases.night,66666,-30,-2);
-	scr_KSW_AddFish("YOUR TAKING TOO LONG",spr_KSW_Fish_Jackenstein,spr_KSW_Fish_Jackenstein_Pal,flux,3,grassBeach,KSW_Phases.none,25000,,,,snd_KSW_Fish_TOOLONG);
+	scr_KSW_AddFish("YOUR TAKING TOO LONG",spr_KSW_Fish_Jackenstein,spr_KSW_Fish_Jackenstein_Pal,flux,3,tempHalloweenStage,KSW_Phases.none,25000,0,0,-1,snd_KSW_Fish_TOOLONG);
 	scr_KSW_AddFish("Seadramon",spr_KSW_Fish_Seadramon,spr_KSW_Fish_Seadramon_Pal,mage,2,grassBeach,KSW_Phases.day,10000,4,24);
-	scr_KSW_AddFish("Trout Master Grimm",spr_KSW_Fish_TroutMasterGrimm,spr_KSW_Fish_TroutMasterGrimm_Pal,candy,3,grassBeach,KSW_Phases.night,100000,-2,30);
+	scr_KSW_AddFish("Trout Master Grimm",spr_KSW_Fish_TroutMasterGrimm,spr_KSW_Fish_TroutMasterGrimm_Pal,candy,3,tempHalloweenStage,KSW_Phases.night,100000,-2,30);
 	scr_KSW_AddFish("Freezer",spr_KSW_Fish_Freezer,spr_KSW_Fish_Freezer_Pal,mage,2,creamCrevasse,KSW_Phases.none,7000,0,40);
 	scr_KSW_AddFish("Strimpfish",spr_KSW_Fish_Strimpfish,spr_KSW_Fish_Strimpfish_Pal,legion,3,grassBeach,KSW_Phases.night,600000,-21,0,-1,snd_KSW_Fish_Strimpfish);
 	scr_KSW_AddFish("King Fossil",spr_KSW_Fish_KingFossil,spr_KSW_Fish_KingFossil_Pal,legion,2,grassBeach,KSW_Phases.day,15000,-88,2);
@@ -554,6 +555,56 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mine",spr_KSW_Fish_Mine,spr_KSW_Fish_Mine_Pal,borange,0,grassBeach,KSW_Phases.none,1500);
 	scr_KSW_AddFish("N. Trance",spr_KSW_Fish_NTrance,spr_KSW_Fish_NTrance_Pal,flux,2,grassBeach,KSW_Phases.afternoon,12500,-4,8);
 	scr_KSW_AddFish("Crash Bandicoot",spr_KSW_Fish_CrashBandicoot,spr_KSW_Fish_CrashBandicoot_Pal,borange,3,grassBeach,KSW_Phases.afternoon,25000,-10,10);
+	scr_KSW_AddFish("Akmodan",spr_KSW_Fish_Akmodan,spr_KSW_Fish_Akmodan_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Axe",spr_KSW_Fish_Axe,spr_KSW_Fish_Axe_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Bloodlines Count",spr_KSW_Fish_BloodlinesCount,spr_KSW_Fish_BloodlinesCount_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Boomerang",spr_KSW_Fish_Boomerang,spr_KSW_Fish_Boomerang_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Candle",spr_KSW_Fish_Candle,spr_KSW_Fish_Candle_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Carmilla",spr_KSW_Fish_Carmilla,spr_KSW_Fish_Carmilla_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Classic Alucard",spr_KSW_Fish_ClassicAlucard,spr_KSW_Fish_ClassicAlucard_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Classic Count",spr_KSW_Fish_ClassicCount,spr_KSW_Fish_ClassicCount_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Classic Death",spr_KSW_Fish_ClassicDeath,spr_KSW_Fish_ClassicDeath_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Classic Simon",spr_KSW_Fish_ClassicSimon,spr_KSW_Fish_ClassicSimon_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Classic Skull Knight",spr_KSW_Fish_ClassicSkullKnight,spr_KSW_Fish_ClassicSkullKnight_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Cross",spr_KSW_Fish_Cross,spr_KSW_Fish_Cross_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Crown",spr_KSW_Fish_Crown,spr_KSW_Fish_Crown_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Cyclops",spr_KSW_Fish_Cyclops,spr_KSW_Fish_Cyclops_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Dagger",spr_KSW_Fish_Dagger,spr_KSW_Fish_Dagger_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Dancing Specters",spr_KSW_Fish_DancingSpecters,spr_KSW_Fish_DancingSpecters_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Dark Count",spr_KSW_Fish_DarkCount,spr_KSW_Fish_DarkCount_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Death",spr_KSW_Fish_Death,spr_KSW_Fish_Death_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Double Shot",spr_KSW_Fish_DoubleShot,spr_KSW_Fish_DoubleShot_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Elizabeth Bartley",spr_KSW_Fish_ElizabethBartley,spr_KSW_Fish_ElizabethBartley_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Eric Lecarde",spr_KSW_Fish_EricLecarde,spr_KSW_Fish_EricLecarde_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Fire Bomb",spr_KSW_Fish_FireBomb,spr_KSW_Fish_FireBomb_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Gaibon",spr_KSW_Fish_Gaibon,spr_KSW_Fish_Gaibon_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Giant Minotaur",spr_KSW_Fish_GiantMinotaur,spr_KSW_Fish_GiantMinotaur_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Grant Danasty",spr_KSW_Fish_GrantDanasty,spr_KSW_Fish_GrantDanasty_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Invisibility Potion",spr_KSW_Fish_InvisibilityPotion,spr_KSW_Fish_InvisibilityPotion_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("John Morris",spr_KSW_Fish_JohnMorris,spr_KSW_Fish_JohnMorris_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Large Heart",spr_KSW_Fish_LargeHeart,spr_KSW_Fish_LargeHeart_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Magic Crystal",spr_KSW_Fish_MagicCrystal,spr_KSW_Fish_MagicCrystal_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Maria Renard",spr_KSW_Fish_MariaRenard,spr_KSW_Fish_MariaRenard_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Moai",spr_KSW_Fish_Moai,spr_KSW_Fish_Moai_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Money Bag",spr_KSW_Fish_MoneyBag,spr_KSW_Fish_MoneyBag_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Morning Star",spr_KSW_Fish_MorningStar,spr_KSW_Fish_MorningStar_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Nasty Grant",spr_KSW_Fish_NastyGrant,spr_KSW_Fish_NastyGrant_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Phantom Bat",spr_KSW_Fish_PhantomBat,spr_KSW_Fish_PhantomBat_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Pork Chop",spr_KSW_Fish_PorkChop,spr_KSW_Fish_PorkChop_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Richter Belmont",spr_KSW_Fish_RichterBelmont,spr_KSW_Fish_RichterBelmont_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Slogra",spr_KSW_Fish_Slogra,spr_KSW_Fish_Slogra_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Small Heart",spr_KSW_Fish_SmallHeart,spr_KSW_Fish_SmallHeart_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Soleil Belmont",spr_KSW_Fish_SoleilBelmont,spr_KSW_Fish_SoleilBelmont_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Stopwatch",spr_KSW_Fish_Stopwatch,spr_KSW_Fish_Stopwatch_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Sypha Belnandes",spr_KSW_Fish_SyphaBelnandes,spr_KSW_Fish_SyphaBelnandes_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Torchvania",spr_KSW_Fish_Torchvania,spr_KSW_Fish_Torchvania_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Treasure Chestvania",spr_KSW_Fish_TreasureChestvania,spr_KSW_Fish_TreasureChestvania_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Trevor Belmont",spr_KSW_Fish_TrevorBelmont,spr_KSW_Fish_TrevorBelmont_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Triple Shot",spr_KSW_Fish_TripleShot,spr_KSW_Fish_TripleShot_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Undead Count",spr_KSW_Fish_UndeadCount,spr_KSW_Fish_UndeadCount_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Vampire Bat",spr_KSW_Fish_VampireBat,spr_KSW_Fish_VampireBat_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Zapf Bat",spr_KSW_Fish_ZapfBat,spr_KSW_Fish_ZapfBat_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000,-4,16);
+	scr_KSW_AddFish("Zombievania",spr_KSW_Fish_Zombievania,spr_KSW_Fish_Zombievania_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,0000000000000000000000);
 	#endregion
 	#endregion
 }
