@@ -2,10 +2,10 @@
   "$GMSprite":"",
   "%Name":"spr_KSW_Menu_Credits_Icon_SideLineGames",
   "bboxMode":0,
-  "bbox_bottom":14,
-  "bbox_left":1,
-  "bbox_right":14,
-  "bbox_top":1,
+  "bbox_bottom":15,
+  "bbox_left":0,
+  "bbox_right":15,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c5a979fb-06a9-48c7-96d4-bf386414b3fb","name":"c5a979fb-06a9-48c7-96d4-bf386414b3fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"15b92998-82e5-4721-81df-63a5c7e657ad","name":"15b92998-82e5-4721-81df-63a5c7e657ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7439c28e-50a1-49e7-84b3-4a1f37a044c8","blendMode":0,"displayName":"default","isLocked":false,"name":"7439c28e-50a1-49e7-84b3-4a1f37a044c8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"55beb054-e7f7-48dd-9247-ff28b29b970d","blendMode":0,"displayName":"default","isLocked":false,"name":"55beb054-e7f7-48dd-9247-ff28b29b970d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Menu_Credits_Icon_SideLineGames",
   "nineSlice":null,
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5a979fb-06a9-48c7-96d4-bf386414b3fb","path":"sprites/spr_KSW_Menu_Credits_Icon_SideLineGames/spr_KSW_Menu_Credits_Icon_SideLineGames.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b331590e-66d7-41a8-a4fb-0f54c5886545","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"15b92998-82e5-4721-81df-63a5c7e657ad","path":"sprites/spr_KSW_Menu_Credits_Icon_SideLineGames/spr_KSW_Menu_Credits_Icon_SideLineGames.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"091b3b20-69fd-4f37-bad9-a4739a5b3673","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
