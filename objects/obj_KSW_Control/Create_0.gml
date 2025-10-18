@@ -21,6 +21,9 @@ global.pauseScript = scr_KSW_PauseScript;
 
 global.maxPlayers = 1;
 
+global.KSW_FishRarity[3] = 0;
+global.KSW_FishTime[3] = 0;
+
 scr_KSW_SetCharacters();
 scr_KSW_SetBobbers();
 scr_KSW_SetBaits();

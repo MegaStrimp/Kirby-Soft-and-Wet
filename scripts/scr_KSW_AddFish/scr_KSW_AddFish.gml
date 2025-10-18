@@ -61,5 +61,8 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
 	
 	global.KSW_FishCount += 1;
 	
+	global.KSW_FishRarity[targetRarity] += 1;
+	global.KSW_FishTime[targetRarity] += 1;
+	
 	return global.KSW_FishList[global.KSW_FishIDs[? targetName]];
 }
