@@ -10,7 +10,7 @@
   "collisionTolerance":0,
   "ConfigValues":{
     "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+      "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
     },
   },
   "DynamicTexturePage":false,

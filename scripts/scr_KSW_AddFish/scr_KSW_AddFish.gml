@@ -41,6 +41,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
 	{
         id: global.KSW_FishCount,
         name: targetName,
+        displayedName: targetName,
         sprite: targetSprite,
         palette: targetPalette,
         caughtBoxPalette: targetCaughtBoxPalette,

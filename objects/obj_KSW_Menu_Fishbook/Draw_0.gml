@@ -24,7 +24,7 @@ if (global.KSW_CaughtShinyFishCount != 0) scribble("SHINIES " + string(global.KS
 
 #region Fish Name
 var targetName = "???";
-if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) targetName = string_upper(global.KSW_FishList[ds_list_find_value(selectionList,selection)].name);
+if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) targetName = global.KSW_FishList[ds_list_find_value(selectionList,selection)].displayedName;
 var fishName = scribble(targetName).align(fa_right);
 fishName.draw(room_width - 4,room_height - 14 + hintOffset);
 #endregion

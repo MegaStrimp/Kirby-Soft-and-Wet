@@ -443,7 +443,7 @@ if (!localPause)
 					spritePalette = global.KSW_FishList[other.currentFish].palette;
 					spriteXOffset = global.KSW_FishList[other.currentFish].xOffset;
 					spriteYOffset = global.KSW_FishList[other.currentFish].yOffset;
-					name = string_upper(global.KSW_FishList[other.currentFish].name);
+					name = global.KSW_FishList[other.currentFish].displayedName;
 					rarity = global.KSW_FishList[other.currentFish].rarity;
 					phase = global.KSW_FishList[other.currentFish].phase;
 					phaseIconLeft = global.KSW_FishList[other.currentFish].phaseIconLeft;
