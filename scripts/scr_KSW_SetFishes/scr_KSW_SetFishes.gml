@@ -640,6 +640,22 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Vampire Bat",spr_KSW_Fish_VampireBat,spr_KSW_Fish_VampireBat_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,900);
 	scr_KSW_AddFish("Zapf Bat",spr_KSW_Fish_ZapfBat,spr_KSW_Fish_ZapfBat_Pal,glimmer,1,tempHalloweenStage,KSW_Phases.none,2750,-4,16);
 	scr_KSW_AddFish("Zombievania",spr_KSW_Fish_Zombievania,spr_KSW_Fish_Zombievania_Pal,flux,0,tempHalloweenStage,KSW_Phases.none,250,0,6);
+	scr_KSW_AddFish("Dry Bones",spr_KSW_Fish_DryBones,spr_KSW_Fish_DryBones_Pal,mage,0,tempHalloweenStage,KSW_Phases.none,900);
+	scr_KSW_AddFish("Bony Beetle",spr_KSW_Fish_BonyBeetle,spr_KSW_Fish_BonyBeetle_Pal,mage,0,tempHalloweenStage,KSW_Phases.none,750);
+	scr_KSW_AddFish("Boo",spr_KSW_Fish_Boo,spr_KSW_Fish_Boo_Pal,glimmer,0,tempHalloweenStage,KSW_Phases.none,500);
+	scr_KSW_AddFish("Silly Boo",spr_KSW_Fish_SillyBoo,spr_KSW_Fish_SillyBoo_Pal,candy,0,tempHalloweenStage,KSW_Phases.none,650);
+	scr_KSW_AddFish("Smiling Boo",spr_KSW_Fish_SmilingBoo,spr_KSW_Fish_SmilingBoo_Pal,glimmer,0,tempHalloweenStage,KSW_Phases.none,700);
+	scr_KSW_AddFish("Blocky Boo",spr_KSW_Fish_BlockyBoo,spr_KSW_Fish_BlockyBoo_Pal,mage,1,tempHalloweenStage,KSW_Phases.none,2300);
+	scr_KSW_AddFish("Eerie",spr_KSW_Fish_Eerie,spr_KSW_Fish_Eerie_Pal,mage,0,tempHalloweenStage,KSW_Phases.none,800);
+	scr_KSW_AddFish("Big Boo",spr_KSW_Fish_BigBoo,spr_KSW_Fish_BigBoo_Pal,mage,1,tempHalloweenStage,KSW_Phases.none,3000);
+	scr_KSW_AddFish("Jean De Fillet",spr_KSW_Fish_JeanDeFillet,spr_KSW_Fish_JeanDeFillet_Pal,borange,1,tempHalloweenStage,KSW_Phases.none,1900);
+	scr_KSW_AddFish("Boo Guy",spr_KSW_Fish_BooGuy,spr_KSW_Fish_BooGuy_Pal,legion,0,tempHalloweenStage,KSW_Phases.none,800);
+	scr_KSW_AddFish("Lantern Ghost",spr_KSW_Fish_LanternGhost,spr_KSW_Fish_LanternGhost_Pal,glimmer,1,tempHalloweenStage,KSW_Phases.none,2000);
+	scr_KSW_AddFish("Boolloon",spr_KSW_Fish_Boolloon,spr_KSW_Fish_Boolloon_Pal,mage,0,tempHalloweenStage,KSW_Phases.none,550);
+	scr_KSW_AddFish("Blindfold Boo",spr_KSW_Fish_BlindfoldBoo,spr_KSW_Fish_BlindfoldBoo_Pal,borange,0,tempHalloweenStage,KSW_Phases.none,900);
+	scr_KSW_AddFish("Spook",spr_KSW_Fish_Spook,spr_KSW_Fish_Spook_Pal,borange,1,tempHalloweenStage,KSW_Phases.none,1700);
+	scr_KSW_AddFish("Boo Blah",spr_KSW_Fish_BooBlah,spr_KSW_Fish_BooBlah_Pal,mage,0,tempHalloweenStage,KSW_Phases.none,1000);
+	scr_KSW_AddFish("King Boo",spr_KSW_Fish_KingBoo,spr_KSW_Fish_KingBoo_Pal,flux,3,tempHalloweenStage,KSW_Phases.none,25000);
 	#endregion
 	#endregion
 }
