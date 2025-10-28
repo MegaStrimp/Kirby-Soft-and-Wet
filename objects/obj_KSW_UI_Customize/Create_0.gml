@@ -43,6 +43,8 @@ hintOffset = 32;
 displayedCoins_YOffsetTimer = -1;
 displayedCoins_YOffsetTimerMax = 4;
 
+switchStage = false;
+
 coinsVisible = true;
 
 scr_KSW_UI_Customize_SetPages();

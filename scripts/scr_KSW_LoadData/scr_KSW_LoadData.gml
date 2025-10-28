@@ -5,6 +5,8 @@ function scr_KSW_LoadData(file)
 	var fileFinal = file;
 	if (!global.isMobile) fileFinal = environment_get_variable("LOCALAPPDATA") + chr(92) + global.gameTitle + chr(92) + file;
 	
+	if (!file_exists(fileFinal)) fileFinal = string(fileFinal) + "_bak";
+	
 	ini_open(fileFinal);
 	
 	#region Gameplay
