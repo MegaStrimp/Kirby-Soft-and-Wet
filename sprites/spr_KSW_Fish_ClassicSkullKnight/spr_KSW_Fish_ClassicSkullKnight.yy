@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_ClassicSkullKnight",
   "bboxMode":0,
   "bbox_bottom":49,
@@ -17,8 +17,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"745302fc-ab63-41d5-bd03-8bb8ee842399","name":"745302fc-ab63-41d5-bd03-8bb8ee842399","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e6164e54-2324-4df4-b32f-cdf9cf19df67","name":"e6164e54-2324-4df4-b32f-cdf9cf19df67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"745302fc-ab63-41d5-bd03-8bb8ee842399","name":"745302fc-ab63-41d5-bd03-8bb8ee842399","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e6164e54-2324-4df4-b32f-cdf9cf19df67","name":"e6164e54-2324-4df4-b32f-cdf9cf19df67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,12 +76,8 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"745302fc-ab63-41d5-bd03-8bb8ee842399","path":"sprites/spr_KSW_Fish_ClassicSkullKnight/spr_KSW_Fish_ClassicSkullKnight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"01e9a549-293e-4bde-b101-94b844f28f35","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6164e54-2324-4df4-b32f-cdf9cf19df67","path":"sprites/spr_KSW_Fish_ClassicSkullKnight/spr_KSW_Fish_ClassicSkullKnight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"137a1565-7a98-4137-9400-8be8f32e209a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"745302fc-ab63-41d5-bd03-8bb8ee842399","path":"sprites/spr_KSW_Fish_ClassicSkullKnight/spr_KSW_Fish_ClassicSkullKnight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"01e9a549-293e-4bde-b101-94b844f28f35","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6164e54-2324-4df4-b32f-cdf9cf19df67","path":"sprites/spr_KSW_Fish_ClassicSkullKnight/spr_KSW_Fish_ClassicSkullKnight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"137a1565-7a98-4137-9400-8be8f32e209a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

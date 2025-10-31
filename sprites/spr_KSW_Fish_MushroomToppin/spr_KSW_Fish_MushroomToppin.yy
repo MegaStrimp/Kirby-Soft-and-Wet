@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_MushroomToppin",
   "bboxMode":0,
   "bbox_bottom":38,
@@ -17,18 +17,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a1bf7ca2-a824-41a9-8e5e-83a5e968f105","name":"a1bf7ca2-a824-41a9-8e5e-83a5e968f105","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"12499395-c02b-4cd0-af71-4b3fccf88c79","name":"12499395-c02b-4cd0-af71-4b3fccf88c79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7bc6b847-77ea-4471-8352-2c824c934e54","name":"7bc6b847-77ea-4471-8352-2c824c934e54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fe3bfc4c-50ad-47b2-b9ac-e3affb4528f2","name":"fe3bfc4c-50ad-47b2-b9ac-e3affb4528f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d5847c4b-7f81-4b11-9298-0cfc9b10aaee","name":"d5847c4b-7f81-4b11-9298-0cfc9b10aaee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"42a5925a-2d0e-4eb6-bf4e-c95c522b612a","name":"42a5925a-2d0e-4eb6-bf4e-c95c522b612a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e69c588b-6695-4932-bc44-e1f0c1550283","name":"e69c588b-6695-4932-bc44-e1f0c1550283","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7246c2dc-26d5-479c-8df2-4757abe719d5","name":"7246c2dc-26d5-479c-8df2-4757abe719d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eda0948a-4ba3-4467-ac09-078c949d959b","name":"eda0948a-4ba3-4467-ac09-078c949d959b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fe4d4f6e-2a7f-45f8-81bb-cd5a59f9bf72","name":"fe4d4f6e-2a7f-45f8-81bb-cd5a59f9bf72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5ba50ffb-3647-4297-893d-68a4c6f4106b","name":"5ba50ffb-3647-4297-893d-68a4c6f4106b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"68c4855e-3baf-4e93-b498-eba8b55275e6","name":"68c4855e-3baf-4e93-b498-eba8b55275e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a1bf7ca2-a824-41a9-8e5e-83a5e968f105","name":"a1bf7ca2-a824-41a9-8e5e-83a5e968f105","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12499395-c02b-4cd0-af71-4b3fccf88c79","name":"12499395-c02b-4cd0-af71-4b3fccf88c79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7bc6b847-77ea-4471-8352-2c824c934e54","name":"7bc6b847-77ea-4471-8352-2c824c934e54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fe3bfc4c-50ad-47b2-b9ac-e3affb4528f2","name":"fe3bfc4c-50ad-47b2-b9ac-e3affb4528f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d5847c4b-7f81-4b11-9298-0cfc9b10aaee","name":"d5847c4b-7f81-4b11-9298-0cfc9b10aaee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"42a5925a-2d0e-4eb6-bf4e-c95c522b612a","name":"42a5925a-2d0e-4eb6-bf4e-c95c522b612a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e69c588b-6695-4932-bc44-e1f0c1550283","name":"e69c588b-6695-4932-bc44-e1f0c1550283","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7246c2dc-26d5-479c-8df2-4757abe719d5","name":"7246c2dc-26d5-479c-8df2-4757abe719d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eda0948a-4ba3-4467-ac09-078c949d959b","name":"eda0948a-4ba3-4467-ac09-078c949d959b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fe4d4f6e-2a7f-45f8-81bb-cd5a59f9bf72","name":"fe4d4f6e-2a7f-45f8-81bb-cd5a59f9bf72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5ba50ffb-3647-4297-893d-68a4c6f4106b","name":"5ba50ffb-3647-4297-893d-68a4c6f4106b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"68c4855e-3baf-4e93-b498-eba8b55275e6","name":"68c4855e-3baf-4e93-b498-eba8b55275e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -86,42 +86,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1bf7ca2-a824-41a9-8e5e-83a5e968f105","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a243b356-bdd6-4edf-8d14-0dd7c8c0e5db","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12499395-c02b-4cd0-af71-4b3fccf88c79","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4feec18d-4a92-4d0b-a08d-3cfb4d83f12b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7bc6b847-77ea-4471-8352-2c824c934e54","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"210e6de6-73cf-4270-9b6b-1dfb15d531fb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe3bfc4c-50ad-47b2-b9ac-e3affb4528f2","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"274e2e00-699e-4302-ad59-3d3dd97b4b4d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5847c4b-7f81-4b11-9298-0cfc9b10aaee","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a5e1532b-d75f-4764-a28b-609c9a99ad06","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42a5925a-2d0e-4eb6-bf4e-c95c522b612a","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"088a01d9-1e57-4041-9cba-1483babaa9e4","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e69c588b-6695-4932-bc44-e1f0c1550283","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6eff7f28-0b9f-43c2-a47b-67e24b6b8264","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7246c2dc-26d5-479c-8df2-4757abe719d5","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"86d0ff3c-ff2e-40c9-8bab-764e31cdeb08","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eda0948a-4ba3-4467-ac09-078c949d959b","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0c8c99b1-c8c7-4d78-a80c-6f6e13c4fbd3","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe4d4f6e-2a7f-45f8-81bb-cd5a59f9bf72","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2f49da1b-7b0f-4082-927d-56f8fe18c8e7","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ba50ffb-3647-4297-893d-68a4c6f4106b","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"42aa90fc-b8ff-476b-bf5b-7ebe21033fbf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"68c4855e-3baf-4e93-b498-eba8b55275e6","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cd025498-0afc-43dc-8c0f-4ae0529a1aa2","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1bf7ca2-a824-41a9-8e5e-83a5e968f105","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a243b356-bdd6-4edf-8d14-0dd7c8c0e5db","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"12499395-c02b-4cd0-af71-4b3fccf88c79","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4feec18d-4a92-4d0b-a08d-3cfb4d83f12b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7bc6b847-77ea-4471-8352-2c824c934e54","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"210e6de6-73cf-4270-9b6b-1dfb15d531fb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe3bfc4c-50ad-47b2-b9ac-e3affb4528f2","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"274e2e00-699e-4302-ad59-3d3dd97b4b4d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5847c4b-7f81-4b11-9298-0cfc9b10aaee","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a5e1532b-d75f-4764-a28b-609c9a99ad06","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"42a5925a-2d0e-4eb6-bf4e-c95c522b612a","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"088a01d9-1e57-4041-9cba-1483babaa9e4","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e69c588b-6695-4932-bc44-e1f0c1550283","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6eff7f28-0b9f-43c2-a47b-67e24b6b8264","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7246c2dc-26d5-479c-8df2-4757abe719d5","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"86d0ff3c-ff2e-40c9-8bab-764e31cdeb08","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"eda0948a-4ba3-4467-ac09-078c949d959b","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0c8c99b1-c8c7-4d78-a80c-6f6e13c4fbd3","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe4d4f6e-2a7f-45f8-81bb-cd5a59f9bf72","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2f49da1b-7b0f-4082-927d-56f8fe18c8e7","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ba50ffb-3647-4297-893d-68a4c6f4106b","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"42aa90fc-b8ff-476b-bf5b-7ebe21033fbf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"68c4855e-3baf-4e93-b498-eba8b55275e6","path":"sprites/spr_KSW_Fish_MushroomToppin/spr_KSW_Fish_MushroomToppin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cd025498-0afc-43dc-8c0f-4ae0529a1aa2","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

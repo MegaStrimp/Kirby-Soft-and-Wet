@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_ToadyBloyster",
   "bboxMode":0,
   "bbox_bottom":48,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1587b087-83a3-4854-880a-17eefe4e9e4a","name":"1587b087-83a3-4854-880a-17eefe4e9e4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9b35d12b-ca40-4235-93ad-08004c2138ec","name":"9b35d12b-ca40-4235-93ad-08004c2138ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"29c06c46-2b11-4551-b62d-111e823ee45d","name":"29c06c46-2b11-4551-b62d-111e823ee45d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"02f65c8b-2ed2-444d-985f-49746b956c1d","name":"02f65c8b-2ed2-444d-985f-49746b956c1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1587b087-83a3-4854-880a-17eefe4e9e4a","name":"1587b087-83a3-4854-880a-17eefe4e9e4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b35d12b-ca40-4235-93ad-08004c2138ec","name":"9b35d12b-ca40-4235-93ad-08004c2138ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"29c06c46-2b11-4551-b62d-111e823ee45d","name":"29c06c46-2b11-4551-b62d-111e823ee45d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02f65c8b-2ed2-444d-985f-49746b956c1d","name":"02f65c8b-2ed2-444d-985f-49746b956c1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1587b087-83a3-4854-880a-17eefe4e9e4a","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b5a15189-97aa-419f-9b5a-19ee1a44bf20","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b35d12b-ca40-4235-93ad-08004c2138ec","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b48db5b0-2a62-43c1-8f6d-eb1ae471bca9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"29c06c46-2b11-4551-b62d-111e823ee45d","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f69cce4a-d2bb-4bde-aaab-7f9e47d05eda","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02f65c8b-2ed2-444d-985f-49746b956c1d","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a9bba458-526c-4822-9180-09d5fa650367","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1587b087-83a3-4854-880a-17eefe4e9e4a","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b5a15189-97aa-419f-9b5a-19ee1a44bf20","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b35d12b-ca40-4235-93ad-08004c2138ec","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b48db5b0-2a62-43c1-8f6d-eb1ae471bca9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"29c06c46-2b11-4551-b62d-111e823ee45d","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f69cce4a-d2bb-4bde-aaab-7f9e47d05eda","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"02f65c8b-2ed2-444d-985f-49746b956c1d","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a9bba458-526c-4822-9180-09d5fa650367","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

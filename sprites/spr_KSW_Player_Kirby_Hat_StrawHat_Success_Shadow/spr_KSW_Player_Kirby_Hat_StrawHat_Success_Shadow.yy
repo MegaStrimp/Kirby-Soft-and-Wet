@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -17,16 +17,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"72a6537d-f27a-49d1-aeef-e3d96cf4e299","name":"72a6537d-f27a-49d1-aeef-e3d96cf4e299","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"483c9d7b-1003-4106-8f36-d6dd52596c2b","name":"483c9d7b-1003-4106-8f36-d6dd52596c2b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"84798437-4e2c-4f21-a6cc-a78cf4dc1727","name":"84798437-4e2c-4f21-a6cc-a78cf4dc1727","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ddbfcea9-0a83-4449-8836-d2dfeb7e1c4c","name":"ddbfcea9-0a83-4449-8836-d2dfeb7e1c4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d4fea524-a3c1-4add-8b4c-43ef3d20c2d7","name":"d4fea524-a3c1-4add-8b4c-43ef3d20c2d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dd181085-0a69-4025-ac67-b2e9fe7df23d","name":"dd181085-0a69-4025-ac67-b2e9fe7df23d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bc390006-ad05-41b5-bb79-2ff86928e0cd","name":"bc390006-ad05-41b5-bb79-2ff86928e0cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6a33aada-fec1-40a6-a9da-fcb211022c95","name":"6a33aada-fec1-40a6-a9da-fcb211022c95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"84259b79-8620-4770-8892-af61a3bb554d","name":"84259b79-8620-4770-8892-af61a3bb554d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d3762c6c-73f9-49a5-b662-f9314fd5c0d1","name":"d3762c6c-73f9-49a5-b662-f9314fd5c0d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"72a6537d-f27a-49d1-aeef-e3d96cf4e299","name":"72a6537d-f27a-49d1-aeef-e3d96cf4e299","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"483c9d7b-1003-4106-8f36-d6dd52596c2b","name":"483c9d7b-1003-4106-8f36-d6dd52596c2b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84798437-4e2c-4f21-a6cc-a78cf4dc1727","name":"84798437-4e2c-4f21-a6cc-a78cf4dc1727","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ddbfcea9-0a83-4449-8836-d2dfeb7e1c4c","name":"ddbfcea9-0a83-4449-8836-d2dfeb7e1c4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d4fea524-a3c1-4add-8b4c-43ef3d20c2d7","name":"d4fea524-a3c1-4add-8b4c-43ef3d20c2d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd181085-0a69-4025-ac67-b2e9fe7df23d","name":"dd181085-0a69-4025-ac67-b2e9fe7df23d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc390006-ad05-41b5-bb79-2ff86928e0cd","name":"bc390006-ad05-41b5-bb79-2ff86928e0cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a33aada-fec1-40a6-a9da-fcb211022c95","name":"6a33aada-fec1-40a6-a9da-fcb211022c95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84259b79-8620-4770-8892-af61a3bb554d","name":"84259b79-8620-4770-8892-af61a3bb554d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d3762c6c-73f9-49a5-b662-f9314fd5c0d1","name":"d3762c6c-73f9-49a5-b662-f9314fd5c0d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -84,36 +84,16 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72a6537d-f27a-49d1-aeef-e3d96cf4e299","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"aacf777c-ca12-4e2a-9b30-f61f7a2ad2ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"483c9d7b-1003-4106-8f36-d6dd52596c2b","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"82555f1e-e4ba-4303-beb0-18e5e71e0938","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"84798437-4e2c-4f21-a6cc-a78cf4dc1727","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8802dade-3607-447c-b6f1-863570c2747d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ddbfcea9-0a83-4449-8836-d2dfeb7e1c4c","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"779179d8-a9fb-447b-9178-f631c9da4b81","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4fea524-a3c1-4add-8b4c-43ef3d20c2d7","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3cde5e5e-2388-40c6-a780-ab7547b192e4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd181085-0a69-4025-ac67-b2e9fe7df23d","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"783bf3b6-5017-42c2-8737-6bd8fb3a47cb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc390006-ad05-41b5-bb79-2ff86928e0cd","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"df36f349-da13-48a6-be3e-656b2d60d558","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a33aada-fec1-40a6-a9da-fcb211022c95","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ccf57557-f46b-4acf-90da-a0b1506dcf7f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"84259b79-8620-4770-8892-af61a3bb554d","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5c01dce0-6c7e-49fd-905f-60c11c670619","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3762c6c-73f9-49a5-b662-f9314fd5c0d1","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ba1716b8-eef8-4ac7-b58e-7b9f66732617","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"72a6537d-f27a-49d1-aeef-e3d96cf4e299","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"aacf777c-ca12-4e2a-9b30-f61f7a2ad2ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"483c9d7b-1003-4106-8f36-d6dd52596c2b","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"82555f1e-e4ba-4303-beb0-18e5e71e0938","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"84798437-4e2c-4f21-a6cc-a78cf4dc1727","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8802dade-3607-447c-b6f1-863570c2747d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ddbfcea9-0a83-4449-8836-d2dfeb7e1c4c","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"779179d8-a9fb-447b-9178-f631c9da4b81","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4fea524-a3c1-4add-8b4c-43ef3d20c2d7","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3cde5e5e-2388-40c6-a780-ab7547b192e4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd181085-0a69-4025-ac67-b2e9fe7df23d","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"783bf3b6-5017-42c2-8737-6bd8fb3a47cb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc390006-ad05-41b5-bb79-2ff86928e0cd","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"df36f349-da13-48a6-be3e-656b2d60d558","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a33aada-fec1-40a6-a9da-fcb211022c95","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ccf57557-f46b-4acf-90da-a0b1506dcf7f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"84259b79-8620-4770-8892-af61a3bb554d","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5c01dce0-6c7e-49fd-905f-60c11c670619","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3762c6c-73f9-49a5-b662-f9314fd5c0d1","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ba1716b8-eef8-4ac7-b58e-7b9f66732617","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

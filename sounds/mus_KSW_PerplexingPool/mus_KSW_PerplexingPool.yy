@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"mus_KSW_PerplexingPool",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":1,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":150.57898,
+  "exportDir":"",
   "name":"mus_KSW_PerplexingPool",
   "parent":{
     "name":"Afternoon",
@@ -23,6 +25,5 @@
   "tags":[
     "Music",
   ],
-  "type":1,
   "volume":1.0,
 }

@@ -16,9 +16,9 @@
   "exportToGame":true,
   "extensionVersion":"0.0.1",
   "files":[
-    {"$GMExtensionFile":"","%Name":"ColorkeyMaskDLL.dll","constants":[],"copyToTargets":-1,"filename":"ColorkeyMaskDLL.dll","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"ColorkeyMaskDLL.dll","constants":[],"copyToTargets":-1,"filename":"ColorkeyMaskDLL.dll","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"make_color_transparent","argCount":0,"args":[1,2,2,2,],"documentation":"","externalName":"MakeColorTransparent","help":"","hidden":false,"kind":1,"name":"make_color_transparent","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"","kind":1,"name":"ColorkeyMaskDLL.dll","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"","kind":1,"name":"ColorkeyMaskDLL.dll","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,

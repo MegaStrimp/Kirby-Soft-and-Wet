@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Layout_GrassBeach_Day",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"52d9de18-2f56-49a0-9de6-b9634a843130","name":"52d9de18-2f56-49a0-9de6-b9634a843130","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52d9de18-2f56-49a0-9de6-b9634a843130","name":"52d9de18-2f56-49a0-9de6-b9634a843130","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52d9de18-2f56-49a0-9de6-b9634a843130","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4fe4dbf3-8f73-482e-b317-95a4ac330e38","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"52c14463-86d1-4996-a796-e8b065f71169","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3aef314e-e910-4223-8528-0c2e951a24f1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6eb216dc-79a1-4261-b25b-df9836e2f81d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"52d9de18-2f56-49a0-9de6-b9634a843130","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4fe4dbf3-8f73-482e-b317-95a4ac330e38","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"52c14463-86d1-4996-a796-e8b065f71169","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3aef314e-e910-4223-8528-0c2e951a24f1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","path":"sprites/spr_KSW_Layout_GrassBeach_Day/spr_KSW_Layout_GrassBeach_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6eb216dc-79a1-4261-b25b-df9836e2f81d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

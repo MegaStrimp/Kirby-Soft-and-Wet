@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Skultera",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"70958a98-dcbd-473a-bcbe-33dcda52e9e6","name":"70958a98-dcbd-473a-bcbe-33dcda52e9e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b0ab1c23-b3f9-428a-b40b-ec3d8c288867","name":"b0ab1c23-b3f9-428a-b40b-ec3d8c288867","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e0233c5d-bb23-4b8e-b726-181635205b8b","name":"e0233c5d-bb23-4b8e-b726-181635205b8b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"95a681c3-77b0-414f-9f54-3e528057ea3c","name":"95a681c3-77b0-414f-9f54-3e528057ea3c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"70958a98-dcbd-473a-bcbe-33dcda52e9e6","name":"70958a98-dcbd-473a-bcbe-33dcda52e9e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b0ab1c23-b3f9-428a-b40b-ec3d8c288867","name":"b0ab1c23-b3f9-428a-b40b-ec3d8c288867","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0233c5d-bb23-4b8e-b726-181635205b8b","name":"e0233c5d-bb23-4b8e-b726-181635205b8b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95a681c3-77b0-414f-9f54-3e528057ea3c","name":"95a681c3-77b0-414f-9f54-3e528057ea3c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,18 +76,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"70958a98-dcbd-473a-bcbe-33dcda52e9e6","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ab70dfa0-8f7a-4423-b924-5be9602cee56","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0ab1c23-b3f9-428a-b40b-ec3d8c288867","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2a5fd9a1-4b03-432e-a3aa-e4940718602a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0233c5d-bb23-4b8e-b726-181635205b8b","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e315c61b-5f3c-44be-909a-b7de8d83a066","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95a681c3-77b0-414f-9f54-3e528057ea3c","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c41a9a93-21ed-4b69-af50-3603ca8034d3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"70958a98-dcbd-473a-bcbe-33dcda52e9e6","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ab70dfa0-8f7a-4423-b924-5be9602cee56","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0ab1c23-b3f9-428a-b40b-ec3d8c288867","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2a5fd9a1-4b03-432e-a3aa-e4940718602a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0233c5d-bb23-4b8e-b726-181635205b8b","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e315c61b-5f3c-44be-909a-b7de8d83a066","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"95a681c3-77b0-414f-9f54-3e528057ea3c","path":"sprites/spr_KSW_Fish_Skultera/spr_KSW_Fish_Skultera.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c41a9a93-21ed-4b69-af50-3603ca8034d3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_FattyWhale",
   "bboxMode":0,
   "bbox_bottom":120,
@@ -17,8 +17,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0c146cf5-b6e1-48f5-bc07-ef99f35f0bfb","name":"0c146cf5-b6e1-48f5-bc07-ef99f35f0bfb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ccbfefeb-aa68-4812-80b8-a856ecce1fa6","name":"ccbfefeb-aa68-4812-80b8-a856ecce1fa6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0c146cf5-b6e1-48f5-bc07-ef99f35f0bfb","name":"0c146cf5-b6e1-48f5-bc07-ef99f35f0bfb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ccbfefeb-aa68-4812-80b8-a856ecce1fa6","name":"ccbfefeb-aa68-4812-80b8-a856ecce1fa6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,12 +76,8 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c146cf5-b6e1-48f5-bc07-ef99f35f0bfb","path":"sprites/spr_KSW_Fish_FattyWhale/spr_KSW_Fish_FattyWhale.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"95e7f8da-f1b2-4ea3-8683-3b44b881a862","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccbfefeb-aa68-4812-80b8-a856ecce1fa6","path":"sprites/spr_KSW_Fish_FattyWhale/spr_KSW_Fish_FattyWhale.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6b8469fd-d54e-4d80-a3d8-a113c2a9daaa","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c146cf5-b6e1-48f5-bc07-ef99f35f0bfb","path":"sprites/spr_KSW_Fish_FattyWhale/spr_KSW_Fish_FattyWhale.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"95e7f8da-f1b2-4ea3-8683-3b44b881a862","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccbfefeb-aa68-4812-80b8-a856ecce1fa6","path":"sprites/spr_KSW_Fish_FattyWhale/spr_KSW_Fish_FattyWhale.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6b8469fd-d54e-4d80-a3d8-a113c2a9daaa","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

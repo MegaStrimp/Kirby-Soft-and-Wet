@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Goldeen",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"624b4f47-d6a9-4362-9a24-d8e7ed2a6984","name":"624b4f47-d6a9-4362-9a24-d8e7ed2a6984","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e8a832ab-ac12-492c-954e-469bf039c0d8","name":"e8a832ab-ac12-492c-954e-469bf039c0d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6b43e585-cda2-4985-bcc6-6c50af129921","name":"6b43e585-cda2-4985-bcc6-6c50af129921","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"624b4f47-d6a9-4362-9a24-d8e7ed2a6984","name":"624b4f47-d6a9-4362-9a24-d8e7ed2a6984","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e8a832ab-ac12-492c-954e-469bf039c0d8","name":"e8a832ab-ac12-492c-954e-469bf039c0d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b43e585-cda2-4985-bcc6-6c50af129921","name":"6b43e585-cda2-4985-bcc6-6c50af129921","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,15 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"624b4f47-d6a9-4362-9a24-d8e7ed2a6984","path":"sprites/spr_KSW_Fish_Goldeen/spr_KSW_Fish_Goldeen.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"39fe83e9-327f-4b51-9786-b8d60faae561","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8a832ab-ac12-492c-954e-469bf039c0d8","path":"sprites/spr_KSW_Fish_Goldeen/spr_KSW_Fish_Goldeen.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f4b8d21c-0959-4492-a0d9-252560e29d72","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b43e585-cda2-4985-bcc6-6c50af129921","path":"sprites/spr_KSW_Fish_Goldeen/spr_KSW_Fish_Goldeen.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4b78615c-1448-42aa-aa69-38e26d8a11db","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"624b4f47-d6a9-4362-9a24-d8e7ed2a6984","path":"sprites/spr_KSW_Fish_Goldeen/spr_KSW_Fish_Goldeen.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"39fe83e9-327f-4b51-9786-b8d60faae561","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8a832ab-ac12-492c-954e-469bf039c0d8","path":"sprites/spr_KSW_Fish_Goldeen/spr_KSW_Fish_Goldeen.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f4b8d21c-0959-4492-a0d9-252560e29d72","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b43e585-cda2-4985-bcc6-6c50af129921","path":"sprites/spr_KSW_Fish_Goldeen/spr_KSW_Fish_Goldeen.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4b78615c-1448-42aa-aa69-38e26d8a11db","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

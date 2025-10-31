@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Torchvania",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -17,8 +17,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"66ef4d5f-d3d9-434e-a5ff-427e9c7f9b48","name":"66ef4d5f-d3d9-434e-a5ff-427e9c7f9b48","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0e7b3b83-ec0f-469d-bfb6-d5d0a20d8fa0","name":"0e7b3b83-ec0f-469d-bfb6-d5d0a20d8fa0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"66ef4d5f-d3d9-434e-a5ff-427e9c7f9b48","name":"66ef4d5f-d3d9-434e-a5ff-427e9c7f9b48","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e7b3b83-ec0f-469d-bfb6-d5d0a20d8fa0","name":"0e7b3b83-ec0f-469d-bfb6-d5d0a20d8fa0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,12 +76,8 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"66ef4d5f-d3d9-434e-a5ff-427e9c7f9b48","path":"sprites/spr_KSW_Fish_Torchvania/spr_KSW_Fish_Torchvania.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"275da548-c43e-47c6-9a01-a21860b5788a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e7b3b83-ec0f-469d-bfb6-d5d0a20d8fa0","path":"sprites/spr_KSW_Fish_Torchvania/spr_KSW_Fish_Torchvania.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d57f07db-f839-4f61-bb13-48fc7893ad1f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"66ef4d5f-d3d9-434e-a5ff-427e9c7f9b48","path":"sprites/spr_KSW_Fish_Torchvania/spr_KSW_Fish_Torchvania.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"275da548-c43e-47c6-9a01-a21860b5788a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e7b3b83-ec0f-469d-bfb6-d5d0a20d8fa0","path":"sprites/spr_KSW_Fish_Torchvania/spr_KSW_Fish_Torchvania.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d57f07db-f839-4f61-bb13-48fc7893ad1f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

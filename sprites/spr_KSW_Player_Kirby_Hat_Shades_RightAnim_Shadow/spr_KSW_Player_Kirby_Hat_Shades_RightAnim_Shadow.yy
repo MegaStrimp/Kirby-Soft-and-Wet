@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"813b6289-fe8a-4c2e-885c-e33bd027cad1","name":"813b6289-fe8a-4c2e-885c-e33bd027cad1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f3eb2125-a123-4a92-9afe-e01ffb5e6442","name":"f3eb2125-a123-4a92-9afe-e01ffb5e6442","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cb17708b-4b7c-4724-a063-a2afc4e013dc","name":"cb17708b-4b7c-4724-a063-a2afc4e013dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"813b6289-fe8a-4c2e-885c-e33bd027cad1","name":"813b6289-fe8a-4c2e-885c-e33bd027cad1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f3eb2125-a123-4a92-9afe-e01ffb5e6442","name":"f3eb2125-a123-4a92-9afe-e01ffb5e6442","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb17708b-4b7c-4724-a063-a2afc4e013dc","name":"cb17708b-4b7c-4724-a063-a2afc4e013dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,15 +77,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"813b6289-fe8a-4c2e-885c-e33bd027cad1","path":"sprites/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9a6a8e7-440a-436d-a282-81b395d962f7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f3eb2125-a123-4a92-9afe-e01ffb5e6442","path":"sprites/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ec506290-034f-419f-8f70-0e3c2eb879fa","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb17708b-4b7c-4724-a063-a2afc4e013dc","path":"sprites/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"80364374-540a-472f-81c8-4992e86fdc39","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"813b6289-fe8a-4c2e-885c-e33bd027cad1","path":"sprites/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e9a6a8e7-440a-436d-a282-81b395d962f7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f3eb2125-a123-4a92-9afe-e01ffb5e6442","path":"sprites/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ec506290-034f-419f-8f70-0e3c2eb879fa","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb17708b-4b7c-4724-a063-a2afc4e013dc","path":"sprites/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow/spr_KSW_Player_Kirby_Hat_Shades_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"80364374-540a-472f-81c8-4992e86fdc39","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

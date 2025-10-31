@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_PuckeringBlinnow",
   "bboxMode":0,
   "bbox_bottom":16,
@@ -17,12 +17,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2775c756-bc0b-454a-bf3c-69cc6ffa3fcd","name":"2775c756-bc0b-454a-bf3c-69cc6ffa3fcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ffa0343a-7c0e-4e32-97f5-c8310faacd31","name":"ffa0343a-7c0e-4e32-97f5-c8310faacd31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"30314894-45b1-4a7e-a562-1bd4f0a4da44","name":"30314894-45b1-4a7e-a562-1bd4f0a4da44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ffff33df-76b7-4b5f-b4e7-a420c713e537","name":"ffff33df-76b7-4b5f-b4e7-a420c713e537","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eeab8169-413f-413f-b65a-cb01d897ea35","name":"eeab8169-413f-413f-b65a-cb01d897ea35","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"35089e1f-cd5f-48d6-abf3-b10b7dbed2b2","name":"35089e1f-cd5f-48d6-abf3-b10b7dbed2b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2775c756-bc0b-454a-bf3c-69cc6ffa3fcd","name":"2775c756-bc0b-454a-bf3c-69cc6ffa3fcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ffa0343a-7c0e-4e32-97f5-c8310faacd31","name":"ffa0343a-7c0e-4e32-97f5-c8310faacd31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"30314894-45b1-4a7e-a562-1bd4f0a4da44","name":"30314894-45b1-4a7e-a562-1bd4f0a4da44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ffff33df-76b7-4b5f-b4e7-a420c713e537","name":"ffff33df-76b7-4b5f-b4e7-a420c713e537","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eeab8169-413f-413f-b65a-cb01d897ea35","name":"eeab8169-413f-413f-b65a-cb01d897ea35","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"35089e1f-cd5f-48d6-abf3-b10b7dbed2b2","name":"35089e1f-cd5f-48d6-abf3-b10b7dbed2b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -80,24 +80,12 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2775c756-bc0b-454a-bf3c-69cc6ffa3fcd","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2600ae1e-0331-43fe-822a-20fb8232d192","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffa0343a-7c0e-4e32-97f5-c8310faacd31","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c47b26d5-1208-407b-ad71-40170a2fedad","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30314894-45b1-4a7e-a562-1bd4f0a4da44","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d5a05342-4f5c-470e-b2ed-e960c760d360","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffff33df-76b7-4b5f-b4e7-a420c713e537","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"369cfd91-c1af-48e2-b029-78e9242e7b51","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eeab8169-413f-413f-b65a-cb01d897ea35","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c0f3371b-991e-4755-907d-1ec2375abc0a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35089e1f-cd5f-48d6-abf3-b10b7dbed2b2","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"836c0c07-9b9c-421b-99af-a5b8fa29e826","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2775c756-bc0b-454a-bf3c-69cc6ffa3fcd","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2600ae1e-0331-43fe-822a-20fb8232d192","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffa0343a-7c0e-4e32-97f5-c8310faacd31","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c47b26d5-1208-407b-ad71-40170a2fedad","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"30314894-45b1-4a7e-a562-1bd4f0a4da44","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d5a05342-4f5c-470e-b2ed-e960c760d360","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffff33df-76b7-4b5f-b4e7-a420c713e537","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"369cfd91-c1af-48e2-b029-78e9242e7b51","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"eeab8169-413f-413f-b65a-cb01d897ea35","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c0f3371b-991e-4755-907d-1ec2375abc0a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"35089e1f-cd5f-48d6-abf3-b10b7dbed2b2","path":"sprites/spr_KSW_Fish_PuckeringBlinnow/spr_KSW_Fish_PuckeringBlinnow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"836c0c07-9b9c-421b-99af-a5b8fa29e826","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Jackenstein",
   "bboxMode":0,
   "bbox_bottom":83,
@@ -17,8 +17,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"df7cfb83-a4d0-4f2f-bdd9-f75bcde6a1cc","name":"df7cfb83-a4d0-4f2f-bdd9-f75bcde6a1cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4cc9ebc5-0e02-45c0-8aaa-966abb4df065","name":"4cc9ebc5-0e02-45c0-8aaa-966abb4df065","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"df7cfb83-a4d0-4f2f-bdd9-f75bcde6a1cc","name":"df7cfb83-a4d0-4f2f-bdd9-f75bcde6a1cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4cc9ebc5-0e02-45c0-8aaa-966abb4df065","name":"4cc9ebc5-0e02-45c0-8aaa-966abb4df065","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,12 +76,8 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df7cfb83-a4d0-4f2f-bdd9-f75bcde6a1cc","path":"sprites/spr_KSW_Fish_Jackenstein/spr_KSW_Fish_Jackenstein.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e6ef9d71-4942-41d6-b933-f43c1dae1a67","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4cc9ebc5-0e02-45c0-8aaa-966abb4df065","path":"sprites/spr_KSW_Fish_Jackenstein/spr_KSW_Fish_Jackenstein.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f8f9ef92-ce7b-485b-b2b8-be0eb4ac243e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"df7cfb83-a4d0-4f2f-bdd9-f75bcde6a1cc","path":"sprites/spr_KSW_Fish_Jackenstein/spr_KSW_Fish_Jackenstein.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e6ef9d71-4942-41d6-b933-f43c1dae1a67","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4cc9ebc5-0e02-45c0-8aaa-966abb4df065","path":"sprites/spr_KSW_Fish_Jackenstein/spr_KSW_Fish_Jackenstein.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f8f9ef92-ce7b-485b-b2b8-be0eb4ac243e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

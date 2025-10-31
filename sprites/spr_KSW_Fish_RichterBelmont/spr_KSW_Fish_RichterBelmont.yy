@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_RichterBelmont",
   "bboxMode":0,
   "bbox_bottom":43,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0fae4ad5-1876-4e65-b86d-ca87d0a89df4","name":"0fae4ad5-1876-4e65-b86d-ca87d0a89df4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e9291a56-9d45-4c17-bf24-60cea4859998","name":"e9291a56-9d45-4c17-bf24-60cea4859998","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"88ae8b28-9a46-4aed-9f8e-68ddb2cbb9d0","name":"88ae8b28-9a46-4aed-9f8e-68ddb2cbb9d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a295fb53-b19a-44e9-93e1-55e14888709b","name":"a295fb53-b19a-44e9-93e1-55e14888709b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0fae4ad5-1876-4e65-b86d-ca87d0a89df4","name":"0fae4ad5-1876-4e65-b86d-ca87d0a89df4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e9291a56-9d45-4c17-bf24-60cea4859998","name":"e9291a56-9d45-4c17-bf24-60cea4859998","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88ae8b28-9a46-4aed-9f8e-68ddb2cbb9d0","name":"88ae8b28-9a46-4aed-9f8e-68ddb2cbb9d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a295fb53-b19a-44e9-93e1-55e14888709b","name":"a295fb53-b19a-44e9-93e1-55e14888709b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0fae4ad5-1876-4e65-b86d-ca87d0a89df4","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bc7913d1-f35c-410f-9852-89bb933b48c8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9291a56-9d45-4c17-bf24-60cea4859998","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0ae307e9-fedf-4746-8089-51473674b1f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"88ae8b28-9a46-4aed-9f8e-68ddb2cbb9d0","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"414a0f09-a5ce-4dbc-b6b9-c28e922e3dbb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a295fb53-b19a-44e9-93e1-55e14888709b","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"790b318f-d073-42ff-a6c5-8ac8a7ede9dd","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0fae4ad5-1876-4e65-b86d-ca87d0a89df4","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bc7913d1-f35c-410f-9852-89bb933b48c8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9291a56-9d45-4c17-bf24-60cea4859998","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0ae307e9-fedf-4746-8089-51473674b1f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"88ae8b28-9a46-4aed-9f8e-68ddb2cbb9d0","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"414a0f09-a5ce-4dbc-b6b9-c28e922e3dbb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a295fb53-b19a-44e9-93e1-55e14888709b","path":"sprites/spr_KSW_Fish_RichterBelmont/spr_KSW_Fish_RichterBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"790b318f-d073-42ff-a6c5-8ac8a7ede9dd","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

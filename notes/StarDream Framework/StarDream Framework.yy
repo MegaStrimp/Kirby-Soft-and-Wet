@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"StarDream Framework",
   "name":"StarDream Framework",
   "parent":{

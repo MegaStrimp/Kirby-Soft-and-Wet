@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Poliwag",
   "bboxMode":0,
   "bbox_bottom":22,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd3469af-6e17-46e7-8854-f90b92ed5c84","name":"cd3469af-6e17-46e7-8854-f90b92ed5c84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"859d3abd-f3b8-42a7-af3d-13290a101d5b","name":"859d3abd-f3b8-42a7-af3d-13290a101d5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"41b31c3f-56a2-4c4c-9175-280c205cb491","name":"41b31c3f-56a2-4c4c-9175-280c205cb491","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd3469af-6e17-46e7-8854-f90b92ed5c84","name":"cd3469af-6e17-46e7-8854-f90b92ed5c84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"859d3abd-f3b8-42a7-af3d-13290a101d5b","name":"859d3abd-f3b8-42a7-af3d-13290a101d5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"41b31c3f-56a2-4c4c-9175-280c205cb491","name":"41b31c3f-56a2-4c4c-9175-280c205cb491","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,15 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd3469af-6e17-46e7-8854-f90b92ed5c84","path":"sprites/spr_KSW_Fish_Poliwag/spr_KSW_Fish_Poliwag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a058c46f-15e1-46e2-be81-61916d9085a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"859d3abd-f3b8-42a7-af3d-13290a101d5b","path":"sprites/spr_KSW_Fish_Poliwag/spr_KSW_Fish_Poliwag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"999661ad-f1d0-4aeb-941c-ab6fb0afec0c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41b31c3f-56a2-4c4c-9175-280c205cb491","path":"sprites/spr_KSW_Fish_Poliwag/spr_KSW_Fish_Poliwag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ad4732c6-7a4e-447a-a26a-d7763d73eab5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd3469af-6e17-46e7-8854-f90b92ed5c84","path":"sprites/spr_KSW_Fish_Poliwag/spr_KSW_Fish_Poliwag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a058c46f-15e1-46e2-be81-61916d9085a9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"859d3abd-f3b8-42a7-af3d-13290a101d5b","path":"sprites/spr_KSW_Fish_Poliwag/spr_KSW_Fish_Poliwag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"999661ad-f1d0-4aeb-941c-ab6fb0afec0c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"41b31c3f-56a2-4c4c-9175-280c205cb491","path":"sprites/spr_KSW_Fish_Poliwag/spr_KSW_Fish_Poliwag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ad4732c6-7a4e-447a-a26a-d7763d73eab5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

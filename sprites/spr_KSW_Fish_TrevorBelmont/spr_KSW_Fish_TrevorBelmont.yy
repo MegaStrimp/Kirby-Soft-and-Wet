@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_TrevorBelmont",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b1c88eee-0caf-4759-a5ff-d139f3e57dbd","name":"b1c88eee-0caf-4759-a5ff-d139f3e57dbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"aee40aa6-9cce-4ebe-aa7f-489afa589753","name":"aee40aa6-9cce-4ebe-aa7f-489afa589753","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"271febc0-bd4c-4a83-8727-36d2c083d469","name":"271febc0-bd4c-4a83-8727-36d2c083d469","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"06511528-215e-49e4-8676-ce0d6826d728","name":"06511528-215e-49e4-8676-ce0d6826d728","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b1c88eee-0caf-4759-a5ff-d139f3e57dbd","name":"b1c88eee-0caf-4759-a5ff-d139f3e57dbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aee40aa6-9cce-4ebe-aa7f-489afa589753","name":"aee40aa6-9cce-4ebe-aa7f-489afa589753","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"271febc0-bd4c-4a83-8727-36d2c083d469","name":"271febc0-bd4c-4a83-8727-36d2c083d469","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06511528-215e-49e4-8676-ce0d6826d728","name":"06511528-215e-49e4-8676-ce0d6826d728","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1c88eee-0caf-4759-a5ff-d139f3e57dbd","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9ab53435-6dc8-4825-9929-277ef4ae88b7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aee40aa6-9cce-4ebe-aa7f-489afa589753","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ac241d13-beb4-488e-82d9-603b90c8b255","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"271febc0-bd4c-4a83-8727-36d2c083d469","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e902b755-12ad-4810-a111-2b0295ae63be","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06511528-215e-49e4-8676-ce0d6826d728","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dd452b7a-4f67-4512-b540-1ff17ea679cc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1c88eee-0caf-4759-a5ff-d139f3e57dbd","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9ab53435-6dc8-4825-9929-277ef4ae88b7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"aee40aa6-9cce-4ebe-aa7f-489afa589753","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ac241d13-beb4-488e-82d9-603b90c8b255","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"271febc0-bd4c-4a83-8727-36d2c083d469","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e902b755-12ad-4810-a111-2b0295ae63be","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"06511528-215e-49e4-8676-ce0d6826d728","path":"sprites/spr_KSW_Fish_TrevorBelmont/spr_KSW_Fish_TrevorBelmont.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dd452b7a-4f67-4512-b540-1ff17ea679cc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

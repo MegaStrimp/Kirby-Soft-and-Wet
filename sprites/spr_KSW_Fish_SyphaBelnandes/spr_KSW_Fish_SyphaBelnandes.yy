@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_SyphaBelnandes",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9ba3456f-8ad0-4c3f-b4b4-1b0c8e2cd7cc","name":"9ba3456f-8ad0-4c3f-b4b4-1b0c8e2cd7cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"331c48f4-1128-4c5c-83e8-af1aeb989b67","name":"331c48f4-1128-4c5c-83e8-af1aeb989b67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"afd210d8-b610-4436-ad6b-500011d01a53","name":"afd210d8-b610-4436-ad6b-500011d01a53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9ba3456f-8ad0-4c3f-b4b4-1b0c8e2cd7cc","name":"9ba3456f-8ad0-4c3f-b4b4-1b0c8e2cd7cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"331c48f4-1128-4c5c-83e8-af1aeb989b67","name":"331c48f4-1128-4c5c-83e8-af1aeb989b67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"afd210d8-b610-4436-ad6b-500011d01a53","name":"afd210d8-b610-4436-ad6b-500011d01a53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,15 +77,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ba3456f-8ad0-4c3f-b4b4-1b0c8e2cd7cc","path":"sprites/spr_KSW_Fish_SyphaBelnandes/spr_KSW_Fish_SyphaBelnandes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b49bb448-582b-4a14-b718-ecdb83343342","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"331c48f4-1128-4c5c-83e8-af1aeb989b67","path":"sprites/spr_KSW_Fish_SyphaBelnandes/spr_KSW_Fish_SyphaBelnandes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d101df0-aab9-45a8-b24c-2b2c1d377dfe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"afd210d8-b610-4436-ad6b-500011d01a53","path":"sprites/spr_KSW_Fish_SyphaBelnandes/spr_KSW_Fish_SyphaBelnandes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3daa387e-6ae3-4e00-b2cc-73b9bfc895f5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ba3456f-8ad0-4c3f-b4b4-1b0c8e2cd7cc","path":"sprites/spr_KSW_Fish_SyphaBelnandes/spr_KSW_Fish_SyphaBelnandes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b49bb448-582b-4a14-b718-ecdb83343342","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"331c48f4-1128-4c5c-83e8-af1aeb989b67","path":"sprites/spr_KSW_Fish_SyphaBelnandes/spr_KSW_Fish_SyphaBelnandes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2d101df0-aab9-45a8-b24c-2b2c1d377dfe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"afd210d8-b610-4436-ad6b-500011d01a53","path":"sprites/spr_KSW_Fish_SyphaBelnandes/spr_KSW_Fish_SyphaBelnandes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3daa387e-6ae3-4e00-b2cc-73b9bfc895f5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

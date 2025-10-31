@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_SeaShroom",
   "bboxMode":0,
   "bbox_bottom":21,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e61e5fc-667f-4b95-81eb-1743870ea2a4","name":"1e61e5fc-667f-4b95-81eb-1743870ea2a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"184e9340-3812-4340-b43f-f9554a89e0cc","name":"184e9340-3812-4340-b43f-f9554a89e0cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5974bcdb-2d8d-4743-9047-c55d343150c6","name":"5974bcdb-2d8d-4743-9047-c55d343150c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d695b07a-17a2-4208-a6ac-b28b99544c17","name":"d695b07a-17a2-4208-a6ac-b28b99544c17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e61e5fc-667f-4b95-81eb-1743870ea2a4","name":"1e61e5fc-667f-4b95-81eb-1743870ea2a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"184e9340-3812-4340-b43f-f9554a89e0cc","name":"184e9340-3812-4340-b43f-f9554a89e0cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5974bcdb-2d8d-4743-9047-c55d343150c6","name":"5974bcdb-2d8d-4743-9047-c55d343150c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d695b07a-17a2-4208-a6ac-b28b99544c17","name":"d695b07a-17a2-4208-a6ac-b28b99544c17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e61e5fc-667f-4b95-81eb-1743870ea2a4","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3edb2315-9789-4da9-95a0-de0ac9683ab1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"184e9340-3812-4340-b43f-f9554a89e0cc","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a87fa5a6-8634-495a-be17-6fd9ea2e683e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5974bcdb-2d8d-4743-9047-c55d343150c6","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9ccaacf5-c945-406b-b8f2-8167d3a43a69","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d695b07a-17a2-4208-a6ac-b28b99544c17","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"10baed90-e313-4593-961f-1e565b5b4de5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e61e5fc-667f-4b95-81eb-1743870ea2a4","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3edb2315-9789-4da9-95a0-de0ac9683ab1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"184e9340-3812-4340-b43f-f9554a89e0cc","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a87fa5a6-8634-495a-be17-6fd9ea2e683e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5974bcdb-2d8d-4743-9047-c55d343150c6","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9ccaacf5-c945-406b-b8f2-8167d3a43a69","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d695b07a-17a2-4208-a6ac-b28b99544c17","path":"sprites/spr_KSW_Fish_SeaShroom/spr_KSW_Fish_SeaShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"10baed90-e313-4593-961f-1e565b5b4de5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

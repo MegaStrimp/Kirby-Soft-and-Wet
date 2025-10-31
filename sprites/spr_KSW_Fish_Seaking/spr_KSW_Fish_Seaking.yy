@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Seaking",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a9f7b079-2dd5-4ef3-8d57-d4b6d3a329ff","name":"a9f7b079-2dd5-4ef3-8d57-d4b6d3a329ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9b014c0d-4e1e-43aa-84dc-9bc9e4a43bb2","name":"9b014c0d-4e1e-43aa-84dc-9bc9e4a43bb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f481849b-7b20-4db3-abc3-41650113f9bb","name":"f481849b-7b20-4db3-abc3-41650113f9bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9f7b079-2dd5-4ef3-8d57-d4b6d3a329ff","name":"a9f7b079-2dd5-4ef3-8d57-d4b6d3a329ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b014c0d-4e1e-43aa-84dc-9bc9e4a43bb2","name":"9b014c0d-4e1e-43aa-84dc-9bc9e4a43bb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f481849b-7b20-4db3-abc3-41650113f9bb","name":"f481849b-7b20-4db3-abc3-41650113f9bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,15 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9f7b079-2dd5-4ef3-8d57-d4b6d3a329ff","path":"sprites/spr_KSW_Fish_Seaking/spr_KSW_Fish_Seaking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f12c9848-2b8e-4ca5-a3c0-17cdba1b0847","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b014c0d-4e1e-43aa-84dc-9bc9e4a43bb2","path":"sprites/spr_KSW_Fish_Seaking/spr_KSW_Fish_Seaking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cab147c9-6a1c-43a5-aabf-7ffc2cca0ef3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f481849b-7b20-4db3-abc3-41650113f9bb","path":"sprites/spr_KSW_Fish_Seaking/spr_KSW_Fish_Seaking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"062cebee-362e-4b88-821f-c22a962694e1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9f7b079-2dd5-4ef3-8d57-d4b6d3a329ff","path":"sprites/spr_KSW_Fish_Seaking/spr_KSW_Fish_Seaking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f12c9848-2b8e-4ca5-a3c0-17cdba1b0847","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b014c0d-4e1e-43aa-84dc-9bc9e4a43bb2","path":"sprites/spr_KSW_Fish_Seaking/spr_KSW_Fish_Seaking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cab147c9-6a1c-43a5-aabf-7ffc2cca0ef3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f481849b-7b20-4db3-abc3-41650113f9bb","path":"sprites/spr_KSW_Fish_Seaking/spr_KSW_Fish_Seaking.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"062cebee-362e-4b88-821f-c22a962694e1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

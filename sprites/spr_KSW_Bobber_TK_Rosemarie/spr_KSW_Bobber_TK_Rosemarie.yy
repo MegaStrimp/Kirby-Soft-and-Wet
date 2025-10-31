@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Bobber_TK_Rosemarie",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"43bd263e-c582-40aa-9e58-9876668e2d00","name":"43bd263e-c582-40aa-9e58-9876668e2d00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6b443462-4b01-4f0f-953c-354d194d450c","name":"6b443462-4b01-4f0f-953c-354d194d450c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a9fb3940-9f2e-4b00-9207-42a0e6eca7c1","name":"a9fb3940-9f2e-4b00-9207-42a0e6eca7c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2cc375f1-87d4-4b85-9e0c-eb58f71ff1fd","name":"2cc375f1-87d4-4b85-9e0c-eb58f71ff1fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43bd263e-c582-40aa-9e58-9876668e2d00","name":"43bd263e-c582-40aa-9e58-9876668e2d00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b443462-4b01-4f0f-953c-354d194d450c","name":"6b443462-4b01-4f0f-953c-354d194d450c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9fb3940-9f2e-4b00-9207-42a0e6eca7c1","name":"a9fb3940-9f2e-4b00-9207-42a0e6eca7c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2cc375f1-87d4-4b85-9e0c-eb58f71ff1fd","name":"2cc375f1-87d4-4b85-9e0c-eb58f71ff1fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43bd263e-c582-40aa-9e58-9876668e2d00","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c851ccfe-d9e7-4070-b1b2-aa6c5c9f765a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b443462-4b01-4f0f-953c-354d194d450c","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f0f12008-0ba2-4d36-85e1-adcac634d3c3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9fb3940-9f2e-4b00-9207-42a0e6eca7c1","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3919bd12-c2d7-46fa-8fda-e52776329641","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2cc375f1-87d4-4b85-9e0c-eb58f71ff1fd","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4174f2a7-4eb4-4f2e-b5df-4e1e5b37b06f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"43bd263e-c582-40aa-9e58-9876668e2d00","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c851ccfe-d9e7-4070-b1b2-aa6c5c9f765a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b443462-4b01-4f0f-953c-354d194d450c","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f0f12008-0ba2-4d36-85e1-adcac634d3c3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9fb3940-9f2e-4b00-9207-42a0e6eca7c1","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3919bd12-c2d7-46fa-8fda-e52776329641","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2cc375f1-87d4-4b85-9e0c-eb58f71ff1fd","path":"sprites/spr_KSW_Bobber_TK_Rosemarie/spr_KSW_Bobber_TK_Rosemarie.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4174f2a7-4eb4-4f2e-b5df-4e1e5b37b06f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

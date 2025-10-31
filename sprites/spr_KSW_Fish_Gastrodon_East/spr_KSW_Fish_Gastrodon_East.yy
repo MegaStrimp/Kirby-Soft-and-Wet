@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Gastrodon_East",
   "bboxMode":0,
   "bbox_bottom":24,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e756109-be98-4fe4-b40a-935cd100e4d7","name":"1e756109-be98-4fe4-b40a-935cd100e4d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4a2266a6-342b-4574-ac36-1df1d8ea469e","name":"4a2266a6-342b-4574-ac36-1df1d8ea469e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59097341-0487-47ff-93f2-cbe437be87d8","name":"59097341-0487-47ff-93f2-cbe437be87d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"03b8b670-7f9c-48e7-9248-09699d52b04f","name":"03b8b670-7f9c-48e7-9248-09699d52b04f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e756109-be98-4fe4-b40a-935cd100e4d7","name":"1e756109-be98-4fe4-b40a-935cd100e4d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a2266a6-342b-4574-ac36-1df1d8ea469e","name":"4a2266a6-342b-4574-ac36-1df1d8ea469e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59097341-0487-47ff-93f2-cbe437be87d8","name":"59097341-0487-47ff-93f2-cbe437be87d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"03b8b670-7f9c-48e7-9248-09699d52b04f","name":"03b8b670-7f9c-48e7-9248-09699d52b04f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e756109-be98-4fe4-b40a-935cd100e4d7","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"673eef18-cd4c-494b-9bd9-b523504f5d14","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a2266a6-342b-4574-ac36-1df1d8ea469e","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b7d0bb60-428b-4da8-87fa-c43132ffd416","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59097341-0487-47ff-93f2-cbe437be87d8","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9fb98e35-2b11-4fc0-a2ed-360e8b7ee831","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03b8b670-7f9c-48e7-9248-09699d52b04f","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9e1b027e-a74c-4c77-87db-0bf2c615432c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e756109-be98-4fe4-b40a-935cd100e4d7","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"673eef18-cd4c-494b-9bd9-b523504f5d14","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a2266a6-342b-4574-ac36-1df1d8ea469e","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b7d0bb60-428b-4da8-87fa-c43132ffd416","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"59097341-0487-47ff-93f2-cbe437be87d8","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9fb98e35-2b11-4fc0-a2ed-360e8b7ee831","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"03b8b670-7f9c-48e7-9248-09699d52b04f","path":"sprites/spr_KSW_Fish_Gastrodon_East/spr_KSW_Fish_Gastrodon_East.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9e1b027e-a74c-4c77-87db-0bf2c615432c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

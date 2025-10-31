@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_VampireBat",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"52a0d276-7ac4-48d8-830b-6c3942277da4","name":"52a0d276-7ac4-48d8-830b-6c3942277da4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f6be0c8e-fdf7-4afe-9c66-850dfec47a23","name":"f6be0c8e-fdf7-4afe-9c66-850dfec47a23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ba418b59-b5ca-4ca8-b01b-01ec6a0dadb0","name":"ba418b59-b5ca-4ca8-b01b-01ec6a0dadb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cb6843d4-925c-4d6a-844b-659c56409afd","name":"cb6843d4-925c-4d6a-844b-659c56409afd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52a0d276-7ac4-48d8-830b-6c3942277da4","name":"52a0d276-7ac4-48d8-830b-6c3942277da4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6be0c8e-fdf7-4afe-9c66-850dfec47a23","name":"f6be0c8e-fdf7-4afe-9c66-850dfec47a23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ba418b59-b5ca-4ca8-b01b-01ec6a0dadb0","name":"ba418b59-b5ca-4ca8-b01b-01ec6a0dadb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb6843d4-925c-4d6a-844b-659c56409afd","name":"cb6843d4-925c-4d6a-844b-659c56409afd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52a0d276-7ac4-48d8-830b-6c3942277da4","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f64f2a29-8b3f-40bf-9c49-5b9c21570886","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6be0c8e-fdf7-4afe-9c66-850dfec47a23","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f3d3e806-fb85-492e-9288-7942c0c57202","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ba418b59-b5ca-4ca8-b01b-01ec6a0dadb0","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cae59313-ad28-4d3e-999f-026d57e36e0a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb6843d4-925c-4d6a-844b-659c56409afd","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c8027fae-4b6e-4241-82be-f9ea17b5d487","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"52a0d276-7ac4-48d8-830b-6c3942277da4","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f64f2a29-8b3f-40bf-9c49-5b9c21570886","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6be0c8e-fdf7-4afe-9c66-850dfec47a23","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f3d3e806-fb85-492e-9288-7942c0c57202","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ba418b59-b5ca-4ca8-b01b-01ec6a0dadb0","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cae59313-ad28-4d3e-999f-026d57e36e0a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb6843d4-925c-4d6a-844b-659c56409afd","path":"sprites/spr_KSW_Fish_VampireBat/spr_KSW_Fish_VampireBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c8027fae-4b6e-4241-82be-f9ea17b5d487","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

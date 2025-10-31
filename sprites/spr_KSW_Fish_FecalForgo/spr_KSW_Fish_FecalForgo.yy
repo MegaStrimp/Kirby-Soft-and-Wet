@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_FecalForgo",
   "bboxMode":0,
   "bbox_bottom":91,
@@ -17,15 +17,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a96f6c60-7548-4982-8ef1-daad00baa3a7","name":"a96f6c60-7548-4982-8ef1-daad00baa3a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dd2d188a-a993-4249-b9f3-1ac48f151934","name":"dd2d188a-a993-4249-b9f3-1ac48f151934","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5c863c6c-1b7e-4909-a7ce-535a8ee97525","name":"5c863c6c-1b7e-4909-a7ce-535a8ee97525","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ad8f055c-bf8b-4919-b9af-4bdeb962042f","name":"ad8f055c-bf8b-4919-b9af-4bdeb962042f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"64ebd536-c5af-4777-b9b0-d6b7689e8812","name":"64ebd536-c5af-4777-b9b0-d6b7689e8812","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b225ddd6-228b-4773-86da-8f19f345ac65","name":"b225ddd6-228b-4773-86da-8f19f345ac65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"34d003cc-0a49-411b-9afb-01ce33d99c5d","name":"34d003cc-0a49-411b-9afb-01ce33d99c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ed9e4d61-cb30-4683-b6a2-46986760409f","name":"ed9e4d61-cb30-4683-b6a2-46986760409f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"349295e3-b0f6-4c58-916e-6fb4fe651917","name":"349295e3-b0f6-4c58-916e-6fb4fe651917","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a96f6c60-7548-4982-8ef1-daad00baa3a7","name":"a96f6c60-7548-4982-8ef1-daad00baa3a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd2d188a-a993-4249-b9f3-1ac48f151934","name":"dd2d188a-a993-4249-b9f3-1ac48f151934","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c863c6c-1b7e-4909-a7ce-535a8ee97525","name":"5c863c6c-1b7e-4909-a7ce-535a8ee97525","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad8f055c-bf8b-4919-b9af-4bdeb962042f","name":"ad8f055c-bf8b-4919-b9af-4bdeb962042f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"64ebd536-c5af-4777-b9b0-d6b7689e8812","name":"64ebd536-c5af-4777-b9b0-d6b7689e8812","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b225ddd6-228b-4773-86da-8f19f345ac65","name":"b225ddd6-228b-4773-86da-8f19f345ac65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"34d003cc-0a49-411b-9afb-01ce33d99c5d","name":"34d003cc-0a49-411b-9afb-01ce33d99c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed9e4d61-cb30-4683-b6a2-46986760409f","name":"ed9e4d61-cb30-4683-b6a2-46986760409f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"349295e3-b0f6-4c58-916e-6fb4fe651917","name":"349295e3-b0f6-4c58-916e-6fb4fe651917","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -81,33 +81,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a96f6c60-7548-4982-8ef1-daad00baa3a7","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4c4a0a6e-d518-47ad-aebe-4e09e77306cd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd2d188a-a993-4249-b9f3-1ac48f151934","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9fce76d2-80bf-4e93-bd75-70c496e9783a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c863c6c-1b7e-4909-a7ce-535a8ee97525","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"91250152-6d8f-4237-a8b9-e1cb9919ee41","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad8f055c-bf8b-4919-b9af-4bdeb962042f","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"908b6e24-f7d8-40ed-b906-233e4bb47134","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64ebd536-c5af-4777-b9b0-d6b7689e8812","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"122f3bc5-ebec-4a6d-a901-0499bbe8dda6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b225ddd6-228b-4773-86da-8f19f345ac65","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"916f9b99-3581-4698-8a0d-f7299c5939ff","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34d003cc-0a49-411b-9afb-01ce33d99c5d","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ccdbe79c-3973-4a71-8a99-0ef616b9d855","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed9e4d61-cb30-4683-b6a2-46986760409f","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2e1aa750-f20d-4dda-b37d-5398cffe5dfe","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"349295e3-b0f6-4c58-916e-6fb4fe651917","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8cd25f76-254d-4b89-8c8a-9f8c691078a1","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a96f6c60-7548-4982-8ef1-daad00baa3a7","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4c4a0a6e-d518-47ad-aebe-4e09e77306cd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd2d188a-a993-4249-b9f3-1ac48f151934","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9fce76d2-80bf-4e93-bd75-70c496e9783a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c863c6c-1b7e-4909-a7ce-535a8ee97525","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"91250152-6d8f-4237-a8b9-e1cb9919ee41","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad8f055c-bf8b-4919-b9af-4bdeb962042f","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"908b6e24-f7d8-40ed-b906-233e4bb47134","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"64ebd536-c5af-4777-b9b0-d6b7689e8812","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"122f3bc5-ebec-4a6d-a901-0499bbe8dda6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b225ddd6-228b-4773-86da-8f19f345ac65","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"916f9b99-3581-4698-8a0d-f7299c5939ff","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"34d003cc-0a49-411b-9afb-01ce33d99c5d","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ccdbe79c-3973-4a71-8a99-0ef616b9d855","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed9e4d61-cb30-4683-b6a2-46986760409f","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2e1aa750-f20d-4dda-b37d-5398cffe5dfe","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"349295e3-b0f6-4c58-916e-6fb4fe651917","path":"sprites/spr_KSW_Fish_FecalForgo/spr_KSW_Fish_FecalForgo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8cd25f76-254d-4b89-8c8a-9f8c691078a1","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

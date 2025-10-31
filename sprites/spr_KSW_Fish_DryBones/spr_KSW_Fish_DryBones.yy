@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_DryBones",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,19 +12,19 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b6a8938b-7b6a-4cd2-b59d-b216a557739d","name":"b6a8938b-7b6a-4cd2-b59d-b216a557739d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6d0c54b5-c219-4797-a80b-3b92ce3b56a1","name":"6d0c54b5-c219-4797-a80b-3b92ce3b56a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"899e3c0c-1cc5-4047-84eb-f1b6650c8412","name":"899e3c0c-1cc5-4047-84eb-f1b6650c8412","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0d49cc3c-8667-42b8-a018-35cdd4f0f417","name":"0d49cc3c-8667-42b8-a018-35cdd4f0f417","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"01dcdeb9-af7a-4698-8409-04ad40a3915d","name":"01dcdeb9-af7a-4698-8409-04ad40a3915d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ac9118df-bb63-48ce-9568-689612491db6","name":"ac9118df-bb63-48ce-9568-689612491db6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e3462d0f-4ee0-4a46-ba49-efbc9e08c13a","name":"e3462d0f-4ee0-4a46-ba49-efbc9e08c13a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"412f3006-8af2-4897-a311-c060e0c36eee","name":"412f3006-8af2-4897-a311-c060e0c36eee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cfecfa88-0ce5-4ab8-913e-208efea5ae5b","name":"cfecfa88-0ce5-4ab8-913e-208efea5ae5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cf979321-25e9-4e84-aeef-8e5352a3b14e","name":"cf979321-25e9-4e84-aeef-8e5352a3b14e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0af5653d-46a5-43fc-8477-414388ebaea7","name":"0af5653d-46a5-43fc-8477-414388ebaea7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6b071080-1318-48ae-84b4-73a7e477feda","name":"6b071080-1318-48ae-84b4-73a7e477feda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"58bac217-4b19-49f4-a4f5-973fb5dae7fb","name":"58bac217-4b19-49f4-a4f5-973fb5dae7fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b6a8938b-7b6a-4cd2-b59d-b216a557739d","name":"b6a8938b-7b6a-4cd2-b59d-b216a557739d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d0c54b5-c219-4797-a80b-3b92ce3b56a1","name":"6d0c54b5-c219-4797-a80b-3b92ce3b56a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"899e3c0c-1cc5-4047-84eb-f1b6650c8412","name":"899e3c0c-1cc5-4047-84eb-f1b6650c8412","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0d49cc3c-8667-42b8-a018-35cdd4f0f417","name":"0d49cc3c-8667-42b8-a018-35cdd4f0f417","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01dcdeb9-af7a-4698-8409-04ad40a3915d","name":"01dcdeb9-af7a-4698-8409-04ad40a3915d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac9118df-bb63-48ce-9568-689612491db6","name":"ac9118df-bb63-48ce-9568-689612491db6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e3462d0f-4ee0-4a46-ba49-efbc9e08c13a","name":"e3462d0f-4ee0-4a46-ba49-efbc9e08c13a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"412f3006-8af2-4897-a311-c060e0c36eee","name":"412f3006-8af2-4897-a311-c060e0c36eee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cfecfa88-0ce5-4ab8-913e-208efea5ae5b","name":"cfecfa88-0ce5-4ab8-913e-208efea5ae5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf979321-25e9-4e84-aeef-8e5352a3b14e","name":"cf979321-25e9-4e84-aeef-8e5352a3b14e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0af5653d-46a5-43fc-8477-414388ebaea7","name":"0af5653d-46a5-43fc-8477-414388ebaea7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b071080-1318-48ae-84b4-73a7e477feda","name":"6b071080-1318-48ae-84b4-73a7e477feda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"58bac217-4b19-49f4-a4f5-973fb5dae7fb","name":"58bac217-4b19-49f4-a4f5-973fb5dae7fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -82,45 +82,19 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6a8938b-7b6a-4cd2-b59d-b216a557739d","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3f6e0699-440a-4abc-87fa-8f679d4ffcef","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d0c54b5-c219-4797-a80b-3b92ce3b56a1","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9940d15b-728b-400f-890d-0fc708dd2608","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"899e3c0c-1cc5-4047-84eb-f1b6650c8412","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"861e5ade-defc-46ae-9118-241de05e8386","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d49cc3c-8667-42b8-a018-35cdd4f0f417","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a30f111-396d-4df6-b2c3-a01556b834c2","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"01dcdeb9-af7a-4698-8409-04ad40a3915d","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"11ad9db3-e0d3-4851-92bc-c48167f6acba","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac9118df-bb63-48ce-9568-689612491db6","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fce061b9-69d0-4ca3-a4fc-28741f4039b9","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3462d0f-4ee0-4a46-ba49-efbc9e08c13a","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ec636e3b-46e0-4014-ba65-14fcc0d960d4","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"412f3006-8af2-4897-a311-c060e0c36eee","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"055caba8-3d09-4829-9af4-defecf6045fa","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfecfa88-0ce5-4ab8-913e-208efea5ae5b","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"72ea6e3c-8cd4-4b19-9ef6-d1d040b6656b","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf979321-25e9-4e84-aeef-8e5352a3b14e","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2f8100fc-222e-4eb8-b639-a1f31aeee069","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0af5653d-46a5-43fc-8477-414388ebaea7","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c876e964-8d7f-4ab8-a95c-20675833f394","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b071080-1318-48ae-84b4-73a7e477feda","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fe1984c5-2905-4e62-96bc-9ba4e33cf43a","IsCreationKey":false,"Key":11.0,"Length":6.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"58bac217-4b19-49f4-a4f5-973fb5dae7fb","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c624abcc-742f-412f-8f55-a6b339647752","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6a8938b-7b6a-4cd2-b59d-b216a557739d","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3f6e0699-440a-4abc-87fa-8f679d4ffcef","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d0c54b5-c219-4797-a80b-3b92ce3b56a1","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9940d15b-728b-400f-890d-0fc708dd2608","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"899e3c0c-1cc5-4047-84eb-f1b6650c8412","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"861e5ade-defc-46ae-9118-241de05e8386","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d49cc3c-8667-42b8-a018-35cdd4f0f417","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6a30f111-396d-4df6-b2c3-a01556b834c2","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"01dcdeb9-af7a-4698-8409-04ad40a3915d","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"11ad9db3-e0d3-4851-92bc-c48167f6acba","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac9118df-bb63-48ce-9568-689612491db6","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fce061b9-69d0-4ca3-a4fc-28741f4039b9","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3462d0f-4ee0-4a46-ba49-efbc9e08c13a","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ec636e3b-46e0-4014-ba65-14fcc0d960d4","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"412f3006-8af2-4897-a311-c060e0c36eee","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"055caba8-3d09-4829-9af4-defecf6045fa","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfecfa88-0ce5-4ab8-913e-208efea5ae5b","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"72ea6e3c-8cd4-4b19-9ef6-d1d040b6656b","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf979321-25e9-4e84-aeef-8e5352a3b14e","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2f8100fc-222e-4eb8-b639-a1f31aeee069","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0af5653d-46a5-43fc-8477-414388ebaea7","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c876e964-8d7f-4ab8-a95c-20675833f394","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b071080-1318-48ae-84b4-73a7e477feda","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fe1984c5-2905-4e62-96bc-9ba4e33cf43a","IsCreationKey":false,"Key":11.0,"Length":6.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"58bac217-4b19-49f4-a4f5-973fb5dae7fb","path":"sprites/spr_KSW_Fish_DryBones/spr_KSW_Fish_DryBones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c624abcc-742f-412f-8f55-a6b339647752","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

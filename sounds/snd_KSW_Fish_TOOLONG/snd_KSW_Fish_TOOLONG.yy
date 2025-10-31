@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_KSW_Fish_TOOLONG",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":2.3533332,
+  "exportDir":"",
   "name":"snd_KSW_Fish_TOOLONG",
   "parent":{
     "name":"Fish",
@@ -23,6 +25,5 @@
   "tags":[
     "Sound Effect",
   ],
-  "type":1,
   "volume":0.6,
 }

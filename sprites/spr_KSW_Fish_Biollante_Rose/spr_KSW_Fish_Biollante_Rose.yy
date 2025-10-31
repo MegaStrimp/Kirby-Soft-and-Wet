@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Biollante_Rose",
   "bboxMode":0,
   "bbox_bottom":67,
@@ -17,20 +17,20 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1d4f0b3d-9f67-47ca-bcf7-17142d8b75b0","name":"1d4f0b3d-9f67-47ca-bcf7-17142d8b75b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"56a9da84-08dd-47d5-a1da-baab2c4a0194","name":"56a9da84-08dd-47d5-a1da-baab2c4a0194","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1bc40206-7bc4-4e30-8582-7c4edf5b0a58","name":"1bc40206-7bc4-4e30-8582-7c4edf5b0a58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"475619f3-91c0-435e-ac3d-eb016581a0aa","name":"475619f3-91c0-435e-ac3d-eb016581a0aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5d7779be-0771-4745-93a6-5c6d305b901c","name":"5d7779be-0771-4745-93a6-5c6d305b901c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2b49c89e-e466-4fc1-a3e9-63f67175ac17","name":"2b49c89e-e466-4fc1-a3e9-63f67175ac17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8d64bf0b-2e82-4494-b9e3-fb562c167747","name":"8d64bf0b-2e82-4494-b9e3-fb562c167747","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"11b936fa-48a6-4c44-824e-439f01f2e0e8","name":"11b936fa-48a6-4c44-824e-439f01f2e0e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2edc5065-9cbe-4483-8ce2-24b8e6b79678","name":"2edc5065-9cbe-4483-8ce2-24b8e6b79678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"55353d37-f343-4188-9f9d-4c10ddb8900e","name":"55353d37-f343-4188-9f9d-4c10ddb8900e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bed4cd58-b25c-4743-94e4-46e483a12d4c","name":"bed4cd58-b25c-4743-94e4-46e483a12d4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"890e3956-7a5b-4bdc-b500-f0ea375d4b02","name":"890e3956-7a5b-4bdc-b500-f0ea375d4b02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"31c6ec6a-5916-4c61-b3de-da706b4a6ac6","name":"31c6ec6a-5916-4c61-b3de-da706b4a6ac6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"560cd616-b81b-42db-9b1a-5caf0ed9ede3","name":"560cd616-b81b-42db-9b1a-5caf0ed9ede3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1d4f0b3d-9f67-47ca-bcf7-17142d8b75b0","name":"1d4f0b3d-9f67-47ca-bcf7-17142d8b75b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"56a9da84-08dd-47d5-a1da-baab2c4a0194","name":"56a9da84-08dd-47d5-a1da-baab2c4a0194","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1bc40206-7bc4-4e30-8582-7c4edf5b0a58","name":"1bc40206-7bc4-4e30-8582-7c4edf5b0a58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"475619f3-91c0-435e-ac3d-eb016581a0aa","name":"475619f3-91c0-435e-ac3d-eb016581a0aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5d7779be-0771-4745-93a6-5c6d305b901c","name":"5d7779be-0771-4745-93a6-5c6d305b901c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b49c89e-e466-4fc1-a3e9-63f67175ac17","name":"2b49c89e-e466-4fc1-a3e9-63f67175ac17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d64bf0b-2e82-4494-b9e3-fb562c167747","name":"8d64bf0b-2e82-4494-b9e3-fb562c167747","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"11b936fa-48a6-4c44-824e-439f01f2e0e8","name":"11b936fa-48a6-4c44-824e-439f01f2e0e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2edc5065-9cbe-4483-8ce2-24b8e6b79678","name":"2edc5065-9cbe-4483-8ce2-24b8e6b79678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55353d37-f343-4188-9f9d-4c10ddb8900e","name":"55353d37-f343-4188-9f9d-4c10ddb8900e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bed4cd58-b25c-4743-94e4-46e483a12d4c","name":"bed4cd58-b25c-4743-94e4-46e483a12d4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"890e3956-7a5b-4bdc-b500-f0ea375d4b02","name":"890e3956-7a5b-4bdc-b500-f0ea375d4b02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31c6ec6a-5916-4c61-b3de-da706b4a6ac6","name":"31c6ec6a-5916-4c61-b3de-da706b4a6ac6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"560cd616-b81b-42db-9b1a-5caf0ed9ede3","name":"560cd616-b81b-42db-9b1a-5caf0ed9ede3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -88,48 +88,20 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d4f0b3d-9f67-47ca-bcf7-17142d8b75b0","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f31d4247-9e3c-4239-bec8-138f22c43c8a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"56a9da84-08dd-47d5-a1da-baab2c4a0194","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"be705405-0a42-481f-8732-78f6549e18f2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1bc40206-7bc4-4e30-8582-7c4edf5b0a58","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6f21ba30-926d-4644-8fe3-28252d30d17c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"475619f3-91c0-435e-ac3d-eb016581a0aa","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"94fce72f-051f-49c5-95e8-7c963c7a9bab","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d7779be-0771-4745-93a6-5c6d305b901c","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"da9e9e0e-df93-4c1e-9919-19ef6815b708","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b49c89e-e466-4fc1-a3e9-63f67175ac17","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ce4b9359-84aa-4ee5-8f90-51760bc501a7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d64bf0b-2e82-4494-b9e3-fb562c167747","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8d76e1f5-7f5f-4000-8d37-6cac7f97f4d3","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"11b936fa-48a6-4c44-824e-439f01f2e0e8","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b4846933-af7e-48e9-bb17-20e5ed4ded11","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2edc5065-9cbe-4483-8ce2-24b8e6b79678","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"43e993d2-bcca-4e1f-b1b4-3499ff6832cf","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"55353d37-f343-4188-9f9d-4c10ddb8900e","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"74d30f81-e3e7-405e-9487-daa81f156e03","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bed4cd58-b25c-4743-94e4-46e483a12d4c","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c806eb82-ff26-45c0-8cfc-dfe60a2dfb70","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"890e3956-7a5b-4bdc-b500-f0ea375d4b02","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"31049350-4bc9-4287-9be9-1c2691ea42c9","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"31c6ec6a-5916-4c61-b3de-da706b4a6ac6","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e2af1daf-e979-4990-90c6-e9121dc92d92","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"560cd616-b81b-42db-9b1a-5caf0ed9ede3","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"035e4ed1-9bfa-46f5-9d7e-109508a138ed","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d4f0b3d-9f67-47ca-bcf7-17142d8b75b0","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f31d4247-9e3c-4239-bec8-138f22c43c8a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"56a9da84-08dd-47d5-a1da-baab2c4a0194","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"be705405-0a42-481f-8732-78f6549e18f2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1bc40206-7bc4-4e30-8582-7c4edf5b0a58","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6f21ba30-926d-4644-8fe3-28252d30d17c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"475619f3-91c0-435e-ac3d-eb016581a0aa","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"94fce72f-051f-49c5-95e8-7c963c7a9bab","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d7779be-0771-4745-93a6-5c6d305b901c","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"da9e9e0e-df93-4c1e-9919-19ef6815b708","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b49c89e-e466-4fc1-a3e9-63f67175ac17","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ce4b9359-84aa-4ee5-8f90-51760bc501a7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d64bf0b-2e82-4494-b9e3-fb562c167747","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8d76e1f5-7f5f-4000-8d37-6cac7f97f4d3","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"11b936fa-48a6-4c44-824e-439f01f2e0e8","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b4846933-af7e-48e9-bb17-20e5ed4ded11","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2edc5065-9cbe-4483-8ce2-24b8e6b79678","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"43e993d2-bcca-4e1f-b1b4-3499ff6832cf","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"55353d37-f343-4188-9f9d-4c10ddb8900e","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"74d30f81-e3e7-405e-9487-daa81f156e03","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bed4cd58-b25c-4743-94e4-46e483a12d4c","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c806eb82-ff26-45c0-8cfc-dfe60a2dfb70","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"890e3956-7a5b-4bdc-b500-f0ea375d4b02","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"31049350-4bc9-4287-9be9-1c2691ea42c9","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"31c6ec6a-5916-4c61-b3de-da706b4a6ac6","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e2af1daf-e979-4990-90c6-e9121dc92d92","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"560cd616-b81b-42db-9b1a-5caf0ed9ede3","path":"sprites/spr_KSW_Fish_Biollante_Rose/spr_KSW_Fish_Biollante_Rose.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"035e4ed1-9bfa-46f5-9d7e-109508a138ed","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

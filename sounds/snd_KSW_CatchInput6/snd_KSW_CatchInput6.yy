@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_KSW_CatchInput6",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":0.95068026,
+  "exportDir":"",
   "name":"snd_KSW_CatchInput6",
   "parent":{
     "name":"Sound Effects",
@@ -23,6 +25,5 @@
   "tags":[
     "Sound Effect",
   ],
-  "type":1,
   "volume":1.0,
 }

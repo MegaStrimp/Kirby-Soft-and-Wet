@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Layout_Halloween_Night",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c33cec5c-e4db-4955-a303-8c796080e2d2","name":"c33cec5c-e4db-4955-a303-8c796080e2d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"18554cb7-6310-44ed-a14c-884d93432eca","name":"18554cb7-6310-44ed-a14c-884d93432eca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a612696a-bb44-4837-aa30-0a869df0be74","name":"a612696a-bb44-4837-aa30-0a869df0be74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c33cec5c-e4db-4955-a303-8c796080e2d2","name":"c33cec5c-e4db-4955-a303-8c796080e2d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"18554cb7-6310-44ed-a14c-884d93432eca","name":"18554cb7-6310-44ed-a14c-884d93432eca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a612696a-bb44-4837-aa30-0a869df0be74","name":"a612696a-bb44-4837-aa30-0a869df0be74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c33cec5c-e4db-4955-a303-8c796080e2d2","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3741eafa-8ed0-474c-b4c9-395e358169c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"18554cb7-6310-44ed-a14c-884d93432eca","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5132efa5-2fd2-4783-acb8-bedeb1af4885","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a612696a-bb44-4837-aa30-0a869df0be74","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"da4f7a42-43df-4fb6-8557-a2cbb99633fc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2062a68b-a88c-4e85-b762-885a78faac4c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c33cec5c-e4db-4955-a303-8c796080e2d2","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3741eafa-8ed0-474c-b4c9-395e358169c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"18554cb7-6310-44ed-a14c-884d93432eca","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5132efa5-2fd2-4783-acb8-bedeb1af4885","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a612696a-bb44-4837-aa30-0a869df0be74","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"da4f7a42-43df-4fb6-8557-a2cbb99633fc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f65e2aa3-58a7-45b7-ac23-a77c13812897","path":"sprites/spr_KSW_Layout_Halloween_Night/spr_KSW_Layout_Halloween_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2062a68b-a88c-4e85-b762-885a78faac4c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Pointdexter",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cc9cc13f-8d33-4f61-865b-186990781057","name":"cc9cc13f-8d33-4f61-865b-186990781057","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6bfdf6bc-2376-407c-b4c7-3f0d1a18f99f","name":"6bfdf6bc-2376-407c-b4c7-3f0d1a18f99f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"49109ed5-5fcd-481f-95dd-7e59f9e08013","name":"49109ed5-5fcd-481f-95dd-7e59f9e08013","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cd71600e-3bab-4141-a923-311c668e72f0","name":"cd71600e-3bab-4141-a923-311c668e72f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cc9cc13f-8d33-4f61-865b-186990781057","name":"cc9cc13f-8d33-4f61-865b-186990781057","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6bfdf6bc-2376-407c-b4c7-3f0d1a18f99f","name":"6bfdf6bc-2376-407c-b4c7-3f0d1a18f99f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"49109ed5-5fcd-481f-95dd-7e59f9e08013","name":"49109ed5-5fcd-481f-95dd-7e59f9e08013","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd71600e-3bab-4141-a923-311c668e72f0","name":"cd71600e-3bab-4141-a923-311c668e72f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,18 +76,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc9cc13f-8d33-4f61-865b-186990781057","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0f26240d-6407-410c-a281-3c1ef37c62fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6bfdf6bc-2376-407c-b4c7-3f0d1a18f99f","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bc9f7333-bdaa-4064-9604-57eb0c8de580","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49109ed5-5fcd-481f-95dd-7e59f9e08013","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ba4c334e-a97d-4632-aaf5-0f1e8f51f80c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd71600e-3bab-4141-a923-311c668e72f0","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"328bee01-11ce-47fd-97e1-b9b20ee9f4fc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc9cc13f-8d33-4f61-865b-186990781057","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0f26240d-6407-410c-a281-3c1ef37c62fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6bfdf6bc-2376-407c-b4c7-3f0d1a18f99f","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bc9f7333-bdaa-4064-9604-57eb0c8de580","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"49109ed5-5fcd-481f-95dd-7e59f9e08013","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ba4c334e-a97d-4632-aaf5-0f1e8f51f80c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd71600e-3bab-4141-a923-311c668e72f0","path":"sprites/spr_KSW_Fish_Pointdexter/spr_KSW_Fish_Pointdexter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"328bee01-11ce-47fd-97e1-b9b20ee9f4fc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

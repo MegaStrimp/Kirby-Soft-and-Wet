@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_CrashBandicoot",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a3aacb69-1344-48aa-9d6b-099257b03a97","name":"a3aacb69-1344-48aa-9d6b-099257b03a97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c6bc3f8c-c225-4801-b979-5d227c396136","name":"c6bc3f8c-c225-4801-b979-5d227c396136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"569a31de-e87c-475b-9ed6-a0c9fb4273df","name":"569a31de-e87c-475b-9ed6-a0c9fb4273df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cb7a7898-484d-4b32-bea3-aa2e541566b7","name":"cb7a7898-484d-4b32-bea3-aa2e541566b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7c2d5d71-c82e-4221-9ac1-9026dc2d6117","name":"7c2d5d71-c82e-4221-9ac1-9026dc2d6117","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b39ed011-d5e9-4a83-84e2-9af3d6c73662","name":"b39ed011-d5e9-4a83-84e2-9af3d6c73662","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"69589023-738d-4ad9-a96b-c3d6d6f5acf4","name":"69589023-738d-4ad9-a96b-c3d6d6f5acf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"630a085a-0f49-4768-96bf-ba01b240f0d2","name":"630a085a-0f49-4768-96bf-ba01b240f0d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a3aacb69-1344-48aa-9d6b-099257b03a97","name":"a3aacb69-1344-48aa-9d6b-099257b03a97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c6bc3f8c-c225-4801-b979-5d227c396136","name":"c6bc3f8c-c225-4801-b979-5d227c396136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"569a31de-e87c-475b-9ed6-a0c9fb4273df","name":"569a31de-e87c-475b-9ed6-a0c9fb4273df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb7a7898-484d-4b32-bea3-aa2e541566b7","name":"cb7a7898-484d-4b32-bea3-aa2e541566b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c2d5d71-c82e-4221-9ac1-9026dc2d6117","name":"7c2d5d71-c82e-4221-9ac1-9026dc2d6117","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b39ed011-d5e9-4a83-84e2-9af3d6c73662","name":"b39ed011-d5e9-4a83-84e2-9af3d6c73662","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"69589023-738d-4ad9-a96b-c3d6d6f5acf4","name":"69589023-738d-4ad9-a96b-c3d6d6f5acf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"630a085a-0f49-4768-96bf-ba01b240f0d2","name":"630a085a-0f49-4768-96bf-ba01b240f0d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -82,30 +82,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3aacb69-1344-48aa-9d6b-099257b03a97","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d1ebde75-e66a-460d-9c8b-a5c4eab80f7b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6bc3f8c-c225-4801-b979-5d227c396136","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"58621b0f-ecba-4210-968f-b214ab495484","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"569a31de-e87c-475b-9ed6-a0c9fb4273df","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4c17edac-7768-4665-bed9-94926d791bb8","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb7a7898-484d-4b32-bea3-aa2e541566b7","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"208a9361-77d5-4114-9af9-e97c5e95251b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c2d5d71-c82e-4221-9ac1-9026dc2d6117","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7ee79cfb-c2f0-47c0-a916-b160c7d7a1bd","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b39ed011-d5e9-4a83-84e2-9af3d6c73662","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7b171c47-a6ba-4686-9068-7434586c2b0a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"69589023-738d-4ad9-a96b-c3d6d6f5acf4","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f019e587-77dc-4ed8-9ceb-82b69079a53d","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"630a085a-0f49-4768-96bf-ba01b240f0d2","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"eb8093d6-3b03-4a82-aeec-bf6a104e1efb","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3aacb69-1344-48aa-9d6b-099257b03a97","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d1ebde75-e66a-460d-9c8b-a5c4eab80f7b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6bc3f8c-c225-4801-b979-5d227c396136","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"58621b0f-ecba-4210-968f-b214ab495484","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"569a31de-e87c-475b-9ed6-a0c9fb4273df","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4c17edac-7768-4665-bed9-94926d791bb8","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb7a7898-484d-4b32-bea3-aa2e541566b7","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"208a9361-77d5-4114-9af9-e97c5e95251b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c2d5d71-c82e-4221-9ac1-9026dc2d6117","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7ee79cfb-c2f0-47c0-a916-b160c7d7a1bd","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b39ed011-d5e9-4a83-84e2-9af3d6c73662","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7b171c47-a6ba-4686-9068-7434586c2b0a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"69589023-738d-4ad9-a96b-c3d6d6f5acf4","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f019e587-77dc-4ed8-9ceb-82b69079a53d","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"630a085a-0f49-4768-96bf-ba01b240f0d2","path":"sprites/spr_KSW_Fish_CrashBandicoot/spr_KSW_Fish_CrashBandicoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eb8093d6-3b03-4a82-aeec-bf6a104e1efb","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

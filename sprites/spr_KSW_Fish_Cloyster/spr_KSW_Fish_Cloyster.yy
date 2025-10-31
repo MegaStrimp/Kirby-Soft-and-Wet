@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Cloyster",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -17,10 +17,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"40c00d3c-140b-4bdd-9c32-7ea557548edc","name":"40c00d3c-140b-4bdd-9c32-7ea557548edc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"056973af-b1cc-4b00-933a-e2cabde9acf4","name":"056973af-b1cc-4b00-933a-e2cabde9acf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f024d4f9-c408-49b2-91dc-d08503fc3188","name":"f024d4f9-c408-49b2-91dc-d08503fc3188","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"315639ea-a57c-4afc-b547-eb9f2b6aabd6","name":"315639ea-a57c-4afc-b547-eb9f2b6aabd6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40c00d3c-140b-4bdd-9c32-7ea557548edc","name":"40c00d3c-140b-4bdd-9c32-7ea557548edc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"056973af-b1cc-4b00-933a-e2cabde9acf4","name":"056973af-b1cc-4b00-933a-e2cabde9acf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f024d4f9-c408-49b2-91dc-d08503fc3188","name":"f024d4f9-c408-49b2-91dc-d08503fc3188","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"315639ea-a57c-4afc-b547-eb9f2b6aabd6","name":"315639ea-a57c-4afc-b547-eb9f2b6aabd6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,18 +78,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40c00d3c-140b-4bdd-9c32-7ea557548edc","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1df63dc4-268a-4867-a552-6035cfe66ff6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"056973af-b1cc-4b00-933a-e2cabde9acf4","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e73aaeab-648a-4129-ab4c-020ae7ba5820","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f024d4f9-c408-49b2-91dc-d08503fc3188","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b40406fa-8843-410a-bec6-5a29e28dd785","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"315639ea-a57c-4afc-b547-eb9f2b6aabd6","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8739aa43-d710-4864-9200-b56e4d691144","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"40c00d3c-140b-4bdd-9c32-7ea557548edc","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1df63dc4-268a-4867-a552-6035cfe66ff6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"056973af-b1cc-4b00-933a-e2cabde9acf4","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e73aaeab-648a-4129-ab4c-020ae7ba5820","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f024d4f9-c408-49b2-91dc-d08503fc3188","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b40406fa-8843-410a-bec6-5a29e28dd785","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"315639ea-a57c-4afc-b547-eb9f2b6aabd6","path":"sprites/spr_KSW_Fish_Cloyster/spr_KSW_Fish_Cloyster.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8739aa43-d710-4864-9200-b56e4d691144","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

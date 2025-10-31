@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_KSW_Particle_Gloom",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1b6d06f0-68c7-4c6d-9cd3-e3e0d2aae678","name":"1b6d06f0-68c7-4c6d-9cd3-e3e0d2aae678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eb8a62e2-dc8e-4787-88ec-774fca68b5c3","name":"eb8a62e2-dc8e-4787-88ec-774fca68b5c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b0c53aa9-2f4f-498b-a7ce-c21d844901db","name":"b0c53aa9-2f4f-498b-a7ce-c21d844901db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b6d06f0-68c7-4c6d-9cd3-e3e0d2aae678","name":"1b6d06f0-68c7-4c6d-9cd3-e3e0d2aae678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eb8a62e2-dc8e-4787-88ec-774fca68b5c3","name":"eb8a62e2-dc8e-4787-88ec-774fca68b5c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b0c53aa9-2f4f-498b-a7ce-c21d844901db","name":"b0c53aa9-2f4f-498b-a7ce-c21d844901db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,15 +77,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b6d06f0-68c7-4c6d-9cd3-e3e0d2aae678","path":"sprites/spr_KSW_Particle_Gloom/spr_KSW_Particle_Gloom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8af9ed8d-8ff6-49f1-ba17-60b9bb0293c6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb8a62e2-dc8e-4787-88ec-774fca68b5c3","path":"sprites/spr_KSW_Particle_Gloom/spr_KSW_Particle_Gloom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7e4e47f4-ce7c-4d20-b17d-875cda3bee3a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0c53aa9-2f4f-498b-a7ce-c21d844901db","path":"sprites/spr_KSW_Particle_Gloom/spr_KSW_Particle_Gloom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"503bcaad-0276-49c5-885d-d1d2a672072c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b6d06f0-68c7-4c6d-9cd3-e3e0d2aae678","path":"sprites/spr_KSW_Particle_Gloom/spr_KSW_Particle_Gloom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8af9ed8d-8ff6-49f1-ba17-60b9bb0293c6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb8a62e2-dc8e-4787-88ec-774fca68b5c3","path":"sprites/spr_KSW_Particle_Gloom/spr_KSW_Particle_Gloom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7e4e47f4-ce7c-4d20-b17d-875cda3bee3a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0c53aa9-2f4f-498b-a7ce-c21d844901db","path":"sprites/spr_KSW_Particle_Gloom/spr_KSW_Particle_Gloom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"503bcaad-0276-49c5-885d-d1d2a672072c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

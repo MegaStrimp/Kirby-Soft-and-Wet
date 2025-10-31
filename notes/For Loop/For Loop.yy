@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"For Loop",
   "name":"For Loop",
   "parent":{
