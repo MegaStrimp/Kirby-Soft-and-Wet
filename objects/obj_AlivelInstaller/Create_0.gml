@@ -18,4 +18,6 @@ else
 {
 	requestVersionNumberId = http_get(global.alivelInstaller_TargetVersionNumberUrl);
 }
+
+room_goto(global.alivelInstaller_TargetRoom);
 #endregion
