@@ -5,7 +5,7 @@
   "bbox_bottom":159,
   "bbox_left":0,
   "bbox_right":239,
-  "bbox_top":40,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,17 +17,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"561672a6-7fd3-4e05-8ce6-633599702a54","name":"561672a6-7fd3-4e05-8ce6-633599702a54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"da926deb-3ed2-4769-8b84-c5f1a04a533b","name":"da926deb-3ed2-4769-8b84-c5f1a04a533b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d6bbb9e9-f270-44fb-888c-9e6f0f09e727","name":"d6bbb9e9-f270-44fb-888c-9e6f0f09e727","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"bdbaa0eb-f85f-4cc1-aae0-3b50f0ab85ec","name":"bdbaa0eb-f85f-4cc1-aae0-3b50f0ab85ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06ab8349-cb9d-4ce5-be7f-231b59bf6feb","name":"06ab8349-cb9d-4ce5-be7f-231b59bf6feb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a8270258-4c46-4192-a3fc-f711243d4f84","name":"a8270258-4c46-4192-a3fc-f711243d4f84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"03a2608f-5f6e-46e3-b383-cfb3551635ff","name":"03a2608f-5f6e-46e3-b383-cfb3551635ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"29507063-abcc-4a55-879b-d88968487a3d","name":"29507063-abcc-4a55-879b-d88968487a3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":160,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b21f2f84-2fa1-48e7-bc8e-725b90b5c7a6","blendMode":0,"displayName":"default","isLocked":false,"name":"b21f2f84-2fa1-48e7-bc8e-725b90b5c7a6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"28d3f5ff-c211-4fc1-a447-eb8f4d6cef4e","blendMode":0,"displayName":"default","isLocked":false,"name":"28d3f5ff-c211-4fc1-a447-eb8f4d6cef4e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Layout_Halloween_Afternoon",
   "nineSlice":null,
@@ -78,10 +78,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"561672a6-7fd3-4e05-8ce6-633599702a54","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"78295a8a-1478-4347-af87-3298c1f8c401","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"da926deb-3ed2-4769-8b84-c5f1a04a533b","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a6d7fba4-f324-4b29-820d-de6745c13bd9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6bbb9e9-f270-44fb-888c-9e6f0f09e727","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e8958439-769b-4e12-8132-749d70042605","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdbaa0eb-f85f-4cc1-aae0-3b50f0ab85ec","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6df09e97-cea8-4a1b-8206-c70fa4931599","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06ab8349-cb9d-4ce5-be7f-231b59bf6feb","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"332fc67d-a423-4b4e-a164-871f96d2f7ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a8270258-4c46-4192-a3fc-f711243d4f84","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"352cd2a3-1f73-4443-aa39-61749e0e9afd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03a2608f-5f6e-46e3-b383-cfb3551635ff","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b1bb40c7-f5cc-4e4d-aba8-f8edf8917a93","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"29507063-abcc-4a55-879b-d88968487a3d","path":"sprites/spr_KSW_Layout_Halloween_Afternoon/spr_KSW_Layout_Halloween_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dc6bb7c0-11ec-45bd-8c89-abf9cbcb61ba","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -5,7 +5,7 @@
   "bbox_bottom":159,
   "bbox_left":0,
   "bbox_right":239,
-  "bbox_top":40,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,17 +17,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"52d9de18-2f56-49a0-9de6-b9634a843130","name":"52d9de18-2f56-49a0-9de6-b9634a843130","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"34dcc938-fd75-4936-ac3d-d4a56aee9aad","name":"34dcc938-fd75-4936-ac3d-d4a56aee9aad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed8f6450-2277-4286-b4cb-a4b48f8013be","name":"ed8f6450-2277-4286-b4cb-a4b48f8013be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50ce516a-1c11-443a-885a-5f91e2c2eb45","name":"50ce516a-1c11-443a-885a-5f91e2c2eb45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3c24b449-384c-42e3-947d-e8e3f31686ae","name":"3c24b449-384c-42e3-947d-e8e3f31686ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":160,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5c4f801b-8da6-443d-a6f9-af7e81629543","blendMode":0,"displayName":"default","isLocked":false,"name":"5c4f801b-8da6-443d-a6f9-af7e81629543","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"64a3deba-532f-4e83-bbc4-172014dbf49b","blendMode":0,"displayName":"default","isLocked":false,"name":"64a3deba-532f-4e83-bbc4-172014dbf49b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Layout_Halloween_Day",
   "nineSlice":null,
@@ -78,10 +78,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"52d9de18-2f56-49a0-9de6-b9634a843130","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4fe4dbf3-8f73-482e-b317-95a4ac330e38","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d20287d7-76d7-4fca-a5b6-6121aa9f68dc","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"52c14463-86d1-4996-a796-e8b065f71169","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa01bdd4-42cf-409f-80b8-4099c347ba4c","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3aef314e-e910-4223-8528-0c2e951a24f1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd29ecd3-ef14-4460-86d9-6fee81088ab0","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6eb216dc-79a1-4261-b25b-df9836e2f81d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34dcc938-fd75-4936-ac3d-d4a56aee9aad","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4f027dc5-8151-4658-8ab2-09896ded407b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed8f6450-2277-4286-b4cb-a4b48f8013be","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"16fa42d6-9d54-4f51-863b-505ccec1f27d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50ce516a-1c11-443a-885a-5f91e2c2eb45","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d1bbfa20-ce6e-435d-9494-83615273d1d6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c24b449-384c-42e3-947d-e8e3f31686ae","path":"sprites/spr_KSW_Layout_Halloween_Day/spr_KSW_Layout_Halloween_Day.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"99172d78-5920-48ee-8d23-7a235941256f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

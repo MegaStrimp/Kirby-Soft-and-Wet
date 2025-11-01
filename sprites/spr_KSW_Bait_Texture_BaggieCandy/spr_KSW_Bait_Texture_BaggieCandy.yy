@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Bait_Texture_BaggieCandy",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5b569418-9c6a-4628-b09f-fadd8c1c0dc5","name":"5b569418-9c6a-4628-b09f-fadd8c1c0dc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"34001721-65ed-4cf8-9fd0-fea10c0b9747","name":"34001721-65ed-4cf8-9fd0-fea10c0b9747","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6bcb8dcc-ecfc-478f-a078-0b7ed7edb84f","blendMode":0,"displayName":"default","isLocked":false,"name":"6bcb8dcc-ecfc-478f-a078-0b7ed7edb84f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"931d5cab-0354-4e54-9dce-3a96f8728840","blendMode":0,"displayName":"default","isLocked":false,"name":"931d5cab-0354-4e54-9dce-3a96f8728840","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Bait_Texture_BaggieCandy",
   "nineSlice":null,
@@ -75,7 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b569418-9c6a-4628-b09f-fadd8c1c0dc5","path":"sprites/spr_KSW_Bait_Texture_BaggieCandy/spr_KSW_Bait_Texture_BaggieCandy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"381eecc9-216d-42d5-95e7-7dd1e8b991bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34001721-65ed-4cf8-9fd0-fea10c0b9747","path":"sprites/spr_KSW_Bait_Texture_BaggieCandy/spr_KSW_Bait_Texture_BaggieCandy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4c74d5e0-89c0-468a-87d3-95ece8d5961a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
