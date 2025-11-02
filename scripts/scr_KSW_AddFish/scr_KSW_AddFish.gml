@@ -14,11 +14,9 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
 		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_Christmas;
 		break;
 		
-		/* STRIMPTODO
-		case "halloween":
-		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_Halloween;
+		case "hallowReen":
+		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_HallowReen;
 		break;
-		*/
 	}
 	
 	var targetPhaseIconRight = -1;

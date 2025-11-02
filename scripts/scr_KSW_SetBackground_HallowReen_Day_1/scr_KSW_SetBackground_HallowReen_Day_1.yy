@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_KSW_SetBackground_HallowReen_Day_1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_KSW_SetBackground_HallowReen_Day_1",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Kirby ~ Soft & Wet/Backgrounds/Hallow Reen/Day/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

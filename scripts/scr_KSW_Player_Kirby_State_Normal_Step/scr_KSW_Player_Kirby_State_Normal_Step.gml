@@ -210,9 +210,9 @@ function scr_KSW_Player_Kirby_State_Normal_Step()
 	#region Bait Movement
 	if (baitTexture != -1)
 	{
-		baitX = (baitX + baitSpd) % baitWidth;
-		baitY = (baitY + baitSpd) % baitHeight;
-		baitAngle = (baitAngle + baitSpd) % 360;
+		baitX = (baitX + baitHsp) % baitWidth;
+		baitY = (baitY + baitVsp) % baitHeight;
+		baitAngle = (baitAngle + baitHsp) % 360;
 	}
 	#endregion
 	

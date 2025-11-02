@@ -4,9 +4,9 @@ function scr_KSW_UI_Customize_Pages_Main_Select()
 {
 	scr_PlaySfx(snd_KSW_Enter);
 	
-	with (obj_KSW_UI_Customize_Bubble) instance_destroy();
+	currentBubbleIndex = selection;
 	
-	switch (selection)
+	switch (bubble[selection].number)
 	{
 		case KSW_UI_Customize_Bubbles.characters:
 		scr_KSW_UI_Customize_ChangePage("characters");
@@ -36,4 +36,6 @@ function scr_KSW_UI_Customize_Pages_Main_Select()
 		scr_KSW_UI_Customize_ChangePage("stages");
 		break;
 	}
+	
+	with (obj_KSW_UI_Customize_Bubble) instance_destroy();
 }

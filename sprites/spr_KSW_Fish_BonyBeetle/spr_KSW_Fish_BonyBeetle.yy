@@ -8,6 +8,11 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "DesktopDebug":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -78,15 +83,33 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c8a31c1-5da7-4bd2-b818-286448522614","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9d09d03d-f5ff-4790-a5fd-ab2b0e77135c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"48299d13-dfd5-46bc-903a-b5caa328d64a","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"69d453d9-ea04-4554-9c29-bb77ff633195","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b7f5733a-660a-44b6-a94e-ab5ece451c18","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"362b4290-4c5e-4212-b25a-722b5e1959cb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a311a7ca-3307-4464-91e8-fe2a6a613564","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6f28c940-f90d-404b-85d2-c3e597f4db72","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"084bb29e-7d41-4a05-bc85-175928fa72a0","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a16f0672-1e82-4d74-9f23-be839847ae02","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f3d780d-4712-4aa3-8ab3-38d9314c8343","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"22af63fe-9d36-4d2a-b10b-6b914413c821","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"670ff87f-5a11-4cbe-bbfc-fda93d1b47cc","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9b7070f2-5d14-49ad-8f3c-e9f3515aa881","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"be49d32b-3c51-47d6-87d4-5f5a59a27ca4","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1efcf931-399f-48f1-8896-6be230d55b1a","IsCreationKey":false,"Key":7.0,"Length":3.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8196ab92-d8e8-4127-8a07-48d94816d740","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dab959a2-f02c-456c-bb7e-59777e8d2396","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c8a31c1-5da7-4bd2-b818-286448522614","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9d09d03d-f5ff-4790-a5fd-ab2b0e77135c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48299d13-dfd5-46bc-903a-b5caa328d64a","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"69d453d9-ea04-4554-9c29-bb77ff633195","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b7f5733a-660a-44b6-a94e-ab5ece451c18","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"362b4290-4c5e-4212-b25a-722b5e1959cb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a311a7ca-3307-4464-91e8-fe2a6a613564","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6f28c940-f90d-404b-85d2-c3e597f4db72","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"084bb29e-7d41-4a05-bc85-175928fa72a0","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a16f0672-1e82-4d74-9f23-be839847ae02","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f3d780d-4712-4aa3-8ab3-38d9314c8343","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"22af63fe-9d36-4d2a-b10b-6b914413c821","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"670ff87f-5a11-4cbe-bbfc-fda93d1b47cc","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9b7070f2-5d14-49ad-8f3c-e9f3515aa881","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"be49d32b-3c51-47d6-87d4-5f5a59a27ca4","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1efcf931-399f-48f1-8896-6be230d55b1a","IsCreationKey":false,"Key":7.0,"Length":3.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8196ab92-d8e8-4127-8a07-48d94816d740","path":"sprites/spr_KSW_Fish_BonyBeetle/spr_KSW_Fish_BonyBeetle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dab959a2-f02c-456c-bb7e-59777e8d2396","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

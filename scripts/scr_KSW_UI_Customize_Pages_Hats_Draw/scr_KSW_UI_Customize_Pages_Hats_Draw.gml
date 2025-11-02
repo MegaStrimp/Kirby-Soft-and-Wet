@@ -17,7 +17,7 @@ function scr_KSW_UI_Customize_Pages_Hats_Draw()
 	if (isCompleted)
 	{
 		color = "[#FFD800]";
-		draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,global.gameWidth - 54,2 - hintOffset);
+		draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,global.gameWidth - 40,2 - hintOffset);
 	}
 	scribble(color + string(global.KSW_UnlockedHatCount[global.playerCharacter[playerNum]]) + "/" + string(global.KSW_HatCount[global.playerCharacter[playerNum]]) + "[/color]").align(fa_right).draw(global.gameWidth - 4,6 - hintOffset);
 	#endregion

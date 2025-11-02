@@ -26,7 +26,8 @@ function scr_KSW_Player_Kirby_Setup()
 	baitHeight = 0;
 	baitX = 0;
 	baitY = 0;
-	baitSpd = .3;
+	baitHsp = .3;
+	baitVsp = .4;
 	baitAngle = 0;
 	
 	rodX = -100;

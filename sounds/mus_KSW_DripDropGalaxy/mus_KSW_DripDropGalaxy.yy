@@ -15,7 +15,7 @@
   "name":"mus_KSW_DripDropGalaxy",
   "parent":{
     "name":"Night",
-    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Halloween/Night.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Hallow Reen/Night.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

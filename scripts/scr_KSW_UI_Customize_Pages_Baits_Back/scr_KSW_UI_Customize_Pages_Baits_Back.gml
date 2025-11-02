@@ -4,7 +4,8 @@ function scr_KSW_UI_Customize_Pages_Baits_Back()
 {
 	scr_PlaySfx(snd_KSW_ButtonNo);
 	
-	selection = KSW_UI_Customize_Bubbles.baits;
+	//selection = KSW_UI_Customize_Bubbles.baits;
+	selection = currentBubbleIndex;
 	
 	scr_KSW_Game_SetPool();
 	
