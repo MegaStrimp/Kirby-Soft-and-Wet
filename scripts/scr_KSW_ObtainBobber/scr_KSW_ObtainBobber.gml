@@ -2,10 +2,10 @@
 
 function scr_KSW_ObtainBobber(targetBobberID)
 {
-	if (!global.KSW_BobberList[targetBobberID].isObtained)
+	if (!global.KSW_BobberList[targetBobberID].isUnlocked)
 	{
 		if (!global.KSW_BobberList[targetBobberID].isHidden) global.KSW_UnlockedBobberCount += 1;
-		global.KSW_BobberList[targetBobberID].isObtained = true;
+		global.KSW_BobberList[targetBobberID].isUnlocked = true;
 		
 		ds_list_add(global.KSW_AvailableBobbers,targetBobberID);
 		
