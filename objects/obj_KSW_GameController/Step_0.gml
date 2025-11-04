@@ -304,7 +304,9 @@ if (!localPause)
 			case KSW_GameStates.catched:
 			#region Give Grams
 			var gramOffset = global.KSW_FishList[other.currentFish].gramOffset;
-			global.levelScoreCurrent += floor((global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset)) * (1 + (global.KSW_CurrentFishCombo / 20)) * ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "moreGrams"]) * 1.5));
+			var baitMult = 1;
+			if (global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "moreGrams"]) baitMult = 1.5;
+			global.levelScoreCurrent += floor((global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset)) * (1 + (global.KSW_CurrentFishCombo / 20)) * (baitMult));
 			flag_ScoreSfx = true;
 			#endregion
 			
