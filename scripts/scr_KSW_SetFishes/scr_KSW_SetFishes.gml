@@ -677,6 +677,20 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Rungstrider",spr_KSW_Fish_Rungstrider,spr_KSW_Fish_Rungstrider_Pal,mage,1,creamCrevasse,KSW_Phases.none,2000);
 	scr_KSW_AddFish("Hurlsvelgr",spr_KSW_Fish_Hurlsvelgr,spr_KSW_Fish_Hurlsvelgr_Pal,mage,2,creamCrevasse,KSW_Phases.none,8000);
 	scr_KSW_AddFish("Polar Knight",spr_KSW_Fish_PolarKnight,spr_KSW_Fish_PolarKnight_Pal,candy,3,creamCrevasse,KSW_Phases.none,24000);
+	scr_KSW_AddFish("Hermie III",spr_KSW_Fish_HermieIII,spr_KSW_Fish_HermieIII_Pal,candy,2,creamCrevasse,KSW_Phases.none,12500);
+	scr_KSW_AddFish("Freeze Man",spr_KSW_Fish_FreezeMan,spr_KSW_Fish_FreezeMan_Pal,legion,1,creamCrevasse,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Frost Man",spr_KSW_Fish_FrostMan,spr_KSW_Fish_FrostMan_Pal,mage,2,creamCrevasse,KSW_Phases.none,8000,,,,snd_KSW_Fish_FrostMan);
+	scr_KSW_AddFish("Cold Man",spr_KSW_Fish_ColdMan,spr_KSW_Fish_ColdMan_Pal,mage,1,creamCrevasse,KSW_Phases.none,3500);
+	scr_KSW_AddFish("Chill Penguin",spr_KSW_Fish_ChillPenguin,spr_KSW_Fish_ChillPenguin_Pal,legion,1,creamCrevasse,KSW_Phases.none,5000);
+	scr_KSW_AddFish("Blizzard Buffalo",spr_KSW_Fish_BlizzardBuffalo,spr_KSW_Fish_BlizzardBuffalo_Pal,glimmer,1,creamCrevasse,KSW_Phases.none,6000);
+	scr_KSW_AddFish("Frost Walrus",spr_KSW_Fish_FrostWalrus,spr_KSW_Fish_FrostWalrus_Pal,mage,2,creamCrevasse,KSW_Phases.none,7500);
+	scr_KSW_AddFish("Tidal Whale",spr_KSW_Fish_TidalWhale,spr_KSW_Fish_TidalWhale_Pal,legion,2,creamCrevasse,KSW_Phases.none,8500);
+	scr_KSW_AddFish("Fairy Leviathan",spr_KSW_Fish_FairyLeviathan,spr_KSW_Fish_FairyLeviathan_Pal,legion,2,creamCrevasse,KSW_Phases.none,11000);
+	scr_KSW_AddFish("A.Phenomenon Leviathan",spr_KSW_Fish_ArmedPhenomenonLeviathan,spr_KSW_Fish_ArmedPhenomenonLeviathan_Pal,legion,3,creamCrevasse,KSW_Phases.none,22000);
+	scr_KSW_AddFish("Blizzack Stagroff",spr_KSW_Fish_BlizzackStagroff,spr_KSW_Fish_BlizzackStagroff_Pal,mage,2,creamCrevasse,KSW_Phases.none,8000);
+	scr_KSW_AddFish("Fenri Lunaedge",spr_KSW_Fish_FenriLunaedge,spr_KSW_Fish_FenriLunaedge_Pal,mage,2,creamCrevasse,KSW_Phases.none,9500);
+	scr_KSW_AddFish("Lurerre",spr_KSW_Fish_Lurerre,spr_KSW_Fish_Lurerre_Pal,glimmer,1,creamCrevasse,KSW_Phases.none,4500);
+	scr_KSW_AddFish("Chronoforce",spr_KSW_Fish_Chronoforce,spr_KSW_Fish_Chronoforce_Pal,legion,2,creamCrevasse,KSW_Phases.none,10000);
 	#endregion
 	#endregion
 }
