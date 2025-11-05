@@ -25,5 +25,5 @@
   "tags":[
     "Music",
   ],
-  "volume":0.8,
+  "volume":0.6,
 }

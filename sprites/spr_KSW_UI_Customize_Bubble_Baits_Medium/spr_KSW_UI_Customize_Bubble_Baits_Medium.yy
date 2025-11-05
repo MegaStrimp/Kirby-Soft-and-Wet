@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_UI_Customize_Bubble_Baits_Medium",
   "bboxMode":0,
-  "bbox_bottom":27,
+  "bbox_bottom":26,
   "bbox_left":5,
   "bbox_right":26,
   "bbox_top":5,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f0eabadf-133d-4ef7-a5fa-7a671984b5b8","name":"f0eabadf-133d-4ef7-a5fa-7a671984b5b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4861ac16-0cf7-4829-8986-636835806da8","name":"4861ac16-0cf7-4829-8986-636835806da8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e07b994d-3a69-40b4-80c3-88c0467947d2","blendMode":0,"displayName":"default","isLocked":false,"name":"e07b994d-3a69-40b4-80c3-88c0467947d2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c916c500-0693-4c58-a4cf-713ced72d62e","blendMode":0,"displayName":"default","isLocked":false,"name":"c916c500-0693-4c58-a4cf-713ced72d62e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_UI_Customize_Bubble_Baits_Medium",
   "nineSlice":null,
@@ -75,7 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0eabadf-133d-4ef7-a5fa-7a671984b5b8","path":"sprites/spr_KSW_UI_Customize_Bubble_Baits_Medium/spr_KSW_UI_Customize_Bubble_Baits_Medium.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"30174d2d-cf8b-4d50-bc79-44c8f683e471","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4861ac16-0cf7-4829-8986-636835806da8","path":"sprites/spr_KSW_UI_Customize_Bubble_Baits_Medium/spr_KSW_UI_Customize_Bubble_Baits_Medium.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"da5ddbd5-5a88-48d5-9a0b-8ce01f8ff862","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_KSW_SetBackground_CreamCrevasse_Night_2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_KSW_SetBackground_CreamCrevasse_Night_2",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Kirby ~ Soft & Wet/Backgrounds/Cream Crevasse/Night/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

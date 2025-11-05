@@ -17,17 +17,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"30756b88-c988-4298-a257-19c829b4c051","name":"30756b88-c988-4298-a257-19c829b4c051","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e01254a5-eb08-439f-be4d-3f0ef5d6e591","name":"e01254a5-eb08-439f-be4d-3f0ef5d6e591","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"72c980c0-e67c-4c4b-bf2b-48fa1ac5cf4a","name":"72c980c0-e67c-4c4b-bf2b-48fa1ac5cf4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"77fda142-c382-40b2-95e0-1749d44171a7","name":"77fda142-c382-40b2-95e0-1749d44171a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d14c74e4-1770-44a9-9a21-8b39bf2fb13a","name":"d14c74e4-1770-44a9-9a21-8b39bf2fb13a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31a3cdfa-c9cf-45dd-979f-8aef9da0d718","name":"31a3cdfa-c9cf-45dd-979f-8aef9da0d718","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e5bc439e-54c9-495b-8440-d0107321f0d3","name":"e5bc439e-54c9-495b-8440-d0107321f0d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3fbe1978-bf60-4f6f-8fbd-d376812ea8f3","name":"3fbe1978-bf60-4f6f-8fbd-d376812ea8f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":160,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"81a85515-7c32-4f46-9691-96048bad5b6b","blendMode":0,"displayName":"default","isLocked":false,"name":"81a85515-7c32-4f46-9691-96048bad5b6b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"be76ab4b-2d59-431e-83cf-9a60d6d6d5c8","blendMode":0,"displayName":"default","isLocked":false,"name":"be76ab4b-2d59-431e-83cf-9a60d6d6d5c8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Layout_CreamCrevasse_Night",
   "nineSlice":null,
@@ -78,10 +78,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"30756b88-c988-4298-a257-19c829b4c051","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5bc9e72a-faf6-4d4b-9115-fddcb9dd1437","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e01254a5-eb08-439f-be4d-3f0ef5d6e591","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"11b4db83-0f12-4460-aa54-7ec3ba63997a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"72c980c0-e67c-4c4b-bf2b-48fa1ac5cf4a","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"70b793b3-4746-41fa-98e5-d358b5fe3a4a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"77fda142-c382-40b2-95e0-1749d44171a7","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b2390177-4a51-4271-9092-91908f011a73","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d14c74e4-1770-44a9-9a21-8b39bf2fb13a","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ffa883ce-e58e-4de7-81a3-1efd55ed12fd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"31a3cdfa-c9cf-45dd-979f-8aef9da0d718","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c93bfcab-0c57-4e69-a0eb-e02e76d69d76","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5bc439e-54c9-495b-8440-d0107321f0d3","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"75e9b811-1d71-45b6-bb2e-7d78087edf5b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3fbe1978-bf60-4f6f-8fbd-d376812ea8f3","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"605d21d3-e1f4-4ccc-9fab-a71f6df1fb6f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"3024a0c2-27d6-461e-899c-cfeca37237d8","name":"3024a0c2-27d6-461e-899c-cfeca37237d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed011f88-8ea6-4c99-aac8-afdf6d4004a8","name":"ed011f88-8ea6-4c99-aac8-afdf6d4004a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":160,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a39f8cb1-cd47-434e-9b28-07d89571e4bc","blendMode":0,"displayName":"default","isLocked":false,"name":"a39f8cb1-cd47-434e-9b28-07d89571e4bc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d93454ee-3482-49a6-8f10-939159930dc2","blendMode":0,"displayName":"default","isLocked":false,"name":"d93454ee-3482-49a6-8f10-939159930dc2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_KSW_HallowReen_Night_1",
   "nineSlice":null,
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3024a0c2-27d6-461e-899c-cfeca37237d8","path":"sprites/bg_KSW_HallowReen_Night_1/bg_KSW_HallowReen_Night_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"51b5aec9-1957-471f-a974-3190e0cb3f47","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed011f88-8ea6-4c99-aac8-afdf6d4004a8","path":"sprites/bg_KSW_HallowReen_Night_1/bg_KSW_HallowReen_Night_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"36d8b7d2-0c78-4575-af74-26012c0a5bcb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

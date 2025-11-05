@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cdb3e379-5586-473f-b2f2-2679766efcc8","name":"cdb3e379-5586-473f-b2f2-2679766efcc8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fb2954bc-9178-479b-821a-0b3304a7ba5c","name":"fb2954bc-9178-479b-821a-0b3304a7ba5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":42,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2408d088-9472-4081-ac27-4fb524894c4b","blendMode":0,"displayName":"default","isLocked":false,"name":"2408d088-9472-4081-ac27-4fb524894c4b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5232c254-8eec-4513-8677-c42b28b3f48a","blendMode":0,"displayName":"default","isLocked":false,"name":"5232c254-8eec-4513-8677-c42b28b3f48a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_UI_Customize_Bubble_Baits_Big",
   "nineSlice":null,
@@ -75,7 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cdb3e379-5586-473f-b2f2-2679766efcc8","path":"sprites/spr_KSW_UI_Customize_Bubble_Baits_Big/spr_KSW_UI_Customize_Bubble_Baits_Big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"956500e9-9130-4df1-a6c4-c41a64a9098b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb2954bc-9178-479b-821a-0b3304a7ba5c","path":"sprites/spr_KSW_UI_Customize_Bubble_Baits_Big/spr_KSW_UI_Customize_Bubble_Baits_Big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"975b6f57-9547-45df-b60e-287083680841","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

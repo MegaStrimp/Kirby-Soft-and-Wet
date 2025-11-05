@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_UI_Customize_Bubble_Music_Big",
   "bboxMode":0,
-  "bbox_bottom":35,
-  "bbox_left":6,
-  "bbox_right":35,
+  "bbox_bottom":34,
+  "bbox_left":3,
+  "bbox_right":38,
   "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cdb3e379-5586-473f-b2f2-2679766efcc8","name":"cdb3e379-5586-473f-b2f2-2679766efcc8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"841f828a-f3ea-4916-96a0-c1182be0d0fe","name":"841f828a-f3ea-4916-96a0-c1182be0d0fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":42,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2408d088-9472-4081-ac27-4fb524894c4b","blendMode":0,"displayName":"default","isLocked":false,"name":"2408d088-9472-4081-ac27-4fb524894c4b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4b930e7b-41d5-45ab-822a-b7a41137bb72","blendMode":0,"displayName":"default","isLocked":false,"name":"4b930e7b-41d5-45ab-822a-b7a41137bb72","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_UI_Customize_Bubble_Music_Big",
   "nineSlice":null,
@@ -75,7 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cdb3e379-5586-473f-b2f2-2679766efcc8","path":"sprites/spr_KSW_UI_Customize_Bubble_Music_Big/spr_KSW_UI_Customize_Bubble_Music_Big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"956500e9-9130-4df1-a6c4-c41a64a9098b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"841f828a-f3ea-4916-96a0-c1182be0d0fe","path":"sprites/spr_KSW_UI_Customize_Bubble_Music_Big/spr_KSW_UI_Customize_Bubble_Music_Big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0352b352-64e6-4c4f-a80a-d74f988f72ce","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
