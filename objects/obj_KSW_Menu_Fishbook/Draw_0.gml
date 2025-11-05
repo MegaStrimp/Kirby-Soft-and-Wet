@@ -99,7 +99,7 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	#endregion
 	
 	#region Phase
-	if (global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIconLeft != -1) draw_sprite(global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIconLeft,0,boxX - 8,boxY - 6);
+	if (global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIconLeftSmall != -1) draw_sprite(global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIconLeftSmall,0,boxX - 8,boxY - 6);
 	if (global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIconRight != -1) draw_sprite(global.KSW_FishList[ds_list_find_value(selectionList,i)].phaseIconRight,0,boxX + 17,boxY - 6);
 	#endregion
 	
@@ -268,13 +268,13 @@ else
 	var targetCatchAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught;
 	if (fishIsShiny[selection]) targetCatchAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny;
 	
-	scribble("CAUGHT " + string(targetCatchAmount)).align(fa_right).draw(room_width - 4,18 + (12 * (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconRight != -1)));
+	scribble("CAUGHT " + string(targetCatchAmount)).align(fa_right).draw(room_width - 4,18 + (12 * ((global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconLeft != -1) or (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconRight != -1))));
 	#endregion
 	
 	#region Gram Amount
 	var targetGramAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].gram;
 	
-	scribble(string(targetGramAmount) + "G").align(fa_right).draw(room_width - 4,30 + (12 * (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconRight != -1)));
+	scribble(string(targetGramAmount) + "G").align(fa_right).draw(room_width - 4,30 + (12 * ((global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconLeft != -1) or (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconRight != -1))));
 	#endregion
 	
 	#region Button Hints

@@ -63,7 +63,8 @@ function scr_KSW_SetStages()
 	
 	var targetAfternoonBgColors = [141,120,69,58,107,48];
 	
-	var targetNightBackgrounds = [scr_KSW_SetBackground_HallowReen_Night_1];
+	var targetNightBackgrounds = [scr_KSW_SetBackground_HallowReen_Night_1,
+	scr_KSW_SetBackground_HallowReen_Night_2];
 	
 	var targetNightBgColors = [0,0,0,0,255,209];
 	

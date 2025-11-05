@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Menu_TitleScreen_Phase_HallowReen",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Phase",
     "path":"folders/Kirby ~ Soft & Wet/Menus/Title Screen/Sprites/Phase.yy",
@@ -83,7 +83,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":1,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -8,14 +8,22 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
 	ds_map_add(global.KSW_FishIDs,targetName,global.KSW_FishCount);
 	
 	var targetPhaseIconLeft = -1;
+	var targetPhaseIconLeftSmall = -1;
 	switch (global.KSW_StageList[targetStage].ID)
 	{
+		case "grassBeach":
+		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_GrassBeach;
+		targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_GrassBeach_Small;
+		break;
+		
 		case "creamCrevasse":
-		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_Christmas;
+		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_CreamCrevasse;
+		targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_CreamCrevasse_Small;
 		break;
 		
 		case "hallowReen":
 		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_HallowReen;
+		targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_HallowReen_Small;
 		break;
 	}
 	
@@ -47,6 +55,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetCaughtBoxPa
         stage: targetStage,
         phase: targetPhase,
 		phaseIconLeft: targetPhaseIconLeft,
+		phaseIconLeftSmall: targetPhaseIconLeftSmall,
 		phaseIconRight: targetPhaseIconRight,
         gram: targetGram,
         gramOffset: targetGramOffset,
