@@ -40,19 +40,33 @@ function scr_KSW_Player_Kirby_Setup()
 	
 	#region Sprites
 	sprReady = spr_KSW_Player_Kirby_Ready;
+	sprReady_Rod = spr_KSW_Player_Kirby_Ready_Rod;
 	sprThrow = spr_KSW_Player_Kirby_Throw;
+	sprThrow_Rod = spr_KSW_Player_Kirby_Throw_Rod;
 	sprWait = spr_KSW_Player_Kirby_Wait;
+	sprWait_Rod = spr_KSW_Player_Kirby_Wait_Rod;
 	sprFound = spr_KSW_Player_Kirby_Found;
+	sprFound_Rod = spr_KSW_Player_Kirby_Found_Rod;
 	sprUp = spr_KSW_Player_Kirby_Up;
+	sprUp_Rod = spr_KSW_Player_Kirby_Up_Rod;
 	sprUpAnim = spr_KSW_Player_Kirby_UpAnim;
+	sprUpAnim_Rod = spr_KSW_Player_Kirby_UpAnim_Rod;
 	sprDown = spr_KSW_Player_Kirby_Down;
+	sprDown_Rod = spr_KSW_Player_Kirby_Down_Rod;
 	sprDownAnim = spr_KSW_Player_Kirby_DownAnim;
+	sprDownAnim_Rod = spr_KSW_Player_Kirby_DownAnim_Rod;
 	sprLeft = spr_KSW_Player_Kirby_Left;
+	sprLeft_Rod = spr_KSW_Player_Kirby_Left_Rod;
 	sprLeftAnim = spr_KSW_Player_Kirby_LeftAnim;
+	sprLeftAnim_Rod = spr_KSW_Player_Kirby_LeftAnim_Rod;
 	sprRight = spr_KSW_Player_Kirby_Right;
+	sprRight_Rod = spr_KSW_Player_Kirby_Right_Rod;
 	sprRightAnim = spr_KSW_Player_Kirby_RightAnim;
+	sprRightAnim_Rod = spr_KSW_Player_Kirby_RightAnim_Rod;
 	sprFailed = spr_KSW_Player_Kirby_Failed;
+	sprFailed_Rod = spr_KSW_Player_Kirby_Failed_Rod;
 	sprSuccess = spr_KSW_Player_Kirby_Success;
+	sprSuccess_Rod = spr_KSW_Player_Kirby_Success_Rod;
 	
 	sprBobber = spr_KSW_Bobber_Red;
 	sprBobberImageIndex = 0;

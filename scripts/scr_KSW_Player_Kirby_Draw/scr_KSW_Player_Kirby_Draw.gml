@@ -44,6 +44,69 @@ function scr_KSW_Player_Kirby_Draw()
 	draw_sprite(sprBobber,sprBobberImageIndex,bobberX + bobberShakeFinal,bobberY);
 	#endregion
 	
+	#region Rod
+	var targetRodSprite = undefined;
+	
+	switch (sprite_index)
+	{
+		case sprReady:
+		targetRodSprite = sprReady_Rod;
+		break;
+		
+		case sprThrow:
+		targetRodSprite = sprThrow_Rod;
+		break;
+		
+		case sprWait:
+		targetRodSprite = sprWait_Rod;
+		break;
+		
+		case sprFound:
+		targetRodSprite = sprFound_Rod;
+		break;
+		
+		case sprUp:
+		targetRodSprite = sprUp_Rod;
+		break;
+		
+		case sprUpAnim:
+		targetRodSprite = sprUpAnim_Rod;
+		break;
+		
+		case sprDown:
+		targetRodSprite = sprDown_Rod;
+		break;
+		
+		case sprDownAnim:
+		targetRodSprite = sprDownAnim_Rod;
+		break;
+		
+		case sprLeft:
+		targetRodSprite = sprLeft_Rod;
+		break;
+		
+		case sprLeftAnim:
+		targetRodSprite = sprLeftAnim_Rod;
+		break;
+		
+		case sprRight:
+		targetRodSprite = sprRight_Rod;
+		break;
+		
+		case sprRightAnim:
+		targetRodSprite = sprRightAnim_Rod;
+		break;
+		
+		case sprFailed:
+		targetRodSprite = sprFailed_Rod;
+		break;
+		
+		case sprSuccess:
+		targetRodSprite = sprSuccess_Rod;
+		break;
+	}
+	#endregion
+	
 	#region Hat
 	var currentHat = global.KSW_PlayerEquippedHatID[playerNum][global.playerCharacter[playerNum]];
 	var targetHatSprite = undefined;
@@ -123,8 +186,8 @@ function scr_KSW_Player_Kirby_Draw()
 			targetHatShadowSprite = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].spriteSet.sprSuccess_Shadow;
 			break;
 		}
-	#endregion
 	}
+	#endregion
 	
 	#region Draw Self
 	if (sprite_index != -1)
@@ -135,6 +198,8 @@ function scr_KSW_Player_Kirby_Draw()
 		draw_sprite_ext(sprite_index,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 		if (targetHatShadowSprite != undefined) draw_sprite_ext(targetHatShadowSprite,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 		if ((global.shaders) and (currentSprayPaint != 0)) pal_swap_reset();
+		
+		if (targetRodSprite != undefined) draw_sprite_ext(targetRodSprite,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 		
 		if (targetHatSprite != undefined) draw_sprite_ext(targetHatSprite,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 	}
