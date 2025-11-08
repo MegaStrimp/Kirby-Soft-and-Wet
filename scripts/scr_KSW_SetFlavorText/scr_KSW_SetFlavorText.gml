@@ -96,7 +96,8 @@ function scr_KSW_SetFlavorText()
 	"Chaos Chaos!",
 	"Won't Stop Rocking Til He Clocked In a Gazzilion Grand!",
 	"I'm So Much Flavor You Can Taste Me!",
-	"Berry Game!"
+	"Berry Game!",
+	"It's Like ANOTHER HIM"
 	];
 	
 	var flavorText = flavorTextArray[irandom_range(0,array_length(flavorTextArray) - 1)];
