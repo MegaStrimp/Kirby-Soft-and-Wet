@@ -147,7 +147,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Cloudfish",spr_KSW_Fish_Cloudfish,spr_KSW_Fish_Cloudfish_Pal_Normal,glimmer,3,grassBeach,KSW_Phases.none,1400);
 	scr_KSW_AddFish("Clownfish",spr_KSW_Fish_Clownfish,spr_KSW_Fish_Clownfish_Pal_Normal,borange,3,grassBeach,KSW_Phases.none,1500);
 	scr_KSW_AddFish("Cursedfish",spr_KSW_Fish_Cursedfish,spr_KSW_Fish_Cursedfish_Pal_Normal,mint,3,hallowReen,KSW_Phases.none,1700);
-	scr_KSW_AddFish("Demonic Hellfish",spr_KSW_Fish_DemonicHellfish,spr_KSW_Fish_DemonicHellfish_Pal_Normal,hallowReen,3,grassBeach,KSW_Phases.none,1900);
+	scr_KSW_AddFish("Demonic Hellfish",spr_KSW_Fish_DemonicHellfish,spr_KSW_Fish_DemonicHellfish_Pal_Normal,candy,3,hallowReen,KSW_Phases.none,1900);
 	scr_KSW_AddFish("Derpfish",spr_KSW_Fish_Derpfish,spr_KSW_Fish_Derpfish_Pal_Normal,legion,3,grassBeach,KSW_Phases.none,1600);
 	scr_KSW_AddFish("Dirtfish",spr_KSW_Fish_Dirtfish,spr_KSW_Fish_Dirtfish_Pal_Normal,mage,3,grassBeach,KSW_Phases.none,2000);
 	scr_KSW_AddFish("Dynamite Fish",spr_KSW_Fish_DynamiteFish,spr_KSW_Fish_DynamiteFish_Pal_Normal,candy,3,grassBeach,KSW_Phases.none,3000);
@@ -155,7 +155,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Fallen Starfish",spr_KSW_Fish_FallenStarfish,spr_KSW_Fish_FallenStarfish_Pal_Normal,borange,3,grassBeach,KSW_Phases.none,4400);
 	scr_KSW_AddFish("Fishotron",spr_KSW_Fish_Fishotron,spr_KSW_Fish_Fishotron_Pal_Normal,mint,3,hallowReen,KSW_Phases.none,5000);
 	scr_KSW_AddFish("Fishron",spr_KSW_Fish_Fishron,spr_KSW_Fish_Fishron_Pal_Normal,glimmer,3,grassBeach,KSW_Phases.none,2000);
-	scr_KSW_AddFish("Guide Voodoo Fish",spr_KSW_Fish_GuideVoodooFish,spr_KSW_Fish_GuideVoodooFish_Pal_Normal,hallowReen,3,grassBeach,KSW_Phases.none,2400);
+	scr_KSW_AddFish("Guide Voodoo Fish",spr_KSW_Fish_GuideVoodooFish,spr_KSW_Fish_GuideVoodooFish_Pal_Normal,borange,3,hallowReen,KSW_Phases.none,2400);
 	scr_KSW_AddFish("Harpyfish",spr_KSW_Fish_Harpyfish,spr_KSW_Fish_Harpyfish_Pal_Normal,legion,3,grassBeach,KSW_Phases.none,5200);
 	scr_KSW_AddFish("Hungerfish",spr_KSW_Fish_Hungerfish,spr_KSW_Fish_Hungerfish_Pal_Normal,candy,3,grassBeach,KSW_Phases.none,5700);
 	scr_KSW_AddFish("Ichorfish",spr_KSW_Fish_Ichorfish,spr_KSW_Fish_Ichorfish_Pal_Normal,borange,3,hallowReen,KSW_Phases.none,4800);
@@ -691,6 +691,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Fenri Lunaedge",spr_KSW_Fish_FenriLunaedge,spr_KSW_Fish_FenriLunaedge_Pal,mage,2,creamCrevasse,KSW_Phases.none,9500);
 	scr_KSW_AddFish("Lurerre",spr_KSW_Fish_Lurerre,spr_KSW_Fish_Lurerre_Pal,glimmer,1,creamCrevasse,KSW_Phases.none,4500);
 	scr_KSW_AddFish("Chronoforce",spr_KSW_Fish_Chronoforce,spr_KSW_Fish_Chronoforce_Pal,legion,2,creamCrevasse,KSW_Phases.none,10000);
+	scr_KSW_AddFish("M. Doomsday",spr_KSW_Fish_MDoomsday,spr_KSW_Fish_MDoomsday_Pal,borange,2,hallowReen,KSW_Phases.night,6666);
 	#endregion
 	#endregion
 }
