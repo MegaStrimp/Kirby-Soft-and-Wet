@@ -24,6 +24,7 @@ function scr_KSW_SetFishes()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
+	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
 	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
 	#endregion
 	
@@ -449,6 +450,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Small Silhouette Fish",spr_KSW_Fish_SmallSil,spr_KSW_Fish_Silhouette_Pal,legion,0,grassBeach,KSW_Phases.night,100);
 	scr_KSW_AddFish("Silhouette Fish",spr_KSW_Fish_RegularSil,spr_KSW_Fish_Silhouette_Pal,legion,0,grassBeach,KSW_Phases.night,300);
 	scr_KSW_AddFish("Big Silhouette Fish",spr_KSW_Fish_LargeSil,spr_KSW_Fish_Silhouette_Pal,legion,0,grassBeach,KSW_Phases.night,450);
+	scr_KSW_AddFish("Wizzer",spr_KSW_Fish_Wizzer,spr_KSW_Fish_Wizzer_Pal,legion,0,grassBeach,KSW_Phases.day,300);
 	scr_KSW_AddFish("Rango",spr_KSW_Fish_Rango,spr_KSW_Fish_Rango_Pal,mage,0,grassBeach,KSW_Phases.day,400,-2,3);
 	scr_KSW_AddFish("Fizzy",spr_KSW_Fish_Fizzy,spr_KSW_Fish_Fizzy_Pal,flux,0,grassBeach,KSW_Phases.day,300);
 	scr_KSW_AddFish("Blubby",spr_KSW_FIsh_Blubby,spr_KSW_Fish_Blubby_Pal,candy,0,grassBeach,KSW_Phases.day,300,,,,snd_KSW_Bubble1);
@@ -513,7 +515,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Gastrodon (East)",spr_KSW_Fish_Gastrodon_East,spr_KSW_Fish_Gastrodon_East_Pal,mint,1,grassBeach,KSW_Phases.afternoon,3200);
 	scr_KSW_AddFish("Phione",spr_KSW_Fish_Phione,spr_KSW_Fish_Phione_Pal,mage,3,creamCrevasse,KSW_Phases.none,21000,0,-1);
 	scr_KSW_AddFish("Manaphy",spr_KSW_Fish_Manaphy,spr_KSW_Fish_Manaphy_Pal,legion,3,creamCrevasse,KSW_Phases.none,28000,-3);
-	scr_KSW_AddFish("Forgotten Idol",spr_KSW_Fish_ForgottenIdol,spr_KSW_Fish_ForgottenIdol_Pal,flux,3,grassBeach,KSW_Phases.night,30000,0,6);
+	scr_KSW_AddFish("Forgotten Idol",spr_KSW_Fish_ForgottenIdol,spr_KSW_Fish_ForgottenIdol_Pal,flux,3,hallowReen,KSW_Phases.night,30000,0,6);
 	scr_KSW_AddFish("Gezora",spr_KSW_Fish_Gezora,spr_KSW_Fish_Gezora_Pal,mage,1,grassBeach,KSW_Phases.day,3000,0,-18);
 	scr_KSW_AddFish("Hedorah",spr_KSW_Fish_Hedorah,spr_KSW_Fish_Hedorah_Pal,flux,2,grassBeach,KSW_Phases.night,11500,0,20);
 	scr_KSW_AddFish("Biollante Rose",spr_KSW_Fish_Biollante_Rose,spr_KSW_Fish_Biollante_Rose_Pal,mint,2,grassBeach,KSW_Phases.afternoon,10500,0,22);
@@ -588,7 +590,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Wobbly Thing",spr_KSW_Fish_WobblyThing,spr_KSW_Fish_WobblyThing_Pal,flux,1,grassBeach,KSW_Phases.night,1850,0,6);
 	scr_KSW_AddFish("Water Cooler",spr_KSW_Fish_WaterCooler,spr_KSW_Fish_WaterCooler_Pal,mage,2,grassBeach,KSW_Phases.day,7500,4,8);
 	scr_KSW_AddFish("Miss Mizzle",spr_KSW_Fish_MissMizzle,spr_KSW_Fish_MissMizzle_Pal,mage,2,grassBeach,KSW_Phases.day,10000,-22,12);
-	scr_KSW_AddFish("Titan Spawn",spr_KSW_Fish_TitanSpawn,spr_KSW_Fish_TitanSpawn_Pal,flux,3,grassBeach,KSW_Phases.night,22000,-6,2);
+	scr_KSW_AddFish("Titan Spawn",spr_KSW_Fish_TitanSpawn,spr_KSW_Fish_TitanSpawn_Pal,flux,3,hallowReen,KSW_Phases.night,22000,-6,2);
 	var gaster = scr_KSW_AddFish("???",spr_KSW_Fish_Gaster,spr_KSW_Fish_Gaster_Pal,flux,3,grassBeach,KSW_Phases.none,66667,-1,10);
 	gaster.displayedName = "[blink]??????[/blink]";
 	scr_KSW_AddFish("Akmodan",spr_KSW_Fish_Akmodan,spr_KSW_Fish_Akmodan_Pal,borange,1,hallowReen,KSW_Phases.none,2200,2,22);
