@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_KSW_Fish_FrostMan",
   "parent":{
-    "name":"Sound Effects",
-    "path":"folders/Kirby ~ Soft & Wet/Sound Effects.yy",
+    "name":"Fish",
+    "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

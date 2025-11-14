@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_KSW_Fish_DeviceFish",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8746712,
+  "exportDir":"",
+  "name":"snd_KSW_Fish_DeviceFish",
+  "parent":{
+    "name":"Fish",
+    "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_KSW_Fish_DeviceFish.wav",
+  "tags":[
+    "Sound Effect",
+  ],
+  "volume":1.0,
+}

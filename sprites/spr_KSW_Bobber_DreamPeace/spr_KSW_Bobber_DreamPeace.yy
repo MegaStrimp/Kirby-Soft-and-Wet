@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":11,
   "bbox_left":0,
-  "bbox_right":9,
+  "bbox_right":11,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"053a50f8-652f-421a-aaa4-3737b23b90ce","name":"053a50f8-652f-421a-aaa4-3737b23b90ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0064eac5-0e67-4d75-9a11-12d9539179df","name":"0064eac5-0e67-4d75-9a11-12d9539179df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":12,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"32913078-c0ad-4ec7-880e-47a0a9a7b8a7","blendMode":0,"displayName":"default","isLocked":false,"name":"32913078-c0ad-4ec7-880e-47a0a9a7b8a7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e0b2ce6a-910d-447b-a0c9-9c0e69fc218f","blendMode":0,"displayName":"default","isLocked":false,"name":"e0b2ce6a-910d-447b-a0c9-9c0e69fc218f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Bobber_DreamPeace",
   "nineSlice":null,
@@ -75,7 +75,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"053a50f8-652f-421a-aaa4-3737b23b90ce","path":"sprites/spr_KSW_Bobber_DreamPeace/spr_KSW_Bobber_DreamPeace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e2c78ec0-38c5-43e8-86e7-97476898ebb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0064eac5-0e67-4d75-9a11-12d9539179df","path":"sprites/spr_KSW_Bobber_DreamPeace/spr_KSW_Bobber_DreamPeace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd61ea94-4160-4b90-96cb-b2fd454ddf89","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -91,5 +93,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":10,
+  "width":12,
 }
