@@ -196,8 +196,8 @@ global.fontSpriteMain = font_add_sprite_ext(spr_Font_Main,"ABCDEFGHIJKLMNOPQRSTU
 
 global.fontSpriteDelfino = font_add_sprite_ext(spr_Font_SpriteDelfino,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.:,;'" + chr(47) + "()!?+-*/=&",true,2);
 
-global.fontAdvance = font_add_sprite_ext(fnt_Advance,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,-':;!?*()&" + chr(47) + chr(92) + "#~0123456789",true,0);
-global.fontAdvanceGray = font_add_sprite_ext(fnt_Advance_Gray,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,-':;!?*()&" + chr(47) + chr(92) + "#~0123456789",true,0);
+global.fontAdvance = font_add_sprite_ext(fnt_Advance,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,-':;!?*()&" + chr(47) + chr(92) + "#~+÷{}[]" + chr(34) + "“”<>%_|`0123456789",true,0);
+global.fontAdvanceGray = font_add_sprite_ext(fnt_Advance_Gray,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,-':;!?*()&" + chr(47) + chr(92) + "#~+÷{}[]" + chr(34) + "“”<>%_|`0123456789",true,0);
 global.fontAdvanceSmall = font_add_sprite_ext(fnt_Advance_Small,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,-':;!?*()" + chr(47) + chr(92) + "~0123456789",true,0);
 global.fontAdvanceSmallGray = font_add_sprite_ext(fnt_Advance_Small_Gray,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,-':;!?*()" + chr(47) + chr(92) + "~0123456789",true,0);
 
