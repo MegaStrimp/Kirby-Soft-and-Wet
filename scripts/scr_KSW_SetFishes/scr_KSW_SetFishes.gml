@@ -97,7 +97,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mega Chopper",spr_KSW_Fish_MegaChopper,spr_KSW_Fish_MegaChopper_Pal_Normal,candy,0,grassBeach,KSW_Phases.day,800,-2,0);
 	scr_KSW_AddFish("Jawz",spr_KSW_Fish_Jawz,spr_KSW_Fish_Jawz_Pal_Normal,mage,1,grassBeach,KSW_Phases.night,2500,-18,0);
 	scr_KSW_AddFish("Doshin",spr_KSW_Fish_Doshin,spr_KSW_Fish_Doshin_Pal_Normal,borange,3,grassBeach,KSW_Phases.day,90000,9,218);
-	scr_KSW_AddFish("Bloppo The Warbler",spr_KSW_Fish_Bloppo,spr_KSW_Fish_Bloppo_Pal_Normal,candy,3,grassBeach,KSW_Phases.afternoon,60000,2,60);
+	scr_KSW_AddFish("Bloppo The Warbler",spr_KSW_Fish_Bloppo,spr_KSW_Fish_Bloppo_Pal_Normal,candy,3,grassBeach,KSW_Phases.afternoon,60000,2,60,-1,snd_KSW_Fish_Bloppo);
 	scr_KSW_AddFish("Octorok",spr_KSW_Fish_Octorok,spr_KSW_Fish_Octorok_Pal_Normal,candy,0,grassBeach,KSW_Phases.afternoon,3000,1,0);
 	scr_KSW_AddFish("Big Octorok",spr_KSW_Fish_BigOctorok,spr_KSW_Fish_BigOctorok_Pal_Normal,candy,1,grassBeach,KSW_Phases.afternoon,12000,-30,0);
 	scr_KSW_AddFish("Chuchu",spr_KSW_Fish_Chuchu,spr_KSW_Fish_Chuchu_Pal_Normal,legion,0,grassBeach,KSW_Phases.day,2500);
@@ -453,7 +453,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Wizzer",spr_KSW_Fish_Wizzer,spr_KSW_Fish_Wizzer_Pal,legion,0,grassBeach,KSW_Phases.day,300,2);
 	scr_KSW_AddFish("Rango",spr_KSW_Fish_Rango,spr_KSW_Fish_Rango_Pal,mage,0,grassBeach,KSW_Phases.day,400,-2,3);
 	scr_KSW_AddFish("Fizzy",spr_KSW_Fish_Fizzy,spr_KSW_Fish_Fizzy_Pal,flux,0,grassBeach,KSW_Phases.day,300);
+	scr_KSW_AddFish("Chubby Whale",spr_KSW_Fish_ChubbyWhale,spr_KSW_Fish_ChubbyWhale_Pal,borange,0,grassBeach,KSW_Phases.night,500,0,2);
 	scr_KSW_AddFish("Prankler",spr_KSW_Fish_Prankler,spr_KSW_Fish_Prankler_Pal,legion,0,grassBeach,KSW_Phases.night,400,0,1);
+	scr_KSW_AddFish("Stirfry",spr_KSW_Fish_Stirfry,spr_KSW_Fish_Stirfry_Pal,glimmer,1,grassBeach,KSW_Phases.afternoon,750,2,2);
 	scr_KSW_AddFish("Blubby",spr_KSW_FIsh_Blubby,spr_KSW_Fish_Blubby_Pal,candy,0,grassBeach,KSW_Phases.day,300,,,,snd_KSW_Bubble1);
 	scr_KSW_AddFish("Sweet Stuff",spr_KSW_Fish_SweetStuff,spr_KSW_Fish_SweetStuff_Pal,borange,2,grassBeach,KSW_Phases.afternoon,25000,-3,8);
 	scr_KSW_AddFish("Azurill",spr_KSW_Fish_Azurill,spr_KSW_Fish_Azurill_Pal,mage,0,grassBeach,KSW_Phases.day,300);

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_KSW_Fish_FishTaco",
+  "%Name":"snd_KSW_Fish_Bloppo",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":5.11254,
+  "duration":5.193424,
   "exportDir":"",
-  "name":"snd_KSW_Fish_FishTaco",
+  "name":"snd_KSW_Fish_Bloppo",
   "parent":{
     "name":"Fish",
     "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy",
@@ -21,9 +21,9 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Fish_FishTaco.mp3",
+  "soundFile":"snd_KSW_Fish_Bloppo.mp3",
   "tags":[
     "Sound Effect",
   ],
-  "volume":1.0,
+  "volume":0.9,
 }
