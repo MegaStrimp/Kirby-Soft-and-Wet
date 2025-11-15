@@ -697,6 +697,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Lurerre",spr_KSW_Fish_Lurerre,spr_KSW_Fish_Lurerre_Pal,glimmer,1,creamCrevasse,KSW_Phases.none,4500,0,8);
 	scr_KSW_AddFish("Chronoforce",spr_KSW_Fish_Chronoforce,spr_KSW_Fish_Chronoforce_Pal,legion,2,creamCrevasse,KSW_Phases.none,10000);
 	scr_KSW_AddFish("M. Doomsday",spr_KSW_Fish_MDoomsday,spr_KSW_Fish_MDoomsday_Pal,borange,2,hallowReen,KSW_Phases.night,6666);
+	scr_KSW_AddFish("Electoon",spr_KSW_Fish_Electoon,spr_KSW_Fish_Electoon_Pal,candy,1,creamCrevasse,KSW_Phases.day,4000,0,3);
+	scr_KSW_AddFish("Antitoon",spr_KSW_Fish_Antitoon,spr_KSW_Fish_Antitoon_Pal,mage,1,creamCrevasse,KSW_Phases.night,4000,0,3);
 	#endregion
 	#endregion
 }
