@@ -12,6 +12,9 @@
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
     },
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
   },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
@@ -81,13 +84,27 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7f1cb2e-ca92-45e4-a8ba-476aeba8574a","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"98c52a84-3fe8-4661-8c88-65a8ef1378fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"30dc04cc-19c1-4760-ba5a-12d19c4b9608","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"937d7a08-233f-466e-b976-a10bd0690893","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"77e106d7-3eea-45d0-bd6e-c85478d262d2","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"33502942-0296-4a74-9cd4-84c4e39c965b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ae592fe-2a1e-4ed9-9e15-ab6383ce656a","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ffac8f57-2757-4a36-b1c1-19b4194a3f43","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"22c5d1f7-73d2-4e47-9854-ae45e0d7ecc8","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4fb422fe-b056-402e-ba1b-6eeec639dd58","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"61d8c46a-d40d-4937-8f81-9d2f6a0c1751","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4b6ad49c-21fe-48bd-97b1-edcb03b2462e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6460cace-bbfa-4f66-bf56-10485c44f44a","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"91e5a09a-844f-4de3-82e3-b5e3cc152871","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7f1cb2e-ca92-45e4-a8ba-476aeba8574a","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"98c52a84-3fe8-4661-8c88-65a8ef1378fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30dc04cc-19c1-4760-ba5a-12d19c4b9608","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"937d7a08-233f-466e-b976-a10bd0690893","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77e106d7-3eea-45d0-bd6e-c85478d262d2","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"33502942-0296-4a74-9cd4-84c4e39c965b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ae592fe-2a1e-4ed9-9e15-ab6383ce656a","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ffac8f57-2757-4a36-b1c1-19b4194a3f43","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22c5d1f7-73d2-4e47-9854-ae45e0d7ecc8","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4fb422fe-b056-402e-ba1b-6eeec639dd58","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"61d8c46a-d40d-4937-8f81-9d2f6a0c1751","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4b6ad49c-21fe-48bd-97b1-edcb03b2462e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6460cace-bbfa-4f66-bf56-10485c44f44a","path":"sprites/spr_KSW_Fish_MariaRenard/spr_KSW_Fish_MariaRenard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"91e5a09a-844f-4de3-82e3-b5e3cc152871","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

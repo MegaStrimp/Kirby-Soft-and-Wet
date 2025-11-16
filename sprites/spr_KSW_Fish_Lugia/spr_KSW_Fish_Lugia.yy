@@ -12,6 +12,9 @@
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
     },
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
   },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
@@ -88,20 +91,48 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2f9172b-0ed6-4336-bc6f-7295bd2b8278","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3f704e40-85ea-4dec-be3f-6ff38cf09eec","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c059d4f-58de-4d88-9f44-abba983c2c4b","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"169c8fc3-29ef-4b7c-ba1e-6e2a0b90ab28","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"89ce7b6f-cc88-48b3-aa8b-fa1de3e179b4","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"88e4245e-89f1-454c-bdaa-9a2cccff1b94","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d9585c9-b0f9-44bc-a7d9-2220ca75f58c","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1d300e76-ee19-4c56-bdfd-2de6cd8e82e0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5cdeb18-26d1-4310-8113-b7ae881a1dff","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ecb11b52-ad2d-4cf2-b494-38618dbc0598","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9fb8c28b-dd6d-48ab-af36-7b2dad48e8e1","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"49bf5904-55b4-4798-bb2d-9aa93f0198f1","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"99cd53f2-1c59-499a-9e26-8b5622351ab6","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"51436646-4971-4fe0-95c4-7b02fdfccb4e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f797e065-18e8-40bf-9fd2-304e3acab8f9","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"81cf3743-225a-4786-958d-d60b1bb903dd","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b829d78c-19e2-4dd3-a9f6-df7add055476","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2cf7c416-69e0-4214-9247-345e225c91e8","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"72ea01bd-baa4-4072-b135-2dba834d9abf","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8efce42b-b081-4b07-8423-399b5ddb3b2f","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cefab7bd-e3ab-4588-9b21-9e374b7dae0b","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4cbae9e6-bcdc-4e3d-8054-a8b4d8cf4b71","IsCreationKey":false,"Key":10.0,"Length":3.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9265a62e-a6e7-48df-8778-09f2e7724368","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2d42b82b-06b2-4ea4-9fa4-606617e942ef","IsCreationKey":false,"Key":13.0,"Length":2.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8cde5675-7d2f-4d67-bde2-729291e579bd","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1df5b69a-bce3-48f4-ad6a-7917222f7377","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"768739c7-a43a-4b7f-90ae-9e9e149e7533","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4f8f1a37-cbae-46ae-a630-914cfb5fe431","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2f9172b-0ed6-4336-bc6f-7295bd2b8278","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3f704e40-85ea-4dec-be3f-6ff38cf09eec","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c059d4f-58de-4d88-9f44-abba983c2c4b","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"169c8fc3-29ef-4b7c-ba1e-6e2a0b90ab28","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89ce7b6f-cc88-48b3-aa8b-fa1de3e179b4","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"88e4245e-89f1-454c-bdaa-9a2cccff1b94","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d9585c9-b0f9-44bc-a7d9-2220ca75f58c","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1d300e76-ee19-4c56-bdfd-2de6cd8e82e0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5cdeb18-26d1-4310-8113-b7ae881a1dff","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ecb11b52-ad2d-4cf2-b494-38618dbc0598","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9fb8c28b-dd6d-48ab-af36-7b2dad48e8e1","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"49bf5904-55b4-4798-bb2d-9aa93f0198f1","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99cd53f2-1c59-499a-9e26-8b5622351ab6","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"51436646-4971-4fe0-95c4-7b02fdfccb4e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f797e065-18e8-40bf-9fd2-304e3acab8f9","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"81cf3743-225a-4786-958d-d60b1bb903dd","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b829d78c-19e2-4dd3-a9f6-df7add055476","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2cf7c416-69e0-4214-9247-345e225c91e8","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72ea01bd-baa4-4072-b135-2dba834d9abf","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8efce42b-b081-4b07-8423-399b5ddb3b2f","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cefab7bd-e3ab-4588-9b21-9e374b7dae0b","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4cbae9e6-bcdc-4e3d-8054-a8b4d8cf4b71","IsCreationKey":false,"Key":10.0,"Length":3.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9265a62e-a6e7-48df-8778-09f2e7724368","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2d42b82b-06b2-4ea4-9fa4-606617e942ef","IsCreationKey":false,"Key":13.0,"Length":2.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8cde5675-7d2f-4d67-bde2-729291e579bd","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1df5b69a-bce3-48f4-ad6a-7917222f7377","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"768739c7-a43a-4b7f-90ae-9e9e149e7533","path":"sprites/spr_KSW_Fish_Lugia/spr_KSW_Fish_Lugia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4f8f1a37-cbae-46ae-a630-914cfb5fe431","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

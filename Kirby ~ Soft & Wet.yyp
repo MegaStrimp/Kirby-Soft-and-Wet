@@ -614,7 +614,6 @@
     {"$GMFolder":"","%Name":"Gorebyss","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Gorebyss.yy","name":"Gorebyss","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grant Danasty","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Grant Danasty.yy","name":"Grant Danasty","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Great Thing","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Great Thing.yy","name":"Great Thing","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Nozzlor","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Nozzlor.yy","name":"Nozzlor","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Heavy Troopa","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Heavy Troopa.yy","name":"Heavy Troopa","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hedorah","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Hedorah.yy","name":"Hedorah","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hermie III","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Hermie III.yy","name":"Hermie III","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -670,6 +669,7 @@
     {"$GMFolder":"","%Name":"Mushroom Toppin","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Mushroom Toppin.yy","name":"Mushroom Toppin","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"N Trance","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/N Trance.yy","name":"N Trance","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Nasty Grant","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Nasty Grant.yy","name":"Nasty Grant","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Nozzlor","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Nozzlor.yy","name":"Nozzlor","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Octillery","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Octillery.yy","name":"Octillery","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Old Man Lobber","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Old Man Lobber.yy","name":"Old Man Lobber","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Onion-san","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Onion-san.yy","name":"Onion-san","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -4270,6 +4270,11 @@
           "groupParent":"null",
           "loadType":"default",
         },
+        "Desktop":{
+          "groupParent":"null",
+          "compressFormat":"bz2",
+          "loadType":"default",
+        },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"StarDreamFramework","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{
         "DesktopDebug":{
@@ -4282,6 +4287,11 @@
         "DesktopDebug":{
           "compressFormat":"bz2",
           "groupParent":"null",
+          "loadType":"default",
+        },
+        "Desktop":{
+          "groupParent":"null",
+          "compressFormat":"bz2",
           "loadType":"default",
         },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"SoftAndWet","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},

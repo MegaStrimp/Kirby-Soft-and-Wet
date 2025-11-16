@@ -457,8 +457,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Chubby Whale",spr_KSW_Fish_ChubbyWhale,spr_KSW_Fish_ChubbyWhale_Pal,borange,0,grassBeach,KSW_Phases.night,500,0,2);
 	scr_KSW_AddFish("Prankler",spr_KSW_Fish_Prankler,spr_KSW_Fish_Prankler_Pal,legion,0,grassBeach,KSW_Phases.night,400,0,1);
 	scr_KSW_AddFish("Stirfry",spr_KSW_Fish_Stirfry,spr_KSW_Fish_Stirfry_Pal,glimmer,1,grassBeach,KSW_Phases.afternoon,750,2,2);
-	scr_KSW_AddFish("Nozzlor",spr_KSW_Fish_Nozzlor,spr_KSW_Fish_Nozzlor_Pal,mage,1,grassBeach,KSW_Phases.day,1200,-2,-12);
-	scr_KSW_AddFish("Blubby",spr_KSW_FIsh_Blubby,spr_KSW_Fish_Blubby_Pal,candy,0,grassBeach,KSW_Phases.day,300,,,,snd_KSW_Bubble1);
+	scr_KSW_AddFish("Nozzlor",spr_KSW_Fish_Nozzlor,spr_KSW_Fish_Nozzlor_Pal,mage,1,grassBeach,KSW_Phases.day,1200,-10);
+	scr_KSW_AddFish("Blubby",spr_KSW_FIsh_Blubby,spr_KSW_Fish_Blubby_Pal,candy,0,grassBeach,KSW_Phases.day,300,0,0,-1,snd_KSW_Bubble1);
 	scr_KSW_AddFish("Sweet Stuff",spr_KSW_Fish_SweetStuff,spr_KSW_Fish_SweetStuff_Pal,borange,2,grassBeach,KSW_Phases.afternoon,25000,-3,8);
 	scr_KSW_AddFish("Azurill",spr_KSW_Fish_Azurill,spr_KSW_Fish_Azurill_Pal,mage,0,grassBeach,KSW_Phases.day,300);
 	scr_KSW_AddFish("Marill",spr_KSW_Fish_Marill,spr_KSW_Fish_Marill_Pal,mage,1,grassBeach,KSW_Phases.day,1800);
