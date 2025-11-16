@@ -73,8 +73,4 @@ function scr_KSW_Player_Kirby_Setup()
 	sprBobberSpeed = 0;
 	sprBobberImageNumber = 0;
 	#endregion
-	
-	#region Palette Variables
-	//palSprite = spr_MKSS_Player_MetaKnight_Normal_Base_Palette_Normal; STRIMPTODO
-	#endregion
 }
