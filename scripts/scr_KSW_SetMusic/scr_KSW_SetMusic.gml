@@ -62,4 +62,6 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("lake","Lake","Pokemon Diamond - Pearl",KSW_Phases.none,mus_KSW_Stars,5.66);
 	scr_KSW_AddMusic("day1","Day 1","Red Velvet",KSW_Phases.none,mus_KSW_Day1);
 	#endregion
+    
+	scr_KSW_AddMusic("custom", "Custom Music", "Press [" + sprite_get_name(ds_map_find_value(global.UI_IconBindings, string(input_binding_get("X")))) + "] to customize!",KSW_Phases.none,-1);
 }
