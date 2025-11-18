@@ -24,7 +24,7 @@ playerNum = 0;
 
 state = KSW_GameStates.idle_Ready;
 
-currentFishPool = scr_KSW_Game_SetPool();
+currentFishPool = scr_KSW_Game_SetPool(playerNum);
 currentFish = -1;
 currentFishIsNew = false;
 currentFishIsShiny = false;

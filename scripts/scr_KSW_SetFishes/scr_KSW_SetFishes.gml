@@ -640,7 +640,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Slogra",spr_KSW_Fish_Slogra,spr_KSW_Fish_Slogra_Pal,borange,1,hallowReen,KSW_Phases.none,2800,-10,16);
 	scr_KSW_AddFish("Small Heart",spr_KSW_Fish_SmallHeart,spr_KSW_Fish_SmallHeart_Pal,candy,0,hallowReen,KSW_Phases.none,300);
 	scr_KSW_AddFish("Soleil Belmont",spr_KSW_Fish_SoleilBelmont,spr_KSW_Fish_SoleilBelmont_Pal,legion,1,hallowReen,KSW_Phases.none,2300);
-	scr_KSW_AddFish("Stopwatch",spr_KSW_Fish_Stopwatch,spr_KSW_Fish_Stopwatch_Pal,mage,0,hallowReen,KSW_Phases.none,550,0,4);
+	scr_KSW_AddFish("Stopwatch",spr_KSW_Fish_Stopwatch,spr_KSW_Fish_Stopwatch_Pal,mage,0,hallowReen,KSW_Phases.none,550);
 	scr_KSW_AddFish("Sypha Belnandes",spr_KSW_Fish_SyphaBelnandes,spr_KSW_Fish_SyphaBelnandes_Pal,mage,1,hallowReen,KSW_Phases.none,2150,0,8);
 	scr_KSW_AddFish("Torchvania",spr_KSW_Fish_Torchvania,spr_KSW_Fish_Torchvania_Pal,mage,0,hallowReen,KSW_Phases.none,450,0,4);
 	scr_KSW_AddFish("Treasure Chestvania",spr_KSW_Fish_TreasureChestvania,spr_KSW_Fish_TreasureChestvania_Pal,borange,0,hallowReen,KSW_Phases.none,1000);

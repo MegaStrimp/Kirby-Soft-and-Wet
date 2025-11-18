@@ -21,8 +21,6 @@ if (!localPause)
 	{
 		with (obj_KSW_GameController)
 		{
-			global.KSW_CurrentCoins += 1;
-			
 			flag_CoinGet = true;
 		}
 		instance_destroy();

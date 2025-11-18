@@ -305,13 +305,13 @@ if (!localPause)
 			#region Give Grams
 			var gramOffset = global.KSW_FishList[other.currentFish].gramOffset;
 			var baitMult = 1;
-			if (global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "moreGrams"]) baitMult = 1.5;
+			if (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreGrams"]) baitMult = 1.5;
 			global.levelScoreCurrent += floor((global.KSW_FishList[other.currentFish].gram + irandom_range(-gramOffset,gramOffset)) * (1 + (global.KSW_CurrentFishCombo / 20)) * (baitMult));
 			flag_ScoreSfx = true;
 			#endregion
 			
 			#region Give Coins
-			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
+			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
 			global.KSW_CurrentCoins += targetCoins;
 			#endregion
 			
@@ -531,6 +531,15 @@ if (!localPause)
 				
 				global.pause = true;
 				
+				with (obj_KSW_UI_Coin) instance_destroy();
+				with (obj_KSW_UI_CaughtBox)
+				{
+					storedCoins = 0;
+					coinTimer = -1;
+				}
+				
+				displayedCoins = global.KSW_CurrentCoins;
+				
 				instance_create_depth(0,0,depth - 1,obj_KSW_UI_Customize);
 			}
 		}
@@ -556,11 +565,11 @@ if (!localPause)
 				if (global.KSW_DebugRig != -1) currentFish = global.KSW_DebugRig;
 				
 				var shinyRng = 1;
-				var hasShinyBait = (global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "moreShinies"]);
+				var hasShinyBait = (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreShinies"]);
 				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
 				currentFishIsShiny = (shinyRng == 0);
 				
-				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(global.KSW_FishList[currentFish].rarity);
+				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(playerNum,global.KSW_FishList[currentFish].rarity);
 				catchInput_CurrentLineMax = array_length(catchInput_CurrentList);
 				catchInput_SoundCount = -1;
 				catchInput_NextLineTimer = 0;
@@ -687,7 +696,7 @@ if (!localPause)
 					catchInput_CurrentLine = -1;
 					catchInput_CurrentLineMax = -1;
 					catchInput_SfxIndex = 0;
-					findFishTimer = irandom_range(60,400 - ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
+					findFishTimer = irandom_range(60,400 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
 					
 					stateReadyTimer = -1;
 					break;
@@ -797,8 +806,6 @@ if (!localPause)
 			
 			flag_CoinGet = false;
 		}
-		
-		displayedCoins = lerp(displayedCoins,global.KSW_CurrentCoins,.2);
 	}
 	#endregion
 	

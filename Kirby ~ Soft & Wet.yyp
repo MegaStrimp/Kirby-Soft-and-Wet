@@ -3841,6 +3841,7 @@
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_AdvanceIce","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_AdvanceIce/spr_KSW_Player_Kirby_SprayPaint_AdvanceIce.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_AdvanceMeta","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_AdvanceMeta/spr_KSW_Player_Kirby_SprayPaint_AdvanceMeta.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_AdvanceStone","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_AdvanceStone/spr_KSW_Player_Kirby_SprayPaint_AdvanceStone.yy",},},
+    {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Aege","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Aege/spr_KSW_Player_Kirby_SprayPaint_Aege.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_AirRideLBlue","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_AirRideLBlue/spr_KSW_Player_Kirby_SprayPaint_AirRideLBlue.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Baggie","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Baggie/spr_KSW_Player_Kirby_SprayPaint_Baggie.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Butterfly","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Butterfly/spr_KSW_Player_Kirby_SprayPaint_Butterfly.yy",},},
@@ -3873,6 +3874,7 @@
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Pink","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Pink/spr_KSW_Player_Kirby_SprayPaint_Pink.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Red","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Red/spr_KSW_Player_Kirby_SprayPaint_Red.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Sapphire","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Sapphire/spr_KSW_Player_Kirby_SprayPaint_Sapphire.yy",},},
+    {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_SeaBreeze","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_SeaBreeze/spr_KSW_Player_Kirby_SprayPaint_SeaBreeze.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Seashell","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Seashell/spr_KSW_Player_Kirby_SprayPaint_Seashell.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_Shadow","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_Shadow/spr_KSW_Player_Kirby_SprayPaint_Shadow.yy",},},
     {"id":{"name":"spr_KSW_Player_Kirby_SprayPaint_SmashGreen","path":"sprites/spr_KSW_Player_Kirby_SprayPaint_SmashGreen/spr_KSW_Player_Kirby_SprayPaint_SmashGreen.yy",},},
@@ -4280,6 +4282,11 @@
         "DesktopDebug":{
           "compressFormat":"bz2",
           "groupParent":"null",
+          "loadType":"default",
+        },
+        "Desktop":{
+          "groupParent":"null",
+          "compressFormat":"bz2",
           "loadType":"default",
         },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"StarDreamFramework","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},

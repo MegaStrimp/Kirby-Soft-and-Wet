@@ -7,7 +7,7 @@ function scr_KSW_UI_Customize_Pages_Baits_Back()
 	//selection = KSW_UI_Customize_Bubbles.baits;
 	selection = currentBubbleIndex;
 	
-	scr_KSW_Game_SetPool();
+	currentFishPool = scr_KSW_Game_SetPool(playerNum);
 	
 	scr_KSW_UI_Customize_ChangePage("main");
 }

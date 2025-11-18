@@ -1,12 +1,12 @@
 ///@description KSW - Game - Set Pool
 
-function scr_KSW_Game_SetPool()
+function scr_KSW_Game_SetPool(playerNum)
 {
 	var rate = [];
-	rate[0] = 24 - ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "0rarity"]) * 5);
-	rate[1] = 15 - ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "1rarity"]) * 4);
-	rate[2] = 9 - ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "2rarity"]) * 3);
-	rate[3] = 3 - ((global.KSW_EquippedBaitID == global.KSW_BaitIDs[? "3rarity"]) * 2);
+	rate[0] = 24 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "0rarity"]) * 5);
+	rate[1] = 15 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "1rarity"]) * 4);
+	rate[2] = 9 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "2rarity"]) * 3);
+	rate[3] = 3 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "3rarity"]) * 2);
 	
 	var list = [];
 	var index = 0;
@@ -16,7 +16,7 @@ function scr_KSW_Game_SetPool()
 		if ((global.KSW_FishList[i].stage == -1) or (global.KSW_CurrentStageID == global.KSW_FishList[i].stage))
 		{
 			var passPhaseCheck = false;
-			switch (global.KSW_BaitIDs[? global.KSW_EquippedBaitID])
+			switch (global.KSW_BaitIDs[? global.KSW_EquippedBaitID[playerNum]])
 			{
 				case "extraDay":
 				passPhaseCheck = ((global.KSW_CurrentPhase != KSW_Phases.day) and (global.KSW_FishList[i].phase == KSW_Phases.day))

@@ -15,7 +15,7 @@ global.fullscreen = true;
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.1.0";
+global.versionNumber = "1.1.1";
 
 global.pauseScript = scr_KSW_PauseScript;
 
