@@ -75,6 +75,9 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "ChuChu",playerID,"ChuChu",spr_KSW_Player_Kirby_SprayPaint_ChuChu,mage,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "SeaBreeze",playerID,"Sea Breeze",spr_KSW_Player_Kirby_SprayPaint_SeaBreeze,mint,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Aege",playerID,"Aege",spr_KSW_Player_Kirby_SprayPaint_Aege,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "CustardPudding",playerID,"Custard Pudding",spr_KSW_Player_Kirby_SprayPaint_CustardPudding,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "HedgehogBlue",playerID,"Hedgehog Blue",spr_KSW_Player_Kirby_SprayPaint_HedgehogBlue,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "PlumberRed",playerID,"Plumber Red",spr_KSW_Player_Kirby_SprayPaint_PlumberRed,candy,75);
 	#endregion
 	#endregion
 }
