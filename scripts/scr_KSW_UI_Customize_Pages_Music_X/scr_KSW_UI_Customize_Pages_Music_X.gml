@@ -19,6 +19,7 @@ function scr_KSW_UI_Customize_Pages_Music_X()
             }
             
             global.KSW_MusicList[ds_list_find_value(selectionList, selection)].audio = audio_create_stream(file);
+            asset_add_tags(global.KSW_MusicList[ds_list_find_value(selectionList, selection)].audio, "Music", asset_sound);
             scr_KSW_UI_Customize_Pages_Music_Select();
         }
     }
