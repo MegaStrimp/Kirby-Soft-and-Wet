@@ -27,7 +27,9 @@ function scr_KSW_UI_Customize_Pages_Characters_Select()
 			scr_PlaySfx(snd_KSW_Coin);
 			scr_PlaySfx(snd_KSW_Buy);
 			
-			global.KSW_CurrentCoins -= global.KSW_CharacterList[ds_list_find_value(selectionList,selection)].price;
+			var finalPrice = global.KSW_CharacterList[ds_list_find_value(selectionList,selection)].price;
+			global.KSW_CurrentCoins -= finalPrice;
+			with (obj_KSW_GameController) displayedCoins -= finalPrice;
 			
 			displayedCoins_YOffsetTimer = displayedCoins_YOffsetTimerMax;
 			
