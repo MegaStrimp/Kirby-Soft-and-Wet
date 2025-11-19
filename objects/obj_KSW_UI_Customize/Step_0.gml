@@ -37,6 +37,11 @@ if (exitTimer == -1)
 		if (currentRAction != -1) script_execute(currentRAction);
 	}
 	
+	if (input_check_pressed("X",playerNum))
+	{
+		if (currentXAction != -1) script_execute(currentXAction);
+	}
+	
 	if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 	{
 		if (currentSelectAction != -1) script_execute(currentSelectAction);
@@ -47,31 +52,6 @@ if (exitTimer == -1)
 		if (currentBackAction != -1) script_execute(currentBackAction);
 	}
 	#endregion
-    
-    
-    if (input_check_pressed("X", playerNum))
-    {
-        if (currentMainScript == scr_KSW_UI_Customize_Pages_Music_Main && global.KSW_MusicList[ds_list_find_value(selectionList, selection)].ID == "custom")
-        {
-            var file = get_open_filename("Sound Files (*.ogg)|*.ogg", "");
-            
-            if (file == "")
-            {
-                scr_PlaySfx(snd_KSW_ButtonNo);
-            }
-            else
-            {
-                if (global.KSW_MusicList[ds_list_find_value(selectionList, selection)].audio != -1)
-                {
-                    audio_destroy_stream(global.KSW_MusicList[ds_list_find_value(selectionList, selection)].audio);
-                    global.KSW_MusicList[ds_list_find_value(selectionList, selection)].audio = -1;
-                }
-                
-                global.KSW_MusicList[ds_list_find_value(selectionList, selection)].audio = audio_create_stream(file);
-                script_execute(currentSelectAction);
-            }
-        }
-    }
 }
 
 #region Main
