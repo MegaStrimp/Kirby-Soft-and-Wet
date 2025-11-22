@@ -33,10 +33,19 @@ draw_sprite(phaseIconRight,0,9,4);
 
 var hourText = current_hour;
 var hourPrefix = "AM";
-if (hourText > 12)
+
+if (hourText == 0)
 {
-	hourText -= 12;
-	hourPrefix = "PM";
+    hourText = 12;
+}
+else if (hourText == 12)
+{
+    hourPrefix = "PM";
+}
+else if (hourText > 12)
+{
+    hourText -= 12;
+    hourPrefix = "PM";
 }
 
 scribble(string(hourText) + " " + hourPrefix).draw(4,24);

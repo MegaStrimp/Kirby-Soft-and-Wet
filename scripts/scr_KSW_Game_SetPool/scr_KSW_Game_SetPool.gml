@@ -16,7 +16,7 @@ function scr_KSW_Game_SetPool(playerNum)
 		if ((global.KSW_FishList[i].stage == -1) or (global.KSW_CurrentStageID == global.KSW_FishList[i].stage))
 		{
 			var passPhaseCheck = false;
-			switch (global.KSW_BaitIDs[? global.KSW_EquippedBaitID[playerNum]])
+			switch (global.KSW_BaitList[global.KSW_EquippedBaitID[playerNum]].ID)
 			{
 				case "extraDay":
 				passPhaseCheck = ((global.KSW_CurrentPhase != KSW_Phases.day) and (global.KSW_FishList[i].phase == KSW_Phases.day))

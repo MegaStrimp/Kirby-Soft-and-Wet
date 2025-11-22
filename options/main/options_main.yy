@@ -1,6 +1,11 @@
 {
   "$GMMainOptions":"v5",
   "%Name":"Main",
+  "ConfigValues":{
+    "Desktop":{
+      "option_game_speed":"60",
+    },
+  },
   "name":"Main",
   "option_allow_instance_change":true,
   "option_audio_error_behaviour":true,

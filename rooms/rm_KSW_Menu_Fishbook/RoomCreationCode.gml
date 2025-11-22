@@ -23,7 +23,7 @@ scr_Camera_SetBackground(scr_KSW_Menu_Fishbook_SetBackground);
 #endregion
 
 #region Discord
-scr_Discord_Setup("Fishbook","Collection " + string(global.KSW_CaughtUniqueFishCount) + "/" + string(global.KSW_FishCount),"icon",global.gameTitle,"strimp","From Strimp's Kitchen");
+scr_Discord_Setup("Fishbook","Collection " + string(global.KSW_CaughtUniqueFishCount) + "/" + string(global.KSW_FishCount),"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
 #endregion
 
 #region Entered

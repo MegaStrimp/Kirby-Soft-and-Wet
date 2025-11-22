@@ -8,14 +8,12 @@ global.gameWidthTarget = 240;
 global.gameHeightTarget = 160;
 global.gameTileSize = 24;
 
-global.windowScaleTarget = 1;
-
 global.fullscreen = true;
 #endregion
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.1.9";
+global.versionNumber = "1.1.2";
 
 global.pauseScript = scr_KSW_PauseScript;
 
@@ -99,10 +97,6 @@ enum KSW_Phases
 #endregion
 #endregion
 
-#region Adapt Display Size To Monitor
-global.windowScaleTarget = floor(scr_Screen_ScaleToScreenSize() / 1.2);
-#endregion
-
 #region Audio Setup
 scr_KSW_AudioSetup();
 #endregion
@@ -119,6 +113,8 @@ scr_KSW_SaveGeneral("general.ini");
 
 scr_KSW_LoadConfig("config.ini");
 scr_KSW_SaveConfig("config.ini");
+
+window_set_fullscreen(global.fullscreen);
 
 scr_KSW_DefaultKeybindings();
 scr_KSW_LoadControls("controls.ini");
@@ -138,5 +134,5 @@ if (!np_initdiscord(appId, true, np_steam_app_id_empty))
 	Error_msg = "Discord RPC unable to initialize";
 }
 
-scr_Discord_Setup(-1,-1,"icon",global.gameTitle,"strimp","From Strimp's Kitchen");
+scr_Discord_Setup(-1,-1,"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
 #endregion

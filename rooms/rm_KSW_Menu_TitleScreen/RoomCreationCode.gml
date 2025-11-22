@@ -20,5 +20,5 @@ instance_create_depth(0,0,100,obj_KSW_Background_Underwater);
 #endregion
 
 #region Discord
-scr_Discord_Setup("Title Screen",-1,"icon",global.gameTitle,"strimp","From Strimp's Kitchen");
+scr_Discord_Setup("Title Screen",-1,"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
 #endregion
