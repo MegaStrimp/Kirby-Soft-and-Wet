@@ -19,6 +19,7 @@ phase = KSW_Phases.none;
 phaseIconLeft = -1;
 phaseIconRight = -1;
 isShiny = false;
+shineEffectAngle = 0;
 backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
 
 drawSurface = -1;

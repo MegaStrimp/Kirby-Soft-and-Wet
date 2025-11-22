@@ -13,6 +13,10 @@ if (spriteIndex != -1)
 }
 #endregion
 
+#region Shine
+shineEffectAngle = (shineEffectAngle + 1) % 360;
+#endregion
+
 #region Alpha
 alpha = lerp(alpha,alphaTarget,.3);
 if ((alphaTarget == 0) and (alpha == 0)) instance_destroy();

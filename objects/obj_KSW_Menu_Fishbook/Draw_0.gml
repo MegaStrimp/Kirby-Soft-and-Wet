@@ -163,7 +163,7 @@ else
 	if (fishIsShiny[selection])
 	{
 		gpu_set_blendmode(bm_add);
-		draw_sprite(spr_KSW_UI_CatchPopup_ShineEffect,0,room_width / 2,room_height / 2);
+		draw_sprite_ext(spr_KSW_UI_CatchPopup_ShineEffect,0,room_width / 2,room_height / 2,1,1,shineEffectAngle,c_white,1);
 		gpu_set_blendmode(bm_normal);
 	}
 	#endregion

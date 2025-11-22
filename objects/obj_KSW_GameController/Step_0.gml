@@ -8,7 +8,7 @@ if (!localPause)
 		{
 			case KSW_GameStates.idle:
 			#region Throw
-			if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+			if ((autocatcher) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 			{
 				state = KSW_GameStates.waiting_Ready;
 				canGoToMenu = false;
@@ -20,6 +20,19 @@ if (!localPause)
 					threwBobber = false;
 					
 					scr_ChangeSprite(sprThrow);
+				}
+				
+				with (obj_KSW_UI_Coin)
+				{
+					other.displayedCoins += 1;
+					instance_destroy();
+				}
+				
+				with (obj_KSW_UI_CaughtBox)
+				{
+					other.displayedCoins += storedCoins;
+					storedCoins = 0;
+					coinTimer = -1;
 				}
 				
 				stateReadyTimer = stateReadyTimerMax;
@@ -643,6 +656,15 @@ if (!localPause)
 					}
 				}
 				else
+				{
+					state = KSW_GameStates.catchAnimation;
+					catchAnimationState = 0;
+					catchAnimationTimer = 0;
+					
+					catchInput_NextLineTimer = -1;
+				}
+				
+				if (autocatcher)
 				{
 					state = KSW_GameStates.catchAnimation;
 					catchAnimationState = 0;

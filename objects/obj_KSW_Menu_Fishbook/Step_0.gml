@@ -12,6 +12,8 @@ if (global.debug) scr_KSW_Menu_Fishbook_CalibMode_Step();
 
 #region Shine
 shineIndex = (shineIndex + shineSpd) % shineNumber;
+
+shineEffectAngle = (shineEffectAngle + 1) % 360;
 #endregion
 
 #region Selection
