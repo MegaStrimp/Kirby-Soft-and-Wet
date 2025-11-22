@@ -2,9 +2,12 @@
 
 #region Initialize Variables
 #region Menu Variables
+playerNum = 0;
+
 isDownloading = false;
 requestId = -1;
 latestVersion = "";
+textWithButtons = 0;
 text = "";
 #endregion
 #endregion

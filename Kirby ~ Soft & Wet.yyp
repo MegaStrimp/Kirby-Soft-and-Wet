@@ -24,6 +24,7 @@
     {"$GMFolder":"","%Name":"Room Setup","folderPath":"folders/Alivel Installer/Room Setup.yy","name":"Room Setup","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Alivel Installer/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Alivel Installer/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Execute Shell Simple","folderPath":"folders/StarDream Framework/Extensions/Execute Shell Simple.yy","name":"Execute Shell Simple","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Kirby ~ Soft & Wet","folderPath":"folders/Kirby ~ Soft & Wet.yy","name":"Kirby ~ Soft & Wet","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Achievements","folderPath":"folders/Kirby ~ Soft & Wet/Achievements.yy","name":"Achievements","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Kirby ~ Soft & Wet/Achievements/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -1115,6 +1116,7 @@
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"chatterbox_license.txt","CopyToMask":-1,"filePath":"datafiles/Chatterbox","name":"chatterbox_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"ColorkeyMaskDLL.dll","CopyToMask":-1,"filePath":"datafiles/Color Key Mask","name":"ColorkeyMaskDLL.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"execute_shell_simple_ext.html","CopyToMask":-1,"filePath":"datafiles","name":"execute_shell_simple_ext.html","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles/Input","name":"controllerblacklist.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllertypes.csv","CopyToMask":-1,"filePath":"datafiles/Input","name":"controllertypes.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"input_license.txt","CopyToMask":-1,"filePath":"datafiles/Input","name":"input_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -1125,11 +1127,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Kirby ~ Soft & Wet",
   "resources":[
     {"id":{"name":"ColorKeyMask","path":"extensions/ColorKeyMask/ColorKeyMask.yy",},},
+    {"id":{"name":"execute_shell_simple_ext","path":"extensions/execute_shell_simple_ext/execute_shell_simple_ext.yy",},},
     {"id":{"name":"NekoPresence","path":"extensions/NekoPresence/NekoPresence.yy",},},
     {"id":{"name":"fnt_Arial","path":"fonts/fnt_Arial/fnt_Arial.yy",},},
     {"id":{"name":"scribble_fallback_font","path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},},

@@ -240,6 +240,7 @@ global.zincLock_SprCorrectCard = -1;
 #region Alivel Installer Setup
 global.alivelInstaller_TargetUrl = "";
 global.alivelInstaller_TargetVersionNumberUrl = "";
+global.alivelInstaller_TargetFilename = "";
 global.alivelInstaller_TargetRoom = rm_Startup;
 #endregion
 
