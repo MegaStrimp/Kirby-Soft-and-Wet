@@ -88,8 +88,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Snowball",playerID,"Snowball Blue",spr_KSW_Player_Kirby_SprayPaint_Snowball,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "CoralBreeze",playerID,"CoralBreeze",spr_KSW_Player_Kirby_SprayPaint_CoralBreeze,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Crunchy",playerID,"Crunchy",spr_KSW_Player_Kirby_SprayPaint_Crunchy,glimmer,75);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Missing",playerID,"Missing",spr_KSW_Player_Kirby_SprayPaint_Missing,flux,75);
-	//missingno.displayedName = "[blink]___[/blink]";
+	scr_KSW_AddSprayPaint(playerID + "_" + "Missing",playerID,"[blink]MISSINGNO[/blink]",spr_KSW_Player_Kirby_SprayPaint_Missing,flux,75);
 	#endregion
 	#endregion
 }
