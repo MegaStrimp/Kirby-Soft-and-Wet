@@ -78,6 +78,18 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "CustardPudding",playerID,"Custard Pudding",spr_KSW_Player_Kirby_SprayPaint_CustardPudding,glimmer,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "HedgehogBlue",playerID,"Hedgehog Blue",spr_KSW_Player_Kirby_SprayPaint_HedgehogBlue,mage,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "PlumberRed",playerID,"Plumber Red",spr_KSW_Player_Kirby_SprayPaint_PlumberRed,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Virtual",playerID,"Virtual Red",spr_KSW_Player_Kirby_SprayPaint_Virtual,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Plasma",playerID,"Plasmic Orange",spr_KSW_Player_Kirby_SprayPaint_Plasma,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "PearlescentCream",playerID,"Pearlescent Cream",spr_KSW_Player_Kirby_SprayPaint_PearlescentCream,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pearlescent",playerID,"Pearlescent",spr_KSW_Player_Kirby_SprayPaint_Pearlescent,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SoulWhite",playerID,"Soul White",spr_KSW_Player_Kirby_SprayPaint_SoulWhite,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SilkWhite",playerID,"Silk White",spr_KSW_Player_Kirby_SprayPaint_SilkWhite,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "KnifeBlack",playerID,"Knife Black",spr_KSW_Player_Kirby_SprayPaint_KnifeBlack,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Snowball",playerID,"Snowball Blue",spr_KSW_Player_Kirby_SprayPaint_Snowball,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "CoralBreeze",playerID,"CoralBreeze",spr_KSW_Player_Kirby_SprayPaint_CoralBreeze,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Crunchy",playerID,"Crunchy",spr_KSW_Player_Kirby_SprayPaint_Crunchy,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Missing",playerID,"Missing",spr_KSW_Player_Kirby_SprayPaint_Missing,flux,75);
+	//missingno.displayedName = "[blink]___[/blink]";
 	#endregion
 	#endregion
 }
