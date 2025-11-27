@@ -247,7 +247,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Chainsaw Fish",spr_KSW_Fish_ChainsawFish,spr_KSW_Fish_ChainsawFish_Pal_Normal,mage,1,grassBeach,KSW_Phases.night,6000,-16,0);
 	scr_KSW_AddFish("7 Colored Fish",spr_KSW_Fish_7ColoredFish,spr_KSW_Fish_7ColoredFish_Pal_Normal,mint,2,grassBeach,KSW_Phases.night,9000,-10,-12);
 	scr_KSW_AddFish("Magikarp",spr_KSW_Fish_Magikarp,spr_KSW_Fish_Magikarp_Pal_Normal,candy,0,grassBeach,KSW_Phases.day,500,-4,0);
-	scr_KSW_AddFish("Gyrados",spr_KSW_Fish_Gyrados,spr_KSW_Fish_Gyrados_Pal_Normal,legion,2,grassBeach,KSW_Phases.day,20000,-22,4);
+	var gyarados = scr_KSW_AddFish("Gyrados",spr_KSW_Fish_Gyrados,spr_KSW_Fish_Gyrados_Pal_Normal,legion,2,grassBeach,KSW_Phases.day,20000,-22,4);
+	gyarados.displayedName = "Gyarados";
 	scr_KSW_AddFish("Goldeen",spr_KSW_Fish_Goldeen,spr_KSW_Fish_Goldeen_Pal_Normal,borange,0,grassBeach,KSW_Phases.day,400,-1,0);
 	scr_KSW_AddFish("Seaking",spr_KSW_Fish_Seaking,spr_KSW_Fish_Seaking_Pal_Normal,borange,1,grassBeach,KSW_Phases.day,4000,-2,0);
 	scr_KSW_AddFish("Horsea",spr_KSW_Fish_Horsea,spr_KSW_Fish_Horsea_Pal_Normal,mage,0,grassBeach,KSW_Phases.afternoon,350,1,0);
@@ -480,7 +481,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Lugia",spr_KSW_Fish_Lugia,spr_KSW_Fish_Lugia_Pal,mage,3,creamCrevasse,KSW_Phases.none,35000,0,4);
 	scr_KSW_AddFish("Barboach",spr_KSW_Fish_Barboach,spr_KSW_Fish_Barboach_Pal,legion,0,grassBeach,KSW_Phases.afternoon,400,-1,-2);
 	scr_KSW_AddFish("Whiscash",spr_KSW_Fish_Whiscash,spr_KSW_Fish_Whiscash_Pal,legion,2,grassBeach,KSW_Phases.afternoon,9250,0,-2);
-	scr_KSW_AddFish("Carvana",spr_KSW_Fish_Carvana,spr_KSW_Fish_Carvana_Pal,candy,0,grassBeach,KSW_Phases.night,650,0,-1);
+	var carvanha = scr_KSW_AddFish("Carvana",spr_KSW_Fish_Carvana,spr_KSW_Fish_Carvana_Pal,candy,0,grassBeach,KSW_Phases.night,650,0,-1);
+	carvanha.displayedName = "Carvanha";
 	scr_KSW_AddFish("Sharpedo",spr_KSW_Fish_Sharpedo,spr_KSW_Fish_Sharpedo_Pal,flux,2,grassBeach,KSW_Phases.night,8750,-1,0);
 	scr_KSW_AddFish("Clamperl",spr_KSW_Fish_Clamperl,spr_KSW_Fish_Clamperl_Pal,legion,1,grassBeach,KSW_Phases.day,1600);
 	scr_KSW_AddFish("Huntail",spr_KSW_Fish_Huntail,spr_KSW_Fish_Huntail_Pal,mage,2,grassBeach,KSW_Phases.night,8500,-8);
@@ -641,7 +643,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Small Heart",spr_KSW_Fish_SmallHeart,spr_KSW_Fish_SmallHeart_Pal,candy,0,hallowReen,KSW_Phases.none,300);
 	scr_KSW_AddFish("Soleil Belmont",spr_KSW_Fish_SoleilBelmont,spr_KSW_Fish_SoleilBelmont_Pal,legion,1,hallowReen,KSW_Phases.none,2300);
 	scr_KSW_AddFish("Stopwatch",spr_KSW_Fish_Stopwatch,spr_KSW_Fish_Stopwatch_Pal,mage,0,hallowReen,KSW_Phases.none,550);
-	scr_KSW_AddFish("Sypha Belnandes",spr_KSW_Fish_SyphaBelnandes,spr_KSW_Fish_SyphaBelnandes_Pal,mage,1,hallowReen,KSW_Phases.none,2150,0,8);
+	var sypha = scr_KSW_AddFish("Sypha Belnandes",spr_KSW_Fish_SyphaBelnandes,spr_KSW_Fish_SyphaBelnandes_Pal,mage,1,hallowReen,KSW_Phases.none,2150,0,8);
+	sypha.displayedName = "Sypha Belnades";
 	scr_KSW_AddFish("Torchvania",spr_KSW_Fish_Torchvania,spr_KSW_Fish_Torchvania_Pal,mage,0,hallowReen,KSW_Phases.none,450,0,4);
 	scr_KSW_AddFish("Treasure Chestvania",spr_KSW_Fish_TreasureChestvania,spr_KSW_Fish_TreasureChestvania_Pal,borange,0,hallowReen,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Trevor Belmont",spr_KSW_Fish_TrevorBelmont,spr_KSW_Fish_TrevorBelmont_Pal,borange,1,hallowReen,KSW_Phases.none,2800,0,6);
