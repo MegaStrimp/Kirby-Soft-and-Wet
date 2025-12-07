@@ -40,7 +40,7 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	var spriteXOffset = global.KSW_FishList[ds_list_find_value(selectionList,i)].xOffset;
 	var spriteYOffset = global.KSW_FishList[ds_list_find_value(selectionList,i)].yOffset;
 	var rarity = global.KSW_FishList[ds_list_find_value(selectionList,i)].rarity;
-	var isCaughtShiny = global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaughtShiny;
+	var isCaughtShiny = global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaughtShiny > 0;
 	var backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
 	if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught != 0) backgroundPalette = global.KSW_FishList[ds_list_find_value(selectionList,i)].caughtBoxPalette;
 	#endregion
