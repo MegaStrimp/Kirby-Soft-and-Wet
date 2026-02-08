@@ -890,6 +890,7 @@
     {"$GMFolder":"","%Name":"Sound Effects","folderPath":"folders/Kirby ~ Soft & Wet/Sound Effects.yy","name":"Sound Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fish","folderPath":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy","name":"Fish","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Stage Elements","folderPath":"folders/Kirby ~ Soft & Wet/Stage Elements.yy","name":"Stage Elements","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Foxy","folderPath":"folders/Kirby ~ Soft & Wet/Stage Elements/Foxy.yy","name":"Foxy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ring","folderPath":"folders/Kirby ~ Soft & Wet/Stage Elements/Ring.yy","name":"Ring","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Kirby ~ Soft & Wet/Stage Elements/Ring/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Kirby ~ Soft & Wet/Stage Elements/Ring/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -1127,7 +1128,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Kirby ~ Soft & Wet",
   "resources":[
@@ -3657,6 +3658,7 @@
     {"id":{"name":"spr_KSW_Fish_Zombievania","path":"sprites/spr_KSW_Fish_Zombievania/spr_KSW_Fish_Zombievania.yy",},},
     {"id":{"name":"spr_KSW_Fish_Zora_Pal_Normal","path":"sprites/spr_KSW_Fish_Zora_Pal_Normal/spr_KSW_Fish_Zora_Pal_Normal.yy",},},
     {"id":{"name":"spr_KSW_Fish_Zora","path":"sprites/spr_KSW_Fish_Zora/spr_KSW_Fish_Zora.yy",},},
+    {"id":{"name":"spr_KSW_Foxy","path":"sprites/spr_KSW_Foxy/spr_KSW_Foxy.yy",},},
     {"id":{"name":"spr_KSW_Layout_CreamCrevasse_Afternoon","path":"sprites/spr_KSW_Layout_CreamCrevasse_Afternoon/spr_KSW_Layout_CreamCrevasse_Afternoon.yy",},},
     {"id":{"name":"spr_KSW_Layout_CreamCrevasse_Day","path":"sprites/spr_KSW_Layout_CreamCrevasse_Day/spr_KSW_Layout_CreamCrevasse_Day.yy",},},
     {"id":{"name":"spr_KSW_Layout_CreamCrevasse_Night","path":"sprites/spr_KSW_Layout_CreamCrevasse_Night/spr_KSW_Layout_CreamCrevasse_Night.yy",},},

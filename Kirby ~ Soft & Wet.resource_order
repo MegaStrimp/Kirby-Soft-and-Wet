@@ -828,6 +828,7 @@
     {"name":"Sound Effects","order":11,"path":"folders/Kirby ~ Soft & Wet/Sound Effects.yy",},
     {"name":"Fish","order":37,"path":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy",},
     {"name":"Stage Elements","order":4,"path":"folders/Kirby ~ Soft & Wet/Stage Elements.yy",},
+    {"name":"Foxy","order":3,"path":"folders/Kirby ~ Soft & Wet/Stage Elements/Foxy.yy",},
     {"name":"Ring","order":2,"path":"folders/Kirby ~ Soft & Wet/Stage Elements/Ring.yy",},
     {"name":"Objects","order":2,"path":"folders/Kirby ~ Soft & Wet/Stage Elements/Ring/Objects.yy",},
     {"name":"Sprites","order":1,"path":"folders/Kirby ~ Soft & Wet/Stage Elements/Ring/Sprites.yy",},
