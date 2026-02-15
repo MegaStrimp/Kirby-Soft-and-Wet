@@ -9,6 +9,7 @@ function scr_KSW_UI_Customize_SetBubbles()
 	scr_KSW_UI_Customize_CreateBubble(KSW_UI_Customize_Bubbles.hats,spr_KSW_UI_Customize_Bubble_Hats_Small,spr_KSW_UI_Customize_Bubble_Hats_Medium,spr_KSW_UI_Customize_Bubble_Hats_Big,spr_KSW_UI_Customize_Text_Hats);
 	scr_KSW_UI_Customize_CreateBubble(KSW_UI_Customize_Bubbles.bobbers,spr_KSW_UI_Customize_Bubble_Bobbers_Small,spr_KSW_UI_Customize_Bubble_Bobbers_Medium,spr_KSW_UI_Customize_Bubble_Bobbers_Big,spr_KSW_UI_Customize_Text_Bobbers);
 	scr_KSW_UI_Customize_CreateBubble(KSW_UI_Customize_Bubbles.baits,spr_KSW_UI_Customize_Bubble_Baits_Small,spr_KSW_UI_Customize_Bubble_Baits_Medium,spr_KSW_UI_Customize_Bubble_Baits_Big,spr_KSW_UI_Customize_Text_Baits);
+	//scr_KSW_UI_Customize_CreateBubble(KSW_UI_Customize_Bubbles.rubies,spr_KSW_UI_Customize_Bubble_Baits_Small,spr_KSW_UI_Customize_Bubble_Baits_Medium,spr_KSW_UI_Customize_Bubble_Baits_Big,spr_KSW_UI_Customize_Text_Baits);
 	scr_KSW_UI_Customize_CreateBubble(KSW_UI_Customize_Bubbles.music,spr_KSW_UI_Customize_Bubble_Music_Small,spr_KSW_UI_Customize_Bubble_Music_Medium,spr_KSW_UI_Customize_Bubble_Music_Big,spr_KSW_UI_Customize_Text_Music);
 	scr_KSW_UI_Customize_CreateBubble(KSW_UI_Customize_Bubbles.stages,spr_KSW_UI_Customize_Bubble_Stages_Small,spr_KSW_UI_Customize_Bubble_Stages_Medium,spr_KSW_UI_Customize_Bubble_Stages_Big,spr_KSW_UI_Customize_Text_Stages);
 	
@@ -16,7 +17,7 @@ function scr_KSW_UI_Customize_SetBubbles()
 	
 	with (obj_KSW_UI_Customize_Bubble)
 	{
-		xAnchor = 48 + (((240 - 96) / (other.bubbleCount - 1)) * index);
+		xAnchor = 40 + (((240 - 80) / (other.bubbleCount - 1)) * index);
 		x = xAnchor;
 		
 		targetOffset = sign(index - other.selection) * other.bubbleOffsetMax;

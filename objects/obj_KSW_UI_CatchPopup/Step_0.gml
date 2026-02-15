@@ -23,7 +23,7 @@ if ((alphaTarget == 0) and (alpha == 0)) instance_destroy();
 #endregion
 
 #region Close
-if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (!instance_exists(obj_KSW_UI_NotifBox)) and (endTimer == -1) and (alphaTarget == 1))
+if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mouse_check_button_pressed(mb_left))) and (!instance_exists(obj_KSW_UI_NotifBox)) and (endTimer == -1) and (alphaTarget == 1))
 {
 	scr_PlaySfx(snd_KSW_Unlock);
 	

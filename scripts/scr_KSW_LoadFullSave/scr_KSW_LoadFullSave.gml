@@ -83,8 +83,8 @@ function scr_KSW_LoadFullSave()
 	
 	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 	{
-		global.KSW_FishList[i].isCaught = 1;
-		global.KSW_FishList[i].isCaughtShiny = 1;
+		global.KSW_FishList[i].isCaught += 2;
+		global.KSW_FishList[i].isCaughtShiny += 1;
 		
 		global.KSW_CaughtUniqueFishCount += 1;
 		global.KSW_CaughtShinyFishCount += 1;

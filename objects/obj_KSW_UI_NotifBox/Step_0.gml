@@ -48,9 +48,20 @@ textAlpha = min(textAlpha + (textAlphaTarget * scaleSpd),textAlphaTarget);
 
 if (inputDelayTimer == -1)
 {
-	#region Next
-	if ((!isClosed) and ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))))
+	#region Back
+	if ((!isClosed) and ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(35,129,74,141)) and (mouse_check_button_pressed(mb_left)))))
 	{
+		mousePressed = true;
+		
+		if (backScript != undefined) script_execute(backScript);
+	}
+	#endregion
+	
+	#region Next
+	if ((!isClosed) and ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or ((!mousePressed) and (mouse_check_button_pressed(mb_left)))))
+	{
+		mousePressed = true;
+		
 		if (nextScript != undefined)
 		{
 			script_execute(nextScript);
@@ -76,13 +87,6 @@ if (inputDelayTimer == -1)
 				textTypist.skip();
 			}
 		}
-	}
-	#endregion
-	
-	#region Back
-	if ((!isClosed) and (input_check_pressed("B",playerNum)))
-	{
-		if (backScript != undefined) script_execute(backScript);
 	}
 	#endregion
 }

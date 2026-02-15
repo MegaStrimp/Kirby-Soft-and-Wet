@@ -303,6 +303,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("SPAMFISH",spr_KSW_Fish_Spamfish,spr_KSW_Fish_Spamfish_Pal_Normal,glimmer,3,grassBeach,KSW_Phases.none,1997,-26,-12,-1,snd_KSW_Fish_Spamfish);
 	var tenna = scr_KSW_AddFish("Mr Ant Tenna",spr_KSW_Fish_MrAntTenna,spr_KSW_Fish_MrAntTenna_Pal_Normal,tvtime,3,grassBeach,KSW_Phases.none,300000,0,20,-1,snd_KSW_Fish_Tenna);
 	tenna.phaseIconRight = spr_KSW_Menu_TitleScreen_Phase_TVTime;
+	tenna.nameSprite = spr_KSW_UI_CatchPopup_TennaName;
 	scr_KSW_AddFish("Aquatic Spawn",spr_KSW_Fish_AquaticSpawn,spr_KSW_Fish_AquaticSpawn_Pal_Normal,flux,3,creamCrevasse,KSW_Phases.none,122597,12,12,-1,snd_KSW_Fish_TitanSpawn);
 	scr_KSW_AddFish("Quirky Knight",spr_KSW_Fish_QuirkyKnight,spr_KSW_Fish_QuirkyKnight_Pal_Normal,mint,3,hallowReen,KSW_Phases.none,20000,0,8);
 	scr_KSW_AddFish("Big Lenny",spr_KSW_Fish_Big_Lenny_Normal,spr_KSW_Fish_Big_Lenny_Pal_Normal,flux,3,grassBeach,KSW_Phases.night,100000,23,10,-1,snd_KSW_Fish_BigLenny);
@@ -601,7 +602,7 @@ function scr_KSW_SetFishes()
 	var gaster = scr_KSW_AddFish("???",spr_KSW_Fish_Gaster,spr_KSW_Fish_Gaster_Pal,flux,3,grassBeach,KSW_Phases.none,66667,-1,10);
 	gaster.displayedName = "[blink]??????[/blink]";
 	var friend = scr_KSW_AddFish("DEVICE_FISH",spr_KSW_Fish_DeviceFish,spr_KSW_Fish_DeviceFish_Pal_Legend,glimmer,3,hallowReen,KSW_Phases.night,66667,-8,4,-1,snd_KSW_Fish_DeviceFish);
-	//friend.displayedName = "[spr_KSW_UI_CatchPopup_MikeName_Small][/sprite]"
+	friend.nameSprite = spr_KSW_UI_CatchPopup_MikeName_Small;
 	scr_KSW_AddFish("Akmodan",spr_KSW_Fish_Akmodan,spr_KSW_Fish_Akmodan_Pal,borange,1,hallowReen,KSW_Phases.none,2200,2,22);
 	scr_KSW_AddFish("Axe",spr_KSW_Fish_Axe,spr_KSW_Fish_Axe_Pal,flux,0,hallowReen,KSW_Phases.none,850);
 	scr_KSW_AddFish("Bloodlines Count",spr_KSW_Fish_BloodlinesCount,spr_KSW_Fish_BloodlinesCount_Pal,legion,2,hallowReen,KSW_Phases.none,8250,-2,28);

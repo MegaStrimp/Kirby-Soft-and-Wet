@@ -96,9 +96,9 @@ if (escapeTimer != -1) subtitle = "ESCAPE ESCAPE ESCAPE";
 
 scribble(subtitle).align(fa_center).blend(c_white,alpha).draw(room_width / 2,6);
 
-if (phaseIconRight == spr_KSW_Menu_TitleScreen_Phase_TVTime)
+if (nameSprite != -1)
 {
-	draw_sprite(spr_KSW_UI_CatchPopup_TennaName,0,room_width / 2,15);
+	draw_sprite(nameSprite,0,room_width / 2,15);
 }
 else
 {

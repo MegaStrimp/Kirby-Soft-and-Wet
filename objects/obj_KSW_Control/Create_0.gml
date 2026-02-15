@@ -2,18 +2,19 @@
 
 #region Initialize Variables
 #region Screen Variables
-global.shaders = true;
-
 global.gameWidthTarget = 240;
 global.gameHeightTarget = 160;
 global.gameTileSize = 24;
 
 global.fullscreen = true;
+
+global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
 #endregion
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.1.5";
+global.versionNumber = "1.2.0";
+global.versionSubtitle = "Android Hell";
 
 global.pauseScript = scr_KSW_PauseScript;
 
@@ -77,6 +78,7 @@ global.KSW_CurrentCoins = 0;
 global.KSW_EnteredFishbook = false;
 global.KSW_EnteredSettings = false;
 global.KSW_EnteredStars = false;
+global.KSW_EnteredAquarium = false;
 
 global.KSW_DebugRig = -1;
 

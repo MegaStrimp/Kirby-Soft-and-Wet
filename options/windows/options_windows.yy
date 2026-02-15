@@ -16,6 +16,7 @@
       "option_windows_installer_header":"installer/header.bmp",
       "option_windows_product_info":"",
       "option_windows_splash_screen":"splash/splash.png",
+      "option_windows_display_cursor":"false",
     },
   },
   "name":"Windows",

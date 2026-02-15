@@ -61,7 +61,12 @@ if (text[page] != undefined)
 #region Button Hints
 if (textTypist.get_state() == 1)
 {
-	if (nextText != undefined) scribble(string(AIcon) + nextText).align(fa_right).draw(xx + xSize - 2,yy + ySize - 9);
-	if (backText != undefined) scribble(string(BIcon) + backText).draw(xx - xSize + 2,yy + ySize - 9);
+	var AIconFinal = "";
+	if (AIcon != undefined)  AIconFinal = AIcon;
+	var BIconFinal = "";
+	if (BIcon != undefined) BIconFinal = BIcon;
+	
+	if (nextText != undefined) scribble(string(AIconFinal) + nextText).align(fa_right).draw(xx + xSize - 2,yy + ySize - 9);
+	if (backText != undefined) scribble(string(BIconFinal) + backText).draw(xx - xSize + 2,yy + ySize - 9);
 }
 #endregion

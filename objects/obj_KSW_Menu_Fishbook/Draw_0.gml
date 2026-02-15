@@ -72,12 +72,25 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	#region Sprite
 	if (spriteIndex != -1)
 	{
-		var targetPaletteIndex = 4;
-		if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught != 0) targetPaletteIndex = fishIsShiny[i];
+		var targetPaletteIndex = fishIsShiny[i];
 		
-		if ((global.shaders) and (spritePalette != -1)) pal_swap_set(spritePalette,targetPaletteIndex,false);
+		if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught == 0)
+		{
+			gpu_set_fog(true,c_black,0,0);
+		}
+		else
+		{
+			if ((global.shaders) and (spritePalette != -1)) pal_swap_set(spritePalette,targetPaletteIndex,false);
+		}
 		draw_sprite(spriteIndex,fishImageIndex[i],boxX + 14 + spriteXOffset + calibX,boxY + 14 + spriteYOffset + calibY);
-		if ((global.shaders) and (spritePalette != -1)) pal_swap_reset();
+		if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught == 0)
+		{
+			gpu_set_fog(false,c_black,0,0);
+		}
+		else
+		{
+			if ((global.shaders) and (spritePalette != -1)) pal_swap_reset();
+		}
 	}
 	#endregion
 	
@@ -236,9 +249,9 @@ else
 	#endregion
 	
 	#region Fish Name
-	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconRight == spr_KSW_Menu_TitleScreen_Phase_TVTime)
+	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].nameSprite != -1)
 	{
-		draw_sprite(spr_KSW_UI_CatchPopup_TennaName,0,room_width / 2,0);
+		draw_sprite(global.KSW_FishList[ds_list_find_value(selectionList,selection)].nameSprite,0,room_width / 2,0);
 	}
 	else
 	{

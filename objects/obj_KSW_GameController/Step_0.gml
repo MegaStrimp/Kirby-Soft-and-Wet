@@ -4,16 +4,69 @@ if (!localPause)
 {
 	if ((!instance_exists(obj_Transition)) and (!instance_exists(obj_KSW_PhaseShifter)) and (exitTimer == -1))
 	{
+		#region Exit To Menu
+		if (canGoToMenu)
+		{
+			if (input_check_pressed("B",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(4,114,43,156)) and (mouse_check_button_pressed(mb_left))))
+			{
+				scr_PlaySfx(snd_KSW_ButtonNo);
+				
+				mousePressed = true;
+				exitTarget = rm_KSW_Menu_TitleScreen;
+				exitTimer = exitTimerMax;
+			}
+		}
+		#endregion
+		
+		#region Exit To Fishbook
+		if (canGoToFishbook)
+		{
+			if (input_check_pressed("Y",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(168,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+			{
+				scr_PlaySfx(snd_KSW_ButtonYes);
+				
+				mousePressed = true;
+				exitTarget = rm_KSW_Menu_Fishbook;
+				exitTimer = exitTimerMax;
+			}
+		}
+		#endregion
+		
+		#region Open Customize
+		if (canOpenCustomize)
+		{
+			if (input_check_pressed("X",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(83,114,157,156)) and (mouse_check_button_pressed(mb_left))))
+			{
+				scr_PlaySfx(snd_KSW_ButtonYes);
+				
+				global.pause = true;
+				
+				with (obj_KSW_UI_Coin) instance_destroy();
+				with (obj_KSW_UI_CaughtBox)
+				{
+					storedCoins = 0;
+					coinTimer = -1;
+				}
+				
+				mousePressed = true;
+				displayedCoins = global.KSW_CurrentCoins;
+				
+				instance_create_depth(0,0,depth - 1,obj_KSW_UI_Customize);
+			}
+		}
+		#endregion
+		
 		switch (state)
 		{
 			case KSW_GameStates.idle:
 			#region Throw
-			if ((autocatcher) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+			if ((autocatcher) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or ((!mousePressed) and (mouse_check_button_pressed(mb_left))))
 			{
 				state = KSW_GameStates.waiting_Ready;
 				canGoToMenu = false;
 				canGoToFishbook = false;
 				canOpenCustomize = false;
+				mousePressed = false;
 				
 				with (obj_KSW_Player)
 				{
@@ -51,10 +104,11 @@ if (!localPause)
 			break;
 			
 			case KSW_GameStates.waiting:
-			if (input_check_pressed("B",playerNum))
+			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,114,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				findFishTimer = -1;
 				state = KSW_GameStates.idle_Ready;
+				mousePressed = true;
 				
 				with (obj_KSW_Player) scr_ChangeSprite(sprReady);
 				
@@ -66,13 +120,16 @@ if (!localPause)
 			var success = false;
 			var failed = false;
 			
-			if (input_check_pressed("B",playerNum))
+			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,114,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				failed = true;
+				mousePressed = true;
 			}
 			
-			if (input_check_pressed("up",playerNum))
+			if ((input_check_pressed("up",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(162,28,186,52)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_UpTriggered)
 				{
 					success = true;
@@ -93,8 +150,10 @@ if (!localPause)
 				}
 			}
 			
-			if (input_check_pressed("down",playerNum))
+			if ((input_check_pressed("down",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(162,76,186,100)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_DownTriggered)
 				{
 					success = true;
@@ -115,8 +174,10 @@ if (!localPause)
 				}
 			}
 			
-			if (input_check_pressed("left",playerNum))
+			if ((input_check_pressed("left",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(138,52,162,76)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_LeftTriggered)
 				{
 					success = true;
@@ -137,8 +198,10 @@ if (!localPause)
 				}
 			}
 			
-			if (input_check_pressed("right",playerNum))
+			if ((input_check_pressed("right",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(186,52,210,76)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_RightTriggered)
 				{
 					success = true;
@@ -276,7 +339,11 @@ if (!localPause)
 						
 						if (global.KSW_FishList[currentFish].catchScript != -1) script_execute(global.KSW_FishList[currentFish].catchScript);
 						
-						if (global.KSW_FishList[currentFish].catchAudio != -1) scr_PlaySfx(global.KSW_FishList[currentFish].catchAudio);
+						if (global.KSW_FishList[currentFish].catchAudio != -1)
+						{
+							var sfx = scr_PlaySfx(global.KSW_FishList[currentFish].catchAudio);
+							audio_sound_pitch(sfx,random_range(1 - global.KSW_FishList[currentFish].catchAudioPitchOffset,1 + global.KSW_FishList[currentFish].catchAudioPitchOffset));
+						}
 						
 						with (obj_KSW_Player)
 						{
@@ -459,6 +526,7 @@ if (!localPause)
 					spriteXOffset = global.KSW_FishList[other.currentFish].xOffset;
 					spriteYOffset = global.KSW_FishList[other.currentFish].yOffset;
 					name = global.KSW_FishList[other.currentFish].displayedName;
+					nameSprite = global.KSW_FishList[other.currentFish].nameSprite;
 					rarity = global.KSW_FishList[other.currentFish].rarity;
 					phase = global.KSW_FishList[other.currentFish].phase;
 					phaseIconLeft = global.KSW_FishList[other.currentFish].phaseIconLeft;
@@ -508,55 +576,6 @@ if (!localPause)
 			stateReadyTimer = stateReadyTimerMax;
 			break;
 		}
-		
-		#region Exit To Menu
-		if (canGoToMenu)
-		{
-			if (input_check_pressed("B",playerNum))
-			{
-				scr_PlaySfx(snd_KSW_ButtonNo);
-				
-				exitTarget = rm_KSW_Menu_TitleScreen;
-				exitTimer = exitTimerMax;
-			}
-		}
-		#endregion
-		
-		#region Exit To Fishbook
-		if (canGoToFishbook)
-		{
-			if (input_check_pressed("Y",playerNum))
-			{
-				scr_PlaySfx(snd_KSW_ButtonYes);
-				
-				exitTarget = rm_KSW_Menu_Fishbook;
-				exitTimer = exitTimerMax;
-			}
-		}
-		#endregion
-		
-		#region Open Customize
-		if (canOpenCustomize)
-		{
-			if (input_check_pressed("X",playerNum))
-			{
-				scr_PlaySfx(snd_KSW_ButtonYes);
-				
-				global.pause = true;
-				
-				with (obj_KSW_UI_Coin) instance_destroy();
-				with (obj_KSW_UI_CaughtBox)
-				{
-					storedCoins = 0;
-					coinTimer = -1;
-				}
-				
-				displayedCoins = global.KSW_CurrentCoins;
-				
-				instance_create_depth(0,0,depth - 1,obj_KSW_UI_Customize);
-			}
-		}
-		#endregion
 		
 		#region Find Fish Timer
 		if (findFishTimer != -1)

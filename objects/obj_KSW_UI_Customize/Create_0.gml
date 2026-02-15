@@ -13,6 +13,7 @@ enum KSW_UI_Customize_Bubbles
 	hats,
 	bobbers,
 	baits,
+	rubies,
 	music,
 	stages
 }

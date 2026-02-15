@@ -55,7 +55,11 @@ if (canSelect)
 		{
 			scr_PlaySfx(snd_KSW_ButtonYes);
 			
-			if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio != -1) scr_PlaySfx(global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio);
+			if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio != -1)
+			{
+				var sfx = scr_PlaySfx(global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio);
+				audio_sound_pitch(sfx,random_range(1 - global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset,1 + global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset));
+			}
 			
 			isZoomed = true;
 			selectionImageIndex = 0;

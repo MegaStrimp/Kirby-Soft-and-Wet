@@ -97,6 +97,8 @@ bubbleIndex = 0;
 bubbleSpd = sprite_get_speed(spr_KSW_UI_CatchInput_Active) / 60;
 bubbleNumber = sprite_get_number(spr_KSW_UI_CatchInput_Active);
 
+mousePressed = false;
+
 autocatcher = false;
 #endregion
 #endregion

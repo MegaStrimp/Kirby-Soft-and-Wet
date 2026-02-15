@@ -26,6 +26,12 @@ global.screenPaletteKey = -1;
 global.screenPaletteIndex = -1;
 
 global.applicationSurfaceAutoDraw = true;
+
+global.customCursorSprite = -1;
+global.customCursorSpriteIndex = -1;
+
+global.shaderHandlerTimer = 0;
+global.shaderHandlerTimerM = 0;
 #endregion
 
 #region Audio Variables

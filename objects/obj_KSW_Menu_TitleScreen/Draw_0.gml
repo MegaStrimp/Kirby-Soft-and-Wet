@@ -52,7 +52,7 @@ scribble(string(hourText) + " " + hourPrefix).draw(4,24);
 #endregion
 
 #region Version Number
-scribble("[c_orange]" + string(global.versionNumber) + "[/color]").align(fa_right).draw(236,4);
+scribble("[c_green]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").align(fa_right).draw(236,4);
 #endregion
 
 #region Button Hints
