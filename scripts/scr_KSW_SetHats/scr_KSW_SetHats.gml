@@ -25,9 +25,12 @@ function scr_KSW_SetHats()
 	var playerID = "kirby";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
-	scr_KSW_AddHat(playerID + "_" + "Shades",playerID,"Shades",spr_KSW_Player_Kirby_Hat_Shades_Ready,scr_KSW_Player_Kirby_Hat_Shades_SpriteSet(),legion,100);
-	scr_KSW_AddHat(playerID + "_" + "StrawHat",playerID,"Straw Hat",spr_KSW_Player_Kirby_Hat_StrawHat_Ready,scr_KSW_Player_Kirby_Hat_StrawHat_SpriteSet(),borange,100);
-	scr_KSW_AddHat(playerID + "_" + "Goggles",playerID,"Goggles",spr_KSW_Player_Kirby_Hat_Goggles_Ready,scr_KSW_Player_Kirby_Hat_Goggles_SpriteSet(),mage,100);
+	scr_KSW_AddHat(playerID + "_" + "Shades",playerID,"Shades",spr_KSW_Player_Kirby_Hat_Shades_Ready,scr_KSW_Player_Kirby_Hat_Shades_SpriteSet(),legion,100,1,4);
+	scr_KSW_AddHat(playerID + "_" + "StrawHat",playerID,"Straw Hat",spr_KSW_Player_Kirby_Hat_StrawHat_Ready,scr_KSW_Player_Kirby_Hat_StrawHat_SpriteSet(),borange,100,2,6);
+	scr_KSW_AddHat(playerID + "_" + "Goggles",playerID,"Goggles",spr_KSW_Player_Kirby_Hat_Goggles_Ready,scr_KSW_Player_Kirby_Hat_Goggles_SpriteSet(),mage,100,,5);
+	scr_KSW_AddHat(playerID + "_" + "Kracko",playerID,"Kracko",spr_KSW_Player_Kirby_Hat_Kracko_Ready,scr_KSW_Player_Kirby_Hat_Kracko_SpriteSet(),mage,100,2,12);
+	scr_KSW_AddHat(playerID + "_" + "Sword",playerID,"Sword",spr_KSW_Player_Kirby_Hat_Sword_Ready,scr_KSW_Player_Kirby_Hat_Sword_SpriteSet(),mint,100,3,7);
+	scr_KSW_AddHat(playerID + "_" + "ClassicBomb",playerID,"Classic Bomb",spr_KSW_Player_Kirby_Hat_ClassicBomb_Ready,scr_KSW_Player_Kirby_Hat_ClassicBomb_SpriteSet(),mage,100,3,7);
 	#endregion
 	#endregion
 }

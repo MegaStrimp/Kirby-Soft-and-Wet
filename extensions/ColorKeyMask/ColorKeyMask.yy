@@ -11,7 +11,12 @@
   "androidsourcedir":"",
   "author":"",
   "classname":"",
-  "copyToTargets":-1,
+  "ConfigValues":{
+    "DesktopDebug":{
+      "copyToTargets":"3035426163880100078",
+    },
+  },
+  "copyToTargets":3035426163880100078,
   "description":"",
   "exportToGame":true,
   "extensionVersion":"0.0.1",

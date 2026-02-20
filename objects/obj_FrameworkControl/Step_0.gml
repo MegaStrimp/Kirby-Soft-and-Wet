@@ -150,7 +150,7 @@ if (global.customCursorSprite != -1)
 #endregion
 
 #region Shader Handler
-if (global.currentTimePausable >= 120)
+/*if (global.currentTimePausable >= 120)
 {
 	if (fps <= 10)
 	{
@@ -164,7 +164,7 @@ if (global.currentTimePausable >= 120)
 	if (global.shaderHandlerTimer >= 60) global.shaders = false;
 	
 	if (global.shaderHandlerTimer > global.shaderHandlerTimerM) global.shaderHandlerTimerM = global.shaderHandlerTimer;
-}
+}*/
 #endregion
 
 #region Hud

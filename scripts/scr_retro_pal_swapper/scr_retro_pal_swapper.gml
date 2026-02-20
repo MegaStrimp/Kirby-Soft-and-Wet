@@ -21,7 +21,7 @@ function pal_swap_init_system(_shader = shd_pal_swapper, _html5_sprite_shader = 
   	layer_data: {} 
   }
 
-	_swapper.html5 = os_browser != browser_not_a_browser;
+	_swapper.html5 = os_browser != browser_not_a_browser or os_type = os_gxgames;
 	
 	if(!_swapper.html5) {
 		//Init non-html5 mode

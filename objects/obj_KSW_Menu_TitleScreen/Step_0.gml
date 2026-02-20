@@ -181,6 +181,13 @@ if (canSelect)
 		scr_KSW_ObtainNotif(notifID,true);
 	}
 	
+	if ((global.alivelInstaller_HasUpdate) and ((scr_MouseIsInbetween(124,20,236,28)) and (mouse_check_button_pressed(mb_left))))
+	{
+		scr_PlaySfx(snd_KSW_Enter);
+		
+		url_open("https://github.com/MegaStrimp/Kirby-Soft-and-Wet/releases");
+	}
+	
 	#region Phase Timer
 	if (phaseTimer != -1)
 	{

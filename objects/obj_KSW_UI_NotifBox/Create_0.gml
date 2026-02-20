@@ -38,6 +38,8 @@ textTypist = scribble_typist();
 textTypist.in(1,0);
 textTypist.sound(snd_KSW_Bubble1,25,.85,1.15);
 
+mousePressed = false;
+
 upIcon = undefined;
 downIcon = undefined;
 leftIcon = undefined;

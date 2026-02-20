@@ -8,7 +8,7 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Select()
 		
 		global.KSW_EquippedBobberShuffle[playerNum] = true;
 	}
-	else
+	else if !((!global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked) and ((global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price == 0)))
 	{
 		if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked)
 		{

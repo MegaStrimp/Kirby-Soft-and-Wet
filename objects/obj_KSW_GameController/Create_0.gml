@@ -1,5 +1,6 @@
 ///@description Create
 
+			scr_KSW_UI_Achievement_Create(global.KSW_AchievementIDs[? "catch5000"]);
 #region Game States
 enum KSW_GameStates
 {

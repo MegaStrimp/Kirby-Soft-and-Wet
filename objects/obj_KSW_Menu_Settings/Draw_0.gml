@@ -72,6 +72,20 @@ scribble("WINDOW SIZE\t" + string(global.windowScaleTarget)).draw(8,startY + (sp
 
 i += 1;
 
+#region Shaders
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+var text = "ENABLE SHADERS";
+if (global.shaders) text = "DISABLE SHADERS";
+scribble(text).draw(8,startY + (space * i));
+#endregion
+
+i += 1;
+
 #region Delete Save
 scribble_font_set_default("fnt_Advance_Gray");
 if (selection == i)

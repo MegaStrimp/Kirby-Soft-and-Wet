@@ -23,8 +23,8 @@ scribble(color + string(global.KSW_ObtainedAchievementCount) + "/" + string(glob
 for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,selectionCount); i++)
 {
 	#region Variables
-	var waveX = sine_wave(current_time / waveNum[i % pageSelectionCount], 1, 3, 0);
-	var waveY = sine_wave(current_time / (waveNum[i % pageSelectionCount] + 300), .7, 4, 0);
+	var waveX = sine_wave(current_time / waveNum[i % pageSelectionCount],1,3,0);
+	var waveY = sine_wave(current_time / (waveNum[i % pageSelectionCount] + 300),.7,4,0);
 	var starX = 25 + (120 * (i % 2)) + waveX;
 	var starY = 32 + (32 * floor((i - page * pageSelectionCount) / 2)) + waveY;
 	var title = string_upper(global.KSW_AchievementList[starList[i]].name);
@@ -62,10 +62,12 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 
 #region Button Hints
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("L"))];
-if (targetIcon != undefined) draw_sprite(targetIcon,0,72,3 + (2 * (buttonInputTimerComponent_LTimer != -1)));
+if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Left;
+draw_sprite(targetIcon,0,72,3 + (2 * (buttonInputTimerComponent_LTimer != -1)));
 
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("R"))];
-if (targetIcon != undefined) draw_sprite(targetIcon,0,157,3 + (2 * (buttonInputTimerComponent_RTimer != -1)));
+if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Right;
+draw_sprite(targetIcon,0,157,3 + (2 * (buttonInputTimerComponent_RTimer != -1)));
 
 var exitIcon = "";
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("B"))];

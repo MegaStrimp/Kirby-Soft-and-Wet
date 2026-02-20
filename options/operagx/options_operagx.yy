@@ -1,6 +1,14 @@
 {
   "$GMOperaGXOptions":"v1",
   "%Name":"operagx",
+  "ConfigValues":{
+    "DesktopDebug":{
+      "option_operagx_game_name":"Coconut Engine",
+      "option_operagx_mod_game_name":"Coconut Engine",
+      "option_operagx_interpolate_pixels":"false",
+      "option_operagx_display_cursor":"false",
+    },
+  },
   "name":"operagx",
   "option_operagx_display_cursor":true,
   "option_operagx_editUrl":"",

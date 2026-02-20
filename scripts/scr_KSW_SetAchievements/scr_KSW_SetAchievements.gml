@@ -56,7 +56,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtTotalFishCount >= 5000);
 	};
-	scr_KSW_AddAchievement("catch5000","True Aqualiss","Catch 5000 Fish",spr_KSW_Achievement_Icon_TrueAqualiss,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch5000","True Aqualiss","Catch 5000 Fish",spr_KSW_Achievement_Icon_TrueAqualiss,achievementUnlockMethod,global.KSW_BobberIDs[? "star"]);
 	#endregion
 	
 	#region Catch 100 Fish at Daytime
@@ -104,7 +104,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtTotalFishCount_Night >= 1000);
 	};
-	scr_KSW_AddAchievement("catchNight1000","True Moonlight","Catch 1000 Fish at Midnight",spr_KSW_Achievement_Icon_TrueMoonlight,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchNight1000","True Moonlight","Catch 1000 Fish at Midnight",spr_KSW_Achievement_Icon_TrueMoonlight,achievementUnlockMethod,global.KSW_BobberIDs[? "nightmareOrb"]);
 	#endregion
 	
 	#region Catch 25 Fish Without Failing
@@ -128,7 +128,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CurrentFishCombo >= 100);
 	};
-	scr_KSW_AddAchievement("combo100","True Hawkeye","Catch 100 Fish Without Failing",spr_KSW_Achievement_Icon_TrueHawkeye,achievementUnlockMethod);
+	scr_KSW_AddAchievement("combo100","True Hawkeye","Catch 100 Fish Without Failing",spr_KSW_Achievement_Icon_TrueHawkeye,achievementUnlockMethod,global.KSW_BobberIDs[? "starry"]);
 	#endregion
 	
 	#region Collect 20 Unique Fish
@@ -152,7 +152,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtUniqueFishCount >= global.KSW_FishCount);
 	};
-	scr_KSW_AddAchievement("catchUniqueAll","Completionist","Collect All Unique Fish",spr_KSW_Achievement_Icon_Completionist,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchUniqueAll","Completionist","Collect All Unique Fish",spr_KSW_Achievement_Icon_Completionist,achievementUnlockMethod,global.KSW_BobberIDs[? "rainbowDrop"]);
 	#endregion
 	
 	#region Collect All Shinies
@@ -160,7 +160,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtShinyFishCount >= global.KSW_FishCount);
 	};
-	scr_KSW_AddAchievement("catchShinyAll","True Omni","Collect All Shinies",spr_KSW_Achievement_Icon_TrueOmni,achievementUnlockMethod,true);
+	scr_KSW_AddAchievement("catchShinyAll","True Omni","Collect All Shinies",spr_KSW_Achievement_Icon_TrueOmni,achievementUnlockMethod,,true);
 	#endregion
 	
 	#region Get 10000 G
@@ -192,7 +192,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.levelScoreCurrent >= 9999999);
 	};
-	scr_KSW_AddAchievement("grams10m","True Matter","Get 9999999 G Worth of Fish",spr_KSW_Achievement_Icon_TrueMatter,achievementUnlockMethod);
+	scr_KSW_AddAchievement("grams10m","True Matter","Get 9999999 G Worth of Fish",spr_KSW_Achievement_Icon_TrueMatter,achievementUnlockMethod,global.KSW_BobberIDs[? "darkMatter"]);
 	#endregion
 	
 	#region Play for an Hour
@@ -216,7 +216,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.timePlayed_Hours >= 20);
 	};
-	scr_KSW_AddAchievement("playtime20","True Obsessive","Play for 20 Hours",spr_KSW_Achievement_Icon_TrueObsessive,achievementUnlockMethod);
+	scr_KSW_AddAchievement("playtime20","True Obsessive","Play for 20 Hours",spr_KSW_Achievement_Icon_TrueObsessive,achievementUnlockMethod,global.KSW_BobberIDs[? "kirby"]);
 	#endregion
 	
 	#region Catch an Anomaly
@@ -243,7 +243,7 @@ function scr_KSW_SetAchievements()
 		
 		return canObtain;
 	};
-	scr_KSW_AddAchievement("getAllStars","Master's Crown","Obtain All Stars",spr_KSW_Achievement_Icon_MastersCrown,achievementUnlockMethod);
+	scr_KSW_AddAchievement("getAllStars","Master's Crown","Obtain All Stars",spr_KSW_Achievement_Icon_MastersCrown,achievementUnlockMethod,global.KSW_BobberIDs[? "masterCrown"]);
 	#endregion
 	
 	#region Do Everything
@@ -262,7 +262,7 @@ function scr_KSW_SetAchievements()
 		
 		return canObtain;
 	};
-	scr_KSW_AddAchievement("doEverything","Legend of the Night","Do Everything",spr_KSW_Achievement_Icon_LegendOfTheNight,achievementUnlockMethod,true);
+	scr_KSW_AddAchievement("doEverything","Legend of the Night","Do Everything",spr_KSW_Achievement_Icon_LegendOfTheNight,achievementUnlockMethod,global.KSW_BobberIDs[? "legend"],true);
 	#endregion
 	#endregion
 }

@@ -22,8 +22,10 @@ if (!localPause)
 	#endregion
 	
 	#region Skip
-	if ((!instance_exists(obj_Transition)) and ((input_check_pressed("start",playerNum)) or (mouse_check_button_pressed(mb_left))))
+	if ((isSkippable) and ((input_check_pressed("start",playerNum)) or (mouse_check_button_pressed(mb_left)))) //STRIMPTODO FIX MOUSE AUDIO BUG
 	{
+		isSkippable = false;
+		
 		audio_stop_sound(global.musicPlaying);
 		global.musicPlaying = audio_play_sound(mus_KSW_Title,0,true);
 		audio_sound_set_track_position(global.musicPlaying,49);
@@ -66,6 +68,8 @@ if (!localPause)
 				break;
 				
 				case 4:
+				isSkippable = false;
+				
 				audio_stop_sound(global.musicPlaying);
 				global.musicPlaying = audio_play_sound(mus_KSW_Title,0,true);
 				audio_sound_set_track_position(global.musicPlaying,49);

@@ -52,7 +52,8 @@ scribble(string(hourText) + " " + hourPrefix).draw(4,24);
 #endregion
 
 #region Version Number
-scribble("[c_green]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").align(fa_right).draw(236,4);
+scribble("[c_lime]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_right).draw(236,4);
+if (global.alivelInstaller_HasUpdate) scribble("[c_yellow]Update Available[/color]").gradient(c_orange,1).align(fa_right).draw(236,20);
 #endregion
 
 #region Button Hints

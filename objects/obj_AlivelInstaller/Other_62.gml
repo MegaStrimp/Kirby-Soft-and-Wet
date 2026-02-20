@@ -44,10 +44,21 @@ if (async_load[? "id"] == requestVersionNumberId)
 	
 	if ((latestVersion != -1) and (latestVersion != global.versionNumber))
 	{
-		textWithButtons = 3;
+		global.alivelInstaller_HasUpdate = true;
+		
+		if (global.isMobile)
+		{
+			room_goto(global.alivelInstaller_TargetRoom);
+		}
+		else
+		{
+			textWithButtons = 3;
+		}
 	}
 	else
 	{
+		global.alivelInstaller_HasUpdate = false;
+		
 		room_goto(global.alivelInstaller_TargetRoom);
 	}
 }

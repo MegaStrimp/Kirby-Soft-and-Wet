@@ -41,12 +41,12 @@ if (canSelect)
 			scr_KSW_Menu_Component_Navigate_Right();
 		}
 		
-		if (input_check_pressed("L",playerNum))
+		if ((input_check_pressed("L",playerNum)) or ((scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_KSW_Menu_Component_SwitchPage_L();
 		}
 		
-		if (input_check_pressed("R",playerNum))
+		if ((input_check_pressed("R",playerNum)) or ((scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_KSW_Menu_Component_SwitchPage_R();
 		}
@@ -67,7 +67,7 @@ if (canSelect)
 			if (selectionStarCount < global.KSW_FishList[ds_list_find_value(selectionList,selection)].rarity) selectionStarTimer = 20;
 		}
 		
-		if ((input_check_pressed("Y",playerNum)) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
+		if (((input_check_pressed("Y",playerNum)) or ((scr_MouseIsInbetween(97,144,143,156)) and (mouse_check_button_pressed(mb_left)))) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
 		{
 			scr_PlaySfx(snd_KSW_ButtonChange);
 			
@@ -81,7 +81,38 @@ if (canSelect)
 			global.KSW_DebugRig = ds_list_find_value(selectionList,selection);
 		}
 		
-		if (input_check_pressed("B",playerNum))
+		for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,ds_list_size(selectionList)); i++)
+		{
+			var boxX = 6 + (40 * (i % pageColumns));
+			var boxY = 34 + (40 * floor((i - page * pageSelectionCount) / pageColumns));
+			
+			if ((scr_MouseIsInbetween(boxX,boxY,boxX + 28,boxY + 28)) and (mouse_check_button_pressed(mb_left)))
+			{
+				if (selection == i)
+				{
+					scr_PlaySfx(snd_KSW_ButtonYes);
+					
+					if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio != -1)
+					{
+						var sfx = scr_PlaySfx(global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudio);
+						audio_sound_pitch(sfx,random_range(1 - global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset,1 + global.KSW_FishList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset));
+					}
+					
+					isZoomed = true;
+					selectionImageIndex = 0;
+					selectionStarCount = 0;
+					if (selectionStarCount < global.KSW_FishList[ds_list_find_value(selectionList,selection)].rarity) selectionStarTimer = 20;
+				}
+				else
+				{
+					scr_PlaySfx(snd_KSW_BossHealth);
+					
+					selection = i;
+				}
+			}
+		}
+		
+		if ((input_check_pressed("B",playerNum)) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_ButtonNo);
 			
@@ -90,14 +121,14 @@ if (canSelect)
 	}
 	else
 	{
-		if ((input_check_pressed("Y",playerNum)) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
+		if (((input_check_pressed("Y",playerNum)) or ((scr_MouseIsInbetween(97,144,143,156)) and (mouse_check_button_pressed(mb_left)))) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
 		{
 			scr_PlaySfx(snd_KSW_ButtonChange);
 			
 			fishIsShiny[selection] = !fishIsShiny[selection];
 		}
 		
-		if (input_check_pressed("B",playerNum))
+		if ((input_check_pressed("B",playerNum)) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_ButtonNo);
 			

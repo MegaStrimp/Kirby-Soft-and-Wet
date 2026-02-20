@@ -9,5 +9,6 @@ function scr_KSW_AudioSetup()
 	global.KSW_AudioStartPoints[mus_KSW_Fishbook] = [0,28.2];
 	global.KSW_AudioStartPoints[mus_KSW_Settings] = [0,22.5,37.5];
 	global.KSW_AudioStartPoints[mus_KSW_Stars] = [0,16.6,46.6];
+	global.KSW_AudioStartPoints[mus_KSW_Aquarium] = [0,8.86,25.56,33.91];
 	#endregion
 }

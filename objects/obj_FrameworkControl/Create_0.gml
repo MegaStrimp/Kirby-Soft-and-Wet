@@ -133,6 +133,7 @@ global.screenshotTextTimerMax = 120;
 global.debug = config_IsDebug;
 global.demo = config_IsDemo;
 global.isMobile = config_IsMobile;
+global.isOpera = config_IsOpera;
 debugLogActive = false;
 
 global.selectedSave = "Save1.ini";
@@ -216,13 +217,18 @@ draw_set_font(global.fontSpriteMain);
 #macro config_IsDebug false
 #macro DesktopDebug:config_IsDebug true
 #macro MobileDebug:config_IsDebug true
+#macro OperaDebug:config_IsDebug true
 
 #macro config_IsDemo false
 #macro DesktopDemo:config_IsDemo true
 #macro MobileDemo:config_IsDemo true
+#macro OperaDemo:config_IsDemo true
 
 #macro config_IsMobile false
 #macro Mobile:config_IsMobile true
+
+#macro config_IsOpera false
+#macro Opera:config_IsOpera true
 #endregion
 
 #region Create Necessary Objects
@@ -248,6 +254,7 @@ global.alivelInstaller_TargetUrl = "";
 global.alivelInstaller_TargetVersionNumberUrl = "";
 global.alivelInstaller_TargetFilename = "";
 global.alivelInstaller_TargetRoom = rm_Startup;
+global.alivelInstaller_HasUpdate = false;
 #endregion
 
 #region Discord Rich Presence Setup

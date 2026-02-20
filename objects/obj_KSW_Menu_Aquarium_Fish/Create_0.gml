@@ -11,5 +11,10 @@ scr_Component_WalkAndTurn_Setup(random_range(.1,.5),random_range(.005,.03),-1,-1
 palSprite = -1;
 
 isShiny = false;
+
+catchAudio = -1;
+catchAudioPitchOffset = -1;
+soundTimerMax = 60;
+soundTimer = -1;
 #endregion
 #endregion

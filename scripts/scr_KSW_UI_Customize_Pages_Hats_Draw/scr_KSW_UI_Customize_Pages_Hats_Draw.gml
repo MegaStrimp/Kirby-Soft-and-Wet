@@ -31,6 +31,8 @@ function scr_KSW_UI_Customize_Pages_Hats_Draw()
 		if (ds_list_find_value(selectionList,i) != -1)
 		{
 			var spriteIndex = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].icon;
+			var xOffset = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].xOffset;
+			var yOffset = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].yOffset;
 			if (global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].isUnlocked) backgroundPalette = global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].boxPalette;
 		}
 		else
@@ -74,7 +76,7 @@ function scr_KSW_UI_Customize_Pages_Hats_Draw()
 		if (spriteIndex != -1)
 		{
 			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(true,c_black,0,0);
-			draw_sprite(spriteIndex,0,boxX + 14,boxY + 14);
+			draw_sprite(spriteIndex,0,boxX + 14 + xOffset,boxY + 14 + yOffset);
 			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(false,c_black,0,0);
 		}
 		#endregion
