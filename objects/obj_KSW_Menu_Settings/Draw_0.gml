@@ -86,6 +86,44 @@ scribble(text).draw(8,startY + (space * i));
 
 i += 1;
 
+#region Export Save
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+if ((!global.isMobile) and (!global.isOpera))
+{
+	scribble("EXPORT SAVE").draw(8,startY + (space * i));
+}
+else
+{
+	scribble("EXPORT SAVE (NOT AVAILABLE)").draw(8,startY + (space * i));
+}
+#endregion
+
+i += 1;
+
+#region Import Save
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+if ((!global.isMobile) and (!global.isOpera))
+{
+	scribble("IMPORT SAVE").draw(8,startY + (space * i));
+}
+else
+{
+	scribble("IMPORT SAVE (NOT AVAILABLE)").draw(8,startY + (space * i));
+}
+#endregion
+
+i += 1;
+
 #region Delete Save
 scribble_font_set_default("fnt_Advance_Gray");
 if (selection == i)

@@ -29,6 +29,7 @@ scr_KSW_SetBaits();
 scr_KSW_SetHats();
 scr_KSW_SetSprayPaints();
 scr_KSW_SetStages();
+scr_KSW_SetSeries();
 scr_KSW_SetFishes();
 scr_KSW_SetAchievements();
 scr_KSW_SetNotifs();

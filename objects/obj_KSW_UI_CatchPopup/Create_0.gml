@@ -15,6 +15,7 @@ spriteXOffset = 0;
 spriteYOffset = 0;
 name = "";
 nameSprite = -1;
+series = "";
 rarity = 0;
 phase = KSW_Phases.none;
 phaseIconLeft = -1;

@@ -48,6 +48,12 @@ switchStage = false;
 
 coinsVisible = true;
 
+mousePressed = false;
+mousePressedNewBubble = false;
+mousePressedNewBubble_Target = -1;
+mousePressedSelectedBubble = false;
+mouseSelected = false;
+
 scr_KSW_UI_Customize_SetPages();
 
 scr_KSW_UI_Customize_ChangePage("main");

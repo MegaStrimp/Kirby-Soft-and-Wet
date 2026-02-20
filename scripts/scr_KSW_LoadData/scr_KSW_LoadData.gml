@@ -1,11 +1,18 @@
 ///@description KSW - Load Data
 
-function scr_KSW_LoadData(file)
+function scr_KSW_LoadData(file,importFile = false)
 {
-	var fileFinal = file;
-	if (!global.isMobile) fileFinal = environment_get_variable("LOCALAPPDATA") + chr(92) + global.gameTitle + chr(92) + file;
-	
-	if (!file_exists(fileFinal)) fileFinal = string(fileFinal) + "_bak";
+	if (importFile)
+	{
+		fileFinal = file;
+	}
+	else
+	{
+		var fileFinal = file;
+		if (!global.isMobile) fileFinal = environment_get_variable("LOCALAPPDATA") + chr(92) + global.gameTitle + chr(92) + file;
+		
+		if (!file_exists(fileFinal)) fileFinal = string(fileFinal) + "_bak";
+	}
 	
 	ini_open(fileFinal);
 	

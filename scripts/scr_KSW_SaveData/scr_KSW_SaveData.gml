@@ -138,4 +138,6 @@ function scr_KSW_SaveData(file)
 	#endregion
 	
 	ini_close();
+	
+	return fileFinal;
 }

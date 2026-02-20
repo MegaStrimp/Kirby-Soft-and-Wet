@@ -123,10 +123,12 @@ function scr_KSW_UI_Customize_Pages_SprayPaints_Draw()
 	if (pageMax >= 1)
 	{
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("L"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,72,3 - hintOffset + (2 * (buttonInputTimerComponent_LTimer != -1)));
+		if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Left;
+		draw_sprite(targetIcon,0,72,3 - hintOffset + (2 * (buttonInputTimerComponent_LTimer != -1)));
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("R"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,157,3 - hintOffset + (2 * (buttonInputTimerComponent_RTimer != -1)));
+		if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Right;
+		draw_sprite(targetIcon,0,157,3 - hintOffset + (2 * (buttonInputTimerComponent_RTimer != -1)));
 	}
 	
 	var exitIcon = "";

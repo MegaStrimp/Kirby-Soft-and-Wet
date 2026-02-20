@@ -107,6 +107,11 @@ else
 	
 	scribble(nameFinal).align(fa_center).blend(c_white,alpha).draw(room_width / 2,18);
 }
+
+var seriesFinal = series;
+if (escapeTimer != -1) seriesFinal = "ESCAPE";
+
+scribble("[fnt_Advance_Small]" + seriesFinal + "[/font]").align(fa_center).blend(c_white,alpha).draw(room_width / 2,26);
 #endregion
 
 #region Rarity
@@ -115,7 +120,7 @@ for (var h = 0; h < starCount; h++)
 	var starOffset = 0;
 	if ((h == starCount - 1) and (starTimer >= starTimerMax - 1)) starOffset = 1;
 	
-	draw_sprite(spr_KSW_UI_CaughtBox_Star,0,104 + (12 * h),27 - starOffset);
+	draw_sprite(spr_KSW_UI_CaughtBox_Star,0,104 + (12 * h),33 - starOffset);
 }
 #endregion
 

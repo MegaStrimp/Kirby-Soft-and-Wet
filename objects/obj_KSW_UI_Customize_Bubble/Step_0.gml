@@ -15,6 +15,24 @@ if (!localPause)
 	y = yAnchor + waveY;
 	#endregion
 	
+	#region Mouse Click
+	if ((position_meeting(mouse_x,mouse_y,id)) and (mouse_check_button_pressed(mb_left)))
+	{
+		with (obj_KSW_UI_Customize)
+		{
+			if (other.isBig)
+			{
+				mousePressedSelectedBubble = true;
+			}
+			else
+			{
+				mousePressedNewBubble = true;
+				mousePressedNewBubble_Target = other.index;
+			}
+		}
+	}
+	#endregion
+	
 	#region Medium Timer
 	if (mediumTimer != -1)
 	{
