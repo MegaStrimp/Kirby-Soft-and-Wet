@@ -38,7 +38,7 @@ function scr_KSW_Player_Elfilin_State_Normal_Step()
 			if (image_index >= 4)
 			{
 				scr_KSW_ThrowBobber();
-				rodX = x + 15;
+				rodX = x + 14;
 				rodY = y - 24;
 				
 				threwBobber = true;
@@ -49,22 +49,22 @@ function scr_KSW_Player_Elfilin_State_Normal_Step()
 			switch (floor(image_index))
 			{
 				case 4:
-				rodX = x + 15;
+				rodX = x + 14;
 				rodY = y - 24;
 				break;
 				
 				case 5:
-				rodX = x + 27;
+				rodX = x + 24;
 				rodY = y - 16;
 				break;
 				
 				case 6:
-				rodX = x + 35;
+				rodX = x + 32;
 				rodY = y - 5;
 				break;
 				
 				default:
-				rodX = x + 35;
+				rodX = x + 30;
 				rodY = y - 9;
 				break;
 			}
@@ -72,19 +72,49 @@ function scr_KSW_Player_Elfilin_State_Normal_Step()
 		break;
 		
 		case sprWait:
-		rodX = x + 29;
-		rodY = y - 13;
+		switch (floor(image_index))
+		{
+			case 0:
+			rodX = x + 25;
+			rodY = y - 12;
+			break;
+			
+			case 1:
+			rodX = x + 25;
+			rodY = y - 11;
+			break;
+			
+			case 2:
+			rodX = x + 25;
+			rodY = y - 12;
+			break;
+			
+			default:
+			rodX = x + 25;
+			rodY = y - 13;
+			break;
+		}
 		break;
 		
 		case sprFound:
-		rodX = x + 35;
-		rodY = y - 8;
+		switch (floor(image_index))
+		{
+			case 0:
+			rodX = x + 28;
+			rodY = y - 5;
+			break;
+			
+			default:
+			rodX = x + 29;
+			rodY = y - 4;
+			break;
+		}
 		bobberShake = true;
 		break;
 		
 		case sprUp:
-		rodX = x + 17;
-		rodY = y - 33;
+		rodX = x + 12;
+		rodY = y - 30;
 		bobberShake = true;
 		break;
 		
@@ -92,26 +122,26 @@ function scr_KSW_Player_Elfilin_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 16;
-			rodY = y - 32;
+			rodX = x + 11;
+			rodY = y - 29;
 			break;
 			
 			case 1:
-			rodX = x + 16;
-			rodY = y - 34;
+			rodX = x + 11;
+			rodY = y - 31;
 			break;
 			
 			default:
-			rodX = x + 17;
-			rodY = y - 33;
+			rodX = x + 12;
+			rodY = y - 30;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprDown:
-		rodX = x + 31;
-		rodY = y + 7;
+		rodX = x + 29;
+		rodY = y + 5;
 		bobberShake = true;
 		break;
 		
@@ -119,32 +149,42 @@ function scr_KSW_Player_Elfilin_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 31;
-			rodY = y + 5;
+			rodX = x + 30;
+			rodY = y + 3;
 			break;
 			
 			case 1:
-			rodX = x + 30;
-			rodY = y + 7;
+			rodX = x + 29;
+			rodY = y + 5;
 			break;
 			
 			default:
-			rodX = x + 31;
-			rodY = y + 7;
+			rodX = x + 30;
+			rodY = y + 5;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprLeft:
-		rodX = x + 9;
-		rodY = y - 31;
+		rodX = x + 10;
+		rodY = y - 32;
 		bobberShake = true;
 		break;
 		
 		case sprLeftAnim:
 		switch (floor(image_index))
 		{
+			case 0:
+			rodX = x + 12;
+			rodY = y - 19;
+			break;
+			
+			case 1:
+			rodX = x + 8;
+			rodY = y - 31;
+			break;
+			
 			default:
 			rodX = x + 9;
 			rodY = y - 31;
@@ -154,8 +194,8 @@ function scr_KSW_Player_Elfilin_State_Normal_Step()
 		break;
 		
 		case sprRight:
-		rodX = x + 34;
-		rodY = y - 12;
+		rodX = x + 28;
+		rodY = y - 10;
 		bobberShake = true;
 		break;
 		
@@ -163,18 +203,18 @@ function scr_KSW_Player_Elfilin_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 33;
-			rodY = y - 19;
+			rodX = x + 28;
+			rodY = y - 17;
 			break;
 			
 			case 1:
-			rodX = x + 39;
-			rodY = y - 14;
+			rodX = x + 32;
+			rodY = y - 12;
 			break;
 			
 			default:
-			rodX = x + 34;
-			rodY = y - 12;
+			rodX = x + 28;
+			rodY = y - 10;
 			break;
 		}
 		bobberShake = true;
