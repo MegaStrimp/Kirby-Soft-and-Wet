@@ -5,6 +5,9 @@ text = "";
 textWave = 0;
 textAlpha = 0;
 textAlphaTarget = 1;
+textAlphaSpd = .05;
+halign = fa_left;
+valign = fa_top;
 
 destroyTimer = 600;
 

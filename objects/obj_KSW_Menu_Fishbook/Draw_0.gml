@@ -142,7 +142,12 @@ if (!isZoomed)
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("Y"))];
 	if (targetIcon != undefined) shinyIcon = "[" + sprite_get_name(targetIcon) + "]";
 	
+	var sortIcon = "";
+	var targetIcon = global.UI_IconBindings[? string(input_binding_get("LT"))];
+	if (targetIcon != undefined) sortIcon = "[" + sprite_get_name(targetIcon) + "]";
+	
 	scribble(exitIcon + "EXIT").draw(4,room_height - 16 + (2 * (buttonInputTimerComponent_BTimer != -1)));
+	scribble(sortIcon + "SORT").align(fa_left,fa_bottom).draw(4,16 - hintOffset + (2 * (buttonInputTimerComponent_LTTimer != -1)));
 	
 	if ((global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
 	{

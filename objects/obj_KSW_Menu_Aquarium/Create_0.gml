@@ -57,7 +57,10 @@ for (var i = 0; i < global.KSW_FishCount; i++)
 
 ds_list_shuffle(fishList);
 
-for (var i = 0; i < min(ds_list_size(fishList),maxFishCount); i++)
+var loopLength = min(ds_list_size(fishList),maxFishCount);
+isFull = (loopLength == maxFishCount);
+
+for (var i = 0; i < loopLength; i++)
 {
 	fishCount += 1;
 	
@@ -69,7 +72,7 @@ for (var i = 0; i < min(ds_list_size(fishList),maxFishCount); i++)
 		catchAudio = global.KSW_FishList[fishID].catchAudio;
 		catchAudioPitchOffset = global.KSW_FishList[fishID].catchAudioPitchOffset;
 		
-		if (catchAudio != -1) soundTimer = irandom_range(soundTimerMax,soundTimerMax * 5);
+		if (catchAudio != -1) soundTimer = irandom_range(0,soundTimerMax * 5);
 		
 		palSprite = global.KSW_FishList[fishID].palette;
 		isShiny = ds_list_find_value(other.fishList,i).shiny;

@@ -48,5 +48,17 @@ selectionNumber = sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
 scr_KSW_Menu_Component_CreateSelectionList(global.KSW_FishCount);
 
 scr_KSW_Menu_Fishbook_CalibMode_Setup();
+
+sortIndex = 1;
+
+sortList = ds_list_create();
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Default);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Rarity);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Series);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Stage);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Phase);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Gram);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Caught);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Shiny);
 #endregion
 #endregion

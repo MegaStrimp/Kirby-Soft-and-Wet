@@ -51,6 +51,15 @@ if (canSelect)
 			scr_KSW_Menu_Component_SwitchPage_R();
 		}
 		
+		if ((input_check_pressed("LT",playerNum)) or ((scr_MouseIsInbetween(4,4,43,16)) and (mouse_check_button_pressed(mb_left))))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			
+			script_execute(ds_list_find_value(sortList,sortIndex));
+			
+			sortIndex = (sortIndex + 1) % ds_list_size(sortList);
+		}
+		
 		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0))
 		{
 			scr_PlaySfx(snd_KSW_ButtonYes);
