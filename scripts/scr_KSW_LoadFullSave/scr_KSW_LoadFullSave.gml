@@ -16,7 +16,7 @@ function scr_KSW_LoadFullSave()
 		#region Spray Paint Status
 		global.KSW_UnlockedSprayPaintCount[i] = 0;
 		
-		for (var j = 0; j < ds_map_size(global.KSW_SprayPaintIDs); j++)
+		for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
 		{
 			global.KSW_CharacterList[i].sprayPaints[j].isUnlocked = true;
 			
@@ -27,7 +27,7 @@ function scr_KSW_LoadFullSave()
 		#region Hat Status
 		global.KSW_UnlockedHatCount[i] = 0;
 		
-		for (var j = 0; j < ds_map_size(global.KSW_HatIDs); j++)
+		for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++)
 		{
 			global.KSW_CharacterList[i].hats[j].isUnlocked = true;
 			
@@ -72,6 +72,7 @@ function scr_KSW_LoadFullSave()
 	{
 		global.KSW_StageList[i].isAvailable = true;
 		global.KSW_StageList[i].isUnlocked = true;
+		global.KSW_StageList[i].fishCount = 0;
 		
 		global.KSW_AvailableStageCount += 1;
 		global.KSW_UnlockedStageCount += 1;
@@ -88,6 +89,8 @@ function scr_KSW_LoadFullSave()
 		
 		global.KSW_CaughtUniqueFishCount += 1;
 		global.KSW_CaughtShinyFishCount += 1;
+		
+		global.KSW_StageList[global.KSW_FishList[i].stage].fishCount += 1;
 	}
 	#endregion
 	

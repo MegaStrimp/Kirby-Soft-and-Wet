@@ -60,6 +60,8 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("pacMan","Pac-Man");
 	scr_KSW_AddSeries("superSmashBros","Super Smash Bros");
 	scr_KSW_AddSeries("rayman","Rayman");
+	scr_KSW_AddSeries("spaceInvaders","Space Invaders");
+	scr_KSW_AddSeries("amongUs","Among Us");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }

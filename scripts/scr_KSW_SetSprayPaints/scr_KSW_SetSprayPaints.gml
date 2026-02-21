@@ -3,7 +3,6 @@
 function scr_KSW_SetSprayPaints()
 {
 	#region Setup
-	global.KSW_TotalSprayPaintCount = 0;
 	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++) global.KSW_SprayPaintCount[i] = 0;
 	
 	global.KSW_SprayPaintIDs = ds_map_create();
@@ -89,6 +88,17 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "CoralBreeze",playerID,"Coral Breeze",spr_KSW_Player_Kirby_SprayPaint_CoralBreeze,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Crunchy",playerID,"Crunchy",spr_KSW_Player_Kirby_SprayPaint_Crunchy,glimmer,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Missing",playerID,"[blink]MISSINGNO[/blink]",spr_KSW_Player_Kirby_SprayPaint_Missing,flux,75);
+	#endregion
+	
+	#region Elfilin
+	var playerID = "elfilin";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Peacock",playerID,"Peacock",spr_KSW_Player_Elfilin_SprayPaint_Peacock,mage,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Forgo",playerID,"Forgo",spr_KSW_Player_Elfilin_SprayPaint_Forgo,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Chaos",playerID,"Chaos",spr_KSW_Player_Elfilin_SprayPaint_Chaos,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "KirbyPink",playerID,"Kirby Pink",spr_KSW_Player_Elfilin_SprayPaint_KirbyPink,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Leongar",playerID,"Leongar",spr_KSW_Player_Elfilin_SprayPaint_Leongar,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Phantom",playerID,"Phantom",spr_KSW_Player_Elfilin_SprayPaint_Phantom,flux,75);
 	#endregion
 	#endregion
 }

@@ -53,7 +53,7 @@ function scr_KSW_SaveData(file)
 		if (global.KSW_CharacterList[i].isUnlocked != false) ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
 		
 		#region Spray Paint Status
-		for (var j = 0; j < ds_map_size(global.KSW_SprayPaintIDs); j++)
+		for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
 		{
 			var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
 			
@@ -62,7 +62,7 @@ function scr_KSW_SaveData(file)
 		#endregion
 		
 		#region Hat Status
-		for (var j = 0; j < ds_map_size(global.KSW_HatIDs); j++)
+		for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++)
 		{
 			var hatID = global.KSW_CharacterList[i].hats[j].ID;
 		

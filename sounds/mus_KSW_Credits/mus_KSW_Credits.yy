@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":1,
-  "duration":461.448,
+  "duration":461.44803,
   "exportDir":"",
   "name":"mus_KSW_Credits",
   "parent":{

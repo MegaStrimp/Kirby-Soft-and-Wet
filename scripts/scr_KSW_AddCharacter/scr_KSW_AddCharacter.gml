@@ -1,6 +1,6 @@
 ///@description KSW - Add Character
 
-function scr_KSW_AddCharacter(targetID,targetName,targetIcon,targetSetupScript,targetIsDefault = false)
+function scr_KSW_AddCharacter(targetID,targetName,targetIcon,targetSetupScript,targetPrice,targetSprayCanSprite,targetIsDefault = false)
 {
 	ds_map_add(global.KSW_CharacterIDs,targetID,global.KSW_CharacterCount);
 	
@@ -10,6 +10,8 @@ function scr_KSW_AddCharacter(targetID,targetName,targetIcon,targetSetupScript,t
 		name: targetName,
 		icon: targetIcon,
 		setupScript: targetSetupScript,
+		price: targetPrice,
+		sprayCanSprite: targetSprayCanSprite,
 		isDefault: targetIsDefault,
 		isUnlocked: false,
 		

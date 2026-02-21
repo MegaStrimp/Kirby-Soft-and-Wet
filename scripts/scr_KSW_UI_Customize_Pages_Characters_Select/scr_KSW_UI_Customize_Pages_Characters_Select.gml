@@ -10,10 +10,13 @@ function scr_KSW_UI_Customize_Pages_Characters_Select()
 		
 		global.playerCharacter[playerNum] = ds_list_find_value(selectionList,selection);
 		
-		if (switchCharacter)
+		with (obj_Player)
 		{
-			var targetSetupScript = global.KSW_CharacterList[global.playerCharacter[playerNum]].setupScript;
-			if (targetSetupScript != undefined) script_execute(targetSetupScript);
+			if (switchCharacter)
+			{
+				var targetSetupScript = global.KSW_CharacterList[global.playerCharacter[playerNum]].setupScript;
+				if (targetSetupScript != undefined) script_execute(targetSetupScript);
+			}
 		}
 	}
 	else

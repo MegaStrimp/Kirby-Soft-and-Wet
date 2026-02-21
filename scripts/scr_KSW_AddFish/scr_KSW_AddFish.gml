@@ -66,6 +66,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
         catchScript: targetCatchScript,
         catchAudio: targetCatchAudio,
         catchAudioPitchOffset: targetCatchAudioPitchOffset,
+		spriteIsOriginal: false,
 		isCaught: 0,
 		isCaughtShiny: 0
     };
@@ -74,6 +75,8 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
 	
 	global.KSW_FishRarity[targetRarity] += 1;
 	global.KSW_FishTime[targetRarity] += 1;
+	
+	if (targetStage != -1) global.KSW_StageList[targetStage].fishCountMax += 1;
 	
 	return global.KSW_FishList[global.KSW_FishIDs[? targetName]];
 }

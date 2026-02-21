@@ -72,5 +72,7 @@ function scr_KSW_Player_Kirby_Setup()
 	sprBobberImageIndex = 0;
 	sprBobberSpeed = 0;
 	sprBobberImageNumber = 0;
+	
+	scr_ChangeSprite(sprReady);
 	#endregion
 }

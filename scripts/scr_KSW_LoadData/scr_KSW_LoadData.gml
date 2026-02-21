@@ -67,7 +67,7 @@ function scr_KSW_LoadData(file,importFile = false)
 		#region Spray Paint Status
 		global.KSW_UnlockedSprayPaintCount[i] = 0;
 		
-		for (var j = 0; j < ds_map_size(global.KSW_SprayPaintIDs); j++)
+		for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
 		{
 			var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
 			
@@ -83,7 +83,7 @@ function scr_KSW_LoadData(file,importFile = false)
 		#region Hat Status
 		global.KSW_UnlockedHatCount[i] = 0;
 		
-		for (var j = 0; j < ds_map_size(global.KSW_HatIDs); j++)
+		for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++)
 		{
 			var hatID = global.KSW_CharacterList[i].hats[j].ID;
 			
@@ -154,6 +154,8 @@ function scr_KSW_LoadData(file,importFile = false)
 		
 		if (stageIsAvailable) global.KSW_AvailableStageCount += 1;
 		if (stageIsUnlocked) global.KSW_UnlockedStageCount += 1;
+		
+		global.KSW_StageList[i].fishCount = 0;
 	}
 	#endregion
 	
@@ -171,7 +173,11 @@ function scr_KSW_LoadData(file,importFile = false)
 		global.KSW_FishList[i].isCaught = fishIsCaught;
 		global.KSW_FishList[i].isCaughtShiny = fishIsCaughtShiny;
 		
-		if (fishIsCaught) global.KSW_CaughtUniqueFishCount += 1;
+		if (fishIsCaught)
+		{
+			global.KSW_CaughtUniqueFishCount += 1;
+			if (global.KSW_FishList[i].stage != -1) global.KSW_StageList[global.KSW_FishList[i].stage].fishCount += 1;
+		}
 		if (fishIsCaughtShiny) global.KSW_CaughtShinyFishCount += 1;
 	}
 	#endregion

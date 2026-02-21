@@ -76,7 +76,7 @@ function scr_KSW_UI_Customize_Pages_SprayPaints_Draw()
 			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(true,c_black,0,0);
 			if ((global.shaders) and (global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[ds_list_find_value(selectionList,i)].isUnlocked)) pal_swap_set(spriteIndex,1,false);
 			//draw_sprite(spriteIndex,0,boxX + 14,boxY + 14);
-			draw_sprite(spr_KSW_UI_Customize_Spray,0,boxX + 14,boxY + 14);
+			draw_sprite(global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayCanSprite,0,boxX + 14,boxY + 14);
 			if ((global.shaders) and (global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[ds_list_find_value(selectionList,i)].isUnlocked)) pal_swap_reset();
 			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(false,c_black,0,0);
 		}
