@@ -229,7 +229,14 @@ if (!localPause)
 				catchInput_LeftTriggered = false;
 				catchInput_RightTriggered = false;
 				
-				catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+				if (global.KSW_Gamemode == KSW_Gamemodes.normal)
+				{
+					catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+				}
+				else
+				{
+					catchInput_NextLineTimer = irandom_range(catchInput_NextLineTimerEMin,catchInput_NextLineTimerEMax);
+				}
 				
 				failTimer = -1;
 				
@@ -595,6 +602,7 @@ if (!localPause)
 				
 				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(playerNum,global.KSW_FishList[currentFish].rarity);
 				catchInput_CurrentLineMax = array_length(catchInput_CurrentList);
+				if (global.KSW_Gamemode == KSW_Gamemodes.emeraldRush) catchInput_CurrentLineMax = 999;
 				catchInput_SoundCount = -1;
 				catchInput_NextLineTimer = 0;
 				
@@ -615,9 +623,16 @@ if (!localPause)
 				
 				if (catchInput_CurrentLine != catchInput_CurrentLineMax)
 				{
-					var line = catchInput_CurrentList[catchInput_CurrentLine];
-						
-					failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - 1) * failTimerMin));
+					if (global.KSW_Gamemode == KSW_Gamemodes.normal)
+					{
+						var line = catchInput_CurrentList[catchInput_CurrentLine];
+						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - 1) * failTimerMin));
+					}
+					else
+					{
+						var line = choose(KSW_CatchInputList.up,KSW_CatchInputList.down,KSW_CatchInputList.left,KSW_CatchInputList.right,KSW_CatchInputList.wait);
+						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - .2) * failTimerMin));
+					}
 					
 					switch (line)
 					{
@@ -662,7 +677,14 @@ if (!localPause)
 						break;
 						
 						case KSW_CatchInputList.wait:
-						catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+						if (global.KSW_Gamemode == KSW_Gamemodes.normal)
+						{
+							catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+						}
+						else
+						{
+							catchInput_NextLineTimer = irandom_range(catchInput_NextLineTimerEMin,catchInput_NextLineTimerEMax);
+						}
 						break;
 					}
 				}
@@ -762,22 +784,25 @@ if (!localPause)
 		#endregion
 		
 		#region Phase Timer
-		if (phaseTimer != -1)
+		if (global.KSW_Gamemode == KSW_Gamemodes.normal)
 		{
-			phaseTimer = max(phaseTimer - speedMultFinal,0);
-			if ((phaseTimer == 0) and (!canOffset) and (state == KSW_GameStates.idle))
+			if (phaseTimer != -1)
 			{
-				var targetPhase = scr_KSW_Game_UpdatePhase();
-				if (global.KSW_CurrentPhase != targetPhase)
+				phaseTimer = max(phaseTimer - speedMultFinal,0);
+				if ((phaseTimer == 0) and (!canOffset) and (state == KSW_GameStates.idle))
 				{
-					var phaseShifter = instance_create_depth(0,0,0,obj_KSW_PhaseShifter);
-					with (phaseShifter)
+					var targetPhase = scr_KSW_Game_UpdatePhase();
+					if (global.KSW_CurrentPhase != targetPhase)
 					{
-						phase = targetPhase;
+						var phaseShifter = instance_create_depth(0,0,0,obj_KSW_PhaseShifter);
+						with (phaseShifter)
+						{
+							phase = targetPhase;
+						}
 					}
+					
+					phaseTimer = phaseTimerMax;
 				}
-				
-				phaseTimer = phaseTimerMax;
 			}
 		}
 		#endregion

@@ -42,6 +42,8 @@ catchInput_Sfx = [snd_KSW_CatchInput1,snd_KSW_CatchInput2,snd_KSW_CatchInput3,sn
 catchInput_SfxIndex = 0;
 catchInput_NextLineTimer = -1;
 catchInput_NextLineTimerMax = 60;
+catchInput_NextLineTimerEMin = 2;
+catchInput_NextLineTimerEMax = 30;
 catchInput_UpTriggered = false;
 catchInput_DownTriggered = false;
 catchInput_LeftTriggered = false;
@@ -73,6 +75,7 @@ failTimer = -1;
 failTimerTarget = -1;
 failTimerMax = 150;
 failTimerMin = 10;
+failTimerEMin = 20;
 
 failTimerBarTextureX = 0;
 failTimerBarTextureWidth = 16;

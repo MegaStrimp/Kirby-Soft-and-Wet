@@ -52,6 +52,7 @@ for (var i = 0; i < global.maxPlayers; i++)
 	}
 }
 
+global.KSW_Gamemode = KSW_Gamemodes.normal;
 global.KSW_PopupQueue = ds_list_create();
 global.KSW_UnlockedCharacterCount = 0;
 global.KSW_UnlockedBobberCount = 0;
@@ -96,6 +97,14 @@ enum KSW_Phases
 	day,
 	afternoon,
 	night
+}
+#endregion
+
+#region Gamemodes
+enum KSW_Gamemodes
+{
+	normal,
+	emeraldRush
 }
 #endregion
 #endregion
