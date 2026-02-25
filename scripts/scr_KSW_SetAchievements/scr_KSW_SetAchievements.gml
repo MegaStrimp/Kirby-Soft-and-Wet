@@ -131,20 +131,20 @@ function scr_KSW_SetAchievements()
 	scr_KSW_AddAchievement("combo100","True Hawkeye","Catch 100 Fish Without Failing",spr_KSW_Achievement_Icon_TrueHawkeye,achievementUnlockMethod,global.KSW_BobberIDs[? "starry"]);
 	#endregion
 	
-	#region Collect 20 Unique Fish
+	#region Collect 30 Percent of Unique Fish
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_CaughtUniqueFishCount >= 20);
+		return (global.KSW_CaughtUniqueFishCount >= floor(global.KSW_FishCount / 3));
 	};
-	scr_KSW_AddAchievement("catchUnique20","Hobbyist","Collect 20 Unique Fish",spr_KSW_Achievement_Icon_Hobbyist,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchUnique20","Hobbyist","Collect 30 Percent of Unique Fish",spr_KSW_Achievement_Icon_Hobbyist,achievementUnlockMethod);
 	#endregion
 	
-	#region Collect 100 Unique Fish
+	#region Collect 50 Percent of Unique Fish
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_CaughtUniqueFishCount >= 100);
+		return (global.KSW_CaughtUniqueFishCount >= floor(global.KSW_FishCount / 2));
 	};
-	scr_KSW_AddAchievement("catchUnique100","Collector","Collect 100 Unique Fish",spr_KSW_Achievement_Icon_Collector,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchUnique100","Collector","Collect 50 Percent of Unique Fish",spr_KSW_Achievement_Icon_Collector,achievementUnlockMethod);
 	#endregion
 	
 	#region Collect All Unique Fishes
@@ -152,7 +152,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtUniqueFishCount >= global.KSW_FishCount);
 	};
-	scr_KSW_AddAchievement("catchUniqueAll","Completionist","Collect All Unique Fish",spr_KSW_Achievement_Icon_Completionist,achievementUnlockMethod,global.KSW_BobberIDs[? "rainbowDrop"]);
+	scr_KSW_AddAchievement("catchUniqueAll","Completionist","Collect All Unique Fishes",spr_KSW_Achievement_Icon_Completionist,achievementUnlockMethod,global.KSW_BobberIDs[? "rainbowDrop"]);
 	#endregion
 	
 	#region Collect All Shinies

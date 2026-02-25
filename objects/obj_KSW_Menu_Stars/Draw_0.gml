@@ -60,6 +60,10 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 }
 #endregion
 
+#region Playtime
+scribble("Played for " + string(global.timePlayed_Hours) + ":" + string(global.timePlayed_Minutes) + ":" + string(global.timePlayed_Seconds)).align(fa_right).draw(global.gameWidth - 4,146);
+#endregion
+
 #region Button Hints
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("L"))];
 if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Left;
