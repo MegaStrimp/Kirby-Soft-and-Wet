@@ -46,7 +46,7 @@ if (canSelect)
 		}
 	}
 	
-	if ((scr_MouseIsInbetween(182,114,235,156)) and (mouse_check_button_pressed(mb_left))) settingPressed = true;
+	if ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))) settingPressed = true;
 	
 	if ((targetKey == "") and ((input_check_pressed("B",playerNum)) or (keyboard_check_pressed(vk_escape))) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 	{

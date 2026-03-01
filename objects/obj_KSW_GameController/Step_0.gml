@@ -7,7 +7,7 @@ if (!localPause)
 		#region Exit To Menu
 		if (canGoToMenu)
 		{
-			if (input_check_pressed("B",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(4,114,43,156)) and (mouse_check_button_pressed(mb_left))))
+			if (input_check_pressed("B",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				scr_PlaySfx(snd_KSW_ButtonNo);
 				
@@ -21,7 +21,7 @@ if (!localPause)
 		#region Exit To Fishbook
 		if (canGoToFishbook)
 		{
-			if (input_check_pressed("Y",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(168,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+			if (input_check_pressed("Y",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(168,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				scr_PlaySfx(snd_KSW_ButtonYes);
 				
@@ -35,7 +35,7 @@ if (!localPause)
 		#region Open Customize
 		if (canOpenCustomize)
 		{
-			if (input_check_pressed("X",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(83,114,157,156)) and (mouse_check_button_pressed(mb_left))))
+			if (input_check_pressed("X",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(83,144,157,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				scr_PlaySfx(snd_KSW_ButtonYes);
 				
@@ -104,7 +104,7 @@ if (!localPause)
 			break;
 			
 			case KSW_GameStates.waiting:
-			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,114,64,156)) and (mouse_check_button_pressed(mb_left))))
+			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				findFishTimer = -1;
 				state = KSW_GameStates.idle_Ready;
@@ -120,7 +120,7 @@ if (!localPause)
 			var success = false;
 			var failed = false;
 			
-			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,114,64,156)) and (mouse_check_button_pressed(mb_left))))
+			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				failed = true;
 				mousePressed = true;
@@ -586,7 +586,7 @@ if (!localPause)
 				
 				state = KSW_GameStates.catching;
 				
-				var pityRate = 3;
+				var pityRate = 6;
 				for (var i = 0; i < pityRate; i++)
 				{
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];

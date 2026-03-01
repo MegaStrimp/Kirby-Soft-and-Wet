@@ -112,7 +112,7 @@ if (canSelect)
 	switch (global.KSW_MainMenuSelection)
 	{
 		case KSW_MainMenu_Buttons.settings:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -121,7 +121,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.stars:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -130,7 +130,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.startFishing:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -139,7 +139,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.fishbook:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -148,7 +148,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.aquarium:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -157,7 +157,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.discord:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,114,235,156)) and (mouse_check_button_pressed(mb_left))))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
