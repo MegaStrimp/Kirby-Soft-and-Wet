@@ -2,6 +2,11 @@
 
 function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targetCaughtBoxPalette,targetRarity,targetStage,targetPhase,targetGram,targetXOffset = 0,targetYOffset = 0,targetCatchScript = -1,targetCatchAudio = -1,targetCatchAudioPitchOffset = .15,targetGramOffset = -1)
 {
+	if (global.debug)
+	{
+		if (ds_map_exists(global.KSW_FishIDs,targetName)) scr_Debug_WriteLog("Duplicate Fish Found - " + string(targetName));
+	}
+	
 	if (targetGramOffset == -1) targetGramOffset = floor(targetGram / 5);
 	targetRarity = clamp(targetRarity,0,3);
 	

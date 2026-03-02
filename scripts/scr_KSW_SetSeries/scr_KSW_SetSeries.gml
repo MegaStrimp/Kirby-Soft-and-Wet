@@ -62,6 +62,9 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("rayman","Rayman");
 	scr_KSW_AddSeries("spaceInvaders","Space Invaders");
 	scr_KSW_AddSeries("amongUs","Among Us");
+	scr_KSW_AddSeries("katatsumuri","Katatsumuri");
+	scr_KSW_AddSeries("animalCrossing","Animal Crossing");
+	scr_KSW_AddSeries("helloKitty","Hello Kitty");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }

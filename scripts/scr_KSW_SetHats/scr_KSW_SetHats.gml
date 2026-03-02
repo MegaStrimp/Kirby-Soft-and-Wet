@@ -36,6 +36,7 @@ function scr_KSW_SetHats()
 	var playerID = "elfilin";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "FectoHorns",playerID,"Fecto Horns",spr_KSW_Player_Elfilin_Hat_FectoHorns_Ready,scr_KSW_Player_Elfilin_Hat_FectoHorns_SpriteSet(),glimmer,100,0,14);
 	#endregion
 	#endregion
 }

@@ -48,8 +48,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"1.2",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2.yy",
+    "name":"Kata",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Kata.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
