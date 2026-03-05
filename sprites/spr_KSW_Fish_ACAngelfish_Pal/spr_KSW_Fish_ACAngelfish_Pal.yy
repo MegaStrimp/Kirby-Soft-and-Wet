@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_ACAngelfish_Pal",
   "bboxMode":0,
-  "bbox_bottom":29,
+  "bbox_bottom":30,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -24,7 +24,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":30,
+  "height":31,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"9946a5d6-6504-45a0-bd83-f55f7ffcf3e6","blendMode":0,"displayName":"default","isLocked":false,"name":"9946a5d6-6504-45a0-bd83-f55f7ffcf3e6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
