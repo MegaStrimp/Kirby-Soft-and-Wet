@@ -65,6 +65,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("katatsumuri","Katatsumuri");
 	scr_KSW_AddSeries("animalCrossing","Animal Crossing");
 	scr_KSW_AddSeries("helloKitty","Hello Kitty");
+	scr_KSW_AddSeries("happyAppy","Happy Appy");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
