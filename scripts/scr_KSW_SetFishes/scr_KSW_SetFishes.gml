@@ -772,7 +772,7 @@ function scr_KSW_SetFishes()
 	#region 1.2
 	scr_KSW_AddFish("Kata",spr_KSW_Fish_Kata,spr_KSW_Fish_Kata_Pal,series_Katatsumuri,mint,3,grassBeach,KSW_Phases.none,50000,0,9);
 	scr_KSW_AddFish("Rusty Helm",spr_KSW_Fish_RustyHelm,spr_KSW_Fish_RustyHelm_Pal,series_Deirdre,glimmer,2,hallowReen,KSW_Phases.none,25000,0,1);
-	scr_KSW_AddFish("Happy Appy",spr_KSW_Fish_HappyAppy,spr_KSW_Fish_HappyAppy_Pal,series_HappyAppy,candy,3,hallowReen,KSW_Phases.none,66666,20,75);
+	scr_KSW_AddFish("Happy Appy",spr_KSW_Fish_HappyAppy,spr_KSW_Fish_HappyAppy_Pal,series_HappyAppy,candy,3,hallowReen,KSW_Phases.none,66666,20,75,,snd_KSW_Fish_HappyAppy);
 	scr_KSW_AddFish("Bitterling",spr_KSW_Fish_Bitterling,spr_KSW_Fish_Bitterling_Pal,series_AnimalCrossing,glimmer,2,creamCrevasse,KSW_Phases.day,900,-4,4);
 	scr_KSW_AddFish("Pale Chub",spr_KSW_Fish_PaleChub,spr_KSW_Fish_PaleChub_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.afternoon,200,-6,6);
 	scr_KSW_AddFish("Crucian Carp",spr_KSW_Fish_CrucianCarp,spr_KSW_Fish_CrucianCarp_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,160,-8,4);
