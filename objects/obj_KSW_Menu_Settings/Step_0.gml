@@ -155,7 +155,7 @@ if (canSelect)
 		#endregion
 		
 		case 4:
-		#region Fullscreen
+		#region Shaders
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
 		{
 			if ((!global.isMobile) and (!global.isOpera))
