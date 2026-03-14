@@ -92,6 +92,8 @@ if ((keyboard_check_pressed(vk_f4)) or ((keyboard_check(vk_alt)) and (keyboard_c
 {
 	global.fullscreen = !global.fullscreen;
 	window_set_fullscreen(global.fullscreen);
+	
+	scr_Screen_Setup(global.gameWidth,global.gameHeight,global.windowScaleTarget);
 }
 #endregion
 
