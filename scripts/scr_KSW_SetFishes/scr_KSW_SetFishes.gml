@@ -1021,11 +1021,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("WF Octopus",spr_KSW_Fish_WFOctopus,spr_KSW_Fish_WFOctopus_Pal,series_Webfishing,candy,1,grassBeach,KSW_Phases.none,2150);
 	scr_KSW_AddFish("Oyster",spr_KSW_Fish_Oyster,spr_KSW_Fish_Oyster_Pal,series_Webfishing,candy,0,grassBeach,KSW_Phases.none,1020);
 	scr_KSW_AddFish("Sawfish",spr_KSW_Fish_Sawfish,spr_KSW_Fish_Sawfish_Pal,series_Webfishing,candy,0,grassBeach,KSW_Phases.none,3180);
-	scr_KSW_AddFish("Seahorse",spr_KSW_Fish_Seahorse,spr_KSW_Fish_Seahorse_Pal,series_Webfishing,candy,1,grassBeach,KSW_Phases.none,1790);
+	scr_KSW_AddFish("WF Seahorse",spr_KSW_Fish_WFSeahorse,spr_KSW_Fish_WFSeahorse_Pal,series_Webfishing,candy,1,grassBeach,KSW_Phases.none,1790);
 	scr_KSW_AddFish("Sea Turtle",spr_KSW_Fish_SeaTurtle,spr_KSW_Fish_SeaTurtle_Pal,series_Webfishing,candy,2,grassBeach,KSW_Phases.none,6740);
 	scr_KSW_AddFish("WF Shrimp",spr_KSW_Fish_WFShrimp,spr_KSW_Fish_WFShrimp_Pal,series_Webfishing,candy,0,grassBeach,KSW_Phases.none,740);
 	scr_KSW_AddFish("WF Squid",spr_KSW_Fish_WFSquid,spr_KSW_Fish_WFSquid_Pal,series_Webfishing,candy,2,grassBeach,KSW_Phases.none,6740);
-	scr_KSW_AddFish("Sting Ray",spr_KSW_Fish_StingRay,spr_KSW_Fish_StingRay_Pal,series_Webfishing,candy,1,grassBeach,KSW_Phases.none,2150);
+	scr_KSW_AddFish("WF Sting Ray",spr_KSW_Fish_WFStingRay,spr_KSW_Fish_WFStingRay_Pal,series_Webfishing,candy,1,grassBeach,KSW_Phases.none,2150);
 	scr_KSW_AddFish("WF Sunfish",spr_KSW_Fish_WFSunfish,spr_KSW_Fish_WFSunfish_Pal,series_Webfishing,candy,0,grassBeach,KSW_Phases.none,1940);
 	scr_KSW_AddFish("Swordfish",spr_KSW_Fish_Swordfish,spr_KSW_Fish_Swordfish_Pal,series_Webfishing,candy,1,grassBeach,KSW_Phases.none,1960);
 	scr_KSW_AddFish("WF Tuna",spr_KSW_Fish_WFTuna,spr_KSW_Fish_WFTuna_Pal,series_Webfishing,candy,0,grassBeach,KSW_Phases.none,1200);
