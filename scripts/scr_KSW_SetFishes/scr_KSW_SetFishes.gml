@@ -1055,7 +1055,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Astral Jelly",spr_KSW_Fish_AstralJelly,spr_KSW_Fish_AstralJelly_Pal,series_CoreKeeper,candy,2,grassBeach,KSW_Phases.none,160);
 	scr_KSW_AddFish("Mold Shark",spr_KSW_Fish_MoldShark,spr_KSW_Fish_MoldShark_Pal,series_CoreKeeper,candy,0,hallowReen,KSW_Phases.none,100);
 	scr_KSW_AddFish("Rot Fish",spr_KSW_Fish_RotFish,spr_KSW_Fish_RotFish_Pal,series_CoreKeeper,candy,1,hallowReen,KSW_Phases.none,130);
-	scr_KSW_AddFish("Black Steel Urchin",spr_KSW_FishBlackSteelUrchin,spr_KSW_Fish_BlackSteelUrchin_Pal,series_CoreKeeper,candy,2,hallowReen,KSW_Phases.none,160);
+	scr_KSW_AddFish("Black Steel Urchin",spr_KSW_Fish_BlackSteelUrchin,spr_KSW_Fish_BlackSteelUrchin_Pal,series_CoreKeeper,candy,2,hallowReen,KSW_Phases.none,160);
 	scr_KSW_AddFish("Bottom Tracer",spr_KSW_Fish_BottomTracer,spr_KSW_Fish_BottomTracer_Pal,series_CoreKeeper,candy,0,grassBeach,KSW_Phases.none,100);
 	scr_KSW_AddFish("Silver Dart",spr_KSW_Fish_SilverDart,spr_KSW_Fish_SilverDart_Pal,series_CoreKeeper,candy,1,grassBeach,KSW_Phases.afternoon,100);
 	scr_KSW_AddFish("Golden Dart",spr_KSW_Fish_GoldenDart,spr_KSW_Fish_GoldenDart_Pal,series_CoreKeeper,candy,1,grassBeach,KSW_Phases.day,100);

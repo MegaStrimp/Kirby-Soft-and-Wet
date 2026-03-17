@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_GreenhornPico",
   "bboxMode":0,
-  "bbox_bottom":119,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":68,
-  "bbox_top":0,
+  "bbox_right":15,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d94b7143-2f9e-49d7-9334-7e37ea6cd408","name":"d94b7143-2f9e-49d7-9334-7e37ea6cd408","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eedf1647-da86-4fd4-86c1-d00ba6bbe8be","name":"eedf1647-da86-4fd4-86c1-d00ba6bbe8be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":120,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9f7b6c20-f92c-4973-b1e0-538f35479ce5","blendMode":0,"displayName":"default","isLocked":false,"name":"9f7b6c20-f92c-4973-b1e0-538f35479ce5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9194e783-c7f7-4a2e-bedb-05de266bd649","blendMode":0,"displayName":"default","isLocked":false,"name":"9194e783-c7f7-4a2e-bedb-05de266bd649","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_GreenhornPico",
   "nineSlice":null,
@@ -74,14 +74,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d94b7143-2f9e-49d7-9334-7e37ea6cd408","path":"sprites/spr_KSW_Fish_GreenhornPico/spr_KSW_Fish_GreenhornPico.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a70d514a-7582-4733-b426-ed7529647868","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eedf1647-da86-4fd4-86c1-d00ba6bbe8be","path":"sprites/spr_KSW_Fish_GreenhornPico/spr_KSW_Fish_GreenhornPico.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0ea717cf-9a41-47b0-9283-101ffafb10d7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":34,
-    "yorigin":60,
+    "xorigin":8,
+    "yorigin":8,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +91,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":69,
+  "width":16,
 }

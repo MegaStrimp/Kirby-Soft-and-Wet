@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_CrownSquid",
   "bboxMode":0,
-  "bbox_bottom":119,
-  "bbox_left":0,
-  "bbox_right":68,
-  "bbox_top":0,
+  "bbox_bottom":14,
+  "bbox_left":1,
+  "bbox_right":15,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d94b7143-2f9e-49d7-9334-7e37ea6cd408","name":"d94b7143-2f9e-49d7-9334-7e37ea6cd408","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f02314d-40b5-432d-b962-69ff54e3151c","name":"7f02314d-40b5-432d-b962-69ff54e3151c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":120,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9f7b6c20-f92c-4973-b1e0-538f35479ce5","blendMode":0,"displayName":"default","isLocked":false,"name":"9f7b6c20-f92c-4973-b1e0-538f35479ce5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c41d1f56-bfa4-46e2-a812-00a62b7375a9","blendMode":0,"displayName":"default","isLocked":false,"name":"c41d1f56-bfa4-46e2-a812-00a62b7375a9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_CrownSquid",
   "nineSlice":null,
@@ -74,14 +74,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d94b7143-2f9e-49d7-9334-7e37ea6cd408","path":"sprites/spr_KSW_Fish_CrownSquid/spr_KSW_Fish_CrownSquid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a70d514a-7582-4733-b426-ed7529647868","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f02314d-40b5-432d-b962-69ff54e3151c","path":"sprites/spr_KSW_Fish_CrownSquid/spr_KSW_Fish_CrownSquid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"765bbfe2-02ec-4609-bc39-eadad6769b0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":34,
-    "yorigin":60,
+    "xorigin":8,
+    "yorigin":8,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +91,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":69,
+  "width":16,
 }
