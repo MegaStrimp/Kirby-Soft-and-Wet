@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Carp",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Carp",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Carp.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":22,
-    "yorigin":22,
+    "yorigin":15,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

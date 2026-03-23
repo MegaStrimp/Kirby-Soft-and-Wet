@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_SaddledBichir",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Saddled Bichir",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Saddled Bichir.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":23,
-    "yorigin":12,
+    "yorigin":10,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

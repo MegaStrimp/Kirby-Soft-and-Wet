@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_ACRedSnapper",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"AC Red Snapper",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/AC Red Snapper.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":20,
-    "yorigin":25,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

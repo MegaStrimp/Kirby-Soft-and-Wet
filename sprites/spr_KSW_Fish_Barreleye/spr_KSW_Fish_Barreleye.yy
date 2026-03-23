@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Barreleye",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Barreleye",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Barreleye.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":19,
-    "yorigin":18,
+    "yorigin":13,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

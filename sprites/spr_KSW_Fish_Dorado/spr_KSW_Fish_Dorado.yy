@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Dorado",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Dorado",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Dorado.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":22,
-    "yorigin":14,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

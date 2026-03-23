@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Tadpole",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Tadpole",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Tadpole.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":13,
-    "yorigin":5,
+    "yorigin":6,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

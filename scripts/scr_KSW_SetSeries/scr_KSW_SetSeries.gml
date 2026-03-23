@@ -70,6 +70,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("starbound","Starbound");
 	scr_KSW_AddSeries("webfishing","Webfishing");
 	scr_KSW_AddSeries("coreKeeper","Core Keeper");
+	scr_KSW_AddSeries("waddleDevVsKirbyDarkDawn","Waddle Dev vs Kirby Dark Dawn");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }

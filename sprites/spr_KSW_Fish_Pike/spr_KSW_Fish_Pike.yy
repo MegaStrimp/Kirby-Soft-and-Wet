@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Pike",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Pike",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Pike.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":23,
-    "yorigin":15,
+    "yorigin":11,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

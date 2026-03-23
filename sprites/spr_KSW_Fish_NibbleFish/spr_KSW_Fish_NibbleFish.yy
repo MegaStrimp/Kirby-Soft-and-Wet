@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_NibbleFish",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Nibble Fish",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Nibble Fish.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":18,
-    "yorigin":11,
+    "yorigin":9,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

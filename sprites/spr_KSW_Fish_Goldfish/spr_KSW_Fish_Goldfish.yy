@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Goldfish",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Goldfish",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Goldfish.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":14,
-    "yorigin":17,
+    "yorigin":12,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

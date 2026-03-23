@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_GiantTrevally",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Giant Trevally",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Giant Trevally.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":23,
-    "yorigin":22,
+    "yorigin":15,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

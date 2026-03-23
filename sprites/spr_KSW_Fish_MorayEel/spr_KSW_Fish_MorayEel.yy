@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_MorayEel",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Moray Eel",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Moray Eel.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":18,
-    "yorigin":27,
+    "yorigin":17,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

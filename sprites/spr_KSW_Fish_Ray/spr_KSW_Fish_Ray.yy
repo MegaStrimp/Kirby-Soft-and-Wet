@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Ray",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Ray",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Ray.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":17,
-    "yorigin":35,
+    "yorigin":21,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

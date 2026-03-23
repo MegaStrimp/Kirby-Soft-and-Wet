@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_SnappingTurtle",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Snapping Turtle",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Snapping Turtle.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":17,
-    "yorigin":40,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

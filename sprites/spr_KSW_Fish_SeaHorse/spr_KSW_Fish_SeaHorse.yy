@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_SeaHorse",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Sea Horse",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Sea Horse.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":12,
-    "yorigin":20,
+    "yorigin":14,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

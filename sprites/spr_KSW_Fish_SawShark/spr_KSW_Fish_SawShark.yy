@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_SawShark",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Saw Shark",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Saw Shark.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":22,
-    "yorigin":32,
+    "yorigin":20,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

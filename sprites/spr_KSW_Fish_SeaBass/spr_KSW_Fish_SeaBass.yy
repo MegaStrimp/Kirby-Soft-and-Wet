@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_SeaBass",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Sea Bass",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Sea Bass.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":23,
-    "yorigin":23,
+    "yorigin":15,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

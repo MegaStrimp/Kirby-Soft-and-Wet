@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_BlackBass",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Black Bass",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Black Bass.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":22,
-    "yorigin":18,
+    "yorigin":13,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

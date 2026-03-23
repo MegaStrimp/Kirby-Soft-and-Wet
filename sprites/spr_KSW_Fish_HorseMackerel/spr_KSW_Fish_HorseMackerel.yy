@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_HorseMackerel",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Horse Mackerel",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Horse Mackerel.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":19,
-    "yorigin":15,
+    "yorigin":11,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

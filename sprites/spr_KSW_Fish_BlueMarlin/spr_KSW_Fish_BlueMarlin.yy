@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_BlueMarlin",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Blue Marlin",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Blue Marlin.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":23,
-    "yorigin":31,
+    "yorigin":19,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

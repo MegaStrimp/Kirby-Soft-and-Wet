@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_Dace",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Dace",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Dace.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":21,
-    "yorigin":20,
+    "yorigin":13,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

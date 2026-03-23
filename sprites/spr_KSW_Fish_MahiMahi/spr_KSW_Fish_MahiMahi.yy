@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_MahiMahi",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Mahi-Mahi",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mahi-Mahi.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":23,
-    "yorigin":26,
+    "yorigin":17,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

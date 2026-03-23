@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_Fish_OceanSunfish",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Ocean Sunfish",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Ocean Sunfish.yy",
@@ -81,7 +81,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":20,
-    "yorigin":40,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
