@@ -71,6 +71,7 @@ function scr_KSW_SetFishes()
 	var series_Webfishing = global.KSW_SeriesIDs[? "webfishing"];
 	var series_CoreKeeper = global.KSW_SeriesIDs[? "coreKeeper"];
 	var series_WaddleDevVsKirbyDarkDawn = global.KSW_SeriesIDs[? "waddleDevVsKirbyDarkDawn"];
+	var series_MrMix = global.KSW_SeriesIDs[? "mrMix"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -525,7 +526,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Prankler",spr_KSW_Fish_Prankler,spr_KSW_Fish_Prankler_Pal,series_Kirby,legion,0,grassBeach,KSW_Phases.night,400,0,1);
 	scr_KSW_AddFish("Stirfry",spr_KSW_Fish_Stirfry,spr_KSW_Fish_Stirfry_Pal,series_Kirby,glimmer,1,grassBeach,KSW_Phases.afternoon,750,2,2);
 	scr_KSW_AddFish("Nozzlor",spr_KSW_Fish_Nozzlor,spr_KSW_Fish_Nozzlor_Pal,series_Kirby,mage,1,grassBeach,KSW_Phases.day,1200,-10);
-	scr_KSW_AddFish("Blubby",spr_KSW_FIsh_Blubby,spr_KSW_Fish_Blubby_Pal,series_Kirby,candy,0,grassBeach,KSW_Phases.day,300,0,0,-1,snd_KSW_Bubble1);
+	scr_KSW_AddFish("Blubby",spr_KSW_FIsh_Blubby,spr_KSW_Fish_Blubby_Pal,series_KirbysDreamLand23,candy,0,grassBeach,KSW_Phases.day,300,0,0,-1,snd_KSW_Bubble1);
 	scr_KSW_AddFish("Sweet Stuff",spr_KSW_Fish_SweetStuff,spr_KSW_Fish_SweetStuff_Pal,series_Kirby,borange,2,grassBeach,KSW_Phases.afternoon,25000,-3,8);
 	scr_KSW_AddFish("Azurill",spr_KSW_Fish_Azurill,spr_KSW_Fish_Azurill_Pal,series_Pokemon,mage,0,grassBeach,KSW_Phases.day,300);
 	scr_KSW_AddFish("Marill",spr_KSW_Fish_Marill,spr_KSW_Fish_Marill_Pal,series_Pokemon,mage,1,grassBeach,KSW_Phases.day,1800);
@@ -735,7 +736,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Spook",spr_KSW_Fish_Spook,spr_KSW_Fish_Spook_Pal,series_YoshisIsland,borange,1,hallowReen,KSW_Phases.none,1700);
 	scr_KSW_AddFish("Boo Blah",spr_KSW_Fish_BooBlah,spr_KSW_Fish_BooBlah_Pal,series_YoshisIsland,mage,0,hallowReen,KSW_Phases.none,1000);	
 	scr_KSW_AddFish("King Boo",spr_KSW_Fish_KingBoo,spr_KSW_Fish_KingBoo_Pal,series_SuperMario,flux,3,hallowReen,KSW_Phases.none,25000,0,0,-1,snd_KSW_Fish_KingBoo);	
-	scr_KSW_AddFish("Delibird",spr_KSW_Fish_Delibird,spr_KSW_Fish_Delibird_Pal,series_Pokemon,candy,3,creamCrevasse,KSW_Phases.none,5000);
+	scr_KSW_AddFish("Delibird",spr_KSW_Fish_Delibird,spr_KSW_Fish_Delibird_Pal,series_Pokemon,candy,3,creamCrevasse,KSW_Phases.none,5000,-1);
 	scr_KSW_AddFish("Stantler",spr_KSW_Fish_Stantler,spr_KSW_Fish_Stantler_Pal,series_Pokemon,glimmer,2,creamCrevasse,KSW_Phases.none,9000);
 	scr_KSW_AddFish("Swinub",spr_KSW_Fish_Swinub,spr_KSW_Fish_Swinub_Pal,series_Pokemon,glimmer,1,creamCrevasse,KSW_Phases.none,1600);
 	scr_KSW_AddFish("Piloswine",spr_KSW_Fish_Piloswine,spr_KSW_Fish_Piloswine_Pal,series_Pokemon,glimmer,2,creamCrevasse,KSW_Phases.none,8000);
@@ -778,22 +779,22 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Kata",spr_KSW_Fish_Kata,spr_KSW_Fish_Kata_Pal,series_Katatsumuri,mint,3,grassBeach,KSW_Phases.none,50000,0,9);
 	scr_KSW_AddFish("Rusty Helm",spr_KSW_Fish_RustyHelm,spr_KSW_Fish_RustyHelm_Pal,series_Deirdre,glimmer,2,hallowReen,KSW_Phases.none,25000,0,1);
 	scr_KSW_AddFish("Happy Appy",spr_KSW_Fish_HappyAppy,spr_KSW_Fish_HappyAppy_Pal,series_HappyAppy,candy,3,hallowReen,KSW_Phases.none,66666,20,75,,snd_KSW_Fish_HappyAppy);
-	scr_KSW_AddFish("Bitterling",spr_KSW_Fish_Bitterling,spr_KSW_Fish_Bitterling_Pal,series_AnimalCrossing,glimmer,2,creamCrevasse,KSW_Phases.day,900,-4,4);
-	scr_KSW_AddFish("Pale Chub",spr_KSW_Fish_PaleChub,spr_KSW_Fish_PaleChub_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.afternoon,200,0,0);
-	scr_KSW_AddFish("Crucian Carp",spr_KSW_Fish_CrucianCarp,spr_KSW_Fish_CrucianCarp_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,160,0,0);
-	scr_KSW_AddFish("Dace",spr_KSW_Fish_Dace,spr_KSW_Fish_Dace_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.night,240,-12,5);
-	scr_KSW_AddFish("Carp",spr_KSW_Fish_Carp,spr_KSW_Fish_Carp_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,300,0,0);
-	scr_KSW_AddFish("Koi",spr_KSW_Fish_Koi,spr_KSW_Fish_Koi_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.night,4000,0,0);
-	scr_KSW_AddFish("Goldfish",spr_KSW_Fish_Goldfish,spr_KSW_Fish_Goldfish_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,1300,0,0);
-	scr_KSW_AddFish("Pop-Eyed Goldfish",spr_KSW_Fish_PopEyedGoldfish,spr_KSW_Fish_PopEyedGoldfish_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.afternoon,1300,0,0);
-	scr_KSW_AddFish("Ranchu Goldfish",spr_KSW_Fish_RanchuGoldfish,spr_KSW_Fish_RanchuGoldfish_Pal,series_AnimalCrossing,glimmer,2,creamCrevasse,KSW_Phases.afternoon,4500,0,0);
-	scr_KSW_AddFish("Killifish",spr_KSW_Fish_Killifish,spr_KSW_Fish_Killifish_Pal,series_AnimalCrossing,glimmer,1,creamCrevasse,KSW_Phases.day,300,0,0);
-	scr_KSW_AddFish("Crawfish",spr_KSW_Fish_Crawfish,spr_KSW_Fish_Crawfish_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,200,0,0);
-	scr_KSW_AddFish("Soft-Shelled Turtle",spr_KSW_Fish_SoftShelledTurtle,spr_KSW_Fish_SoftShelledTurtle_Pal,series_AnimalCrossing,glimmer,2,creamCrevasse,KSW_Phases.night,3750,0,0);
-	scr_KSW_AddFish("Snapping Turtle",spr_KSW_Fish_SnappingTurtle,spr_KSW_Fish_SnappingTurtle_Pal,series_AnimalCrossing,glimmer,2,creamCrevasse,KSW_Phases.night,5000,0,0);
-	scr_KSW_AddFish("Tadpole",spr_KSW_Fish_Tadpole,spr_KSW_Fish_Tadpole_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,100,0,0);
-	scr_KSW_AddFish("Frog",spr_KSW_Fish_Frog,spr_KSW_Fish_Frog_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,120,0,0);
-	scr_KSW_AddFish("Freshwater Goby",spr_KSW_Fish_FreshwaterGoby,spr_KSW_Fish_FreshwaterGoby_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.night,400,0,0);
+	scr_KSW_AddFish("Bitterling",spr_KSW_Fish_Bitterling,spr_KSW_Fish_Bitterling_Pal,series_AnimalCrossing,mage,2,creamCrevasse,KSW_Phases.day,900,-3,4);
+	scr_KSW_AddFish("Pale Chub",spr_KSW_Fish_PaleChub,spr_KSW_Fish_PaleChub_Pal,series_AnimalCrossing,mage,0,creamCrevasse,KSW_Phases.afternoon,200,-5,0);
+	scr_KSW_AddFish("Crucian Carp",spr_KSW_Fish_CrucianCarp,spr_KSW_Fish_CrucianCarp_Pal,series_AnimalCrossing,legion,0,creamCrevasse,KSW_Phases.day,160,-6,0);
+	scr_KSW_AddFish("Dace",spr_KSW_Fish_Dace,spr_KSW_Fish_Dace_Pal,series_AnimalCrossing,legion,0,creamCrevasse,KSW_Phases.night,240,-10,-2);
+	scr_KSW_AddFish("Carp",spr_KSW_Fish_Carp,spr_KSW_Fish_Carp_Pal,series_AnimalCrossing,legion,0,creamCrevasse,KSW_Phases.day,300,-10,-1);
+	scr_KSW_AddFish("Koi",spr_KSW_Fish_Koi,spr_KSW_Fish_Koi_Pal,series_AnimalCrossing,candy,0,creamCrevasse,KSW_Phases.night,4000,-10,-1);
+	scr_KSW_AddFish("Goldfish",spr_KSW_Fish_Goldfish,spr_KSW_Fish_Goldfish_Pal,series_AnimalCrossing,candy,0,creamCrevasse,KSW_Phases.day,1300,-2,-1);
+	scr_KSW_AddFish("Pop-Eyed Goldfish",spr_KSW_Fish_PopEyedGoldfish,spr_KSW_Fish_PopEyedGoldfish_Pal,series_AnimalCrossing,legion,0,creamCrevasse,KSW_Phases.afternoon,1300,-3,-1);
+	scr_KSW_AddFish("Ranchu Goldfish",spr_KSW_Fish_RanchuGoldfish,spr_KSW_Fish_RanchuGoldfish_Pal,series_AnimalCrossing,borange,2,creamCrevasse,KSW_Phases.afternoon,4500,-6,1);
+	scr_KSW_AddFish("Killifish",spr_KSW_Fish_Killifish,spr_KSW_Fish_Killifish_Pal,series_AnimalCrossing,glimmer,1,creamCrevasse,KSW_Phases.day,300,-3,0);
+	scr_KSW_AddFish("Crawfish",spr_KSW_Fish_Crawfish,spr_KSW_Fish_Crawfish_Pal,series_AnimalCrossing,candy,0,creamCrevasse,KSW_Phases.day,200,0,6);
+	scr_KSW_AddFish("Soft-Shelled Turtle",spr_KSW_Fish_SoftShelledTurtle,spr_KSW_Fish_SoftShelledTurtle_Pal,series_AnimalCrossing,mint,2,creamCrevasse,KSW_Phases.night,3750,0,10);
+	scr_KSW_AddFish("Snapping Turtle",spr_KSW_Fish_SnappingTurtle,spr_KSW_Fish_SnappingTurtle_Pal,series_AnimalCrossing,legion,2,creamCrevasse,KSW_Phases.night,5000,0,12);
+	scr_KSW_AddFish("Tadpole",spr_KSW_Fish_Tadpole,spr_KSW_Fish_Tadpole_Pal,series_AnimalCrossing,legion,0,creamCrevasse,KSW_Phases.day,100,0,0);
+	scr_KSW_AddFish("Frog",spr_KSW_Fish_Frog,spr_KSW_Fish_Frog_Pal,series_AnimalCrossing,mint,0,creamCrevasse,KSW_Phases.day,120,-2,-1);
+	scr_KSW_AddFish("Freshwater Goby",spr_KSW_Fish_FreshwaterGoby,spr_KSW_Fish_FreshwaterGoby_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.night,400,0,3);
 	scr_KSW_AddFish("Loach",spr_KSW_Fish_Loach,spr_KSW_Fish_Loach_Pal,series_AnimalCrossing,glimmer,0,creamCrevasse,KSW_Phases.day,400,0,0);
 	scr_KSW_AddFish("AC Catfish",spr_KSW_Fish_ACCatfish,spr_KSW_Fish_ACCatfish_Pal,series_AnimalCrossing,glimmer,1,creamCrevasse,KSW_Phases.night,800,0,0);
 	scr_KSW_AddFish("Giant Snakehead",spr_KSW_Fish_GiantSnakehead,spr_KSW_Fish_GiantSnakehead_Pal,series_AnimalCrossing,glimmer,2,creamCrevasse,KSW_Phases.afternoon,5500,0,0);
@@ -1091,6 +1092,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Gambler's Slot",spr_KSW_Fish_GamblersSlot,spr_KSW_Fish_GamblersSlot_Pal,series_WaddleDevVsKirbyDarkDawn,candy,1,creamCrevasse,KSW_Phases.none,7777,4,,,snd_KSW_Fish_GamblersSlot);
 	scr_KSW_AddFish("Gambler's Text",spr_KSW_Fish_GamblersText,spr_KSW_Fish_GamblersText_Pal,series_WaddleDevVsKirbyDarkDawn,candy,1,creamCrevasse,KSW_Phases.none,7777);
 	scr_KSW_AddFish("Gambler's Coin",spr_KSW_Fish_GamblersCoin,spr_KSW_Fish_GamblersCoin_Pal,series_WaddleDevVsKirbyDarkDawn,candy,1,creamCrevasse,KSW_Phases.none,7777);
+	scr_KSW_AddFish("Red",spr_KSW_Fish_Red,spr_KSW_Fish_Red_Pal,series_Godzilla,candy,2,hallowReen,KSW_Phases.night,55000,-26,22);
+	scr_KSW_AddFish("Mr. Mix",spr_KSW_Fish_MrMix,spr_KSW_Fish_MrMix_Pal,series_MrMix,borange,1,creamCrevasse,KSW_Phases.none,12000,12,28);
 	#endregion
 	#endregion
 }

@@ -1,5 +1,5 @@
 {
-  "$GMWindowsOptions":"v1",
+  "$GMWindowsOptions":"v2",
   "%Name":"Windows",
   "ConfigValues":{
     "Desktop":{
@@ -11,12 +11,12 @@
     "DesktopDebug":{
       "option_windows_company_info":"",
       "option_windows_description_info":"",
+      "option_windows_display_cursor":"false",
       "option_windows_icon":"icons/icon.ico",
       "option_windows_installer_finished":"installer/finished.bmp",
       "option_windows_installer_header":"installer/header.bmp",
       "option_windows_product_info":"",
       "option_windows_splash_screen":"splash/splash.png",
-      "option_windows_display_cursor":"false",
     },
   },
   "name":"Windows",
@@ -47,6 +47,7 @@
   "option_windows_start_fullscreen":false,
   "option_windows_steam_use_alternative_launcher":false,
   "option_windows_texture_page":"4096x4096",
+  "option_windows_use_raw_mouse":false,
   "option_windows_use_splash":false,
   "option_windows_version":"1.0.0.0",
   "option_windows_vsync":false,
