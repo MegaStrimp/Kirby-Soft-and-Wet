@@ -14,6 +14,7 @@ function scr_KSW_LoadData(file)
 	global.timePlayed_Seconds = ini_read_real("gameplay","timePlayed_Seconds",0);
 	global.timePlayed_Minutes = ini_read_real("gameplay","timePlayed_Minutes",0);
 	global.timePlayed_Hours = ini_read_real("gameplay","timePlayed_Hours",0);
+	global.revival = ini_read_real("gameplay","revival",false);
 	global.KSW_CaughtTotalFishCount = ini_read_real("gameplay","caughtTotalFishCount",0);
 	global.KSW_CaughtTotalFishCount_Day = ini_read_real("gameplay","caughtTotalFishCount_Day",0);
 	global.KSW_CaughtTotalFishCount_Afternoon = ini_read_real("gameplay","caughtTotalFishCount_Afternoon",0);

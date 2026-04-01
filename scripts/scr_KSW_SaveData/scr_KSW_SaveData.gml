@@ -18,6 +18,7 @@ function scr_KSW_SaveData(file)
 	if (global.timePlayed_Seconds != 0) ini_write_real("gameplay","timePlayed_Seconds",global.timePlayed_Seconds);
 	if (global.timePlayed_Minutes != 0) ini_write_real("gameplay","timePlayed_Minutes",global.timePlayed_Minutes);
 	if (global.timePlayed_Hours != 0) ini_write_real("gameplay","timePlayed_Hours",global.timePlayed_Hours);
+	if (global.revival != false) ini_write_real("gameplay","revival",global.revival);
 	if (global.KSW_CaughtTotalFishCount != 0) ini_write_real("gameplay","caughtTotalFishCount",global.KSW_CaughtTotalFishCount);
 	if (global.KSW_CaughtTotalFishCount_Day != 0) ini_write_real("gameplay","caughtTotalFishCount_Day",global.KSW_CaughtTotalFishCount_Day);
 	if (global.KSW_CaughtTotalFishCount_Afternoon != 0) ini_write_real("gameplay","caughtTotalFishCount_Afternoon",global.KSW_CaughtTotalFishCount_Afternoon);

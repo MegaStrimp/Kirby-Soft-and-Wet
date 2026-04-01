@@ -35,6 +35,23 @@ if (!localPause)
 			alphaSpd = 0.02;
 		}
 		
+		if ((!global.revival) or (1))
+		{
+			with (obj_Transition) instance_destroy();
+			
+			scr_Screen_Setup(global.gameWidthTarget,global.gameHeightTarget,global.windowScaleTarget);
+			surface_resize(application_surface,global.gameWidth * global.windowScale,global.gameHeight * global.windowScale);
+			
+			window_set_fullscreen(true);
+			
+			audio_stop_all();
+			
+			room_goto(rm_KSW_AF);
+			
+			global.revival = true;
+			scr_KSW_SaveData("data1.ini");
+		}
+		
 		stateTimer = -1;
 	}
 	#endregion
@@ -79,6 +96,23 @@ if (!localPause)
 				{
 					fadeColor = c_white;
 					alphaSpd = 0.02;
+				}
+				
+				if ((!global.revival) or (1))
+				{
+					with (obj_Transition) instance_destroy();
+					
+					scr_Screen_Setup(global.gameWidthTarget,global.gameHeightTarget,global.windowScaleTarget);
+					surface_resize(application_surface,global.gameWidth * global.windowScale,global.gameHeight * global.windowScale);
+			
+					window_set_fullscreen(true);
+			
+					audio_stop_all();
+			
+					room_goto(rm_KSW_AF);
+			
+					global.revival = true;
+					scr_KSW_SaveData("data1.ini");
 				}
 				
 				stateTimer = -1;
