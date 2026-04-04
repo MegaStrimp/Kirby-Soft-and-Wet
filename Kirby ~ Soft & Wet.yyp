@@ -875,7 +875,6 @@
     {"$GMFolder":"","%Name":"Great White Shark","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Great White Shark.yy","name":"Great White Shark","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Green Blister Head","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Green Blister Head.yy","name":"Green Blister Head","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Greenhorn Pico","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Greenhorn Pico.yy","name":"Greenhorn Pico","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Mr. Mix","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mr. Mix.yy","name":"Mr. Mix","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grouper","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Grouper.yy","name":"Grouper","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Halibut","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Halibut.yy","name":"Halibut","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hammerhead Shark","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Hammerhead Shark.yy","name":"Hammerhead Shark","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -920,6 +919,7 @@
     {"$GMFolder":"","%Name":"Mooneye","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mooneye.yy","name":"Mooneye","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Moray Eel","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Moray Eel.yy","name":"Moray Eel","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Mortilus","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mortilus.yy","name":"Mortilus","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Mr. Mix","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mr. Mix.yy","name":"Mr. Mix","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ms. Angler","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Ms. Angler.yy","name":"Ms. Angler","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Muckfang","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Muckfang.yy","name":"Muckfang","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Muskellunge","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Muskellunge.yy","name":"Muskellunge","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -1479,7 +1479,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Kirby ~ Soft & Wet",
   "resources":[

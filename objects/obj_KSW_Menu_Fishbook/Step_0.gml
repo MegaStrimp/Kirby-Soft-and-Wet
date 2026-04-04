@@ -58,6 +58,12 @@ if (canSelect)
 			script_execute(ds_list_find_value(sortList,sortIndex));
 			
 			sortIndex = (sortIndex + 1) % ds_list_size(sortList);
+			
+			for (var i = 0; i < global.KSW_FishCount; i++)
+			{
+				fishIsShiny[i] = false;
+				fishImageIndex[i] = 0;
+			}
 		}
 		
 		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0))
