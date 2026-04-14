@@ -90,6 +90,12 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Missing",playerID,"[blink]MISSINGNO[/blink]",spr_KSW_Player_Kirby_SprayPaint_Missing,flux,75);
 	#endregion
 	
+	#region Gooey
+	var playerID = "gooey";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "GooBloo",playerID,"Goo Bloo",spr_KSW_Player_Gooey_SprayPaint_GooBloo,mage,0,true);
+	#endregion
+	
 	#region Elfilin
 	var playerID = "elfilin";
 	
@@ -103,6 +109,12 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Apple",playerID,"Apple",spr_KSW_Player_Elfilin_SprayPaint_Apple,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Dreary",playerID,"Dreary",spr_KSW_Player_Elfilin_SprayPaint_Dreary,legion,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Gray",playerID,"Gray",spr_KSW_Player_Elfilin_SprayPaint_Gray,legion,75);
+	#endregion
+	
+	#region Marx
+	var playerID = "marx";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "JesterGrape",playerID,"Jester Grape",spr_KSW_Player_Marx_SprayPaint_JesterGrape,flux,0,true);
 	#endregion
 	#endregion
 }

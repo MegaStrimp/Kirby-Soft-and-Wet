@@ -36,6 +36,11 @@ function scr_KSW_UI_Customize_Pages_Characters_Main()
 	selectionScale = 1 + sine_wave(current_time / 6000,.1,.05,0);
 	#endregion
 	
+	#region Background Movement
+	backgroundX = (backgroundX + (backgroundSpd * speedMultFinal)) % 50;
+	backgroundY = (backgroundY + (backgroundSpd * speedMultFinal)) % 40;
+	#endregion
+	
 	#region Page Offset
 	pageOffset = lerp(pageOffset,pageOffsetTarget,.1);
 	pageOffset = clamp(pageOffset,0,max(0,selectionCount - 3) * selectionOffset);

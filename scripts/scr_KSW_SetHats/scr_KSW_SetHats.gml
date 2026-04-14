@@ -32,11 +32,24 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "ClassicBomb",playerID,"Classic Bomb",spr_KSW_Player_Kirby_Hat_ClassicBomb_Ready,scr_KSW_Player_Kirby_Hat_ClassicBomb_SpriteSet(),mage,100,3,7);
 	#endregion
 	
+	#region Gooey
+	var playerID = "gooey";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
+	#endregion
+	
 	#region Elfilin
 	var playerID = "elfilin";
 	
-	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
 	scr_KSW_AddHat(playerID + "_" + "FectoHorns",playerID,"Fecto Horns",spr_KSW_Player_Elfilin_Hat_FectoHorns_Ready,scr_KSW_Player_Elfilin_Hat_FectoHorns_SpriteSet(),glimmer,100,0,14);
+	scr_KSW_AddHat(playerID + "_" + "Ranger",playerID,"Ranger",spr_KSW_Player_Elfilin_Hat_Ranger_Ready,scr_KSW_Player_Elfilin_Hat_Ranger_SpriteSet(),candy,100,0,14);
+	#endregion
+	
+	#region Marx
+	var playerID = "marx";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,flux,0,0,0,true);
 	#endregion
 	#endregion
 }
