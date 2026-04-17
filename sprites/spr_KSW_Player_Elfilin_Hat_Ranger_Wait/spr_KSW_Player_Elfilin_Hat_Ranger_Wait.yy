@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Elfilin_Hat_Ranger_Wait",
   "bboxMode":0,
-  "bbox_bottom":25,
-  "bbox_left":0,
-  "bbox_right":38,
+  "bbox_bottom":13,
+  "bbox_left":5,
+  "bbox_right":18,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,6 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"68cd59b6-d19f-4e91-9d50-459967676325","name":"68cd59b6-d19f-4e91-9d50-459967676325","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"3ba000c2-0679-4411-ab1c-bd73b94d7cf7","name":"3ba000c2-0679-4411-ab1c-bd73b94d7cf7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"24ad993d-911d-494c-9a0a-dbff759c391e","name":"24ad993d-911d-494c-9a0a-dbff759c391e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"4f75685e-8a11-4894-994c-50c0de3c614a","name":"4f75685e-8a11-4894-994c-50c0de3c614a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -58,7 +57,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":5.0,
+    "length":4.0,
     "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -80,20 +79,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"68cd59b6-d19f-4e91-9d50-459967676325","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Wait/spr_KSW_Player_Elfilin_Hat_Ranger_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"addf273a-30df-477d-ae15-0b97f93b2704","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ba000c2-0679-4411-ab1c-bd73b94d7cf7","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Wait/spr_KSW_Player_Elfilin_Hat_Ranger_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ffaf88d6-41a2-4613-a6e3-c96a6c61fa33","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ffaf88d6-41a2-4613-a6e3-c96a6c61fa33","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24ad993d-911d-494c-9a0a-dbff759c391e","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Wait/spr_KSW_Player_Elfilin_Hat_Ranger_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6132b360-0541-43a6-864b-6fe461aace52","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6132b360-0541-43a6-864b-6fe461aace52","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f75685e-8a11-4894-994c-50c0de3c614a","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Wait/spr_KSW_Player_Elfilin_Hat_Ranger_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a78566f2-b546-4d8b-96e1-d90496f0afa0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"a78566f2-b546-4d8b-96e1-d90496f0afa0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4a68caa-8c9e-440f-8f88-d2ad1b2ea088","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Wait/spr_KSW_Player_Elfilin_Hat_Ranger_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"47a15fa6-006a-4830-8533-e915b4cb2bbd","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"47a15fa6-006a-4830-8533-e915b4cb2bbd","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

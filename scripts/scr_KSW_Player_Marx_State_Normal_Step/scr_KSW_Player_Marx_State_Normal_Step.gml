@@ -67,7 +67,7 @@ function scr_KSW_Player_Marx_State_Normal_Step()
 		break;
 		
 		case sprWait:
-		rodX = x + 25;
+		rodX = x + 16;
 		rodY = y - 21;
 		break;
 		
@@ -93,7 +93,7 @@ function scr_KSW_Player_Marx_State_Normal_Step()
 			
 			case 1:
 			rodX = x + 3;
-			rodY = y - 21;
+			rodY = y - 31;
 			break;
 			
 			default:

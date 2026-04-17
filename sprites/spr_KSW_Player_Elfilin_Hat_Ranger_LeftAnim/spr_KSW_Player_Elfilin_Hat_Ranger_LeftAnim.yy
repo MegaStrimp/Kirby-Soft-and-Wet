@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim",
   "bboxMode":0,
-  "bbox_bottom":40,
-  "bbox_left":1,
-  "bbox_right":25,
-  "bbox_top":1,
+  "bbox_bottom":25,
+  "bbox_left":6,
+  "bbox_right":16,
+  "bbox_top":14,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,7 +17,6 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"3ed3be51-354d-44b7-bf9c-3271ab301a45","name":"3ed3be51-354d-44b7-bf9c-3271ab301a45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"d0051143-dac0-4ec0-9fc2-196029b3b965","name":"d0051143-dac0-4ec0-9fc2-196029b3b965","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"e4381cd6-fc08-4036-8e16-a7ac078e5154","name":"e4381cd6-fc08-4036-8e16-a7ac078e5154","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"47e2ea4f-cec5-4587-9d8d-a57cf858ea4c","name":"47e2ea4f-cec5-4587-9d8d-a57cf858ea4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -57,7 +56,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":4.0,
+    "length":3.0,
     "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -79,17 +78,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ed3be51-354d-44b7-bf9c-3271ab301a45","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fed11dae-715a-45af-b065-f857dd4dfbd9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d0051143-dac0-4ec0-9fc2-196029b3b965","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ee579d51-b6ce-4ba3-8e12-f314d5b4f9f3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ee579d51-b6ce-4ba3-8e12-f314d5b4f9f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4381cd6-fc08-4036-8e16-a7ac078e5154","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"af56c070-6701-4a1d-8182-e129886e5099","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"af56c070-6701-4a1d-8182-e129886e5099","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47e2ea4f-cec5-4587-9d8d-a57cf858ea4c","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim/spr_KSW_Player_Elfilin_Hat_Ranger_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c9f420f3-5dfd-424d-8883-bf9e59cd6a0f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"c9f420f3-5dfd-424d-8883-bf9e59cd6a0f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

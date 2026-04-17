@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Elfilin_Hat_Ranger_Found",
   "bboxMode":0,
-  "bbox_bottom":24,
-  "bbox_left":0,
-  "bbox_right":42,
+  "bbox_bottom":11,
+  "bbox_left":5,
+  "bbox_right":18,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,6 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"725def54-d478-4ff3-ab6a-829c45e92f52","name":"725def54-d478-4ff3-ab6a-829c45e92f52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"07daed2e-d236-4555-bc5e-cfa0194f196e","name":"07daed2e-d236-4555-bc5e-cfa0194f196e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"4d9a9eed-97c8-4123-a363-330cede4e1c9","name":"4d9a9eed-97c8-4123-a363-330cede4e1c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
@@ -56,7 +55,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":2.0,
     "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -78,14 +77,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"725def54-d478-4ff3-ab6a-829c45e92f52","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Found/spr_KSW_Player_Elfilin_Hat_Ranger_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cd050bfe-4ec7-43b5-958f-8417b2f27cc6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"07daed2e-d236-4555-bc5e-cfa0194f196e","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Found/spr_KSW_Player_Elfilin_Hat_Ranger_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"141368b6-c58c-4f6c-b5df-a230177be407","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"141368b6-c58c-4f6c-b5df-a230177be407","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d9a9eed-97c8-4123-a363-330cede4e1c9","path":"sprites/spr_KSW_Player_Elfilin_Hat_Ranger_Found/spr_KSW_Player_Elfilin_Hat_Ranger_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4b5cefdf-9aac-4d17-85af-96822a3fef19","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"4b5cefdf-9aac-4d17-85af-96822a3fef19","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
