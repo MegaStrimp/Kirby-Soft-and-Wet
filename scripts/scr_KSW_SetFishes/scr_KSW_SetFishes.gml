@@ -80,6 +80,7 @@ function scr_KSW_SetFishes()
 	var grassBeach = global.KSW_StageIDs[? "grassBeach"];
 	var creamCrevasse = global.KSW_StageIDs[? "creamCrevasse"];
 	var hallowReen = global.KSW_StageIDs[? "hallowReen"];
+	var androidPort = global.KSW_StageIDs[? "androidPort"];
 	#endregion
 	
 	#region Caught Box Palettes
@@ -1088,7 +1089,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Amumu",spr_KSW_Fish_Amumu,spr_KSW_Fish_Amumu_Pal,series_WaddleDevVsKirbyDarkDawn,glimmer,2,creamCrevasse,KSW_Phases.day,10670,8,14);
 	scr_KSW_AddFish("Sailor Archie",spr_KSW_Fish_SailorArchie,spr_KSW_Fish_SailorArchie_Pal,series_WaddleDevVsKirbyDarkDawn,borange,2,creamCrevasse,KSW_Phases.afternoon,10670,,8);
 	scr_KSW_AddFish("Andaedra",spr_KSW_Fish_Andaedra,spr_KSW_Fish_Andaedra_Pal,series_WaddleDevVsKirbyDarkDawn,mage,2,hallowReen,KSW_Phases.night,10670,24,36);
-	scr_KSW_AddFish("Zethdin",spr_KSW_Fish_Zethdin,spr_KSW_Fish_Zethdin_Pal,series_WaddleDevVsKirbyDarkDawn,mint,2,creamCrevasse,KSW_Phases.night,10670,-44,58); //STRIMPTODO Android Hell
+	scr_KSW_AddFish("Zethdin",spr_KSW_Fish_Zethdin,spr_KSW_Fish_Zethdin_Pal,series_WaddleDevVsKirbyDarkDawn,mint,2,androidPort,KSW_Phases.night,10670,-44,58);
 	scr_KSW_AddFish("Gambler's Slot",spr_KSW_Fish_GamblersSlot,spr_KSW_Fish_GamblersSlot_Pal,series_WaddleDevVsKirbyDarkDawn,candy,1,creamCrevasse,KSW_Phases.none,7777,4,,,snd_KSW_Fish_GamblersSlot);
 	scr_KSW_AddFish("Gambler's Text",spr_KSW_Fish_GamblersText,spr_KSW_Fish_GamblersText_Pal,series_WaddleDevVsKirbyDarkDawn,mint,1,creamCrevasse,KSW_Phases.none,7777);
 	scr_KSW_AddFish("Gambler's Coin",spr_KSW_Fish_GamblersCoin,spr_KSW_Fish_GamblersCoin_Pal,series_WaddleDevVsKirbyDarkDawn,glimmer,1,creamCrevasse,KSW_Phases.none,7777);

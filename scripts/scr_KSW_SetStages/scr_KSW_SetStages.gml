@@ -70,5 +70,21 @@ function scr_KSW_SetStages()
 	
 	scr_KSW_AddStage("hallowReen","Hallow Reen",spr_KSW_UI_Customize_StageIcon_HallowReen,spr_KSW_Layout_HallowReen_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_HallowReen_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_HallowReen_Night,targetNightBackgrounds,targetNightBgColors,500);
 	#endregion
+	
+	#region Android Port
+	var targetDayBackgrounds = [scr_KSW_SetBackground_AndroidPort_Day_1];
+	
+	var targetDayBgColors = [239,255,130,195,255,168];
+	
+	var targetAfternoonBackgrounds = [scr_KSW_SetBackground_HallowReen_Afternoon_1];
+	
+	var targetAfternoonBgColors = [141,120,69,58,107,48];
+	
+	var targetNightBackgrounds = [scr_KSW_SetBackground_HallowReen_Night_1];
+	
+	var targetNightBgColors = [0,0,0,0,255,209];
+	
+	scr_KSW_AddStage("androidPort","Android Port",spr_KSW_UI_Customize_StageIcon_HallowReen,spr_KSW_Layout_AndroidPort_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_HallowReen_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_HallowReen_Night,targetNightBackgrounds,targetNightBgColors,500);
+	#endregion
 	#endregion
 }
