@@ -1094,6 +1094,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Gambler's Coin",spr_KSW_Fish_GamblersCoin,spr_KSW_Fish_GamblersCoin_Pal,series_WaddleDevVsKirbyDarkDawn,glimmer,1,creamCrevasse,KSW_Phases.none,7777);
 	scr_KSW_AddFish("Red",spr_KSW_Fish_Red,spr_KSW_Fish_Red_Pal,series_Godzilla,candy,2,hallowReen,KSW_Phases.night,55000,-26,22);
 	scr_KSW_AddFish("Mr. Mix",spr_KSW_Fish_MrMix,spr_KSW_Fish_MrMix_Pal,series_MrMix,borange,1,creamCrevasse,KSW_Phases.none,12000,12,28);
+	scr_KSW_AddFish("Android Man",spr_KSW_Fish_AndroidMan,spr_KSW_Fish_AndroidMan_Pal,series_MegaMan,mage,3,creamCrevasse,KSW_Phases.none,670000);
 	#endregion
 	#endregion
 }
