@@ -17,3 +17,7 @@ if (latestVersion != "")
 		}
 	}
 }
+
+#region Button Input Timers
+scr_Component_ButtonInputTimer_Step();
+#endregion
