@@ -3,9 +3,9 @@
   "%Name":"spr_KSW_Player_Marx_UpAnim",
   "bboxMode":0,
   "bbox_bottom":42,
-  "bbox_left":0,
+  "bbox_left":3,
   "bbox_right":34,
-  "bbox_top":0,
+  "bbox_top":14,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"655df385-38e9-4fec-8bfd-cb3bcf299a8c","name":"655df385-38e9-4fec-8bfd-cb3bcf299a8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"3c4474ec-4ccf-46e1-ac48-508145cc9077","name":"3c4474ec-4ccf-46e1-ac48-508145cc9077","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d94ec30b-e3f4-4479-b1b3-93b9ab6c6a90","name":"d94ec30b-e3f4-4479-b1b3-93b9ab6c6a90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"98585c21-3fc4-43ca-b808-accd82f566b7","name":"98585c21-3fc4-43ca-b808-accd82f566b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"805cd950-10ee-4564-bf5f-0cbd017cb182","name":"805cd950-10ee-4564-bf5f-0cbd017cb182","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"772eedca-2327-49f7-bd6a-96c94e734e04","name":"772eedca-2327-49f7-bd6a-96c94e734e04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -78,14 +78,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"655df385-38e9-4fec-8bfd-cb3bcf299a8c","path":"sprites/spr_KSW_Player_Marx_UpAnim/spr_KSW_Player_Marx_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"76054cb8-a212-405e-9674-4dd3614a6696","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"98585c21-3fc4-43ca-b808-accd82f566b7","path":"sprites/spr_KSW_Player_Marx_UpAnim/spr_KSW_Player_Marx_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8dab4301-8a62-4f29-8f09-0726a4057f9c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c4474ec-4ccf-46e1-ac48-508145cc9077","path":"sprites/spr_KSW_Player_Marx_UpAnim/spr_KSW_Player_Marx_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3592a68f-78a8-494c-977a-148ad408db43","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"805cd950-10ee-4564-bf5f-0cbd017cb182","path":"sprites/spr_KSW_Player_Marx_UpAnim/spr_KSW_Player_Marx_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a73bd68e-50ee-45be-aa47-b579ee4b3309","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d94ec30b-e3f4-4479-b1b3-93b9ab6c6a90","path":"sprites/spr_KSW_Player_Marx_UpAnim/spr_KSW_Player_Marx_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d35f5e1c-2ba0-4afb-b82b-941352a03307","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"772eedca-2327-49f7-bd6a-96c94e734e04","path":"sprites/spr_KSW_Player_Marx_UpAnim/spr_KSW_Player_Marx_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"25044f9a-b72f-4f9f-90ef-f24f2027088a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
