@@ -90,7 +90,7 @@ function scr_KSW_LoadFullSave()
 		global.KSW_CaughtUniqueFishCount += 1;
 		global.KSW_CaughtShinyFishCount += 1;
 		
-		global.KSW_StageList[global.KSW_FishList[i].stage].fishCount += 1;
+		if (global.KSW_FishList[i].stage != -1) global.KSW_StageList[global.KSW_FishList[i].stage].fishCount += 1;
 	}
 	#endregion
 	

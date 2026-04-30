@@ -14,22 +14,26 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
 	
 	var targetPhaseIconLeft = -1;
 	var targetPhaseIconLeftSmall = -1;
-	switch (global.KSW_StageList[targetStage].ID)
+	
+	if (targetStage != -1)
 	{
-		case "grassBeach":
-		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_GrassBeach;
-		targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_GrassBeach_Small;
-		break;
-		
-		case "creamCrevasse":
-		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_CreamCrevasse;
-		targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_CreamCrevasse_Small;
-		break;
-		
-		case "hallowReen":
-		targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_HallowReen;
-		targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_HallowReen_Small;
-		break;
+		switch (global.KSW_StageList[targetStage].ID)
+		{
+			case "grassBeach":
+			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_GrassBeach;
+			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_GrassBeach_Small;
+			break;
+			
+			case "creamCrevasse":
+			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_CreamCrevasse;
+			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_CreamCrevasse_Small;
+			break;
+			
+			case "hallowReen":
+			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_HallowReen;
+			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_HallowReen_Small;
+			break;
+		}
 	}
 	
 	var targetPhaseIconRight = -1;
