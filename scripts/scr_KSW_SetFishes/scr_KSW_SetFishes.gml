@@ -72,6 +72,7 @@ function scr_KSW_SetFishes()
 	var series_CoreKeeper = global.KSW_SeriesIDs[? "coreKeeper"];
 	var series_WaddleDevVsKirbyDarkDawn = global.KSW_SeriesIDs[? "waddleDevVsKirbyDarkDawn"];
 	var series_MrMix = global.KSW_SeriesIDs[? "mrMix"];
+	var series_rubato = global.KSW_SeriesIDs[? "rubato"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1096,6 +1097,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Red",spr_KSW_Fish_Red,spr_KSW_Fish_Red_Pal,series_Godzilla,candy,2,hallowReen,KSW_Phases.night,55000,-26,22);
 	scr_KSW_AddFish("Mr. Mix",spr_KSW_Fish_MrMix,spr_KSW_Fish_MrMix_Pal,series_MrMix,borange,1,creamCrevasse,KSW_Phases.none,12000,12,28);
 	scr_KSW_AddFish("Android Man",spr_KSW_Fish_AndroidMan,spr_KSW_Fish_AndroidMan_Pal,series_MegaMan,mage,3,creamCrevasse,KSW_Phases.none,670000);
+	scr_KSW_AddFish("Chatty Dee",spr_KSW_Fish_ChattyDee,spr_KSW_Fish_ChattyDee_Pal,series_Kirby,borange,2,anyStage,KSW_Phases.none,2000);
 	#endregion
 	#endregion
 }
