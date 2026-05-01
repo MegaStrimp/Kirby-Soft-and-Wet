@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_BlindfoldBoo_Pal",
   "bboxMode":0,
-  "bbox_bottom":8,
+  "bbox_bottom":7,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -20,14 +20,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d5f5cd7c-44ab-43c7-8589-e301fffeb403","name":"d5f5cd7c-44ab-43c7-8589-e301fffeb403","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88c84add-c022-48bc-9a3c-7702c57ae5ec","name":"88c84add-c022-48bc-9a3c-7702c57ae5ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":9,
+  "height":8,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ed905982-378b-4131-a2ae-f2dbe1b25cd2","blendMode":0,"displayName":"default","isLocked":false,"name":"ed905982-378b-4131-a2ae-f2dbe1b25cd2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ad0473ed-7b3f-4321-b502-da0168e17826","blendMode":0,"displayName":"default","isLocked":false,"name":"ad0473ed-7b3f-4321-b502-da0168e17826","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_BlindfoldBoo_Pal",
   "nineSlice":null,
@@ -79,8 +79,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5f5cd7c-44ab-43c7-8589-e301fffeb403","path":"sprites/spr_KSW_Fish_BlindfoldBoo_Pal/spr_KSW_Fish_BlindfoldBoo_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"46d3bb13-be4f-4368-94f1-8a11fad9621a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"88c84add-c022-48bc-9a3c-7702c57ae5ec","path":"sprites/spr_KSW_Fish_BlindfoldBoo_Pal/spr_KSW_Fish_BlindfoldBoo_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"067cdcdd-761a-4351-8b22-7fc843d85164","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

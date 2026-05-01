@@ -398,7 +398,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Invader UFO",spr_KSW_Fish_InvaderUFO,spr_KSW_Fish_InvaderUFO_Pal_Normal,series_SpaceInvaders,flux,3,grassBeach,KSW_Phases.night,12800);
 	scr_KSW_AddFish("Kalamar",spr_KSW_Fish_Kalamar,spr_KSW_Fish_Kalamar_Pal_Normal,series_TheBindingOfIsaacForgottenFables,legion,2,grassBeach,KSW_Phases.night,4000);
 	scr_KSW_AddFish("Pipe Fiend",spr_KSW_Fish_PipeFiend,spr_KSW_Fish_PipeFiend_Pal_Normal,series_TheBindingOfIsaacForgottenFables,legion,2,grassBeach,KSW_Phases.night,5000);
-	scr_KSW_AddFish("Prey",spr_KSW_Fish_Prey,spr_KSW_Fish_Prey_Pal_Normal,series_TheBindingOfIsaacForgottenFables,legion,2,grassBeach,KSW_Phases.night,4500,,,,snd_KSW_Fish_Prey);
+	scr_KSW_AddFish("Prey",spr_KSW_Fish_Prey,spr_KSW_Fish_Prey_Pal_Normal,series_TheBindingOfIsaacRebirth,legion,2,grassBeach,KSW_Phases.night,4500,,,,snd_KSW_Fish_Prey);
 	scr_KSW_AddFish("Lil' Blub",spr_KSW_Fish_LilBlub,spr_KSW_Fish_LilBlub_Pal_Normal,series_TheBindingOfIsaacRebirth,mint,3,grassBeach,KSW_Phases.night,15000,0,10,,snd_KSW_Fish_LilBlub);
 	scr_KSW_AddFish("Strawberry",spr_KSW_Fish_Strawberry,spr_KSW_Fish_Strawberry_Pal_Normal,series_Kirby,candy,0,grassBeach,KSW_Phases.none,40);
 	scr_KSW_AddFish("Tomato",spr_KSW_Fish_Tomato,spr_KSW_Fish_Tomato_Pal_Normal,series_Kirby,candy,0,grassBeach,KSW_Phases.none,60);
@@ -1098,6 +1098,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mr. Mix",spr_KSW_Fish_MrMix,spr_KSW_Fish_MrMix_Pal,series_MrMix,borange,1,creamCrevasse,KSW_Phases.none,12000,12,28);
 	scr_KSW_AddFish("Android Man",spr_KSW_Fish_AndroidMan,spr_KSW_Fish_AndroidMan_Pal,series_MegaMan,mage,3,creamCrevasse,KSW_Phases.none,670000);
 	scr_KSW_AddFish("Chatty Dee",spr_KSW_Fish_ChattyDee,spr_KSW_Fish_ChattyDee_Pal,series_Kirby,borange,2,anyStage,KSW_Phases.none,2000);
+	scr_KSW_AddFish("Water Galboros",spr_KSW_Fish_WaterGalboros,spr_KSW_Fish_WaterGalboros_Pal,series_Kirby,mage,1,creamCrevasse,KSW_Phases.day,12000);
+	scr_KSW_AddFish("My Favorite Thing At McDonald's Is The Big Mac",spr_KSW_Fish_BigMac,spr_KSW_Fish_BigMac_Pal,series_Misc,flux,3,hallowReen,KSW_Phases.night,200000,,,,snd_KSW_Fish_BigMac);
 	#endregion
 	#endregion
 }
