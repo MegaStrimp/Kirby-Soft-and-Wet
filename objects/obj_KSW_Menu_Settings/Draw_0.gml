@@ -18,11 +18,19 @@ scribble_font_set_default(font);
 var musicText = scribble("MUSIC VOL");
 musicText.draw(8,startY + (space * i));
 
-for (var h = 0; h < 10; h++)
+for (var h = -1; h < 10; h++)
 {
 	var bubbleIsActive = (h < round(global.musicVolume * 10));
 	var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
-	draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,musicText.get_width() + 16 + (10 * h),startY + (space * i) + wave);
+	var bubbleX = musicText.get_width() + 16 + (10 * h);
+	var bubbleY = startY + (space * i) + wave;
+	
+	if (h != -1) draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+	
+	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+	{
+		global.musicVolume = (h + 1) * .1;
+	}
 }
 #endregion
 
@@ -38,11 +46,19 @@ if (selection == i)
 var soundText = scribble("SFX VOL");
 soundText.draw(8,startY + (space * i));
 
-for (var h = 0; h < 10; h++)
+for (var h = -1; h < 10; h++)
 {
 	var bubbleIsActive = (h < round(global.soundVolume * 10));
 	var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
-	draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,soundText.get_width() + 16 + (10 * h),startY + (space * i) + wave);
+	var bubbleX = soundText.get_width() + 16 + (10 * h);
+	var bubbleY = startY + (space * i) + wave;
+	
+	if (h != -1) draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+	
+	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+	{
+		global.soundVolume = (h + 1) * .1;
+	}
 }
 #endregion
 
