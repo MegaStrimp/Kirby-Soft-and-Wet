@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_KSW_Fish_Peepa.wav",
-  "volume":0.4,
+  "tags":[
+    "Sound Effect",
+  ],
+  "volume":0.5,
 }

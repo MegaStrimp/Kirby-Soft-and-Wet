@@ -72,7 +72,7 @@ function scr_KSW_SetFishes()
 	var series_CoreKeeper = global.KSW_SeriesIDs[? "coreKeeper"];
 	var series_WaddleDevVsKirbyDarkDawn = global.KSW_SeriesIDs[? "waddleDevVsKirbyDarkDawn"];
 	var series_MrMix = global.KSW_SeriesIDs[? "mrMix"];
-	var series_rubato = global.KSW_SeriesIDs[? "rubato"];
+	var series_Rubato = global.KSW_SeriesIDs[? "rubato"];
 	var series_Gundam = global.KSW_SeriesIDs[? "gundam"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
@@ -1100,7 +1100,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Android Man",spr_KSW_Fish_AndroidMan,spr_KSW_Fish_AndroidMan_Pal,series_MegaMan,mage,3,creamCrevasse,KSW_Phases.none,670000);
 	scr_KSW_AddFish("Chatty Dee",spr_KSW_Fish_ChattyDee,spr_KSW_Fish_ChattyDee_Pal,series_Kirby,borange,2,anyStage,KSW_Phases.none,2000);
 	scr_KSW_AddFish("Water Galboros",spr_KSW_Fish_WaterGalboros,spr_KSW_Fish_WaterGalboros_Pal,series_Kirby,mage,1,creamCrevasse,KSW_Phases.day,12000);
-	//scr_KSW_AddFish("My Favorite Thing At McDonald's Is The Big Mac",spr_KSW_Fish_BigMac,spr_KSW_Fish_BigMac_Pal,series_Misc,flux,3,hallowReen,KSW_Phases.night,200000,,,,snd_KSW_Fish_BigMac);
+	scr_KSW_AddFish("McDonald's Big Mac",spr_KSW_Fish_BigMac,spr_KSW_Fish_BigMac_Pal,series_Misc,flux,3,hallowReen,KSW_Phases.night,200000,,,,snd_KSW_Fish_BigMac);
 	scr_KSW_AddFish("Hateful Shroom",spr_KSW_Fish_HatefulShroom,spr_KSW_Fish_HatefulShroom_Pal,series_SuperMario,candy,1,hallowReen,KSW_Phases.none,6666);
 	scr_KSW_AddFish("Swirly Head Man",spr_KSW_Fish_SwirlyHeadMan,spr_KSW_Fish_SwirlyHeadMan_Pal,series_Misc,candy,2,hallowReen,KSW_Phases.none,12570,-1,43);
 	scr_KSW_AddFish("Mr. Bones",spr_KSW_Fish_MrBones,spr_KSW_Fish_MrBones_Pal,series_Misc,candy,2,hallowReen,KSW_Phases.none,74130);
@@ -1131,6 +1131,14 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Ice Man",spr_KSW_Fish_IceMan,spr_KSW_Fish_IceMan_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
 	scr_KSW_AddFish("Mega Water S",spr_KSW_Fish_MegaWaterS,spr_KSW_Fish_MegaWaterS_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
 	scr_KSW_AddFish("Z'Gok",spr_KSW_Fish_ZGok,spr_KSW_Fish_ZGok_Pal,series_Gundam,mint,0,anyStage,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Rubato",spr_KSW_Fish_Rubato,spr_KSW_Fish_Rubato_Pal,series_Rubato,mint,1,grassBeach,KSW_Phases.none,6000,,2,,snd_KSW_Fish_Rubato);
+	scr_KSW_AddFish("Planet Bit",spr_KSW_Fish_PlanetBit,spr_KSW_Fish_PlanetBit_Pal,series_Rubato,legion,0,anyStage,KSW_Phases.none,3000,,,,snd_KSW_Fish_PlanetBit);
+	scr_KSW_AddFish("Tony",spr_KSW_Fish_Tony,spr_KSW_Fish_Tony_Pal,series_Rubato,glimmer,2,grassBeach,KSW_Phases.none,10000,,16);
+	scr_KSW_AddFish("Hugo",spr_KSW_Fish_Hugo,spr_KSW_Fish_Hugo_Pal,series_Rubato,legion,2,creamCrevasse,KSW_Phases.none,10000,,16,,snd_KSW_Fish_Hugo);
+	scr_KSW_AddFish("Guy Craft",spr_KSW_Fish_GuyCraft,spr_KSW_Fish_GuyCraft_Pal,series_Rubato,mage,3,grassBeach,KSW_Phases.none,200012,,15);
+	scr_KSW_AddFish("Wawawawawawawa",spr_KSW_Fish_Wawa,spr_KSW_Fish_Wawa_Pal,series_Rubato,borange,3,anyStage,KSW_Phases.none,200012,-5,5,,snd_KSW_Fish_WawaFanfare);
+	scr_KSW_AddFish("Hugo...?",spr_KSW_Fish_HugoScreen,spr_KSW_Fish_HugoScreen_Pal,series_Rubato,flux,2,hallowReen,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Higher Management",spr_KSW_Fish_HigherManagement,spr_KSW_Fish_HigherManagement_Pal,series_Rubato,flux,3,hallowReen,KSW_Phases.night,300000,,48);
 	#endregion
 	#endregion
 }

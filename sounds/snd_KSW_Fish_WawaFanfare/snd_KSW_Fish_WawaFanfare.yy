@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_KSW_Fish_WawaFanfare",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.6428797,
+  "exportDir":"",
+  "name":"snd_KSW_Fish_WawaFanfare",
+  "parent":{
+    "name":"Fish",
+    "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_KSW_Fish_WawaFanfare.ogg",
+  "tags":[
+    "Sound Effect",
+  ],
+  "volume":0.7,
+}
