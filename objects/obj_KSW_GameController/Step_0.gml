@@ -499,7 +499,7 @@ if (!localPause)
 				{
 					global.KSW_CaughtUniqueFishCount += 1;
 					
-					global.KSW_StageList[global.KSW_FishList[other.currentFish].stage].fishCount += 1;
+					if (global.KSW_FishList[other.currentFish].stage != -1) global.KSW_StageList[global.KSW_FishList[other.currentFish].stage].fishCount += 1;
 					
 					var achievementID = global.KSW_AchievementIDs[? "catchUnique20"];
 					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);

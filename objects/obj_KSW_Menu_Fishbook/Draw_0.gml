@@ -14,7 +14,7 @@ var color = "[#FFFFFF]";
 if (isCompleted)
 {
 	color = "[#FFD800]";
-	draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,room_width - 68,2 - hintOffset);
+	draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,112,15 - hintOffset);
 }
 scribble(color + string(global.KSW_CaughtUniqueFishCount) + "/" + string(global.KSW_FishCount) + "[/color]").align(fa_right).draw(room_width - 4,6 - hintOffset);
 
