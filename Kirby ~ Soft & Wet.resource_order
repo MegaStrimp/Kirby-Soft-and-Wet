@@ -2250,6 +2250,7 @@
     {"name":"snd_KSW_Fish_FishTaco","order":14,"path":"sounds/snd_KSW_Fish_FishTaco/snd_KSW_Fish_FishTaco.yy",},
     {"name":"snd_KSW_Fish_FrostMan","order":11,"path":"sounds/snd_KSW_Fish_FrostMan/snd_KSW_Fish_FrostMan.yy",},
     {"name":"snd_KSW_Fish_GamblersSlot","order":32,"path":"sounds/snd_KSW_Fish_GamblersSlot/snd_KSW_Fish_GamblersSlot.yy",},
+    {"name":"snd_KSW_Fish_Ganondorf","order":40,"path":"sounds/snd_KSW_Fish_Ganondorf/snd_KSW_Fish_Ganondorf.yy",},
     {"name":"snd_KSW_Fish_Godzilla","order":22,"path":"sounds/snd_KSW_Fish_Godzilla/snd_KSW_Fish_Godzilla.yy",},
     {"name":"snd_KSW_Fish_Guppy","order":6,"path":"sounds/snd_KSW_Fish_Guppy/snd_KSW_Fish_Guppy.yy",},
     {"name":"snd_KSW_Fish_HappyAppy","order":31,"path":"sounds/snd_KSW_Fish_HappyAppy/snd_KSW_Fish_HappyAppy.yy",},

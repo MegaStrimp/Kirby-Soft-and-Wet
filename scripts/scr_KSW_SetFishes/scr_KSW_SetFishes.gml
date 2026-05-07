@@ -174,7 +174,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Sluggula",spr_KSW_Fish_Sluggula,spr_KSW_Fish_Sluggula_Pal_Normal,series_TheLegendOfZelda,legion,0,grassBeach,KSW_Phases.day,1500);
 	scr_KSW_AddFish("Cloud Piranha",spr_KSW_Fish_CloudPiranha,spr_KSW_Fish_CloudPiranha_Pal_Normal,series_TheLegendOfZelda,legion,0,grassBeach,KSW_Phases.afternoon,1000,-1,-2);
 	scr_KSW_AddFish("Zora",spr_KSW_Fish_Zora,spr_KSW_Fish_Zora_Pal_Normal,series_TheLegendOfZelda,mint,1,grassBeach,KSW_Phases.night,5000,0,-1);
-	scr_KSW_AddFish("Ganondorf",spr_KSW_Fish_Ganondorf,spr_KSW_Fish_Ganondorf_Pal_Normal,series_TheLegendOfZelda,mage,3,grassBeach,KSW_Phases.night,60000,-6,36);
+	scr_KSW_AddFish("Ganondorf",spr_KSW_Fish_Ganondorf,spr_KSW_Fish_Ganondorf_Pal_Normal,series_TheLegendOfZelda,mage,3,grassBeach,KSW_Phases.night,60000,-6,36,,snd_KSW_Fish_Ganondorf);
 	scr_KSW_AddFish("Atlantic Cod",spr_KSW_Fish_AtlanticCod,spr_KSW_Fish_AtlanticCod_Pal_Normal,series_Terraria,candy,0,grassBeach,KSW_Phases.none,870);
 	scr_KSW_AddFish("Neon Tetra",spr_KSW_Fish_NeonTetra,spr_KSW_Fish_NeonTetra_Pal_Normal,series_Terraria,legion,0,grassBeach,KSW_Phases.none,90);
 	scr_KSW_AddFish("Red Snapper",spr_KSW_Fish_RedSnapper,spr_KSW_Fish_RedSnapper_Pal_Normal,series_Terraria,candy,0,grassBeach,KSW_Phases.none,820);
