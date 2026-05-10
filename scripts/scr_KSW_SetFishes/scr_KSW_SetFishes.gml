@@ -74,6 +74,7 @@ function scr_KSW_SetFishes()
 	var series_MrMix = global.KSW_SeriesIDs[? "mrMix"];
 	var series_Rubato = global.KSW_SeriesIDs[? "rubato"];
 	var series_Gundam = global.KSW_SeriesIDs[? "gundam"];
+	var series_WildWoody = global.KSW_SeriesIDs[? "wildWoody"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1110,35 +1111,39 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Buried Alive",spr_KSW_Fish_BuriedAlive,spr_KSW_Fish_BuriedAlive_Pal,series_Pokemon,legion,2,hallowReen,KSW_Phases.none,63153);
 	scr_KSW_AddFish("Bozo",spr_KSW_Fish_Bozo,spr_KSW_Fish_Bozo_Pal,series_Misc,mint,1,hallowReen,KSW_Phases.none,2142);
 	scr_KSW_AddFish("Kamegoro",spr_KSW_Fish_Kamegoro,spr_KSW_Fish_Kamegoro_Pal,series_MegaMan,mage,1,creamCrevasse,KSW_Phases.none,30000);
-	scr_KSW_AddFish("Kamegoro Turtle",spr_KSW_Fish_KamegoroTurtle,spr_KSW_Fish_KamegoroTurtle_Pal,series_MegaMan,mint,1,anyStage,KSW_Phases.none,30000);
-	scr_KSW_AddFish("CWU-01P",spr_KSW_Fish_CWU01P,spr_KSW_Fish_CWU01P_Pal,series_MegaMan,mage,2,anyStage,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Kamegoro Turtle",spr_KSW_Fish_KamegoroTurtle,spr_KSW_Fish_KamegoroTurtle_Pal,series_MegaMan,mint,0,creamCrevasse,KSW_Phases.none,3000);
+	scr_KSW_AddFish("CWU-01P",spr_KSW_Fish_CWU01P,spr_KSW_Fish_CWU01P_Pal,series_MegaMan,mage,2,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Yambow",spr_KSW_Fish_Yambow,spr_KSW_Fish_Yambow_Pal,series_MegaMan,candy,0,hallowReen,KSW_Phases.none,3000);
-	scr_KSW_AddFish("Penpen Maker",spr_KSW_Fish_PenpenMaker,spr_KSW_Fish_PenpenMaker_Pal,series_MegaMan,mint,0,creamCrevasse,KSW_Phases.night,30000);
-	scr_KSW_AddFish("Gyoraibo",spr_KSW_Fish_Gyoraibo,spr_KSW_Fish_Gyoraibo_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Pepe",spr_KSW_Fish_Pepe,spr_KSW_Fish_Pepe_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Bomber Pepe",spr_KSW_Fish_BomberPepe,spr_KSW_Fish_BomberPepe_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Tashini",spr_KSW_Fish_Tanishi,spr_KSW_Fish_Tanishi_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Shrink",spr_KSW_Fish_Shrink,spr_KSW_Fish_Shrink_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("M-445",spr_KSW_Fish_M445,spr_KSW_Fish_M445_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("M-Kerog",spr_KSW_Fish_Kerog,spr_KSW_Fish_Kerog_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Claw",spr_KSW_Fish_Claw,spr_KSW_Fish_Claw_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Big Fish",spr_KSW_Fish_BigFish,spr_KSW_Fish_BigFish_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Anko",spr_KSW_Fish_Anko,spr_KSW_Fish_Anko_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Shadow Man",spr_KSW_Fish_ShadowMan,spr_KSW_Fish_ShadowMan_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Snake Man",spr_KSW_Fish_SnakeMan,spr_KSW_Fish_SnakeMan_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Wood Man",spr_KSW_Fish_WoodMan,spr_KSW_Fish_WoodMan_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Bubble Man",spr_KSW_Fish_BubbleMan,spr_KSW_Fish_BubbleMan_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Ice Man",spr_KSW_Fish_IceMan,spr_KSW_Fish_IceMan_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Mega Water S",spr_KSW_Fish_MegaWaterS,spr_KSW_Fish_MegaWaterS_Pal,series_MegaMan,mint,0,anyStage,KSW_Phases.night,3000);
-	scr_KSW_AddFish("Z'Gok",spr_KSW_Fish_ZGok,spr_KSW_Fish_ZGok_Pal,series_Gundam,mint,0,anyStage,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Penpen Maker",spr_KSW_Fish_PenpenMaker,spr_KSW_Fish_PenpenMaker_Pal,series_MegaMan,mage,1,creamCrevasse,KSW_Phases.night,30000);
+	scr_KSW_AddFish("Gyoraibo",spr_KSW_Fish_Gyoraibo,spr_KSW_Fish_Gyoraibo_Pal,series_MegaMan,mint,0,grassBeach,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Pepe",spr_KSW_Fish_Pepe,spr_KSW_Fish_Pepe_Pal,series_MegaMan,flux,0,creamCrevasse,KSW_Phases.none,1000);
+	scr_KSW_AddFish("Bomber Pepe",spr_KSW_Fish_BomberPepe,spr_KSW_Fish_BomberPepe_Pal,series_MegaMan,legion,0,creamCrevasse,KSW_Phases.none,3000);
+	scr_KSW_AddFish("Tashini",spr_KSW_Fish_Tanishi,spr_KSW_Fish_Tanishi_Pal,series_MegaMan,candy,0,grassBeach,KSW_Phases.day,2000);
+	scr_KSW_AddFish("Shrink",spr_KSW_Fish_Shrink,spr_KSW_Fish_Shrink_Pal,series_MegaMan,candy,0,grassBeach,KSW_Phases.day,2000);
+	scr_KSW_AddFish("M-445",spr_KSW_Fish_M445,spr_KSW_Fish_M445_Pal,series_MegaMan,borange,0,grassBeach,KSW_Phases.day,2000);
+	scr_KSW_AddFish("M-Kerog",spr_KSW_Fish_Kerog,spr_KSW_Fish_Kerog_Pal,series_MegaMan,mint,0,grassBeach,KSW_Phases.day,2000);
+	scr_KSW_AddFish("Claw",spr_KSW_Fish_Claw,spr_KSW_Fish_Claw_Pal,series_MegaMan,candy,0,grassBeach,KSW_Phases.day,3000);
+	scr_KSW_AddFish("Big Fish",spr_KSW_Fish_BigFish,spr_KSW_Fish_BigFish_Pal,series_MegaMan,mint,1,grassBeach,KSW_Phases.night,20000);
+	scr_KSW_AddFish("Anko",spr_KSW_Fish_Anko,spr_KSW_Fish_Anko_Pal,series_MegaMan,candy,1,grassBeach,KSW_Phases.night,20000);	
+	scr_KSW_AddFish("Ice Man",spr_KSW_Fish_IceMan,spr_KSW_Fish_IceMan_Pal,series_MegaMan,mage,2,creamCrevasse,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Wood Man",spr_KSW_Fish_WoodMan,spr_KSW_Fish_WoodMan_Pal,series_MegaMan,borange,2,grassBeach,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Shadow Man",spr_KSW_Fish_ShadowMan,spr_KSW_Fish_ShadowMan_Pal,series_MegaMan,flux,2,grassBeach,KSW_Phases.night,30000);
+	scr_KSW_AddFish("Snake Man",spr_KSW_Fish_SnakeMan,spr_KSW_Fish_SnakeMan_Pal,series_MegaMan,mint,2,grassBeach,KSW_Phases.night,30000);
+	scr_KSW_AddFish("Bubble Man",spr_KSW_Fish_BubbleMan,spr_KSW_Fish_BubbleMan_Pal,series_MegaMan,mint,2,grassBeach,KSW_Phases.night,30000);
+	scr_KSW_AddFish("Mega Water S",spr_KSW_Fish_MegaWaterS,spr_KSW_Fish_MegaWaterS_Pal,series_MegaMan,mint,3,grassBeach,KSW_Phases.night,123000);
+	scr_KSW_AddFish("Z'Gok",spr_KSW_Fish_ZGok,spr_KSW_Fish_ZGok_Pal,series_Gundam,glimmer,3,grassBeach,KSW_Phases.night,79000);
 	scr_KSW_AddFish("Rubato",spr_KSW_Fish_Rubato,spr_KSW_Fish_Rubato_Pal,series_Rubato,mint,1,grassBeach,KSW_Phases.none,6000,,2,,snd_KSW_Fish_Rubato);
-	scr_KSW_AddFish("Planet Bit",spr_KSW_Fish_PlanetBit,spr_KSW_Fish_PlanetBit_Pal,series_Rubato,legion,0,anyStage,KSW_Phases.none,3000,,,,snd_KSW_Fish_PlanetBit);
+	scr_KSW_AddFish("Planet Bit",spr_KSW_Fish_PlanetBit,spr_KSW_Fish_PlanetBit_Pal,series_Rubato,legion,0,grassBeach,KSW_Phases.none,3000,,,,snd_KSW_Fish_PlanetBit);
 	scr_KSW_AddFish("Tony",spr_KSW_Fish_Tony,spr_KSW_Fish_Tony_Pal,series_Rubato,glimmer,2,grassBeach,KSW_Phases.none,10000,,16);
 	scr_KSW_AddFish("Hugo",spr_KSW_Fish_Hugo,spr_KSW_Fish_Hugo_Pal,series_Rubato,legion,2,creamCrevasse,KSW_Phases.none,10000,,16,,snd_KSW_Fish_Hugo);
 	scr_KSW_AddFish("Guy Craft",spr_KSW_Fish_GuyCraft,spr_KSW_Fish_GuyCraft_Pal,series_Rubato,mage,3,grassBeach,KSW_Phases.none,200012,,15);
-	scr_KSW_AddFish("Wawawawawawawa",spr_KSW_Fish_Wawa,spr_KSW_Fish_Wawa_Pal,series_Rubato,borange,3,anyStage,KSW_Phases.none,200012,-5,5,,snd_KSW_Fish_WawaFanfare);
+	scr_KSW_AddFish("Wawawawawawawa",spr_KSW_Fish_Wawa,spr_KSW_Fish_Wawa_Pal,series_Rubato,borange,3,grassBeach,KSW_Phases.none,200012,-5,5,,snd_KSW_Fish_WawaFanfare);
 	scr_KSW_AddFish("Hugo...?",spr_KSW_Fish_HugoScreen,spr_KSW_Fish_HugoScreen_Pal,series_Rubato,flux,2,hallowReen,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Higher Management",spr_KSW_Fish_HigherManagement,spr_KSW_Fish_HigherManagement_Pal,series_Rubato,flux,3,hallowReen,KSW_Phases.night,300000,,48);
+	scr_KSW_AddFish("Wild Woody",spr_KSW_Fish_WildWoody,spr_KSW_Fish_WildWoody_Pal,series_WildWoody,borange,3,grassBeach,KSW_Phases.afternoon,300000);
+	scr_KSW_AddFish("Fake Peppino",spr_KSW_Fish_FakePeppino,spr_KSW_Fish_FakePeppino_Pal,series_PizzaTower,flux,2,hallowReen,KSW_Phases.none,5896,,,,snd_KSW_Fish_FakePeppino);
+	scr_KSW_AddFish("Blitty",spr_KSW_Fish_Blitty,spr_KSW_Fish_Blitty_Pal,series_SuperMario,borange,1,grassBeach,KSW_Phases.day,1515);
+	scr_KSW_AddFish("Crawful",spr_KSW_Fish_Crawful,spr_KSW_Fish_Crawful_Pal,series_SuperMario,mint,2,grassBeach,KSW_Phases.night,10000);
 	#endregion
 	#endregion
 }

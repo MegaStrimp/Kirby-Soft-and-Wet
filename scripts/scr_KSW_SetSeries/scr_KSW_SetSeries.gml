@@ -73,7 +73,8 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("waddleDevVsKirbyDarkDawn","Waddle Dev vs Kirby Dark Dawn");
 	scr_KSW_AddSeries("mrMix","Mr. Mix");
 	scr_KSW_AddSeries("rubato","RUBATO");
-	scr_KSW_AddSeries("gundam","Mobiel Suit Gundam");
+	scr_KSW_AddSeries("gundam","Mobile Suit Gundam");
+	scr_KSW_AddSeries("wildWoody","Wild Woody");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
