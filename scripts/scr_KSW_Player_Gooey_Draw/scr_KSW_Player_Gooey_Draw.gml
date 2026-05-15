@@ -40,7 +40,7 @@ function scr_KSW_Player_Gooey_Draw()
 	#endregion
 	
 	#region Bobber
-	scr_DrawCurve(rodX + shakeXFinal,rodY,bobberX + bobberShakeFinal,bobberY,0,8);
+	scr_DrawCurve_Thick(rodX + shakeXFinal,rodY,bobberX + bobberShakeFinal,bobberY,0,8,#D62F27,2);
 	draw_sprite(sprBobber,sprBobberImageIndex,bobberX + bobberShakeFinal,bobberY);
 	#endregion
 	

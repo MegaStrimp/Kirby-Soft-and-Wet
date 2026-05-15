@@ -77,8 +77,18 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 		break;
 		
 		case sprFound:
-		rodX = x + 35;
-		rodY = y - 8;
+		switch (floor(image_index))
+		{
+			case 0:
+			rodX = x + 11;
+			rodY = y;
+			break;
+			
+			default:
+			rodX = x + 11;
+			rodY = y + 1;
+			break;
+		}
 		bobberShake = true;
 		break;
 		
