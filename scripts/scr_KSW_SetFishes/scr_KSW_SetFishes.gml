@@ -1098,7 +1098,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Gambler's Coin",spr_KSW_Fish_GamblersCoin,spr_KSW_Fish_GamblersCoin_Pal,series_WaddleDevVsKirbyDarkDawn,glimmer,1,creamCrevasse,KSW_Phases.none,7777);
 	scr_KSW_AddFish("Red",spr_KSW_Fish_Red,spr_KSW_Fish_Red_Pal,series_Godzilla,candy,2,hallowReen,KSW_Phases.night,55000,-26,22);
 	scr_KSW_AddFish("Mr. Mix",spr_KSW_Fish_MrMix,spr_KSW_Fish_MrMix_Pal,series_MrMix,borange,1,creamCrevasse,KSW_Phases.none,12000,12,28);
-	scr_KSW_AddFish("Android Man",spr_KSW_Fish_AndroidMan,spr_KSW_Fish_AndroidMan_Pal,series_MegaMan,mage,3,creamCrevasse,KSW_Phases.none,670000);
+	//scr_KSW_AddFish("Android Man",spr_KSW_Fish_AndroidMan,spr_KSW_Fish_AndroidMan_Pal,series_MegaMan,mage,3,creamCrevasse,KSW_Phases.none,670000);
 	scr_KSW_AddFish("Chatty Dee",spr_KSW_Fish_ChattyDee,spr_KSW_Fish_ChattyDee_Pal,series_Kirby,borange,2,anyStage,KSW_Phases.none,2000);
 	scr_KSW_AddFish("Water Galboros",spr_KSW_Fish_WaterGalboros,spr_KSW_Fish_WaterGalboros_Pal,series_Kirby,mage,1,creamCrevasse,KSW_Phases.day,12000);
 	scr_KSW_AddFish("McDonald's Big Mac",spr_KSW_Fish_BigMac,spr_KSW_Fish_BigMac_Pal,series_Misc,flux,3,hallowReen,KSW_Phases.night,200000,,,,snd_KSW_Fish_BigMac);
