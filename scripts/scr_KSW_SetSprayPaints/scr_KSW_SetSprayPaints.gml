@@ -116,7 +116,12 @@ function scr_KSW_SetSprayPaints()
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "JesterGrape",playerID,"Jester Grape",spr_KSW_Player_Marx_SprayPaint_JesterGrape,flux,0,true);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Starless",playerID,"Starless",spr_KSW_Player_Marx_SprayPaint_Starless,legion,75);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Chaos",playerID,"Chaos",spr_KSW_Player_Marx_SprayPaint_Chaos,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Chaos",playerID,"Chaos",spr_KSW_Player_Marx_SprayPaint_Chaos,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Beam",playerID,"Beam",spr_KSW_Player_Marx_SprayPaint_Beam,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Inverse",playerID,"Inverse",spr_KSW_Player_Marx_SprayPaint_Inverse,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Traitorous",playerID,"Traitorous",spr_KSW_Player_Marx_SprayPaint_Traitorous,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Reflective",playerID,"Reflective",spr_KSW_Player_Marx_SprayPaint_Reflective,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "AirRider",playerID,"Air Rider",spr_KSW_Player_Marx_SprayPaint_AirRider,legion,75);
 	#endregion
 	#endregion
 }
