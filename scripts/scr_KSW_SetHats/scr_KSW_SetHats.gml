@@ -51,5 +51,12 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,flux,0,0,0,true);
 	#endregion
+	
+	#region Waddle Dee
+	var playerID = "waddleDee";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Bandana",playerID,"Bandana",spr_KSW_Player_WaddleDee_Hat_Bandana_Ready,scr_KSW_Player_WaddleDee_Hat_Bandana_SpriteSet(),mage,100,5,5);
+	#endregion
 	#endregion
 }

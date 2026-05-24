@@ -47,64 +47,64 @@ function scr_KSW_Player_Marx_Draw()
 	#region Rod
 	var targetRodSprite = undefined;
 	
-	//switch (sprite_index)
-	//{
-	//	case sprReady:
-	//	targetRodSprite = sprReady_Rod;
-	//	break;
+	switch (sprite_index)
+	{
+		case sprReady:
+		targetRodSprite = sprReady_Rod;
+		break;
 		
-	//	case sprThrow:
-	//	targetRodSprite = sprThrow_Rod;
-	//	break;
+		case sprThrow:
+		targetRodSprite = sprThrow_Rod;
+		break;
 		
-	//	case sprWait:
-	//	targetRodSprite = sprWait_Rod;
-	//	break;
+		case sprWait:
+		targetRodSprite = sprWait_Rod;
+		break;
 		
-	//	case sprFound:
-	//	targetRodSprite = sprFound_Rod;
-	//	break;
+		case sprFound:
+		targetRodSprite = sprFound_Rod;
+		break;
 		
-	//	case sprUp:
-	//	targetRodSprite = sprUp_Rod;
-	//	break;
+		case sprUp:
+		targetRodSprite = sprUp_Rod;
+		break;
 		
-	//	case sprUpAnim:
-	//	targetRodSprite = sprUpAnim_Rod;
-	//	break;
+		case sprUpAnim:
+		targetRodSprite = sprUpAnim_Rod;
+		break;
 		
-	//	case sprDown:
-	//	targetRodSprite = sprDown_Rod;
-	//	break;
+		case sprDown:
+		targetRodSprite = sprDown_Rod;
+		break;
 		
-	//	case sprDownAnim:
-	//	targetRodSprite = sprDownAnim_Rod;
-	//	break;
+		case sprDownAnim:
+		targetRodSprite = sprDownAnim_Rod;
+		break;
 		
-	//	case sprLeft:
-	//	targetRodSprite = sprLeft_Rod;
-	//	break;
+		case sprLeft:
+		targetRodSprite = sprLeft_Rod;
+		break;
 		
-	//	case sprLeftAnim:
-	//	targetRodSprite = sprLeftAnim_Rod;
-	//	break;
+		case sprLeftAnim:
+		targetRodSprite = sprLeftAnim_Rod;
+		break;
 		
-	//	case sprRight:
-	//	targetRodSprite = sprRight_Rod;
-	//	break;
+		case sprRight:
+		targetRodSprite = sprRight_Rod;
+		break;
 		
-	//	case sprRightAnim:
-	//	targetRodSprite = sprRightAnim_Rod;
-	//	break;
+		case sprRightAnim:
+		targetRodSprite = sprRightAnim_Rod;
+		break;
 		
-	//	case sprFailed:
-	//	targetRodSprite = sprFailed_Rod;
-	//	break;
+		case sprFailed:
+		targetRodSprite = sprFailed_Rod;
+		break;
 		
-	//	case sprSuccess:
-	//	targetRodSprite = sprSuccess_Rod;
-	//	break;
-	//}
+		case sprSuccess:
+		targetRodSprite = sprSuccess_Rod;
+		break;
+	}
 	#endregion
 	
 	#region Hat

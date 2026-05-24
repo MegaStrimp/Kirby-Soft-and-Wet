@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Marx_SprayPaint_AirRider",
   "bboxMode":0,
-  "bbox_bottom":20,
+  "bbox_bottom":23,
   "bbox_left":0,
   "bbox_right":1,
   "bbox_top":0,
@@ -24,7 +24,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":21,
+  "height":24,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2c098b81-990c-401d-8b7e-a8a0f1d5143b","blendMode":0,"displayName":"default","isLocked":false,"name":"2c098b81-990c-401d-8b7e-a8a0f1d5143b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

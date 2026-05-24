@@ -109,6 +109,14 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Apple",playerID,"Apple",spr_KSW_Player_Elfilin_SprayPaint_Apple,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Dreary",playerID,"Dreary",spr_KSW_Player_Elfilin_SprayPaint_Dreary,legion,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Gray",playerID,"Gray",spr_KSW_Player_Elfilin_SprayPaint_Gray,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Angry",playerID,"Angry",spr_KSW_Player_Elfilin_SprayPaint_Angry,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Daroach",playerID,"Daroach",spr_KSW_Player_Elfilin_SprayPaint_Daroach,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DarkDaroach",playerID,"Dark Daroach",spr_KSW_Player_Elfilin_SprayPaint_DarkDaroach,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Doc",playerID,"Doc",spr_KSW_Player_Elfilin_SprayPaint_Doc,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Spinni",playerID,"Spinni",spr_KSW_Player_Elfilin_SprayPaint_Spinni,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Storo",playerID,"Storo",spr_KSW_Player_Elfilin_SprayPaint_Storo,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Ribbon",playerID,"Ribbon",spr_KSW_Player_Elfilin_SprayPaint_Ribbon,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "LightGrape",playerID,"Light Grape",spr_KSW_Player_Elfilin_SprayPaint_LightGrape,flux,75);
 	#endregion
 	
 	#region Marx
@@ -122,6 +130,28 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Traitorous",playerID,"Traitorous",spr_KSW_Player_Marx_SprayPaint_Traitorous,glimmer,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Reflective",playerID,"Reflective",spr_KSW_Player_Marx_SprayPaint_Reflective,mint,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "AirRider",playerID,"Air Rider",spr_KSW_Player_Marx_SprayPaint_AirRider,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TheComet",playerID,"The Comet",spr_KSW_Player_Marx_SprayPaint_TheComet,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "PuzzleWitch",playerID,"Puzzle Witch",spr_KSW_Player_Marx_SprayPaint_PuzzleWitch,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SpiderWeb",playerID,"Spider Web",spr_KSW_Player_Marx_SprayPaint_SpiderWeb,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SleepyMood",playerID,"Sleepy Mood",spr_KSW_Player_Marx_SprayPaint_SleepyMood,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TerribleDream",playerID,"Terrible Dream",spr_KSW_Player_Marx_SprayPaint_TerribleDream,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "MachineOwner",playerID,"Machine Owner",spr_KSW_Player_Marx_SprayPaint_MachineOwner,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ForgottenSoul",playerID,"Forgotten Soul",spr_KSW_Player_Marx_SprayPaint_ForgottenSoul,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ForgottenSoulAlt",playerID,"Forgotten Soul Alt",spr_KSW_Player_Marx_SprayPaint_ForgottenSoulAlt,legion,75);
+	#endregion
+	
+	#region Waddle Dee
+	var playerID = "waddleDee";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "DeeFault",playerID,"Dee-Fault",spr_KSW_Player_WaddleDee_SprayPaint_DeeFault,borange,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Golden",playerID,"Golden",spr_KSW_Player_WaddleDee_SprayPaint_Golden,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Grand",playerID,"Grand",spr_KSW_Player_WaddleDee_SprayPaint_Grand,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TripleDee",playerID,"Triple Dee",spr_KSW_Player_WaddleDee_SprayPaint_TripleDee,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Aggressive",playerID,"Aggressive",spr_KSW_Player_WaddleDee_SprayPaint_Aggressive,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Chunky",playerID,"Chunky",spr_KSW_Player_WaddleDee_SprayPaint_Chunky,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pink",playerID,"Pink",spr_KSW_Player_WaddleDee_SprayPaint_Pink,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Halcandle",playerID,"Halcandle",spr_KSW_Player_WaddleDee_SprayPaint_Halcandle,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Sectra",playerID,"Sectra",spr_KSW_Player_WaddleDee_SprayPaint_Sectra,mint,75);
 	#endregion
 	#endregion
 }
