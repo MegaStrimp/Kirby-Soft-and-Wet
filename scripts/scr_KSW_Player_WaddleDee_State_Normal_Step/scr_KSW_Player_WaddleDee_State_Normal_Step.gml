@@ -38,8 +38,8 @@ function scr_KSW_Player_WaddleDee_State_Normal_Step()
 			if (image_index >= 4)
 			{
 				scr_KSW_ThrowBobber();
-				rodX = x + 15;
-				rodY = y - 24;
+				rodX = x + 13;
+				rodY = y - 23;
 				
 				threwBobber = true;
 			}
@@ -49,37 +49,52 @@ function scr_KSW_Player_WaddleDee_State_Normal_Step()
 			switch (floor(image_index))
 			{
 				case 4:
-				rodX = x + 17;
-				rodY = y - 2;
+				rodX = x + 13;
+				rodY = y - 23;
 				break;
 				
 				case 5:
-				rodX = x + 17;
-				rodY = y - 7;
+				rodX = x + 25;
+				rodY = y - 15;
+				break;
+				
+				case 6:
+				rodX = x + 31;
+				rodY = y - 3;
 				break;
 				
 				default:
-				rodX = x + 20;
-				rodY = y - 4;
+				rodX = x + 31;
+				rodY = y - 8;
 				break;
 			}
 		}
 		break;
 		
 		case sprWait:
-		rodX = x + 16;
-		rodY = y - 21;
+		rodX = x + 27;
+		rodY = y - 11;
 		break;
 		
 		case sprFound:
-		rodX = x + 30;
-		rodY = y - 4;
+		switch (floor(image_index))
+		{
+			case 0:
+			rodX = x + 30;
+			rodY = y - 8;
+			break;
+				
+			default:
+			rodX = x + 31;
+			rodY = y - 7;
+			break;
+		}
 		bobberShake = true;
 		break;
 		
 		case sprUp:
-		rodX = x + 4;
-		rodY = y - 28;
+		rodX = x + 13;
+		rodY = y - 32;
 		bobberShake = true;
 		break;
 		
@@ -87,26 +102,26 @@ function scr_KSW_Player_WaddleDee_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 6;
-			rodY = y - 27;
-			break;
-			
-			case 1:
-			rodX = x + 3;
+			rodX = x + 12;
 			rodY = y - 31;
 			break;
 			
+			case 1:
+			rodX = x + 12;
+			rodY = y - 33;
+			break;
+			
 			default:
-			rodX = x + 4;
-			rodY = y - 29;
+			rodX = x + 13;
+			rodY = y - 32;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprDown:
-		rodX = x + 17;
-		rodY = y + 7;
+		rodX = x + 29;
+		rodY = y + 6;
 		bobberShake = true;
 		break;
 		
@@ -114,26 +129,26 @@ function scr_KSW_Player_WaddleDee_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 15;
-			rodY = y + 6;
+			rodX = x + 30;
+			rodY = y + 5;
 			break;
 			
 			case 1:
-			rodX = x + 20;
-			rodY = y + 8;
+			rodX = x + 28;
+			rodY = y + 6;
 			break;
 			
 			default:
-			rodX = x + 17;
-			rodY = y + 7;
+			rodX = x + 29;
+			rodY = y + 6;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprLeft:
-		rodX = x - 10;
-		rodY = y - 21;
+		rodX = x + 7;
+		rodY = y - 31;
 		bobberShake = true;
 		break;
 		
@@ -141,21 +156,26 @@ function scr_KSW_Player_WaddleDee_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x - 9;
-			rodY = y - 20;
+			rodX = x + 10;
+			rodY = y - 28;
+			break;
+			
+			case 1:
+			rodX = x + 4;
+			rodY = y - 30;
 			break;
 			
 			default:
-			rodX = x - 10;
-			rodY = y - 21;
+			rodX = x + 6;
+			rodY = y - 30;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprRight:
-		rodX = x + 36;
-		rodY = y - 10;
+		rodX = x + 29;
+		rodY = y - 12;
 		bobberShake = true;
 		break;
 		
@@ -163,18 +183,18 @@ function scr_KSW_Player_WaddleDee_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 33;
-			rodY = y - 14;
+			rodX = x + 27;
+			rodY = y - 19;
 			break;
 			
 			case 1:
-			rodX = x + 39;
-			rodY = y - 8;
+			rodX = x + 32;
+			rodY = y - 15;
 			break;
 			
 			default:
-			rodX = x + 37;
-			rodY = y - 10;
+			rodX = x + 29;
+			rodY = y - 12;
 			break;
 		}
 		bobberShake = true;
