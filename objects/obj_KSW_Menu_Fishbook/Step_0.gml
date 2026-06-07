@@ -103,7 +103,7 @@ if (canSelect)
 			
 			if ((scr_MouseIsInbetween(boxX,boxY,boxX + 28,boxY + 28)) and (mouse_check_button_pressed(mb_left)))
 			{
-				if (selection == i)
+				if ((selection == i) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0))
 				{
 					scr_PlaySfx(snd_KSW_ButtonYes);
 					
