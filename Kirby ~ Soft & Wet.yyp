@@ -894,6 +894,7 @@
     {"$GMFolder":"","%Name":"Great White Shark","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Great White Shark.yy","name":"Great White Shark","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Green Blister Head","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Green Blister Head.yy","name":"Green Blister Head","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Greenhorn Pico","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Greenhorn Pico.yy","name":"Greenhorn Pico","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Togore","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Togore.yy","name":"Togore","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grouper","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Grouper.yy","name":"Grouper","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Guy Craft","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Guy Craft.yy","name":"Guy Craft","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gyoraibo","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Gyoraibo.yy","name":"Gyoraibo","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -1565,7 +1566,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Kirby ~ Soft & Wet",
   "resources":[
@@ -4675,6 +4676,8 @@
     {"id":{"name":"spr_KSW_Fish_Toad","path":"sprites/spr_KSW_Fish_Toad/spr_KSW_Fish_Toad.yy",},},
     {"id":{"name":"spr_KSW_Fish_ToadyBloyster_Pal_Normal","path":"sprites/spr_KSW_Fish_ToadyBloyster_Pal_Normal/spr_KSW_Fish_ToadyBloyster_Pal_Normal.yy",},},
     {"id":{"name":"spr_KSW_Fish_ToadyBloyster","path":"sprites/spr_KSW_Fish_ToadyBloyster/spr_KSW_Fish_ToadyBloyster.yy",},},
+    {"id":{"name":"Spr_KSW_Fish_Togore_Pal","path":"sprites/Spr_KSW_Fish_Togore_Pal/Spr_KSW_Fish_Togore_Pal.yy",},},
+    {"id":{"name":"spr_KSW_Fish_Togore","path":"sprites/spr_KSW_Fish_Togore/spr_KSW_Fish_Togore.yy",},},
     {"id":{"name":"spr_KSW_Fish_Tomato_Pal_Normal","path":"sprites/spr_KSW_Fish_Tomato_Pal_Normal/spr_KSW_Fish_Tomato_Pal_Normal.yy",},},
     {"id":{"name":"spr_KSW_Fish_Tomato","path":"sprites/spr_KSW_Fish_Tomato/spr_KSW_Fish_Tomato.yy",},},
     {"id":{"name":"spr_KSW_Fish_TomatoToppin_Pal","path":"sprites/spr_KSW_Fish_TomatoToppin_Pal/spr_KSW_Fish_TomatoToppin_Pal.yy",},},
