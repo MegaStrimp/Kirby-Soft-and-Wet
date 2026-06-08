@@ -1147,6 +1147,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Victini",spr_KSW_Fish_Victini,spr_KSW_Fish_Victini_Pal,series_Pokemon,borange,3,grassBeach,KSW_Phases.none,40000);
 	scr_KSW_AddFish("Togore",spr_KSW_Fish_Togore,Spr_KSW_Fish_Togore_Pal,series_Undertale,mint,2,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Ramb",spr_KSW_Fish_Ramb,spr_KSW_Fish_Ramb_Pal,series_Deltarune,borange,2,hallowReen,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Snowdrake",spr_KSW_Fish_Snowdrake,spr_KSW_Fish_Snowdrake_Pal,series_Undertale,legion,1,creamCrevasse,KSW_Phases.none,10000);
 	#endregion
 	#endregion
 }
