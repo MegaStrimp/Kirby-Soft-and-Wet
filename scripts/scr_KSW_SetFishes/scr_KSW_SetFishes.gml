@@ -75,6 +75,7 @@ function scr_KSW_SetFishes()
 	var series_Rubato = global.KSW_SeriesIDs[? "rubato"];
 	var series_Gundam = global.KSW_SeriesIDs[? "gundam"];
 	var series_WildWoody = global.KSW_SeriesIDs[? "wildWoody"];
+	var series_WiiPlay = global.KSW_SeriesIDs[? "wiiPlay"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1148,6 +1149,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Togore",spr_KSW_Fish_Togore,Spr_KSW_Fish_Togore_Pal,series_Undertale,mint,2,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Ramb",spr_KSW_Fish_Ramb,spr_KSW_Fish_Ramb_Pal,series_Deltarune,borange,2,hallowReen,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Snowdrake",spr_KSW_Fish_Snowdrake,spr_KSW_Fish_Snowdrake_Pal,series_Undertale,legion,1,creamCrevasse,KSW_Phases.none,10000);
+	scr_KSW_AddFish("King of the Pond",spr_KSW_Fish_PondKing,spr_KSW_Fish_PondKing_Pal,series_WiiPlay,maze,3,grassBeach,KSW_Phases.none,350);
 	#endregion
 	#endregion
 }
