@@ -75,6 +75,7 @@ function scr_KSW_SetFishes()
 	var series_Rubato = global.KSW_SeriesIDs[? "rubato"];
 	var series_Gundam = global.KSW_SeriesIDs[? "gundam"];
 	var series_WildWoody = global.KSW_SeriesIDs[? "wildWoody"];
+	var series_Ultraman = global.KSW_SeriesIDs[? "ultraman"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1148,6 +1149,20 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Togore",spr_KSW_Fish_Togore,Spr_KSW_Fish_Togore_Pal,series_Undertale,mint,2,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Ramb",spr_KSW_Fish_Ramb,spr_KSW_Fish_Ramb_Pal,series_Deltarune,borange,2,hallowReen,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Snowdrake",spr_KSW_Fish_Snowdrake,spr_KSW_Fish_Snowdrake_Pal,series_Undertale,legion,1,creamCrevasse,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Eleking",spr_KSW_Fish_Eleking,spr_KSW_Fish_Eleking_Pal,series_Ultraman,borange,3,grassBeach,KSW_Phases.day,90000);
+	scr_KSW_AddFish("Frog The Jam",spr_KSW_Fish_FrogTheJam,spr_KSW_Fish_FrogTheJam_Pal,series_Yugioh,mint,0,grassBeach,KSW_Phases.day,1000);
+	scr_KSW_AddFish("Star Boy",spr_KSW_Fish_StarBoy,spr_KSW_Fish_StarBoy_Pal,series_Yugioh,candy,0,grassBeach,KSW_Phases.day,1200);
+	scr_KSW_AddFish("Treeborn Frog",spr_KSW_Fish_TreebornFrog,spr_KSW_Fish_TreebornFrog_Pal,series_Yugioh,mint,0,grassBeach,KSW_Phases.day,900);
+	scr_KSW_AddFish("Space Mambo",spr_KSW_Fish_SpaceMambo,spr_KSW_Fish_SpaceMambo_Pal,series_Yugioh,legion,1,grassBeach,KSW_Phases.night,2400);
+	scr_KSW_AddFish("Revival Jam",spr_KSW_Fish_RevivalJam,spr_KSW_Fish_RevivalJam_Pal,series_Yugioh,legion,1,grassBeach,KSW_Phases.day,3000);
+	scr_KSW_AddFish("Deepsea King Coelacanth",spr_KSW_Fish_SuperancientDeepseaKingCoelacanth,spr_KSW_Fish_SuperancientDeepseaKingCoelacanth_Pal,series_Yugioh,legion,3,grassBeach,KSW_Phases.night,85000);
+	scr_KSW_AddFish("Mothra Larva",spr_KSW_Fish_MothraLarva,spr_KSW_Fish_MothraLarva_Pal,series_Godzilla,borange,1,grassBeach,KSW_Phases.afternoon,6000);
+	scr_KSW_AddFish("Mothra",spr_KSW_Fish_Mothra,spr_KSW_Fish_Mothra_Pal,series_Godzilla,candy,3,grassBeach,KSW_Phases.afternoon,80000);
+	scr_KSW_AddFish("Rodan",spr_KSW_Fish_Rodan,spr_KSW_Fish_Rodan_Pal,series_Godzilla,borange,3,grassBeach,KSW_Phases.afternoon,90000);
+	scr_KSW_AddFish("Anguirus",spr_KSW_Fish_Anguirus,spr_KSW_Fish_Anguirus_Pal,series_Godzilla,borange,3,grassBeach,KSW_Phases.afternoon,90000);
+	scr_KSW_AddFish("Ebirah",spr_KSW_Fish_Ebirah,spr_KSW_Fish_Ebirah_Pal,series_Godzilla,candy,3,grassBeach,KSW_Phases.day,90000);
+	scr_KSW_AddFish("Manda",spr_KSW_Fish_Manda,spr_KSW_Fish_Manda_Pal,series_Godzilla,mint,3,grassBeach,KSW_Phases.day,90000);
+	scr_KSW_AddFish("Titanosaurus",spr_KSW_Fish_Titanosaurus,spr_KSW_Fish_Titanosaurus_Pal,series_Godzilla,candy,3,grassBeach,KSW_Phases.day,90000);
 	#endregion
 	#endregion
 }

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"snowdrake",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/snowdrake.yy",
+    "name":"Snowdrake",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Snowdrake.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -75,6 +75,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("rubato","RUBATO");
 	scr_KSW_AddSeries("gundam","Mobile Suit Gundam");
 	scr_KSW_AddSeries("wildWoody","Wild Woody");
+	scr_KSW_AddSeries("ultraman","Ultraman");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
