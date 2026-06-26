@@ -1163,6 +1163,16 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Ebirah",spr_KSW_Fish_Ebirah,spr_KSW_Fish_Ebirah_Pal,series_Godzilla,candy,3,grassBeach,KSW_Phases.day,90000);
 	scr_KSW_AddFish("Manda",spr_KSW_Fish_Manda,spr_KSW_Fish_Manda_Pal,series_Godzilla,mint,3,grassBeach,KSW_Phases.day,90000);
 	scr_KSW_AddFish("Titanosaurus",spr_KSW_Fish_Titanosaurus,spr_KSW_Fish_Titanosaurus_Pal,series_Godzilla,candy,3,grassBeach,KSW_Phases.day,90000);
+	scr_KSW_AddFish("Dreadnautilus",spr_KSW_Fish_Dreadnautilus,spr_KSW_Fish_Dreadnautilus_Pal,series_Terraria,candy,2,hallowReen,KSW_Phases.night,9000);
+	scr_KSW_AddFish("Poyomon",spr_KSW_Fish_Poyomon,spr_KSW_Fish_Poyomon_Pal,series_Digimon,legion,0,grassBeach,KSW_Phases.day,95);
+	scr_KSW_AddFish("Otamamon",spr_KSW_Fish_Otamamon,spr_KSW_Fish_Otamamon_Pal,series_Digimon,flux,0,grassBeach,KSW_Phases.afternoon,800);
+	scr_KSW_AddFish("Betamon",spr_KSW_Fish_Betamon,spr_KSW_Fish_Betamon_Pal,series_Digimon,borange,0,grassBeach,KSW_Phases.afternoon,1250);
+	scr_KSW_AddFish("Gekomon",spr_KSW_Fish_Gekomon,spr_KSW_Fish_Gekomon_Pal,series_Digimon,mint,1,grassBeach,KSW_Phases.afternoon,1500);
+	scr_KSW_AddFish("ShogunGekomon",spr_KSW_Fish_ShogunGekomon,spr_KSW_Fish_ShogunGekomon_Pal,series_Digimon,borange,2,grassBeach,KSW_Phases.afternoon,25000);
+	scr_KSW_AddFish("Whamon",spr_KSW_Fish_Whamon,spr_KSW_Fish_Whamon_Pal,series_Digimon,mage,3,grassBeach,KSW_Phases.day,40000);
+	scr_KSW_AddFish("Leviamon",spr_KSW_Fish_Leviamon,spr_KSW_Fish_Leviamon_Pal,series_Digimon,borange,3,grassBeach,KSW_Phases.night,75000);
+	scr_KSW_AddFish("MetalSeadramon",spr_KSW_Fish_MetalSeadramon,spr_KSW_Fish_MetalSeadramon_Pal,series_Digimon,borange,3,grassBeach,KSW_Phases.night,225000);
+	scr_KSW_AddFish("GigaSeadramon",spr_KSW_Fish_GigaSeadramon,spr_KSW_Fish_GigaSeadramon_Pal,series_Digimon,borange,3,grassBeach,KSW_Phases.night,250000);
 	#endregion
 	#endregion
 }
