@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_KSW_Fish_TroupleAcolyte_Pal",
+  "%Name":"spr_KSW_Fish_TrouppleMissionary_Pal",
   "bboxMode":0,
   "bbox_bottom":4,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2b80e784-e107-4123-8277-b1315deff0a6","name":"2b80e784-e107-4123-8277-b1315deff0a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"264a34e7-e552-450b-8838-3e211f991d78","name":"264a34e7-e552-450b-8838-3e211f991d78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":5,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cbf5112f-3fe6-4a7a-827f-38eec930ceba","blendMode":0,"displayName":"default","isLocked":false,"name":"cbf5112f-3fe6-4a7a-827f-38eec930ceba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2ecfa3d5-51d8-4acd-a45a-50071b00d581","blendMode":0,"displayName":"default","isLocked":false,"name":"2ecfa3d5-51d8-4acd-a45a-50071b00d581","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Fish_TroupleAcolyte_Pal",
+  "name":"spr_KSW_Fish_TrouppleMissionary_Pal",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Troupple Acolyte",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Troupple Acolyte.yy",
+    "name":"Troupple Missionary",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Troupple Missionary.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Fish_TroupleAcolyte_Pal",
+    "%Name":"spr_KSW_Fish_TrouppleMissionary_Pal",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Fish_TroupleAcolyte_Pal",
+    "name":"spr_KSW_Fish_TrouppleMissionary_Pal",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b80e784-e107-4123-8277-b1315deff0a6","path":"sprites/spr_KSW_Fish_TroupleAcolyte_Pal/spr_KSW_Fish_TroupleAcolyte_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"53588765-63d7-4798-bf71-2e5d831aa6b9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"264a34e7-e552-450b-8838-3e211f991d78","path":"sprites/spr_KSW_Fish_TrouppleMissionary_Pal/spr_KSW_Fish_TrouppleMissionary_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9bea19a3-2cee-423d-96c6-acf8f7b7a53b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

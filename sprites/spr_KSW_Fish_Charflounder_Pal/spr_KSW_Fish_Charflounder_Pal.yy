@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Charflouder",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Charflouder.yy",
+    "name":"Charflounder",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Charflounder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

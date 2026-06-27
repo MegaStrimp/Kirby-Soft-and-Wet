@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_KSW_Fish_TroupleMissionary",
+  "%Name":"spr_KSW_Fish_TrouppleMissionary",
   "bboxMode":0,
   "bbox_bottom":48,
   "bbox_left":0,
@@ -43,7 +43,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"e30325c6-daa9-4fc7-ab01-a247e2657a24","blendMode":0,"displayName":"default","isLocked":false,"name":"e30325c6-daa9-4fc7-ab01-a247e2657a24","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Fish_TroupleMissionary",
+  "name":"spr_KSW_Fish_TrouppleMissionary",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -55,7 +55,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Fish_TroupleMissionary",
+    "%Name":"spr_KSW_Fish_TrouppleMissionary",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -79,7 +79,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Fish_TroupleMissionary",
+    "name":"spr_KSW_Fish_TrouppleMissionary",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -91,73 +91,73 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ccf7577-e97e-485e-bb56-e32d86af7606","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ccf7577-e97e-485e-bb56-e32d86af7606","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9055ea01-49fe-4c56-9a46-a05da5d9c80b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a8902658-6392-412e-8f25-4ceab6d39b37","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a8902658-6392-412e-8f25-4ceab6d39b37","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"cd07f76a-ba32-47e3-b42a-a6d332f5ca1d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34f8c141-3828-4a93-af9e-d0d57b4242de","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34f8c141-3828-4a93-af9e-d0d57b4242de","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1707e425-9a39-49f2-8e8f-3e549e681000","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"556a64a2-4873-4b17-9659-58105214eea3","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"556a64a2-4873-4b17-9659-58105214eea3","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6f8ac6f8-d61e-484b-97c7-8da2d4395dc8","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"293c63e2-4659-4e8a-bfb4-46b11f737495","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"293c63e2-4659-4e8a-bfb4-46b11f737495","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"cf243608-c6fb-42c9-85ba-15da29d166aa","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e579c5f-62da-4ed2-ac83-5c5eb493293b","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e579c5f-62da-4ed2-ac83-5c5eb493293b","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d7e235b9-50a5-4299-b9ee-7a71129a2535","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"412df4da-daed-4d2a-9a67-576d25b95e45","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"412df4da-daed-4d2a-9a67-576d25b95e45","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9142fbd3-7d46-447b-862c-45b066cbb835","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a2abaee-69d5-473a-ae2a-2499732daf85","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a2abaee-69d5-473a-ae2a-2499732daf85","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b1f76506-6204-4327-89df-8a3bf1d54d77","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4185e5e-61ac-4255-abdf-cd4d6d232059","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4185e5e-61ac-4255-abdf-cd4d6d232059","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"05769cb9-19af-4144-a570-4da9e24c9aa0","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4998fee0-a9ef-4ac5-978a-808faba51626","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4998fee0-a9ef-4ac5-978a-808faba51626","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d8c299ea-ffe5-45ef-bd62-3005896ab3c4","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb88c1b7-f85e-4471-994c-a5d84f39b9c7","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb88c1b7-f85e-4471-994c-a5d84f39b9c7","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0c291499-9c28-4e98-92a8-a71bfc44b20b","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72663d35-5c07-4ee3-8785-2530872b35b0","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72663d35-5c07-4ee3-8785-2530872b35b0","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f83d10ce-77ed-4e23-9053-3e25db94577f","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4256fd7-f3cf-4e65-88ac-4b6b4d06f84e","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4256fd7-f3cf-4e65-88ac-4b6b4d06f84e","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"37c69d52-8e2e-4231-92af-7d98b77b3d00","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"041b7fca-5e3b-4c5b-9b43-098cb0958a2c","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"041b7fca-5e3b-4c5b-9b43-098cb0958a2c","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"359e12f3-cef5-491b-9ce6-977e341d24fd","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4300bde3-97cf-43f5-8ce9-5a1133a58a40","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4300bde3-97cf-43f5-8ce9-5a1133a58a40","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2e3fa9ee-b2c0-4e9f-bb4d-0847c8b81eba","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8596f80-1c58-47c3-b324-a9375c28bc63","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8596f80-1c58-47c3-b324-a9375c28bc63","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"638ccdff-702d-40c2-83c0-b17b6ccec8be","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04887df9-ad89-475a-baed-e6962d0a2a28","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04887df9-ad89-475a-baed-e6962d0a2a28","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3ad22b5e-d2a6-411a-b7ac-f90a1670e5a2","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa64bf47-5333-45f0-a71d-1014e9350ff4","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa64bf47-5333-45f0-a71d-1014e9350ff4","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e8608b61-b333-4079-896d-83bb2fdf4b31","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"73237311-47d1-4aaf-827f-77cfde2a0417","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"73237311-47d1-4aaf-827f-77cfde2a0417","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"efbb0441-7633-4f3d-bcf9-a85a5872f5e7","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"167ae435-474a-4065-bd37-513cf9f1b27a","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"167ae435-474a-4065-bd37-513cf9f1b27a","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"449723e1-6447-4f14-9a6a-b7b2be98668d","IsCreationKey":false,"Key":19.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac08babb-3c76-4d0e-ba7d-90103d92e5fa","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac08babb-3c76-4d0e-ba7d-90103d92e5fa","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c176b5e8-1a46-452f-8bd5-7f6d6edde5a9","IsCreationKey":false,"Key":20.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a938b4a0-a852-4b0c-b41d-f1dd8b641808","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a938b4a0-a852-4b0c-b41d-f1dd8b641808","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"88f74791-0bf8-4a31-a04b-7ceed0b500dc","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16479e9c-0cc4-4f1b-8b30-4bf483b1a35a","path":"sprites/spr_KSW_Fish_TroupleMissionary/spr_KSW_Fish_TroupleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16479e9c-0cc4-4f1b-8b30-4bf483b1a35a","path":"sprites/spr_KSW_Fish_TrouppleMissionary/spr_KSW_Fish_TrouppleMissionary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5578eba0-2bd1-4095-979f-8f2bc26bbef5","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

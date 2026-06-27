@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Trouple",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Trouple.yy",
+    "name":"Troupple",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Troupple.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
