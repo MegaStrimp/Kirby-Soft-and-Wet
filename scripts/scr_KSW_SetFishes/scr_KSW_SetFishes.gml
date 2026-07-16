@@ -76,6 +76,7 @@ function scr_KSW_SetFishes()
 	var series_Gundam = global.KSW_SeriesIDs[? "gundam"];
 	var series_WildWoody = global.KSW_SeriesIDs[? "wildWoody"];
 	var series_Ultraman = global.KSW_SeriesIDs[? "ultraman"];
+	var series_NewSeries = global.KSW_SeriesIDs[? "newSeries"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1216,7 +1217,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Big Creep",spr_KSW_Fish_TheBigCreep,spr_KSW_Fish_TheBigCreep_Pal,series_ShovelKnight,mage,3,hallowReen,KSW_Phases.none,8000);
 	scr_KSW_AddFish("Fish Head Knight",spr_KSW_Fish_FishHeadKnight,spr_KSW_Fish_FishHeadKnight_Pal,series_ShovelKnight,mage,3,grassBeach,KSW_Phases.day,15000);
 	scr_KSW_AddFish("Treasure Knight",spr_KSW_Fish_TreasureKnight,spr_KSW_Fish_TreasureKnight_Pal,series_ShovelKnight,borange,3,grassBeach,KSW_Phases.afternoon,60000);
-	
+	scr_KSW_AddFish("Normal NPC",spr_KSW_Fish_NormalNPC,spr_KSW_Fish_NormalNPC_Pal,series_Deltarune,mage,2,hallowReen,KSW_Phases.none,12000);
 	#endregion
 	#endregion
 }
