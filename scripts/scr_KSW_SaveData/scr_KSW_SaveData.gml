@@ -2,142 +2,151 @@
 
 function scr_KSW_SaveData(file)
 {
-	var fileFinal = file;
-	if (!global.isMobile) fileFinal = environment_get_variable("LOCALAPPDATA") + chr(92) + global.gameTitle + chr(92) + file;
+	var canSave = (!global.fullSaveLoaded);
 	
-	if (file_exists(fileFinal))
+	if (canSave)
 	{
-		file_copy(fileFinal,string(fileFinal) + "_bak");
-		file_delete(fileFinal);
-	}
+		var fileFinal = file;
+		if (!global.isMobile) fileFinal = environment_get_variable("LOCALAPPDATA") + chr(92) + global.gameTitle + chr(92) + file;
 	
-	ini_open(fileFinal);
-	
-	#region Gameplay
-	if (global.levelScoreCurrent != 0) ini_write_real("gameplay","score",global.levelScoreCurrent);
-	if (global.timePlayed_Seconds != 0) ini_write_real("gameplay","timePlayed_Seconds",global.timePlayed_Seconds);
-	if (global.timePlayed_Minutes != 0) ini_write_real("gameplay","timePlayed_Minutes",global.timePlayed_Minutes);
-	if (global.timePlayed_Hours != 0) ini_write_real("gameplay","timePlayed_Hours",global.timePlayed_Hours);
-	if (global.KSW_CaughtTotalFishCount != 0) ini_write_real("gameplay","caughtTotalFishCount",global.KSW_CaughtTotalFishCount);
-	if (global.KSW_CaughtTotalFishCount_Day != 0) ini_write_real("gameplay","caughtTotalFishCount_Day",global.KSW_CaughtTotalFishCount_Day);
-	if (global.KSW_CaughtTotalFishCount_Afternoon != 0) ini_write_real("gameplay","caughtTotalFishCount_Afternoon",global.KSW_CaughtTotalFishCount_Afternoon);
-	if (global.KSW_CaughtTotalFishCount_Night != 0) ini_write_real("gameplay","caughtTotalFishCount_Night",global.KSW_CaughtTotalFishCount_Night);
-	if (global.KSW_CurrentFishCombo != 0) ini_write_real("gameplay","currentFishCombo",global.KSW_CurrentFishCombo);
-	if (global.KSW_CurrentCoins != 0) ini_write_real("gameplay","coins",global.KSW_CurrentCoins);
-	if (global.KSW_StageList[global.KSW_CurrentStageID].ID != "grassBeach") ini_write_string("gameplay","currentStage",global.KSW_StageList[global.KSW_CurrentStageID].ID);
-	#endregion
-	
-	#region Player Status
-	for (var i = 0; i < global.maxPlayers; i++)
-	{
-		if (global.KSW_CharacterList[global.playerCharacter[i]].ID != "kirby") ini_write_string("playerStatus","playerCharacter_" + string(i),global.KSW_CharacterList[global.playerCharacter[i]].ID);
-		if (global.KSW_PlayerEquippedSprayPaintShuffle[i] != false) ini_write_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),global.KSW_PlayerEquippedSprayPaintShuffle[i]);
-		if (global.KSW_PlayerEquippedHatShuffle[i] != false) ini_write_real("playerStatus","playerEquippedHatShuffle_" + string(i),global.KSW_PlayerEquippedHatShuffle[i]);
-		if (global.KSW_EquippedBobberShuffle[i] != true) ini_write_real("playerStatus","equippedBobberShuffle_" + string(i),global.KSW_EquippedBobberShuffle[i]);
-		if (global.KSW_BobberList[global.KSW_EquippedBobberID[i]].ID != "red") ini_write_string("playerStatus","equippedBobber_" + string(i),global.KSW_BobberList[global.KSW_EquippedBobberID[i]].ID);
-		if (global.KSW_BaitList[global.KSW_EquippedBaitID[i]].ID != "none") ini_write_string("playerStatus","equippedBait_" + string(i),global.KSW_BaitList[global.KSW_EquippedBaitID[i]].ID);
-		
-		for (var h = 0; h < global.KSW_CharacterCount; h++)
+		if (file_exists(fileFinal))
 		{
-			if (global.KSW_CharacterList[h].sprayPaints[global.KSW_PlayerEquippedSprayPaintID[i][h]].ID != global.KSW_CharacterList[h].defaultSprayPaint) ini_write_string("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].sprayPaints[global.KSW_PlayerEquippedSprayPaintID[i][h]].ID);
-			if (global.KSW_CharacterList[h].hats[global.KSW_PlayerEquippedHatID[i][h]].ID != global.KSW_CharacterList[h].defaultHat) ini_write_string("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].hats[global.KSW_PlayerEquippedHatID[i][h]].ID);
+			file_copy(fileFinal,string(fileFinal) + "_bak");
+			file_delete(fileFinal);
 		}
-	}
-	#endregion
 	
-	#region Character Status
-	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
-	{
-		var characterID = global.KSW_CharacterList[i].ID;
-		
-		if (global.KSW_CharacterList[i].isUnlocked != false) ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
-		
-		#region Spray Paint Status
-		for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
+		ini_open(fileFinal);
+	
+		#region Gameplay
+		if (global.levelScoreCurrent != 0) ini_write_real("gameplay","score",global.levelScoreCurrent);
+		if (global.timePlayed_Seconds != 0) ini_write_real("gameplay","timePlayed_Seconds",global.timePlayed_Seconds);
+		if (global.timePlayed_Minutes != 0) ini_write_real("gameplay","timePlayed_Minutes",global.timePlayed_Minutes);
+		if (global.timePlayed_Hours != 0) ini_write_real("gameplay","timePlayed_Hours",global.timePlayed_Hours);
+		if (global.KSW_CaughtTotalFishCount != 0) ini_write_real("gameplay","caughtTotalFishCount",global.KSW_CaughtTotalFishCount);
+		if (global.KSW_CaughtTotalFishCount_Day != 0) ini_write_real("gameplay","caughtTotalFishCount_Day",global.KSW_CaughtTotalFishCount_Day);
+		if (global.KSW_CaughtTotalFishCount_Afternoon != 0) ini_write_real("gameplay","caughtTotalFishCount_Afternoon",global.KSW_CaughtTotalFishCount_Afternoon);
+		if (global.KSW_CaughtTotalFishCount_Night != 0) ini_write_real("gameplay","caughtTotalFishCount_Night",global.KSW_CaughtTotalFishCount_Night);
+		if (global.KSW_CurrentFishCombo != 0) ini_write_real("gameplay","currentFishCombo",global.KSW_CurrentFishCombo);
+		if (global.KSW_CurrentCoins != 0) ini_write_real("gameplay","coins",global.KSW_CurrentCoins);
+		if (global.KSW_StageList[global.KSW_CurrentStageID].ID != "grassBeach") ini_write_string("gameplay","currentStage",global.KSW_StageList[global.KSW_CurrentStageID].ID);
+		#endregion
+	
+		#region Player Status
+		for (var i = 0; i < global.maxPlayers; i++)
 		{
-			var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
+			if (global.KSW_CharacterList[global.playerCharacter[i]].ID != "kirby") ini_write_string("playerStatus","playerCharacter_" + string(i),global.KSW_CharacterList[global.playerCharacter[i]].ID);
+			if (global.KSW_PlayerEquippedSprayPaintShuffle[i] != false) ini_write_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),global.KSW_PlayerEquippedSprayPaintShuffle[i]);
+			if (global.KSW_PlayerEquippedHatShuffle[i] != false) ini_write_real("playerStatus","playerEquippedHatShuffle_" + string(i),global.KSW_PlayerEquippedHatShuffle[i]);
+			if (global.KSW_EquippedBobberShuffle[i] != true) ini_write_real("playerStatus","equippedBobberShuffle_" + string(i),global.KSW_EquippedBobberShuffle[i]);
+			if (global.KSW_BobberList[global.KSW_EquippedBobberID[i]].ID != "red") ini_write_string("playerStatus","equippedBobber_" + string(i),global.KSW_BobberList[global.KSW_EquippedBobberID[i]].ID);
+			if (global.KSW_BaitList[global.KSW_EquippedBaitID[i]].ID != "none") ini_write_string("playerStatus","equippedBait_" + string(i),global.KSW_BaitList[global.KSW_EquippedBaitID[i]].ID);
+		
+			for (var h = 0; h < global.KSW_CharacterCount; h++)
+			{
+				if (global.KSW_CharacterList[h].sprayPaints[global.KSW_PlayerEquippedSprayPaintID[i][h]].ID != global.KSW_CharacterList[h].defaultSprayPaint) ini_write_string("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].sprayPaints[global.KSW_PlayerEquippedSprayPaintID[i][h]].ID);
+				if (global.KSW_CharacterList[h].hats[global.KSW_PlayerEquippedHatID[i][h]].ID != global.KSW_CharacterList[h].defaultHat) ini_write_string("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].hats[global.KSW_PlayerEquippedHatID[i][h]].ID);
+			}
+		}
+		#endregion
+	
+		#region Character Status
+		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
+		{
+			var characterID = global.KSW_CharacterList[i].ID;
+		
+			if (global.KSW_CharacterList[i].isUnlocked != false) ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
+		
+			#region Spray Paint Status
+			for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
+			{
+				var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
 			
-			if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked != false) ini_write_real("sprayPaintStatus",string(sprayPaintID) + "_IsUnlocked",global.KSW_CharacterList[i].sprayPaints[j].isUnlocked);
+				if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked != false) ini_write_real("sprayPaintStatus",string(sprayPaintID) + "_IsUnlocked",global.KSW_CharacterList[i].sprayPaints[j].isUnlocked);
+			}
+			#endregion
+		
+			#region Hat Status
+			for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++)
+			{
+				var hatID = global.KSW_CharacterList[i].hats[j].ID;
+		
+				if (global.KSW_CharacterList[i].hats[j].isUnlocked != false) ini_write_real("hatStatus",string(hatID) + "_IsUnlocked",global.KSW_CharacterList[i].hats[j].isUnlocked);
+			}
+			#endregion
 		}
 		#endregion
-		
-		#region Hat Status
-		for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++)
+	
+		#region Bobber Status
+		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
 		{
-			var hatID = global.KSW_CharacterList[i].hats[j].ID;
+			var bobberID = global.KSW_BobberList[i].ID;
 		
-			if (global.KSW_CharacterList[i].hats[j].isUnlocked != false) ini_write_real("hatStatus",string(hatID) + "_IsUnlocked",global.KSW_CharacterList[i].hats[j].isUnlocked);
+			if (global.KSW_BobberList[i].isUnlocked != false) ini_write_real("bobberStatus",string(bobberID) + "_IsUnlocked",global.KSW_BobberList[i].isUnlocked);
 		}
 		#endregion
-	}
-	#endregion
 	
-	#region Bobber Status
-	for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
-	{
-		var bobberID = global.KSW_BobberList[i].ID;
+		#region Bait Status
+		for (var i = 0; i < ds_map_size(global.KSW_BaitIDs); i++)
+		{
+			var baitID = global.KSW_BaitList[i].ID;
 		
-		if (global.KSW_BobberList[i].isUnlocked != false) ini_write_real("bobberStatus",string(bobberID) + "_IsUnlocked",global.KSW_BobberList[i].isUnlocked);
-	}
-	#endregion
+			if (global.KSW_BaitList[i].isUnlocked != false) ini_write_real("baitStatus",string(baitID) + "_IsUnlocked",global.KSW_BaitList[i].isUnlocked);
+		}
+		#endregion
 	
-	#region Bait Status
-	for (var i = 0; i < ds_map_size(global.KSW_BaitIDs); i++)
-	{
-		var baitID = global.KSW_BaitList[i].ID;
+		#region Stage Status
+		for (var i = 0; i < ds_map_size(global.KSW_StageIDs); i++)
+		{
+			var stageID = global.KSW_StageList[i].ID;
 		
-		if (global.KSW_BaitList[i].isUnlocked != false) ini_write_real("baitStatus",string(baitID) + "_IsUnlocked",global.KSW_BaitList[i].isUnlocked);
-	}
-	#endregion
+			if (global.KSW_StageList[i].isAvailable != false) ini_write_real("stageStatus",string(stageID) + "_IsAvailable",global.KSW_StageList[i].isAvailable);
+			if (global.KSW_StageList[i].isUnlocked != false) ini_write_real("stageStatus",string(stageID) + "_IsUnlocked",global.KSW_StageList[i].isUnlocked);
+		}
+		#endregion
 	
-	#region Stage Status
-	for (var i = 0; i < ds_map_size(global.KSW_StageIDs); i++)
-	{
-		var stageID = global.KSW_StageList[i].ID;
+		#region Fish Status
+		for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
+		{
+			var fishTitle = global.KSW_FishList[i].name;
 		
-		if (global.KSW_StageList[i].isAvailable != false) ini_write_real("stageStatus",string(stageID) + "_IsAvailable",global.KSW_StageList[i].isAvailable);
-		if (global.KSW_StageList[i].isUnlocked != false) ini_write_real("stageStatus",string(stageID) + "_IsUnlocked",global.KSW_StageList[i].isUnlocked);
-	}
-	#endregion
+			if (global.KSW_FishList[i].isCaught != 0) ini_write_real("fishStatus",string(fishTitle) + "_Caught",global.KSW_FishList[i].isCaught);
+			if (global.KSW_FishList[i].isCaughtShiny != 0) ini_write_real("fishStatus",string(fishTitle) + "_CaughtShiny",global.KSW_FishList[i].isCaughtShiny);
+		}
+		#endregion
 	
-	#region Fish Status
-	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
-	{
-		var fishTitle = global.KSW_FishList[i].name;
+		#region Achievement Status
+		for (var i = 0; i < ds_map_size(global.KSW_AchievementIDs); i++)
+		{
+			var achievementID = global.KSW_AchievementList[i].id;
 		
-		if (global.KSW_FishList[i].isCaught != 0) ini_write_real("fishStatus",string(fishTitle) + "_Caught",global.KSW_FishList[i].isCaught);
-		if (global.KSW_FishList[i].isCaughtShiny != 0) ini_write_real("fishStatus",string(fishTitle) + "_CaughtShiny",global.KSW_FishList[i].isCaughtShiny);
-	}
-	#endregion
+			if (global.KSW_AchievementList[i].isObtained != false) ini_write_real("achievementStatus",string(achievementID) + "_Obtained",global.KSW_AchievementList[i].isObtained);
+		}
+		#endregion
 	
-	#region Achievement Status
-	for (var i = 0; i < ds_map_size(global.KSW_AchievementIDs); i++)
-	{
-		var achievementID = global.KSW_AchievementList[i].id;
+		#region Notif Status
+		for (var i = 0; i < ds_map_size(global.KSW_NotifIDs); i++)
+		{
+			var notifID = global.KSW_NotifList[i].id;
 		
-		if (global.KSW_AchievementList[i].isObtained != false) ini_write_real("achievementStatus",string(achievementID) + "_Obtained",global.KSW_AchievementList[i].isObtained);
-	}
-	#endregion
+			if ((global.KSW_NotifList[i].isSavable != false) and (global.KSW_NotifList[i].isObtained != false)) ini_write_real("NotifStatus",string(notifID) + "_Obtained",global.KSW_NotifList[i].isObtained);
+		}
+		#endregion
 	
-	#region Notif Status
-	for (var i = 0; i < ds_map_size(global.KSW_NotifIDs); i++)
-	{
-		var notifID = global.KSW_NotifList[i].id;
+		#region Stealth Tutorial Status
+		for (var i = 0; i < ds_map_size(global.KSW_StealthTutorialIDs); i++)
+		{
+			var stealthTutorialID = global.KSW_StealthTutorialList[i].id;
 		
-		if ((global.KSW_NotifList[i].isSavable != false) and (global.KSW_NotifList[i].isObtained != false)) ini_write_real("NotifStatus",string(notifID) + "_Obtained",global.KSW_NotifList[i].isObtained);
-	}
-	#endregion
+			if ((global.KSW_StealthTutorialList[i].isSavable != false) and (global.KSW_StealthTutorialList[i].isObtained != false)) ini_write_real("stealthTutorialStatus",string(stealthTutorialID) + "_Obtained",global.KSW_StealthTutorialList[i].isObtained);
+		}
+		#endregion
 	
-	#region Stealth Tutorial Status
-	for (var i = 0; i < ds_map_size(global.KSW_StealthTutorialIDs); i++)
+		ini_close();
+	
+		return fileFinal;
+	}
+	else
 	{
-		var stealthTutorialID = global.KSW_StealthTutorialList[i].id;
-		
-		if ((global.KSW_StealthTutorialList[i].isSavable != false) and (global.KSW_StealthTutorialList[i].isObtained != false)) ini_write_real("stealthTutorialStatus",string(stealthTutorialID) + "_Obtained",global.KSW_StealthTutorialList[i].isObtained);
+		return -1;
 	}
-	#endregion
-	
-	ini_close();
-	
-	return fileFinal;
 }

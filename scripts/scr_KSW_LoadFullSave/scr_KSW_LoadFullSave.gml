@@ -2,6 +2,10 @@
 
 function scr_KSW_LoadFullSave()
 {
+	#region Variables
+	global.fullSaveLoaded = true;
+	#endregion
+	
 	#region Character Status
 	global.KSW_UnlockedCharacterCount = 0;
 	global.KSW_UnlockedSprayPaintCount = 0;
