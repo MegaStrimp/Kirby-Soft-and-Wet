@@ -75,6 +75,7 @@ function scr_KSW_SetFishes()
 	var series_Rubato = global.KSW_SeriesIDs[? "rubato"];
 	var series_Gundam = global.KSW_SeriesIDs[? "gundam"];
 	var series_WildWoody = global.KSW_SeriesIDs[? "wildWoody"];
+	var series_WiiPlay = global.KSW_SeriesIDs[? "wiiPlay"];
 	var series_Ultraman = global.KSW_SeriesIDs[? "ultraman"];
 	var series_NewSeries = global.KSW_SeriesIDs[? "newSeries"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
@@ -1150,6 +1151,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Togore",spr_KSW_Fish_Togore,Spr_KSW_Fish_Togore_Pal,series_Undertale,mint,2,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Ramb",spr_KSW_Fish_Ramb,spr_KSW_Fish_Ramb_Pal,series_Deltarune,borange,2,hallowReen,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Snowdrake",spr_KSW_Fish_Snowdrake,spr_KSW_Fish_Snowdrake_Pal,series_Undertale,legion,1,creamCrevasse,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Small Fry",spr_KSW_Fish_SmallFry,spr_KSW_Fish_SmallFry_Pal,series_WiiPlay,mage,0,grassBeach,KSW_Phases.none,5);
+	scr_KSW_AddFish("Plain Ol' Fish",spr_KSW_Fish_PlainFish,spr_KSW_Fish_PlainFish_Pal,series_WiiPlay,maze,0,grassBeach,KSW_Phases.none,50);
+	scr_KSW_AddFish("Nibbler",spr_KSW_Fish_Nibbler,spr_KSW_Fish_Nibbler_Pal,series_WiiPlay,flux,1,grassBeach,KSW_Phases.none,120);
+	scr_KSW_AddFish("Touchy Fish",spr_KSW_Fish_TouchyFish,spr_KSW_Fish_TouchyFish_Pal,series_WiiPlay,mage,1,grassBeach,KSW_Phases.none,200);
+	scr_KSW_AddFish("Mystery Fish",spr_KSW_Fish_MysteryFish,spr_KSW_Fish_MysteryFish_Pal,series_WiiPlay,flux,2,grassBeach,KSW_Phases.none,250);
+	scr_KSW_AddFish("King of the Pond",spr_KSW_Fish_PondKing,spr_KSW_Fish_PondKing_Pal,series_WiiPlay,maze,3,grassBeach,KSW_Phases.none,350);
 	scr_KSW_AddFish("Eleking",spr_KSW_Fish_Eleking,spr_KSW_Fish_Eleking_Pal,series_Ultraman,borange,3,grassBeach,KSW_Phases.day,90000);
 	scr_KSW_AddFish("Frog The Jam",spr_KSW_Fish_FrogTheJam,spr_KSW_Fish_FrogTheJam_Pal,series_Yugioh,mint,0,grassBeach,KSW_Phases.day,1000);
 	scr_KSW_AddFish("Star Boy",spr_KSW_Fish_StarBoy,spr_KSW_Fish_StarBoy_Pal,series_Yugioh,candy,0,grassBeach,KSW_Phases.day,1200);
