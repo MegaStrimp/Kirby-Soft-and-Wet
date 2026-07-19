@@ -80,7 +80,8 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("fossilFighters","Fossil Fighters");
 	
 	scr_KSW_AddSeries("newSeries","New Series");
-	
+	scr_KSW_AddSeries("medabots","Medabots");
+	scr_KSW_AddSeries("octopathtraveler","Octopath Traveler");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
