@@ -33,6 +33,11 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
 			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_HallowReen;
 			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_HallowReen_Small;
 			break;
+			
+			case "serranoSprings":
+			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_SerranoSprings;
+			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_SerranoSprings_Small;
+			break;
 		}
 	}
 	

@@ -6,7 +6,7 @@
   "name":"scr_KSW_Menu_Fishbook_Sort_Rarity",
   "parent":{
     "name":"Sort",
-    "path":"folders/Kirby ~ Soft & Wet/Menus/Fishbook/Scripts/Sort.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Stages/Fishbook/Scripts/Sort.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

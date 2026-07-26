@@ -89,6 +89,7 @@ function scr_KSW_SetFishes()
 	var grassBeach = global.KSW_StageIDs[? "grassBeach"];
 	var creamCrevasse = global.KSW_StageIDs[? "creamCrevasse"];
 	var hallowReen = global.KSW_StageIDs[? "hallowReen"];
+	var serranoSprings = global.KSW_StageIDs[? "serranoSprings"];
 	var androidPort = global.KSW_StageIDs[? "androidPort"];
 	#endregion
 	
@@ -1150,7 +1151,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Fake Peppino",spr_KSW_Fish_FakePeppino,spr_KSW_Fish_FakePeppino_Pal,series_PizzaTower,flux,2,hallowReen,KSW_Phases.none,5896,,,,snd_KSW_Fish_FakePeppino);
 	scr_KSW_AddFish("Blitty",spr_KSW_Fish_Blitty,spr_KSW_Fish_Blitty_Pal,series_SuperMario,borange,1,grassBeach,KSW_Phases.day,1515);
 	scr_KSW_AddFish("Crawful",spr_KSW_Fish_Crawful,spr_KSW_Fish_Crawful_Pal,series_SuperMario,mint,2,grassBeach,KSW_Phases.night,10000);
-	scr_KSW_AddFish("Victini",spr_KSW_Fish_Victini,spr_KSW_Fish_Victini_Pal,series_Pokemon,borange,3,grassBeach,KSW_Phases.none,40000);
+	scr_KSW_AddFish("Victini",spr_KSW_Fish_Victini,spr_KSW_Fish_Victini_Pal,series_Pokemon,borange,3,serranoSprings,KSW_Phases.none,40000);
 	scr_KSW_AddFish("Togore",spr_KSW_Fish_Togore,Spr_KSW_Fish_Togore_Pal,series_Undertale,mint,2,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Ramb",spr_KSW_Fish_Ramb,spr_KSW_Fish_Ramb_Pal,series_Deltarune,borange,2,hallowReen,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Snowdrake",spr_KSW_Fish_Snowdrake,spr_KSW_Fish_Snowdrake_Pal,series_Undertale,legion,1,creamCrevasse,KSW_Phases.none,10000);

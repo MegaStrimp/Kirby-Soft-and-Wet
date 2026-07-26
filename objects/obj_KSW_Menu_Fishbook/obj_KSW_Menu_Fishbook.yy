@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Kirby ~ Soft & Wet/Menus/Fishbook/Objects.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Stages/Fishbook/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
