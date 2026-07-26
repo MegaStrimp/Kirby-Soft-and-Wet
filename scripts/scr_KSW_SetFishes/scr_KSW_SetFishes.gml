@@ -1285,16 +1285,16 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Zongazonga",spr_KSW_Fish_Zongazonga,spr_KSW_Fish_Zongazonga_Pal,series_FossilFighters,flux,3,hallowReen,KSW_Phases.none,77700);
 	scr_KSW_AddFish("Frigi",spr_KSW_Fish_Frigi,spr_KSW_Fish_Frigi_Pal,series_FossilFighters,mage,3,creamCrevasse,KSW_Phases.none,60000);
 	scr_KSW_AddFish("Guhnash",spr_KSW_Fish_Guhnash,spr_KSW_Fish_Guhnash_Pal,series_FossilFighters,borange,3,grassBeach,KSW_Phases.night,100000);
-	scr_KSW_AddFish("Sharkhan",spr_KSW_Fish_Sharkhan,spr_KSW_Fish_Sharkhan_Pal,series_Medabots,mage,2,grassBeach,KSW_Phases.none,8000);
-	scr_KSW_AddFish("God Emperor",spr_KSW_Fish_GodEmperor,spr_KSW_Fish_GodEmperor_Pal,series_Medabots,mint,3,grassBeach,KSW_Phases.none,165000);
-	scr_KSW_AddFish("Imagine Kaiser",spr_KSW_Fish_ImagineKaiser,spr_KSW_Fish_ImagineKaiser_Pal,series_Medabots,mint,3,grassBeach,KSW_Phases.none,158000);
-	scr_KSW_AddFish("Abyss Greater",spr_KSW_Fish_AbyssGreater,spr_KSW_Fish_AbyssGreater_Pal,series_Medabots,legion,2,hallowReen,KSW_Phases.night,6600);
-	scr_KSW_AddFish("Aqua Crown",spr_KSW_Fish_AquaCrown,spr_KSW_Fish_AquaCrown_Pal,series_Medabots,mage,2,grassBeach,KSW_Phases.none,5000);
-	scr_KSW_AddFish("Flatstick",spr_KSW_Fish_Flatstick,spr_KSW_Fish_Flatstick_Pal,series_Medabots,flux,0,grassBeach,KSW_Phases.night,1500);
+	scr_KSW_AddFish("Sharkhan",spr_KSW_Fish_Sharkhan,spr_KSW_Fish_Sharkhan_Pal,series_Medabots,mage,2,androidPort,KSW_Phases.none,8000);
+	scr_KSW_AddFish("God Emperor",spr_KSW_Fish_GodEmperor,spr_KSW_Fish_GodEmperor_Pal,series_Medabots,mint,3,androidPort,KSW_Phases.none,165000);
+	scr_KSW_AddFish("Imagine Kaiser",spr_KSW_Fish_ImagineKaiser,spr_KSW_Fish_ImagineKaiser_Pal,series_Medabots,mint,3,androidPort,KSW_Phases.none,158000);
+	scr_KSW_AddFish("Abyss Greater",spr_KSW_Fish_AbyssGreater,spr_KSW_Fish_AbyssGreater_Pal,series_Medabots,legion,2,androidPort,KSW_Phases.night,6600);
+	scr_KSW_AddFish("Aqua Crown",spr_KSW_Fish_AquaCrown,spr_KSW_Fish_AquaCrown_Pal,series_Medabots,mage,2,androidPort,KSW_Phases.none,5000);
+	scr_KSW_AddFish("Flatstick",spr_KSW_Fish_Flatstick,spr_KSW_Fish_Flatstick_Pal,series_Medabots,flux,0,androidPort,KSW_Phases.night,1500);
 	scr_KSW_AddFish("Battle-Worn Shark",spr_KSW_Fish_BattleWornShark,spr_KSW_Fish_BattleWornShark_Pal,series_OctopathTraveler,legion,2,grassBeach,KSW_Phases.day,60000);
-	scr_KSW_AddFish("Pinguen",spr_KSW_Fish_Pinguen,spr_KSW_Fish_Pinguen_Pal,series_Medabots,mage,0,creamCrevasse,KSW_Phases.none,1000);
-	scr_KSW_AddFish("Pure Mermaid",spr_KSW_Fish_PureMermaid,spr_KSW_Fish_PureMermaid_Pal,series_Medabots,glimmer,0,grassBeach,KSW_Phases.none,1250);
-	scr_KSW_AddFish("Orkamar",spr_KSW_Fish_Orkamar,spr_KSW_Fish_Orkamar_Pal,series_Medabots,mage,1,grassBeach,KSW_Phases.none,1000);
+	scr_KSW_AddFish("Pinguen",spr_KSW_Fish_Pinguen,spr_KSW_Fish_Pinguen_Pal,series_Medabots,mage,0,androidPort,KSW_Phases.none,1000);
+	scr_KSW_AddFish("Pure Mermaid",spr_KSW_Fish_PureMermaid,spr_KSW_Fish_PureMermaid_Pal,series_Medabots,glimmer,0,androidPort,KSW_Phases.none,1250);
+	scr_KSW_AddFish("Orkamar",spr_KSW_Fish_Orkamar,spr_KSW_Fish_Orkamar_Pal,series_Medabots,mage,1,androidPort,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Scourge Of The Sea",spr_KSW_Fish_ScourgeOfTheSea,spr_KSW_Fish_ScourgeOfTheSea_Pal,series_OctopathTraveler,maze,3,grassBeach,KSW_Phases.night,95000);
 	
 	#endregion
