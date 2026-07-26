@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Menu_TitleScreen_Phase_SerranoSprings",
   "bboxMode":0,
-  "bbox_bottom":15,
+  "bbox_bottom":17,
   "bbox_left":2,
   "bbox_right":15,
-  "bbox_top":2,
+  "bbox_top":4,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{

@@ -19,7 +19,7 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"cfdcc897-6891-4142-9ffb-b6e6db7c7b3a","name":"cfdcc897-6891-4142-9ffb-b6e6db7c7b3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"eda64c9a-843b-4e9a-b212-244803e1f269","name":"eda64c9a-843b-4e9a-b212-244803e1f269","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"216bec57-23b3-4bdb-912e-2ad41157b402","name":"216bec57-23b3-4bdb-912e-2ad41157b402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"15c3d860-2ecf-42fe-a5f2-ebd9dd578707","name":"15c3d860-2ecf-42fe-a5f2-ebd9dd578707","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"c6667e27-9fb3-423b-b0cc-a6eaec26f87a","name":"c6667e27-9fb3-423b-b0cc-a6eaec26f87a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -104,8 +104,8 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eda64c9a-843b-4e9a-b212-244803e1f269","path":"sprites/spr_KSW_Layout_SerranoSprings_Night/spr_KSW_Layout_SerranoSprings_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0dbad61b-973c-4d45-90fd-4ba11cf39500","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"216bec57-23b3-4bdb-912e-2ad41157b402","path":"sprites/spr_KSW_Layout_SerranoSprings_Night/spr_KSW_Layout_SerranoSprings_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1c2c43f7-6100-4565-a355-f9632c4f5895","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"15c3d860-2ecf-42fe-a5f2-ebd9dd578707","path":"sprites/spr_KSW_Layout_SerranoSprings_Night/spr_KSW_Layout_SerranoSprings_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"106b85b3-7895-4b68-86ac-709a4490d8b9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6667e27-9fb3-423b-b0cc-a6eaec26f87a","path":"sprites/spr_KSW_Layout_SerranoSprings_Night/spr_KSW_Layout_SerranoSprings_Night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7f737460-a6d0-41f6-8d4b-3ee92525b884","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
