@@ -1,0 +1,243 @@
+notes: Treasures are in order found in the ingame Treasure Catalog numbered 1-239, rarity is translated from their ingame Sparklium value, locations are translated from their ingame locations based on whether they are found on the surface, in caves, or both, times are made up to match some treasures themes, separate similar treasures from eachother, or just for variety, G is taken directly from their ingame Sparklium values
+
+Name					Rarity		Location		Time		G
+
+Universal Rubber Cutie			0		Grass Beach				90
+Planetary Rubber Cutie			0		Hallow Reen		Night		40
+Stately Rubber Cutie			0		Grass Beach		Dusk		20
+Dapper Rubber Cutie			1		Cream Crevasse		Dawn		100
+Sweet Stumple-Not			0		Hallow Reen				60
+Sweet Torrent				1		Hallow Reen				150
+Deceptive Snack				0		Hallow Reen				40
+Cookie of Nibbled Circles		0		Hallow Reen				50
+Cookie of Prosperity			0		Hallow Reen				50
+Vanishing Cookie			0		Hallow Reen				50
+Love's Fortune Cookie			0		Hallow Reen				50
+Hearty Container			0		Hallow Reen				50
+Jiggle-Jiggle				1		Hallow Reen				150
+S.S. Berry				0		Hallow Reen		Dawn		40
+S.S. Peppermint				0		Hallow Reen		Dusk		40
+S.S. Chocolate				0		Cream Crevasse		Night		40
+Unbreakable Promise			1		Cream Crevasse				150
+Golden Vaulting Table			3		Cream Crevasse				1000
+Olfactory Sculpture			1		Hallow Reen		Night		150
+Princess Pearl				0		Cream Crevasse				150
+Sticky Jewel				0		Grass Beach				20
+Hoop of Healing				1		Hallow Reen		Dawn		130
+Hoop of Passion				1		Hallow Reen		Night		130
+Hoop of Fortune				1		Hallow Reen		Dusk		130
+Tandem Trainer				1		Hallow Reen				150
+Sphere of Fuzzy Feelings		1		Cream Crevasse				100
+Orbital Communication Sphere		0		Grass Beach				40
+Orb of Destruction			1		Cream Crevasse				150
+Greed-Infucement Device			2		Hallow Reen				230
+Disk of Joyous Wisdom			0		Hallow Reen		Night		1
+Disk of Angry Wisdom			0		Hallow Reen		Night		10
+Disk of Sorrowful Wisdom		0		Hallow Reen		Night		25
+Disk of Amusing Wisdom			0		Grass Beach		Night		50
+Disk of Surprising Wisdom		1		Hallow Reen		Night		100
+Secured Satchel				1		Hallow Reen				150
+Floral Instigator			0		Cream Crevasse				20
+Fastening Item				0		Grass Beach				10
+Trap Lid				0		Grass Beach				20
+Perforated Raft				0		Grass Beach				10
+Gift of Friendship			0		Hallow Reen		Night		80
+Memory Fragment (Top Left)		0		Hallow Reen		Dawn		50
+Memory Fragment (Top-ish)		0		Hallow Reen		Dawn		50
+Memory Fragment (Top...Probably?)	0		Hallow Reen		Dawn		50
+Memory Fragment (Top Right)		0		Hallow Reen		Dawn		50
+Memory Fragment (Left Edge)		0		Hallow Reen		Dusk		50
+Memory Fragment (Center Left)		0		Hallow Reen		Dusk		50
+Memory Fragment (Center Right)		0		Hallow Reen		Dusk		50
+Memory Fragment (Right Edge)		0		Hallow Reen		Dusk		50
+Memory Fragment (Bottom Left)		0		Hallow Reen		Night		50
+Memory Fragment (Bottom-ish)		0		Hallow Reen		Night		50
+Memory Fragment (Bottom...Probably?)	0		Hallow Reen		Night		50
+Memory Fragment (Bottom Right)		0		Hallow Reen		Night		50
+Condensed Sunshine			1		Hallow Reen		Dawn		180
+Flaky Temptation			1		Hallow Reen				110
+Cushion Cake				1		Hallow Reen				110
+Puzzle Snack				1		Hallow Reen				110
+Sphere of Desire			1		Hallow Reen		Night		110
+Sphere of Family			1		Hallow Reen		Night		110
+Sphere of Heart				1		Hallow Reen		Night		110
+Sphere of Beginnings			1		Hallow Reen		Night		110
+Sphere of Vitality			1		Hallow Reen		Night		110
+Sphere of Calm				1		Hallow Reen		Night		110
+Sphere of Good Fortune			1		Hallow Reen		Night		110
+Sphere of Trust				1		Hallow Reen		Night		110
+Sphere of Support			1		Hallow Reen		Night		110
+Sphere of Truth				1		Hallow Reen		Night		110
+Sunseed Berry				0		Grass Beach		Dawn		70
+Cupid's Grenade				0		Grass Beach				20
+Searing Acidshock			0		Cream Crevasse				50
+Velvety Dreamdrop			0		Grass Beach				40
+Astringent Clump			0		Hallow Reen				90
+Wayward Moon				2		Grass Beach		Night		200
+Lesser Mock Bottom			0		Cream Crevasse				40
+Mock Bottom				0		Cream Crevasse				90
+Dawn Pustules				1		Grass Beach		Dawn		110
+Dusk Pustules				1		Grass Beach		Dusk		120
+Crimson Banquet				2		Cream Crevasse				200
+Juicy Gaggle				0		Grass Beach				20
+Zest Bomb				0		Grass Beach				60
+Delectable Bouqet			0		Grass Beach				70
+Portable Sunset				0		Grass Beach		Dusk		70
+Tremendous Sniffer			0		Grass Beach				90
+Crunchy Deluge				0		Grass Beach				90
+Disguised Delecacy			0		Hallow Reen				40
+Blonde Impostor				0		Hallow Reen				40
+Merciless Extractor			1		Hallow Reen				110
+Citrus Lump				0		Hallow Reen				60
+Face Wrinkler				0		Grass Beach				60
+Pocked Airhead				0		Hallow Reen				90
+Insect Condo				0		Hallow Reen				90
+Dapper Blob				0		Hallow Reen				40
+Scaly Custard				0		Grass Beach				70
+Seed Hive				0		Grass Beach				90
+Stellar Extrusion			0		Grass Beach				40
+Heroine's Tear				0		Grass Beach				90
+Slapstick Crescent			1		Cream Crevasse				120
+Fire-Breathing Feast			1		Grass Beach				170
+Dusty Bed				1		Hallow Reen		Night		150
+Doggy Bed				1		Cream Crevasse		Night		110
+Birdy Bed				1		Cream Crevasse		Night		110
+Fishy Bed				1		Cream Crevasse		Night		110
+Granddaughter Doll Head			0		Hallow Reen				50
+Gifting Vase				0		Hallow Reen				50
+Daughter Doll Head			0		Cream Crevasse				80
+Mooching Vase				0		Cream Crevasse				80
+Mama Doll Head				1		Hallow Reen				150
+Empty Vase				1		Hallow Reen				150
+King of Meats				2		Hallow Reen				500
+Maestro of Flavor			0		Hallow Reen		Dawn		80
+Belted Delicacy				0		Hallow Reen		Dusk		80
+Fish-Bed Snack				0		Cream Crevasse		Night		80
+The Four Grill Brothers			2		Cream Crevasse				230
+Harmonic Synthesizer			1		Cream Crevasse				110
+Spouse Alert				1		Hallow Reen				70
+Path Creator				1		Cream Crevasse				100
+Time Marker				1		Hallow Reen				180
+Wind Detector				1		Cream Crevasse				110
+Ambiguous Hostel			1		Cream Crevasse				150
+Mega Horn				2		Hallow Reen				250
+Mechanical Harp (Memory Song)		1		Cream Crevasse		Dawn		150
+Mechanical Harp (Lullabies)		1		Hallow Reen		Night		150
+Mechanical Harp (Windmills)		1		Cream Crevasse		Dusk		150
+Emperor Whistle				0		Cream Crevasse				80
+Shake-a-Smile				1		Cream Crevasse				180
+Amplified Amplifier			1		Hallow Reen				180
+Double Dragon-Eyed Scope		1		Cream Crevasse				180
+Temporal Mechanism			1		Cream Crevasse				110
+Director of Destiny			1		Hallow Reen				110
+Detective's Truth Seeker		2		Hallow Reen				230
+Unlimited Locomotive			1		Hallow Reen				110
+Middle-Management Tank Car		1		Hallow Reen				110
+Leisure Car				1		Hallow Reen				110
+Life Station				1		Hallow Reen				150
+Straight-and-Narrow Track		1		Hallow Reen				110
+Turn-of-Events Track			1		Hallow Reen				150
+Back-at-the-Beginning Track		1		Hallow Reen				110
+Thrill-Ride Track			1		Hallow Reen				150
+Mouth of Lies				2		Hallow Reen				350
+Monster Teeth				2		Hallow Reen				300
+Brush of Wisdom				0		Cream Crevasse		Night		80
+Brush of Foolishness			0		Hallow Reen		Night		80
+False Lollipop				0		Hallow Reen				80
+Maternal Sculpture			1		Hallow Reen				110
+Bathing Pool				1		Cream Crevasse				180
+Think-Tank Combobot			0		Cream Crevasse				50
+Nexus Combobot				0		Hallow Reen				80
+Fist-Force Combobot			0		Cream Crevasse				80
+Peacemaker Combobot			0		Cream Crevasse				80
+Kick-Start Combobot			0		Hallow Reen				80
+Sure-Footed Combobot			0		Cream Crevasse				80
+Uniquely You Goo			0		Hallow Reen		Dusk		80
+Decorative Goo				0		Hallow Reen		Dawn		80
+Illumination Goo			0		Hallow Reen		Night		80
+Noble Goo				0		Hallow Reen		Dusk		80
+True Goo				0		Hallow Reen		Night		80
+Ambiguous Goo				0		Hallow Reen		Dawn		80
+Captivation Goo				0		Hallow Reen		Dusk		80
+Refreshing Goo				0		Hallow Reen		Dawn		80
+Neon Goo				0		Hallow Reen		Night		80
+Lamp of Inspiration			2		Cream Crevasse				300
+Beckoning Mannequin			2		Cream Crevasse				250
+Ancient Stature Head			2		Hallow Reen				200
+Contemplation Station			2		Hallow Reen				300
+Unfinished Statue			2		Hallow Reen				300
+Persistence Machine			2		Cream Crevasse				300
+Giant's Fossil				2		Cream Crevasse				450
+Expression Hider			2		Hallow Reen				150
+Buddy Display				2		Cream Crevasse				200
+Heat Sensor				1		Hallow Reen				120
+Internal-Clock Measurer			1		Hallow Reen				120
+Solar-Powered Computing Machine		1		Hallow Reen		Dusk		170
+Number Jumper				2		Cream Crevasse				200
+Octoplus				0		Grass Beach				40
+Mystery Squish Fish			0		Grass Beach				40
+Newtolite Shell				2		Cream Crevasse				400
+Slipper-Bug Fossil			2		Cream Crevasse				300
+Relentless Spear			0		Grass Beach		Night		60
+Noble Bident				0		Cream Crevasse				50
+Shattering Lance			1		Hallow Reen				150
+Micromanagement Station			1		Hallow Reen				150
+Glinty Circular Disc			1		Hallow Reen				80
+Lift Controller				1		Hallow Reen				150
+Spinning Memories Plank			1		Cream Crevasse				110
+Masterpiece Plank			1		Hallow Reen				110
+Telekinesis Detector			1		Hallow Reen		Dawn		150
+Connection Detector			1		Hallow Reen		Dusk		150
+Creativity Conduit			1		Hallow Reen				110
+Stone of Advancement			1		Cream Crevasse				150
+Winged Freedom Sculpture		2		Hallow Reen				300
+Dimension Converter			1		Hallow Reen				150
+Soul Reverberator			2		Hallow Reen				230
+Personal-Injury Plank			0		Hallow Reen				80
+Don't-See-It Specs			1		Hallow Reen				180
+Love Nugget				0		Cream Crevasse				90
+Crush Nugget				0		Hallow Reen				20
+Anxious Sprout				0		Grass Beach				90
+Crew-Cut Gourd				0		Grass Beach				90
+Child of the Earth			0		Grass Beach				60
+Daughter of the Earth			1		Hallow Reen				110
+Mysterious Carriage			1		Grass Beach				150
+Snack Bean				0		Cream Crevasse				30
+Foolish Fruit				0		Grass Beach				80
+Blast Shield				0		Hallow Reen				40
+Ring-of-Return Shield			0		Cream Crevasse				40
+Sattelite Shield			0		Cream Crevasse				40
+Heroic Shield				0		Cream Crevasse				40
+Shooting-Star Shield			0		Cream Crevasse				40
+Heart Sword				0		Hallow Reen		Dusk		5
+Spirit Sword				0		Hallow Reen		Dusk		5
+Ice Sword				0		Grass Beach		Dusk		5
+Heroic Sword				0		Hallow Reen		Dusk		5
+Bright Sword				0		Grass Beach		Dusk		5
+Unfloatable Boat			1		Cream Crevasse				180
+Faux Fishy				2		Cream Crevasse				300
+Space Spinner				1		Hallow Reen				110
+Sweat-Soaked Bird			0		Grass Beach		Night		40
+Skin of the Phoenix			0		Hallow Reen		Dawn		40
+Priceless Bird				1		Cream Crevasse		Dusk		150
+Aspiration-Ritual Ball			0		Cream Crevasse				80
+Aspiration-Ritual Pole			1		Hallow Reen				150
+Divine Balloon				0		Grass Beach				40
+Deity's Portrait			0		Hallow Reen				20
+Devil's Portrait			0		Hallow Reen				20
+Courage Emblem				0		Cream Crevasse				20
+Power Emblem				0		Cream Crevasse				20
+Wisdom Emblem				0		Cream Crevasse				20
+Love Emblem				0		Hallow Reen				20
+Money Emblem				0		Hallow Reen				20
+Work Emblem				0		Hallow Reen				20
+Gold Nuggets				0		Grass Beach				2350
+Long-Shot Totem				0		Hallow Reen		Night		40
+Go-with-the-Flow Totem			0		Hallow Reen		Night		40
+Chance Totem				0		Grass Beach		Night		20
+Difficult-Choice Totem			0		Hallow Reen		Night		20
+Talisman of Life (Crane)		0		Hallow Reen				40
+Talisman of Life (Cherry Blossom)	0		Hallow Reen				40
+Talisman of Life (Moon)			0		Cream Crevasse		Night		40
+Talisman of Life (Rain)			0		Hallow Reen		Dusk		40
+Talisman of Life (Phoenix)		0		Hallow Reen		Dawn		40
