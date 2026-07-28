@@ -1295,8 +1295,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Pinguen",spr_KSW_Fish_Pinguen,spr_KSW_Fish_Pinguen_Pal,series_Medabots,mage,0,androidPort,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Pure Mermaid",spr_KSW_Fish_PureMermaid,spr_KSW_Fish_PureMermaid_Pal,series_Medabots,glimmer,0,androidPort,KSW_Phases.none,1250);
 	scr_KSW_AddFish("Orkamar",spr_KSW_Fish_Orkamar,spr_KSW_Fish_Orkamar_Pal,series_Medabots,mage,1,androidPort,KSW_Phases.none,1000);
-	scr_KSW_AddFish("Scourge Of The Sea",spr_KSW_Fish_ScourgeOfTheSea,spr_KSW_Fish_ScourgeOfTheSea_Pal,series_OctopathTraveler,maze,3,grassBeach,KSW_Phases.night,95000);
-	
+	scr_KSW_AddFish("Scourge Of The Sea",spr_KSW_Fish_ScourgeOfTheSea,spr_KSW_Fish_ScourgeOfTheSea_Pal,series_OctopathTraveler,mage,3,grassBeach,KSW_Phases.night,95000);
+	var manTree = scr_KSW_AddFish("Man Tree",spr_KSW_Fish_ManTree,spr_KSW_Fish_ManTree_Pal,series_Deltarune,candy,3,anyStage,KSW_Phases.none,666667);
+	manTree.displayedName = "[wheel]Well... There's a tree here[/wheel]";
 	#endregion
 	#endregion
 }

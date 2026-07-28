@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"bg_KSW_AndroidPort_Day_1",
+  "%Name":"bg_KSW_AndroidPort_Day_1_Decal_2",
   "bboxMode":0,
-  "bbox_bottom":159,
+  "bbox_bottom":127,
   "bbox_left":0,
-  "bbox_right":239,
+  "bbox_right":127,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,16 +17,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"14b5ea2a-4ab6-4bc6-88a8-69b0d338f3a9","name":"14b5ea2a-4ab6-4bc6-88a8-69b0d338f3a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1d308ad7-c4f1-4505-bf25-807a326db911","name":"1d308ad7-c4f1-4505-bf25-807a326db911","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":160,
+  "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f84779c4-0668-4128-a751-d8b824416045","blendMode":0,"displayName":"default","isLocked":false,"name":"f84779c4-0668-4128-a751-d8b824416045","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"789fb50a-7ec2-48e4-b9e4-eaf96aee9776","blendMode":0,"displayName":"default","isLocked":false,"name":"789fb50a-7ec2-48e4-b9e4-eaf96aee9776","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"bg_KSW_AndroidPort_Day_1",
+  "name":"bg_KSW_AndroidPort_Day_1_Decal_2",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -38,7 +38,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"bg_KSW_AndroidPort_Day_1",
+    "%Name":"bg_KSW_AndroidPort_Day_1_Decal_1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -62,7 +62,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"bg_KSW_AndroidPort_Day_1",
+    "name":"bg_KSW_AndroidPort_Day_1_Decal_1",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14b5ea2a-4ab6-4bc6-88a8-69b0d338f3a9","path":"sprites/bg_KSW_AndroidPort_Day_1/bg_KSW_AndroidPort_Day_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"eba13b3a-d5a6-4c77-b3a9-a596ebc62db8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d308ad7-c4f1-4505-bf25-807a326db911","path":"sprites/bg_KSW_AndroidPort_Day_1_Decal_2/bg_KSW_AndroidPort_Day_1_Decal_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5cd1a7ab-4522-47d4-9a46-75b98fbdd9ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -93,5 +93,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":240,
+  "width":128,
 }
