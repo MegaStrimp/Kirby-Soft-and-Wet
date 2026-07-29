@@ -10,7 +10,7 @@ function scr_KSW_Game_UpdatePhase()
 	{
 	    targetPhase = KSW_Phases.day;
 	}
-	else if ((currentHour) >= 12 and (currentHour < 20))
+	else if ((currentHour >= 12) and (currentHour < 20))
 	{
 	    targetPhase = KSW_Phases.afternoon;
 	}

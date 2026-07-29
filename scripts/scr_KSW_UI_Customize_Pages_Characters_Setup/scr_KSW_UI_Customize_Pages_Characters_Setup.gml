@@ -16,6 +16,9 @@ function scr_KSW_UI_Customize_Pages_Characters_Setup()
 	
 	isCompleted = (global.KSW_UnlockedCharacterCount >= global.KSW_CharacterCount);
 	selectionOffset = 76;
+	backgroundX = 0;
+	backgroundY = 0;
+	backgroundSpd = .1;
 	
 	selectionIndex = 0;
 	selectionSpd = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60;

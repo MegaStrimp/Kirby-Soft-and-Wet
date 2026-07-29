@@ -34,6 +34,19 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 		}
 		#endregion
 		
+		#region Fish Count
+		if (global.KSW_StageList[ds_list_find_value(selectionList,i)].isUnlocked)
+		{
+			var color = "[#FFFFFF]";
+	
+			if (global.KSW_StageList[ds_list_find_value(selectionList,i)].fishCount >= global.KSW_StageList[ds_list_find_value(selectionList,i)].fishCountMax)
+			{
+				color = "[#FFD800]";
+			}
+			scribble(color + string(global.KSW_StageList[ds_list_find_value(selectionList,i)].fishCount) + "/" + string(global.KSW_StageList[ds_list_find_value(selectionList,i)].fishCountMax) + "[/color]").align(fa_center).draw(boxX + 34,boxY + 80);
+		}
+		#endregion
+		
 		#region Unlock Method
 		if (!global.KSW_StageList[ds_list_find_value(selectionList,i)].isUnlocked)
 		{
@@ -44,7 +57,7 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 			else
 			{
 				draw_sprite(spr_KSW_UI_Coin,0,boxX + 34,boxY + 34);
-				scribble(string(global.KSW_StageList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX +  34,boxY + 40);
+				scribble(string(global.KSW_StageList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX + 34,boxY + 40);
 			}
 		}
 		#endregion

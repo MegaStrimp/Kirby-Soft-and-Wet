@@ -14,3 +14,4 @@
 * QuantumV - Color Key Mask
 * Mimpy - Sine Script
 * Pringle - Sprite Line Script
+* YellowAfterlife - Execute Shell Simple

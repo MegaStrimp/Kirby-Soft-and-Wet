@@ -34,7 +34,7 @@ draw_sprite(icon,0,starX + (surfaceWidth / 2),starY);
 #endregion
 
 #region Text
-scribble("STAR GET").draw(starX + 18 + (surfaceWidth / 2),starY - 10);
+scribble("Star Get").draw(starX + 18 + (surfaceWidth / 2),starY - 10);
 #endregion
 
 #region Name
@@ -44,8 +44,17 @@ nameText.draw(starX + 18 + (surfaceWidth / 2),starY + 4);
 
 #region Description
 scribble_font_set_default("fnt_Advance_Small");
-scribble(description).wrap(82).draw(starX + 18 + (surfaceWidth / 2),starY + 4 + nameText.get_height());
+var descriptionText = scribble(description).wrap(82);
+descriptionText.draw(starX + 18 + (surfaceWidth / 2),starY + 4 + nameText.get_height());
 scribble_font_set_default("fnt_Advance");
+#endregion
+
+#region Bobber Reward
+if (bobberReward != -1)
+{
+	scribble("[fnt_Advance_Small]New Bobber[/font]").draw(starX + 18 + (surfaceWidth / 2),starY + 6 + nameText.get_height() + descriptionText.get_height());
+	draw_sprite(global.KSW_BobberList[bobberReward].sprite,0,starX + 80 + (surfaceWidth / 2),starY + 6 + nameText.get_height() + descriptionText.get_height());
+}
 #endregion
 
 #region Reset Surface

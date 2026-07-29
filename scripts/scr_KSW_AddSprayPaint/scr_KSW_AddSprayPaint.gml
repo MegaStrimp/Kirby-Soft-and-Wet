@@ -2,9 +2,10 @@
 
 function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprite,targetBoxPalette,targetPrice,targetIsDefault = false)
 {
-	ds_map_add(global.KSW_SprayPaintIDs,targetID,global.KSW_TotalSprayPaintCount);
-	
 	var tempSprayPaintCount = global.KSW_SprayPaintCount[global.KSW_CharacterIDs[? targetCharacterID]];
+	
+	ds_map_add(global.KSW_SprayPaintIDs,targetID,tempSprayPaintCount);
+	
 	global.KSW_SprayPaintCount[global.KSW_CharacterIDs[? targetCharacterID]] += 1;
 	
 	global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaints[tempSprayPaintCount] = 
@@ -22,6 +23,4 @@ function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprit
 	{
 		global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].defaultSprayPaint = targetID;
 	}
-	
-	global.KSW_TotalSprayPaintCount += 1;
 }

@@ -4,22 +4,88 @@ if (!localPause)
 {
 	if ((!instance_exists(obj_Transition)) and (!instance_exists(obj_KSW_PhaseShifter)) and (exitTimer == -1))
 	{
+		#region Exit To Menu
+		if (canGoToMenu)
+		{
+			if (input_check_pressed("B",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
+			{
+				scr_PlaySfx(snd_KSW_ButtonNo);
+				
+				mousePressed = true;
+				exitTarget = rm_KSW_Menu_TitleScreen;
+				exitTimer = exitTimerMax;
+			}
+		}
+		#endregion
+		
+		#region Exit To Fishbook
+		if (canGoToFishbook)
+		{
+			if (input_check_pressed("Y",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(168,144,235,156)) and (mouse_check_button_pressed(mb_left))))
+			{
+				scr_PlaySfx(snd_KSW_ButtonYes);
+				
+				mousePressed = true;
+				exitTarget = rm_KSW_Menu_Fishbook;
+				exitTimer = exitTimerMax;
+			}
+		}
+		#endregion
+		
+		#region Open Customize
+		if (canOpenCustomize)
+		{
+			if (input_check_pressed("X",playerNum) or ((!mousePressed) and (scr_MouseIsInbetween(83,144,157,156)) and (mouse_check_button_pressed(mb_left))))
+			{
+				scr_PlaySfx(snd_KSW_ButtonYes);
+				
+				global.pause = true;
+				
+				with (obj_KSW_UI_Coin) instance_destroy();
+				with (obj_KSW_UI_CaughtBox)
+				{
+					storedCoins = 0;
+					coinTimer = -1;
+				}
+				
+				mousePressed = true;
+				displayedCoins = global.KSW_CurrentCoins;
+				
+				instance_create_depth(0,0,depth - 1,obj_KSW_UI_Customize);
+			}
+		}
+		#endregion
+		
 		switch (state)
 		{
 			case KSW_GameStates.idle:
 			#region Throw
-			if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+			if ((autocatcher) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or ((!mousePressed) and (mouse_check_button_pressed(mb_left))))
 			{
 				state = KSW_GameStates.waiting_Ready;
 				canGoToMenu = false;
 				canGoToFishbook = false;
 				canOpenCustomize = false;
+				mousePressed = false;
 				
 				with (obj_KSW_Player)
 				{
 					threwBobber = false;
 					
 					scr_ChangeSprite(sprThrow);
+				}
+				
+				with (obj_KSW_UI_Coin)
+				{
+					other.displayedCoins += 1;
+					instance_destroy();
+				}
+				
+				with (obj_KSW_UI_CaughtBox)
+				{
+					other.displayedCoins += storedCoins;
+					storedCoins = 0;
+					coinTimer = -1;
 				}
 				
 				stateReadyTimer = stateReadyTimerMax;
@@ -38,10 +104,11 @@ if (!localPause)
 			break;
 			
 			case KSW_GameStates.waiting:
-			if (input_check_pressed("B",playerNum))
+			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				findFishTimer = -1;
 				state = KSW_GameStates.idle_Ready;
+				mousePressed = true;
 				
 				with (obj_KSW_Player) scr_ChangeSprite(sprReady);
 				
@@ -53,13 +120,16 @@ if (!localPause)
 			var success = false;
 			var failed = false;
 			
-			if (input_check_pressed("B",playerNum))
+			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
 				failed = true;
+				mousePressed = true;
 			}
 			
-			if (input_check_pressed("up",playerNum))
+			if ((input_check_pressed("up",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(162,28,186,52)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_UpTriggered)
 				{
 					success = true;
@@ -80,8 +150,10 @@ if (!localPause)
 				}
 			}
 			
-			if (input_check_pressed("down",playerNum))
+			if ((input_check_pressed("down",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(162,76,186,100)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_DownTriggered)
 				{
 					success = true;
@@ -102,8 +174,10 @@ if (!localPause)
 				}
 			}
 			
-			if (input_check_pressed("left",playerNum))
+			if ((input_check_pressed("left",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(138,52,162,76)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_LeftTriggered)
 				{
 					success = true;
@@ -124,8 +198,10 @@ if (!localPause)
 				}
 			}
 			
-			if (input_check_pressed("right",playerNum))
+			if ((input_check_pressed("right",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(186,52,210,76)) and (mouse_check_button_pressed(mb_left))))
 			{
+				mousePressed = true;
+				
 				if (catchInput_RightTriggered)
 				{
 					success = true;
@@ -153,7 +229,14 @@ if (!localPause)
 				catchInput_LeftTriggered = false;
 				catchInput_RightTriggered = false;
 				
-				catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+				if (global.KSW_Gamemode == KSW_Gamemodes.normal)
+				{
+					catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+				}
+				else
+				{
+					catchInput_NextLineTimer = irandom_range(catchInput_NextLineTimerEMin,catchInput_NextLineTimerEMax);
+				}
 				
 				failTimer = -1;
 				
@@ -263,7 +346,11 @@ if (!localPause)
 						
 						if (global.KSW_FishList[currentFish].catchScript != -1) script_execute(global.KSW_FishList[currentFish].catchScript);
 						
-						if (global.KSW_FishList[currentFish].catchAudio != -1) scr_PlaySfx(global.KSW_FishList[currentFish].catchAudio);
+						if (global.KSW_FishList[currentFish].catchAudio != -1)
+						{
+							var sfx = scr_PlaySfx(global.KSW_FishList[currentFish].catchAudio);
+							audio_sound_pitch(sfx,random_range(1 - global.KSW_FishList[currentFish].catchAudioPitchOffset,1 + global.KSW_FishList[currentFish].catchAudioPitchOffset));
+						}
 						
 						with (obj_KSW_Player)
 						{
@@ -323,47 +410,42 @@ if (!localPause)
 			
 			var achievementID = global.KSW_AchievementIDs[? "catch1"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "catch50"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "catch100"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "catch500"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "catch2500"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "catch5000"];
-			if (global.KSW_AchievementList[achievementID].unlockScript())
-			{
-				scr_KSW_ObtainAchievement(achievementID);
-				
-				scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "star"]);
-			}
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			
 			var achievementID = global.KSW_AchievementIDs[? "combo25"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "combo50"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "combo100"];
-			if (global.KSW_AchievementList[achievementID].unlockScript())
-			{
-				scr_KSW_ObtainAchievement(achievementID);
-				
-				scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "starry"]);
-			}
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			
 			var achievementID = global.KSW_AchievementIDs[? "grams10k"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "grams200k"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "grams1m"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			var achievementID = global.KSW_AchievementIDs[? "grams10m"];
-			if (global.KSW_AchievementList[achievementID].unlockScript())
-			{
-				scr_KSW_ObtainAchievement(achievementID);
-				
-				scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "darkMatter"]);
-			}
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			
 			switch (global.KSW_CurrentPhase)
 			{
@@ -372,6 +454,7 @@ if (!localPause)
 				
 				var achievementID = global.KSW_AchievementIDs[? "catchDay100"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				var achievementID = global.KSW_AchievementIDs[? "catchDay1000"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				break;
@@ -381,6 +464,7 @@ if (!localPause)
 				
 				var achievementID = global.KSW_AchievementIDs[? "catchAfternoon100"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				var achievementID = global.KSW_AchievementIDs[? "catchAfternoon1000"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				break;
@@ -390,14 +474,9 @@ if (!localPause)
 				
 				var achievementID = global.KSW_AchievementIDs[? "catchNight100"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				var achievementID = global.KSW_AchievementIDs[? "catchNight1000"];
 				
-				if (global.KSW_AchievementList[achievementID].unlockScript())
-				{
-					scr_KSW_ObtainAchievement(achievementID);
-					
-					scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "nightmareOrb"]);
-				}
+				var achievementID = global.KSW_AchievementIDs[? "catchNight1000"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				break;
 			}
 			
@@ -420,17 +499,16 @@ if (!localPause)
 				{
 					global.KSW_CaughtUniqueFishCount += 1;
 					
+					if (global.KSW_FishList[other.currentFish].stage != -1) global.KSW_StageList[global.KSW_FishList[other.currentFish].stage].fishCount += 1;
+					
 					var achievementID = global.KSW_AchievementIDs[? "catchUnique20"];
 					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+					
 					var achievementID = global.KSW_AchievementIDs[? "catchUnique100"];
 					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+					
 					var achievementID = global.KSW_AchievementIDs[? "catchUniqueAll"];
-					if (global.KSW_AchievementList[achievementID].unlockScript())
-					{
-						scr_KSW_ObtainAchievement(achievementID);
-						
-						scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "rainbowDrop"]);
-					}
+					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				}
 				
 				scr_KSW_Game_UpdateDiscord();
@@ -446,6 +524,8 @@ if (!localPause)
 					spriteXOffset = global.KSW_FishList[other.currentFish].xOffset;
 					spriteYOffset = global.KSW_FishList[other.currentFish].yOffset;
 					name = global.KSW_FishList[other.currentFish].displayedName;
+					nameSprite = global.KSW_FishList[other.currentFish].nameSprite;
+					series = global.KSW_SeriesList[global.KSW_FishList[other.currentFish].series].name;
 					rarity = global.KSW_FishList[other.currentFish].rarity;
 					phase = global.KSW_FishList[other.currentFish].phase;
 					phaseIconLeft = global.KSW_FishList[other.currentFish].phaseIconLeft;
@@ -496,55 +576,6 @@ if (!localPause)
 			break;
 		}
 		
-		#region Exit To Menu
-		if (canGoToMenu)
-		{
-			if (input_check_pressed("B",playerNum))
-			{
-				scr_PlaySfx(snd_KSW_ButtonNo);
-				
-				exitTarget = rm_KSW_Menu_TitleScreen;
-				exitTimer = exitTimerMax;
-			}
-		}
-		#endregion
-		
-		#region Exit To Fishbook
-		if (canGoToFishbook)
-		{
-			if (input_check_pressed("Y",playerNum))
-			{
-				scr_PlaySfx(snd_KSW_ButtonYes);
-				
-				exitTarget = rm_KSW_Menu_Fishbook;
-				exitTimer = exitTimerMax;
-			}
-		}
-		#endregion
-		
-		#region Open Customize
-		if (canOpenCustomize)
-		{
-			if (input_check_pressed("X",playerNum))
-			{
-				scr_PlaySfx(snd_KSW_ButtonYes);
-				
-				global.pause = true;
-				
-				with (obj_KSW_UI_Coin) instance_destroy();
-				with (obj_KSW_UI_CaughtBox)
-				{
-					storedCoins = 0;
-					coinTimer = -1;
-				}
-				
-				displayedCoins = global.KSW_CurrentCoins;
-				
-				instance_create_depth(0,0,depth - 1,obj_KSW_UI_Customize);
-			}
-		}
-		#endregion
-		
 		#region Find Fish Timer
 		if (findFishTimer != -1)
 		{
@@ -555,7 +586,7 @@ if (!localPause)
 				
 				state = KSW_GameStates.catching;
 				
-				var pityRate = 3;
+				var pityRate = 4 + floor(global.levelScoreCurrent / 1000000);
 				for (var i = 0; i < pityRate; i++)
 				{
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];
@@ -571,6 +602,7 @@ if (!localPause)
 				
 				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(playerNum,global.KSW_FishList[currentFish].rarity);
 				catchInput_CurrentLineMax = array_length(catchInput_CurrentList);
+				if (global.KSW_Gamemode == KSW_Gamemodes.emeraldRush) catchInput_CurrentLineMax = 999;
 				catchInput_SoundCount = -1;
 				catchInput_NextLineTimer = 0;
 				
@@ -591,9 +623,16 @@ if (!localPause)
 				
 				if (catchInput_CurrentLine != catchInput_CurrentLineMax)
 				{
-					var line = catchInput_CurrentList[catchInput_CurrentLine];
-						
-					failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - 1) * failTimerMin));
+					if (global.KSW_Gamemode == KSW_Gamemodes.normal)
+					{
+						var line = catchInput_CurrentList[catchInput_CurrentLine];
+						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - 1) * failTimerMin));
+					}
+					else
+					{
+						var line = choose(KSW_CatchInputList.up,KSW_CatchInputList.down,KSW_CatchInputList.left,KSW_CatchInputList.right,KSW_CatchInputList.wait);
+						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - .2) * failTimerMin));
+					}
 					
 					switch (line)
 					{
@@ -638,11 +677,27 @@ if (!localPause)
 						break;
 						
 						case KSW_CatchInputList.wait:
-						catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+						if (global.KSW_Gamemode == KSW_Gamemodes.normal)
+						{
+							catchInput_NextLineTimer = catchInput_NextLineTimerMax;
+						}
+						else
+						{
+							catchInput_NextLineTimer = irandom_range(catchInput_NextLineTimerEMin,catchInput_NextLineTimerEMax);
+						}
 						break;
 					}
 				}
 				else
+				{
+					state = KSW_GameStates.catchAnimation;
+					catchAnimationState = 0;
+					catchAnimationTimer = 0;
+					
+					catchInput_NextLineTimer = -1;
+				}
+				
+				if (autocatcher)
 				{
 					state = KSW_GameStates.catchAnimation;
 					catchAnimationState = 0;
@@ -729,22 +784,25 @@ if (!localPause)
 		#endregion
 		
 		#region Phase Timer
-		if (phaseTimer != -1)
+		if (global.KSW_Gamemode == KSW_Gamemodes.normal)
 		{
-			phaseTimer = max(phaseTimer - speedMultFinal,0);
-			if ((phaseTimer == 0) and (!canOffset) and (state == KSW_GameStates.idle))
+			if (phaseTimer != -1)
 			{
-				var targetPhase = scr_KSW_Game_UpdatePhase();
-				if (global.KSW_CurrentPhase != targetPhase)
+				phaseTimer = max(phaseTimer - speedMultFinal,0);
+				if ((phaseTimer == 0) and (!canOffset) and (state == KSW_GameStates.idle))
 				{
-					var phaseShifter = instance_create_depth(0,0,0,obj_KSW_PhaseShifter);
-					with (phaseShifter)
+					var targetPhase = scr_KSW_Game_UpdatePhase();
+					if (global.KSW_CurrentPhase != targetPhase)
 					{
-						phase = targetPhase;
+						var phaseShifter = instance_create_depth(0,0,0,obj_KSW_PhaseShifter);
+						with (phaseShifter)
+						{
+							phase = targetPhase;
+						}
 					}
+					
+					phaseTimer = phaseTimerMax;
 				}
-				
-				phaseTimer = phaseTimerMax;
 			}
 		}
 		#endregion

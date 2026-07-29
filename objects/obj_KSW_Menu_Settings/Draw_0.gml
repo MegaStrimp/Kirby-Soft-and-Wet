@@ -18,11 +18,19 @@ scribble_font_set_default(font);
 var musicText = scribble("MUSIC VOL");
 musicText.draw(8,startY + (space * i));
 
-for (var h = 0; h < 10; h++)
+for (var h = -1; h < 10; h++)
 {
 	var bubbleIsActive = (h < round(global.musicVolume * 10));
 	var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
-	draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,musicText.get_width() + 16 + (10 * h),startY + (space * i) + wave);
+	var bubbleX = musicText.get_width() + 16 + (10 * h);
+	var bubbleY = startY + (space * i) + wave;
+	
+	if (h != -1) draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+	
+	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+	{
+		global.musicVolume = (h + 1) * .1;
+	}
 }
 #endregion
 
@@ -38,11 +46,19 @@ if (selection == i)
 var soundText = scribble("SFX VOL");
 soundText.draw(8,startY + (space * i));
 
-for (var h = 0; h < 10; h++)
+for (var h = -1; h < 10; h++)
 {
 	var bubbleIsActive = (h < round(global.soundVolume * 10));
 	var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
-	draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,soundText.get_width() + 16 + (10 * h),startY + (space * i) + wave);
+	var bubbleX = soundText.get_width() + 16 + (10 * h);
+	var bubbleY = startY + (space * i) + wave;
+	
+	if (h != -1) draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+	
+	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+	{
+		global.soundVolume = (h + 1) * .1;
+	}
 }
 #endregion
 
@@ -68,6 +84,58 @@ if (selection == i)
 }
 
 scribble("WINDOW SIZE\t" + string(global.windowScaleTarget)).draw(8,startY + (space * i));
+#endregion
+
+i += 1;
+
+#region Shaders
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+var text = "ENABLE SHADERS";
+if (global.shaders) text = "DISABLE SHADERS";
+scribble(text).draw(8,startY + (space * i));
+#endregion
+
+i += 1;
+
+#region Export Save
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+if ((!global.isMobile) and (!global.isOpera))
+{
+	scribble("EXPORT SAVE").draw(8,startY + (space * i));
+}
+else
+{
+	scribble("EXPORT SAVE (NOT AVAILABLE)").draw(8,startY + (space * i));
+}
+#endregion
+
+i += 1;
+
+#region Import Save
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+if ((!global.isMobile) and (!global.isOpera))
+{
+	scribble("IMPORT SAVE").draw(8,startY + (space * i));
+}
+else
+{
+	scribble("IMPORT SAVE (NOT AVAILABLE)").draw(8,startY + (space * i));
+}
 #endregion
 
 i += 1;

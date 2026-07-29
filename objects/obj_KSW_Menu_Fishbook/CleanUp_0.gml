@@ -6,4 +6,5 @@ if (surface_exists(drawSurface)) surface_free(drawSurface);
 
 #region Destroy Lists
 ds_list_destroy(selectionList);
+ds_list_destroy(sortList);
 #endregion

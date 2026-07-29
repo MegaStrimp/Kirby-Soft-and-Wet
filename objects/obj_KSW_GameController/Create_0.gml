@@ -24,6 +24,9 @@ playerNum = 0;
 
 state = KSW_GameStates.idle_Ready;
 
+global.KSW_ForcedPhase = global.KSW_StageList[global.KSW_CurrentStageID].forcedPhase;
+global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
+
 currentFishPool = scr_KSW_Game_SetPool(playerNum);
 currentFish = -1;
 currentFishIsNew = false;
@@ -39,6 +42,8 @@ catchInput_Sfx = [snd_KSW_CatchInput1,snd_KSW_CatchInput2,snd_KSW_CatchInput3,sn
 catchInput_SfxIndex = 0;
 catchInput_NextLineTimer = -1;
 catchInput_NextLineTimerMax = 60;
+catchInput_NextLineTimerEMin = 2;
+catchInput_NextLineTimerEMax = 30;
 catchInput_UpTriggered = false;
 catchInput_DownTriggered = false;
 catchInput_LeftTriggered = false;
@@ -70,6 +75,7 @@ failTimer = -1;
 failTimerTarget = -1;
 failTimerMax = 150;
 failTimerMin = 10;
+failTimerEMin = 20;
 
 failTimerBarTextureX = 0;
 failTimerBarTextureWidth = 16;
@@ -94,8 +100,9 @@ bubbleIndex = 0;
 bubbleSpd = sprite_get_speed(spr_KSW_UI_CatchInput_Active) / 60;
 bubbleNumber = sprite_get_number(spr_KSW_UI_CatchInput_Active);
 
-global.KSW_ForcedPhase = global.KSW_StageList[global.KSW_CurrentStageID].forcedPhase;
-global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
+mousePressed = false;
+
+autocatcher = false;
 #endregion
 #endregion
 

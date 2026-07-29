@@ -15,7 +15,7 @@ function scr_KSW_UI_Customize_Pages_Hats_Select()
 			scr_PlaySfx(snd_KSW_ButtonYes);
 			
 			global.KSW_PlayerEquippedHatShuffle[playerNum] = false;
-			global.KSW_PlayerEquippedHatID[global.playerCharacter[playerNum]][playerNum] = ds_list_find_value(selectionList,selection);
+			global.KSW_PlayerEquippedHatID[playerNum][global.playerCharacter[playerNum]] = ds_list_find_value(selectionList,selection);
 		}
 		else
 		{

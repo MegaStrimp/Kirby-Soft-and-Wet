@@ -27,13 +27,17 @@ if (exitTimer == -1)
 		if (currentRightAction != -1) script_execute(currentRightAction);
 	}
 	
-	if (input_check_pressed("L",playerNum))
+	if ((input_check_pressed("L",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))))
 	{
+		mousePressed = true;
+		
 		if (currentLAction != -1) script_execute(currentLAction);
 	}
 	
-	if (input_check_pressed("R",playerNum))
+	if ((input_check_pressed("R",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))))
 	{
+		mousePressed = true;
+		
 		if (currentRAction != -1) script_execute(currentRAction);
 	}
 	
@@ -42,20 +46,33 @@ if (exitTimer == -1)
 		if (currentXAction != -1) script_execute(currentXAction);
 	}
 	
-	if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+	if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mouseSelected) or (mousePressedSelectedBubble) or ((!mousePressed) and (scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 	{
+		mousePressed = true;
+		
 		if (currentSelectAction != -1) script_execute(currentSelectAction);
 	}
 	
-	if (input_check_pressed("B",playerNum))
+	if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 	{
+		mousePressed = true;
+		
 		if (currentBackAction != -1) script_execute(currentBackAction);
 	}
 	#endregion
 }
 
+#region Reset Variables
+mouseSelected = false;
+#endregion
+
 #region Main
 if (currentMainScript != -1) script_execute(currentMainScript);
+#endregion
+
+#region Reset Variables
+mousePressedNewBubble = false;
+mousePressedSelectedBubble = false;
 #endregion
 
 #region Exit Timer

@@ -14,11 +14,14 @@ spritePalette = -1;
 spriteXOffset = 0;
 spriteYOffset = 0;
 name = "";
+nameSprite = -1;
+series = "";
 rarity = 0;
 phase = KSW_Phases.none;
 phaseIconLeft = -1;
 phaseIconRight = -1;
 isShiny = false;
+shineEffectAngle = 0;
 backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
 
 drawSurface = -1;

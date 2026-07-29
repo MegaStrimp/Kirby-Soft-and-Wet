@@ -23,7 +23,7 @@ scr_Camera_SetBackground(scr_KSW_Menu_Stars_SetBackground);
 #endregion
 
 #region Discord
-scr_Discord_Setup("Stars","Completion " + string(global.KSW_ObtainedAchievementCount) + "/" + string(global.KSW_VisibleAchievementCount),"icon",global.gameTitle,"strimp","From Strimp's Kitchen");
+scr_Discord_Setup("Stars","Completion " + string(global.KSW_ObtainedAchievementCount) + "/" + string(global.KSW_VisibleAchievementCount),"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
 #endregion
 
 #region Entered

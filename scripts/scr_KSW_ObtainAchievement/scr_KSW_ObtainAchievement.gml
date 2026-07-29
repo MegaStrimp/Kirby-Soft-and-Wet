@@ -7,6 +7,8 @@ function scr_KSW_ObtainAchievement(targetAchievementID)
 		global.KSW_ObtainedAchievementCount += 1;
 		global.KSW_AchievementList[targetAchievementID].isObtained = true;
 		
+		if (global.KSW_AchievementList[targetAchievementID].bobberReward != -1) scr_KSW_ObtainBobber(global.KSW_BobberList[global.KSW_AchievementList[targetAchievementID].bobberReward]);
+		
 		ds_list_add(global.notifQueue,targetAchievementID);
 		
 		if (!instance_exists(obj_KSW_UI_Achievement))
@@ -19,19 +21,9 @@ function scr_KSW_ObtainAchievement(targetAchievementID)
 		scr_KSW_SaveData("data1.ini");
 		
 		var achievementID = global.KSW_AchievementIDs[? "getAllStars"];
-		if (global.KSW_AchievementList[achievementID].unlockScript())
-		{
-			scr_KSW_ObtainAchievement(achievementID);
-					
-			scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "masterCrown"]);
-		}
+		if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 		
 		var achievementID = global.KSW_AchievementIDs[? "doEverything"];
-		if (global.KSW_AchievementList[achievementID].unlockScript())
-		{
-			scr_KSW_ObtainAchievement(achievementID);
-			
-			scr_KSW_ObtainBobber(global.KSW_BobberIDs[? "legend"]);
-		}
+		if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 	}
 }

@@ -1,13 +1,29 @@
 {
   "$GMOperaGXOptions":"v1",
   "%Name":"operagx",
+  "ConfigValues":{
+    "DesktopDebug":{
+      "option_operagx_game_name":"Coconut Engine",
+      "option_operagx_mod_game_name":"Coconut Engine",
+      "option_operagx_interpolate_pixels":"false",
+      "option_operagx_display_cursor":"false",
+    },
+    "OperaDebug":{
+      "option_operagx_game_name":"Coconut Engine",
+      "option_operagx_mod_game_name":"Coconut Engine",
+    },
+    "Opera":{
+      "option_operagx_game_name":"Coconut Engine",
+      "option_operagx_mod_game_name":"Coconut Engine",
+    },
+  },
   "name":"operagx",
-  "option_operagx_display_cursor":true,
+  "option_operagx_display_cursor":false,
   "option_operagx_editUrl":"",
   "option_operagx_game_name":"Coconut Engine",
   "option_operagx_guid":"",
   "option_operagx_internalShareUrl":"",
-  "option_operagx_interpolate_pixels":true,
+  "option_operagx_interpolate_pixels":false,
   "option_operagx_mod_editUrl":"",
   "option_operagx_mod_game_name":"Coconut Engine",
   "option_operagx_mod_guid":"",

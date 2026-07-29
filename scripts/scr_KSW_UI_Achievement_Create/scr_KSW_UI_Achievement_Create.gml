@@ -9,5 +9,6 @@ function scr_KSW_UI_Achievement_Create(targetAchievementID)
         description = string_upper(global.KSW_AchievementList[targetAchievementID].description);
         icon = global.KSW_AchievementList[targetAchievementID].icon;
 		isHidden = global.KSW_AchievementList[targetAchievementID].isHidden;
+		bobberReward = global.KSW_AchievementList[targetAchievementID].bobberReward;
 	}
 }

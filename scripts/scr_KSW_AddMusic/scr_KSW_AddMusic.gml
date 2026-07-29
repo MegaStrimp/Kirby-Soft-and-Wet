@@ -28,7 +28,7 @@ function scr_KSW_AddMusic(targetID,targetName,targetAuthor,targetPhase,targetAud
 		phase: targetPhase,
 		phaseIconRight: targetPhaseIconRight,
 		audio: targetAudio,
-		loopBegin: targetLoopBegin,
+		loopBegin: targetLoopBegin
     };
 	
 	audio_sound_loop_start(targetAudio,targetLoopBegin);

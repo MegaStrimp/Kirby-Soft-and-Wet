@@ -29,7 +29,7 @@ if (canSelect)
 		scr_KSW_Menu_Component_Navigate_Right();
 	}
 	
-	if (input_check_pressed("L",playerNum))
+	if ((input_check_pressed("L",playerNum)) or ((scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))))
 	{
 		scr_KSW_Menu_Component_SwitchPage_L();
 		
@@ -39,7 +39,7 @@ if (canSelect)
 		}
 	}
 	
-	if (input_check_pressed("R",playerNum))
+	if ((input_check_pressed("R",playerNum)) or ((scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))))
 	{
 		scr_KSW_Menu_Component_SwitchPage_R();
 		
@@ -49,7 +49,20 @@ if (canSelect)
 		}
 	}
 	
-	if (input_check_pressed("B",playerNum))
+	for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,selectionCount); i++)
+	{
+		var starX = 25 + (120 * (i % 2));
+		var starY = 32 + (32 * floor((i - page * pageSelectionCount) / 2));
+		
+		if ((scr_MouseIsInbetween(starX - 12,starY - 12,starX + 12,starY + 12)) and (mouse_check_button_pressed(mb_left)))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			
+			selection = i;
+		}
+	}
+	
+	if ((input_check_pressed("B",playerNum)) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 	{
 		scr_PlaySfx(snd_KSW_ButtonNo);
 		
@@ -63,9 +76,6 @@ if (!localPause)
 	#region Selection Animation
 	selectionIndex = (selectionIndex + selectionSpd) % selectionNumber;
 	selectionScale = 1 + sine_wave(current_time / 6000, .1, .05, 0);
-	#endregion
-	
-	#region Star Movement
 	#endregion
 	
 	#region Falling Star Timer

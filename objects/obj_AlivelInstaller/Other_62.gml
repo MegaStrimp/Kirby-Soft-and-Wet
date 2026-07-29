@@ -12,8 +12,10 @@ if (async_load[? "id"] == requestId)
         if (_files > 0)
         {
 			isDownloading = false;
+			textWithButtons = 0;
 			text = "Update successful! The game will start now...";
-			game_change("/./", "-game data.win");
+			execute_shell_simple(working_directory + "\\" + global.alivelInstaller_TargetFilename);
+			game_end();
         }
 		
 		if (isDownloading)
@@ -22,11 +24,11 @@ if (async_load[? "id"] == requestId)
 			
 			if (!os_is_network_connected())
 			{
-				text = "No internet connection. Would you like to try again?\n\n\n\n\n\n\n\n[spr_UI_Button_Keyboard_Enter]YES\n\n[spr_UI_Button_Keyboard_X]NO";
+				textWithButtons = 1;
 			}
 			else
 			{
-				text = "The server cannot be reached. Please contact Strimp and update manually. Would you like to try again?\n\n\n\n[spr_UI_Button_Keyboard_Enter]YES\n\n[spr_UI_Button_Keyboard_X]NO";
+				textWithButtons = 2;
 			}
 		}
 		
@@ -42,10 +44,21 @@ if (async_load[? "id"] == requestVersionNumberId)
 	
 	if ((latestVersion != -1) and (latestVersion != global.versionNumber))
 	{
-		text = "There's a new version available. Would you like to update?\n\n\n\n\n\n\n\n[spr_UI_Button_Keyboard_Enter]YES\n\n[spr_UI_Button_Keyboard_X]NO";
+		global.alivelInstaller_HasUpdate = true;
+		
+		if (global.isMobile)
+		{
+			room_goto(global.alivelInstaller_TargetRoom);
+		}
+		else
+		{
+			textWithButtons = 3;
+		}
 	}
 	else
 	{
+		global.alivelInstaller_HasUpdate = false;
+		
 		room_goto(global.alivelInstaller_TargetRoom);
 	}
 }

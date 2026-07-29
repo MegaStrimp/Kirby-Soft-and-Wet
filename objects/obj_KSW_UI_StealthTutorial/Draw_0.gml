@@ -7,6 +7,6 @@ if (text != "")
 	
 	var finalText = scr_String_ReplaceButtonSigns(text,upIcon,downIcon,leftIcon,rightIcon,AIcon,BIcon,XIcon,YIcon,LIcon,RIcon,LTIcon,RTIcon,startIcon,selectIcon);
 	
-	scribble("[alpha," + string(textAlpha) + "]" + finalText + "[/alpha]").draw(x,y + textWave);
+	scribble("[alpha," + string(textAlpha) + "]" + finalText + "[/alpha]").align(halign,valign).draw(x,y + textWave);
 }
 #endregion

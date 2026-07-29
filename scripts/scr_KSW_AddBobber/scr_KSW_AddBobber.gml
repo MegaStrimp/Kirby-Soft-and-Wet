@@ -15,6 +15,9 @@ function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetBoxPalette,tar
         yOffset: targetYOffset,
 		isHidden: targetIsHidden,
 		isDefault: targetIsDefault,
+		
+		tiedAchievementName: "",
+		
 		isUnlocked: false
     };
 	

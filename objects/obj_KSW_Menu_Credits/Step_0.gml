@@ -32,7 +32,7 @@ if (scrollTimer != -1)
 #region Selection
 if (canSelect)
 {
-	if ((input_check_pressed("B",playerNum)) or (keyboard_check_pressed(vk_escape)))
+	if ((input_check_pressed("B",playerNum)) or (keyboard_check_pressed(vk_escape)) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 	{
 		scr_PlaySfx(snd_KSW_ButtonNo);
 		

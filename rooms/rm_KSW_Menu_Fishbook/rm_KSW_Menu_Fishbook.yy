@@ -22,7 +22,7 @@
   "name":"rm_KSW_Menu_Fishbook",
   "parent":{
     "name":"Rooms",
-    "path":"folders/Kirby ~ Soft & Wet/Menus/Fishbook/Rooms.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Stages/Fishbook/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -21,4 +21,5 @@ name = "";
 description = "";
 icon = spr_KSW_Achievement_Icon_Default;
 isHidden = false;
+bobberReward = -1;
 #endregion

@@ -11,7 +11,10 @@ playerNum = 0;
 selection = 0;
 targetKey = "";
 
-buttonsList_Max = 17;
+buttonsList_Max = 20;
+
+mousePressed = false;
+settingPressed = false;
 #endregion
 
 #region Keys

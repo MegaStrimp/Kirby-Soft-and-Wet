@@ -82,10 +82,37 @@ if (canSelect)
 		with (obj_KSW_Menu_TitleScreen_Bubble) targetOffset = sign(index - global.KSW_MainMenuSelection) * other.bubbleOffsetMax;
 	}
 	
+	if (mousePressedNewBubble)
+	{
+		scr_PlaySfx(snd_KSW_Bubble1);
+		
+		with (bubble[global.KSW_MainMenuSelection])
+		{
+			sprite_index = sprMedium;
+			sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Medium;
+			
+			isBig = false;
+			mediumTimer = mediumTimerMax;
+		}
+		
+		global.KSW_MainMenuSelection = mousePressedNewBubble_Target;
+		
+		with (bubble[global.KSW_MainMenuSelection])
+		{
+			sprite_index = sprMedium;
+			sprBubble = spr_KSW_Menu_TitleScreen_Bubble_Medium;
+			
+			isBig = true;
+			mediumTimer = mediumTimerMax;
+		}
+		
+		with (obj_KSW_Menu_TitleScreen_Bubble) targetOffset = sign(index - global.KSW_MainMenuSelection) * other.bubbleOffsetMax;
+	}
+	
 	switch (global.KSW_MainMenuSelection)
 	{
 		case KSW_MainMenu_Buttons.settings:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -94,7 +121,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.stars:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -103,7 +130,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.startFishing:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -112,7 +139,7 @@ if (canSelect)
 		break;
 		
 		case KSW_MainMenu_Buttons.fishbook:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -120,8 +147,17 @@ if (canSelect)
 		}
 		break;
 		
+		case KSW_MainMenu_Buttons.aquarium:
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
+		{
+			scr_PlaySfx(snd_KSW_Enter);
+			
+			scr_GoToRoom(rm_KSW_Menu_Aquarium,false);
+		}
+		break;
+		
 		case KSW_MainMenu_Buttons.discord:
-		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
+		if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mousePressedSelectedBubble) or ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
@@ -130,19 +166,26 @@ if (canSelect)
 		break;
 	}
 	
-	if (input_check_pressed("Y",playerNum))
+	if ((input_check_pressed("Y",playerNum)) or ((scr_MouseIsInbetween(90,144,150,156)) and (mouse_check_button_pressed(mb_left))))
 	{
 		scr_PlaySfx(snd_KSW_Enter);
 		
 		scr_GoToRoom(rm_KSW_Menu_Credits,false);
 	}
 	
-	if ((input_check_pressed("B",playerNum)) or (keyboard_check_pressed(vk_escape)))
+	if ((input_check_pressed("B",playerNum)) or (keyboard_check_pressed(vk_escape)) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 	{
 		scr_PlaySfx(snd_KSW_ButtonNo);
 		
 		var notifID = global.KSW_NotifIDs[? "exitGame"];
 		scr_KSW_ObtainNotif(notifID,true);
+	}
+	
+	if ((global.alivelInstaller_HasUpdate) and ((scr_MouseIsInbetween(124,20,236,28)) and (mouse_check_button_pressed(mb_left))))
+	{
+		scr_PlaySfx(snd_KSW_Enter);
+		
+		url_open("https://github.com/MegaStrimp/Kirby-Soft-and-Wet/releases");
 	}
 	
 	#region Phase Timer
@@ -166,6 +209,11 @@ if (canSelect)
 	}
 	#endregion
 }
+#endregion
+
+#region Reset Variables
+mousePressedNewBubble = false;
+mousePressedSelectedBubble = false;
 #endregion
 
 #region Bubble Timer

@@ -2,20 +2,19 @@
 
 #region Initialize Variables
 #region Screen Variables
-global.shaders = true;
-
 global.gameWidthTarget = 240;
 global.gameHeightTarget = 160;
 global.gameTileSize = 24;
 
-global.windowScaleTarget = 1;
-
 global.fullscreen = true;
+
+global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
 #endregion
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.1.1";
+global.versionNumber = "1.2.0";
+global.versionSubtitle = "Android Port";
 
 global.pauseScript = scr_KSW_PauseScript;
 
@@ -30,6 +29,7 @@ scr_KSW_SetBaits();
 scr_KSW_SetHats();
 scr_KSW_SetSprayPaints();
 scr_KSW_SetStages();
+scr_KSW_SetSeries();
 scr_KSW_SetFishes();
 scr_KSW_SetAchievements();
 scr_KSW_SetNotifs();
@@ -52,6 +52,7 @@ for (var i = 0; i < global.maxPlayers; i++)
 	}
 }
 
+global.KSW_Gamemode = KSW_Gamemodes.normal;
 global.KSW_PopupQueue = ds_list_create();
 global.KSW_UnlockedCharacterCount = 0;
 global.KSW_UnlockedBobberCount = 0;
@@ -79,6 +80,7 @@ global.KSW_CurrentCoins = 0;
 global.KSW_EnteredFishbook = false;
 global.KSW_EnteredSettings = false;
 global.KSW_EnteredStars = false;
+global.KSW_EnteredAquarium = false;
 
 global.KSW_DebugRig = -1;
 
@@ -97,10 +99,14 @@ enum KSW_Phases
 	night
 }
 #endregion
-#endregion
 
-#region Adapt Display Size To Monitor
-global.windowScaleTarget = floor(scr_Screen_ScaleToScreenSize() / 1.2);
+#region Gamemodes
+enum KSW_Gamemodes
+{
+	normal,
+	emeraldRush
+}
+#endregion
 #endregion
 
 #region Audio Setup
@@ -120,6 +126,8 @@ scr_KSW_SaveGeneral("general.ini");
 scr_KSW_LoadConfig("config.ini");
 scr_KSW_SaveConfig("config.ini");
 
+window_set_fullscreen(global.fullscreen);
+
 scr_KSW_DefaultKeybindings();
 scr_KSW_LoadControls("controls.ini");
 
@@ -138,5 +146,5 @@ if (!np_initdiscord(appId, true, np_steam_app_id_empty))
 	Error_msg = "Discord RPC unable to initialize";
 }
 
-scr_Discord_Setup(-1,-1,"icon",global.gameTitle,"strimp","From Strimp's Kitchen");
+scr_Discord_Setup(-1,-1,"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
 #endregion

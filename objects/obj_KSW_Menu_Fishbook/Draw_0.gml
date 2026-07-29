@@ -14,7 +14,7 @@ var color = "[#FFFFFF]";
 if (isCompleted)
 {
 	color = "[#FFD800]";
-	draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,room_width - 68,2 - hintOffset);
+	draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,112,15 - hintOffset);
 }
 scribble(color + string(global.KSW_CaughtUniqueFishCount) + "/" + string(global.KSW_FishCount) + "[/color]").align(fa_right).draw(room_width - 4,6 - hintOffset);
 
@@ -25,6 +25,7 @@ if (global.KSW_CaughtShinyFishCount != 0) scribble("SHINIES " + string(global.KS
 #region Fish Name
 var targetName = "???";
 if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) targetName = global.KSW_FishList[ds_list_find_value(selectionList,selection)].displayedName;
+var targetSeries = global.KSW_SeriesList[global.KSW_FishList[ds_list_find_value(selectionList,selection)].series].name;
 var fishName = scribble(targetName).align(fa_right);
 fishName.draw(room_width - 4,room_height - 14 + hintOffset);
 #endregion
@@ -40,7 +41,7 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	var spriteXOffset = global.KSW_FishList[ds_list_find_value(selectionList,i)].xOffset;
 	var spriteYOffset = global.KSW_FishList[ds_list_find_value(selectionList,i)].yOffset;
 	var rarity = global.KSW_FishList[ds_list_find_value(selectionList,i)].rarity;
-	var isCaughtShiny = global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaughtShiny;
+	var isCaughtShiny = global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaughtShiny > 0;
 	var backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
 	if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught != 0) backgroundPalette = global.KSW_FishList[ds_list_find_value(selectionList,i)].caughtBoxPalette;
 	#endregion
@@ -72,12 +73,25 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	#region Sprite
 	if (spriteIndex != -1)
 	{
-		var targetPaletteIndex = 4;
-		if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught != 0) targetPaletteIndex = fishIsShiny[i];
+		var targetPaletteIndex = fishIsShiny[i];
 		
-		if ((global.shaders) and (spritePalette != -1)) pal_swap_set(spritePalette,targetPaletteIndex,false);
+		if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught == 0)
+		{
+			gpu_set_fog(true,c_black,0,0);
+		}
+		else
+		{
+			if ((global.shaders) and (spritePalette != -1)) pal_swap_set(spritePalette,targetPaletteIndex,false);
+		}
 		draw_sprite(spriteIndex,fishImageIndex[i],boxX + 14 + spriteXOffset + calibX,boxY + 14 + spriteYOffset + calibY);
-		if ((global.shaders) and (spritePalette != -1)) pal_swap_reset();
+		if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught == 0)
+		{
+			gpu_set_fog(false,c_black,0,0);
+		}
+		else
+		{
+			if ((global.shaders) and (spritePalette != -1)) pal_swap_reset();
+		}
 	}
 	#endregion
 	
@@ -113,10 +127,12 @@ if (!isZoomed)
 {
 	#region Button Hints
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("L"))];
-	if (targetIcon != undefined) draw_sprite(targetIcon,0,72,3 - hintOffset + (2 * (buttonInputTimerComponent_LTimer != -1)));
+	if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Left;
+	draw_sprite(targetIcon,0,72,3 - hintOffset + (2 * (buttonInputTimerComponent_LTimer != -1)));
 	
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("R"))];
-	if (targetIcon != undefined) draw_sprite(targetIcon,0,157,3 - hintOffset + (2 * (buttonInputTimerComponent_RTimer != -1)));
+	if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Right;
+	draw_sprite(targetIcon,0,157,3 - hintOffset + (2 * (buttonInputTimerComponent_RTimer != -1)));
 	
 	var exitIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("B"))];
@@ -126,7 +142,12 @@ if (!isZoomed)
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("Y"))];
 	if (targetIcon != undefined) shinyIcon = "[" + sprite_get_name(targetIcon) + "]";
 	
+	var sortIcon = "";
+	var targetIcon = global.UI_IconBindings[? string(input_binding_get("LT"))];
+	if (targetIcon != undefined) sortIcon = "[" + sprite_get_name(targetIcon) + "]";
+	
 	scribble(exitIcon + "EXIT").draw(4,room_height - 16 + (2 * (buttonInputTimerComponent_BTimer != -1)));
+	scribble(sortIcon + "SORT").align(fa_left,fa_bottom).draw(4,16 - hintOffset + (2 * (buttonInputTimerComponent_LTTimer != -1)));
 	
 	if ((global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
 	{
@@ -163,7 +184,7 @@ else
 	if (fishIsShiny[selection])
 	{
 		gpu_set_blendmode(bm_add);
-		draw_sprite(spr_KSW_UI_CatchPopup_ShineEffect,0,room_width / 2,room_height / 2);
+		draw_sprite_ext(spr_KSW_UI_CatchPopup_ShineEffect,0,room_width / 2,room_height / 2,1,1,shineEffectAngle,c_white,1);
 		gpu_set_blendmode(bm_normal);
 	}
 	#endregion
@@ -236,14 +257,16 @@ else
 	#endregion
 	
 	#region Fish Name
-	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconRight == spr_KSW_Menu_TitleScreen_Phase_TVTime)
+	if (global.KSW_FishList[ds_list_find_value(selectionList,selection)].nameSprite != -1)
 	{
-		draw_sprite(spr_KSW_UI_CatchPopup_TennaName,0,room_width / 2,0);
+		draw_sprite(global.KSW_FishList[ds_list_find_value(selectionList,selection)].nameSprite,0,room_width / 2,0);
 	}
 	else
 	{
 		scribble(targetName).align(fa_center).blend(c_white,zoomAlpha).draw(room_width / 2,6);
 	}
+	
+	scribble("[fnt_Advance_Small]" + targetSeries + "[/font]").align(fa_center).blend(c_white,zoomAlpha).draw(room_width / 2,14);
 	#endregion
 	
 	#region Rarity
@@ -254,7 +277,7 @@ else
 			var starOffset = 0;
 			if ((h == selectionStarCount - 1) and (selectionStarTimer >= selectionStarTimerMax - 1)) starOffset = 1;
 			
-			draw_sprite(spr_KSW_UI_CaughtBox_Star,0,104 + (12 * h),15 - starOffset);
+			draw_sprite(spr_KSW_UI_CaughtBox_Star,0,104 + (12 * h),21 - starOffset);
 		}
 	}
 	#endregion
@@ -265,7 +288,7 @@ else
 	#endregion
 	
 	#region Catch Amount
-	var targetCatchAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught;
+	var targetCatchAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaught - global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny;
 	if (fishIsShiny[selection]) targetCatchAmount = global.KSW_FishList[ds_list_find_value(selectionList,selection)].isCaughtShiny;
 	
 	scribble("CAUGHT " + string(targetCatchAmount)).align(fa_right).draw(room_width - 4,18 + (12 * ((global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconLeft != -1) or (global.KSW_FishList[ds_list_find_value(selectionList,selection)].phaseIconRight != -1))));

@@ -10,6 +10,7 @@ function scr_KSW_LoadGeneral(file)
 	#region General
 	global.savedVersionNumber = ini_read_string("general","versionNumber",0);
 	global.lastSelectedSave = ini_read_string("general","lastSelectedSave",-1);
+	global.KSW_ShadersMenuSeen = ini_read_string("general","shadersMenuSeen",false);
 	#endregion
 	
 	ini_close();

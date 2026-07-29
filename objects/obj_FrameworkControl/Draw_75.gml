@@ -13,4 +13,8 @@ if ((!global.screenshotBuffer) and (global.screenshotTextTimer != -1))
 }
 #endregion
 
+#region Custom Cursor
+if (global.customCursorSprite != -1) draw_sprite(global.customCursorSprite,global.customCursorSpriteIndex,device_mouse_x_to_gui(0),device_mouse_y_to_gui(0));
+#endregion
+
 if ((global.shaders) and (global.screenPalette != -1)) pal_swap_reset();

@@ -29,6 +29,8 @@ creditsBubbleTimerMax = 4;
 bubbleTimer = 0;
 bubbleTimerMax = 10;
 
+isSkippable = true;
+
 global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
 #endregion
 #endregion

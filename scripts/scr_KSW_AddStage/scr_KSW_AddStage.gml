@@ -21,6 +21,8 @@ function scr_KSW_AddStage(targetID,targetName,targetIcon,targetDayLayout,targetD
 		price: targetPrice,
 		isDefault: targetIsDefault,
 		forcedPhase: KSW_Phases.none,
+		fishCountMax: 0,
+		fishCount: 0,
 		isAvailable: false,
 		isUnlocked: false
     };

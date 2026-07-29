@@ -92,6 +92,8 @@ if ((keyboard_check_pressed(vk_f4)) or ((keyboard_check(vk_alt)) and (keyboard_c
 {
 	global.fullscreen = !global.fullscreen;
 	window_set_fullscreen(global.fullscreen);
+	
+	scr_Screen_Setup(global.gameWidth,global.gameHeight,global.windowScaleTarget);
 }
 #endregion
 
@@ -137,6 +139,34 @@ if (global.screenshotTextTimer != -1)
 	}
 }
 #endregion
+#endregion
+
+#region Custom Cursor
+if (global.customCursorSprite != -1)
+{
+	var spriteNum = sprite_get_number(global.customCursorSprite);
+	var spriteSpd = sprite_get_speed(global.customCursorSprite) / 60;
+	
+	global.customCursorSpriteIndex = (global.customCursorSpriteIndex + spriteSpd + spriteNum) % spriteNum;
+}
+#endregion
+
+#region Shader Handler
+/*if (global.currentTimePausable >= 120)
+{
+	if (fps <= 10)
+	{
+		global.shaderHandlerTimer += 1;
+	}
+	else
+	{
+		global.shaderHandlerTimer = 0;
+	}
+	
+	if (global.shaderHandlerTimer >= 60) global.shaders = false;
+	
+	if (global.shaderHandlerTimer > global.shaderHandlerTimerM) global.shaderHandlerTimerM = global.shaderHandlerTimer;
+}*/
 #endregion
 
 #region Hud

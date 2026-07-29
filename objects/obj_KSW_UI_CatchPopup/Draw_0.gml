@@ -12,7 +12,7 @@ draw_set_color(c_white);
 if (isShiny)
 {
 	gpu_set_blendmode(bm_add);
-	draw_sprite(spr_KSW_UI_CatchPopup_ShineEffect,0,room_width / 2,room_height / 2);
+	draw_sprite_ext(spr_KSW_UI_CatchPopup_ShineEffect,0,room_width / 2,room_height / 2,1,1,shineEffectAngle,c_white,1);
 	gpu_set_blendmode(bm_normal);
 }
 #endregion
@@ -96,9 +96,9 @@ if (escapeTimer != -1) subtitle = "ESCAPE ESCAPE ESCAPE";
 
 scribble(subtitle).align(fa_center).blend(c_white,alpha).draw(room_width / 2,6);
 
-if (phaseIconRight == spr_KSW_Menu_TitleScreen_Phase_TVTime)
+if (nameSprite != -1)
 {
-	draw_sprite(spr_KSW_UI_CatchPopup_TennaName,0,room_width / 2,15);
+	draw_sprite(nameSprite,0,room_width / 2,15);
 }
 else
 {
@@ -107,6 +107,11 @@ else
 	
 	scribble(nameFinal).align(fa_center).blend(c_white,alpha).draw(room_width / 2,18);
 }
+
+var seriesFinal = series;
+if (escapeTimer != -1) seriesFinal = "ESCAPE";
+
+scribble("[fnt_Advance_Small]" + seriesFinal + "[/font]").align(fa_center).blend(c_white,alpha).draw(room_width / 2,26);
 #endregion
 
 #region Rarity
@@ -115,7 +120,7 @@ for (var h = 0; h < starCount; h++)
 	var starOffset = 0;
 	if ((h == starCount - 1) and (starTimer >= starTimerMax - 1)) starOffset = 1;
 	
-	draw_sprite(spr_KSW_UI_CaughtBox_Star,0,104 + (12 * h),27 - starOffset);
+	draw_sprite(spr_KSW_UI_CaughtBox_Star,0,104 + (12 * h),33 - starOffset);
 }
 #endregion
 

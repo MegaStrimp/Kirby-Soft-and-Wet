@@ -128,10 +128,12 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 	if (pageMax >= 1)
 	{
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("L"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,72,3 - hintOffset + (2 * (buttonInputTimerComponent_LTimer != -1)));
+		if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Left;
+		draw_sprite(targetIcon,0,72,3 - hintOffset + (2 * (buttonInputTimerComponent_LTimer != -1)));
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("R"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,157,3 - hintOffset + (2 * (buttonInputTimerComponent_RTimer != -1)));
+		if (targetIcon == undefined) targetIcon = spr_UI_Button_Keyboard_Right;
+		draw_sprite(targetIcon,0,157,3 - hintOffset + (2 * (buttonInputTimerComponent_RTimer != -1)));
 	}
 	
 	var exitIcon = "";
@@ -144,8 +146,32 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("A"))];
 	if (targetIcon != undefined) selectIcon = "[" + sprite_get_name(targetIcon) + "]";
 	
-	var text = scribble(selectIcon + "SELECT");
-	if ((ds_list_find_value(selectionList,selection) != -1) and (!global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked) and (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price != 0)) text = scribble(selectIcon + "BUY");
-	text.draw(global.gameWidth - 4 - text.get_width(),global.gameHeight + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
+	if (ds_list_find_value(selectionList,selection) != -1)
+	{
+		if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked)
+		{
+			var text = scribble(selectIcon + "SELECT");
+			text.draw(global.gameWidth - 4 - text.get_width(),global.gameHeight + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
+		}
+		else
+		{
+			if ((global.KSW_BobberList[ds_list_find_value(selectionList,selection)].price != 0))
+			{
+				text = scribble(selectIcon + "BUY");
+				text.draw(global.gameWidth - 4 - text.get_width(),global.gameHeight + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
+			}
+			else
+			{
+				text = scribble("NEEDS [#BFFF1E]" + global.KSW_BobberList[ds_list_find_value(selectionList,selection)].tiedAchievementName + "[/color] STAR").wrap(99);
+				text.align(fa_right,fa_bottom).draw(global.gameWidth - 4,global.gameHeight + hintOffset - 5 + (2 * (buttonInputTimerComponent_ATimer != -1)));
+			}
+		}
+	}
+	else
+	{
+		text = scribble(selectIcon + "SELECT");
+		text.draw(global.gameWidth - 4 - text.get_width(),global.gameHeight + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
+	}
+	
 	#endregion
 }

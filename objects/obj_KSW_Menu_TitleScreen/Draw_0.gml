@@ -33,17 +33,27 @@ draw_sprite(phaseIconRight,0,9,4);
 
 var hourText = current_hour;
 var hourPrefix = "AM";
-if (hourText > 12)
+
+if (hourText == 0)
 {
-	hourText -= 12;
-	hourPrefix = "PM";
+    hourText = 12;
+}
+else if (hourText == 12)
+{
+    hourPrefix = "PM";
+}
+else if (hourText > 12)
+{
+    hourText -= 12;
+    hourPrefix = "PM";
 }
 
 scribble(string(hourText) + " " + hourPrefix).draw(4,24);
 #endregion
 
 #region Version Number
-scribble("[c_orange]" + string(global.versionNumber) + "[/color]").align(fa_right).draw(236,4);
+scribble("[c_lime]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_right).draw(236,4);
+if (global.alivelInstaller_HasUpdate) scribble("[c_yellow]Update Available[/color]").gradient(c_orange,1).align(fa_right).draw(236,20);
 #endregion
 
 #region Button Hints

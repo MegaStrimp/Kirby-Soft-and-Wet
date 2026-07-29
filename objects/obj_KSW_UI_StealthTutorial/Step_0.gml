@@ -5,7 +5,7 @@ if (!localPause)
 	#region Text
 	textWave = sine_between(global.currentTimePausable / 200,1,-2,2);
 	
-	textAlpha = lerp(textAlpha,textAlphaTarget,.05);
+	textAlpha = lerp(textAlpha,textAlphaTarget,textAlphaSpd);
 	if ((textAlpha == 0) and (destroyTimer == -1)) instance_destroy();
 	#endregion
 	

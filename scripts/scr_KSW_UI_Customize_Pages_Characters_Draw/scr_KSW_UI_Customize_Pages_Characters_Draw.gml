@@ -19,10 +19,28 @@ function scr_KSW_UI_Customize_Pages_Characters_Draw()
 		
 		var boxX = 10 + selectionX;
 		var boxY = 48;
+		var backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
+		if (global.KSW_CharacterList[ds_list_find_value(selectionList,i)].isUnlocked) backgroundPalette = global.KSW_CharacterList[ds_list_find_value(selectionList,i)].boxPalette;
 		
 		var isSelected = (ds_list_find_value(selectionList,i) == global.playerCharacter[playerNum]);
 		
 		draw_sprite(spr_KSW_UI_CaughtBox_Box_Big,isSelected,boxX,boxY);
+		#endregion
+		
+		#region Mask
+		scr_DrawMask_Begin();
+		scr_DrawMask_Mask(spr_KSW_UI_CaughtBox_Mask_Big,0,boxX,boxY);
+		
+		#region Texture
+		if ((global.shaders) and (backgroundPalette != -1)) pal_swap_set(backgroundPalette,1,false);
+		for (var ix = 0; ix < 5; ix++)
+		{
+			for (var iy = 0; iy < 5; iy++)
+			{
+				draw_sprite(spr_KSW_UI_Customize_Texture,0,boxX + backgroundX + ((ix - 2) * 50),boxY + backgroundY + ((iy - 2) * 40));
+			}
+		}
+		if ((global.shaders) and (backgroundPalette != -1)) pal_swap_reset();
 		#endregion
 		
 		#region Sprite
@@ -32,6 +50,9 @@ function scr_KSW_UI_Customize_Pages_Characters_Draw()
 			draw_sprite(global.KSW_CharacterList[ds_list_find_value(selectionList,i)].icon,0,boxX + 2,boxY + 2);
 			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_CharacterList[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(false,c_black,0,0);
 		}
+		#endregion
+		
+		scr_DrawMask_End();
 		#endregion
 		
 		#region Unlock Method
