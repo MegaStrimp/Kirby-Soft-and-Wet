@@ -68,23 +68,23 @@ if (keyboard_check_pressed(ord("M")))
 
 var gamePaused = 1;
 
-var audioArray = tag_get_assets("Sound Effect");
+var audioArray = tag_get_asset_ids("Sound Effect", asset_sound);
 var loopLength = array_length(audioArray);
 for (var i = 0; i < loopLength; i++)
 {
     var soundVolume = global.soundVolume;
 	if (global.audioMuted) soundVolume = 0;
 	
-    audio_sound_gain(asset_get_index(audioArray[i]),soundVolume,0);
+    audio_sound_gain(audioArray[i],soundVolume,0);
 }
 
-audioArray = tag_get_assets("Music");
+audioArray = tag_get_asset_ids("Music", asset_sound);
 loopLength = array_length(audioArray);
 for (var i = 0; i < loopLength; i++)
 {
 	var musicVolume = global.musicVolume * gamePaused;
 	if (global.audioMuted) musicVolume = 0;
 	
-    audio_sound_gain(asset_get_index(audioArray[i]),musicVolume,0);
+    audio_sound_gain(audioArray[i],musicVolume,0);
 }
 #endregion

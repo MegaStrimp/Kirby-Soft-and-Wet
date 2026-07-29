@@ -10,6 +10,9 @@ function scr_KSW_UI_Customize_Pages_Music_Setup()
 	{
 		if (ds_list_find_value(selectionList,i) != -1)
 		{
+            if (global.KSW_MusicList[ds_list_find_value(selectionList, i)].ID == "custom")
+                global.KSW_MusicList[ds_list_find_value(selectionList, i)].author = "Press [" + sprite_get_name(ds_map_find_value(global.UI_IconBindings, string(input_binding_get("X")))) + "] to customize!";
+            
 			if ((global.KSW_MusicList[ds_list_find_value(selectionList,i)].phase != KSW_Phases.none) and (global.KSW_MusicList[ds_list_find_value(selectionList,i)].phase != global.KSW_CurrentPhase))
 			{
 				ds_list_delete(selectionList,i);

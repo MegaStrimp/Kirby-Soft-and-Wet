@@ -41,6 +41,11 @@ if (exitTimer == -1)
 		if (currentRAction != -1) script_execute(currentRAction);
 	}
 	
+	if (input_check_pressed("X",playerNum))
+	{
+		if (currentXAction != -1) script_execute(currentXAction);
+	}
+	
 	if ((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (mouseSelected) or (mousePressedSelectedBubble) or ((!mousePressed) and (scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))))
 	{
 		mousePressed = true;
