@@ -38,6 +38,11 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
 			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_SerranoSprings;
 			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_SerranoSprings_Small;
 			break;
+			
+			case "androidPort":
+			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_AndroidPort;
+			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_AndroidPort_Small;
+			break;
 		}
 	}
 	

@@ -12,6 +12,7 @@ function scr_KSW_SaveGeneral(file)
 	#region General
 	ini_write_string("general","versionNumber",global.versionNumber);
 	ini_write_string("general","lastSelectedSave",global.selectedSave);
+	ini_write_string("general","shadersMenuSeen",global.KSW_ShadersMenuSeen);
 	#endregion
 	
 	ini_close();

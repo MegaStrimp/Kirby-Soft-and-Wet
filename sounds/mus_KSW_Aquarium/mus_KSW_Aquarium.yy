@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":1,
-  "duration":35.188,
+  "duration":44.091415,
   "exportDir":"",
   "name":"mus_KSW_Aquarium",
   "parent":{

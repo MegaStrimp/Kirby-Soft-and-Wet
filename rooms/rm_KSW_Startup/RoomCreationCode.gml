@@ -2,6 +2,7 @@
 
 #region Go To Next Room
 var targetRoom = rm_KSW_Menu_SplashScreen;
+if (!global.KSW_ShadersMenuSeen) targetRoom = rm_KSW_Menu_Shaders;
 
 if (global.debug)
 {

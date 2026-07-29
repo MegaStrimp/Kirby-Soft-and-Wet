@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_KSW_AquariumAlt",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":1,
+  "duration":53.176167,
+  "exportDir":"",
+  "name":"mus_KSW_AquariumAlt",
+  "parent":{
+    "name":"Menus",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Menus.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"mus_KSW_AquariumAlt.wav",
+  "tags":[
+    "Music",
+  ],
+  "volume":1.0,
+}

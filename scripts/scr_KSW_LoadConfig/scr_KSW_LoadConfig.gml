@@ -11,6 +11,7 @@ function scr_KSW_LoadConfig(file)
 	global.soundVolume = ini_read_real("options","soundVolume",1);
 	global.fullscreen = ini_read_real("options","fullscreen",false);
 	global.windowScaleTarget = ini_read_real("options","windowScale",floor(scr_Screen_ScaleToScreenSize() / 1.2));
+	global.shaders = ini_read_real("options","shaders",true);
 	
 	ini_close();
 }

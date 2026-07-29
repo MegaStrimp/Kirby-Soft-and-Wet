@@ -13,6 +13,7 @@ function scr_KSW_SaveConfig(file)
 	ini_write_real("options","soundVolume",global.soundVolume);
 	ini_write_real("options","fullscreen",global.fullscreen);
 	ini_write_real("options","windowScale",global.windowScale);
+	ini_write_real("options","shaders",global.shaders);
 	
 	ini_close();
 }

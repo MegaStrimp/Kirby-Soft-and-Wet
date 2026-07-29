@@ -979,7 +979,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Volcaris",spr_KSW_Fish_Volcaris,spr_KSW_Fish_Volcaris_Pal,series_Starbound,borange,2,hallowReen,KSW_Phases.night,10000);
 	scr_KSW_AddFish("Imperviray",spr_KSW_Fish_Imperviray,spr_KSW_Fish_Imperviray_Pal,series_Starbound,legion,2,hallowReen,KSW_Phases.day,50000);
 	scr_KSW_AddFish("Seadragon",spr_KSW_Fish_Seadragon,spr_KSW_Fish_Seadragon_Pal,series_Starbound,candy,2,hallowReen,KSW_Phases.night,2500);
-	scr_KSW_AddFish("Magmalodon",spr_KSW_Fish_Magmalodon,spr_KSW_Fish_Magmalodon_Pal,series_Starbound,borange,3,hallowReen,KSW_Phases.none,50000,3,10);
+	scr_KSW_AddFish("Magmalodon",spr_KSW_Fish_Magmalodon,spr_KSW_Fish_Magmalodon_Pal,series_Starbound,borange,3,serranoSprings,KSW_Phases.none,50000,3,10);
 	scr_KSW_AddFish("Alligator",spr_KSW_Fish_Alligator,spr_KSW_Fish_Alligator_Pal,series_Webfishing,borange,2,creamCrevasse,KSW_Phases.none,11400,-28,-10);
 	scr_KSW_AddFish("Axolotl",spr_KSW_Fish_Axolotl,spr_KSW_Fish_Axolotl_Pal,series_Webfishing,candy,2,creamCrevasse,KSW_Phases.none,10520,-23,-7);
 	scr_KSW_AddFish("WF Largemouth Bass",spr_KSW_Fish_WFLargemouthBass,spr_KSW_Fish_WFLargemouthBass_Pal,series_Webfishing,mint,0,creamCrevasse,KSW_Phases.none,500,,30);
