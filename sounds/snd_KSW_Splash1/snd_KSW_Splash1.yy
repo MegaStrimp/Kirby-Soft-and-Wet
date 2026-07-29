@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.2050114,
+  "duration":2.2049887,
   "exportDir":"",
   "name":"snd_KSW_Splash1",
   "parent":{
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Splash1.wav",
+  "soundFile":"snd_KSW_Splash1.ogg",
   "tags":[
     "Sound Effect",
   ],

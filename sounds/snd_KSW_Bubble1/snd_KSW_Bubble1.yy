@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.11276644,
+  "duration":0.112743765,
   "exportDir":"",
   "name":"snd_KSW_Bubble1",
   "parent":{
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Bubble1.wav",
+  "soundFile":"snd_KSW_Bubble1.ogg",
   "tags":[
     "Sound Effect",
   ],

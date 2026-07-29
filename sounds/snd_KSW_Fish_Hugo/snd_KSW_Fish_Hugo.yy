@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
   "duration":1.0797505,
@@ -21,9 +21,9 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Fish_Hugo.wav",
+  "soundFile":"snd_KSW_Fish_Hugo.ogg",
   "tags":[
     "Sound Effect",
   ],
-  "volume":0.6,
+  "volume":1.0,
 }

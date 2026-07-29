@@ -21,8 +21,11 @@ function scr_KSW_UI_Customize_Pages_Music_Draw()
 		if (global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIconRight != -1) draw_sprite(global.KSW_MusicList[ds_list_find_value(selectionList,i)].phaseIconRight,0,16,28 + selectionY);
 		
 		scribble(string(global.KSW_MusicList[ds_list_find_value(selectionList,i)].name)).draw(42,28 + selectionY);
+		
 		scribble_font_set_default("fnt_Advance_Small");
-		scribble(string(global.KSW_MusicList[ds_list_find_value(selectionList,i)].author)).wrap(186).draw(42,38 + selectionY);
+		var authorFinal = string(global.KSW_MusicList[ds_list_find_value(selectionList,i)].author);
+		if (global.KSW_MusicList[ds_list_find_value(selectionList,i)].ID == "custom")authorFinal = "Press [" + sprite_get_name(ds_map_find_value(global.UI_IconBindings, string(input_binding_get("X")))) + "] to customize!";
+		scribble(authorFinal).wrap(186).draw(42,38 + selectionY);
 		scribble_font_set_default("fnt_Advance");
 		
 		#region Selection
@@ -47,6 +50,15 @@ function scr_KSW_UI_Customize_Pages_Music_Draw()
 	if (targetIcon != undefined) exitIcon = "[" + sprite_get_name(targetIcon) + "]";
 	
 	scribble(exitIcon + "BACK").draw(4,global.gameHeight - 16 + hintOffset + (2 * (buttonInputTimerComponent_BTimer != -1)));
+	
+	var shuffleIcon = "";
+	var targetIcon = global.UI_IconBindings[? string(input_binding_get("Y"))];
+	if (targetIcon != undefined) shuffleIcon = "[" + sprite_get_name(targetIcon) + "]";
+	
+	var shuffleText = "SHUFFLE";
+	if (global.KSW_MusicShuffle) shuffleText = "[rainbow]SHUFFLE[/rainbow]";
+	
+	scribble(shuffleIcon + shuffleText).align(fa_center).draw(room_width / 2,global.gameHeight - 16 + hintOffset + (2 * (buttonInputTimerComponent_XTimer != -1)));
 	
 	var selectIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("A"))];

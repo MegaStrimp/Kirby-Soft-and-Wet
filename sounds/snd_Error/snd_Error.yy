@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.529687,
+  "duration":0.5296825,
   "exportDir":"",
   "name":"snd_Error",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_Error.wav",
+  "soundFile":"snd_Error.ogg",
   "volume":1.0,
 }

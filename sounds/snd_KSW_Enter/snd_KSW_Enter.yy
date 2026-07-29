@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.601859,
+  "duration":0.6018594,
   "exportDir":"",
   "name":"snd_KSW_Enter",
   "parent":{
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Enter.wav",
+  "soundFile":"snd_KSW_Enter.ogg",
   "tags":[
     "Sound Effect",
   ],

@@ -82,6 +82,8 @@ global.KSW_EnteredSettings = false;
 global.KSW_EnteredStars = false;
 global.KSW_EnteredAquarium = false;
 
+global.KSW_MusicShuffle = false;
+
 global.KSW_DebugRig = -1;
 
 playtimeAchievementTimerMax = 3600;

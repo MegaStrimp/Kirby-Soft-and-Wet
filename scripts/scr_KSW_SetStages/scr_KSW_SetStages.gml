@@ -99,7 +99,7 @@ function scr_KSW_SetStages()
 	var targetNightBackgrounds = [scr_KSW_SetBackground_AndroidPort_Night_1];
 	
 	var targetNightBgColors = [0,0,0,0,255,209];
-	scr_KSW_AddStage("androidPort","Android Port",spr_KSW_UI_Customize_StageIcon_HallowReen,spr_KSW_Layout_AndroidPort_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_AndroidPort_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_AndroidPort_Night,targetNightBackgrounds,targetNightBgColors,500);
+	scr_KSW_AddStage("androidPort","Android Port",spr_KSW_UI_Customize_StageIcon_AndroidPort,spr_KSW_Layout_AndroidPort_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_AndroidPort_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_AndroidPort_Night,targetNightBackgrounds,targetNightBgColors,500);
 	#endregion
 	#endregion
 }

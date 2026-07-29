@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.10185941,
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_RodThrow.wav",
+  "soundFile":"snd_KSW_RodThrow.ogg",
   "tags":[
     "Sound Effect",
   ],

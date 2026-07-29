@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.417959,
+  "duration":0.37151927,
   "exportDir":"",
   "name":"snd_Screenshot",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_Screenshot.mp3",
+  "soundFile":"snd_Screenshot.ogg",
   "volume":1.0,
 }

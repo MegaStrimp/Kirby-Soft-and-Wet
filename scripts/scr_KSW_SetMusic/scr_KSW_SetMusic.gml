@@ -64,5 +64,7 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("milesShop","Miles Shop","Kirby Air Riders",KSW_Phases.none,mus_KSW_Aquarium,0.505);
 	#endregion
     
-	scr_KSW_AddMusic("custom", "Custom Music", "Press [" + sprite_get_name(ds_map_find_value(global.UI_IconBindings, string(input_binding_get("X")))) + "] to customize!",KSW_Phases.none,-1);
+	#region Custom
+	if ((!global.isMobile) and (!global.isOpera)) scr_KSW_AddMusic("custom","Custom Music","You...?",KSW_Phases.none,-1);
+	#endregion
 }

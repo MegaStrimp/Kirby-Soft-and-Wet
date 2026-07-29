@@ -9,7 +9,7 @@
   "channelFormat":1,
   "compression":1,
   "compressionQuality":4,
-  "conversionMode":1,
+  "conversionMode":0,
   "duration":259.18875,
   "exportDir":"",
   "name":"mus_KSW_PipoPipo",

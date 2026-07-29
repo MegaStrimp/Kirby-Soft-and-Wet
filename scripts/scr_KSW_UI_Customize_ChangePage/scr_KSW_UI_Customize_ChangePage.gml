@@ -7,6 +7,7 @@ function scr_KSW_UI_Customize_ChangePage(targetPageID)
 	currentSetupScript = KSW_PageList[finalID].setupScript;
 	currentMainScript = KSW_PageList[finalID].mainScript;
 	currentSelectAction = KSW_PageList[finalID].selectAction;
+	currentExtraAction = KSW_PageList[finalID].extraAction;
 	currentBackAction = KSW_PageList[finalID].backAction;
 	currentUpAction = KSW_PageList[finalID].upAction;
 	currentDownAction = KSW_PageList[finalID].downAction;
@@ -14,7 +15,6 @@ function scr_KSW_UI_Customize_ChangePage(targetPageID)
 	currentRightAction = KSW_PageList[finalID].rightAction;
 	currentLAction = KSW_PageList[finalID].lAction;
 	currentRAction = KSW_PageList[finalID].rAction;
-	currentXAction = KSW_PageList[finalID].xAction;
 	currentDrawScript = KSW_PageList[finalID].drawScript;
 	
 	if (currentSetupScript != -1) script_execute(currentSetupScript);

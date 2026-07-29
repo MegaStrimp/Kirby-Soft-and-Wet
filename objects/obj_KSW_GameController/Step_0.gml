@@ -907,6 +907,32 @@ if (!localPause)
 	#endregion
 }
 
+#region Music Shuffle
+if ((global.KSW_MusicShuffle) and (!audio_is_playing(global.musicPlaying)))
+{
+	var musicTemp = ds_list_create();
+
+	for (var i = 0; i < global.KSW_MusicCount; i++)
+	{
+	    if (global.KSW_MusicList[i].audio != -1)
+		{
+	        ds_list_add(musicTemp,i);
+	    }
+	}
+	
+	ds_list_shuffle(musicTemp);
+	
+	var targetMusic = global.KSW_MusicList[ds_list_find_value(musicTemp,0)].audio;
+	
+	ds_list_destroy(musicTemp);
+	
+	if (audio_get_name(global.musicPlaying) != audio_get_name(targetMusic))
+	{
+		global.musicPlaying = audio_play_sound(targetMusic,0,!global.KSW_MusicShuffle);
+	}
+}
+#endregion
+
 #region Hint Offset
 hintOffset = lerp(hintOffset,32 * canOffset,.1);
 #endregion

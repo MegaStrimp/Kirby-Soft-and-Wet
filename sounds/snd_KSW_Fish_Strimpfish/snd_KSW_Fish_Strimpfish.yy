@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.5181179,
+  "duration":1.5180953,
   "exportDir":"",
   "name":"snd_KSW_Fish_Strimpfish",
   "parent":{
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Fish_Strimpfish.mp3",
+  "soundFile":"snd_KSW_Fish_Strimpfish.ogg",
   "tags":[
     "Sound Effect",
   ],

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":1,
-  "duration":70.63472,
+  "duration":70.63473,
   "exportDir":"",
   "name":"mus_KSW_Stars",
   "parent":{

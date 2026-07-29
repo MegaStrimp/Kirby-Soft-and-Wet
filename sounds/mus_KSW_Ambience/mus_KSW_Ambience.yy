@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":1,
-  "duration":13.270205,
+  "duration":13.270208,
   "exportDir":"",
   "name":"mus_KSW_Ambience",
   "parent":{

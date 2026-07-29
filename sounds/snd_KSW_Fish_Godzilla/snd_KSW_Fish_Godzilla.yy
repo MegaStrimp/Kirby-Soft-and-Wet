@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.6733787,
+  "duration":0.6893424,
   "exportDir":"",
   "name":"snd_KSW_Fish_Godzilla",
   "parent":{

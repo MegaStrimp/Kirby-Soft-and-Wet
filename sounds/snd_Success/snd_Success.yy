@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.941474,
+  "duration":0.9414739,
   "exportDir":"",
   "name":"snd_Success",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_Success.wav",
+  "soundFile":"snd_Success.ogg",
   "volume":1.0,
 }

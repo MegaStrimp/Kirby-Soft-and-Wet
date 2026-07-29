@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":1,
-  "duration":53.176167,
+  "duration":74.0,
   "exportDir":"",
   "name":"mus_KSW_AquariumAlt",
   "parent":{
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"mus_KSW_AquariumAlt.wav",
+  "soundFile":"mus_KSW_AquariumAlt.ogg",
   "tags":[
     "Music",
   ],

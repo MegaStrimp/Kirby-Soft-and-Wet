@@ -34,7 +34,7 @@ currentLeftAction = -1;
 currentRightAction = -1;
 currentLAction = -1;
 currentRAction = -1;
-currentXAction = -1;
+currentExtraAction = -1;
 currentDrawScript = -1;
 
 exitTimer = -1;

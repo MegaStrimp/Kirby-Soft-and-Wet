@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":1,
-  "duration":72.72823,
+  "duration":72.72825,
   "exportDir":"",
   "name":"mus_KSW_Fishbook",
   "parent":{

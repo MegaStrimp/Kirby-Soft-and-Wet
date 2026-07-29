@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.4534694,
@@ -21,9 +21,9 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Fish_SmallBoo_Temp.mp3",
+  "soundFile":"snd_KSW_Fish_SmallBoo_Temp.ogg",
   "tags":[
     "Sound Effect",
   ],
-  "volume":0.6,
+  "volume":1.0,
 }

@@ -21,9 +21,9 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_BloodMoon.mp3",
+  "soundFile":"mus_KSW_BloodMoon.ogg",
   "tags":[
     "Music",
   ],
-  "volume":0.55,
+  "volume":1.0,
 }
