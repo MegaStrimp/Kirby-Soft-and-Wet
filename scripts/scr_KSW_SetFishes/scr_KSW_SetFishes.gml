@@ -1298,6 +1298,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Scourge Of The Sea",spr_KSW_Fish_ScourgeOfTheSea,spr_KSW_Fish_ScourgeOfTheSea_Pal,series_OctopathTraveler,mage,3,grassBeach,KSW_Phases.night,95000);
 	var manTree = scr_KSW_AddFish("Man Tree",spr_KSW_Fish_ManTree,spr_KSW_Fish_ManTree_Pal,series_Deltarune,candy,3,anyStage,KSW_Phases.none,666667);
 	manTree.displayedName = "[wheel]Well... There's a tree here[/wheel]";
+	scr_KSW_AddFish("Prince Fluff",spr_KSW_Fish_PrinceFluff,spr_KSW_Fish_PrinceFluff_Pal,series_Kirby,mint,3,grassBeach,KSW_Phases.day,1);
 	#endregion
 	#endregion
 }
