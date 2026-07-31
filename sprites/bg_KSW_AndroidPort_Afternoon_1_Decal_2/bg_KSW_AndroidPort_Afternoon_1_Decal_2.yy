@@ -20,14 +20,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1d308ad7-c4f1-4505-bf25-807a326db911","name":"1d308ad7-c4f1-4505-bf25-807a326db911","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"646aa9e4-c9c0-47e0-b2b5-a87c77841f69","name":"646aa9e4-c9c0-47e0-b2b5-a87c77841f69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"789fb50a-7ec2-48e4-b9e4-eaf96aee9776","blendMode":0,"displayName":"default","isLocked":false,"name":"789fb50a-7ec2-48e4-b9e4-eaf96aee9776","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a382cf2c-4a46-4ec8-94bd-38be0479840c","blendMode":0,"displayName":"default","isLocked":false,"name":"a382cf2c-4a46-4ec8-94bd-38be0479840c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_KSW_AndroidPort_Afternoon_1_Decal_2",
   "nineSlice":null,
@@ -79,8 +79,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d308ad7-c4f1-4505-bf25-807a326db911","path":"sprites/bg_KSW_AndroidPort_Afternoon_1_Decal_2/bg_KSW_AndroidPort_Afternoon_1_Decal_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5cd1a7ab-4522-47d4-9a46-75b98fbdd9ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"646aa9e4-c9c0-47e0-b2b5-a87c77841f69","path":"sprites/bg_KSW_AndroidPort_Afternoon_1_Decal_2/bg_KSW_AndroidPort_Afternoon_1_Decal_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"295b7859-1c30-4ac0-bfef-c7cd5b2e1f71","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

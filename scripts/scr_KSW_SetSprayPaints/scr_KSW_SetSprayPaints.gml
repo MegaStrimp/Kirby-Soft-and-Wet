@@ -117,6 +117,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Storo",playerID,"Storo",spr_KSW_Player_Elfilin_SprayPaint_Storo,mage,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Ribbon",playerID,"Ribbon",spr_KSW_Player_Elfilin_SprayPaint_Ribbon,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "LightGrape",playerID,"Light Grape",spr_KSW_Player_Elfilin_SprayPaint_LightGrape,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Crisp",playerID,"Crisp",spr_KSW_Player_Elfilin_SprayPaint_Crisp,borange,75);
 	#endregion
 	
 	#region Marx
@@ -138,6 +139,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "MachineOwner",playerID,"Machine Owner",spr_KSW_Player_Marx_SprayPaint_MachineOwner,legion,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "ForgottenSoul",playerID,"Forgotten Soul",spr_KSW_Player_Marx_SprayPaint_ForgottenSoul,mint,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "ForgottenSoulAlt",playerID,"Forgotten Soul Alt",spr_KSW_Player_Marx_SprayPaint_ForgottenSoulAlt,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TrueSoul",playerID,"True Soul",spr_KSW_Player_Marx_SprayPaint_TrueSoul,mage,75);
 	#endregion
 	
 	#region Waddle Dee
@@ -152,6 +154,22 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Pink",playerID,"Pink",spr_KSW_Player_WaddleDee_SprayPaint_Pink,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Halcandle",playerID,"Halcandle",spr_KSW_Player_WaddleDee_SprayPaint_Halcandle,legion,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Sectra",playerID,"Sectra",spr_KSW_Player_WaddleDee_SprayPaint_Sectra,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Mango",playerID,"Mango",spr_KSW_Player_WaddleDee_SprayPaint_Mango,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Revenge",playerID,"Revenge",spr_KSW_Player_WaddleDee_SprayPaint_Revenge,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Yellow",playerID,"Yellow",spr_KSW_Player_WaddleDee_SprayPaint_Yellow,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Green",playerID,"Green",spr_KSW_Player_WaddleDee_SprayPaint_Green,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Mono",playerID,"Mono",spr_KSW_Player_WaddleDee_SprayPaint_Mono,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "UltraPink",playerID,"Ultra Pink",spr_KSW_Player_WaddleDee_SprayPaint_UltraPink,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "HelperGreen",playerID,"Helper Green",spr_KSW_Player_WaddleDee_SprayPaint_HelperGreen,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "GhostlyBlue",playerID,"Ghostly Blue",spr_KSW_Player_WaddleDee_SprayPaint_GhostlyBlue,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Beanbon",playerID,"Beanbon",spr_KSW_Player_WaddleDee_SprayPaint_Beanbon,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Primal",playerID,"Primal",spr_KSW_Player_WaddleDee_SprayPaint_Primal,borange,75);
+	#endregion
+	
+	#region Susie
+	var playerID = "susie";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Business",playerID,"Business",spr_KSW_Player_Susie_SprayPaint_Business,candy,0,true);
 	#endregion
 	#endregion
 }

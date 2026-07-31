@@ -6,7 +6,7 @@
   "name":"scr_KSW_SetBackground_AndroidPort_Night_1",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Kirby ~ Soft & Wet/Backgrounds/Android Port/Afternoon/Scripts.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Backgrounds/Android Port/Night/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
