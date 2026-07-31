@@ -71,7 +71,14 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-scribble("TOGGLE FULLSCREEN").draw(8,startY + (space * i));
+if ((!global.isMobile) and (!global.isOpera))
+{
+	scribble("TOGGLE FULLSCREEN").draw(8,startY + (space * i));
+}
+else
+{
+	scribble("TOGGLE FULLSCREEN (NOT AVAILABLE)").draw(8,startY + (space * i));
+}
 #endregion
 
 i += 1;
@@ -83,7 +90,14 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-scribble("WINDOW SIZE\t" + string(global.windowScaleTarget)).draw(8,startY + (space * i));
+if ((!global.isMobile) and (!global.isOpera))
+{
+	scribble("WINDOW SIZE").draw(8,startY + (space * i));
+}
+else
+{
+	scribble("WINDOW SIZE (NOT AVAILABLE)").draw(8,startY + (space * i));
+}
 #endregion
 
 i += 1;

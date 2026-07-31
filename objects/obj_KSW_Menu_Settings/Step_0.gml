@@ -158,16 +158,9 @@ if (canSelect)
 		#region Shaders
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
 		{
-			if ((!global.isMobile) and (!global.isOpera))
-			{
-				scr_PlaySfx(snd_KSW_ButtonChange);
-				
-				global.shaders = !global.shaders;
-			}
-			else
-			{
-				scr_PlaySfx(snd_KSW_ButtonNo);
-			}
+			scr_PlaySfx(snd_KSW_ButtonChange);
+			
+			global.shaders = !global.shaders;
 		}
 		break;
 		#endregion

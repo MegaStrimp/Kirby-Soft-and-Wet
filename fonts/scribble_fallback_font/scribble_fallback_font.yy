@@ -15,6 +15,9 @@
     "Desktop":{
       "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
     },
+    "Mobile":{
+      "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
+    },
   },
   "first":0,
   "fontName":"Droid Sans Mono",

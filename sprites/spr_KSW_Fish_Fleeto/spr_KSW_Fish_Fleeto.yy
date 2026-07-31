@@ -8,6 +8,11 @@
   "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "Mobile":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
