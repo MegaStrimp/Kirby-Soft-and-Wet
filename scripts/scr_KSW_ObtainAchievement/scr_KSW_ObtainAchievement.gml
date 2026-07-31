@@ -4,10 +4,12 @@ function scr_KSW_ObtainAchievement(targetAchievementID)
 {
 	if (!global.KSW_AchievementList[targetAchievementID].isObtained)
 	{
+		scr_Debug_WriteLog("Obtained Achievement - " + global.KSW_AchievementList[targetAchievementID].name);
+		
 		global.KSW_ObtainedAchievementCount += 1;
 		global.KSW_AchievementList[targetAchievementID].isObtained = true;
 		
-		if (global.KSW_AchievementList[targetAchievementID].bobberReward != -1) scr_KSW_ObtainBobber(global.KSW_BobberList[global.KSW_AchievementList[targetAchievementID].bobberReward]);
+		if (global.KSW_AchievementList[targetAchievementID].bobberReward != -1) scr_KSW_ObtainBobber(global.KSW_AchievementList[targetAchievementID].bobberReward);
 		
 		ds_list_add(global.notifQueue,targetAchievementID);
 		
