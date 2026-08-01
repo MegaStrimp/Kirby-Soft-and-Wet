@@ -83,6 +83,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("medabots","Medabots");
 	scr_KSW_AddSeries("octopathtraveler","Octopath Traveler");
 	scr_KSW_AddSeries("rogueHeroes","Rogue Heroes: Ruins of Tasos");
+	scr_KSW_AddSeries("flappyBird","Flappy Bird");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }

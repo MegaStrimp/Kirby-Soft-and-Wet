@@ -83,6 +83,7 @@ function scr_KSW_SetFishes()
 	var series_Medabots = global.KSW_SeriesIDs[? "medabots"];
 	var series_OctopathTraveler = global.KSW_SeriesIDs[? "octopathtraveler"];
 	var series_RogueHeroes = global.KSW_SeriesIDs[? "rogueHeroes"];
+	var series_FlappyBird = global.KSW_SeriesIDs[? "flappyBird"];
 	#endregion
 	
 	#region Stages
@@ -1303,6 +1304,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Entelognathus",spr_KSW_Fish_Entelognathus,spr_KSW_Fish_Entelognathus_Pal,series_RogueHeroes,legion,3,creamCrevasse,KSW_Phases.afternoon,12500);
 	scr_KSW_AddFish("Teraspis",spr_KSW_Fish_Teraspis,spr_KSW_Fish_Teraspis_Pal,series_RogueHeroes,borange,3,serranoSprings,KSW_Phases.night,7500);
 	scr_KSW_AddFish("Dunkleosteus",spr_KSW_Fish_Dunkleosteus,spr_KSW_Fish_Dunkleosteus_Pal,series_RogueHeroes,mint,3,hallowReen,KSW_Phases.day,88000);
+	scr_KSW_AddFish("Faby",spr_KSW_Fish_FlappyBird,spr_KSW_Fish_FlappyBird_Pal,series_FlappyBird,mage,0,androidPort,KSW_Phases.day,2013);
 	#endregion
 	#endregion
 }
