@@ -12,9 +12,6 @@
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
     },
-    "Desktop":{
-      "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
-    },
   },
   "DynamicTexturePage":false,
   "edgeFiltering":false,

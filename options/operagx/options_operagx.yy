@@ -12,10 +12,6 @@
       "option_operagx_game_name":"Coconut Engine",
       "option_operagx_mod_game_name":"Coconut Engine",
     },
-    "Opera":{
-      "option_operagx_game_name":"Coconut Engine",
-      "option_operagx_mod_game_name":"Coconut Engine",
-    },
   },
   "name":"operagx",
   "option_operagx_display_cursor":false,
