@@ -1309,6 +1309,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Maxwell",spr_KSW_Fish_Maxwell,spr_KSW_Fish_Maxwell_Pal,series_Scribblenauts,glimmer,0,androidPort,,2012);
 	scr_KSW_AddFish("Ninja Shark",spr_KSW_Fish_NinjaShark,spr_KSW_Fish_NinjaShark_Pal,series_Scribblenauts,maze,1,androidPort,KSW_Phases.night,2009);
 	scr_KSW_AddFish("Cecaelia",spr_KSW_Fish_Cecaelia,spr_KSW_Fish_Cecaelia_Pal,series_Scribblenauts,candy,2,androidPort,KSW_Phases.day,1989);
+	scr_KSW_AddFish("Kraken",spr_KSW_Fish_Kraken,spr_KSW_Fish_Kraken_Pal,series_Scribblenauts,flux,3,androidPort,KSW_Phases.afternoon,155500);
 	#endregion
 	#endregion
 }
