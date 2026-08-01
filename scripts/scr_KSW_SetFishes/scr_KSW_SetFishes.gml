@@ -83,6 +83,8 @@ function scr_KSW_SetFishes()
 	var series_Medabots = global.KSW_SeriesIDs[? "medabots"];
 	var series_OctopathTraveler = global.KSW_SeriesIDs[? "octopathtraveler"];
 	var series_RogueHeroes = global.KSW_SeriesIDs[? "rogueHeroes"];
+	var series_FlappyBird = global.KSW_SeriesIDs[? "flappyBird"];
+	var series_Scribblenauts = global.KSW_SeriesIDs[? "scribblenauts"];
 	#endregion
 	
 	#region Stages
@@ -1303,6 +1305,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Entelognathus",spr_KSW_Fish_Entelognathus,spr_KSW_Fish_Entelognathus_Pal,series_RogueHeroes,legion,3,creamCrevasse,KSW_Phases.afternoon,12500);
 	scr_KSW_AddFish("Teraspis",spr_KSW_Fish_Teraspis,spr_KSW_Fish_Teraspis_Pal,series_RogueHeroes,borange,3,serranoSprings,KSW_Phases.night,7500);
 	scr_KSW_AddFish("Dunkleosteus",spr_KSW_Fish_Dunkleosteus,spr_KSW_Fish_Dunkleosteus_Pal,series_RogueHeroes,mint,3,hallowReen,KSW_Phases.day,88000);
+	scr_KSW_AddFish("Faby",spr_KSW_Fish_FlappyBird,spr_KSW_Fish_FlappyBird_Pal,series_FlappyBird,mage,0,androidPort,KSW_Phases.day,2013);
+	scr_KSW_AddFish("Maxwell",spr_KSW_Fish_Maxwell,spr_KSW_Fish_Maxwell_Pal,series_Scribblenauts,glimmer,0,androidPort,,2012);
+	scr_KSW_AddFish("Ninja Shark",spr_KSW_Fish_NinjaShark,spr_KSW_Fish_NinjaShark_Pal,series_Scribblenauts,maze,1,androidPort,KSW_Phases.night,2009);
+	scr_KSW_AddFish("Cecaelia",spr_KSW_Fish_Cecaelia,spr_KSW_Fish_Cecaelia_Pal,series_Scribblenauts,candy,2,androidPort,KSW_Phases.day,1989);
+	scr_KSW_AddFish("Kraken",spr_KSW_Fish_Kraken,spr_KSW_Fish_Kraken_Pal,series_Scribblenauts,flux,3,androidPort,KSW_Phases.afternoon,155500);
 	scr_KSW_AddFish("KSW_UPDATER",spr_KSW_Fish_KSWUPDATER,spr_KSW_Fish_KSWUPDATER_Pal,series_Misc,legion,2,androidPort,KSW_Phases.none,6600);
 	#endregion
 	#endregion
