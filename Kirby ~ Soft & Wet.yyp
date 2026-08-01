@@ -974,6 +974,7 @@
     {"$GMFolder":"","%Name":"Green Blister Head","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Green Blister Head.yy","name":"Green Blister Head","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Greenhorn Pico","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Greenhorn Pico.yy","name":"Greenhorn Pico","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Kraken","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Kraken.yy","name":"Kraken","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"KSW_UPDATER","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/KSW_UPDATER.yy","name":"KSW_UPDATER","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grouper","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Grouper.yy","name":"Grouper","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Guhnash","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Guhnash.yy","name":"Guhnash","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gulper Mage","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Gulper Mage.yy","name":"Gulper Mage","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -4193,6 +4194,8 @@
     {"id":{"name":"spr_KSW_Fish_Krona","path":"sprites/spr_KSW_Fish_Krona/spr_KSW_Fish_Krona.yy",},},
     {"id":{"name":"spr_KSW_Fish_Krusha_Pal","path":"sprites/spr_KSW_Fish_Krusha_Pal/spr_KSW_Fish_Krusha_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_Krusha","path":"sprites/spr_KSW_Fish_Krusha/spr_KSW_Fish_Krusha.yy",},},
+    {"id":{"name":"spr_KSW_Fish_KSWUPDATER_Pal","path":"sprites/spr_KSW_Fish_KSWUPDATER_Pal/spr_KSW_Fish_KSWUPDATER_Pal.yy",},},
+    {"id":{"name":"spr_KSW_Fish_KSWUPDATER","path":"sprites/spr_KSW_Fish_KSWUPDATER/spr_KSW_Fish_KSWUPDATER.yy",},},
     {"id":{"name":"spr_KSW_Fish_Kudgel_Pal","path":"sprites/spr_KSW_Fish_Kudgel_Pal/spr_KSW_Fish_Kudgel_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_Kudgel","path":"sprites/spr_KSW_Fish_Kudgel/spr_KSW_Fish_Kudgel.yy",},},
     {"id":{"name":"spr_KSW_Fish_Kyogre_Pal","path":"sprites/spr_KSW_Fish_Kyogre_Pal/spr_KSW_Fish_Kyogre_Pal.yy",},},
@@ -6436,16 +6439,6 @@
           "groupParent":"null",
           "loadType":"default",
         },
-        "Desktop":{
-          "groupParent":"null",
-          "compressFormat":"bz2",
-          "loadType":"default",
-        },
-        "Mobile":{
-          "groupParent":"null",
-          "compressFormat":"bz2",
-          "loadType":"default",
-        },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"StarDreamFramework","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{
         "DesktopDebug":{
@@ -6453,21 +6446,11 @@
           "groupParent":"null",
           "loadType":"default",
         },
-        "Desktop":{
-          "groupParent":"null",
-          "compressFormat":"bz2",
-          "loadType":"default",
-        },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"StarDreamFramework","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"SoftAndWet","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{
         "DesktopDebug":{
           "compressFormat":"bz2",
           "groupParent":"null",
-          "loadType":"default",
-        },
-        "Desktop":{
-          "groupParent":"null",
-          "compressFormat":"bz2",
           "loadType":"default",
         },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"SoftAndWet","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},

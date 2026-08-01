@@ -9,9 +9,6 @@
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
-    "Mobile":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
     },
@@ -89,8 +86,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

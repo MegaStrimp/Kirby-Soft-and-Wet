@@ -2,8 +2,8 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Susie_LeftAnim_Rod",
   "bboxMode":0,
-  "bbox_bottom":47,
-  "bbox_left":0,
+  "bbox_bottom":30,
+  "bbox_left":17,
   "bbox_right":32,
   "bbox_top":0,
   "collisionKind":1,
@@ -12,17 +12,14 @@
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
     },
-    "Mobile":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
   },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f8f56f64-639c-4adc-81a4-2d5d4dbb2e45","name":"f8f56f64-639c-4adc-81a4-2d5d4dbb2e45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"ad73b147-e04b-4595-96f4-00858f551bf6","name":"ad73b147-e04b-4595-96f4-00858f551bf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8dd18864-fa7b-4d4e-8048-079fff3a5a8b","name":"8dd18864-fa7b-4d4e-8048-079fff3a5a8b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f64f7f04-cd70-4f9e-9699-1861815f1859","name":"f64f7f04-cd70-4f9e-9699-1861815f1859","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3157d68a-e8a6-4869-9650-1d643316587b","name":"3157d68a-e8a6-4869-9650-1d643316587b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a94b568e-edeb-4d52-b580-3be649c2ef23","name":"a94b568e-edeb-4d52-b580-3be649c2ef23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -79,14 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8f56f64-639c-4adc-81a4-2d5d4dbb2e45","path":"sprites/spr_KSW_Player_Susie_LeftAnim_Rod/spr_KSW_Player_Susie_LeftAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a9738e2b-5c73-4105-9cac-317ab11b7a7f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f64f7f04-cd70-4f9e-9699-1861815f1859","path":"sprites/spr_KSW_Player_Susie_LeftAnim_Rod/spr_KSW_Player_Susie_LeftAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4408c118-5a35-4a7e-a0bf-31a21b8a9646","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad73b147-e04b-4595-96f4-00858f551bf6","path":"sprites/spr_KSW_Player_Susie_LeftAnim_Rod/spr_KSW_Player_Susie_LeftAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cc3f1a33-c7ce-4ba2-ad7f-38acb859e84d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3157d68a-e8a6-4869-9650-1d643316587b","path":"sprites/spr_KSW_Player_Susie_LeftAnim_Rod/spr_KSW_Player_Susie_LeftAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"faedb103-f2df-4a74-9661-67f0bb8e1285","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8dd18864-fa7b-4d4e-8048-079fff3a5a8b","path":"sprites/spr_KSW_Player_Susie_LeftAnim_Rod/spr_KSW_Player_Susie_LeftAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3ca984dd-e273-4a15-a2f5-c97ecd1baf64","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a94b568e-edeb-4d52-b580-3be649c2ef23","path":"sprites/spr_KSW_Player_Susie_LeftAnim_Rod/spr_KSW_Player_Susie_LeftAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"af1cb36d-0b45-4933-9f13-b83974e2da4c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -97,8 +94,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

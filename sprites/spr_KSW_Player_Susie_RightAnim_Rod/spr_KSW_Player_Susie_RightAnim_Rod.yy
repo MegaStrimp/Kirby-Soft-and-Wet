@@ -2,27 +2,24 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Susie_RightAnim_Rod",
   "bboxMode":0,
-  "bbox_bottom":37,
-  "bbox_left":0,
+  "bbox_bottom":30,
+  "bbox_left":23,
   "bbox_right":52,
-  "bbox_top":0,
+  "bbox_top":6,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
     },
-    "Mobile":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
   },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f8f56f64-639c-4adc-81a4-2d5d4dbb2e45","name":"f8f56f64-639c-4adc-81a4-2d5d4dbb2e45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"04dfa972-c37f-4532-8515-a09eeb48b5eb","name":"04dfa972-c37f-4532-8515-a09eeb48b5eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a19fd5e2-6244-4388-8401-680e8eac2239","name":"a19fd5e2-6244-4388-8401-680e8eac2239","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"66cec7bb-21c0-417b-91de-40a510b4d41f","name":"66cec7bb-21c0-417b-91de-40a510b4d41f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"573f28da-8d87-4b92-b381-75cb109e90a2","name":"573f28da-8d87-4b92-b381-75cb109e90a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ca83bd67-aaa3-4411-a023-6b84450fe8e3","name":"ca83bd67-aaa3-4411-a023-6b84450fe8e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -79,14 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8f56f64-639c-4adc-81a4-2d5d4dbb2e45","path":"sprites/spr_KSW_Player_Susie_RightAnim_Rod/spr_KSW_Player_Susie_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a9738e2b-5c73-4105-9cac-317ab11b7a7f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"66cec7bb-21c0-417b-91de-40a510b4d41f","path":"sprites/spr_KSW_Player_Susie_RightAnim_Rod/spr_KSW_Player_Susie_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8631b376-b004-4dcf-a771-e4a88caf7f4d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04dfa972-c37f-4532-8515-a09eeb48b5eb","path":"sprites/spr_KSW_Player_Susie_RightAnim_Rod/spr_KSW_Player_Susie_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b75f455b-a12f-4875-b053-76af42e06521","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"573f28da-8d87-4b92-b381-75cb109e90a2","path":"sprites/spr_KSW_Player_Susie_RightAnim_Rod/spr_KSW_Player_Susie_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1ae69d9b-b260-46f6-807d-ea8a1c60f36b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a19fd5e2-6244-4388-8401-680e8eac2239","path":"sprites/spr_KSW_Player_Susie_RightAnim_Rod/spr_KSW_Player_Susie_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3df33d3d-6b98-40a4-a480-679d6fda185a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ca83bd67-aaa3-4411-a023-6b84450fe8e3","path":"sprites/spr_KSW_Player_Susie_RightAnim_Rod/spr_KSW_Player_Susie_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"92a24c26-1012-42f7-b30c-07ad1fdbae6d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -97,8 +94,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

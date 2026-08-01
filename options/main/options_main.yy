@@ -2,9 +2,6 @@
   "$GMMainOptions":"v5",
   "%Name":"Main",
   "ConfigValues":{
-    "Desktop":{
-      "option_game_speed":"60",
-    },
     "DesktopDebug":{
       "option_game_speed":"60",
     },

@@ -9,9 +9,6 @@
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
-    "Desktop":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
     },

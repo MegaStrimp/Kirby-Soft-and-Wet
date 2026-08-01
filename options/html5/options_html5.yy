@@ -6,10 +6,6 @@
       "option_html5_splash_png":"splash.png",
       "option_html5_icon":"fav.ico",
     },
-    "Desktop":{
-      "option_html5_splash_png":"splash.png",
-      "option_html5_icon":"fav.ico",
-    },
   },
   "name":"HTML5",
   "option_html5_allow_fullscreen":true,

@@ -12,12 +12,6 @@
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
     },
-    "Desktop":{
-      "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
-    },
-    "Mobile":{
-      "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
-    },
   },
   "first":0,
   "fontName":"Droid Sans Mono",
@@ -146,8 +140,8 @@
   "size":11.0,
   "styleName":"Regular",
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"StarDreamFramework",
+    "path":"texturegroups/StarDreamFramework",
   },
   "TTFName":"",
   "usesSDF":false,
