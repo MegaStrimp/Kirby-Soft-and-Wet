@@ -79,12 +79,13 @@ function scr_KSW_SetFishes()
 	var series_Ultraman = global.KSW_SeriesIDs[? "ultraman"];
 	var series_FossilFighters = global.KSW_SeriesIDs[? "fossilFighters"];
 	var series_NewSeries = global.KSW_SeriesIDs[? "newSeries"];
-	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	var series_Medabots = global.KSW_SeriesIDs[? "medabots"];
 	var series_OctopathTraveler = global.KSW_SeriesIDs[? "octopathtraveler"];
 	var series_RogueHeroes = global.KSW_SeriesIDs[? "rogueHeroes"];
 	var series_FlappyBird = global.KSW_SeriesIDs[? "flappyBird"];
 	var series_Scribblenauts = global.KSW_SeriesIDs[? "scribblenauts"];
+	var series_NuclearThrone = global.KSW_SeriesIDs[? "nuclearThrone"];
+	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
 	#region Stages

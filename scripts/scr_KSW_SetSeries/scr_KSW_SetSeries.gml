@@ -78,13 +78,12 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("wiiPlay","Wii Play");
 	scr_KSW_AddSeries("ultraman","Ultraman");
 	scr_KSW_AddSeries("fossilFighters","Fossil Fighters");
-	
-	scr_KSW_AddSeries("newSeries","New Series");
 	scr_KSW_AddSeries("medabots","Medabots");
 	scr_KSW_AddSeries("octopathtraveler","Octopath Traveler");
 	scr_KSW_AddSeries("rogueHeroes","Rogue Heroes: Ruins of Tasos");
 	scr_KSW_AddSeries("flappyBird","Flappy Bird");
 	scr_KSW_AddSeries("scribblenauts","Scribblenauts");
+	scr_KSW_AddSeries("nuclearThrone","Nuclear Throne");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
