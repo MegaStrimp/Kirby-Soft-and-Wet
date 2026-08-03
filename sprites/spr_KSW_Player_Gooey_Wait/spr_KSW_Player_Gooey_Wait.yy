@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Gooey_Wait",
   "bboxMode":0,
-  "bbox_bottom":14,
-  "bbox_left":0,
-  "bbox_right":21,
-  "bbox_top":0,
+  "bbox_bottom":25,
+  "bbox_left":1,
+  "bbox_right":22,
+  "bbox_top":11,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,18 +17,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d4c52fdf-574d-42d7-942f-8228df4379e4","name":"d4c52fdf-574d-42d7-942f-8228df4379e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02718ec2-7d7c-44b0-9f78-e08b7737f06c","name":"02718ec2-7d7c-44b0-9f78-e08b7737f06c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":15,
+  "height":27,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9415d605-1d61-4a2b-8dda-ecf89ad72db9","blendMode":0,"displayName":"default","isLocked":false,"name":"9415d605-1d61-4a2b-8dda-ecf89ad72db9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"56ea4823-9a51-4198-b024-f518b978b301","blendMode":0,"displayName":"default","isLocked":false,"name":"56ea4823-9a51-4198-b024-f518b978b301","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Gooey_Wait",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Kirby ~ Soft & Wet/Player/Characters/Gooey/Sprites.yy",
@@ -76,14 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4c52fdf-574d-42d7-942f-8228df4379e4","path":"sprites/spr_KSW_Player_Gooey_Wait/spr_KSW_Player_Gooey_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a234958e-cf30-4593-b131-4824df19b148","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02718ec2-7d7c-44b0-9f78-e08b7737f06c","path":"sprites/spr_KSW_Player_Gooey_Wait/spr_KSW_Player_Gooey_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7e2ebf4c-5bae-4df3-ba27-cb458413af79","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":11,
-    "yorigin":7,
+    "yorigin":18,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -93,5 +93,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":22,
+  "width":39,
 }

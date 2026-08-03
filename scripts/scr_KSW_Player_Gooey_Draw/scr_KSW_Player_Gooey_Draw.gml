@@ -4,6 +4,8 @@ function scr_KSW_Player_Gooey_Draw()
 {
 	#region Variables
 	var bobberShakeFinal = bobberShake * irandom_range(-1,1);
+	
+	var currentSprayPaint = global.KSW_PlayerEquippedSprayPaintID[playerNum][global.playerCharacter[playerNum]];
 	#endregion
 	
 	#region Bait
@@ -40,7 +42,7 @@ function scr_KSW_Player_Gooey_Draw()
 	#endregion
 	
 	#region Bobber
-	scr_DrawCurve_Thick(rodX + shakeXFinal,rodY,bobberX + bobberShakeFinal,bobberY,0,8,#D62F27,2);
+	scr_DrawCurve_Thick(rodX + shakeXFinal,rodY,bobberX + bobberShakeFinal,bobberY,0,8,global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[currentSprayPaint].gooeyTongueColor,2);
 	draw_sprite(sprBobber,sprBobberImageIndex,bobberX + bobberShakeFinal,bobberY);
 	#endregion
 	
@@ -192,8 +194,6 @@ function scr_KSW_Player_Gooey_Draw()
 	#region Draw Self
 	if (sprite_index != -1)
 	{
-		var currentSprayPaint = global.KSW_PlayerEquippedSprayPaintID[playerNum][global.playerCharacter[playerNum]];
-		
 		if ((global.shaders) and (currentSprayPaint != 0)) pal_swap_set(global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[currentSprayPaint].sprite,1,false);
 		draw_sprite_ext(sprite_index,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 		if (targetHatShadowSprite != undefined) draw_sprite_ext(targetHatShadowSprite,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);

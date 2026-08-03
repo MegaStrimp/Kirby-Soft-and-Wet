@@ -72,8 +72,8 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 		break;
 		
 		case sprWait:
-		rodX = x + 29;
-		rodY = y - 13;
+		rodX = x + 11;
+		rodY = y - 1;
 		break;
 		
 		case sprFound:

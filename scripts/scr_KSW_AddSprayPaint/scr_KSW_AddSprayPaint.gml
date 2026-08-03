@@ -16,11 +16,15 @@ function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprit
 		boxPalette: targetBoxPalette,
         price: targetPrice,
 		isDefault: targetIsDefault,
-		isUnlocked: false
+		isUnlocked: false,
+		
+		gooeyTongueColor: #D62F27
     };
 	
 	if (targetIsDefault)
 	{
 		global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].defaultSprayPaint = targetID;
 	}
+	
+	return global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaints[tempSprayPaintCount];
 }

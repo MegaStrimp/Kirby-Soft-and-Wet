@@ -93,7 +93,30 @@ function scr_KSW_SetSprayPaints()
 	#region Gooey
 	var playerID = "gooey";
 	
-	scr_KSW_AddSprayPaint(playerID + "_" + "GooBloo",playerID,"Goo Bloo",spr_KSW_Player_Gooey_SprayPaint_GooBloo,mage,0,true);
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "GooBloo",playerID,"Goo Bloo",spr_KSW_Player_Gooey_SprayPaint_GooBloo,mage,0,true);
+	spray.gooeyTongueColor = #D62F27;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "ButterKnife",playerID,"Butter-Knife",spr_KSW_Player_Gooey_SprayPaint_ButterKnife,glimmer,75);
+	spray.gooeyTongueColor = #D92463;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Carbon",playerID,"Carbon",spr_KSW_Player_Gooey_SprayPaint_Carbon,borange,75);
+	spray.gooeyTongueColor = #F85010;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "DreamyBlueberry",playerID,"Dreamy Blueberry",spr_KSW_Player_Gooey_SprayPaint_DreamyBlueberry,mage,75);
+	spray.gooeyTongueColor = #F85010;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "FriendlyPink",playerID,"Friendly Pink",spr_KSW_Player_Gooey_SprayPaint_FriendlyPink,candy,75);
+	spray.gooeyTongueColor = #D10E55;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Mirror",playerID,"Mirror",spr_KSW_Player_Gooey_SprayPaint_Mirror,mint,75);
+	spray.gooeyTongueColor = #18A090;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Mystic",playerID,"Mystic",spr_KSW_Player_Gooey_SprayPaint_Mystic,flux,75);
+	spray.gooeyTongueColor = #EFC475;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Ninja",playerID,"Ninja",spr_KSW_Player_Gooey_SprayPaint_Ninja,candy,75);
+	spray.gooeyTongueColor = #FFBF35;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Plasma",playerID,"Plasma",spr_KSW_Player_Gooey_SprayPaint_Plasma,mint,75);
+	spray.gooeyTongueColor = #FFBF35;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "PlumpTomato",playerID,"Plump Tomato",spr_KSW_Player_Gooey_SprayPaint_PlumpTomato,candy,75);
+	spray.gooeyTongueColor = #2FAF97;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Yellow",playerID,"Yellow",spr_KSW_Player_Gooey_SprayPaint_Yellow,glimmer,75);
+	spray.gooeyTongueColor = #0ED30E;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "YolkTemple",playerID,"Yolk Temple",spr_KSW_Player_Gooey_SprayPaint_YolkTemple,mint,75);
+	spray.gooeyTongueColor = #6BA580;
 	#endregion
 	
 	#region Elfilin
@@ -170,6 +193,8 @@ function scr_KSW_SetSprayPaints()
 	var playerID = "susie";
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "Business",playerID,"Business",spr_KSW_Player_Susie_SprayPaint_Business,candy,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Parallel",playerID,"Parallel",spr_KSW_Player_Susie_SprayPaint_Parallel,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "MotorOil",playerID,"Motor Oil",spr_KSW_Player_Susie_SprayPaint_MotorOil,candy,75);
 	#endregion
 	#endregion
 }
