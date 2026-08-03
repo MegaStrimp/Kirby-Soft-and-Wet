@@ -29,9 +29,9 @@ function scr_KSW_SetBackground_AndroidPort_Night_1()
 	
 	var arrayIndex = 0;
 	arrayIndex += 1;
-	if (!global.pauseFinal) backgroundX[arrayIndex] = (backgroundX[arrayIndex] - .2) % bgWidth;
+	backgroundX[arrayIndex] = (backgroundX[arrayIndex] - .2) % bgWidth;
 	layer_x(backgroundLayer[arrayIndex],backgroundX[arrayIndex]);
 	arrayIndex += 1;
-	if (!global.pauseFinal) backgroundX[arrayIndex] = (backgroundX[arrayIndex] - .3) % bgWidth;
+	backgroundX[arrayIndex] = (backgroundX[arrayIndex] - .3) % bgWidth;
 	layer_x(backgroundLayer[arrayIndex],backgroundX[arrayIndex]);
 }

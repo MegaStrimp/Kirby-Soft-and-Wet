@@ -28,7 +28,7 @@
   ],
   "name":"spr_KSW_UI_Customize_Text_Characters",
   "nineSlice":null,
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"Text",
     "path":"folders/Kirby ~ Soft & Wet/UI/Customize/Sprites/Text.yy",
@@ -82,7 +82,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":51,
+    "xorigin":41,
     "yorigin":0,
   },
   "swatchColours":null,
