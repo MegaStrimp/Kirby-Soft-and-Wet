@@ -100,7 +100,7 @@ function scr_KSW_SetSprayPaints()
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Carbon",playerID,"Carbon",spr_KSW_Player_Gooey_SprayPaint_Carbon,borange,75);
 	spray.gooeyTongueColor = #F85010;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "DreamyBlueberry",playerID,"Dreamy Blueberry",spr_KSW_Player_Gooey_SprayPaint_DreamyBlueberry,mage,75);
-	spray.gooeyTongueColor = #F85010;
+	spray.gooeyTongueColor = #2D80ED;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "FriendlyPink",playerID,"Friendly Pink",spr_KSW_Player_Gooey_SprayPaint_FriendlyPink,candy,75);
 	spray.gooeyTongueColor = #D10E55;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Mirror",playerID,"Mirror",spr_KSW_Player_Gooey_SprayPaint_Mirror,mint,75);
@@ -108,7 +108,7 @@ function scr_KSW_SetSprayPaints()
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Mystic",playerID,"Mystic",spr_KSW_Player_Gooey_SprayPaint_Mystic,flux,75);
 	spray.gooeyTongueColor = #EFC475;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Ninja",playerID,"Ninja",spr_KSW_Player_Gooey_SprayPaint_Ninja,candy,75);
-	spray.gooeyTongueColor = #FFBF35;
+	spray.gooeyTongueColor = #FF96C8;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Plasma",playerID,"Plasma",spr_KSW_Player_Gooey_SprayPaint_Plasma,mint,75);
 	spray.gooeyTongueColor = #FFBF35;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "PlumpTomato",playerID,"Plump Tomato",spr_KSW_Player_Gooey_SprayPaint_PlumpTomato,candy,75);

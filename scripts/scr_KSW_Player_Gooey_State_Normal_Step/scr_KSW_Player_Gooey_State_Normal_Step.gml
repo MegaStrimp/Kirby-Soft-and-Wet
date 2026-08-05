@@ -35,39 +35,19 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 			bobberYTarget = -100;
 			baitTexture = -1;
 			
-			if (image_index >= 4)
+			if (image_index >= 5)
 			{
 				scr_KSW_ThrowBobber();
-				rodX = x + 15;
-				rodY = y - 24;
+				rodX = x + 13;
+				rodY = y + 3;
 				
 				threwBobber = true;
 			}
 		}
 		else
 		{
-			switch (floor(image_index))
-			{
-				case 4:
-				rodX = x + 15;
-				rodY = y - 24;
-				break;
-				
-				case 5:
-				rodX = x + 27;
-				rodY = y - 16;
-				break;
-				
-				case 6:
-				rodX = x + 35;
-				rodY = y - 5;
-				break;
-				
-				default:
-				rodX = x + 35;
-				rodY = y - 9;
-				break;
-			}
+			rodX = x + 13;
+			rodY = y + 3;
 		}
 		break;
 		
@@ -80,12 +60,12 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 11;
+			rodX = x + 13;
 			rodY = y;
 			break;
 			
 			default:
-			rodX = x + 11;
+			rodX = x + 13;
 			rodY = y + 1;
 			break;
 		}
@@ -93,8 +73,8 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 		break;
 		
 		case sprUp:
-		rodX = x + 17;
-		rodY = y - 33;
+		rodX = x + 13;
+		rodY = y - 1;
 		bobberShake = true;
 		break;
 		
@@ -102,26 +82,26 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 16;
-			rodY = y - 32;
+			rodX = x + 13;
+			rodY = y - 1;
 			break;
 			
 			case 1:
-			rodX = x + 16;
-			rodY = y - 34;
+			rodX = x + 10;
+			rodY = y - 6;
 			break;
 			
 			default:
-			rodX = x + 17;
-			rodY = y - 33;
+			rodX = x + 11;
+			rodY = y - 4;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprDown:
-		rodX = x + 31;
-		rodY = y + 7;
+		rodX = x + 12;
+		rodY = y - 2;
 		bobberShake = true;
 		break;
 		
@@ -129,43 +109,48 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 31;
-			rodY = y + 5;
+			rodX = x + 12;
+			rodY = y - 2;
 			break;
 			
 			case 1:
-			rodX = x + 30;
-			rodY = y + 7;
+			rodX = x + 14;
+			rodY = y;
 			break;
 			
 			default:
-			rodX = x + 31;
-			rodY = y + 7;
+			rodX = x + 13;
+			rodY = y - 1;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprLeft:
-		rodX = x + 9;
-		rodY = y - 31;
+		rodX = x + 10;
+		rodY = y - 3;
 		bobberShake = true;
 		break;
 		
 		case sprLeftAnim:
 		switch (floor(image_index))
 		{
+			case 0:
+			rodX = x + 10;
+			rodY = y - 3;
+			break;
+			
 			default:
-			rodX = x + 9;
-			rodY = y - 31;
+			rodX = x + 11;
+			rodY = y - 3;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprRight:
-		rodX = x + 34;
-		rodY = y - 12;
+		rodX = x + 13;
+		rodY = y + 4;
 		bobberShake = true;
 		break;
 		
@@ -173,18 +158,18 @@ function scr_KSW_Player_Gooey_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 33;
-			rodY = y - 19;
+			rodX = x + 13;
+			rodY = y + 4;
 			break;
 			
 			case 1:
-			rodX = x + 39;
-			rodY = y - 14;
+			rodX = x + 15;
+			rodY = y + 4;
 			break;
 			
 			default:
-			rodX = x + 34;
-			rodY = y - 12;
+			rodX = x + 14;
+			rodY = y + 4;
 			break;
 		}
 		bobberShake = true;

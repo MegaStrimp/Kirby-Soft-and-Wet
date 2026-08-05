@@ -21,7 +21,7 @@ if ((global.debug) and (keyboard_check_pressed(ord("L"))))
 {
 	scr_PlaySfx(snd_KSW_Score);
 	
-	scr_KSW_LoadFullSave();
+	scr_KSW_LoadFullSave(!keyboard_check(vk_shift));
 }
 #endregion
 

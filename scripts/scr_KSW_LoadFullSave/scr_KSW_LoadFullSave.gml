@@ -1,6 +1,6 @@
 ///@description KSW - Load Full Save
 
-function scr_KSW_LoadFullSave()
+function scr_KSW_LoadFullSave(loadFish = true)
 {
 	#region Variables
 	global.fullSaveLoaded = true;
@@ -84,17 +84,20 @@ function scr_KSW_LoadFullSave()
 	#endregion
 	
 	#region Fish Status
-	global.KSW_CaughtUniqueFishCount = 0;
-	
-	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
+	if (loadFish)
 	{
-		global.KSW_FishList[i].isCaught += 2;
-		global.KSW_FishList[i].isCaughtShiny += 1;
+		global.KSW_CaughtUniqueFishCount = 0;
 		
-		global.KSW_CaughtUniqueFishCount += 1;
-		global.KSW_CaughtShinyFishCount += 1;
-		
-		if (global.KSW_FishList[i].stage != -1) global.KSW_StageList[global.KSW_FishList[i].stage].fishCount += 1;
+		for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
+		{
+			global.KSW_FishList[i].isCaught += 2;
+			global.KSW_FishList[i].isCaughtShiny += 1;
+			
+			global.KSW_CaughtUniqueFishCount += 1;
+			global.KSW_CaughtShinyFishCount += 1;
+			
+			if (global.KSW_FishList[i].stage != -1) global.KSW_StageList[global.KSW_FishList[i].stage].fishCount += 1;
+		}
 	}
 	#endregion
 	
