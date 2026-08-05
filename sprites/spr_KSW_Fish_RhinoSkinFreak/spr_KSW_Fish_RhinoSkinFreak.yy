@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_RhinoSkinFreak",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":35,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,22 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7d98db60-e72c-4a50-93e1-eacfdc3272e4","name":"7d98db60-e72c-4a50-93e1-eacfdc3272e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a615b33-aac9-4c83-8b9f-f7a2cb41bfae","name":"1a615b33-aac9-4c83-8b9f-f7a2cb41bfae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad743f9f-4a68-4643-8e60-6b4ab78f1a00","name":"ad743f9f-4a68-4643-8e60-6b4ab78f1a00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b0cff8ff-a6ad-4589-b261-cb9a008f5c8e","name":"b0cff8ff-a6ad-4589-b261-cb9a008f5c8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"30bff181-3990-4f71-9cf0-369c30bd9fd9","name":"30bff181-3990-4f71-9cf0-369c30bd9fd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44df2956-0aff-4ef3-af61-5fce9c304117","name":"44df2956-0aff-4ef3-af61-5fce9c304117","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"db689795-0649-409b-b76e-28f05903bd1a","name":"db689795-0649-409b-b76e-28f05903bd1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bbabb59f-71cc-414e-b7df-9a95255817c3","name":"bbabb59f-71cc-414e-b7df-9a95255817c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2f95e6a-71f5-46e7-bb47-5cc37e7a6bf3","name":"c2f95e6a-71f5-46e7-bb47-5cc37e7a6bf3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6e98bdfa-0315-499c-a447-396b5522156b","blendMode":0,"displayName":"default","isLocked":false,"name":"6e98bdfa-0315-499c-a447-396b5522156b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1f03cdf2-adbb-4446-b87e-5a66be72b2da","blendMode":0,"displayName":"default","isLocked":false,"name":"1f03cdf2-adbb-4446-b87e-5a66be72b2da","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_RhinoSkinFreak",
   "nineSlice":null,
@@ -54,7 +62,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":9.0,
     "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -64,7 +72,7 @@
     },
     "name":"spr_KSW_Fish_RhinoSkinFreak",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":9.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -74,14 +82,38 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3ad44e97-7c9a-4f2f-aa4c-24fbb1de27d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d98db60-e72c-4a50-93e1-eacfdc3272e4","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"863b5eee-4826-4a32-8626-cdd168e1bf01","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a615b33-aac9-4c83-8b9f-f7a2cb41bfae","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e84bb790-93b9-4193-b71d-1085f32bd03f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad743f9f-4a68-4643-8e60-6b4ab78f1a00","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"427e2ed2-61aa-4c4a-881f-5930d21a3a16","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0cff8ff-a6ad-4589-b261-cb9a008f5c8e","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"22d57ec1-15c8-48b3-822d-a6a455c8714f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30bff181-3990-4f71-9cf0-369c30bd9fd9","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1972fa65-f450-468e-b487-472ed6b8ba65","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"44df2956-0aff-4ef3-af61-5fce9c304117","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"33747f7a-4fd0-418e-9e26-7dbaee404bf5","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db689795-0649-409b-b76e-28f05903bd1a","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"87fe83c6-400a-4548-9f18-32a5533d279e","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbabb59f-71cc-414e-b7df-9a95255817c3","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7aa6ca33-66af-417b-ba91-66410815325a","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2f95e6a-71f5-46e7-bb47-5cc37e7a6bf3","path":"sprites/spr_KSW_Fish_RhinoSkinFreak/spr_KSW_Fish_RhinoSkinFreak.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4a84587c-579f-4296-ae0f-5a12a971ee57","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":12,
-    "yorigin":12,
+    "xorigin":18,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +123,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":24,
+  "width":36,
 }

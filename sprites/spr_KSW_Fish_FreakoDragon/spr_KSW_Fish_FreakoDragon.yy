@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_FreakoDragon",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":179,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":866,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,25 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bd708436-93e9-409c-b0c1-9136b71c2fcd","name":"bd708436-93e9-409c-b0c1-9136b71c2fcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4dd32e5d-df97-47a2-846d-47785f0f8377","name":"4dd32e5d-df97-47a2-846d-47785f0f8377","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02794606-65f3-450e-b1ff-71ded7c59d02","name":"02794606-65f3-450e-b1ff-71ded7c59d02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bea450fc-6672-4501-81a1-475fad9fd683","name":"bea450fc-6672-4501-81a1-475fad9fd683","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"390416fd-30bd-4db9-a5d9-059936194ac9","name":"390416fd-30bd-4db9-a5d9-059936194ac9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8873060b-96df-45bf-8093-fdef6dd920ab","name":"8873060b-96df-45bf-8093-fdef6dd920ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"82a90a12-4d83-459f-b544-796305efcd8e","name":"82a90a12-4d83-459f-b544-796305efcd8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25dd5906-9bad-4d03-906e-9f01b4f24377","name":"25dd5906-9bad-4d03-906e-9f01b4f24377","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43465849-a18b-4c56-ac22-7ced7b731b8e","name":"43465849-a18b-4c56-ac22-7ced7b731b8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47621ee2-5951-4230-b68f-d75b9026cea8","name":"47621ee2-5951-4230-b68f-d75b9026cea8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1a09846-80fb-471f-babb-aa7b848baee9","name":"f1a09846-80fb-471f-babb-aa7b848baee9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"938bc71a-f650-4f40-92ff-682f561336fe","name":"938bc71a-f650-4f40-92ff-682f561336fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":180,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6e98bdfa-0315-499c-a447-396b5522156b","blendMode":0,"displayName":"default","isLocked":false,"name":"6e98bdfa-0315-499c-a447-396b5522156b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"feffe239-24cc-4819-9064-a9dce865b4fd","blendMode":0,"displayName":"default","isLocked":false,"name":"feffe239-24cc-4819-9064-a9dce865b4fd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_FreakoDragon",
   "nineSlice":null,
@@ -54,7 +65,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":12.0,
     "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -64,7 +75,7 @@
     },
     "name":"spr_KSW_Fish_FreakoDragon",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":9.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -74,14 +85,47 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3ad44e97-7c9a-4f2f-aa4c-24fbb1de27d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd708436-93e9-409c-b0c1-9136b71c2fcd","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5f652aa6-6e29-4cf9-9bd4-a84a95e6628f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4dd32e5d-df97-47a2-846d-47785f0f8377","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b44e77f7-5e4e-4ae8-bfdb-9e7f688057ac","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02794606-65f3-450e-b1ff-71ded7c59d02","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d1a3092a-6631-4ae2-a948-bc575823db32","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bea450fc-6672-4501-81a1-475fad9fd683","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b1817cb9-6a46-4aca-9fb6-c506aba96b13","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"390416fd-30bd-4db9-a5d9-059936194ac9","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2b58fce1-8711-4593-8e2b-86f7fe9fdec4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8873060b-96df-45bf-8093-fdef6dd920ab","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a73d920d-f521-4d4d-825e-fcfb755a472b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"82a90a12-4d83-459f-b544-796305efcd8e","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a5e18140-032d-491a-8302-86fab3c85202","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"25dd5906-9bad-4d03-906e-9f01b4f24377","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad2adf20-6e74-4f49-af92-16f706049963","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43465849-a18b-4c56-ac22-7ced7b731b8e","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"42e58087-2e50-48e4-a36f-6434eb217bfe","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47621ee2-5951-4230-b68f-d75b9026cea8","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"589c0f63-eee0-44b8-8f2b-04362f02350a","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1a09846-80fb-471f-babb-aa7b848baee9","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bc94f5df-0283-4c14-91e8-b2b397eb0ce2","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"938bc71a-f650-4f40-92ff-682f561336fe","path":"sprites/spr_KSW_Fish_FreakoDragon/spr_KSW_Fish_FreakoDragon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"147ae872-e61b-477a-a86a-361ed7b16f70","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":12,
-    "yorigin":12,
+    "xorigin":433,
+    "yorigin":90,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +135,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":24,
+  "width":867,
 }

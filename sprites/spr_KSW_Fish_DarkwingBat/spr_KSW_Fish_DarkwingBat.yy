@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_DarkwingBat",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":136,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":162,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,22 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e68304a5-e313-4cd6-8296-cf8b7d7dc14c","name":"e68304a5-e313-4cd6-8296-cf8b7d7dc14c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7d823c99-6c53-44e6-9838-529c5b9b16f2","name":"7d823c99-6c53-44e6-9838-529c5b9b16f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d75c9dcb-0203-42ed-8ba7-58aa2a154463","name":"d75c9dcb-0203-42ed-8ba7-58aa2a154463","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f2f4561-8f18-4ca1-9690-8d598352a4d8","name":"7f2f4561-8f18-4ca1-9690-8d598352a4d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0fc8462b-904f-4580-84d1-8fd30b20c8f4","name":"0fc8462b-904f-4580-84d1-8fd30b20c8f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5966390f-576a-48f7-b9f4-1619faf316d2","name":"5966390f-576a-48f7-b9f4-1619faf316d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"74195ea0-8312-4c39-9813-8c2f814d9fa7","name":"74195ea0-8312-4c39-9813-8c2f814d9fa7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a9a6e2f-ac30-4d32-9731-da6df2051563","name":"1a9a6e2f-ac30-4d32-9731-da6df2051563","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8160736e-ac35-4634-aea7-aaf2fa090238","name":"8160736e-ac35-4634-aea7-aaf2fa090238","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":137,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6e98bdfa-0315-499c-a447-396b5522156b","blendMode":0,"displayName":"default","isLocked":false,"name":"6e98bdfa-0315-499c-a447-396b5522156b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"83344136-78e8-4fd1-8d09-e186e41abf3f","blendMode":0,"displayName":"default","isLocked":false,"name":"83344136-78e8-4fd1-8d09-e186e41abf3f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_DarkwingBat",
   "nineSlice":null,
@@ -54,7 +62,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":9.0,
     "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -64,7 +72,7 @@
     },
     "name":"spr_KSW_Fish_DarkwingBat",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":9.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -74,14 +82,38 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d87f3673-3d88-49ee-a5bf-eaa83abc5bc6","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3ad44e97-7c9a-4f2f-aa4c-24fbb1de27d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e68304a5-e313-4cd6-8296-cf8b7d7dc14c","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5df90d5f-7ce1-4fe9-beb0-245bd3d584f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d823c99-6c53-44e6-9838-529c5b9b16f2","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"49f2e022-7969-4ccc-b20b-aec5751716a1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d75c9dcb-0203-42ed-8ba7-58aa2a154463","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"959c9bae-7e46-42e1-a39f-a3d279ab7000","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f2f4561-8f18-4ca1-9690-8d598352a4d8","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"81f82b08-9fdc-4d37-9741-644327574025","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0fc8462b-904f-4580-84d1-8fd30b20c8f4","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f9b5629f-223a-4725-9faf-8111875f1ad5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5966390f-576a-48f7-b9f4-1619faf316d2","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"79021cee-516a-410d-b3be-347a8cbd7c79","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"74195ea0-8312-4c39-9813-8c2f814d9fa7","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ec68eacb-450f-42cb-9c1e-d668f98c9e63","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a9a6e2f-ac30-4d32-9731-da6df2051563","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9035fc6a-c431-4fad-b6ee-40cff054fe1f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8160736e-ac35-4634-aea7-aaf2fa090238","path":"sprites/spr_KSW_Fish_DarkwingBat/spr_KSW_Fish_DarkwingBat.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7c98e8fd-268a-44c4-b00e-7df9bee0fc04","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":12,
-    "yorigin":12,
+    "xorigin":81,
+    "yorigin":68,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +123,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":24,
+  "width":163,
 }

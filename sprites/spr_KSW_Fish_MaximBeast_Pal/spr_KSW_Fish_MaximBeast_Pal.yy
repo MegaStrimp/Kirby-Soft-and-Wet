@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_MaximBeast_Pal",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":27,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":3,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2714fb11-22d1-493e-8568-07341209f3d7","name":"2714fb11-22d1-493e-8568-07341209f3d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb249b5d-3f2b-48c4-a49e-00b4a762c745","name":"cb249b5d-3f2b-48c4-a49e-00b4a762c745","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":7,
+  "height":28,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c35f0954-6dda-4013-851c-3777bf5dc87d","blendMode":0,"displayName":"default","isLocked":false,"name":"c35f0954-6dda-4013-851c-3777bf5dc87d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9a23896e-06a2-45cc-8bdb-a7b9bfa38088","blendMode":0,"displayName":"default","isLocked":false,"name":"9a23896e-06a2-45cc-8bdb-a7b9bfa38088","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_MaximBeast_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2714fb11-22d1-493e-8568-07341209f3d7","path":"sprites/spr_KSW_Fish_MaximBeast_Pal/spr_KSW_Fish_MaximBeast_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1e77d63-9b73-45ee-805c-ac4d1c4d638b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb249b5d-3f2b-48c4-a49e-00b4a762c745","path":"sprites/spr_KSW_Fish_MaximBeast_Pal/spr_KSW_Fish_MaximBeast_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6a46edec-9eb2-4048-ad5a-9e2d47b70716","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

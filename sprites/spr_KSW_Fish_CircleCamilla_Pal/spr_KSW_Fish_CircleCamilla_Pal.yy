@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_CircleCamilla_Pal",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":18,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":3,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2714fb11-22d1-493e-8568-07341209f3d7","name":"2714fb11-22d1-493e-8568-07341209f3d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6eb2931-e8ce-4cde-9001-a148894cdca8","name":"f6eb2931-e8ce-4cde-9001-a148894cdca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":7,
+  "height":19,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c35f0954-6dda-4013-851c-3777bf5dc87d","blendMode":0,"displayName":"default","isLocked":false,"name":"c35f0954-6dda-4013-851c-3777bf5dc87d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"dc54325e-ac44-48f4-a5fb-1b95cb341d6b","blendMode":0,"displayName":"default","isLocked":false,"name":"dc54325e-ac44-48f4-a5fb-1b95cb341d6b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_CircleCamilla_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2714fb11-22d1-493e-8568-07341209f3d7","path":"sprites/spr_KSW_Fish_CircleCamilla_Pal/spr_KSW_Fish_CircleCamilla_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1e77d63-9b73-45ee-805c-ac4d1c4d638b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6eb2931-e8ce-4cde-9001-a148894cdca8","path":"sprites/spr_KSW_Fish_CircleCamilla_Pal/spr_KSW_Fish_CircleCamilla_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e7afcd72-a13a-446b-aa99-e3833a086b90","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

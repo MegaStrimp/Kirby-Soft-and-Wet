@@ -1347,7 +1347,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Adramelech",spr_KSW_Fish_Adramelech,spr_KSW_Fish_Adramelech_Pal,series_Misc,candy,0000000,anyStage,KSW_Phases.none,0000000000000000000000);
 	scr_KSW_AddFish("Alucard",spr_KSW_Fish_Alucard,spr_KSW_Fish_Alucard_Pal,series_Misc,candy,0000000,anyStage,KSW_Phases.none,0000000000000000000000);
 	scr_KSW_AddFish("Angler Fish Fredbear",spr_KSW_Fish_AnglerFishFredbear,spr_KSW_Fish_AnglerFishFredbear_Pal,series_Misc,candy,0000000,anyStage,KSW_Phases.none,0000000000000000000000);
-	scr_KSW_AddFish("Antonfish",spr_KSW_Fish_Antonfish,spr_KSW_Fish_Antonfish_Pal,series_Misc,candy,0000000,anyStage,KSW_Phases.none,0000000000000000000000);
+	scr_KSW_AddFish("Antonfish",spr_KSW_Fish_Antonfish,spr_KSW_Fish_Antonfish_Pal,series_AntonBlast,mint,2,anyStage,KSW_Phases.none,12000);
 	scr_KSW_AddFish("Apple",spr_KSW_Fish_Apple,spr_KSW_Fish_Apple_Pal,series_Misc,candy,0000000,anyStage,KSW_Phases.none,0000000000000000000000);
 	scr_KSW_AddFish("Aria Death",spr_KSW_Fish_AriaDeath,spr_KSW_Fish_AriaDeath_Pal,series_Misc,candy,0000000,anyStage,KSW_Phases.none,0000000000000000000000);
 	scr_KSW_AddFish("Assassin",spr_KSW_Fish_Assassin,spr_KSW_Fish_Assassin_Pal,series_Misc,candy,0000000,anyStage,KSW_Phases.none,0000000000000000000000);

@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_FaerieScroll_Pal",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":20,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":3,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2714fb11-22d1-493e-8568-07341209f3d7","name":"2714fb11-22d1-493e-8568-07341209f3d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bfdd7aeb-4ac2-4bfd-b997-d1c94e805034","name":"bfdd7aeb-4ac2-4bfd-b997-d1c94e805034","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":7,
+  "height":21,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c35f0954-6dda-4013-851c-3777bf5dc87d","blendMode":0,"displayName":"default","isLocked":false,"name":"c35f0954-6dda-4013-851c-3777bf5dc87d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"58e17699-4157-4552-adff-9e03995f399f","blendMode":0,"displayName":"default","isLocked":false,"name":"58e17699-4157-4552-adff-9e03995f399f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_FaerieScroll_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2714fb11-22d1-493e-8568-07341209f3d7","path":"sprites/spr_KSW_Fish_FaerieScroll_Pal/spr_KSW_Fish_FaerieScroll_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1e77d63-9b73-45ee-805c-ac4d1c4d638b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bfdd7aeb-4ac2-4bfd-b997-d1c94e805034","path":"sprites/spr_KSW_Fish_FaerieScroll_Pal/spr_KSW_Fish_FaerieScroll_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0c53d37f-5e32-4c4a-b627-49303e129315","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

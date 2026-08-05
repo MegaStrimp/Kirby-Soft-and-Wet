@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_SymphonyGrapes_Pal",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":8,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":3,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2714fb11-22d1-493e-8568-07341209f3d7","name":"2714fb11-22d1-493e-8568-07341209f3d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50a88618-8e72-4fb9-8b36-97ad801da4da","name":"50a88618-8e72-4fb9-8b36-97ad801da4da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":7,
+  "height":9,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c35f0954-6dda-4013-851c-3777bf5dc87d","blendMode":0,"displayName":"default","isLocked":false,"name":"c35f0954-6dda-4013-851c-3777bf5dc87d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ee916e43-203d-4026-ae95-a7032c7c80d5","blendMode":0,"displayName":"default","isLocked":false,"name":"ee916e43-203d-4026-ae95-a7032c7c80d5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_SymphonyGrapes_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2714fb11-22d1-493e-8568-07341209f3d7","path":"sprites/spr_KSW_Fish_SymphonyGrapes_Pal/spr_KSW_Fish_SymphonyGrapes_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1e77d63-9b73-45ee-805c-ac4d1c4d638b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50a88618-8e72-4fb9-8b36-97ad801da4da","path":"sprites/spr_KSW_Fish_SymphonyGrapes_Pal/spr_KSW_Fish_SymphonyGrapes_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"097cdea1-8a21-4f4a-ac7e-bbc3906b4375","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
