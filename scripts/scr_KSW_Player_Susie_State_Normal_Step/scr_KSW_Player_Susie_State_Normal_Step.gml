@@ -103,17 +103,17 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 		{
 			case 0:
 			rodX = x + 21;
-			rodY = y - 35;
+			rodY = y - 45;
 			break;
 			
 			case 1:
 			rodX = x + 20;
-			rodY = y - 36;
+			rodY = y - 46;
 			break;
 			
 			default:
 			rodX = x + 22;
-			rodY = y - 35;
+			rodY = y - 45;
 			break;
 		}
 		bobberShake = true;
