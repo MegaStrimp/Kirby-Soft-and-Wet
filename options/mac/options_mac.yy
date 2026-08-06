@@ -1,13 +1,7 @@
 {
   "$GMMacOptions":"",
   "%Name":"macOS",
-  "ConfigValues":{
-    "DesktopDebug":{
-      "option_mac_splash_png":"splash/splash.png",
-      "option_mac_icon_png":"icons/1024.png",
-      "option_mac_installer_background_png":"splash/installer_background.png",
-    },
-  },
+  "ConfigValues":{},
   "name":"macOS",
   "option_mac_allow_fullscreen":false,
   "option_mac_allow_incoming_network":false,

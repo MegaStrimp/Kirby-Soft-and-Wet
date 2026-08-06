@@ -8,11 +8,7 @@
   "bold":false,
   "canGenerateBitmap":true,
   "charset":0,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"StarDreamFramework\", \"path\":\"texturegroups/StarDreamFramework\" }",
-    },
-  },
+  "ConfigValues":{},
   "first":0,
   "fontName":"Droid Sans Mono",
   "glyphOperations":0,

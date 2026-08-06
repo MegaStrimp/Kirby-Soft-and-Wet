@@ -1,18 +1,7 @@
 {
   "$GMWindowsOptions":"v2",
   "%Name":"Windows",
-  "ConfigValues":{
-    "DesktopDebug":{
-      "option_windows_company_info":"",
-      "option_windows_description_info":"",
-      "option_windows_display_cursor":"false",
-      "option_windows_icon":"icons/icon.ico",
-      "option_windows_installer_finished":"installer/finished.bmp",
-      "option_windows_installer_header":"installer/header.bmp",
-      "option_windows_product_info":"",
-      "option_windows_splash_screen":"splash/splash.png",
-    },
-  },
+  "ConfigValues":{},
   "name":"Windows",
   "option_windows_allow_fullscreen_switching":false,
   "option_windows_borderless":false,

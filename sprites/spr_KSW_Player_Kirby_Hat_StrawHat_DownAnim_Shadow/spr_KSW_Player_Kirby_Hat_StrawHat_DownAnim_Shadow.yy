@@ -8,11 +8,7 @@
   "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
-  },
+  "ConfigValues":{},
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -77,9 +73,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"da5270bf-5fa7-4fe3-b9cf-81775fd5fff4","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"48df72f5-3449-44f5-adcd-5b5efd0ad16c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"231b4cef-fd67-4588-853f-1f00035061fb","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2d3b6ee2-8a00-4ff5-ac11-1595ae9cf5ab","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d31aedbf-701b-40e1-bab0-4af0ce87adc9","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"18a354f5-7090-4455-8833-9f1273aa04d9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da5270bf-5fa7-4fe3-b9cf-81775fd5fff4","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"48df72f5-3449-44f5-adcd-5b5efd0ad16c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"231b4cef-fd67-4588-853f-1f00035061fb","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2d3b6ee2-8a00-4ff5-ac11-1595ae9cf5ab","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d31aedbf-701b-40e1-bab0-4af0ce87adc9","path":"sprites/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow/spr_KSW_Player_Kirby_Hat_StrawHat_DownAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"18a354f5-7090-4455-8833-9f1273aa04d9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

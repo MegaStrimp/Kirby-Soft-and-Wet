@@ -1,12 +1,7 @@
 {
   "$GMHtml5Options":"",
   "%Name":"HTML5",
-  "ConfigValues":{
-    "DesktopDebug":{
-      "option_html5_splash_png":"splash.png",
-      "option_html5_icon":"fav.ico",
-    },
-  },
+  "ConfigValues":{},
   "name":"HTML5",
   "option_html5_allow_fullscreen":true,
   "option_html5_browser_title":"Created with GameMaker",

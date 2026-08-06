@@ -1,12 +1,7 @@
 {
   "$GMLinuxOptions":"",
   "%Name":"Linux",
-  "ConfigValues":{
-    "DesktopDebug":{
-      "option_linux_splash_screen":"splash/splash.png",
-      "option_linux_icon":"icons/64.png",
-    },
-  },
+  "ConfigValues":{},
   "name":"Linux",
   "option_linux_allow_fullscreen":false,
   "option_linux_disable_sandbox":false,

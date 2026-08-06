@@ -1,19 +1,7 @@
 {
   "$GMtvOSOptions":"v1",
   "%Name":"tvOS",
-  "ConfigValues":{
-    "DesktopDebug":{
-      "option_tvos_topshelf":"topshelf/topshelf.png",
-      "option_tvos_topshelf_2x":"topshelf/topshelf_2x.png",
-      "option_tvos_topshelf_wide":"topshelf/topshelf_wide.png",
-      "option_tvos_topshelf_wide_2x":"topshelf/topshelf_wide_2x.png",
-      "option_tvos_splashscreen":"splash/splash.png",
-      "option_tvos_splashscreen_2x":"splash/splash_2x.png",
-      "option_tvos_icon_400":"icons/400.png",
-      "option_tvos_icon_400_2x":"icons/400_2x.png",
-      "option_tvos_icon_1280":"icons/1280.png",
-    },
-  },
+  "ConfigValues":{},
   "name":"tvOS",
   "option_tvos_build_number":0,
   "option_tvos_bundle_name":"com.company.game",
