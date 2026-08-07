@@ -1173,6 +1173,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Buster Rod G",spr_KSW_Fish_BusterRodG,spr_KSW_Fish_BusterRodG_Pal,series_MegaMan,legion,3,hallowReen,KSW_Phases.day,123000);
 	scr_KSW_AddFish("Mega Water S",spr_KSW_Fish_MegaWaterS,spr_KSW_Fish_MegaWaterS_Pal,series_MegaMan,mint,3,grassBeach,KSW_Phases.afternoon,213000);
 	scr_KSW_AddFish("Hyper Storm H",spr_KSW_Fish_HyperStormH,spr_KSW_Fish_HyperStormH_Pal,series_MegaMan,maze,3,serranoSprings,KSW_Phases.night,321000);
+	scr_KSW_AddFish("Gutsman's Butt",spr_KSW_Fish_GutsButt,spr_KSW_Fish_GutsButt_Pal,series_MegaMan,flux,3,androidPort,KSW_Phases.day,2007,0,0,-1,snd_KSW_Fish_GutsButt);
 	
 	scr_KSW_AddFish("Z'Gok",spr_KSW_Fish_ZGok,spr_KSW_Fish_ZGok_Pal,series_Gundam,glimmer,3,androidPort,KSW_Phases.night,79000);
 	scr_KSW_AddFish("Rubato",spr_KSW_Fish_Rubato,spr_KSW_Fish_Rubato_Pal,series_Rubato,mint,1,androidPort,KSW_Phases.none,6000,,2,,snd_KSW_Fish_Rubato);
