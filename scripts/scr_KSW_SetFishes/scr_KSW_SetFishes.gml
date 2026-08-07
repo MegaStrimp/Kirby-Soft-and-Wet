@@ -1167,6 +1167,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Big Fish",spr_KSW_Fish_BigFish,spr_KSW_Fish_BigFish_Pal,series_MegaMan,mint,1,androidPort,KSW_Phases.night,20000);
 	scr_KSW_AddFish("Bubble Man",spr_KSW_Fish_BubbleMan,spr_KSW_Fish_BubbleMan_Pal,series_MegaMan,mint,2,androidPort,KSW_Phases.night,20000);
 	scr_KSW_AddFish("Wood Man",spr_KSW_Fish_WoodMan,spr_KSW_Fish_WoodMan_Pal,series_MegaMan,borange,2,grassBeach,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Alien",spr_KSW_Fish_Alien,spr_KSW_Fish_Alien_Pal,series_MegaMan,maze,3,androidPort,KSW_Phases.none,200000);
+	scr_KSW_AddFish("Mecha Dragon",spr_KSW_Fish_MechaDragon,spr_KSW_Fish_MechaDragon_Pal,series_MegaMan,maze,3,androidPort,KSW_Phases.none,200000);
 	
 	scr_KSW_AddFish("Yambow",spr_KSW_Fish_Yambow,spr_KSW_Fish_Yambow_Pal,series_MegaMan,candy,0,hallowReen,KSW_Phases.none,3000);
 	scr_KSW_AddFish("Gyoraibo",spr_KSW_Fish_Gyoraibo,spr_KSW_Fish_Gyoraibo_Pal,series_MegaMan,mint,0,androidPort,KSW_Phases.night,3000);
