@@ -137,11 +137,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mini Gobbler",spr_KSW_Fish_MiniGobbler,spr_KSW_Fish_MiniGobbler_Pal_Normal,series_Kirby,candy,0,grassBeach,KSW_Phases.night,800);
 	scr_KSW_AddFish("Gobbler",spr_KSW_Fish_Gobbler,spr_KSW_Fish_Gobbler_Pal_Normal,series_Kirby,mage,2,grassBeach,KSW_Phases.night,20000,-12,2);
 	scr_KSW_AddFish("Kine",spr_KSW_Fish_Kine,spr_KSW_Fish_Kine_Pal_Normal,series_Kirby,mage,1,grassBeach,KSW_Phases.day,7500,-4);
-	scr_KSW_AddFish("Merman",spr_KSW_Fish_Merman,spr_KSW_Fish_Merman_Pal_Normal,series_Castlevania,borange,1,hallowReen,KSW_Phases.none,2000,2,12);
-	scr_KSW_AddFish("Giant Merman",spr_KSW_Fish_GiantMerman,spr_KSW_Fish_GiantMerman_Pal_Normal,series_Castlevania,mint,2,hallowReen,KSW_Phases.none,10000,-10,14);
-	scr_KSW_AddFish("Fish Head",spr_KSW_Fish_FishHead,spr_KSW_Fish_FishHead_Pal_Normal,series_Castlevania,legion,1,hallowReen,KSW_Phases.none,3000,-10,14);
-	scr_KSW_AddFish("Peeping Eye",spr_KSW_Fish_PeepingEye,spr_KSW_Fish_PeepingEye_Pal_Normal,series_Castlevania,borange,2,hallowReen,KSW_Phases.none,6000,0,16);
-	scr_KSW_AddFish("Peeping Big",spr_KSW_Fish_PeepingBig,spr_KSW_Fish_PeepingBig_Pal_Normal,series_Castlevania,borange,3,hallowReen,KSW_Phases.none,14000,-1,18);
+	scr_KSW_AddFish("Merman",spr_KSW_Fish_Merman,spr_KSW_Fish_Merman_Pal_Normal,series_Castlevania,borange,0,hallowReen,KSW_Phases.none,2000,2,12);
+	scr_KSW_AddFish("Giant Merman",spr_KSW_Fish_GiantMerman,spr_KSW_Fish_GiantMerman_Pal_Normal,series_Castlevania,mint,1,hallowReen,KSW_Phases.none,10000,-10,14);
+	scr_KSW_AddFish("Fish Head",spr_KSW_Fish_FishHead,spr_KSW_Fish_FishHead_Pal_Normal,series_Castlevania,legion,0,hallowReen,KSW_Phases.none,3000,-10,14);
+	scr_KSW_AddFish("Peeping Eye",spr_KSW_Fish_PeepingEye,spr_KSW_Fish_PeepingEye_Pal_Normal,series_Castlevania,borange,0,hallowReen,KSW_Phases.none,6000,0,16);
+	scr_KSW_AddFish("Peeping Big",spr_KSW_Fish_PeepingBig,spr_KSW_Fish_PeepingBig_Pal_Normal,series_Castlevania,borange,1,hallowReen,KSW_Phases.none,14000,-1,18);
 	scr_KSW_AddFish("Metroid",spr_KSW_Fish_Metroid,spr_KSW_Fish_Metroid_Pal_Normal,series_Metroid,mint,1,androidPort,KSW_Phases.afternoon,2500);
 	scr_KSW_AddFish("Skultera",spr_KSW_Fish_Skultera,spr_KSW_Fish_Skultera_Pal_Normal,series_Metroid,flux,0,grassBeach,KSW_Phases.night,1000,-8,-4);
 	scr_KSW_AddFish("Evir",spr_KSW_Fish_Evir,spr_KSW_Fish_Evir_Pal_Normal,series_Metroid,borange,0,grassBeach,KSW_Phases.afternoon,900,-4,8);
