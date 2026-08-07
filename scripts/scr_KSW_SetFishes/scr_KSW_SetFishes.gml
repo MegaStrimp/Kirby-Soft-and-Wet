@@ -35,6 +35,7 @@ function scr_KSW_SetFishes()
 	var series_TheBindingOfIsaacRebirth = global.KSW_SeriesIDs[? "theBindingOfIsaacRebirth"];
 	var series_TheBindingOfIsaacForgottenFables = global.KSW_SeriesIDs[? "theBindingOfIsaacForgottenFables"];
 	var series_KirbysDreamLand23 = global.KSW_SeriesIDs[? "kirbysDreamLand23"];
+	var series_MegaManSequelWars = global.KSW_SeriesIDs[? "megaManSequelWars"];
 	var series_Undertale = global.KSW_SeriesIDs[? "undertale"];
 	var series_Deltarune = global.KSW_SeriesIDs[? "deltarune"];
 	var series_Off = global.KSW_SeriesIDs[? "off"];
@@ -1192,12 +1193,18 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Doc Robot",spr_KSW_Fish_DocRobot,spr_KSW_Fish_DocRobot_Pal,series_MegaMan,borange,2,androidPort,KSW_Phases.none,32000);
 	scr_KSW_AddFish("Giant Metall",spr_KSW_Fish_GiantMetall,spr_KSW_Fish_GiantMetall_Pal,series_MegaMan,mint,3,androidPort,KSW_Phases.none,300000);
 	scr_KSW_AddFish("Yellow Devil Mk. II",spr_KSW_Fish_YellowDevil2,spr_KSW_Fish_YellowDevil2_Pal,series_MegaMan,maze,3,androidPort,KSW_Phases.none,300000);
-	
 	scr_KSW_AddFish("Buster Rod G",spr_KSW_Fish_BusterRodG,spr_KSW_Fish_BusterRodG_Pal,series_MegaMan,legion,3,hallowReen,KSW_Phases.day,123000);
 	scr_KSW_AddFish("Mega Water S",spr_KSW_Fish_MegaWaterS,spr_KSW_Fish_MegaWaterS_Pal,series_MegaMan,mint,3,grassBeach,KSW_Phases.afternoon,213000);
 	scr_KSW_AddFish("Hyper Storm H",spr_KSW_Fish_HyperStormH,spr_KSW_Fish_HyperStormH_Pal,series_MegaMan,maze,3,serranoSprings,KSW_Phases.night,321000);
 	scr_KSW_AddFish("Gutsman's Butt",spr_KSW_Fish_GutsButt,spr_KSW_Fish_GutsButt_Pal,series_MegaMan,flux,3,androidPort,KSW_Phases.day,2007,0,0,-1,snd_KSW_Fish_GutsButt);
-	
+	scr_KSW_AddFish("Bright Man",spr_KSW_Fish_BrightMan,spr_KSW_Fish_BrightMan_Pal,series_MegaManSequelWars,borange,2,androidPort,KSW_Phases.day,40000);
+	scr_KSW_AddFish("Dive Man",spr_KSW_Fish_DiveMan,spr_KSW_Fish_DiveMan_Pal,series_MegaManSequelWars,mage,2,grassBeach,KSW_Phases.day,40000);
+	scr_KSW_AddFish("Drill Man",spr_KSW_Fish_DrillMan,spr_KSW_Fish_DrillMan_Pal,series_MegaManSequelWars,borange,2,serranoSprings,KSW_Phases.day,40000);
+	scr_KSW_AddFish("Dust Man",spr_KSW_Fish_DustMan,spr_KSW_Fish_DustMan_Pal,series_MegaManSequelWars,glimmer,2,androidPort,KSW_Phases.afternoon,40000);
+	scr_KSW_AddFish("Pharaoh Man",spr_KSW_Fish_PharaohMan,spr_KSW_Fish_PharaohMan_Pal,series_MegaManSequelWars,borange,2,serranoSprings,KSW_Phases.night,40000);
+	scr_KSW_AddFish("Ring Man",spr_KSW_Fish_RingMan,spr_KSW_Fish_RingMan_Pal,series_MegaManSequelWars,mage,2,androidPort,KSW_Phases.night,40000);
+	scr_KSW_AddFish("Skull Man",spr_KSW_Fish_SkullMan,spr_KSW_Fish_SkullMan_Pal,series_MegaManSequelWars,flux,2,hallowReen,KSW_Phases.day,40000);
+	scr_KSW_AddFish("Toad Man",spr_KSW_Fish_ToadMan,spr_KSW_Fish_ToadMan_Pal,series_MegaManSequelWars,mint,2,hallowReen,KSW_Phases.night,40000);
 	scr_KSW_AddFish("Z'Gok",spr_KSW_Fish_ZGok,spr_KSW_Fish_ZGok_Pal,series_Gundam,glimmer,3,androidPort,KSW_Phases.night,79000);
 	scr_KSW_AddFish("Rubato",spr_KSW_Fish_Rubato,spr_KSW_Fish_Rubato_Pal,series_Rubato,mint,1,androidPort,KSW_Phases.none,6000,,2,,snd_KSW_Fish_Rubato);
 	scr_KSW_AddFish("Planet Bit",spr_KSW_Fish_PlanetBit,spr_KSW_Fish_PlanetBit_Pal,series_Rubato,legion,0,androidPort,KSW_Phases.none,3000,,,,snd_KSW_Fish_PlanetBit);
