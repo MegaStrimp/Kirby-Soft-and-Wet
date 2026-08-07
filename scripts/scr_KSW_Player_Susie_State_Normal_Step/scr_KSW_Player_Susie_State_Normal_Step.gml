@@ -54,7 +54,7 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 				break;
 				
 				case 5:
-				rodX = x + 39;
+				rodX = x + 29;
 				rodY = y - 25;
 				break;
 				
