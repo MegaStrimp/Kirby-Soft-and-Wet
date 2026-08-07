@@ -1167,6 +1167,14 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Big Fish",spr_KSW_Fish_BigFish,spr_KSW_Fish_BigFish_Pal,series_MegaMan,mint,1,androidPort,KSW_Phases.night,20000);
 	scr_KSW_AddFish("Bubble Man",spr_KSW_Fish_BubbleMan,spr_KSW_Fish_BubbleMan_Pal,series_MegaMan,mint,2,androidPort,KSW_Phases.night,20000);
 	scr_KSW_AddFish("Wood Man",spr_KSW_Fish_WoodMan,spr_KSW_Fish_WoodMan_Pal,series_MegaMan,borange,2,grassBeach,KSW_Phases.afternoon,20000);
+	
+	scr_KSW_AddFish("Air Man",spr_KSW_Fish_AirMan,spr_KSW_Fish_AirMan_Pal,series_MegaMan,mage,2,androidPort,KSW_Phases.day,20000);
+	scr_KSW_AddFish("Crash Man",spr_KSW_Fish_CrashMan,spr_KSW_Fish_CrashMan_Pal,series_MegaMan,mint,2,androidPort,KSW_Phases.night,20000);
+	scr_KSW_AddFish("Flash Man",spr_KSW_Fish_FlashMan,spr_KSW_Fish_FlashMan_Pal,series_MegaMan,maze,2,androidPort,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Heat Man",spr_KSW_Fish_HeatMan,spr_KSW_Fish_HeatMan_Pal,series_MegaMan,candy,2,serranoSprings,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Metal Man",spr_KSW_Fish_MetalMan,spr_KSW_Fish_MetalMan_Pal,series_MegaMan,mint,2,androidPort,KSW_Phases.night,20000);
+	scr_KSW_AddFish("Quick Man",spr_KSW_Fish_QuickMan,spr_KSW_Fish_QuickMan_Pal,series_MegaMan,legion,2,androidPort,KSW_Phases.day,20000);
+	
 	scr_KSW_AddFish("Alien",spr_KSW_Fish_Alien,spr_KSW_Fish_Alien_Pal,series_MegaMan,maze,3,androidPort,KSW_Phases.none,200000);
 	scr_KSW_AddFish("Mecha Dragon",spr_KSW_Fish_MechaDragon,spr_KSW_Fish_MechaDragon_Pal,series_MegaMan,maze,3,androidPort,KSW_Phases.none,200000);
 	
