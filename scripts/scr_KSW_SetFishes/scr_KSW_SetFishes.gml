@@ -1149,13 +1149,14 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Foot Holder",spr_KSW_Fish_FootHolder,spr_KSW_Fish_FootHolder_Pal,series_MegaMan,mage,1,androidPort,KSW_Phases.night,1000);
 	scr_KSW_AddFish("Sniper Joe",spr_KSW_Fish_SniperJoe,spr_KSW_Fish_SniperJoe_Pal,series_MegaMan,maze,1,androidPort,,1000);
 	scr_KSW_AddFish("Big Eye",spr_KSW_Fish_BigEye,spr_KSW_Fish_BigEye_Pal,series_MegaMan,flux,1,androidPort,KSW_Phases.afternoon,10000);
-	scr_KSW_AddFish("CWU-01P",spr_KSW_Fish_CWU01P,spr_KSW_Fish_CWU01P_Pal,series_MegaMan,mage,2,androidPort,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Ice Man",spr_KSW_Fish_IceMan,spr_KSW_Fish_IceMan_Pal,series_MegaMan,mage,2,creamCrevasse,KSW_Phases.day,10000);
 	scr_KSW_AddFish("Elec Man",spr_KSW_Fish_ElecMan,spr_KSW_Fish_ElecMan_Pal,series_MegaMan,glimmer,2,androidPort,KSW_Phases.night,10000);
 	scr_KSW_AddFish("Fire Man",spr_KSW_Fish_FireMan,spr_KSW_Fish_FireMan_Pal,series_MegaMan,borange,2,serranoSprings,KSW_Phases.afternoon,10000);
 	scr_KSW_AddFish("Guts Man",spr_KSW_Fish_GutsMan,spr_KSW_Fish_GutsMan_Pal,series_MegaMan,candy,2,serranoSprings,KSW_Phases.day,10000);
 	scr_KSW_AddFish("Cut Man",spr_KSW_Fish_CutMan,spr_KSW_Fish_CutMan_Pal,series_MegaMan,mint,2,hallowReen,KSW_Phases.day,10000);
 	scr_KSW_AddFish("Bomb Man",spr_KSW_Fish_BombMan,spr_KSW_Fish_BombMan_Pal,series_MegaMan,maze,2,androidPort,KSW_Phases.day,10000);
+	scr_KSW_AddFish("CWU-01P",spr_KSW_Fish_CWU01P,spr_KSW_Fish_CWU01P_Pal,series_MegaMan,mage,3,androidPort,KSW_Phases.none,100000);
+	scr_KSW_AddFish("Yellow Devil",spr_KSW_Fish_YellowDevil,spr_KSW_Fish_YellowDevil_Pal,series_MegaMan,maze,3,androidPort,KSW_Phases.none,100000);
 	
 	scr_KSW_AddFish("Tashini",spr_KSW_Fish_Tanishi,spr_KSW_Fish_Tanishi_Pal,series_MegaMan,candy,0,grassBeach,KSW_Phases.day,2000);
 	scr_KSW_AddFish("Shrink",spr_KSW_Fish_Shrink,spr_KSW_Fish_Shrink_Pal,series_MegaMan,candy,0,grassBeach,KSW_Phases.day,2000);
