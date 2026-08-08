@@ -398,9 +398,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Egg Fish",spr_KSW_Fish_EggFish,spr_KSW_Fish_EggFish_Pal_Normal,series_CaveStory,borange,1,grassBeach,KSW_Phases.afternoon,2000,-4,0);
 	scr_KSW_AddFish("Ikachan",spr_KSW_Fish_Ikachan,spr_KSW_Fish_Ikachan_Pal_Normal,series_CaveStory,mage,2,grassBeach,KSW_Phases.night,4600);
 	scr_KSW_AddFish("Ironhead",spr_KSW_Fish_Ironhead,spr_KSW_Fish_Ironhead_Pal_Normal,series_CaveStory,legion,3,grassBeach,KSW_Phases.night,55480,-46,-10);
-	scr_KSW_AddFish("Sea-Shroom",spr_KSW_Fish_SeaShroom,spr_KSW_Fish_SeaShroom_Pal_Normal,series_PlantsVsZombies,mint,2,grassBeach,KSW_Phases.night,5000);
-	scr_KSW_AddFish("Tangle Kelp",spr_KSW_Fish_TangleKelp,spr_KSW_Fish_TangleKelp_Pal_Normal,series_PlantsVsZombies,mint,2,grassBeach,KSW_Phases.day,5000);
-	scr_KSW_AddFish("Snorkel Zombie",spr_KSW_Fish_SnorkelZombie,spr_KSW_Fish_SnorkelZombie_Pal_Normal,series_PlantsVsZombies,mint,3,hallowReen,KSW_Phases.none,12000,-16,6);
+	scr_KSW_AddFish("Sea-Shroom",spr_KSW_Fish_SeaShroom,spr_KSW_Fish_SeaShroom_Pal_Normal,series_PlantsVsZombies,mint,2,androidPort,KSW_Phases.night,5000);
+	scr_KSW_AddFish("Tangle Kelp",spr_KSW_Fish_TangleKelp,spr_KSW_Fish_TangleKelp_Pal_Normal,series_PlantsVsZombies,mint,2,androidPort,KSW_Phases.day,5000);
+	scr_KSW_AddFish("Snorkel Zombie",spr_KSW_Fish_SnorkelZombie,spr_KSW_Fish_SnorkelZombie_Pal_Normal,series_PlantsVsZombies,mint,3,androidPort,KSW_Phases.afternoon,12000,-16,6);
 	scr_KSW_AddFish("Rotten Flesh",spr_KSW_Fish_RottenFlesh,spr_KSW_Fish_RottenFlesh_Pal_Normal,series_Minecraft,borange,0,grassBeach,KSW_Phases.none,40);
 	scr_KSW_AddFish("Leather Boots",spr_KSW_Fish_LeatherBoots,spr_KSW_Fish_LeatherBoots_Pal_Normal,series_Minecraft,borange,0,grassBeach,KSW_Phases.none,60);
 	scr_KSW_AddFish("Leather",spr_KSW_Fish_Leather,spr_KSW_Fish_Leather_Pal_Normal,series_Minecraft,borange,0,grassBeach,KSW_Phases.none,50);
