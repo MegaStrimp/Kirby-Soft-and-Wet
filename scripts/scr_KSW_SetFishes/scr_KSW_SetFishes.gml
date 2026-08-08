@@ -89,6 +89,7 @@ function scr_KSW_SetFishes()
 	var series_NuclearThrone = global.KSW_SeriesIDs[? "nuclearThrone"];
 	var series_FiveNightsAtFreddys = global.KSW_SeriesIDs[? "fiveNightsAtFreddys"];
 	var series_SnowBros = global.KSW_SeriesIDs[? "snowBros"];
+	var series_ClashClans = global.KSW_SeriesIDs[? "clashClans"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1388,6 +1389,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Teraspis",spr_KSW_Fish_Teraspis,spr_KSW_Fish_Teraspis_Pal,series_RogueHeroes,borange,3,serranoSprings,KSW_Phases.night,7500);
 	scr_KSW_AddFish("Dunkleosteus",spr_KSW_Fish_Dunkleosteus,spr_KSW_Fish_Dunkleosteus_Pal,series_RogueHeroes,mint,3,hallowReen,KSW_Phases.day,88000);
 	scr_KSW_AddFish("Faby",spr_KSW_Fish_FlappyBird,spr_KSW_Fish_FlappyBird_Pal,series_FlappyBird,mage,0,androidPort,KSW_Phases.day,2013);
+	scr_KSW_AddFish("Barbarian",spr_KSW_Fish_Barbarian,spr_KSW_Fish_Barbarian_Pal,series_ClashClans,mint,0,androidPort,KSW_Phases.day,2012);
+	scr_KSW_AddFish("Master Builder",spr_KSW_Fish_MasterBuilder,spr_KSW_Fish_MasterBuilder_Pal,series_ClashClans,mint,0,androidPort,KSW_Phases.afternoon,2013);
+	scr_KSW_AddFish("Goblin (Clash)",spr_KSW_Fish_ClashGoblin,spr_KSW_Fish_ClashGoblin_Pal,series_ClashClans,mint,0,androidPort,KSW_Phases.night,2016);
 	scr_KSW_AddFish("Maxwell",spr_KSW_Fish_Maxwell,spr_KSW_Fish_Maxwell_Pal,series_Scribblenauts,glimmer,0,androidPort,,2012);
 	scr_KSW_AddFish("Ninja Shark",spr_KSW_Fish_NinjaShark,spr_KSW_Fish_NinjaShark_Pal,series_Scribblenauts,maze,1,androidPort,KSW_Phases.night,2009);
 	scr_KSW_AddFish("Cecaelia",spr_KSW_Fish_Cecaelia,spr_KSW_Fish_Cecaelia_Pal,series_Scribblenauts,candy,2,androidPort,KSW_Phases.day,1989);

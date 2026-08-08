@@ -87,6 +87,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("nuclearThrone","Nuclear Throne");
 	scr_KSW_AddSeries("fiveNightsAtFreddys","Five Nights at Freddy's");
 	scr_KSW_AddSeries("snowBros","Snow Bros");
+	scr_KSW_AddSeries("clashClans","Clash of Clans");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
