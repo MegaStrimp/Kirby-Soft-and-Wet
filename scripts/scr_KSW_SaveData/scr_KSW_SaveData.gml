@@ -140,6 +140,10 @@ function scr_KSW_SaveData(file)
 			if ((global.KSW_StealthTutorialList[i].isSavable != false) and (global.KSW_StealthTutorialList[i].isObtained != false)) ini_write_real("stealthTutorialStatus",string(stealthTutorialID) + "_Obtained",global.KSW_StealthTutorialList[i].isObtained);
 		}
 		#endregion
+		
+		#region Misc
+		if (global.KSW_EnteredAquariumAlt != false) ini_write_real("misc","enteredAquariumAlt",global.KSW_EnteredAquariumAlt);
+		#endregion
 	
 		ini_close();
 	

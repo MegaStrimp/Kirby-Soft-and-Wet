@@ -139,3 +139,5 @@ if ((endTimer == -1) and (alphaTarget == 1))
 	scribble(continueIcon + "CONTINUE").draw(4,room_height - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
 }
 #endregion
+
+draw_set_alpha(1);

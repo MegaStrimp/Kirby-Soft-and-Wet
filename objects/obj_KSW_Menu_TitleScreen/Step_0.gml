@@ -152,7 +152,13 @@ if (canSelect)
 		{
 			scr_PlaySfx(snd_KSW_Enter);
 			
-			scr_GoToRoom(rm_KSW_Menu_Aquarium,false);
+			var targetRoom = rm_KSW_Menu_Aquarium;
+			if (!global.KSW_EnteredAquariumAlt)
+			{
+				var rng = irandom(9);
+				if (rng == 0) targetRoom = rm_KSW_Menu_AquariumAlt;
+			}
+			scr_GoToRoom(targetRoom,false);
 		}
 		break;
 		

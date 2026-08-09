@@ -53,6 +53,13 @@ if (bubbleTimer != -1)
 }
 #endregion
 
+#region Debug
+if ((global.debug) and (keyboard_check_pressed(ord("L"))))
+{
+	room_goto(rm_KSW_Menu_AquariumAlt);
+}
+#endregion
+
 #region Button Input Timers
 scr_Component_ButtonInputTimer_Step();
 #endregion
