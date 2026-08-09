@@ -22,7 +22,7 @@ if (!localPause)
 	#endregion
 	
 	#region Skip
-	if ((isSkippable) and ((input_check_pressed("start",playerNum)) or (mouse_check_button_pressed(mb_left)))) //STRIMPTODO FIX MOUSE AUDIO BUG
+	if ((isSkippable) and ((input_check_pressed("start",playerNum)) or (mouse_check_button_pressed(mb_left))))
 	{
 		isSkippable = false;
 		

@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":11,
   "bbox_left":0,
-  "bbox_right":77,
+  "bbox_right":82,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -13,14 +13,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8204577e-af5c-4b95-bf1d-1fab99660694","name":"8204577e-af5c-4b95-bf1d-1fab99660694","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d9a4db84-4b96-40ea-b266-c41d8fc2ecf4","name":"d9a4db84-4b96-40ea-b266-c41d8fc2ecf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":12,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"69456179-a71e-4c8c-bed5-5ce305ba9caf","blendMode":0,"displayName":"default","isLocked":false,"name":"69456179-a71e-4c8c-bed5-5ce305ba9caf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6a4a09d4-ad72-48a6-9e37-631602f507b6","blendMode":0,"displayName":"default","isLocked":false,"name":"6a4a09d4-ad72-48a6-9e37-631602f507b6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Menu_TitleScreen_Text_Aquarium",
   "nineSlice":null,
@@ -72,13 +72,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8204577e-af5c-4b95-bf1d-1fab99660694","path":"sprites/spr_KSW_Menu_TitleScreen_Text_Aquarium/spr_KSW_Menu_TitleScreen_Text_Aquarium.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bc571e19-915f-4ceb-ba71-7c854b8ede09","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d9a4db84-4b96-40ea-b266-c41d8fc2ecf4","path":"sprites/spr_KSW_Menu_TitleScreen_Text_Aquarium/spr_KSW_Menu_TitleScreen_Text_Aquarium.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4050c0f-6eea-4055-a6ed-1d15f3401c2f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":39,
+    "xorigin":41,
     "yorigin":0,
   },
   "swatchColours":null,
@@ -89,5 +89,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":78,
+  "width":83,
 }

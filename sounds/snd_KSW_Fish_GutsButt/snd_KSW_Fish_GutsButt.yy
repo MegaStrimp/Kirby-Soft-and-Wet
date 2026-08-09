@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_KSW_Fish_GutsButt.mp3",
+  "tags":[
+    "Sound Effect",
+  ],
   "volume":1.0,
 }

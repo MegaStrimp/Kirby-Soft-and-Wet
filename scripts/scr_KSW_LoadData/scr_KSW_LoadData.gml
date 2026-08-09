@@ -221,5 +221,9 @@ function scr_KSW_LoadData(file,importFile = false)
 	}
 	#endregion
 	
+	#region Misc
+	global.KSW_EnteredAquariumAlt = ini_read_real("misc","enteredAquariumAlt",false);
+	#endregion
+	
 	ini_close();
 }
