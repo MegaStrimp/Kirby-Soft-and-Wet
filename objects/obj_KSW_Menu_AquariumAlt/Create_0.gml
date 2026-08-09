@@ -10,5 +10,9 @@ playerNum = 0;
 
 state = 0;
 stateTimer = 210;
+
+decorTimer = 0;
+decorTimerMin = 60;
+decorTimerMax = 240;
 #endregion
 #endregion
