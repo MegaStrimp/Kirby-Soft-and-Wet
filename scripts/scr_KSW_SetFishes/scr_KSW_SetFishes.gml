@@ -1540,6 +1540,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Yoko Belnades",spr_KSW_Fish_YokoBelnades,spr_KSW_Fish_YokoBelnades_Pal,series_Castlevania,candy,2,hallowReen,KSW_Phases.day,2035);
 	scr_KSW_AddFish("Yung Cuz",spr_KSW_Fish_YungCuz,spr_KSW_Fish_YungCuz_Pal,series_NuclearThrone,mint,2,anyStage,KSW_Phases.none,9040);
 	scr_KSW_AddFish("Yung Venuz",spr_KSW_Fish_YungVenuz,spr_KSW_Fish_YungVenuz_Pal,series_NuclearThrone,mint,2,anyStage,KSW_Phases.none,13530);
+	scr_KSW_AddFish("Herbfish",spr_KSW_Fish_Herbfish,spr_KSW_Fish_Herbfish_Pal,series_Misc,borange,3,androidPort,KSW_Phases.night,60126,3,12,,snd_KSW_Fish_Herbfish);
 	#endregion
 	#endregion
 }

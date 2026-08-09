@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_KSW_Fish_GutsButt",
+  "%Name":"snd_KSW_Fish_Herbfish",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.4144444,
+  "duration":1.4850794,
   "exportDir":"",
-  "name":"snd_KSW_Fish_GutsButt",
+  "name":"snd_KSW_Fish_Herbfish",
   "parent":{
     "name":"Fish",
     "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy",
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Fish_GutsButt.mp3",
+  "soundFile":"snd_KSW_Fish_Herbfish.ogg",
   "tags":[
     "Sound Effect",
   ],
