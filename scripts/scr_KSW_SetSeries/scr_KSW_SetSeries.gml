@@ -35,6 +35,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("theBindingOfIsaacRebirth","The Binding of Isaac: Rebirth");
 	scr_KSW_AddSeries("theBindingOfIsaacForgottenFables","The Binding of Isaac - Forgotten Fables");
 	scr_KSW_AddSeries("kirbysDreamLand23","Kirby's Dream Land 2 + 3");
+	scr_KSW_AddSeries("megaManSequelWars","Mega Man: The Sequel Wars");
 	scr_KSW_AddSeries("undertale","Undertale");
 	scr_KSW_AddSeries("deltarune","Deltarune");
 	scr_KSW_AddSeries("off","OFF");
@@ -86,6 +87,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("nuclearThrone","Nuclear Throne");
 	scr_KSW_AddSeries("fiveNightsAtFreddys","Five Nights at Freddy's");
 	scr_KSW_AddSeries("snowBros","Snow Bros");
+	scr_KSW_AddSeries("clashClans","Clash of Clans");
 	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
