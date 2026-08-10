@@ -8,3 +8,7 @@
 ![Bubble3](dev/Kirby%20Soft%20&%20Wet/Itch/KSW_Itch_Bubble3.gif)
 
 ![Bubble4](dev/Kirby%20Soft%20&%20Wet/Itch/KSW_Itch_Bubble4.gif)
+
+![Bubble5](dev/Kirby%20Soft%20&%20Wet/Itch/KSW_Itch_Bubble5.gif)
+
+![Bubble6](dev/Kirby%20Soft%20&%20Wet/Itch/KSW_Itch_Bubble6.gif)
