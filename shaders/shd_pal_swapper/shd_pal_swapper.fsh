@@ -1,3 +1,5 @@
+precision highp float;
+
 #define Transparent vec4(.0,.0,.0,.0)
 #define Tolerance 0.004 
 //If you feel like your colors should be matching but aren't, increase this number a bit.

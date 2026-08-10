@@ -1,3 +1,5 @@
+precision highp float;
+
 //********SETUP*********
 //The following variables must be populated specific to your project.
 #define TexturePageSize 2048. 

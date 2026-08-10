@@ -92,7 +92,7 @@ if (selection == i)
 
 if ((!global.isMobile) and (!global.isOpera))
 {
-	scribble("WINDOW SIZE").draw(8,startY + (space * i));
+	scribble("WINDOW SIZE " + string(global.windowScaleTarget)).draw(8,startY + (space * i));
 }
 else
 {
