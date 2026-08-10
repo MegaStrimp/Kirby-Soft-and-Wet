@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":259.18875,
+  "duration":0.0,
   "exportDir":"",
   "name":"mus_KSW_PipoPipo",
   "parent":{

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_KSW_PacVillage",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":176.56453,
+  "exportDir":"",
+  "name":"mus_KSW_PacVillage",
+  "parent":{
+    "name":"Day",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Day.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_PacVillage.mp3",
+  "volume":1.0,
+}
