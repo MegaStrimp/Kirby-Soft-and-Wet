@@ -35,11 +35,11 @@ function scr_KSW_SetFishes()
 	var series_TheBindingOfIsaacRebirth = global.KSW_SeriesIDs[? "theBindingOfIsaacRebirth"];
 	var series_TheBindingOfIsaacForgottenFables = global.KSW_SeriesIDs[? "theBindingOfIsaacForgottenFables"];
 	var series_KirbysDreamLand23 = global.KSW_SeriesIDs[? "kirbysDreamLand23"];
-	var series_MegaManSequelWars = global.KSW_SeriesIDs[? "megaManSequelWars"];
 	var series_Undertale = global.KSW_SeriesIDs[? "undertale"];
 	var series_Deltarune = global.KSW_SeriesIDs[? "deltarune"];
 	var series_Off = global.KSW_SeriesIDs[? "off"];
 	var series_DonkeyKongCountry = global.KSW_SeriesIDs[? "donkeyKongCountry"];
+	var series_DonkeyKongLand = global.KSW_SeriesIDs[? "donkeyKongLand"];
 	var series_Digimon = global.KSW_SeriesIDs[? "digimon"];
 	var series_HollowKnight = global.KSW_SeriesIDs[? "hollowKnight"];
 	var series_SaintsRow = global.KSW_SeriesIDs[? "saintsRow"];
@@ -52,6 +52,7 @@ function scr_KSW_SetFishes()
 	var series_PizzaTower = global.KSW_SeriesIDs[? "pizzaTower"];
 	var series_ShovelKnight = global.KSW_SeriesIDs[? "shovelKnight"];
 	var series_MegaMan = global.KSW_SeriesIDs[? "megaMan"];
+	var series_MegaManSequelWars = global.KSW_SeriesIDs[? "megaManSequelWars"];
 	var series_Peggle = global.KSW_SeriesIDs[? "peggle"];
 	var series_AntonBlast = global.KSW_SeriesIDs[? "antonBlast"];
 	var series_AntonBlast = global.KSW_SeriesIDs[? "pizzaTower"]; //Funny
@@ -1606,6 +1607,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Yung Cuz",spr_KSW_Fish_YungCuz,spr_KSW_Fish_YungCuz_Pal,series_NuclearThrone,mint,2,anyStage,KSW_Phases.none,9040);
 	scr_KSW_AddFish("Yung Venuz",spr_KSW_Fish_YungVenuz,spr_KSW_Fish_YungVenuz_Pal,series_NuclearThrone,mint,2,anyStage,KSW_Phases.none,13530);
 	scr_KSW_AddFish("Herbfish",spr_KSW_Fish_Herbfish,spr_KSW_Fish_Herbfish_Pal,series_Misc,borange,3,androidPort,KSW_Phases.night,60126,3,12,,snd_KSW_Fish_Herbfish);
+	scr_KSW_AddFish("Gloop",spr_KSW_Fish_Gloop,spr_KSW_Fish_Gloop_Pal,series_DonkeyKongLand,glimmer,0,grassBeach,KSW_Phases.day,400);
+	scr_KSW_AddFish("Flapper",spr_KSW_Fish_Flapper,spr_KSW_Fish_Flapper_Pal,series_DonkeyKongLand,mint,0,grassBeach,KSW_Phases.afternoon,400);
+	scr_KSW_AddFish("Fangfish",spr_KSW_Fish_Fangfish,spr_KSW_Fish_Fangfish_Pal,series_DonkeyKongLand,mage,1,grassBeach,KSW_Phases.night,500);
+	scr_KSW_AddFish("Nemo",spr_KSW_Fish_Nemo,spr_KSW_Fish_Nemo_Pal,series_DonkeyKongLand,legion,2,grassBeach,KSW_Phases.night,2800);
+	scr_KSW_AddFish("Hogwash",spr_KSW_Fish_Hogwash,spr_KSW_Fish_Hogwash_Pal,series_DonkeyKongLand,candy,3,grassBeach,KSW_Phases.day,3000);
 	#endregion
 	#endregion
 }
