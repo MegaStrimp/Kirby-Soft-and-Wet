@@ -155,7 +155,7 @@ if (canSelect)
 			var targetRoom = rm_KSW_Menu_Aquarium;
 			if (!global.KSW_EnteredAquariumAlt)
 			{
-				var rng = irandom(9);
+				var rng = irandom(14);
 				if (rng == 0) targetRoom = rm_KSW_Menu_AquariumAlt;
 			}
 			scr_GoToRoom(targetRoom,false);
