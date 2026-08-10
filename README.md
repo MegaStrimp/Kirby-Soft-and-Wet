@@ -12,3 +12,10 @@
 ![Bubble5](dev/Kirby%20Soft%20&%20Wet/Itch/KSW_Itch_Bubble5.gif)
 
 ![Bubble6](dev/Kirby%20Soft%20&%20Wet/Itch/KSW_Itch_Bubble6.gif)
+
+Welcome to Kirby ~ Soft & Wet, a huge Kirby fishing fangame! This is a game where you catch as many fish as you can, with plenty of customization options!
+Equip your fanciest Spray Paint, put on your cap, get your brightest dollar-store baits & bobbers, and continue your fishing journey like never before!
+Fish alongside your favorite Kirby Dream Friends, including Gooey, Marx, Waddle Dee, and many more, each bringing their own charm to your fishing adventure!
+Explore a variety of stages, discover and collect every unique fish, complete your Fishbook, and build your own Aquarium!
+
+Kirby ~ Soft & Wet is available now on Windows, Android, and your Web Browser!
