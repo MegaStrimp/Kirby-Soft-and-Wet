@@ -2527,6 +2527,7 @@
     {"name":"scr_Player_GetHit","order":2,"path":"scripts/scr_Player_GetHit/scr_Player_GetHit.yy",},
     {"name":"scr_retro_pal_swapper_utilities","order":1,"path":"scripts/scr_retro_pal_swapper_utilities/scr_retro_pal_swapper_utilities.yy",},
     {"name":"scr_Screen_Setup","order":1,"path":"scripts/scr_Screen_Setup/scr_Screen_Setup.yy",},
+    {"name":"scr_Screen_WriteAllSpecs","order":2,"path":"scripts/scr_Screen_WriteAllSpecs/scr_Screen_WriteAllSpecs.yy",},
     {"name":"scr_SetGlobalFreezeFrame","order":1,"path":"scripts/scr_SetGlobalFreezeFrame/scr_SetGlobalFreezeFrame.yy",},
     {"name":"scr_Stage_End","order":2,"path":"scripts/scr_Stage_End/scr_Stage_End.yy",},
     {"name":"scr_StageEntityTracker_Destroy","order":1,"path":"scripts/scr_StageEntityTracker_Destroy/scr_StageEntityTracker_Destroy.yy",},

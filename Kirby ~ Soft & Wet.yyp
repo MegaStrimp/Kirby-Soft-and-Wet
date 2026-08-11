@@ -2923,6 +2923,7 @@
     {"id":{"name":"scr_retro_pal_swapper","path":"scripts/scr_retro_pal_swapper/scr_retro_pal_swapper.yy",},},
     {"id":{"name":"scr_Screen_ScaleToDisplaySize","path":"scripts/scr_Screen_ScaleToDisplaySize/scr_Screen_ScaleToDisplaySize.yy",},},
     {"id":{"name":"scr_Screen_Setup","path":"scripts/scr_Screen_Setup/scr_Screen_Setup.yy",},},
+    {"id":{"name":"scr_Screen_WriteAllSpecs","path":"scripts/scr_Screen_WriteAllSpecs/scr_Screen_WriteAllSpecs.yy",},},
     {"id":{"name":"scr_SetAttackTypes","path":"scripts/scr_SetAttackTypes/scr_SetAttackTypes.yy",},},
     {"id":{"name":"scr_SetGlobalFreezeFrame","path":"scripts/scr_SetGlobalFreezeFrame/scr_SetGlobalFreezeFrame.yy",},},
     {"id":{"name":"scr_SetGlobalSpeedMultiplier","path":"scripts/scr_SetGlobalSpeedMultiplier/scr_SetGlobalSpeedMultiplier.yy",},},
