@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":150.98666,
+  "duration":150.9765,
   "exportDir":"",
   "name":"mus_KSW_GnorcCove",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_GnorcCove.mp3",
+  "soundFile":"mus_KSW_GnorcCove.ogg",
   "volume":1.0,
 }

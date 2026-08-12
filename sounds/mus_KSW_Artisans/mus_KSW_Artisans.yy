@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":113.86667,
+  "duration":113.85651,
   "exportDir":"",
   "name":"mus_KSW_Artisans",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_Artisans.mp3",
+  "soundFile":"mus_KSW_Artisans.ogg",
   "volume":1.0,
 }

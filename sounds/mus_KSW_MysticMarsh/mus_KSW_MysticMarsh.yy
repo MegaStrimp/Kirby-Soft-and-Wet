@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_KSW_SummerForest",
+  "%Name":"mus_KSW_MysticMarsh",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":153.17334,
+  "duration":226.76317,
   "exportDir":"",
-  "name":"mus_KSW_SummerForest",
+  "name":"mus_KSW_MysticMarsh",
   "parent":{
     "name":"Afternoon",
     "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Afternoon.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_SummerForest.ogg",
+  "soundFile":"mus_KSW_MysticMarsh.ogg",
   "volume":1.0,
 }

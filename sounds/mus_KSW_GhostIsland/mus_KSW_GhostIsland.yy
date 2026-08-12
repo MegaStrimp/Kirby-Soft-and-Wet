@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_GhostIsland.mp3",
+  "soundFile":"mus_KSW_GhostIsland.ogg",
   "volume":1.0,
 }

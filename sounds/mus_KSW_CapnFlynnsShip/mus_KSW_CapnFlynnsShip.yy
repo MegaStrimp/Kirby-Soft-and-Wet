@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_CapnFlynnsShip.mp3",
+  "soundFile":"mus_KSW_CapnFlynnsShip.ogg",
   "volume":1.0,
 }
