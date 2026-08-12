@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_KSW_PipoPipo",
+  "%Name":"mus_KSW_TheBearBasics",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,20 +10,17 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":183.80916,
   "exportDir":"",
-  "name":"mus_KSW_PipoPipo",
+  "name":"mus_KSW_TheBearBasics",
   "parent":{
-    "name":"Day",
-    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Day.yy",
+    "name":"Afternoon",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Afternoon.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
-  "soundFile":"mus_KSW_PipoPipo.ogg",
-  "tags":[
-    "Music",
-  ],
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_TheBearBasics.ogg",
   "volume":1.0,
 }

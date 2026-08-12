@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_KSW_PipoPipo",
+  "%Name":"mus_KSW_GhostIsland",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":94.56433,
   "exportDir":"",
-  "name":"mus_KSW_PipoPipo",
+  "name":"mus_KSW_GhostIsland",
   "parent":{
     "name":"Day",
     "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Day.yy",
@@ -20,10 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
-  "soundFile":"mus_KSW_PipoPipo.ogg",
-  "tags":[
-    "Music",
-  ],
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_GhostIsland.ogg",
   "volume":1.0,
 }
