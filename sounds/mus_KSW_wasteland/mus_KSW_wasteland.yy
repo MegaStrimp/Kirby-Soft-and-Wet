@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_KSW_wasteland",
+  "%Name":"mus_KSW_Wasteland",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":169.85994,
   "exportDir":"",
-  "name":"mus_KSW_wasteland",
+  "name":"mus_KSW_Wasteland",
   "parent":{
     "name":"Afternoon",
     "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Afternoon.yy",
@@ -21,7 +21,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_wasteland.ogg",
+  "soundFile":"mus_KSW_Wasteland.ogg",
   "tags":[
     "Music",
   ],

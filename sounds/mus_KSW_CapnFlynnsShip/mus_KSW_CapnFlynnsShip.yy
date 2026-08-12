@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mus_KSW_CapnFlynnsShip.ogg",
+  "tags":[
+    "Music",
+  ],
   "volume":1.0,
 }

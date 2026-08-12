@@ -1646,23 +1646,37 @@
     {"$GMFolder":"","%Name":"Afternoon","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Afternoon.yy","name":"Afternoon","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
         "Music",
       ],},
-    {"$GMFolder":"","%Name":"Cream Crevasse","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse.yy","name":"Cream Crevasse","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Cream Crevasse","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse.yy","name":"Cream Crevasse","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
+        "Music",
+      ],},
     {"$GMFolder":"","%Name":"Afternoon","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse/Afternoon.yy","name":"Afternoon","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Day","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse/Day.yy","name":"Day","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Night","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse/Night.yy","name":"Night","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Day","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse/Day.yy","name":"Day","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
+        "Music",
+      ],},
+    {"$GMFolder":"","%Name":"Night","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Cream Crevasse/Night.yy","name":"Night","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
+        "Music",
+      ],},
     {"$GMFolder":"","%Name":"Day","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Day.yy","name":"Day","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
         "Music",
       ],},
     {"$GMFolder":"","%Name":"Grass Beach","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Grass Beach.yy","name":"Grass Beach","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Hallow Reen","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Hallow Reen.yy","name":"Hallow Reen","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Hallow Reen","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Hallow Reen.yy","name":"Hallow Reen","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
+        "Music",
+      ],},
     {"$GMFolder":"","%Name":"Afternoon","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Hallow Reen/Afternoon.yy","name":"Afternoon","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Day","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Hallow Reen/Day.yy","name":"Day","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Night","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Hallow Reen/Night.yy","name":"Night","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Night","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Hallow Reen/Night.yy","name":"Night","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
+        "Music",
+      ],},
     {"$GMFolder":"","%Name":"Night","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Night.yy","name":"Night","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
         "Music",
       ],},
-    {"$GMFolder":"","%Name":"Shared","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared.yy","name":"Shared","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Afternoon","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Afternoon.yy","name":"Afternoon","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Shared","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared.yy","name":"Shared","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
+        "Music",
+      ],},
+    {"$GMFolder":"","%Name":"Afternoon","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Afternoon.yy","name":"Afternoon","resourceType":"GMFolder","resourceVersion":"2.0","tags":[
+        "Music",
+      ],},
     {"$GMFolder":"","%Name":"Day","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Day.yy","name":"Day","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Night","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Night.yy","name":"Night","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Unsorted","folderPath":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Unsorted.yy","name":"Unsorted","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -3093,7 +3107,7 @@
     {"id":{"name":"mus_KSW_Tank2","path":"sounds/mus_KSW_Tank2/mus_KSW_Tank2.yy",},},
     {"id":{"name":"mus_KSW_TheBearBasics","path":"sounds/mus_KSW_TheBearBasics/mus_KSW_TheBearBasics.yy",},},
     {"id":{"name":"mus_KSW_Title","path":"sounds/mus_KSW_Title/mus_KSW_Title.yy",},},
-    {"id":{"name":"mus_KSW_wasteland","path":"sounds/mus_KSW_wasteland/mus_KSW_wasteland.yy",},},
+    {"id":{"name":"mus_KSW_Wasteland","path":"sounds/mus_KSW_Wasteland/mus_KSW_Wasteland.yy",},},
     {"id":{"name":"mus_KSW_WateryGraves","path":"sounds/mus_KSW_WateryGraves/mus_KSW_WateryGraves.yy",},},
     {"id":{"name":"mus_KSW_WhispyStage","path":"sounds/mus_KSW_WhispyStage/mus_KSW_WhispyStage.yy",},},
     {"id":{"name":"snd_Error","path":"sounds/snd_Error/snd_Error.yy",},},

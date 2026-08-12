@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":174.61406,
+  "duration":174.6039,
   "exportDir":"",
   "name":"mus_KSW_ScubaDuba",
   "parent":{
@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mus_KSW_ScubaDuba.ogg",
+  "tags":[
+    "Music",
+  ],
   "volume":1.0,
 }
