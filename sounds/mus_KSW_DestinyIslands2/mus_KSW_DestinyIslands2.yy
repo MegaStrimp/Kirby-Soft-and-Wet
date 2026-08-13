@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_KSW_Wasteland",
+  "%Name":"mus_KSW_DestinyIslands2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,20 +10,20 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":169.85994,
+  "duration":163.7355,
   "exportDir":"",
-  "name":"mus_KSW_Wasteland",
+  "name":"mus_KSW_DestinyIslands2",
   "parent":{
-    "name":"Afternoon",
-    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Afternoon.yy",
+    "name":"Night",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Night.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_Wasteland.ogg",
+  "soundFile":"mus_KSW_DestinyIslands2.ogg",
   "tags":[
     "Music",
   ],
-  "volume":0.5,
+  "volume":1.0,
 }

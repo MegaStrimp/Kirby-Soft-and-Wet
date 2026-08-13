@@ -7,9 +7,10 @@
 
 * Nkrapivindev - Neko Presence
 * Azifly - ZincLock Music
-* Pixelated Pope - Retro Palette Swapper & Twerp Script
+* Pixelated Pope - Retro Palette Swapper
 * Pixelated Pope - Twerp Script
 * Pixelated Pope - Draw Surface Ext Origin Script
+* Pixelated Pope - Screen - Write All Specs Script
 * JujuAdams - Input
 * QuantumV - Color Key Mask
 * Mimpy - Sine Script

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_KSW_Wasteland",
+  "%Name":"mus_KSW_GhostIsland",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,20 +10,20 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":169.85994,
+  "duration":94.56433,
   "exportDir":"",
-  "name":"mus_KSW_Wasteland",
+  "name":"mus_KSW_GhostIsland",
   "parent":{
-    "name":"Afternoon",
-    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Afternoon.yy",
+    "name":"Day",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Day.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_KSW_Wasteland.ogg",
+  "soundFile":"mus_KSW_GhostIsland.ogg",
   "tags":[
     "Music",
   ],
-  "volume":0.5,
+  "volume":1.0,
 }

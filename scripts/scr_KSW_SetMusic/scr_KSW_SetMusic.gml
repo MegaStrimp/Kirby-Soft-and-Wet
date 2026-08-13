@@ -9,6 +9,15 @@ function scr_KSW_SetMusic()
 	global.KSW_MusicIDs = ds_map_create();
 	#endregion
 	
+	/*
+	IF YOU ADD MUSIC MAKE SURE TO
+	* NOT INFLATE THE FILESIZE, NEVER USE EXTENDED TRACKS
+	* NORMALIZE IT BY -2 db
+	* IMPORT *.ogg
+	* GIVE THEM THE "Music" TAG SO VOLUME SETTINGS WORK
+	* USE "Compressed - Not Streamed" OPTION
+	*/
+	
 	#region Add Music Here
 	#region Day
 	scr_KSW_AddMusic("pipoPipo","Pipo Pipo","Serani Poji",KSW_Phases.day,mus_KSW_PipoPipo);
@@ -23,6 +32,12 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("firstHole","The First Hole","Kirby's Dream Course",KSW_Phases.day,mus_KSW_FirstHole);
 	scr_KSW_AddMusic("onionOcean","Onion Ocean","Kirby's Return to Dream Land",KSW_Phases.day,mus_KSW_OnionOcean);
 	scr_KSW_AddMusic("reefResort","Reef Resort","Kirby Star Allies",KSW_Phases.day,mus_KSW_ReefResort);
+	scr_KSW_AddMusic("destinyIslands","Destiny Islands","Kingdom Hearts",KSW_Phases.day,mus_KSW_DestinyIslands);
+	scr_KSW_AddMusic("artisans","Artisans","Spyro The Dragon",KSW_Phases.day,mus_KSW_Artisans);
+	scr_KSW_AddMusic("sunriseSpring","Sunrise Spring","Spyro: Year of The Dragon",KSW_Phases.day,mus_KSW_SunriseSpring);
+	scr_KSW_AddMusic("junkyardIsles","Junkyard Isles","Skylanders Giants",KSW_Phases.day,mus_KSW_JunkyardIsles);
+	scr_KSW_AddMusic("ghostIsland","Ghost Island","Pac-Man World",KSW_Phases.day,mus_KSW_GhostIsland);
+	scr_KSW_AddMusic("pacVillage","Pac-Village","Pac-Man World 2",KSW_Phases.day,mus_KSW_PacVillage);
 	#endregion
 	
 	#region Afternoon
@@ -39,6 +54,13 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("wateryGraves","Watery Graves","Plants vs Zombies",KSW_Phases.afternoon,mus_KSW_WateryGraves);
 	scr_KSW_AddMusic("perplexingPool","Perplexing Pool","Pikmin 2",KSW_Phases.afternoon,mus_KSW_PerplexingPool);
 	scr_KSW_AddMusic("tank2","Tank 2","Insaniquarium Deluxe",KSW_Phases.afternoon,mus_KSW_Tank2);
+	scr_KSW_AddMusic("wasteland","Wasteland","Calamity Mod",KSW_Phases.afternoon,mus_KSW_Wasteland);
+	scr_KSW_AddMusic("sunnyBeach","Sunny Beach","Spyro 2: Ripto's Rage",KSW_Phases.afternoon,mus_KSW_SunnyBeach);
+	scr_KSW_AddMusic("middayGardens","Midday Gardens","Spyro: Year of The Dragon",KSW_Phases.afternoon,mus_KSW_MiddayGardens);
+	scr_KSW_AddMusic("capnFlynnsShip","Cap'n Flynn's Ship","Skylanders Giants",KSW_Phases.afternoon,mus_KSW_CapnFlynnsShip);
+	scr_KSW_AddMusic("buccaneerBeach","Buccaneer Beach","Pac-Man World",KSW_Phases.afternoon,mus_KSW_BuccaneerBeach);
+	scr_KSW_AddMusic("thebearBasics","The Bear Basics","Pac-Man World 2",KSW_Phases.afternoon,mus_KSW_TheBearBasics);
+	scr_KSW_AddMusic("scubaduba","Scuba Duba","Pac-Man World 2",KSW_Phases.afternoon,mus_KSW_ScubaDuba);
 	#endregion
 	
 	#region Night
@@ -51,6 +73,11 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("icebergOcean","Iceberg Ocean","Kirby's Dream Course",KSW_Phases.night,mus_KSW_IcebergOcean);
 	scr_KSW_AddMusic("jigsawPlains","Jigsaw Plains","Kirby's Dream Course",KSW_Phases.night,mus_KSW_JigsawPlains);
 	scr_KSW_AddMusic("rideSky","Ride to the Sky","Kirby's Dream Course",KSW_Phases.night,mus_KSW_RideSky);
+	scr_KSW_AddMusic("destinyIslands2","Destiny Islands","Kingdom Hearts Re: Chain of Memories",KSW_Phases.night,mus_KSW_DestinyIslands2);
+	scr_KSW_AddMusic("gnorcCove","Gnorc Cove","Spyro The Dragon",KSW_Phases.night,mus_KSW_GnorcCove);
+	scr_KSW_AddMusic("hurricos","Hurricos","Spyro 2: Ripto's Rage",KSW_Phases.night,mus_KSW_Hurricos);
+	scr_KSW_AddMusic("aquariaTowers","Aquaria Towers","Spyro 2: Ripto's Rage",KSW_Phases.night,mus_KSW_AquariaTowers);
+	scr_KSW_AddMusic("eveningLake","Evening Lake","Spyro: Year of The Dragon",KSW_Phases.night,mus_KSW_EveningLake);
 	#endregion
 	
 	#region Any
