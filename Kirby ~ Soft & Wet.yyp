@@ -7396,6 +7396,11 @@
           "compressFormat":"bz2",
           "loadType":"default",
         },
+        "Mobile":{
+          "groupParent":"null",
+          "compressFormat":"bz2",
+          "loadType":"default",
+        },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"StarDreamFramework","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{},"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"StarDreamFramework","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"SoftAndWet","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{},"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"SoftAndWet","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
