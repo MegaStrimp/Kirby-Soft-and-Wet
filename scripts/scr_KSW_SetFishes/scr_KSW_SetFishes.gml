@@ -1647,6 +1647,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Fangfish",spr_KSW_Fish_Fangfish,spr_KSW_Fish_Fangfish_Pal,series_DonkeyKongLand,mage,1,grassBeach,KSW_Phases.night,500);
 	scr_KSW_AddFish("Nemo",spr_KSW_Fish_Nemo,spr_KSW_Fish_Nemo_Pal,series_DonkeyKongLand,legion,2,grassBeach,KSW_Phases.night,2800);
 	scr_KSW_AddFish("Hogwash",spr_KSW_Fish_Hogwash,spr_KSW_Fish_Hogwash_Pal,series_DonkeyKongLand,candy,3,grassBeach,KSW_Phases.day,3000);
+	scr_KSW_AddFish("Hinyari",spr_KSW_Fish_Hinyari,spr_KSW_Fish_Hinyari_Pal,series_SuperMario,legion,1,creamCrevasse,KSW_Phases.day,1994);
 	#endregion
 	#endregion
 }
