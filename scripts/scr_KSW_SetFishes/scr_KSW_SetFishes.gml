@@ -91,6 +91,7 @@ function scr_KSW_SetFishes()
 	var series_FiveNightsAtFreddys = global.KSW_SeriesIDs[? "fiveNightsAtFreddys"];
 	var series_SnowBros = global.KSW_SeriesIDs[? "snowBros"];
 	var series_ClashClans = global.KSW_SeriesIDs[? "clashClans"];
+	var series_Celeste = global.KSW_SeriesIDs[? "celeste"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1648,6 +1649,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Nemo",spr_KSW_Fish_Nemo,spr_KSW_Fish_Nemo_Pal,series_DonkeyKongLand,legion,2,grassBeach,KSW_Phases.night,2800);
 	scr_KSW_AddFish("Hogwash",spr_KSW_Fish_Hogwash,spr_KSW_Fish_Hogwash_Pal,series_DonkeyKongLand,candy,3,grassBeach,KSW_Phases.day,3000);
 	scr_KSW_AddFish("Hinyari",spr_KSW_Fish_Hinyari,spr_KSW_Fish_Hinyari_Pal,series_SuperMario,legion,1,creamCrevasse,KSW_Phases.day,1994);
+	scr_KSW_AddFish("Crystal Heart",spr_KSW_Fish_CrystalHeart,spr_KSW_Fish_CrystalHeart_Pal,series_Celeste,candy,2,creamCrevasse,KSW_Phases.none,4000,-9,-9);
 	#endregion
 	#endregion
 }
