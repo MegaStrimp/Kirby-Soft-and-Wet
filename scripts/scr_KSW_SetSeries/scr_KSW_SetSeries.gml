@@ -89,5 +89,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("snowBros","Snow Bros");
 	scr_KSW_AddSeries("clashClans","Clash of Clans");
 	scr_KSW_AddSeries("misc","Misc");
+	scr_KSW_AddSeries("celeste","Celeste");
 	#endregion
 }
