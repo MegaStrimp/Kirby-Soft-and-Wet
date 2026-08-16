@@ -855,11 +855,12 @@ if (!localPause)
 	#region Coins
 	if ((state == KSW_GameStates.idle) and (!canOffset))
 	{
-		if (flag_CoinGet)
+		if (coinsInQueue != 0)
 		{
 			scr_PlaySfx(snd_KSW_Coin);
 			
-			displayedCoins += 1;
+			displayedCoins += coinsInQueue;
+			coinsInQueue = 0;
 			displayedCoins_YOffsetTimer = displayedCoins_YOffsetTimerMax;
 			
 			flag_CoinGet = false;

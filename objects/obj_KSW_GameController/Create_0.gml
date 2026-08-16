@@ -91,7 +91,8 @@ catchAnimationState = 0;
 catchAnimationTimer = -1;
 
 flag_ScoreSfx = false;
-flag_CoinGet = false;
+
+coinsInQueue = 0;
 
 canOffset = false;
 hintOffset = 0;
