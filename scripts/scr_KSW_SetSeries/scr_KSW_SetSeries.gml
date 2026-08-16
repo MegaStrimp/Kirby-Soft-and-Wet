@@ -39,7 +39,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("deltarune","Deltarune");
 	scr_KSW_AddSeries("off","OFF");
 	scr_KSW_AddSeries("donkeyKongCountry","Donkey Kong Country");
-	scr_KSW_AddSeries("donkeyKongLand","Donkey Kong Land: Remake");
+	scr_KSW_AddSeries("donkeyKongLandRemake","Donkey Kong Land: Remake");
 	scr_KSW_AddSeries("digimon","Digimon");
 	scr_KSW_AddSeries("hollowKnight","Hollow Knight");
 	scr_KSW_AddSeries("saintsRow","Saints Row");
@@ -89,7 +89,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("fiveNightsAtFreddys","Five Nights at Freddy's");
 	scr_KSW_AddSeries("snowBros","Snow Bros");
 	scr_KSW_AddSeries("clashClans","Clash of Clans");
-	scr_KSW_AddSeries("misc","Misc");
 	scr_KSW_AddSeries("celeste","Celeste");
+	scr_KSW_AddSeries("misc","Misc");
 	#endregion
 }
