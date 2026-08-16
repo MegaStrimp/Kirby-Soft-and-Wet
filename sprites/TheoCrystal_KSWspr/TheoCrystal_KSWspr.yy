@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Goldenberry_KSWsprSheet",
+  "%Name":"TheoCrystal_KSWspr",
   "bboxMode":0,
-  "bbox_bottom":26,
+  "bbox_bottom":27,
   "bbox_left":0,
-  "bbox_right":396,
+  "bbox_right":27,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"09445ad5-5206-4d0e-89e1-1f1a0ed48a37","name":"09445ad5-5206-4d0e-89e1-1f1a0ed48a37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e3383e57-a1fd-4aa6-b4b5-534a6f5e1d8a","name":"e3383e57-a1fd-4aa6-b4b5-534a6f5e1d8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":30,
+  "height":35,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7450e7fa-051b-4b90-9695-d16d96755013","blendMode":0,"displayName":"default","isLocked":false,"name":"7450e7fa-051b-4b90-9695-d16d96755013","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d45fbd7e-58fc-4fda-83a7-d765d7b8258b","blendMode":0,"displayName":"default","isLocked":false,"name":"d45fbd7e-58fc-4fda-83a7-d765d7b8258b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Goldenberry_KSWsprSheet",
+  "name":"TheoCrystal_KSWspr",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Goldenberry_KSWsprSheet",
+    "%Name":"TheoCrystal_KSWspr",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Goldenberry_KSWsprSheet",
+    "name":"TheoCrystal_KSWspr",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"09445ad5-5206-4d0e-89e1-1f1a0ed48a37","path":"sprites/Goldenberry_KSWsprSheet/Goldenberry_KSWsprSheet.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"148995c1-e227-4366-8684-23f9eb7455ee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3383e57-a1fd-4aa6-b4b5-534a6f5e1d8a","path":"sprites/TheoCrystal_KSWspr/TheoCrystal_KSWspr.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d65d3b1a-5a9e-42db-9391-ba48fe9d2743","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":400,
+  "width":36,
 }
