@@ -35,11 +35,11 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("theBindingOfIsaacRebirth","The Binding of Isaac: Rebirth");
 	scr_KSW_AddSeries("theBindingOfIsaacForgottenFables","The Binding of Isaac - Forgotten Fables");
 	scr_KSW_AddSeries("kirbysDreamLand23","Kirby's Dream Land 2 + 3");
-	scr_KSW_AddSeries("megaManSequelWars","Mega Man: The Sequel Wars");
 	scr_KSW_AddSeries("undertale","Undertale");
 	scr_KSW_AddSeries("deltarune","Deltarune");
 	scr_KSW_AddSeries("off","OFF");
 	scr_KSW_AddSeries("donkeyKongCountry","Donkey Kong Country");
+	scr_KSW_AddSeries("donkeyKongLand","Donkey Kong Land: Remake");
 	scr_KSW_AddSeries("digimon","Digimon");
 	scr_KSW_AddSeries("hollowKnight","Hollow Knight");
 	scr_KSW_AddSeries("saintsRow","Saints Row");
@@ -52,6 +52,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("pizzaTower","Pizza Tower");
 	scr_KSW_AddSeries("shovelKnight","Shovel Knight");
 	scr_KSW_AddSeries("megaMan","Mega Man");
+	scr_KSW_AddSeries("megaManSequelWars","Mega Man: The Sequel Wars");
 	scr_KSW_AddSeries("peggle","Peggle");
 	scr_KSW_AddSeries("antonBlast","AntonBlast");
 	scr_KSW_AddSeries("dragonQuest","Dragon Quest");
