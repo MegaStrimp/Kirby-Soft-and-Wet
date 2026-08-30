@@ -3,10 +3,10 @@
 function scr_KSW_Game_SetPool(playerNum)
 {
 	var rate = [];
-	rate[0] = 24 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "0rarity"]) * 5);
-	rate[1] = 15 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "1rarity"]) * 4);
-	rate[2] = 9 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "2rarity"]) * 3);
-	rate[3] = 3 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "3rarity"]) * 2);
+	rate[0] = 24 + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "0rarity"]) * 5);
+	rate[1] = 15 + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "1rarity"]) * 4);
+	rate[2] = 9 + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "2rarity"]) * 3);
+	rate[3] = 3 + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "3rarity"]) * 2);
 	
 	var list = [];
 	var index = 0;
