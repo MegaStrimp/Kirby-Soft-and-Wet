@@ -92,6 +92,8 @@ function scr_KSW_SetFishes()
 	var series_SnowBros = global.KSW_SeriesIDs[? "snowBros"];
 	var series_ClashClans = global.KSW_SeriesIDs[? "clashClans"];
 	var series_Celeste = global.KSW_SeriesIDs[? "celeste"];
+	var series_TouhouProject = global.KSW_SeriesIDs[? "touhouProject"];
+	var series_Umamusume = global.KSW_SeriesIDs[? "umamusume"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	#endregion
 	
@@ -1651,6 +1653,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Hinyari",spr_KSW_Fish_Hinyari,spr_KSW_Fish_Hinyari_Pal,series_SuperMario,legion,1,creamCrevasse,KSW_Phases.day,1994);
 	scr_KSW_AddFish("Crystal Heart",spr_KSW_Fish_CrystalHeart,spr_KSW_Fish_CrystalHeart_Pal,series_Celeste,candy,2,creamCrevasse,KSW_Phases.none,4000,-9,-9);
 	scr_KSW_AddFish("Goldberry",spr_KSW_Fish_Goldberry,spr_KSW_Fish_Goldberry_Pal,series_Celeste,borange,3,anyStage,KSW_Phases.none,1000,-33,-31);
+	scr_KSW_AddFish("Blue Fairy",spr_KSW_Fish_THBlueFairy,spr_KSW_Fish_THBlueFairy_Pal,series_TouhouProject,mage,0,anyStage,KSW_Phases.none,300,0,7);
+	scr_KSW_AddFish("Red Fairy",spr_KSW_Fish_THRedFairy,spr_KSW_Fish_THRedFairy_Pal,series_TouhouProject,candy,0,anyStage,KSW_Phases.none,300,0,7);
+	scr_KSW_AddFish("Green Fairy",spr_KSW_Fish_THGreenFairy,spr_KSW_Fish_THGreenFairy_Pal,series_TouhouProject,mint,0,anyStage,KSW_Phases.none,300,0,7);
+	scr_KSW_AddFish("Yellow Fairy",spr_KSW_Fish_THYellowFairy,spr_KSW_Fish_THYellowFairy_Pal,series_TouhouProject,borange,0,anyStage,KSW_Phases.none,300,0,7);
+	scr_KSW_AddFish("Hunter Fairy",spr_KSW_Fish_THHunterFairy,spr_KSW_Fish_THHunterFairy_Pal,series_TouhouProject,mint,0,serranoSprings,KSW_Phases.none,300,0,6);
+	scr_KSW_AddFish("Black Fairy",spr_KSW_Fish_THBlackFairy,spr_KSW_Fish_THBlackFairy_Pal,series_TouhouProject,flux,1,anyStage,KSW_Phases.night,300,0,7);
+	scr_KSW_AddFish("Mambofish",spr_KSW_Fish_Mambofish,spr_KSW_Fish_Mambofish,series_Umamusume,mage,2,grassBeach,KSW_Phases.none,4500,-24,-5,-1,snd_KSW_Fish_Mambofish);
 	#endregion
 	#endregion
 }
