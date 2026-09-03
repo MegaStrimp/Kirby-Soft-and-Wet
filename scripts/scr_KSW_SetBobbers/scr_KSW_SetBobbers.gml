@@ -34,7 +34,7 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("dynamite","Dynamite",spr_KSW_Bobber_Dynamite,glimmer,50,1,-3);
 	scr_KSW_AddBobber("rocketSlime","Rocket Slime",spr_KSW_Bobber_RocketSlime,mage,50,0,-7);
 	scr_KSW_AddBobber("dedede","Dedede",spr_KSW_Bobber_Dedede,borange,50,0,-9);
-	scr_KSW_AddBobber("hayuto","Hayuto",spr_KSW_Bobber_Hayuto,legion,50,0,-8);
+	scr_KSW_AddBobber("hayudo","Hayudo",spr_KSW_Bobber_Hayudo,legion,50,0,-8);
 	scr_KSW_AddBobber("deirdre","Deirdre",spr_KSW_Bobber_Deirdre,borange,50,0,-5);
 	scr_KSW_AddBobber("superMushroom","Super Mushroom",spr_KSW_Bobber_SuperMushroom,candy,50,0,-7);
 	scr_KSW_AddBobber("zebraBloon","Zebra Bloon",spr_KSW_Bobber_ZebraBloon,legion,50,0,-7);

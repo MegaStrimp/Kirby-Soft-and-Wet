@@ -2906,7 +2906,7 @@
     {"name":"spr_KSW_Bobber_Floral","order":43,"path":"sprites/spr_KSW_Bobber_Floral/spr_KSW_Bobber_Floral.yy",},
     {"name":"spr_KSW_Bobber_FrogEgg","order":66,"path":"sprites/spr_KSW_Bobber_FrogEgg/spr_KSW_Bobber_FrogEgg.yy",},
     {"name":"spr_KSW_Bobber_Green","order":2,"path":"sprites/spr_KSW_Bobber_Green/spr_KSW_Bobber_Green.yy",},
-    {"name":"spr_KSW_Bobber_Hayuto","order":11,"path":"sprites/spr_KSW_Bobber_Hayuto/spr_KSW_Bobber_Hayuto.yy",},
+    {"name":"spr_KSW_Bobber_Hayudo","order":11,"path":"sprites/spr_KSW_Bobber_Hayudo/spr_KSW_Bobber_Hayudo.yy",},
     {"name":"spr_KSW_Bobber_Heart","order":53,"path":"sprites/spr_KSW_Bobber_Heart/spr_KSW_Bobber_Heart.yy",},
     {"name":"spr_KSW_Bobber_Inky","order":35,"path":"sprites/spr_KSW_Bobber_Inky/spr_KSW_Bobber_Inky.yy",},
     {"name":"spr_KSW_Bobber_Iridium","order":72,"path":"sprites/spr_KSW_Bobber_Iridium/spr_KSW_Bobber_Iridium.yy",},
