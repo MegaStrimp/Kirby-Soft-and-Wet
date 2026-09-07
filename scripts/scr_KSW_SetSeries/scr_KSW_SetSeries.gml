@@ -91,5 +91,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("clashClans","Clash of Clans");
 	scr_KSW_AddSeries("celeste","Celeste");
 	scr_KSW_AddSeries("misc","Misc");
+	scr_KSW_AddSeries("undertaleYellow","Undertale Yellow");
 	#endregion
 }

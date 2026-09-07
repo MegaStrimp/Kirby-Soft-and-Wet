@@ -93,6 +93,7 @@ function scr_KSW_SetFishes()
 	var series_ClashClans = global.KSW_SeriesIDs[? "clashClans"];
 	var series_Celeste = global.KSW_SeriesIDs[? "celeste"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
+	var series_UndertaleYellow = global.KSW_SeriesIDs[? "undertaleYellow"];
 	#endregion
 	
 	#region Stages
@@ -1653,6 +1654,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Goldberry",spr_KSW_Fish_Goldberry,spr_KSW_Fish_Goldberry_Pal,series_Celeste,borange,3,anyStage,KSW_Phases.none,1000,-33,-31);
 	var krisAndNoelle = scr_KSW_AddFish("Two Friends Started Just As Neighbors",spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors,spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors_Pal,series_Deltarune,borange,3,anyStage,KSW_Phases.afternoon,12250);
 	krisAndNoelle.displayedName = "2 Friends Started Just As Neighbors";
+	scr_KSW_AddFish("Flier",spr_KSW_Fish_Flier,spr_KSW_Fish_Flier_Pal,series_UndertaleYellow,glimmer,1,grassBeach,KSW_Phases.none,235,-12,-12);
+	scr_KSW_AddFish("Penilla",spr_KSW_Fish_Penilla,spr_KSW_Fish_Penilla_Pal,series_UndertaleYellow,mint,1,grassBeach,KSW_Phases.none,376,-13,-12);
+	scr_KSW_AddFish("Sweet Corn",spr_KSW_Fish_SweetCorn,spr_KSW_Fish_SweetCorn_Pal,series_UndertaleYellow,candy,1,hallowReen,KSW_Phases.day,275,-13,-14);
 	#endregion
 	#endregion
 }
