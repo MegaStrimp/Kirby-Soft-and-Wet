@@ -237,5 +237,19 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "BlasterMasterE",playerID,"Blaster Master E",spr_KSW_Player_Susie_SprayPaint_BlasterMasterE,glimmer,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Miku",playerID,"Miku",spr_KSW_Player_Susie_SprayPaint_Miku,mage,75);
 	#endregion
+	
+	#region Adventure Kirby
+	var playerID = "adventureKirby";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pink",playerID,"Pink",spr_KSW_Player_AdventureKirby_SprayPaint_Pink,candy,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Yellow",playerID,"Yellow",spr_KSW_Player_AdventureKirby_SprayPaint_Yellow,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Red",playerID,"Red",spr_KSW_Player_AdventureKirby_SprayPaint_Red,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Green",playerID,"Green",spr_KSW_Player_AdventureKirby_SprayPaint_Green,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Classic",playerID,"Classic",spr_KSW_Player_AdventureKirby_SprayPaint_Classic,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Blue",playerID,"Blue",spr_KSW_Player_AdventureKirby_SprayPaint_Blue,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Purple",playerID,"Purple",spr_KSW_Player_AdventureKirby_SprayPaint_Purple,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Orange",playerID,"Orange",spr_KSW_Player_AdventureKirby_SprayPaint_Orange,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Shadow",playerID,"Shadow",spr_KSW_Player_AdventureKirby_SprayPaint_Shadow,legion,75);
+	#endregion
 	#endregion
 }

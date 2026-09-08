@@ -103,5 +103,21 @@ function scr_KSW_SetStages()
 	
 	scr_KSW_AddStage("androidPort","Android Port",spr_KSW_UI_Customize_StageIcon_AndroidPort,spr_KSW_Layout_AndroidPort_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_AndroidPort_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_AndroidPort_Night,targetNightBackgrounds,targetNightBgColors,500);
 	#endregion
+	
+	#region Fountain of Dreams
+	var targetDayBackgrounds = [scr_KSW_SetBackground_FountainOfDreams_Day_1];
+	
+	var targetDayBgColors = [154,189,250,230,59,250];
+	
+	var targetAfternoonBackgrounds = [scr_KSW_SetBackground_FountainOfDreams_Afternoon_1];
+	
+	var targetAfternoonBgColors = [188,255,156,227,143,250];
+	
+	var targetNightBackgrounds = [scr_KSW_SetBackground_FountainOfDreams_Night_1];
+	
+	var targetNightBgColors = [213,128,3,213,255,186];
+	
+	scr_KSW_AddStage("fountainOfDreams","Fountain of Dreams",spr_KSW_UI_Customize_StageIcon_FountainOfDreams,spr_KSW_Layout_FountainOfDreams_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_FountainOfDreams_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_FountainOfDreams_Night,targetNightBackgrounds,targetNightBgColors,500);
+	#endregion
 	#endregion
 }

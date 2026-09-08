@@ -13,8 +13,8 @@ global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.2.0";
-global.versionSubtitle = "Android Port";
+global.versionNumber = "1.2.X";
+global.versionSubtitle = "His Birthday";
 
 global.pauseScript = scr_KSW_PauseScript;
 
