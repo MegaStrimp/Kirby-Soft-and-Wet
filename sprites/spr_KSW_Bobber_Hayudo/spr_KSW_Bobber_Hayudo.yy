@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_KSW_Bobber_Hayuto",
+  "%Name":"spr_KSW_Bobber_Hayudo",
   "bboxMode":0,
   "bbox_bottom":15,
   "bbox_left":0,
@@ -23,7 +23,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"c2932a89-93a8-4c66-9cbc-dda91036f73c","blendMode":0,"displayName":"default","isLocked":false,"name":"c2932a89-93a8-4c66-9cbc-dda91036f73c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Bobber_Hayuto",
+  "name":"spr_KSW_Bobber_Hayudo",
   "nineSlice":null,
   "origin":1,
   "parent":{
@@ -35,7 +35,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Bobber_Hayuto",
+    "%Name":"spr_KSW_Bobber_Hayudo",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -59,7 +59,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Bobber_Hayuto",
+    "name":"spr_KSW_Bobber_Hayudo",
     "playback":1,
     "playbackSpeed":12.0,
     "playbackSpeedType":0,
@@ -73,10 +73,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"369631fb-8b54-40fa-8845-7c676bcb2450","path":"sprites/spr_KSW_Bobber_Hayuto/spr_KSW_Bobber_Hayuto.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"369631fb-8b54-40fa-8845-7c676bcb2450","path":"sprites/spr_KSW_Bobber_Hayudo/spr_KSW_Bobber_Hayudo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a47d9e19-62fb-40f1-a66e-f6de44252b16","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"33157284-bbd7-4a07-8881-9dc413f88011","path":"sprites/spr_KSW_Bobber_Hayuto/spr_KSW_Bobber_Hayuto.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"33157284-bbd7-4a07-8881-9dc413f88011","path":"sprites/spr_KSW_Bobber_Hayudo/spr_KSW_Bobber_Hayudo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b07eb727-6c30-4c62-9364-c6eceba1452a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
