@@ -93,5 +93,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("touhouProject","Touhou Project");
 	scr_KSW_AddSeries("umamusume","Umamusume");
 	scr_KSW_AddSeries("misc","Misc");
+	scr_KSW_AddSeries("undertaleYellow","Undertale Yellow");
 	#endregion
 }
