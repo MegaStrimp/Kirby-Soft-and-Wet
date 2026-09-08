@@ -1666,6 +1666,10 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Flier",spr_KSW_Fish_Flier,spr_KSW_Fish_Flier_Pal,series_UndertaleYellow,glimmer,1,grassBeach,KSW_Phases.none,235,-12,-12);
 	scr_KSW_AddFish("Penilla",spr_KSW_Fish_Penilla,spr_KSW_Fish_Penilla_Pal,series_UndertaleYellow,mint,1,grassBeach,KSW_Phases.none,376,-13,-12);
 	scr_KSW_AddFish("Sweet Corn",spr_KSW_Fish_SweetCorn,spr_KSW_Fish_SweetCorn_Pal,series_UndertaleYellow,candy,1,hallowReen,KSW_Phases.day,275,-13,-14);
+	scr_KSW_AddFish("Goldberry",spr_KSW_Fish_Goldberry,spr_KSW_Fish_Goldberry_Pal,series_Celeste,borange,3,grassBeach,KSW_Phases.none,1000,-18,-20);
+	scr_KSW_AddFish("Jellyfish",spr_KSW_Fish_Jellyfish,spr_KSW_Fish_Jellyfish_Pal,series_Celeste,flux,2,anyStage,KSW_Phases.night,2000,-14,-9);
+	scr_KSW_AddFish("Collectable Berry",spr_KSW_Fish_CollectableBerry,spr_KSW_Fish_CollectableBerry_Pal,series_Celeste,candy,1,grassBeach,KSW_Phases.day,250,-5,-7);
+	scr_KSW_AddFish("Theo Crystal",spr_KSW_Fish_TheoCrystal,spr_KSW_FIsh_TheoCrystal_Pal,series_Celeste,flux,2,hallowReen,KSW_Phases.night,10000,-11,-11);
 	#endregion
 	#endregion
 }
