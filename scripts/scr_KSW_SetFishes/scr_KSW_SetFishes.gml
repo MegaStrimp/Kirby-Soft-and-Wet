@@ -1669,6 +1669,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Jellyfish",spr_KSW_Fish_Jellyfish,spr_KSW_Fish_Jellyfish_Pal,series_Celeste,flux,2,anyStage,KSW_Phases.night,2000,-14,-9);
 	scr_KSW_AddFish("Collectable Berry",spr_KSW_Fish_CollectableBerry,spr_KSW_Fish_CollectableBerry_Pal,series_Celeste,candy,1,grassBeach,KSW_Phases.day,250,-5,-7);
 	scr_KSW_AddFish("Theo Crystal",spr_KSW_Fish_TheoCrystal,spr_KSW_FIsh_TheoCrystal_Pal,series_Celeste,flux,2,hallowReen,KSW_Phases.night,10000,-11,-11);
+	scr_KSW_AddFish("Mr Retro",spr_KSW_Fish_MrRetro,spr_KSW_Fish_MrRetro_Pal,series_SuperMario,candy,3,anyStage,KSW_Phases.none,16,-6,-6);
 	#endregion
 	#endregion
 }
