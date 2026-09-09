@@ -1669,6 +1669,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Jellyfish",spr_KSW_Fish_Jellyfish,spr_KSW_Fish_Jellyfish_Pal,series_Celeste,flux,2,anyStage,KSW_Phases.night,2000,-14,-9);
 	scr_KSW_AddFish("Collectable Berry",spr_KSW_Fish_CollectableBerry,spr_KSW_Fish_CollectableBerry_Pal,series_Celeste,candy,1,grassBeach,KSW_Phases.day,250,-5,-7);
 	scr_KSW_AddFish("Theo Crystal",spr_KSW_Fish_TheoCrystal,spr_KSW_FIsh_TheoCrystal_Pal,series_Celeste,flux,2,hallowReen,KSW_Phases.night,10000,-11,-11);
+	scr_KSW_AddFish("Wakasagihime",spr_KSW_Fish_Wakasagihime,spr_KSW_Fish_Wakasagihime_Pal,series_TouhouProject,mage,3,anyStage,KSW_Phases.none,57000,-34,-13);
+		scr_KSW_AddFish("Cirno",spr_KSW_Fish_Cirno,spr_KSW_Fish_Cirno_Pal,series_TouhouProject,mage,3,creamCrevasse,KSW_Phases.none,46000,-32,-17,snd_KSW_Fish_Cirno);
 	#endregion
 	#endregion
 }
