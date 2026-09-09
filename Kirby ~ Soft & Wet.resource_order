@@ -598,6 +598,7 @@
     {"name":"Gorebyss","order":20,"path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Gorebyss.yy",},
     {"name":"Grant Danasty","order":131,"path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Grant Danasty.yy",},
     {"name":"Great Thing","order":96,"path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Great Thing.yy",},
+    {"name":"Popplio","order":252,"path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Popplio.yy",},
     {"name":"Heavy Troopa","order":166,"path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Heavy Troopa.yy",},
     {"name":"Hedorah","order":62,"path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Hedorah.yy",},
     {"name":"Hermie III","order":228,"path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Hermie III.yy",},
@@ -3941,9 +3942,13 @@
     {"name":"spr_KSW_Fish_Poliwhirl_Pal_Normal","order":1,"path":"sprites/spr_KSW_Fish_Poliwhirl_Pal_Normal/spr_KSW_Fish_Poliwhirl_Pal_Normal.yy",},
     {"name":"spr_KSW_Fish_Poliwrath_Pal_Normal","order":1,"path":"sprites/spr_KSW_Fish_Poliwrath_Pal_Normal/spr_KSW_Fish_Poliwrath_Pal_Normal.yy",},
     {"name":"spr_KSW_Fish_PomegBerry_Pal_Normal","order":2,"path":"sprites/spr_KSW_Fish_PomegBerry_Pal_Normal/spr_KSW_Fish_PomegBerry_Pal_Normal.yy",},
+<<<<<<< Updated upstream
     {"name":"spr_KSW_Fish_PondKing_Pal","order":1,"path":"sprites/spr_KSW_Fish_PondKing_Pal/spr_KSW_Fish_PondKing_Pal.yy",},
     {"name":"spr_KSW_Fish_PondSmelt_Pal","order":1,"path":"sprites/spr_KSW_Fish_PondSmelt_Pal/spr_KSW_Fish_PondSmelt_Pal.yy",},
     {"name":"spr_KSW_Fish_PopEyedGoldfish_Pal","order":1,"path":"sprites/spr_KSW_Fish_PopEyedGoldfish_Pal/spr_KSW_Fish_PopEyedGoldfish_Pal.yy",},
+=======
+    {"name":"spr_KSW_Fish_Popplio_Pal","order":1,"path":"sprites/spr_KSW_Fish_Popplio_Pal/spr_KSW_Fish_Popplio_Pal.yy",},
+>>>>>>> Stashed changes
     {"name":"spr_KSW_Fish_Porcu_Puffer_Pal","order":1,"path":"sprites/spr_KSW_Fish_Porcu_Puffer_Pal/spr_KSW_Fish_Porcu_Puffer_Pal.yy",},
     {"name":"spr_KSW_Fish_PorkBun_Pal","order":2,"path":"sprites/spr_KSW_Fish_PorkBun_Pal/spr_KSW_Fish_PorkBun_Pal.yy",},
     {"name":"spr_KSW_Fish_PorkChop_Pal","order":1,"path":"sprites/spr_KSW_Fish_PorkChop_Pal/spr_KSW_Fish_PorkChop_Pal.yy",},

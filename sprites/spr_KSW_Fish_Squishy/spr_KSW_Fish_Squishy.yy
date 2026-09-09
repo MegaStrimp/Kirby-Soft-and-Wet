@@ -77,7 +77,11 @@
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8dcf999f-d7a4-4250-a02b-61e70a1305cb","path":"sprites/spr_KSW_Fish_Squishy/spr_KSW_Fish_Squishy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+<<<<<<< Updated upstream
               },"Disabled":false,"id":"611e2871-eb0c-451b-ae99-a3159c7611d4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+=======
+              },"Disabled":false,"id":"fefb4c83-5084-4b94-9db1-8d5a22a2cd9e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>> Stashed changes
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0fe7dee2-c498-4dea-bb99-ed2078ee616f","path":"sprites/spr_KSW_Fish_Squishy/spr_KSW_Fish_Squishy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8a9130db-d5ac-40a4-8653-00a959b83e05","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
