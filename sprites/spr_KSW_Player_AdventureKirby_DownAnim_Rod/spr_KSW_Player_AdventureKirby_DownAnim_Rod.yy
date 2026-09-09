@@ -3,9 +3,9 @@
   "%Name":"spr_KSW_Player_AdventureKirby_DownAnim_Rod",
   "bboxMode":0,
   "bbox_bottom":17,
-  "bbox_left":0,
+  "bbox_left":14,
   "bbox_right":42,
-  "bbox_top":0,
+  "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2146086e-6d34-451d-9ec9-a4a7b8e59f3e","name":"2146086e-6d34-451d-9ec9-a4a7b8e59f3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"bf7077b8-5a7d-4812-a7eb-5bd66f6b9f7f","name":"bf7077b8-5a7d-4812-a7eb-5bd66f6b9f7f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"b20284ba-8412-46bf-9078-c29a70aca5eb","name":"b20284ba-8412-46bf-9078-c29a70aca5eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7432ba6f-6433-4b46-99c3-0644e3f148e0","name":"7432ba6f-6433-4b46-99c3-0644e3f148e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"df47987b-18e7-46e9-b6f4-facf2b012e69","name":"df47987b-18e7-46e9-b6f4-facf2b012e69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d3db79e-3408-41b8-98d3-804404b72797","name":"8d3db79e-3408-41b8-98d3-804404b72797","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,14 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2146086e-6d34-451d-9ec9-a4a7b8e59f3e","path":"sprites/spr_KSW_Player_AdventureKirby_DownAnim_Rod/spr_KSW_Player_AdventureKirby_DownAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b3da86df-6436-454e-abc4-f257b38544c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7432ba6f-6433-4b46-99c3-0644e3f148e0","path":"sprites/spr_KSW_Player_AdventureKirby_DownAnim_Rod/spr_KSW_Player_AdventureKirby_DownAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c106ebdc-eed0-4c0d-b4e1-7a975e6b0406","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf7077b8-5a7d-4812-a7eb-5bd66f6b9f7f","path":"sprites/spr_KSW_Player_AdventureKirby_DownAnim_Rod/spr_KSW_Player_AdventureKirby_DownAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fd8a6bed-53a6-4e0e-9014-519bbc05fa65","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df47987b-18e7-46e9-b6f4-facf2b012e69","path":"sprites/spr_KSW_Player_AdventureKirby_DownAnim_Rod/spr_KSW_Player_AdventureKirby_DownAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6ffbbd34-181e-49b1-ad6b-5ab206da169c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b20284ba-8412-46bf-9078-c29a70aca5eb","path":"sprites/spr_KSW_Player_AdventureKirby_DownAnim_Rod/spr_KSW_Player_AdventureKirby_DownAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5c2e0a30-4f4e-4d4b-8bba-16acc77b4660","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d3db79e-3408-41b8-98d3-804404b72797","path":"sprites/spr_KSW_Player_AdventureKirby_DownAnim_Rod/spr_KSW_Player_AdventureKirby_DownAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2208c59a-b85d-4690-b4bd-aca5316c4bf2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

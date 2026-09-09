@@ -2,8 +2,8 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_AdventureKirby_Found_Rod",
   "bboxMode":0,
-  "bbox_bottom":17,
-  "bbox_left":0,
+  "bbox_bottom":14,
+  "bbox_left":17,
   "bbox_right":45,
   "bbox_top":0,
   "collisionKind":1,
@@ -17,8 +17,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b78f316e-24f1-4941-9396-ed020352fcae","name":"b78f316e-24f1-4941-9396-ed020352fcae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a153a908-ba7a-455b-b0c3-6e17227f7d77","name":"a153a908-ba7a-455b-b0c3-6e17227f7d77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b682e0b3-b27b-462b-b7c1-601052f95b60","name":"b682e0b3-b27b-462b-b7c1-601052f95b60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2c81a075-976c-4040-88bc-e6c4acce13e5","name":"2c81a075-976c-4040-88bc-e6c4acce13e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -56,7 +56,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":2.0,
-    "lockOrigin":true,
+    "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -75,11 +75,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b78f316e-24f1-4941-9396-ed020352fcae","path":"sprites/spr_KSW_Player_AdventureKirby_Found_Rod/spr_KSW_Player_AdventureKirby_Found_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"da3909bd-b84f-4cc2-93cb-b55aa608bcbc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b682e0b3-b27b-462b-b7c1-601052f95b60","path":"sprites/spr_KSW_Player_AdventureKirby_Found_Rod/spr_KSW_Player_AdventureKirby_Found_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eabff537-6458-4cb3-966b-f917a3184fb3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a153a908-ba7a-455b-b0c3-6e17227f7d77","path":"sprites/spr_KSW_Player_AdventureKirby_Found_Rod/spr_KSW_Player_AdventureKirby_Found_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e22ccd3-de2e-40c9-a2f4-ee023c5f98b9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c81a075-976c-4040-88bc-e6c4acce13e5","path":"sprites/spr_KSW_Player_AdventureKirby_Found_Rod/spr_KSW_Player_AdventureKirby_Found_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"351f0408-bd5c-4a60-948a-680f582d09b7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

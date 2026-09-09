@@ -39,7 +39,7 @@ function scr_KSW_Player_AdventureKirby_State_Normal_Step()
 			{
 				scr_KSW_ThrowBobber();
 				rodX = x + 19;
-				rodY = y - 35;
+				rodY = y - 25;
 				
 				threwBobber = true;
 			}
@@ -50,51 +50,51 @@ function scr_KSW_Player_AdventureKirby_State_Normal_Step()
 			{
 				case 4:
 				rodX = x + 19;
-				rodY = y - 35;
+				rodY = y - 25;
 				break;
 				
 				case 5:
-				rodX = x + 29;
-				rodY = y - 25;
+				rodX = x + 27;
+				rodY = y - 18;
 				break;
 				
 				case 6:
 				rodX = x + 35;
-				rodY = y - 12;
+				rodY = y - 4;
 				break;
 				
 				default:
 				rodX = x + 35;
-				rodY = y - 14;
+				rodY = y - 7;
 				break;
 			}
 		}
 		break;
 		
 		case sprWait:
-		rodX = x + 27;
-		rodY = y - 20;
+		rodX = x + 28;
+		rodY = y - 13;
 		break;
 		
 		case sprFound:
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 35;
-			rodY = y - 13;
+			rodX = x + 33;
+			rodY = y - 5;
 			break;
 				
 			default:
-			rodX = x + 35;
-			rodY = y - 12;
+			rodX = x + 34;
+			rodY = y - 4;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprUp:
-		rodX = x + 21;
-		rodY = y - 45;
+		rodX = x + 12;
+		rodY = y - 30;
 		bobberShake = true;
 		break;
 		
@@ -102,26 +102,26 @@ function scr_KSW_Player_AdventureKirby_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 21;
-			rodY = y - 45;
+			rodX = x + 11;
+			rodY = y - 29;
 			break;
 			
 			case 1:
-			rodX = x + 20;
-			rodY = y - 46;
+			rodX = x + 11;
+			rodY = y - 32;
 			break;
 			
 			default:
-			rodX = x + 22;
-			rodY = y - 45;
+			rodX = x + 12;
+			rodY = y - 30;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprDown:
-		rodX = x + 33;
-		rodY = y + 5;
+		rodX = x + 29;
+		rodY = y + 6;
 		bobberShake = true;
 		break;
 		
@@ -129,26 +129,26 @@ function scr_KSW_Player_AdventureKirby_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 33;
-			rodY = y + 2;
+			rodX = x + 29;
+			rodY = y + 5;
 			break;
 			
 			case 1:
-			rodX = x + 34;
-			rodY = y + 6;
+			rodX = x + 28;
+			rodY = y + 7;
 			break;
 			
 			default:
-			rodX = x + 33;
-			rodY = y + 5;
+			rodX = x + 29;
+			rodY = y + 6;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprLeft:
-		rodX = x + 16;
-		rodY = y - 37;
+		rodX = x + 7;
+		rodY = y - 30;
 		bobberShake = true;
 		break;
 		
@@ -156,26 +156,26 @@ function scr_KSW_Player_AdventureKirby_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 16;
-			rodY = y - 37;
+			rodX = x + 6;
+			rodY = y - 30;
 			break;
 			
 			case 1:
-			rodX = x + 18;
-			rodY = y - 35;
+			rodX = x + 11;
+			rodY = y - 30;
 			break;
 			
 			default:
-			rodX = x + 16;
-			rodY = y - 37;
+			rodX = x + 7;
+			rodY = y - 30;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprRight:
-		rodX = x + 32;
-		rodY = y - 9;
+		rodX = x + 31;
+		rodY = y - 10;
 		bobberShake = true;
 		break;
 		
@@ -183,18 +183,18 @@ function scr_KSW_Player_AdventureKirby_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 30;
-			rodY = y - 15;
+			rodX = x + 32;
+			rodY = y - 20;
 			break;
 			
 			case 1:
-			rodX = x + 30;
-			rodY = y - 11;
+			rodX = x + 35;
+			rodY = y - 14;
 			break;
 			
 			default:
-			rodX = x + 32;
-			rodY = y - 9;
+			rodX = x + 31;
+			rodY = y - 10;
 			break;
 		}
 		bobberShake = true;

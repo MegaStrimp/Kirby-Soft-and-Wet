@@ -4,8 +4,8 @@
   "bboxMode":0,
   "bbox_bottom":40,
   "bbox_left":0,
-  "bbox_right":21,
-  "bbox_top":0,
+  "bbox_right":18,
+  "bbox_top":26,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1ffbb57a-5a7b-443f-b905-10b1fd78f5e3","name":"1ffbb57a-5a7b-443f-b905-10b1fd78f5e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"fd459c6b-2336-48de-8e40-3d517f26de5c","name":"fd459c6b-2336-48de-8e40-3d517f26de5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"0293fbf7-5f66-4381-a8aa-684a92a2cf38","name":"0293fbf7-5f66-4381-a8aa-684a92a2cf38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ca0570be-8f75-4854-98fd-27fd71548795","name":"ca0570be-8f75-4854-98fd-27fd71548795","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5fe59410-0ab5-4d1e-93ac-fce11e38677b","name":"5fe59410-0ab5-4d1e-93ac-fce11e38677b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1592c423-7679-4fa6-8723-c768d68c8157","name":"1592c423-7679-4fa6-8723-c768d68c8157","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,14 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ffbb57a-5a7b-443f-b905-10b1fd78f5e3","path":"sprites/spr_KSW_Player_AdventureKirby_LeftAnim/spr_KSW_Player_AdventureKirby_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"44535b17-d74a-41f3-a4b4-6259950e1872","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ca0570be-8f75-4854-98fd-27fd71548795","path":"sprites/spr_KSW_Player_AdventureKirby_LeftAnim/spr_KSW_Player_AdventureKirby_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6ca95496-b9c4-4c5b-890c-9666be8975f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd459c6b-2336-48de-8e40-3d517f26de5c","path":"sprites/spr_KSW_Player_AdventureKirby_LeftAnim/spr_KSW_Player_AdventureKirby_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3977a4a3-f6b4-4ffd-b504-deb5277aa4fb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5fe59410-0ab5-4d1e-93ac-fce11e38677b","path":"sprites/spr_KSW_Player_AdventureKirby_LeftAnim/spr_KSW_Player_AdventureKirby_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4ae46e7d-cd6b-49d9-aee7-ecb40cb38500","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0293fbf7-5f66-4381-a8aa-684a92a2cf38","path":"sprites/spr_KSW_Player_AdventureKirby_LeftAnim/spr_KSW_Player_AdventureKirby_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f893452b-c07e-4d02-b0b2-08923229bccc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1592c423-7679-4fa6-8723-c768d68c8157","path":"sprites/spr_KSW_Player_AdventureKirby_LeftAnim/spr_KSW_Player_AdventureKirby_LeftAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e181d522-3dc6-4b05-a226-7cbff4b0d66f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

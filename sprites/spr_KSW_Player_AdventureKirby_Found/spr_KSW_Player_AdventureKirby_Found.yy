@@ -4,8 +4,8 @@
   "bboxMode":0,
   "bbox_bottom":17,
   "bbox_left":0,
-  "bbox_right":45,
-  "bbox_top":0,
+  "bbox_right":17,
+  "bbox_top":3,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,8 +17,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b78f316e-24f1-4941-9396-ed020352fcae","name":"b78f316e-24f1-4941-9396-ed020352fcae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a153a908-ba7a-455b-b0c3-6e17227f7d77","name":"a153a908-ba7a-455b-b0c3-6e17227f7d77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4eaaf18a-7376-4df6-a051-3f14842fc9ac","name":"4eaaf18a-7376-4df6-a051-3f14842fc9ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"71653566-9b36-47df-8b13-2a03199e2ec0","name":"71653566-9b36-47df-8b13-2a03199e2ec0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,11 +75,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b78f316e-24f1-4941-9396-ed020352fcae","path":"sprites/spr_KSW_Player_AdventureKirby_Found/spr_KSW_Player_AdventureKirby_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"da3909bd-b84f-4cc2-93cb-b55aa608bcbc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4eaaf18a-7376-4df6-a051-3f14842fc9ac","path":"sprites/spr_KSW_Player_AdventureKirby_Found/spr_KSW_Player_AdventureKirby_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b13475e2-6dd1-452e-8515-7d5e84f38857","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a153a908-ba7a-455b-b0c3-6e17227f7d77","path":"sprites/spr_KSW_Player_AdventureKirby_Found/spr_KSW_Player_AdventureKirby_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e22ccd3-de2e-40c9-a2f4-ee023c5f98b9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"71653566-9b36-47df-8b13-2a03199e2ec0","path":"sprites/spr_KSW_Player_AdventureKirby_Found/spr_KSW_Player_AdventureKirby_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"81f3f11d-598b-4649-bab9-a42951022bdd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
