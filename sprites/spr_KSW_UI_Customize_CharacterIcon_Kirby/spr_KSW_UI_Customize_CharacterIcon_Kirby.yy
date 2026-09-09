@@ -72,8 +72,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+<<<<<<< Updated upstream
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a89499e4-e6e0-4659-a392-b7cce224df4d","path":"sprites/spr_KSW_UI_Customize_CharacterIcon_Kirby/spr_KSW_UI_Customize_CharacterIcon_Kirby.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2e8edd31-6bdc-460e-b0cb-a2aa669b653c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+=======
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52c2960c-a4d0-476a-8799-e47c43260140","path":"sprites/spr_KSW_UI_Customize_CharacterIcon_Kirby/spr_KSW_UI_Customize_CharacterIcon_Kirby.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fa32ae3f-42de-4572-bd8b-4d48ea4f46bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>> Stashed changes
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -638,6 +638,7 @@
     {"$GMFolder":"","%Name":"Gorebyss","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Gorebyss.yy","name":"Gorebyss","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grant Danasty","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Grant Danasty.yy","name":"Grant Danasty","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Great Thing","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Great Thing.yy","name":"Great Thing","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Popplio","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Popplio.yy","name":"Popplio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Heavy Troopa","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Heavy Troopa.yy","name":"Heavy Troopa","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hedorah","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Hedorah.yy","name":"Hedorah","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hermie III","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.1/Hermie III.yy","name":"Hermie III","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -2105,6 +2106,7 @@
     {"$GMIncludedFile":"","%Name":"sdl2.txt","CopyToMask":-1,"filePath":"datafiles/Input","name":"sdl2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"test_load_mapping.json","CopyToMask":-1,"filePath":"datafiles/Input","name":"test_load_mapping.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles/Scribble","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"spr_KSW_Fish_Popplio_Pal.clip","CopyToMask":-1,"filePath":"datafiles","name":"spr_KSW_Fish_Popplio_Pal.clip","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -5475,12 +5477,17 @@
     {"id":{"name":"spr_KSW_Fish_Poliwrath","path":"sprites/spr_KSW_Fish_Poliwrath/spr_KSW_Fish_Poliwrath.yy",},},
     {"id":{"name":"spr_KSW_Fish_PomegBerry_Pal_Normal","path":"sprites/spr_KSW_Fish_PomegBerry_Pal_Normal/spr_KSW_Fish_PomegBerry_Pal_Normal.yy",},},
     {"id":{"name":"spr_KSW_Fish_PomegBerry","path":"sprites/spr_KSW_Fish_PomegBerry/spr_KSW_Fish_PomegBerry.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_KSW_Fish_PondKing_Pal","path":"sprites/spr_KSW_Fish_PondKing_Pal/spr_KSW_Fish_PondKing_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_PondKing","path":"sprites/spr_KSW_Fish_PondKing/spr_KSW_Fish_PondKing.yy",},},
     {"id":{"name":"spr_KSW_Fish_PondSmelt_Pal","path":"sprites/spr_KSW_Fish_PondSmelt_Pal/spr_KSW_Fish_PondSmelt_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_PondSmelt","path":"sprites/spr_KSW_Fish_PondSmelt/spr_KSW_Fish_PondSmelt.yy",},},
     {"id":{"name":"spr_KSW_Fish_PopEyedGoldfish_Pal","path":"sprites/spr_KSW_Fish_PopEyedGoldfish_Pal/spr_KSW_Fish_PopEyedGoldfish_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_PopEyedGoldfish","path":"sprites/spr_KSW_Fish_PopEyedGoldfish/spr_KSW_Fish_PopEyedGoldfish.yy",},},
+=======
+    {"id":{"name":"spr_KSW_Fish_Popplio_Pal","path":"sprites/spr_KSW_Fish_Popplio_Pal/spr_KSW_Fish_Popplio_Pal.yy",},},
+    {"id":{"name":"spr_KSW_Fish_Popplio","path":"sprites/spr_KSW_Fish_Popplio/spr_KSW_Fish_Popplio.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_KSW_Fish_Porcu_Puffer_Pal","path":"sprites/spr_KSW_Fish_Porcu_Puffer_Pal/spr_KSW_Fish_Porcu_Puffer_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_Porcu_Puffer","path":"sprites/spr_KSW_Fish_Porcu_Puffer/spr_KSW_Fish_Porcu_Puffer.yy",},},
     {"id":{"name":"spr_KSW_Fish_PorkBun_Pal","path":"sprites/spr_KSW_Fish_PorkBun_Pal/spr_KSW_Fish_PorkBun_Pal.yy",},},
