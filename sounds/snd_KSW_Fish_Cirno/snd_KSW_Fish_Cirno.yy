@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_KSW_Fish_Cirno.wav",
+  "tags":[
+    "Sound Effect",
+  ],
   "volume":1.0,
 }
