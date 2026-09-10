@@ -1672,6 +1672,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Brionne",spr_KSW_Fish_Brionne,spr_KSW_Fish_Brionne_Pal,series_Pokemon,mage,2,grassBeach,KSW_Phases.day,17500,-15,-20);
 	scr_KSW_AddFish("Primarina",spr_KSW_Fish_Primarina,spr_KSW_Fish_Primarina_Pal,series_Pokemon,mage,3,grassBeach,KSW_Phases.day,44000,-15,-20);
 	scr_KSW_AddFish("Mr Retro",spr_KSW_Fish_MrRetro,spr_KSW_Fish_MrRetro_Pal,series_SuperMario,candy,3,anyStage,KSW_Phases.none,16,-6,-6);
+	scr_KSW_AddFish("Wakasagihime",spr_KSW_Fish_Wakasagihime,spr_KSW_Fish_Wakasagihime_Pal,series_TouhouProject,mage,3,anyStage,KSW_Phases.none,57000,-34,-13);
+	scr_KSW_AddFish("Cirno",spr_KSW_Fish_Cirno,spr_KSW_Fish_Cirno_Pal,series_TouhouProject,mage,3,creamCrevasse,KSW_Phases.none,46000,-32,-17,snd_KSW_Fish_Cirno);
 	#endregion
 	#endregion
 }
