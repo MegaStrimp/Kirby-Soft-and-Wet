@@ -58,7 +58,7 @@ function scr_KSW_UI_Customize_Pages_Music_Draw()
 	var shuffleText = "SHUFFLE";
 	if (global.KSW_MusicShuffle) shuffleText = "[rainbow]SHUFFLE[/rainbow]";
 	
-	scribble(shuffleIcon + shuffleText).align(fa_center).draw(room_width / 2,global.gameHeight - 16 + hintOffset + (2 * (buttonInputTimerComponent_XTimer != -1)));
+	scribble(shuffleIcon + shuffleText).align(fa_center).draw(room_width / 2,global.gameHeight - 16 + hintOffset + (2 * (buttonInputTimerComponent_YTimer != -1)));
 	
 	var selectIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("A"))];
