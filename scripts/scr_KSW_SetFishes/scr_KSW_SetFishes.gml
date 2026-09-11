@@ -1755,6 +1755,19 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Skrelp",spr_KSW_Fish_Skrelp,spr_KSW_Fish_Skrelp_Pal,series_PMDEoF,legion,0,grassBeach,KSW_Phases.night,60);
 	scr_KSW_AddFish("Dragalge",spr_KSW_Fish_Dragalge,spr_KSW_Fish_Dragalge_Pal,series_PMDEoF,legion,1,grassBeach,KSW_Phases.night,6000);
 	scr_KSW_AddFish("Volcanion",spr_KSW_Fish_Volcanion,spr_KSW_Fish_Volcanion_Pal,series_PMDEoF,borange,3,serranoSprings,KSW_Phases.none,60000);
+	scr_KSW_AddFish("Popplio",spr_KSW_Fish_Popplio,spr_KSW_Fish_Popplio_Pal,series_PMDEoF,mage,1,grassBeach,KSW_Phases.day,700);
+	scr_KSW_AddFish("Brionne",spr_KSW_Fish_Brionne,spr_KSW_Fish_Brionne_Pal,series_PMDEoF,mage,2,grassBeach,KSW_Phases.day,1700);
+	scr_KSW_AddFish("Primarina",spr_KSW_Fish_Primarina,spr_KSW_Fish_Primarina_Pal,series_PMDEoF,mage,3,grassBeach,KSW_Phases.day,7000);
+	scr_KSW_AddFish("Alolan Sandshrew",spr_KSW_Fish_AlolanSandshrew,spr_KSW_Fish_AlolanSandshrew_Pal,series_PMDEoF,mage,0,creamCrevasse,KSW_Phases.afternoon,700);
+	scr_KSW_AddFish("Alolan Sandslash",spr_KSW_Fish_AlolanSandslash,spr_KSW_Fish_AlolanSandslash_Pal,series_PMDEoF,mage,1,creamCrevasse,KSW_Phases.afternoon,7500);
+	scr_KSW_AddFish("Alolan Vulpix",spr_KSW_Fish_AlolanVulpix,spr_KSW_Fish_AlolanVulpix_Pal,series_PMDEoF,legion,0,creamCrevasse,KSW_Phases.night,700);
+	scr_KSW_AddFish("Alolan Ninetales",spr_KSW_Fish_AlolanNinetales,spr_KSW_Fish_AlolanNinetales_Pal,series_PMDEoF,legion,1,creamCrevasse,KSW_Phases.night,7500);
+	scr_KSW_AddFish("Dewpider",spr_KSW_Fish_Dewpider,spr_KSW_Fish_Dewpider_Pal,series_PMDEoF,mint,0,grassBeach,KSW_Phases.night,700);
+	scr_KSW_AddFish("Araquanid",spr_KSW_Fish_Araquanid,spr_KSW_Fish_Araquanid_Pal,series_PMDEoF,mint,1,grassBeach,KSW_Phases.night,7000);
+	scr_KSW_AddFish("Wimpod",spr_KSW_Fish_Wimpod,spr_KSW_Fish_Wimpod_Pal,series_PMDEoF,borange,0,grassBeach,KSW_Phases.afternoon,700);
+	scr_KSW_AddFish("Golisopod",spr_KSW_Fish_Golisopod,spr_KSW_Fish_Golisopod_Pal,series_PMDEoF,borange,1,grassBeach,KSW_Phases.afternoon,7000);
+	scr_KSW_AddFish("Tapu Fini",spr_KSW_Fish_TapuFini,spr_KSW_Fish_TapuFini_Pal,series_PMDEoF,flux,3,grassBeach,KSW_Phases.none,70000);
+	
 	scr_KSW_AddFish("Quaxly",spr_KSW_Fish_Quaxly,spr_KSW_Fish_Quaxly_Pal,series_PMDEoF,mage,1,grassBeach,KSW_Phases.day,900);
 	scr_KSW_AddFish("Quaxwell",spr_KSW_Fish_Quaxwell,spr_KSW_Fish_Quaxwell_Pal,series_PMDEoF,mage,2,grassBeach,KSW_Phases.afternoon,1900);
 	scr_KSW_AddFish("Quaquaval",spr_KSW_Fish_Quaquaval,spr_KSW_Fish_Quaquaval_Pal,series_PMDEoF,mage,3,grassBeach,KSW_Phases.night,9000);
