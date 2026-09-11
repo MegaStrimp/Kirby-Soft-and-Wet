@@ -1674,6 +1674,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Primarina",spr_KSW_Fish_Primarina,spr_KSW_Fish_Primarina_Pal,series_Pokemon,mage,3,grassBeach,KSW_Phases.day,44000,-15,-20);
 	scr_KSW_AddFish("Mareanie",spr_KSW_Fish_Mareanie,spr_KSW_Fish_Mareanie_Pal,series_Pokemon,mage,1,grassBeach,KSW_Phases.night,8000,-10,-11);
 	scr_KSW_AddFish("Toxapex",spr_KSW_Fish_Toxapex,spr_KSW_Fish_Toxapex_Pal,series_Pokemon,mage,2,grassBeach,KSW_Phases.night,14500,-18,-14);
+	scr_KSW_AddFish("Volcanion",spr_KSW_Fish_Volcanion,spr_KSW_Fish_Volcanion_Pal,series_Pokemon,borange,3,serranoSprings,KSW_Phases.none,195000,-26,-21);
 	#endregion
 	#endregion
 }
