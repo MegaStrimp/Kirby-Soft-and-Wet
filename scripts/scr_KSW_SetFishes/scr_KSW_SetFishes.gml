@@ -1768,6 +1768,21 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Golisopod",spr_KSW_Fish_Golisopod,spr_KSW_Fish_Golisopod_Pal,series_PMDEoF,borange,1,grassBeach,KSW_Phases.afternoon,7000);
 	scr_KSW_AddFish("Tapu Fini",spr_KSW_Fish_TapuFini,spr_KSW_Fish_TapuFini_Pal,series_PMDEoF,flux,3,grassBeach,KSW_Phases.none,70000);
 	
+	scr_KSW_AddFish("Sobble",spr_KSW_Fish_Sobble,spr_KSW_Fish_Sobble_Pal,series_PMDEoF,legion,1,grassBeach,KSW_Phases.night,800);
+	scr_KSW_AddFish("Drizzile",spr_KSW_Fish_Drizzile,spr_KSW_Fish_Drizzile_Pal,series_PMDEoF,legion,2,grassBeach,KSW_Phases.night,1800);
+	scr_KSW_AddFish("Inteleon",spr_KSW_Fish_Inteleon,spr_KSW_Fish_Inteleon_Pal,series_PMDEoF,legion,3,grassBeach,KSW_Phases.night,8000);
+	scr_KSW_AddFish("Snom",spr_KSW_Fish_Snom,spr_KSW_Fish_Snom_Pal,series_PMDEoF,mage,0,creamCrevasse,KSW_Phases.night,80);
+	scr_KSW_AddFish("Frosmoth",spr_KSW_Fish_Frosmoth,spr_KSW_Fish_Frosmoth_Pal,series_PMDEoF,mage,1,creamCrevasse,KSW_Phases.night,800);
+	scr_KSW_AddFish("Galarian Corsola",spr_KSW_Fish_GalarianCorsola,spr_KSW_Fish_GalarianCorsola_Pal,series_PMDEoF,legion,0,hallowReen,KSW_Phases.night,800);
+	scr_KSW_AddFish("Cursola",spr_KSW_Fish_Cursola,spr_KSW_Fish_Cursola_Pal,series_PMDEoF,legion,1,hallowReen,KSW_Phases.night,8400);
+	scr_KSW_AddFish("Galarian Slowpoke",spr_KSW_Fish_GalarianSlowpoke,spr_KSW_Fish_GalarianSlowpoke_Pal,series_PMDEoF,flux,0,hallowReen,KSW_Phases.day,800);
+	scr_KSW_AddFish("Galarian Slowbro",spr_KSW_Fish_GalarianSlowbro,spr_KSW_Fish_GalarianSlowbro_Pal,series_PMDEoF,flux,1,hallowReen,KSW_Phases.day,3800);
+	scr_KSW_AddFish("Galarian Slowking",spr_KSW_Fish_GalarianSlowking,spr_KSW_Fish_GalarianSlowking_Pal,series_PMDEoF,flux,2,hallowReen,KSW_Phases.day,8800);
+	scr_KSW_AddFish("Arctovish",spr_KSW_Fish_Arctovish,spr_KSW_Fish_Arctovish_Pal,series_PMDEoF,mage,2,creamCrevasse,KSW_Phases.night,8200);
+	scr_KSW_AddFish("Arctozolt",spr_KSW_Fish_Arctozolt,spr_KSW_Fish_Arctozolt_Pal,series_PMDEoF,glimmer,2,creamCrevasse,KSW_Phases.day,8200);
+	scr_KSW_AddFish("Dracovish",spr_KSW_Fish_Dracovish,spr_KSW_Fish_Dracovish_Pal,series_PMDEoF,mint,2,hallowReen,KSW_Phases.afternoon,8200);
+	scr_KSW_AddFish("Dracozolt",spr_KSW_Fish_Dracozolt,spr_KSW_Fish_Dracozolt_Pal,series_PMDEoF,borange,2,androidPort,KSW_Phases.day,8200);
+	
 	scr_KSW_AddFish("Quaxly",spr_KSW_Fish_Quaxly,spr_KSW_Fish_Quaxly_Pal,series_PMDEoF,mage,1,grassBeach,KSW_Phases.day,900);
 	scr_KSW_AddFish("Quaxwell",spr_KSW_Fish_Quaxwell,spr_KSW_Fish_Quaxwell_Pal,series_PMDEoF,mage,2,grassBeach,KSW_Phases.afternoon,1900);
 	scr_KSW_AddFish("Quaquaval",spr_KSW_Fish_Quaquaval,spr_KSW_Fish_Quaquaval_Pal,series_PMDEoF,mage,3,grassBeach,KSW_Phases.night,9000);
