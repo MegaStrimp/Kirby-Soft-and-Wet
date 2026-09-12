@@ -1006,7 +1006,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("WF Largemouth Bass",spr_KSW_Fish_WFLargemouthBass,spr_KSW_Fish_WFLargemouthBass_Pal,series_Webfishing,mint,0,grassBeach,KSW_Phases.none,500,,30);
 	scr_KSW_AddFish("WF Bluegill",spr_KSW_Fish_WFBluegill,spr_KSW_Fish_WFBluegill_Pal,series_Webfishing,mint,0,grassBeach,KSW_Phases.none,580,1,33);
 	scr_KSW_AddFish("Bowfin",spr_KSW_Fish_Bowfin,spr_KSW_Fish_Bowfin_Pal,series_Webfishing,mint,1,grassBeach,KSW_Phases.none,2580,,38);
-	scr_KSW_AddFish("Bull Shark",spr_KSW_Fish_BullShark,spr_KSW_Fish_BullShark_Pal,series_Webfishing,candy,2,grassBeach,KSW_Phases.none,11870,-1,44,,3);
+	scr_KSW_AddFish("Bull Shark",spr_KSW_Fish_BullShark,spr_KSW_Fish_BullShark_Pal,series_Webfishing,candy,2,grassBeach,KSW_Phases.none,11870,-1,44);
 	scr_KSW_AddFish("WF Carp",spr_KSW_Fish_WFCarp,spr_KSW_Fish_WFCarp_Pal,series_Webfishing,mint,0,grassBeach,KSW_Phases.none,500,,33);
 	scr_KSW_AddFish("WF Catfish",spr_KSW_Fish_WFCatfish,spr_KSW_Fish_WFCatfish_Pal,series_Webfishing,borange,0,hallowReen,KSW_Phases.none,2310,,38);
 	scr_KSW_AddFish("Crab",spr_KSW_Fish_Crab,spr_KSW_Fish_Crab_Pal,series_Webfishing,candy,1,grassBeach,KSW_Phases.none,1960);
@@ -1460,7 +1460,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Bandit",spr_KSW_Fish_Bandit,spr_KSW_Fish_Bandit_Pal,series_NuclearThrone,borange,0,serranoSprings,KSW_Phases.day,1960);
 	scr_KSW_AddFish("Beartank",spr_KSW_Fish_Beartank,spr_KSW_Fish_Beartank_Pal,series_Castlevania,mint,1,hallowReen,KSW_Phases.day,1998);
 	scr_KSW_AddFish("Beer",spr_KSW_Fish_BarleyTea,spr_KSW_Fish_BarleyTea_Pal,series_Castlevania,borange,0,hallowReen,KSW_Phases.night,15);
-	scr_KSW_AddFish("Big Bandit",spr_KSW_Fish_BigBandit,spr_KSW_Fish_BigBandit_Pal,series_NuclearThrone,borange,3,serranoSprings,KSW_Phases.day,24490);
+	var rebel = scr_KSW_AddFish("Big Bandit",spr_KSW_Fish_BigBandit,spr_KSW_Fish_BigBandit_Pal,series_NuclearThrone,borange,3,serranoSprings,KSW_Phases.day,24490);
+	rebel.displayedName = "Rebel"
 	scr_KSW_AddFish("Big Dog",spr_KSW_Fish_BigDog,spr_KSW_Fish_BigDog_Pal,series_NuclearThrone,glimmer,3,serranoSprings,KSW_Phases.afternoon,15020);
 	scr_KSW_AddFish("Big Maggot",spr_KSW_Fish_BigMaggot,spr_KSW_Fish_BigMaggot_Pal,series_NuclearThrone,borange,1,serranoSprings,KSW_Phases.day,3850);
 	scr_KSW_AddFish("Nuclear Bone Fish",spr_KSW_Fish_NuclearBoneFish,spr_KSW_Fish_NuclearBoneFish_Pal,series_NuclearThrone,mage,0,grassBeach,KSW_Phases.none,1310);
