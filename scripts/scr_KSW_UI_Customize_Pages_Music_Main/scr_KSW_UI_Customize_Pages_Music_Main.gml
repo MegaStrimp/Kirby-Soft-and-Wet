@@ -6,6 +6,66 @@ function scr_KSW_UI_Customize_Pages_Music_Main()
 	var startIndex = max(0,floor(pageOffset / selectionOffset) - 1);
 	var endIndex = min(startIndex + visibleCount + 2,selectionCount);
 	
+	#region Mouse Wheel Scroll
+	if (selectionCount > 3)
+	{
+		if ((mouse_wheel_down()) and (pageOffsetTarget < max(0,selectionCount - 3) * selectionOffset))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			pageOffsetTarget += selectionOffset;
+		}
+		
+		if ((mouse_wheel_up()) and (pageOffsetTarget > 0))
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			pageOffsetTarget -= selectionOffset;
+		}
+	}
+	#endregion
+	
+	#region Drag Scroll
+	static dragActive = false;
+	static pressArmed = false;
+	static dragStartY = 0;
+	static dragStartOffset = 0;
+	
+	if (mouse_check_button_pressed(mb_left))
+	{
+		if (scr_MouseIsInbetween(0,12,global.gameWidth,141))
+		{
+			dragStartY = mouse_y;
+			dragStartOffset = pageOffset;
+			dragActive = true;
+		}
+	}
+	else if ((mouse_check_button(mb_left)) and (dragActive))
+	{
+		var _dy = mouse_y - dragStartY;
+		if (abs(_dy) > 2)
+		{
+			pressArmed = false;
+			mouseSelected = false;
+		}
+		
+		pageOffset = clamp(dragStartOffset - _dy,0,max(0,selectionCount - 3) * selectionOffset);
+		pageOffsetTarget = pageOffset;
+	}
+	else
+	{
+		dragActive = false;
+	}
+	
+	if ((mouse_check_button_released(mb_left)) and (pressArmed))
+	{
+		mouseSelected = true;
+		pressArmed = false;
+	}
+	else if (mouse_check_button_released(mb_left))
+	{
+		pressArmed = false;
+	}
+	#endregion
+	
 	for (var i = startIndex; i < endIndex; i++)
 	{
 		var selectionY = (selectionOffset * i) - pageOffset;
@@ -16,7 +76,7 @@ function scr_KSW_UI_Customize_Pages_Music_Main()
 			
 			if (selection == i)
 			{
-				mouseSelected = true;
+				pressArmed = true;
 			}
 			else
 			{

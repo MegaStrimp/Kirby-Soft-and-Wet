@@ -15,6 +15,11 @@ buttonsList_Max = 20;
 
 mousePressed = false;
 settingPressed = false;
+
+dragActive = false;
+dragStartY = 0;
+dragStartScroll = 0;
+listScroll = 0;
 #endregion
 
 #region Keys

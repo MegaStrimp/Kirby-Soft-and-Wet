@@ -6,6 +6,24 @@ function scr_KSW_UI_Customize_Pages_Characters_Main()
 	var startIndex = max(0,floor(pageOffset / selectionOffset) - 1);
 	var endIndex = min(startIndex + visibleCount + 2,selectionCount);
 	
+	#region Swipe
+	var swipeResult = scr_KSW_Menu_Component_Swipe();
+	if (swipeResult == -1)
+	{
+		scr_KSW_UI_Customize_Pages_Characters_Left();
+	}
+	else if (swipeResult == 1)
+	{
+		scr_KSW_UI_Customize_Pages_Characters_Right();
+	}
+	#endregion
+	
+	#region Tap Select
+	static pressArmed = false;
+	static pressArmedIndex = -1;
+	static pressX = 0;
+	static pressY = 0;
+	
 	for (var i = startIndex; i < endIndex; i++)
 	{
 		var selectionX = (selectionOffset * i) - pageOffset;
@@ -13,9 +31,23 @@ function scr_KSW_UI_Customize_Pages_Characters_Main()
 		var boxX = 10 + selectionX;
 		var boxY = 48;
 		
-		if ((!mousePressed) and (scr_MouseIsInbetween(boxX - 2,boxY - 2,boxX + 70,boxY + 70)) and (mouse_check_button_pressed(mb_left)))
+		if ((!mousePressed) and (!pressArmed) and (scr_MouseIsInbetween(boxX - 2,boxY - 2,boxX + 70,boxY + 70)) and (mouse_check_button_pressed(mb_left)))
 		{
 			mousePressed = true;
+			pressArmed = true;
+			pressArmedIndex = i;
+			pressX = mouse_x;
+			pressY = mouse_y;
+		}
+	}
+	
+	if ((pressArmed) and (mouse_check_button_released(mb_left)))
+	{
+		pressArmed = false;
+		
+		if ((swipeResult == 0) and (abs(mouse_x - pressX) < 24) and (abs(mouse_y - pressY) < 24))
+		{
+			var i = pressArmedIndex;
 			
 			if (selection == i)
 			{
@@ -30,6 +62,11 @@ function scr_KSW_UI_Customize_Pages_Characters_Main()
 			}
 		}
 	}
+	else if ((pressArmed) and (!mouse_check_button(mb_left)))
+	{
+		pressArmed = false;
+	}
+	#endregion
 	
 	#region Selection Animation
 	selectionIndex = (selectionIndex + selectionSpd) % selectionNumber;
