@@ -29,7 +29,9 @@ if (canSelect)
 		scr_KSW_Menu_Component_Navigate_Right();
 	}
 	
-	if ((input_check_pressed("L",playerNum)) or ((scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))))
+	var swipeResult = scr_KSW_Menu_Component_Swipe();
+	
+	if ((input_check_pressed("L",playerNum)) or ((scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))) or (swipeResult == -1))
 	{
 		scr_KSW_Menu_Component_SwitchPage_L();
 		
@@ -39,7 +41,7 @@ if (canSelect)
 		}
 	}
 	
-	if ((input_check_pressed("R",playerNum)) or ((scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))))
+	if ((input_check_pressed("R",playerNum)) or ((scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))) or (swipeResult == 1))
 	{
 		scr_KSW_Menu_Component_SwitchPage_R();
 		

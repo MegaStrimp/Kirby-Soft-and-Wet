@@ -14,6 +14,8 @@ function scr_KSW_UI_Customize_Pages_Stages_Setup()
 	#region Menu Variables
 	playerNum = 0;
 	
+	swipeHandledInMain = true;
+	
 	isCompleted = (global.KSW_UnlockedStageCount >= global.KSW_StageCount);
 	selectionOffset = 76;
 	
