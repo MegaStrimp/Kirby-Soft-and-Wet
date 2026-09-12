@@ -55,6 +55,8 @@ mousePressedNewBubble_Target = -1;
 mousePressedSelectedBubble = false;
 mouseSelected = false;
 
+swipeHandledInMain = false;
+
 scr_KSW_UI_Customize_SetPages();
 
 scr_KSW_UI_Customize_ChangePage("main");

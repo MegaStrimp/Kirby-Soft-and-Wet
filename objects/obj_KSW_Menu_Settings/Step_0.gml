@@ -15,6 +15,7 @@ if (canSelect)
 		
 		selection -= 1;
 		if (selection < 0) selection += buttonsList_Max + 1;
+		listScroll = max(0,selection - 7);
 	}
 	
 	if (input_check_pressed("down",playerNum))
@@ -23,10 +24,11 @@ if (canSelect)
 		
 		selection += 1;
 		if (selection > buttonsList_Max) selection -= buttonsList_Max + 1;
+		listScroll = max(0,selection - 7);
 	}
 	
 	var space = 16;
-	var startY = 8 - (max(0,selection - 7) * space);
+	var startY = 8 - (listScroll * space);
 	for (var i = 0; i <= buttonsList_Max; i++)
 	{
 		if ((!mousePressed) and (scr_MouseIsInbetween(8,startY + (space * i),8 + 120,startY + (space * i) + 12)) and (mouse_check_button_pressed(mb_left)))
@@ -47,6 +49,41 @@ if (canSelect)
 	}
 	
 	if ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))) settingPressed = true;
+	
+	if (targetKey == "")
+	{
+		#region Mouse Wheel Scroll
+		var wheelUp = mouse_wheel_up();
+		var wheelDown = mouse_wheel_down();
+		
+		if (wheelUp or wheelDown)
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			listScroll = clamp(listScroll + (wheelDown - wheelUp),0,buttonsList_Max - 7);
+		}
+		#endregion
+		
+		#region Drag Scroll
+		if (mouse_check_button_pressed(mb_left))
+		{
+			if (scr_MouseIsInbetween(8,8,128,140))
+			{
+				dragActive = true;
+				dragStartY = mouse_y;
+				dragStartScroll = listScroll;
+			}
+		}
+		else if ((mouse_check_button(mb_left)) and (dragActive))
+		{
+			var _dy = mouse_y - dragStartY;
+			listScroll = clamp(dragStartScroll - round(_dy / space),0,buttonsList_Max - 7);
+		}
+		else
+		{
+			dragActive = false;
+		}
+		#endregion
+	}
 	
 	if ((targetKey == "") and ((input_check_pressed("B",playerNum)) or (keyboard_check_pressed(vk_escape))) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 	{

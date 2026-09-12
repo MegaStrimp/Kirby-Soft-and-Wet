@@ -27,14 +27,17 @@ if (exitTimer == -1)
 		if (currentRightAction != -1) script_execute(currentRightAction);
 	}
 	
-	if ((input_check_pressed("L",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))))
+	var swipeResult = 0;
+	if (!swipeHandledInMain) swipeResult = scr_KSW_Menu_Component_Swipe();
+	
+	if ((input_check_pressed("L",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))) or (swipeResult == -1))
 	{
 		mousePressed = true;
 		
 		if (currentLAction != -1) script_execute(currentLAction);
 	}
 	
-	if ((input_check_pressed("R",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))))
+	if ((input_check_pressed("R",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))) or (swipeResult == 1))
 	{
 		mousePressed = true;
 		
