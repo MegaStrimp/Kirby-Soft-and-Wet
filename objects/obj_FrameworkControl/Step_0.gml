@@ -141,6 +141,15 @@ if (global.screenshotTextTimer != -1)
 #endregion
 #endregion
 
+#region Mobile Debug
+if ((keyboard_check(vk_control)) and (keyboard_check(vk_shift)) and (keyboard_check_pressed(ord("M"))))
+{
+	global.mobileDebug = !global.mobileDebug;
+	global.isMobile = global.mobileDebug;
+	scr_PlaySfx(snd_KSW_Score);
+}
+#endregion
+
 #region Custom Cursor
 if (global.customCursorSprite != -1)
 {
