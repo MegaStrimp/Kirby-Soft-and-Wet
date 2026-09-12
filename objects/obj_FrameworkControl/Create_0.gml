@@ -30,6 +30,8 @@ global.applicationSurfaceAutoDraw = true;
 global.customCursorSprite = -1;
 global.customCursorSpriteIndex = -1;
 
+global.mobileDebug = false;
+
 global.shaderHandlerTimer = 0;
 global.shaderHandlerTimerM = 0;
 #endregion

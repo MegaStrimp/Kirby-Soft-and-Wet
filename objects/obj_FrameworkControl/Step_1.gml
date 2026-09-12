@@ -61,7 +61,7 @@ if ((global.windowScale != global.windowScaleTarget) or (global.gameWidth != glo
 #endregion
 
 #region Audio Control
-if (keyboard_check_pressed(ord("M")))
+if ((keyboard_check_pressed(ord("M"))) and (!keyboard_check(vk_control)) and (!keyboard_check(vk_shift)) and (!keyboard_check(vk_alt)))
 {
 	global.audioMuted = !global.audioMuted;
 }

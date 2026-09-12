@@ -56,6 +56,15 @@ scribble("[c_lime]" + string(global.versionNumber) + " - " + string(global.versi
 if (global.alivelInstaller_HasUpdate) scribble("[c_yellow]Update Available[/color]").gradient(c_orange,1).align(fa_right).draw(236,20);
 #endregion
 
+#region Mobile Debug Mode
+if (global.mobileDebug)
+{
+	var _waveY = sine_between(global.currentTimePausable / 50,1,-2,2);
+	var _waveX = sine_between(global.currentTimePausable / 40,1,-2,2);
+	scribble("[c_yellow]MOBILE DEBUG MODE[/color]").gradient(c_red,1).align(fa_right).draw(236 + _waveX,36 + _waveY);
+}
+#endregion
+
 #region Button Hints
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("left"))];
 if (targetIcon != undefined) draw_sprite(targetIcon,0,2,96 + (2 * (buttonInputTimerComponent_LeftTimer != -1)));
