@@ -2,7 +2,7 @@
 
 #region Selections
 var space = 16;
-var startY = 8 - (max(0,selection - 7) * space);
+var startY = 8 - (listScroll * space);
 var i = 0;
 
 if (!instance_exists(obj_KSW_UI_NotifBox)) scribble_flush_everything();

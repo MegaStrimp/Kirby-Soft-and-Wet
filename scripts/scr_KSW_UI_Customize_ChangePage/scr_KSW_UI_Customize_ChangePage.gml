@@ -17,5 +17,7 @@ function scr_KSW_UI_Customize_ChangePage(targetPageID)
 	currentRAction = KSW_PageList[finalID].rAction;
 	currentDrawScript = KSW_PageList[finalID].drawScript;
 	
+	swipeHandledInMain = false;
+	
 	if (currentSetupScript != -1) script_execute(currentSetupScript);
 }

@@ -2763,6 +2763,7 @@
     {"id":{"name":"scr_KSW_Menu_Component_Navigate_Right","path":"scripts/scr_KSW_Menu_Component_Navigate_Right/scr_KSW_Menu_Component_Navigate_Right.yy",},},
     {"id":{"name":"scr_KSW_Menu_Component_Navigate_Setup","path":"scripts/scr_KSW_Menu_Component_Navigate_Setup/scr_KSW_Menu_Component_Navigate_Setup.yy",},},
     {"id":{"name":"scr_KSW_Menu_Component_Navigate_Up","path":"scripts/scr_KSW_Menu_Component_Navigate_Up/scr_KSW_Menu_Component_Navigate_Up.yy",},},
+    {"id":{"name":"scr_KSW_Menu_Component_Swipe","path":"scripts/scr_KSW_Menu_Component_Swipe/scr_KSW_Menu_Component_Swipe.yy",},},
     {"id":{"name":"scr_KSW_Menu_Component_SwitchPage_L","path":"scripts/scr_KSW_Menu_Component_SwitchPage_L/scr_KSW_Menu_Component_SwitchPage_L.yy",},},
     {"id":{"name":"scr_KSW_Menu_Component_SwitchPage_R","path":"scripts/scr_KSW_Menu_Component_SwitchPage_R/scr_KSW_Menu_Component_SwitchPage_R.yy",},},
     {"id":{"name":"scr_KSW_Menu_Component_SwitchPage_Setup","path":"scripts/scr_KSW_Menu_Component_SwitchPage_Setup/scr_KSW_Menu_Component_SwitchPage_Setup.yy",},},
