@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Hisuian Samurott",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Hisuian Samurott.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Hisuian Samurott.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

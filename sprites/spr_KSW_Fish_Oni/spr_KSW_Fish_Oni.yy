@@ -30,7 +30,7 @@
   "origin":4,
   "parent":{
     "name":"Oni",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Oni.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Oni.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -97,8 +97,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

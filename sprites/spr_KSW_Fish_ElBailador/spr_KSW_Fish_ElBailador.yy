@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_ElBailador",
   "bboxMode":0,
-  "bbox_bottom":113,
+  "bbox_bottom":67,
   "bbox_left":0,
   "bbox_right":52,
   "bbox_top":0,
@@ -12,26 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"35268123-33dd-4894-9290-606fadae7c55","name":"35268123-33dd-4894-9290-606fadae7c55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a1d9d637-4873-4061-87fd-62d3bcef740a","name":"a1d9d637-4873-4061-87fd-62d3bcef740a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"9a44b797-1ea9-44aa-b7ab-1f8b212e9dd4","name":"9a44b797-1ea9-44aa-b7ab-1f8b212e9dd4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f4863c2e-8c72-4149-b50d-35ca35728f4c","name":"f4863c2e-8c72-4149-b50d-35ca35728f4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e8819ed6-e91f-4c65-a9bb-c96357f7cc1f","name":"e8819ed6-e91f-4c65-a9bb-c96357f7cc1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"b0968e9b-9721-45d2-8858-42c5885b7221","name":"b0968e9b-9721-45d2-8858-42c5885b7221","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"84a81f72-76e5-45ff-9750-f5b27b110bd1","name":"84a81f72-76e5-45ff-9750-f5b27b110bd1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8e0ecf29-1391-451c-8266-83d543cf1008","name":"8e0ecf29-1391-451c-8266-83d543cf1008","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"335df63e-09ec-41fa-9845-37ebf62075bd","name":"335df63e-09ec-41fa-9845-37ebf62075bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"37a2c47a-df09-44fc-85bb-41d769ff2459","name":"37a2c47a-df09-44fc-85bb-41d769ff2459","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"895abd97-c3ae-4156-ba76-6f6c04fa0730","name":"895abd97-c3ae-4156-ba76-6f6c04fa0730","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"a01f6891-87ce-4f95-b004-9acbd742b1a4","name":"a01f6891-87ce-4f95-b004-9acbd742b1a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"2bcc16c0-2119-41e9-a08a-bff129f53f0c","name":"2bcc16c0-2119-41e9-a08a-bff129f53f0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"7c9e22aa-9b24-4c7e-a953-80160687feb8","name":"7c9e22aa-9b24-4c7e-a953-80160687feb8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8f3ded99-50d8-4815-a65b-140789d2dc1b","name":"8f3ded99-50d8-4815-a65b-140789d2dc1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"5ab8da22-a170-4bbe-a76d-99c78e0abddf","name":"5ab8da22-a170-4bbe-a76d-99c78e0abddf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":114,
+  "height":68,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"d7d5d860-e02a-424e-ac35-47e2b84bc10c","blendMode":0,"displayName":"default","isLocked":false,"name":"d7d5d860-e02a-424e-ac35-47e2b84bc10c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -64,8 +50,8 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":16.0,
-    "lockOrigin":false,
+    "length":2.0,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -74,7 +60,7 @@
     },
     "name":"spr_KSW_Fish_ElBailador",
     "playback":1,
-    "playbackSpeed":10.0,
+    "playbackSpeed":6.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -84,65 +70,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35268123-33dd-4894-9290-606fadae7c55","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"32b81a4e-daa2-44be-8f55-1f559176ef70","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1d9d637-4873-4061-87fd-62d3bcef740a","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0a0e8a85-2309-4886-8944-9d682d0bc754","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a44b797-1ea9-44aa-b7ab-1f8b212e9dd4","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ccf5e815-015b-4197-910c-5a850050ec68","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4863c2e-8c72-4149-b50d-35ca35728f4c","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"91162774-f36d-4aae-a23b-07b287f62dce","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8819ed6-e91f-4c65-a9bb-c96357f7cc1f","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"00bbafc4-6efe-4c9d-bd27-dc249d3847b4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0968e9b-9721-45d2-8858-42c5885b7221","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d7b3eda7-cdd6-4797-ae01-df6fac750ef3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"84a81f72-76e5-45ff-9750-f5b27b110bd1","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"89456589-ce47-486a-9aee-3d19992bb0f4","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e0ecf29-1391-451c-8266-83d543cf1008","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"91cec418-98fd-4061-8e98-344b1b564592","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"335df63e-09ec-41fa-9845-37ebf62075bd","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e971c051-4233-4926-908e-65db7e7697fd","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37a2c47a-df09-44fc-85bb-41d769ff2459","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0255ed7a-c69c-47b4-811a-8c63175ee384","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"895abd97-c3ae-4156-ba76-6f6c04fa0730","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"470c6149-c330-4f62-aa53-cf0d2ae03a46","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"470c6149-c330-4f62-aa53-cf0d2ae03a46","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a01f6891-87ce-4f95-b004-9acbd742b1a4","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ed9905b3-d5fb-404f-8b4d-4f21cce63ab3","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bcc16c0-2119-41e9-a08a-bff129f53f0c","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2656a3d4-caac-4800-aeb2-5ea4cca0866d","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c9e22aa-9b24-4c7e-a953-80160687feb8","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"80470126-87f0-4b59-8b91-e50fedef8ef9","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f3ded99-50d8-4815-a65b-140789d2dc1b","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7a0c2de9-a879-4541-91e5-f8b54c7f8653","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ab8da22-a170-4bbe-a76d-99c78e0abddf","path":"sprites/spr_KSW_Fish_ElBailador/spr_KSW_Fish_ElBailador.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b7246b47-8fc6-4382-8298-315e286091d6","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ed9905b3-d5fb-404f-8b4d-4f21cce63ab3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":26,
-    "yorigin":57,
+    "yorigin":34,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Greninja",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Greninja.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Greninja.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -85,8 +85,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

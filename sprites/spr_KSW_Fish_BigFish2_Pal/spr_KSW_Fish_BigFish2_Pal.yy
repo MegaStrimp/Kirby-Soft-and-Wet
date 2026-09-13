@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Big Fish Mk. II",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Big Fish Mk. II.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Big Fish Mk. II.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

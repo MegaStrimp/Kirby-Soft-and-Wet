@@ -116,6 +116,20 @@ scribble(text).draw(8,startY + (space * i));
 
 i += 1;
 
+#region Cursor
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+var text = "ENABLE CURSOR";
+if (global.KSW_HasCursor) text = "DISABLE CURSOR";
+scribble(text).draw(8,startY + (space * i));
+#endregion
+
+i += 1;
+
 #region Export Save
 scribble_font_set_default("fnt_Advance_Gray");
 if (selection == i)

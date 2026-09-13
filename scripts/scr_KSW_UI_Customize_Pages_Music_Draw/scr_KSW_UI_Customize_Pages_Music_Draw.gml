@@ -24,7 +24,7 @@ function scr_KSW_UI_Customize_Pages_Music_Draw()
 		
 		scribble_font_set_default("fnt_Advance_Small");
 		var authorFinal = string(global.KSW_MusicList[ds_list_find_value(selectionList,i)].author);
-		if (global.KSW_MusicList[ds_list_find_value(selectionList,i)].ID == "custom")authorFinal = "Press [" + sprite_get_name(ds_map_find_value(global.UI_IconBindings, string(input_binding_get("X")))) + "] to customize!";
+		if (global.KSW_MusicList[ds_list_find_value(selectionList,i)].ID == "custom")authorFinal = "Double-select to Customize!";
 		scribble(authorFinal).wrap(186).draw(42,38 + selectionY);
 		scribble_font_set_default("fnt_Advance");
 		

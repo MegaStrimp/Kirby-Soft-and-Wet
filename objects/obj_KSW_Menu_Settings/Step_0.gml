@@ -203,6 +203,26 @@ if (canSelect)
 		#endregion
 		
 		case 5:
+		#region Cursor
+		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
+		{
+			scr_PlaySfx(snd_KSW_ButtonChange);
+			
+			global.KSW_HasCursor = !global.KSW_HasCursor;
+			
+			if (global.KSW_HasCursor)
+			{
+				global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
+			}
+			else
+			{
+				global.customCursorSprite = -1;
+			}
+		}
+		break;
+		#endregion
+		
+		case 6:
 		#region Export Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -221,7 +241,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 6:
+		case 7:
 		#region Import Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -240,7 +260,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 7:
+		case 8:
 		#region Delete Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -254,7 +274,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 8:
+		case 9:
 		#region Key Up
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -300,7 +320,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 9:
+		case 10:
 		#region Key Down
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -346,7 +366,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 10:
+		case 11:
 		#region Key Left
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -392,7 +412,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 11:
+		case 12:
 		#region Key Right
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -438,7 +458,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 12:
+		case 13:
 		#region Key A
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -484,7 +504,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 13:
+		case 14:
 		#region Key B
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -530,7 +550,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 14:
+		case 15:
 		#region Key X
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -624,7 +644,7 @@ if (canSelect)
 		#endregion
 		*/
 		
-		case 15:
+		case 16:
 		#region Key L
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -670,7 +690,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 16:
+		case 17:
 		#region Key R
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -716,7 +736,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 17:
+		case 18:
 		#region Key LT
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -762,7 +782,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 18:
+		case 19:
 		#region Key RT
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -808,7 +828,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 19:
+		case 20:
 		#region Key Start
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -902,7 +922,7 @@ if (canSelect)
 		#endregion
 		*/
 		
-		case 20:
+		case 21:
 		#region Reset Keys
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{

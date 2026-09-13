@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Tapu Fini",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Tapu Fini.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Tapu Fini.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -85,8 +85,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

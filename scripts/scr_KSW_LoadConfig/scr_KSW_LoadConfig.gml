@@ -12,6 +12,15 @@ function scr_KSW_LoadConfig(file)
 	global.fullscreen = ini_read_real("options","fullscreen",false);
 	global.windowScaleTarget = ini_read_real("options","windowScale",floor(scr_Screen_ScaleToScreenSize() / 1.2));
 	global.shaders = ini_read_real("options","shaders",true);
+	global.KSW_HasCursor = ini_read_real("options","hasCursor",!global.isMobile);
+	if (global.KSW_HasCursor)
+	{
+		global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
+	}
+	else
+	{
+		global.customCursorSprite = -1;
+	}
 	
 	ini_close();
 }

@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Ludicolo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Ludicolo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Ludicolo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -93,8 +93,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

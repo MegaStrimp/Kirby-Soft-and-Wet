@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Anorith",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Anorith.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Anorith.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

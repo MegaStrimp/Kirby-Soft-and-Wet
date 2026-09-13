@@ -18,13 +18,16 @@ if (isShiny)
 #endregion
 
 #region Sprite
-if (spriteIndex != -1)
+var spriteIndexFinal = spriteIndex;
+if (weirdIconTimer != -1) spriteIndexFinal = weirdIcons[weirdIconIndex];
+
+if (spriteIndexFinal != -1)
 {
 	var targetPaletteIndex = isShiny;
 	var spriteWave = sine_wave(current_time / 2000,.5,3,0);
 	
-	var surfaceWidth = sprite_get_width(spriteIndex) + 2;
-	var surfaceHeight = sprite_get_height(spriteIndex) + 2;
+	var surfaceWidth = sprite_get_width(spriteIndexFinal) + 2;
+	var surfaceHeight = sprite_get_height(spriteIndexFinal) + 2;
 	
 	if (((!surface_exists(drawSurface)) or ((surface_get_width(drawSurface) != surfaceWidth) or (surface_get_height(drawSurface) != surfaceHeight))))
 	{
@@ -37,7 +40,7 @@ if (spriteIndex != -1)
 	draw_clear_alpha(c_black,0);
 	
 	if ((global.shaders) and (spritePalette != -1)) pal_swap_set(spritePalette,targetPaletteIndex,false);
-	draw_sprite(spriteIndex,imageIndex,1 + sprite_get_xoffset(spriteIndex),1 + sprite_get_yoffset(spriteIndex));
+	draw_sprite(spriteIndexFinal,imageIndex,1 + sprite_get_xoffset(spriteIndexFinal),1 + sprite_get_yoffset(spriteIndexFinal));
 	if ((global.shaders) and (spritePalette != -1)) pal_swap_reset();
 	
 	surface_reset_target();
@@ -53,7 +56,7 @@ if (spriteIndex != -1)
 		shader_set_uniform_f(drawSurface_OutlineColor,255,255,255);
 	}
 	
-	draw_surface(drawSurface,(room_width / 2) + spriteXOffset - sprite_get_xoffset(spriteIndex) - 1,(room_height / 2) + spriteYOffset + spriteWave - sprite_get_yoffset(spriteIndex) - 1);
+	draw_surface(drawSurface,(room_width / 2) + spriteXOffset - sprite_get_xoffset(spriteIndexFinal) - 1,(room_height / 2) + spriteYOffset + spriteWave - sprite_get_yoffset(spriteIndexFinal) - 1);
 	
 	if (global.shaders) shader_reset();
 }

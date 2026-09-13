@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Armaldo",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Armaldo.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Armaldo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

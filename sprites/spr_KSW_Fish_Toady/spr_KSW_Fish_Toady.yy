@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Toady",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Toady.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Toady.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -85,8 +85,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

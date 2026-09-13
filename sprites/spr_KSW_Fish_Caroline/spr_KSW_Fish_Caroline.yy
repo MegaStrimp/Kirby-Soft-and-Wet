@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Caroline",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Caroline.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Caroline.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

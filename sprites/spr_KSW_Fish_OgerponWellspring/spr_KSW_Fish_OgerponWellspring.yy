@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Ogerpon (Wellspring)",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Ogerpon (Wellspring).yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Ogerpon (Wellspring).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -101,8 +101,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

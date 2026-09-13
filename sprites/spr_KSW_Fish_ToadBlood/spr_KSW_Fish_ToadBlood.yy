@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Toad Bloodstained",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Toad Bloodstained.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Toad Bloodstained.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -93,8 +93,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

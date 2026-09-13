@@ -1693,13 +1693,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Jellyfish",spr_KSW_Fish_Jellyfish,spr_KSW_Fish_Jellyfish_Pal,series_Celeste,flux,2,anyStage,KSW_Phases.night,2000,-14,-9);
 	scr_KSW_AddFish("Collectable Berry",spr_KSW_Fish_CollectableBerry,spr_KSW_Fish_CollectableBerry_Pal,series_Celeste,candy,1,grassBeach,KSW_Phases.day,250,-5,-7);
 	scr_KSW_AddFish("Theo Crystal",spr_KSW_Fish_TheoCrystal,spr_KSW_FIsh_TheoCrystal_Pal,series_Celeste,flux,2,hallowReen,KSW_Phases.night,10000,-11,-11);
-	scr_KSW_AddFish("Brionne",spr_KSW_Fish_Brionne,spr_KSW_Fish_Brionne_Pal,series_Pokemon,mage,2,grassBeach,KSW_Phases.day,17500,-15,-20);
-	scr_KSW_AddFish("Primarina",spr_KSW_Fish_Primarina,spr_KSW_Fish_Primarina_Pal,series_Pokemon,mage,3,grassBeach,KSW_Phases.day,44000,-15,-20);
 	scr_KSW_AddFish("Mr Retro",spr_KSW_Fish_MrRetro,spr_KSW_Fish_MrRetro_Pal,series_SuperMario,candy,3,anyStage,KSW_Phases.none,16,-6,-6);
 	scr_KSW_AddFish("Wakasagihime",spr_KSW_Fish_Wakasagihime,spr_KSW_Fish_Wakasagihime_Pal,series_TouhouProject,mage,3,anyStage,KSW_Phases.none,57000,-34,-13);
 	scr_KSW_AddFish("Cirno",spr_KSW_Fish_Cirno,spr_KSW_Fish_Cirno_Pal,series_TouhouProject,mage,3,creamCrevasse,KSW_Phases.none,46000,-32,-17,snd_KSW_Fish_Cirno);
-	
-	#region 1.3
 	scr_KSW_AddFish("Bells",spr_KSW_Fish_Bells,spr_KSW_Fish_Bells_Pal,series_AnimalCrossing,mint,0,grassBeach,KSW_Phases.none,100);
 	scr_KSW_AddFish("Gyroid",spr_KSW_Fish_Gyroid,spr_KSW_Fish_Gyroid_Pal,series_AnimalCrossing,mint,1,grassBeach,KSW_Phases.none,828);
 	scr_KSW_AddFish("Pitfall Seed",spr_KSW_Fish_PitfallSeed,spr_KSW_Fish_PitfallSeed_Pal,series_AnimalCrossing,mint,1,grassBeach,KSW_Phases.none,10);
@@ -1835,7 +1831,6 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Walking Wake",spr_KSW_Fish_WalkingWake,spr_KSW_Fish_WalkingWake_Pal,series_PMDEoF,flux,3,creamCrevasse,KSW_Phases.none,25000);
 	scr_KSW_AddFish("Chi-Yu",spr_KSW_Fish_ChiYu,spr_KSW_Fish_ChiYu_Pal,series_PMDEoF,borange,3,serranoSprings,KSW_Phases.none,9000);
 	scr_KSW_AddFish("Ogerpon (Wellspring)",spr_KSW_Fish_OgerponWellspring,spr_KSW_Fish_OgerponWellspring_Pal,series_PMDEoF,mage,3,grassBeach,KSW_Phases.none,90000);
-	
 	#endregion
 	#endregion
 }

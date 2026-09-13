@@ -11,7 +11,7 @@ playerNum = 0;
 selection = 0;
 targetKey = "";
 
-buttonsList_Max = 20;
+buttonsList_Max = 21;
 
 mousePressed = false;
 settingPressed = false;

@@ -26,7 +26,11 @@ function scr_KSW_LoadData(file,importFile = false)
 	global.KSW_CaughtTotalFishCount_Afternoon = ini_read_real("gameplay","caughtTotalFishCount_Afternoon",0);
 	global.KSW_CaughtTotalFishCount_Night = ini_read_real("gameplay","caughtTotalFishCount_Night",0);
 	global.KSW_CurrentFishCombo = ini_read_real("gameplay","currentFishCombo",0);
+	global.KSW_HighestFishCombo = ini_read_real("gameplay","highestFishCombo",0);
+	if (global.KSW_HighestFishCombo == 0) global.KSW_HighestFishCombo = global.KSW_CurrentFishCombo;
 	global.KSW_CurrentCoins = ini_read_real("gameplay","coins",0);
+	global.KSW_TotalCoins = ini_read_real("gameplay","totalCoins",0);
+	if (global.KSW_TotalCoins == 0) global.KSW_TotalCoins = global.KSW_CurrentCoins;
 	global.KSW_CurrentStageID = global.KSW_StageIDs[? ini_read_string("gameplay","currentStage","grassBeach")];
 	#endregion
 	

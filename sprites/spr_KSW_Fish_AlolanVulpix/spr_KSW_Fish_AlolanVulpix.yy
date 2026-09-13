@@ -28,7 +28,7 @@
   "origin":4,
   "parent":{
     "name":"Alolan Vulpix",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Alolan Vulpix.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Alolan Vulpix.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -89,8 +89,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,

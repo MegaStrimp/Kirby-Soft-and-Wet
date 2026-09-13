@@ -30,11 +30,6 @@ global.applicationSurfaceAutoDraw = true;
 global.customCursorSprite = -1;
 global.customCursorSpriteIndex = -1;
 
-global.tapFeedbackStars = [];
-global.tapDragLastX = 0;
-global.tapDragLastY = 0;
-global.mobileDebug = false;
-
 global.shaderHandlerTimer = 0;
 global.shaderHandlerTimerM = 0;
 #endregion
