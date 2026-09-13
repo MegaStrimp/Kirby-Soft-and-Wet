@@ -1660,7 +1660,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Yellow Fairy",spr_KSW_Fish_THYellowFairy,spr_KSW_Fish_THYellowFairy_Pal,series_TouhouProject,borange,0,anyStage,KSW_Phases.none,300,0,7);
 	scr_KSW_AddFish("Hunter Fairy",spr_KSW_Fish_THHunterFairy,spr_KSW_Fish_THHunterFairy_Pal,series_TouhouProject,mint,0,serranoSprings,KSW_Phases.none,300,0,6);
 	scr_KSW_AddFish("Black Fairy",spr_KSW_Fish_THBlackFairy,spr_KSW_Fish_THBlackFairy_Pal,series_TouhouProject,flux,1,anyStage,KSW_Phases.night,300,0,7);
-	scr_KSW_AddFish("Mambofish",spr_KSW_Fish_Mambofish,spr_KSW_Fish_Mambofish,series_Umamusume,mage,2,grassBeach,KSW_Phases.none,4500,-24,-5,-1,snd_KSW_Fish_Mambofish);
+	scr_KSW_AddFish("Mambofish",spr_KSW_Fish_Mambofish,spr_KSW_Fish_Mambofish_Pal,series_Umamusume,mage,2,grassBeach,KSW_Phases.none,4500,-24,-5,-1,snd_KSW_Fish_Mambofish);
 	var krisAndNoelle = scr_KSW_AddFish("Two Friends Started Just As Neighbors",spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors,spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors_Pal,series_Deltarune,borange,3,anyStage,KSW_Phases.afternoon,12250);
 	krisAndNoelle.displayedName = "2 Friends Started Just As Neighbors";
 	scr_KSW_AddFish("Flier",spr_KSW_Fish_Flier,spr_KSW_Fish_Flier_Pal,series_UndertaleYellow,glimmer,0,grassBeach,KSW_Phases.none,235,-12,-12);
@@ -1686,6 +1686,14 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Axis",spr_KSW_Fish_Axis,spr_KSW_Fish_Axis_Pal,series_UndertaleYellow,flux,2,androidPort,KSW_Phases.none,1014,-23,-17);
 	scr_KSW_AddFish("Chujin",spr_KSW_Fish_Chujin,spr_KSW_Fish_Chujin_Pal,series_UndertaleYellow,mint,3,androidPort,KSW_Phases.none,80000,0,11);
 	scr_KSW_AddFish("Kanako",spr_KSW_Fish_Kanako,spr_KSW_Fish_Kanako_Pal,series_UndertaleYellow,maze,3,hallowReen,KSW_Phases.none,120000,-152,-90);
+	scr_KSW_AddFish("Jellyfish",spr_KSW_Fish_Jellyfish,spr_KSW_Fish_Jellyfish_Pal,series_Celeste,flux,2,anyStage,KSW_Phases.night,2000,-14,-9);
+	scr_KSW_AddFish("Collectable Berry",spr_KSW_Fish_CollectableBerry,spr_KSW_Fish_CollectableBerry_Pal,series_Celeste,candy,1,grassBeach,KSW_Phases.day,250,-5,-7);
+	scr_KSW_AddFish("Theo Crystal",spr_KSW_Fish_TheoCrystal,spr_KSW_FIsh_TheoCrystal_Pal,series_Celeste,flux,2,hallowReen,KSW_Phases.night,10000,-11,-11);
+	scr_KSW_AddFish("Brionne",spr_KSW_Fish_Brionne,spr_KSW_Fish_Brionne_Pal,series_Pokemon,mage,2,grassBeach,KSW_Phases.day,17500,-15,-20);
+	scr_KSW_AddFish("Primarina",spr_KSW_Fish_Primarina,spr_KSW_Fish_Primarina_Pal,series_Pokemon,mage,3,grassBeach,KSW_Phases.day,44000,-15,-20);
+	scr_KSW_AddFish("Mr Retro",spr_KSW_Fish_MrRetro,spr_KSW_Fish_MrRetro_Pal,series_SuperMario,candy,3,anyStage,KSW_Phases.none,16,-6,-6);
+	scr_KSW_AddFish("Wakasagihime",spr_KSW_Fish_Wakasagihime,spr_KSW_Fish_Wakasagihime_Pal,series_TouhouProject,mage,3,anyStage,KSW_Phases.none,57000,-34,-13);
+	scr_KSW_AddFish("Cirno",spr_KSW_Fish_Cirno,spr_KSW_Fish_Cirno_Pal,series_TouhouProject,mage,3,creamCrevasse,KSW_Phases.none,46000,-32,-17,snd_KSW_Fish_Cirno);
 	#endregion
 	#endregion
 }
