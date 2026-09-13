@@ -1695,7 +1695,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Theo Crystal",spr_KSW_Fish_TheoCrystal,spr_KSW_FIsh_TheoCrystal_Pal,series_Celeste,flux,2,hallowReen,KSW_Phases.night,10000,-11,-11);
 	scr_KSW_AddFish("Mr Retro",spr_KSW_Fish_MrRetro,spr_KSW_Fish_MrRetro_Pal,series_SuperMario,candy,3,anyStage,KSW_Phases.none,16,-6,-6);
 	scr_KSW_AddFish("Wakasagihime",spr_KSW_Fish_Wakasagihime,spr_KSW_Fish_Wakasagihime_Pal,series_TouhouProject,mage,3,anyStage,KSW_Phases.none,57000,-34,-13);
-	scr_KSW_AddFish("Cirno",spr_KSW_Fish_Cirno,spr_KSW_Fish_Cirno_Pal,series_TouhouProject,mage,3,creamCrevasse,KSW_Phases.none,46000,-32,-17,snd_KSW_Fish_Cirno);
+	scr_KSW_AddFish("Cirno",spr_KSW_Fish_Cirno,spr_KSW_Fish_Cirno_Pal,series_TouhouProject,mage,3,creamCrevasse,KSW_Phases.none,46000,-32,-17,,snd_KSW_Fish_Cirno);
 	scr_KSW_AddFish("Bells",spr_KSW_Fish_Bells,spr_KSW_Fish_Bells_Pal,series_AnimalCrossing,mint,0,grassBeach,KSW_Phases.none,100);
 	scr_KSW_AddFish("Gyroid",spr_KSW_Fish_Gyroid,spr_KSW_Fish_Gyroid_Pal,series_AnimalCrossing,mint,1,grassBeach,KSW_Phases.none,828);
 	scr_KSW_AddFish("Pitfall Seed",spr_KSW_Fish_PitfallSeed,spr_KSW_Fish_PitfallSeed_Pal,series_AnimalCrossing,mint,1,grassBeach,KSW_Phases.none,10);
