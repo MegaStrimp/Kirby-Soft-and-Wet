@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6e66283f-5c74-4de3-a973-c2b5d06bcc11","name":"6e66283f-5c74-4de3-a973-c2b5d06bcc11","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"92acb998-8f70-44b5-b86c-75c0ef2d254b","name":"92acb998-8f70-44b5-b86c-75c0ef2d254b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":9,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4d152b98-6fc0-4217-9507-0e7176e3d3ae","blendMode":0,"displayName":"default","isLocked":false,"name":"4d152b98-6fc0-4217-9507-0e7176e3d3ae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"68e6d006-99fd-47e1-a76f-83798a3c40dd","blendMode":0,"displayName":"default","isLocked":false,"name":"68e6d006-99fd-47e1-a76f-83798a3c40dd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Brionne_Pal",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"Brionne",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Brionne.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Brionne.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e66283f-5c74-4de3-a973-c2b5d06bcc11","path":"sprites/spr_KSW_Fish_Brionne_Pal/spr_KSW_Fish_Brionne_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fff7c522-7249-4f7e-b0d8-78be7f761468","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"92acb998-8f70-44b5-b86c-75c0ef2d254b","path":"sprites/spr_KSW_Fish_Brionne_Pal/spr_KSW_Fish_Brionne_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"950b9512-3e6f-48ac-a7a3-3860cb5a5cd9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"SoftAndWet",
-    "path":"texturegroups/SoftAndWet",
+    "name":"Default",
+    "path":"texturegroups/Default",
   },
   "type":0,
   "VTile":false,

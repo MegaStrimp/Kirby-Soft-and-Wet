@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Primarina_Pal",
   "bboxMode":0,
-  "bbox_bottom":11,
+  "bbox_bottom":13,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b4b239ff-84e8-4a7f-81a8-527be7135c78","name":"b4b239ff-84e8-4a7f-81a8-527be7135c78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2fd9bf08-9a1c-49bc-94c3-4a796c7b80e9","name":"2fd9bf08-9a1c-49bc-94c3-4a796c7b80e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":12,
+  "height":14,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7f77316a-d210-488d-830e-2861eeb37cde","blendMode":0,"displayName":"default","isLocked":false,"name":"7f77316a-d210-488d-830e-2861eeb37cde","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9bb0e180-3684-4151-b64f-1d6912c8e874","blendMode":0,"displayName":"default","isLocked":false,"name":"9bb0e180-3684-4151-b64f-1d6912c8e874","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Primarina_Pal",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"Primarina",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Primarina.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.3/Primarina.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4b239ff-84e8-4a7f-81a8-527be7135c78","path":"sprites/spr_KSW_Fish_Primarina_Pal/spr_KSW_Fish_Primarina_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"124356b1-f953-4684-8850-9bc08b25b71e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2fd9bf08-9a1c-49bc-94c3-4a796c7b80e9","path":"sprites/spr_KSW_Fish_Primarina_Pal/spr_KSW_Fish_Primarina_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ccaf3a3d-bc7b-4c56-b6b7-1fbeee669397","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"SoftAndWet",
-    "path":"texturegroups/SoftAndWet",
+    "name":"Default",
+    "path":"texturegroups/Default",
   },
   "type":0,
   "VTile":false,
