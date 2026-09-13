@@ -21,6 +21,8 @@ global.pauseScript = scr_KSW_PauseScript;
 
 global.maxPlayers = 1;
 
+global.screenOrientation = 0;
+
 global.KSW_FishRarity[3] = 0;
 global.KSW_FishTime[3] = 0;
 

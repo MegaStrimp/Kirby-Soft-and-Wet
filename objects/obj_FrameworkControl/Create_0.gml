@@ -21,8 +21,6 @@ global.windowScaleTarget = 1;
 
 global.fullscreen = true;
 
-global.screenOrientation = 0;
-
 global.screenPalette = -1;
 global.screenPaletteKey = -1;
 global.screenPaletteIndex = -1;
