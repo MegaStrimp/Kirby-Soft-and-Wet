@@ -9,11 +9,12 @@ global.gameTileSize = 24;
 global.fullscreen = true;
 
 global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
+global.KSW_HasCursor = true;
 #endregion
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.2.1";
+global.versionNumber = "1.2.2";
 global.versionSubtitle = "Android Port";
 
 global.pauseScript = scr_KSW_PauseScript;
@@ -85,6 +86,11 @@ global.KSW_EnteredAquarium = false;
 global.KSW_MusicShuffle = false;
 
 global.KSW_DebugRig = -1;
+
+global.tapFeedbackStars = [];
+global.tapDragLastX = 0;
+global.tapDragLastY = 0;
+global.mobileDebug = false;
 
 playtimeAchievementTimerMax = 3600;
 playtimeAchievementTimer = playtimeAchievementTimerMax;

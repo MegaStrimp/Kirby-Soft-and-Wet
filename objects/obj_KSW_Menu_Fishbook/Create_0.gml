@@ -53,6 +53,7 @@ sortIndex = 1;
 
 sortList = ds_list_create();
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Default);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Name);
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Rarity);
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Series);
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Stage);

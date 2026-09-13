@@ -27,7 +27,9 @@ function scr_KSW_SaveData(file)
 		if (global.KSW_CaughtTotalFishCount_Afternoon != 0) ini_write_real("gameplay","caughtTotalFishCount_Afternoon",global.KSW_CaughtTotalFishCount_Afternoon);
 		if (global.KSW_CaughtTotalFishCount_Night != 0) ini_write_real("gameplay","caughtTotalFishCount_Night",global.KSW_CaughtTotalFishCount_Night);
 		if (global.KSW_CurrentFishCombo != 0) ini_write_real("gameplay","currentFishCombo",global.KSW_CurrentFishCombo);
+		if (global.KSW_HighestFishCombo != 0) ini_write_real("gameplay","highestFishCombo",global.KSW_HighestFishCombo);
 		if (global.KSW_CurrentCoins != 0) ini_write_real("gameplay","coins",global.KSW_CurrentCoins);
+		if (global.KSW_TotalCoins != 0) ini_write_real("gameplay","totalCoins",global.KSW_TotalCoins);
 		if (global.KSW_StageList[global.KSW_CurrentStageID].ID != "grassBeach") ini_write_string("gameplay","currentStage",global.KSW_StageList[global.KSW_CurrentStageID].ID);
 		#endregion
 	

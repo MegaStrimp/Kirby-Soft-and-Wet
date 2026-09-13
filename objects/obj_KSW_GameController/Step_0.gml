@@ -362,14 +362,8 @@ if (!localPause)
 							var dummy = instance_create_depth(bobberX + global.KSW_FishList[other.currentFish].xOffset,bobberY + global.KSW_FishList[other.currentFish].yOffset,depth - 1,obj_KSW_CatchedFishDummy);
 							dummy.sprite_index = global.KSW_FishList[other.currentFish].sprite;
 							dummy.palSprite = global.KSW_FishList[other.currentFish].palette;
-							if (other.currentFishIsNew)
-							{
-								dummy.palIndex = 3;
-							}
-							else
-							{
-								dummy.palIndex = other.currentFishIsShiny;
-							}
+							dummy.palIndex = other.currentFishIsShiny
+							dummy.isSilhouette = other.currentFishIsNew;
 						}
 						
 						catchAnimationTimer = 40 + (currentFishIsNew * 20);
@@ -398,12 +392,14 @@ if (!localPause)
 			#endregion
 			
 			#region Give Coins
-			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
+			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + (min(3 + (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]),floor(global.KSW_CurrentFishCombo / 15))) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
 			global.KSW_CurrentCoins += targetCoins;
+			global.KSW_TotalCoins += targetCoins;
 			#endregion
 			
 			global.KSW_CaughtTotalFishCount += 1;
 			global.KSW_CurrentFishCombo += 1;
+			global.KSW_HighestFishCombo += 1;
 			global.KSW_FishList[other.currentFish].isCaught += 1;
 			if (other.currentFishIsShiny) global.KSW_FishList[other.currentFish].isCaughtShiny += 1;
 			catchCombo_YOffsetTimer = catchCombo_YOffsetTimerMax;
@@ -738,6 +734,9 @@ if (!localPause)
 					*/
 					
 					var stealthTutorialID = global.KSW_StealthTutorialIDs[? "catchComboShinyRate"];
+					if (global.KSW_StealthTutorialList[stealthTutorialID].unlockScript()) scr_KSW_ObtainStealthTutorial(stealthTutorialID);
+					
+					var stealthTutorialID = global.KSW_StealthTutorialIDs[? "gramsLuckRate"];
 					if (global.KSW_StealthTutorialList[stealthTutorialID].unlockScript()) scr_KSW_ObtainStealthTutorial(stealthTutorialID);
 					
 					with (obj_KSW_Player) scr_ChangeSprite(sprReady);

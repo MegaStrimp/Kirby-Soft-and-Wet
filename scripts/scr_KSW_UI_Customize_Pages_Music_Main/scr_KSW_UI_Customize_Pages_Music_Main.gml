@@ -23,6 +23,10 @@ function scr_KSW_UI_Customize_Pages_Music_Main()
 	}
 	#endregion
 	
+	#region Music Customize Buffer
+	musicCustomizeBuffer = max(0,musicCustomizeBuffer - speedMultFinal);
+	#endregion
+	
 	#region Drag Scroll
 	static dragActive = false;
 	static pressArmed = false;

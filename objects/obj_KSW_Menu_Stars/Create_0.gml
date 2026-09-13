@@ -30,7 +30,25 @@ selectionIndex = 0;
 selectionSpd = sprite_get_speed(spr_KSW_Menu_Stars_Selection) / 60;
 selectionNumber = sprite_get_number(spr_KSW_Menu_Stars_Selection);
 
+pageMax += 1;
+
 fallingStarTimer = 0;
 fallingStarTimerMax = 30;
+
+mostCaughtFish = -1;
+
+var mostCaughtFish_Count = 0;
+if (global.KSW_CaughtTotalFishCount != 0)
+{
+	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
+	{
+		var currentCount = global.KSW_FishList[i].isCaught;
+		if (currentCount > mostCaughtFish_Count)
+		{
+			mostCaughtFish_Count = currentCount;
+			mostCaughtFish = global.KSW_FishList[i].displayedName;
+		}
+	}
+}
 #endregion
 #endregion

@@ -15,6 +15,7 @@ function scr_KSW_SaveConfig(file)
 	ini_write_real("options","windowScale",global.windowScale);
 	ini_write_real("options","shaders",global.shaders);
 	ini_write_real("options","orientation",global.screenOrientation);
+	ini_write_real("options","hasCursor",global.KSW_HasCursor);
 	
 	ini_close();
 }
