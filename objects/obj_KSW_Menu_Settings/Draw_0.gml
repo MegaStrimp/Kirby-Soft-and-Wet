@@ -71,7 +71,15 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-if ((!global.isMobile) and (!global.isOpera))
+if (global.isMobile)
+{
+	var orientationText = "SCREEN ORIENTATION - AUTO";
+	if (global.screenOrientation == 1) orientationText = "SCREEN ORIENTATION - PORTRAIT";
+	else if (global.screenOrientation == 2) orientationText = "SCREEN ORIENTATION - LANDSCAPE";
+	
+	scribble(orientationText).draw(8,startY + (space * i));
+}
+else if ((!global.isMobile) and (!global.isOpera))
 {
 	scribble("TOGGLE FULLSCREEN").draw(8,startY + (space * i));
 }

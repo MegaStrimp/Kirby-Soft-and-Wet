@@ -134,8 +134,23 @@ if (canSelect)
 		#endregion
 		
 		case 2:
-		#region Fullscreen
-		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
+		#region Fullscreen / Orientation
+		if (global.isMobile)
+		{
+			if (input_check_pressed("left",playerNum))
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				global.screenOrientation = (global.screenOrientation + 2) mod 3;
+			}
+			else if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("right",playerNum)))
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				global.screenOrientation = (global.screenOrientation + 1) mod 3;
+			}
+		}
+		else if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
 		{
 			if ((!global.isMobile) and (!global.isOpera))
 			{
@@ -149,6 +164,22 @@ if (canSelect)
 			else
 			{
 				scr_PlaySfx(snd_KSW_ButtonNo);
+			}
+		}
+		
+		if (global.isMobile)
+		{
+			switch (global.screenOrientation)
+			{
+				case 0:
+					os_set_orientation_lock(true,true);
+				break;
+				case 1:
+					os_set_orientation_lock(false,true);
+				break;
+				case 2:
+					os_set_orientation_lock(true,false);
+				break;
 			}
 		}
 		break;
