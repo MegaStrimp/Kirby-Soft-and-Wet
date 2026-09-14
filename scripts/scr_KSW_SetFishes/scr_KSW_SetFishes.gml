@@ -1831,6 +1831,16 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Walking Wake",spr_KSW_Fish_WalkingWake,spr_KSW_Fish_WalkingWake_Pal,series_PMDEoF,flux,3,creamCrevasse,KSW_Phases.none,25000);
 	scr_KSW_AddFish("Chi-Yu",spr_KSW_Fish_ChiYu,spr_KSW_Fish_ChiYu_Pal,series_PMDEoF,borange,3,serranoSprings,KSW_Phases.none,9000);
 	scr_KSW_AddFish("Ogerpon (Wellspring)",spr_KSW_Fish_OgerponWellspring,spr_KSW_Fish_OgerponWellspring_Pal,series_PMDEoF,mage,3,grassBeach,KSW_Phases.none,90000);
+	scr_KSW_AddFish("Gnome",spr_KSW_Fish_Gnome,spr_KSW_Fish_Gnome_Pal,series_Misc,maze,3,androidPort,KSW_Phases.none,2010,0,0,-1,snd_KSW_Fish_Gnome);
+	scr_KSW_AddFish("Villager",spr_KSW_Fish_Villager,spr_KSW_Fish_Villager_Pal,series_AnimalCrossing,mage,0,grassBeach,KSW_Phases.none,214);
+	scr_KSW_AddFish("Isabelle",spr_KSW_Fish_Isabelle,spr_KSW_Fish_Isabelle_Pal,series_AnimalCrossing,candy,0,grassBeach,KSW_Phases.day,212);
+	scr_KSW_AddFish("Blathers",spr_KSW_Fish_Blathers,spr_KSW_Fish_Blathers_Pal,series_AnimalCrossing,mint,1,grassBeach,KSW_Phases.none,2016);
+	scr_KSW_AddFish("Mabel",spr_KSW_Fish_Mabel,spr_KSW_Fish_Mabel_Pal,series_AnimalCrossing,borange,1,grassBeach,KSW_Phases.afternoon,2015);
+	scr_KSW_AddFish("Tom Nook",spr_KSW_Fish_TomNook,spr_KSW_Fish_TomNook_Pal,series_AnimalCrossing,mint,2,grassBeach,KSW_Phases.none,2001);
+	scr_KSW_AddFish("Timmy and Tommy",spr_KSW_Fish_TimmyTommy,spr_KSW_Fish_TimmyTommy_Pal,series_AnimalCrossing,legion,2,grassBeach,KSW_Phases.none,2013);
+	scr_KSW_AddFish("K.K. Slider",spr_KSW_Fish_KKSlider,spr_KSW_Fish_KKSlider_Pal,series_AnimalCrossing,maze,3,grassBeach,KSW_Phases.night,7000);
+	scr_KSW_AddFish("Mr. Resetti",spr_KSW_Fish_MrResetti,spr_KSW_Fish_MrResetti_Pal,series_AnimalCrossing,glimmer,3,grassBeach,KSW_Phases.none,4000);
+	
 	#endregion
 	#endregion
 }
