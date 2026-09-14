@@ -1840,6 +1840,15 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Timmy and Tommy",spr_KSW_Fish_TimmyTommy,spr_KSW_Fish_TimmyTommy_Pal,series_AnimalCrossing,legion,2,grassBeach,KSW_Phases.none,2013);
 	scr_KSW_AddFish("K.K. Slider",spr_KSW_Fish_KKSlider,spr_KSW_Fish_KKSlider_Pal,series_AnimalCrossing,maze,3,grassBeach,KSW_Phases.night,7000);
 	scr_KSW_AddFish("Mr. Resetti",spr_KSW_Fish_MrResetti,spr_KSW_Fish_MrResetti_Pal,series_AnimalCrossing,glimmer,3,grassBeach,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Raw Cod",spr_KSW_Fish_RawCod,spr_KSW_Fish_RawCod_Pal,series_Minecraft,mage,0,grassBeach,KSW_Phases.none,50);
+	scr_KSW_AddFish("Raw Salmon",spr_KSW_Fish_RawSalmon,spr_KSW_Fish_RawSalmon_Pal,series_Minecraft,legion,0,grassBeach,KSW_Phases.none,60);
+	scr_KSW_AddFish("Tropical Fish",spr_KSW_Fish_TropicalFish,spr_KSW_Fish_TropicalFish_Pal,series_Minecraft,mint,0,grassBeach,KSW_Phases.none,40);
+	scr_KSW_AddFish("Pufferfish (Minecraft)",spr_KSW_Fish_PufferfishMinecraft,spr_KSW_Fish_PufferfishMinecraft_Pal,series_Minecraft,flux,1,grassBeach,KSW_Phases.none,100);
+	scr_KSW_AddFish("Bucket of Axolotl",spr_KSW_Fish_BucketAxolotl,spr_KSW_Fish_BucketAxolotl_Pal,series_Minecraft,mint,2,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Nautilus Shell",spr_KSW_Fish_NautilusShell,spr_KSW_Fish_NautilusShell_Pal,series_Minecraft,legion,0,grassBeach,KSW_Phases.none,70);
+	scr_KSW_AddFish("Diamond Nautilus Armor",spr_KSW_Fish_DiamondNautilusArmor,spr_KSW_Fish_DiamondNautilusArmor_Pal,series_Minecraft,flux,3,grassBeach,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Turtle Shell",spr_KSW_Fish_TurtleShell,spr_KSW_Fish_TurtleShell_Pal,series_Minecraft,glimmer,2,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Trident",spr_KSW_Fish_Trident,spr_KSW_Fish_Trident_Pal,series_Minecraft,mint,3,grassBeach,KSW_Phases.none,3000);
 	
 	#endregion
 	#endregion
