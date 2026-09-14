@@ -100,6 +100,7 @@ function scr_KSW_SetFishes()
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	var series_UndertaleYellow = global.KSW_SeriesIDs[? "undertaleYellow"];
 	var series_DaveTheDiver = global.KSW_SeriesIDs[? "DaveTheDiver"];
+	var series_KeroBlaster = global.KSW_SeriesIDs[? "KeroBlaster"];
 	#endregion
 	
 	#region Stages
@@ -1870,6 +1871,31 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Kabatoncue",spr_KSW_Fish_Kabatoncue,spr_KSW_Fish_Kabatoncue_Pal,series_MegaManSequelWars,maze,1,androidPort,KSW_Phases.none,4000);
 	scr_KSW_AddFish("Mothraya",spr_KSW_Fish_Mothraya,spr_KSW_Fish_Mothraya_Pal,series_MegaManSequelWars,legion,3,creamCrevasse,KSW_Phases.night,40000);
 	scr_KSW_AddFish("Metall Daddy",spr_KSW_Fish_MetallDaddy,spr_KSW_Fish_MetallDaddy_Pal,series_MegaManSequelWars,flux,3,serranoSprings,KSW_Phases.none,400000);
+	scr_KSW_AddFish("Fish (Kero Blaster)",spr_KSW_Fish_FishKero,spr_KSW_Fish_FishKero_Pal,series_KeroBlaster,legion,0,serranoSprings,KSW_Phases.none,200);
+	scr_KSW_AddFish("Snail (Kero Blaster)",spr_KSW_Fish_SnailKero,spr_KSW_Fish_SnailKero_Pal,series_KeroBlaster,mint,0,serranoSprings,KSW_Phases.none,300);
+	scr_KSW_AddFish("Mine (Kero Blaster)",spr_KSW_Fish_MineKero,spr_KSW_Fish_MineKero_Pal,series_KeroBlaster,maze,0,serranoSprings,KSW_Phases.night,500);
+	scr_KSW_AddFish("Angry Crab",spr_KSW_Fish_CrabKero,spr_KSW_Fish_CrabKero_Pal,series_KeroBlaster,candy,0,serranoSprings,KSW_Phases.afternoon,400);
+	scr_KSW_AddFish("Working Mole",spr_KSW_Fish_MoleKero,spr_KSW_Fish_MoleKero_Pal,series_KeroBlaster,legion,1,serranoSprings,KSW_Phases.night,800);
+	scr_KSW_AddFish("Working Mole Boss",spr_KSW_Fish_BossMoleKero,spr_KSW_Fish_BossMoleKero_Pal,series_KeroBlaster,flux,2,serranoSprings,KSW_Phases.night,1000);
+	scr_KSW_AddFish("Dekaigyo",spr_KSW_Fish_Dekaigyo,spr_KSW_Fish_Dekaigyo_Pal,series_KeroBlaster,borange,2,serranoSprings,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Cold Fish",spr_KSW_Fish_ColdFish,spr_KSW_Fish_ColdFish_Pal,series_KeroBlaster,mage,0,creamCrevasse,KSW_Phases.none,300);
+	scr_KSW_AddFish("Copter Bot",spr_KSW_Fish_CopterBot,spr_KSW_Fish_CopterBot_Pal,series_KeroBlaster,legion,0,creamCrevasse,KSW_Phases.none,400);
+	scr_KSW_AddFish("Snowman",spr_KSW_Fish_Snowman,spr_KSW_Fish_Snowman_Pal,series_KeroBlaster,mage,0,creamCrevasse,KSW_Phases.day,500);
+	scr_KSW_AddFish("Fridge",spr_KSW_Fish_Fridge,spr_KSW_Fish_Fridge_Pal,series_KeroBlaster,legion,0,creamCrevasse,KSW_Phases.day,600);
+	scr_KSW_AddFish("Polar Sprite",spr_KSW_Fish_PolarSprite,spr_KSW_Fish_PolarSprite_Pal,series_KeroBlaster,candy,1,creamCrevasse,KSW_Phases.day,800);
+	scr_KSW_AddFish("Bat (Kero Blaster)",spr_KSW_Fish_BatKero,spr_KSW_Fish_BatKero_Pal,series_KeroBlaster,legion,0,hallowReen,KSW_Phases.none,300);
+	scr_KSW_AddFish("Ghost (Kero Blaster)",spr_KSW_Fish_GhostKero,spr_KSW_Fish_GhostKero_Pal,series_KeroBlaster,mage,0,hallowReen,KSW_Phases.afternoon,400);
+	scr_KSW_AddFish("Hornet (Kero Blaster)",spr_KSW_Fish_HornetKero,spr_KSW_Fish_HornetKero_Pal,series_KeroBlaster,borange,0,hallowReen,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Snake (Kero Blaster)",spr_KSW_Fish_SnakeKero,spr_KSW_Fish_SnakeKero_Pal,series_KeroBlaster,candy,0,hallowReen,KSW_Phases.afternoon,500);
+	scr_KSW_AddFish("Spider (Kero Blaster)",spr_KSW_Fish_SpiderKero,spr_KSW_Fish_SpiderKero_Pal,series_KeroBlaster,glimmer,0,hallowReen,KSW_Phases.afternoon,400);
+	scr_KSW_AddFish("Dragon Plant",spr_KSW_Fish_DragonPlant,spr_KSW_Fish_DragonPlant_Pal,series_KeroBlaster,mint,1,hallowReen,KSW_Phases.night,700);
+	scr_KSW_AddFish("Wall Dragon Plant",spr_KSW_Fish_WallDragonPlant,spr_KSW_Fish_WallDragonPlant_Pal,series_KeroBlaster,flux,1,hallowReen,KSW_Phases.night,600);
+	scr_KSW_AddFish("Mud Cyclops",spr_KSW_Fish_MudCyclops,spr_KSW_Fish_MudCyclops_Pal,series_KeroBlaster,mint,1,hallowReen,KSW_Phases.night,300);
+	scr_KSW_AddFish("Gorgon",spr_KSW_Fish_Gorgon,spr_KSW_Fish_Gorgon_Pal,series_KeroBlaster,mint,2,hallowReen,KSW_Phases.night,2000);
+	scr_KSW_AddFish("Komomo",spr_KSW_Fish_Komomo,spr_KSW_Fish_Komomo_Pal,series_KeroBlaster,candy,2,hallowReen,KSW_Phases.none,2500);
+	scr_KSW_AddFish("Sasuke",spr_KSW_Fish_Sasuke,spr_KSW_Fish_Sasuke_Pal,series_KeroBlaster,glimmer,2,hallowReen,KSW_Phases.none,3000);
+	scr_KSW_AddFish("Nanao-San",spr_KSW_Fish_NanaoSan,spr_KSW_Fish_NanaoSan_Pal,series_KeroBlaster,flux,3,hallowReen,KSW_Phases.none,7500);
+	scr_KSW_AddFish("Hero",spr_KSW_Fish_HeroKero,spr_KSW_Fish_HeroKero_Pal,series_KeroBlaster,mint,3,hallowReen,KSW_Phases.none,9000);
 	
 	#endregion
 	#endregion

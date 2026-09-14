@@ -98,5 +98,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("misc","Misc");
 	scr_KSW_AddSeries("undertaleYellow","Undertale Yellow");
 	scr_KSW_AddSeries("DaveTheDiver","Dave the Diver");
+	scr_KSW_AddSeries("KeroBlaster","Kero Blaster");
 	#endregion
 }
