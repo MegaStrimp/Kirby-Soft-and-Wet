@@ -99,6 +99,7 @@ function scr_KSW_SetFishes()
 	var series_Bloodstained = global.KSW_SeriesIDs[? "bloodstained"];
 	var series_Misc = global.KSW_SeriesIDs[? "misc"];
 	var series_UndertaleYellow = global.KSW_SeriesIDs[? "undertaleYellow"];
+	var series_DaveTheDiver = global.KSW_SeriesIDs[? "DaveTheDiver"];
 	#endregion
 	
 	#region Stages
@@ -1831,6 +1832,26 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Walking Wake",spr_KSW_Fish_WalkingWake,spr_KSW_Fish_WalkingWake_Pal,series_PMDEoF,flux,3,creamCrevasse,KSW_Phases.none,25000);
 	scr_KSW_AddFish("Chi-Yu",spr_KSW_Fish_ChiYu,spr_KSW_Fish_ChiYu_Pal,series_PMDEoF,borange,3,serranoSprings,KSW_Phases.none,9000);
 	scr_KSW_AddFish("Ogerpon (Wellspring)",spr_KSW_Fish_OgerponWellspring,spr_KSW_Fish_OgerponWellspring_Pal,series_PMDEoF,mage,3,grassBeach,KSW_Phases.none,90000);
+	scr_KSW_AddFish("Gnome",spr_KSW_Fish_Gnome,spr_KSW_Fish_Gnome_Pal,series_Misc,maze,3,androidPort,KSW_Phases.none,2010,0,0,-1,snd_KSW_Fish_Gnome);
+	scr_KSW_AddFish("Dave",spr_KSW_Fish_DaveDiver,spr_KSW_Fish_DaveDiver_Pal,series_DaveTheDiver,mage,3,grassBeach,KSW_Phases.none,202300);
+	scr_KSW_AddFish("Villager",spr_KSW_Fish_Villager,spr_KSW_Fish_Villager_Pal,series_AnimalCrossing,mage,0,grassBeach,KSW_Phases.none,214);
+	scr_KSW_AddFish("Isabelle",spr_KSW_Fish_Isabelle,spr_KSW_Fish_Isabelle_Pal,series_AnimalCrossing,candy,0,grassBeach,KSW_Phases.day,212);
+	scr_KSW_AddFish("Blathers",spr_KSW_Fish_Blathers,spr_KSW_Fish_Blathers_Pal,series_AnimalCrossing,mint,1,grassBeach,KSW_Phases.none,2016);
+	scr_KSW_AddFish("Mabel",spr_KSW_Fish_Mabel,spr_KSW_Fish_Mabel_Pal,series_AnimalCrossing,borange,1,grassBeach,KSW_Phases.afternoon,2015);
+	scr_KSW_AddFish("Tom Nook",spr_KSW_Fish_TomNook,spr_KSW_Fish_TomNook_Pal,series_AnimalCrossing,mint,2,grassBeach,KSW_Phases.none,2001);
+	scr_KSW_AddFish("Timmy and Tommy",spr_KSW_Fish_TimmyTommy,spr_KSW_Fish_TimmyTommy_Pal,series_AnimalCrossing,legion,2,grassBeach,KSW_Phases.none,2013);
+	scr_KSW_AddFish("K.K. Slider",spr_KSW_Fish_KKSlider,spr_KSW_Fish_KKSlider_Pal,series_AnimalCrossing,maze,3,grassBeach,KSW_Phases.night,7000);
+	scr_KSW_AddFish("Mr. Resetti",spr_KSW_Fish_MrResetti,spr_KSW_Fish_MrResetti_Pal,series_AnimalCrossing,glimmer,3,grassBeach,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Raw Cod",spr_KSW_Fish_RawCod,spr_KSW_Fish_RawCod_Pal,series_Minecraft,mage,0,grassBeach,KSW_Phases.none,50);
+	scr_KSW_AddFish("Raw Salmon",spr_KSW_Fish_RawSalmon,spr_KSW_Fish_RawSalmon_Pal,series_Minecraft,legion,0,grassBeach,KSW_Phases.none,60);
+	scr_KSW_AddFish("Tropical Fish",spr_KSW_Fish_TropicalFish,spr_KSW_Fish_TropicalFish_Pal,series_Minecraft,mint,0,grassBeach,KSW_Phases.none,40);
+	scr_KSW_AddFish("Pufferfish (Minecraft)",spr_KSW_Fish_PufferfishMinecraft,spr_KSW_Fish_PufferfishMinecraft_Pal,series_Minecraft,flux,1,grassBeach,KSW_Phases.none,100);
+	scr_KSW_AddFish("Bucket of Axolotl",spr_KSW_Fish_BucketAxolotl,spr_KSW_Fish_BucketAxolotl_Pal,series_Minecraft,mint,2,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Nautilus Shell",spr_KSW_Fish_NautilusShell,spr_KSW_Fish_NautilusShell_Pal,series_Minecraft,legion,1,grassBeach,KSW_Phases.none,70);
+	scr_KSW_AddFish("Diamond Nautilus Armor",spr_KSW_Fish_DiamondNautilusArmor,spr_KSW_Fish_DiamondNautilusArmor_Pal,series_Minecraft,flux,3,grassBeach,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Turtle Shell",spr_KSW_Fish_TurtleShell,spr_KSW_Fish_TurtleShell_Pal,series_Minecraft,glimmer,2,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Trident",spr_KSW_Fish_Trident,spr_KSW_Fish_Trident_Pal,series_Minecraft,mint,3,grassBeach,KSW_Phases.none,3000);
+	
 	#endregion
 	#endregion
 }
