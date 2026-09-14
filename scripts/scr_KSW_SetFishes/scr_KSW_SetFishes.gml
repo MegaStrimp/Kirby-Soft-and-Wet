@@ -1851,6 +1851,25 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Diamond Nautilus Armor",spr_KSW_Fish_DiamondNautilusArmor,spr_KSW_Fish_DiamondNautilusArmor_Pal,series_Minecraft,flux,3,grassBeach,KSW_Phases.none,4000);
 	scr_KSW_AddFish("Turtle Shell",spr_KSW_Fish_TurtleShell,spr_KSW_Fish_TurtleShell_Pal,series_Minecraft,glimmer,2,grassBeach,KSW_Phases.none,500);
 	scr_KSW_AddFish("Trident",spr_KSW_Fish_Trident,spr_KSW_Fish_Trident_Pal,series_Minecraft,mint,3,grassBeach,KSW_Phases.none,3000);
+	scr_KSW_AddFish("Beat",spr_KSW_Fish_Beat,spr_KSW_Fish_Beat_Pal,series_MegaManSequelWars,maze,3,androidPort,KSW_Phases.afternoon,199200);
+	scr_KSW_AddFish("Tango",spr_KSW_Fish_Tango,spr_KSW_Fish_Tango_Pal,series_MegaManSequelWars,mint,3,androidPort,KSW_Phases.afternoon,199400);
+	scr_KSW_AddFish("Eddie",spr_KSW_Fish_Eddie,spr_KSW_Fish_Eddie_Pal,series_MegaManSequelWars,borange,3,androidPort,KSW_Phases.none,199300);
+	scr_KSW_AddFish("Dr. Cossack",spr_KSW_Fish_Cossack,spr_KSW_Fish_Cossack_Pal,series_MegaManSequelWars,glimmer,3,androidPort,KSW_Phases.day,199100);
+	scr_KSW_AddFish("Kalinka",spr_KSW_Fish_Kalinka,spr_KSW_Fish_Kalinka_Pal,series_MegaManSequelWars,candy,3,androidPort,KSW_Phases.afternoon,199100);
+	scr_KSW_AddFish("100 Watton",spr_KSW_Fish_100Watton,spr_KSW_Fish_100Watton_Pal,series_MegaManSequelWars,candy,0,androidPort,KSW_Phases.day,400);
+	scr_KSW_AddFish("Dompan",spr_KSW_Fish_Dompan,spr_KSW_Fish_Dompan_Pal,series_MegaManSequelWars,candy,0,androidPort,KSW_Phases.night,400);
+	scr_KSW_AddFish("Rackaser",spr_KSW_Fish_Rackaser,spr_KSW_Fish_Rackaser_Pal,series_MegaManSequelWars,flux,0,androidPort,KSW_Phases.night,400);
+	scr_KSW_AddFish("Puyoyon",spr_KSW_Fish_Puyoyon,spr_KSW_Fish_Puyoyon_Pal,series_MegaManSequelWars,flux,0,androidPort,KSW_Phases.night,400);
+	scr_KSW_AddFish("Shield Attacker",spr_KSW_Fish_ShieldAttacker,spr_KSW_Fish_ShieldAttacker_Pal,series_MegaManSequelWars,legion,0,androidPort,KSW_Phases.none,400);
+	scr_KSW_AddFish("Haehaey",spr_KSW_Fish_Haehaey,spr_KSW_Fish_Haehaey_Pal,series_MegaManSequelWars,borange,0,serranoSprings,KSW_Phases.night,40);
+	scr_KSW_AddFish("Sasoreenu",spr_KSW_Fish_Sasoreenu,spr_KSW_Fish_Sasoreenu_Pal,series_MegaManSequelWars,borange,0,serranoSprings,KSW_Phases.night,400);
+	scr_KSW_AddFish("Mummira",spr_KSW_Fish_Mummira,spr_KSW_Fish_Mummira_Pal,series_MegaManSequelWars,borange,0,serranoSprings,KSW_Phases.night,400);
+	scr_KSW_AddFish("Docron",spr_KSW_Fish_Docron,spr_KSW_Fish_Docron_Pal,series_MegaManSequelWars,legion,0,hallowReen,KSW_Phases.day,400);
+	scr_KSW_AddFish("Skeleton Joe",spr_KSW_Fish_SkeletonJoe,spr_KSW_Fish_SkeletonJoe_Pal,series_MegaManSequelWars,legion,1,hallowReen,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Escaroo",spr_KSW_Fish_Escaroo,spr_KSW_Fish_Escaroo_Pal,series_MegaManSequelWars,flux,1,androidPort,KSW_Phases.night,4000);
+	scr_KSW_AddFish("Kabatoncue",spr_KSW_Fish_Kabatoncue,spr_KSW_Fish_Kabatoncue_Pal,series_MegaManSequelWars,maze,1,androidPort,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Mothraya",spr_KSW_Fish_Mothraya,spr_KSW_Fish_Mothraya_Pal,series_MegaManSequelWars,legion,3,creamCrevasse,KSW_Phases.night,40000);
+	scr_KSW_AddFish("Metall Daddy",spr_KSW_Fish_MetallDaddy,spr_KSW_Fish_MetallDaddy_Pal,series_MegaManSequelWars,flux,3,serranoSprings,KSW_Phases.none,400000);
 	
 	#endregion
 	#endregion
