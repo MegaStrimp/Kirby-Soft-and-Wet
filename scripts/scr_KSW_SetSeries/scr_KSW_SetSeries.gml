@@ -100,5 +100,8 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("DaveTheDiver","Dave the Diver");
 	scr_KSW_AddSeries("KeroBlaster","Kero Blaster");
 	scr_KSW_AddSeries("deltarot","Deltarot");
+	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
+	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
+	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
 	#endregion
 }

@@ -95,6 +95,7 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("darkMatter","Dark Matter",spr_KSW_Bobber_DarkMatter,flux,0,0,-7);
 	scr_KSW_AddBobber("starry","Starry",spr_KSW_Bobber_Starry,mage,0,0,-4);
 	scr_KSW_AddBobber("nightmareOrb","Nightmare Orb",spr_KSW_Bobber_NightmareOrb,mage,0,1,-7);
+	scr_KSW_AddBobber("zero","Zero",spr_KSW_Bobber_Zero,flux,0,0,-7);
 	scr_KSW_AddBobber("masterCrown","Master Crown",spr_KSW_Bobber_MasterCrown,glimmer,0,0,-5);
 	
 	scr_KSW_AddBobber("legend","Legend",spr_KSW_Bobber_Legend,flux,0,0,-7,true);

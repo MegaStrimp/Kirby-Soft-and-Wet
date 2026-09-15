@@ -15,7 +15,7 @@
   "name":"mus_KSW_Wasteland",
   "parent":{
     "name":"Afternoon",
-    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Shared/Afternoon.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Afternoon.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
