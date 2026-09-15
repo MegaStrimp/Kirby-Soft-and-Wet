@@ -1851,7 +1851,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Diamond Nautilus Armor",spr_KSW_Fish_DiamondNautilusArmor,spr_KSW_Fish_DiamondNautilusArmor_Pal,series_Minecraft,flux,3,grassBeach,KSW_Phases.none,4000);
 	scr_KSW_AddFish("Turtle Shell",spr_KSW_Fish_TurtleShell,spr_KSW_Fish_TurtleShell_Pal,series_Minecraft,glimmer,2,grassBeach,KSW_Phases.none,500);
 	scr_KSW_AddFish("Trident",spr_KSW_Fish_Trident,spr_KSW_Fish_Trident_Pal,series_Minecraft,mint,3,grassBeach,KSW_Phases.none,3000);
-	
+	scr_KSW_AddFish("Rimdle Fish",spr_KSW_Fish_RimdleFish,spr_KSW_Fish_RimdleFish_Pal,series_Deltarune,mint,1,creamCrevasse,KSW_Phases.none,12000);
 	#endregion
 	#endregion
 }
