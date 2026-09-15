@@ -101,6 +101,7 @@ function scr_KSW_SetFishes()
 	var series_UndertaleYellow = global.KSW_SeriesIDs[? "undertaleYellow"];
 	var series_DaveTheDiver = global.KSW_SeriesIDs[? "DaveTheDiver"];
 	var series_KeroBlaster = global.KSW_SeriesIDs[? "KeroBlaster"];
+	var series_Deltarot = global.KSW_SeriesIDs[? "deltarot"];
 	#endregion
 	
 	#region Stages
@@ -1852,7 +1853,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Diamond Nautilus Armor",spr_KSW_Fish_DiamondNautilusArmor,spr_KSW_Fish_DiamondNautilusArmor_Pal,series_Minecraft,flux,3,grassBeach,KSW_Phases.none,4000);
 	scr_KSW_AddFish("Turtle Shell",spr_KSW_Fish_TurtleShell,spr_KSW_Fish_TurtleShell_Pal,series_Minecraft,glimmer,2,grassBeach,KSW_Phases.none,500);
 	scr_KSW_AddFish("Trident",spr_KSW_Fish_Trident,spr_KSW_Fish_Trident_Pal,series_Minecraft,mint,3,grassBeach,KSW_Phases.none,3000);
-	scr_KSW_AddFish("Rimdle Fish",spr_KSW_Fish_RimdleFish,spr_KSW_Fish_RimdleFish_Pal,series_Deltarune,mint,1,creamCrevasse,KSW_Phases.none,12000);
+	scr_KSW_AddFish("Rimdle Fish",spr_KSW_Fish_RimdleFish,spr_KSW_Fish_RimdleFish_Pal,series_Deltarot,mint,1,creamCrevasse,KSW_Phases.none,12000);
 	scr_KSW_AddFish("Beat",spr_KSW_Fish_Beat,spr_KSW_Fish_Beat_Pal,series_MegaManSequelWars,maze,3,androidPort,KSW_Phases.afternoon,199200);
 	scr_KSW_AddFish("Tango",spr_KSW_Fish_Tango,spr_KSW_Fish_Tango_Pal,series_MegaManSequelWars,mint,3,androidPort,KSW_Phases.afternoon,199400);
 	scr_KSW_AddFish("Eddie",spr_KSW_Fish_Eddie,spr_KSW_Fish_Eddie_Pal,series_MegaManSequelWars,borange,3,androidPort,KSW_Phases.none,199300);

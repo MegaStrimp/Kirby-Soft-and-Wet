@@ -399,7 +399,7 @@ if (!localPause)
 			
 			global.KSW_CaughtTotalFishCount += 1;
 			global.KSW_CurrentFishCombo += 1;
-			global.KSW_HighestFishCombo += 1;
+			global.KSW_HighestFishCombo = max(global.KSW_HighestFishCombo,global.KSW_CurrentFishCombo);
 			global.KSW_FishList[other.currentFish].isCaught += 1;
 			if (other.currentFishIsShiny) global.KSW_FishList[other.currentFish].isCaughtShiny += 1;
 			catchCombo_YOffsetTimer = catchCombo_YOffsetTimerMax;
