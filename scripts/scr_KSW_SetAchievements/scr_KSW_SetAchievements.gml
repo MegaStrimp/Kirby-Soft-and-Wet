@@ -72,7 +72,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtTotalFishCount_Day >= 1000);
 	};
-	scr_KSW_AddAchievement("catchDay1000","True Beach Boy","Catch 1000 Fish at Daytime",spr_KSW_Achievement_Icon_TrueBeachBoy,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchDay1000","True Beach Boy","Catch 1000 Fish at Daytime",spr_KSW_Achievement_Icon_TrueBeachBoy,achievementUnlockMethod,global.KSW_BobberIDs[? "darkMind"]);
 	#endregion
 	
 	#region Catch 100 Fish at Afternoon
@@ -88,7 +88,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtTotalFishCount_Afternoon >= 1000);
 	};
-	scr_KSW_AddAchievement("catchAfternoon1000","True Romantic","Catch 1000 Fish at Afternoon",spr_KSW_Achievement_Icon_TrueRomantic,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchAfternoon1000","True Romantic","Catch 1000 Fish at Afternoon",spr_KSW_Achievement_Icon_TrueRomantic,achievementUnlockMethod,global.KSW_BobberIDs[? "starDream"]);
 	#endregion
 	
 	#region Catch 100 Fish at Midnight
@@ -224,7 +224,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CaughtShinyFishCount >= 1);
 	};
-	scr_KSW_AddAchievement("catchShiny","Geiger Counter","Catch an Anomaly",spr_KSW_Achievement_Icon_GeigerCounter,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchShiny","Geiger Counter","Catch an Anomaly",spr_KSW_Achievement_Icon_GeigerCounter,achievementUnlockMethod,global.KSW_BobberIDs[? "zero"]);
 	#endregion
 	
 	#region Obtain All Stars

@@ -23,7 +23,7 @@ function scr_KSW_SetStealthTutorials()
 		return (global.levelScoreCurrent >= 1000000);
 	};
 	
-	scr_KSW_AddStealthTutorial("gramsLuckRate","GRAMS INCREASE YOUR LUCK!",24,127,stealthTutorialUnlockMethod);
+	scr_KSW_AddStealthTutorial("gramsLuckRate","GRAMS INCREASE\nYOUR LUCK!",24,127,stealthTutorialUnlockMethod);
 	#endregion
 	#endregion
 }

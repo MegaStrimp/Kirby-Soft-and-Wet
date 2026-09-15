@@ -54,7 +54,7 @@ if (global.KSW_EnteredAquariumAlt) array_insert(weirdIcons,array_length(weirdIco
 
 weirdIconTimer = -1;
 weirdIconIndex = 0;
-var weirdIconRng = irandom_range(0,222 - (global.KSW_EnteredAquariumAlt * 66));
+var weirdIconRng = irandom_range(0,666 - (global.KSW_EnteredAquariumAlt * 333));
 if (weirdIconRng == 0)
 {
 	weirdIconIndex = choose(0,array_length(weirdIcons) - 1);
