@@ -197,7 +197,18 @@ function scr_KSW_LoadData(file,importFile = false)
 		
 		global.KSW_AchievementList[i].isObtained = achievementIsObtained;
 		
-		if (achievementIsObtained) global.KSW_ObtainedAchievementCount += 1;
+		if (achievementIsObtained)
+		{
+			if (global.KSW_AchievementList[i].bobberReward != -1)
+			{
+				global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isUnlocked = true;
+				
+				ds_list_add(global.KSW_AvailableBobbers,i);
+				if (!global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isHidden) global.KSW_UnlockedBobberCount += 1;
+			}
+			
+			global.KSW_ObtainedAchievementCount += 1;
+		}
 	}
 	#endregion
 	

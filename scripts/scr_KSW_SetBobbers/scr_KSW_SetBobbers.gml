@@ -89,15 +89,15 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("diamond","Diamond",spr_KSW_Bobber_Diamond,mage,50,0,-5);
 	scr_KSW_AddBobber("stardrop","Stardrop",spr_KSW_Bobber_Stardrop,flux,50,0,-4);
 	scr_KSW_AddBobber("luckyShorts","Lucky Shorts",spr_KSW_Bobber_LuckyShorts,flux,50,0,-5);
-	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,glimmer,0,0,-4);
-	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,candy,0,0,-5);
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,glimmer,0,0,-4);
-	scr_KSW_AddBobber("darkMatter","Dark Matter",spr_KSW_Bobber_DarkMatter,flux,0,0,-7);
-	scr_KSW_AddBobber("starry","Starry",spr_KSW_Bobber_Starry,mage,0,0,-4);
-	scr_KSW_AddBobber("nightmareOrb","Nightmare Orb",spr_KSW_Bobber_NightmareOrb,mage,0,1,-7);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,borange,0,0,-7);
 	scr_KSW_AddBobber("starDream","Star Dream",spr_KSW_Bobber_StarDream,candy,0,0,-5);
-	scr_KSW_AddBobber("zero","Zero",spr_KSW_Bobber_Zero,flux,0,0,-7);
+	scr_KSW_AddBobber("nightmareOrb","Nightmare Orb",spr_KSW_Bobber_NightmareOrb,mage,0,1,-7);
+	scr_KSW_AddBobber("starry","Starry",spr_KSW_Bobber_Starry,mage,0,0,-4);
+	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,glimmer,0,0,-4);
+	scr_KSW_AddBobber("darkMatter","Dark Matter",spr_KSW_Bobber_DarkMatter,flux,0,0,-7);
+	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,candy,0,0,-5);
+	scr_KSW_AddBobber("zero","Zero",spr_KSW_Bobber_Zero,candy,0,0,-7);
 	scr_KSW_AddBobber("masterCrown","Master Crown",spr_KSW_Bobber_MasterCrown,glimmer,0,0,-5);
 	
 	scr_KSW_AddBobber("legend","Legend",spr_KSW_Bobber_Legend,flux,0,0,-7,true);
