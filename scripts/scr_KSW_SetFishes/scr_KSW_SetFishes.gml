@@ -1896,6 +1896,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Sasuke",spr_KSW_Fish_Sasuke,spr_KSW_Fish_Sasuke_Pal,series_KeroBlaster,glimmer,2,hallowReen,KSW_Phases.none,3000);
 	scr_KSW_AddFish("Nanao-San",spr_KSW_Fish_NanaoSan,spr_KSW_Fish_NanaoSan_Pal,series_KeroBlaster,flux,3,hallowReen,KSW_Phases.none,7500);
 	scr_KSW_AddFish("Hero",spr_KSW_Fish_HeroKero,spr_KSW_Fish_HeroKero_Pal,series_KeroBlaster,mint,3,hallowReen,KSW_Phases.none,9000);
+	scr_KSW_AddFish("Mermaid Witch",spr_KSW_Fish_MermaidWitch,spr_KSW_Fish_MermaidWitch_Pal,series_Bloodstained,mage,0,creamCrevasse,KSW_Phases.night,700);
+	scr_KSW_AddFish("Ice Magician",spr_KSW_Fish_IceMagician,spr_KSW_Fish_IceMagician_Pal,series_Bloodstained,legion,0,creamCrevasse,KSW_Phases.night,500);
+	scr_KSW_AddFish("Sniping Turtle",spr_KSW_Fish_SnipingTurtle,spr_KSW_Fish_SnipingTurtle_Pal,series_Bloodstained,mint,0,hallowReen,KSW_Phases.night,400);
+	scr_KSW_AddFish("Weregator",spr_KSW_Fish_Weregator,spr_KSW_Fish_Weregator_Pal,series_Bloodstained,flux,0,hallowReen,KSW_Phases.night,800);
+	scr_KSW_AddFish("Devil Candle",spr_KSW_Fish_DevilCandle,spr_KSW_Fish_DevilCandle_Pal,series_Bloodstained,candy,0,serranoSprings,KSW_Phases.night,300);
+	scr_KSW_AddFish("Hellhound",spr_KSW_Fish_Hellhound,spr_KSW_Fish_Hellhound_Pal,series_Bloodstained,borange,0,serranoSprings,KSW_Phases.night,600);
+	scr_KSW_AddFish("Wyrm",spr_KSW_Fish_Wyrm,spr_KSW_Fish_Wyrm_Pal,series_Bloodstained,borange,1,serranoSprings,KSW_Phases.none,2000);
 	
 	#endregion
 	#endregion
