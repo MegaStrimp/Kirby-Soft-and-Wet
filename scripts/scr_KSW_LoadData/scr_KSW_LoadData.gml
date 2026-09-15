@@ -199,7 +199,7 @@ function scr_KSW_LoadData(file,importFile = false)
 		
 		if (achievementIsObtained)
 		{
-			if (global.KSW_AchievementList[i].bobberReward != -1)
+			if ((global.KSW_AchievementList[i].bobberReward != -1) and (!global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isUnlocked))
 			{
 				global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isUnlocked = true;
 				
