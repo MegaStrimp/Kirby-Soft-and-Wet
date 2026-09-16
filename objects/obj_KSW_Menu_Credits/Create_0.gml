@@ -450,7 +450,7 @@ creditsNames[i] = "  The Binding of Isaac: Rebirth";
 i += 1;
 creditsNames[i] = "";
 i += 1;
-creditsNames[i] = "  The Binding of Isaac - Forgotten Fables";
+creditsNames[i] = "  Isaac - Forgotten Fables";
 i += 1;
 creditsNames[i] = "";
 i += 1;
@@ -698,7 +698,7 @@ creditsNames[i] = "  Deltarot";
 i += 1;
 creditsNames[i] = "";
 i += 1;
-creditsNames[i] = "  Pokemon Mystery Dungeon: Explorers of Fortune";
+creditsNames[i] = "  PMD: Explorers of Fortune";
 i += 1;
 creditsNames[i] = "";
 i += 1;
@@ -1086,6 +1086,6 @@ sheetWidth = sprite_get_width(spr_KSW_Menu_Credits_Sheet);
 bubbleTimer = 0;
 bubbleTimerMax = 30;
 
-exitTimer = ((array_length(creditsNames) + 36) * 16 * scrollTimerMax);
+exitTimer = ((((array_length(creditsNames) + 2) * 16) + global.gameHeight) * scrollTimerMax);
 #endregion
 #endregion

@@ -586,14 +586,27 @@ if (!localPause)
 				for (var i = 0; i < pityRate; i++)
 				{
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];
-					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny))) break;
+					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny)))
+					{
+						pityRate += floor(global.KSW_FishList[currentFish].isCaught / 2);
+						
+						break;
+					}
 				}
 				
 				if (global.KSW_DebugRig != -1) currentFish = global.KSW_DebugRig;
 				
 				var shinyRng = 1;
 				var hasShinyBait = (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreShinies"]);
-				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
+				if (global.KSW_FishList[currentFish].isCaught)
+				{
+					for (var i = 0; i < pityRate; i++)
+					{
+						shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
+					
+						if (shinyRng == 0) break;
+					}
+				}
 				currentFishIsShiny = (shinyRng == 0);
 				
 				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(playerNum,global.KSW_FishList[currentFish].rarity);

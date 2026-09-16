@@ -23,8 +23,8 @@ isFull = false;
 #region Spawn Fishes
 fishList = ds_list_create();
 
-maxFishCount = 300;
-if ((global.isMobile) or (global.isOpera)) maxFishCount = 60;
+maxFishCount = 600;
+if ((global.isMobile) or (global.isOpera)) maxFishCount = 30;
 
 for (var i = 0; i < global.KSW_FishCount; i++)
 {
