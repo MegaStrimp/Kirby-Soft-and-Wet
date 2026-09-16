@@ -107,6 +107,9 @@ function scr_KSW_SetFishes()
 	var series_Deltarot = global.KSW_SeriesIDs[? "deltarot"];
 	var series_JamesPond = global.KSW_SeriesIDs[? "jamesPond"];
 	var series_StarTropics = global.KSW_SeriesIDs[? "startropics"];
+	var series_EarthwormJim = global.KSW_SeriesIDs[? "earthwormJim"];
+	var series_Worms = global.KSW_SeriesIDs[? "worms"];
+	var series_AlienSoldier = global.KSW_SeriesIDs[? "alienSoldier"];
 	#endregion
 	
 	#region Stages
@@ -1839,7 +1842,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Walking Wake",spr_KSW_Fish_WalkingWake,spr_KSW_Fish_WalkingWake_Pal,series_PMDEoF,flux,3,creamCrevasse,KSW_Phases.none,25000);
 	scr_KSW_AddFish("Chi-Yu",spr_KSW_Fish_ChiYu,spr_KSW_Fish_ChiYu_Pal,series_PMDEoF,borange,3,serranoSprings,KSW_Phases.none,9000);
 	scr_KSW_AddFish("Ogerpon (Wellspring)",spr_KSW_Fish_OgerponWellspring,spr_KSW_Fish_OgerponWellspring_Pal,series_PMDEoF,mage,3,grassBeach,KSW_Phases.none,90000);
-	scr_KSW_AddFish("Gnome",spr_KSW_Fish_Gnome,spr_KSW_Fish_Gnome_Pal,series_Misc,maze,3,androidPort,KSW_Phases.none,2010,0,0,-1,snd_KSW_Fish_Gnome);
+	scr_KSW_AddFish("Gnome",spr_KSW_Fish_Gnome,spr_KSW_Fish_Gnome_Pal,series_Misc,maze,3,anyStage,KSW_Phases.none,2010,0,0,-1,snd_KSW_Fish_Gnome);
 	scr_KSW_AddFish("Dave",spr_KSW_Fish_DaveDiver,spr_KSW_Fish_DaveDiver_Pal,series_DaveTheDiver,mage,3,grassBeach,KSW_Phases.none,202300);
 	scr_KSW_AddFish("Villager",spr_KSW_Fish_Villager,spr_KSW_Fish_Villager_Pal,series_AnimalCrossing,mage,0,grassBeach,KSW_Phases.none,214);
 	scr_KSW_AddFish("Isabelle",spr_KSW_Fish_Isabelle,spr_KSW_Fish_Isabelle_Pal,series_AnimalCrossing,candy,0,grassBeach,KSW_Phases.day,212);
@@ -1915,7 +1918,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Stray Pixel",spr_KSW_Fish_StrayPixel,spr_KSW_Fish_StrayPixel_Pal,series_Misc,maze,0,anyStage,KSW_Phases.none,1); //How hard would it be to randomize the offsets for this one just to piss people off LOL
 	scr_KSW_AddFish("Bomb Boo",spr_KSW_Fish_BombBoo,spr_KSW_Fish_BombBoo_Pal,series_SuperMario,maze,1,hallowReen,KSW_Phases.none,500,0,0,-1,snd_KSW_Fish_BombBoo);
 	scr_KSW_AddFish("James Pond",spr_KSW_Fish_JamesPond,spr_KSW_Fish_JamesPond_Pal,series_JamesPond,flux,3,grassBeach,KSW_Phases.day,100000);
-	scr_KSW_AddFish("Ultros",spr_KSW_Fish_Ultros,spr_KSW_Fish_Ultros_Pal,series_FinalFantasy,borange,2,serranoSprings,KSW_Phases.afternoon,19940);
+	scr_KSW_AddFish("Ultros",spr_KSW_Fish_Ultros,spr_KSW_Fish_Ultros_Pal,series_FinalFantasy,borange,2,anyStage,KSW_Phases.afternoon,19940);
 	scr_KSW_AddFish("Parrot",spr_KSW_Fish_Parrot,spr_KSW_Fish_Parrot_Pal,series_PacMan,borange,0,serranoSprings,KSW_Phases.day,199);
 	scr_KSW_AddFish("Skeleton Pirate",spr_KSW_Fish_SkeletonPirate,spr_KSW_Fish_SkeletonPirate_Pal,series_PacMan,borange,0,serranoSprings,KSW_Phases.night,204);
 	scr_KSW_AddFish("Inky",spr_KSW_Fish_Inky,spr_KSW_Fish_Inky_Pal,series_PacMan,maze,2,androidPort,KSW_Phases.none,1980);
@@ -1942,6 +1945,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Yard",spr_KSW_Fish_Yard,spr_KSW_Fish_Yard_Pal,series_Metroid,legion,0,grassBeach,KSW_Phases.none,700);
 	scr_KSW_AddFish("Zebesian (Aqua)",spr_KSW_Fish_ZebesianAqua,spr_KSW_Fish_ZebesianAqua_Pal,series_Metroid,legion,1,grassBeach,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Samus Aran (Gravity Suit)",spr_KSW_Fish_SamusAranGravitySuit,spr_KSW_Fish_SamusAranGravitySuit_Pal,series_Metroid,flux,3,grassBeach,KSW_Phases.none,100000);
+	scr_KSW_AddFish("Aqua Sheep",spr_KSW_Fish_AquaSheep,spr_KSW_Fish_AquaSheep_Pal,series_Worms,mage,3,anyStage,KSW_Phases.none,1999);
+	scr_KSW_AddFish("E.T.",spr_KSW_Fish_ET,spr_KSW_Fish_ET_Pal,series_Misc,maze,3,anyStage,KSW_Phases.night,2600);
+	scr_KSW_AddFish("Color A Dinosaur",spr_KSW_Fish_ColorDinosaur,spr_KSW_Fish_ColorDinosaur_Pal,series_Misc,candy,3,anyStage,KSW_Phases.day,2017);
+	scr_KSW_AddFish("Canoe",spr_KSW_Fish_Canoe,spr_KSW_Fish_Canoe_Pal,series_FinalFantasy,legion,3,anyStage,KSW_Phases.afternoon,2015);
+	scr_KSW_AddFish("Junk Fish",spr_KSW_Fish_JunkFish,spr_KSW_Fish_JunkFish_Pal,series_EarthwormJim,candy,1,serranoSprings,KSW_Phases.none,195);
+	scr_KSW_AddFish("Bob the Killer Goldfish",spr_KSW_Fish_BobKillerGoldfish,spr_KSW_Fish_BobKillerGoldfish_Pal,series_EarthwormJim,mint,2,serranoSprings,KSW_Phases.none,1994);
+	scr_KSW_AddFish("Earthworm Jim",spr_KSW_Fish_EarthwormJim,spr_KSW_Fish_EarthwormJim_Pal,series_EarthwormJim,borange,3,serranoSprings,KSW_Phases.none,2015);
 	
 	#endregion
 	#endregion
