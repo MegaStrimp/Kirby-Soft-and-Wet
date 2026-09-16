@@ -105,6 +105,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("earthwormJim","Earthworm Jim");
 	scr_KSW_AddSeries("worms","Worms");
 	scr_KSW_AddSeries("alienSoldier","Alien Soldier");
+	scr_KSW_AddSeries("jurassicPark","Jurassic Park");
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");

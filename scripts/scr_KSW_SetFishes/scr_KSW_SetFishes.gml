@@ -110,6 +110,7 @@ function scr_KSW_SetFishes()
 	var series_EarthwormJim = global.KSW_SeriesIDs[? "earthwormJim"];
 	var series_Worms = global.KSW_SeriesIDs[? "worms"];
 	var series_AlienSoldier = global.KSW_SeriesIDs[? "alienSoldier"];
+	var series_JurassicPark = global.KSW_SeriesIDs[? "jurassicPark"];
 	#endregion
 	
 	#region Stages
@@ -1952,6 +1953,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Junk Fish",spr_KSW_Fish_JunkFish,spr_KSW_Fish_JunkFish_Pal,series_EarthwormJim,candy,1,serranoSprings,KSW_Phases.none,195);
 	scr_KSW_AddFish("Bob the Killer Goldfish",spr_KSW_Fish_BobKillerGoldfish,spr_KSW_Fish_BobKillerGoldfish_Pal,series_EarthwormJim,mint,2,serranoSprings,KSW_Phases.none,1994);
 	scr_KSW_AddFish("Earthworm Jim",spr_KSW_Fish_EarthwormJim,spr_KSW_Fish_EarthwormJim_Pal,series_EarthwormJim,borange,3,serranoSprings,KSW_Phases.none,2015);
+	scr_KSW_AddFish("Compsognathus",spr_KSW_Fish_Compsognathus,spr_KSW_Fish_Compsognathus_Pal,series_JurassicPark,mint,0,serranoSprings,KSW_Phases.day,193);
+	scr_KSW_AddFish("Velociraptor",spr_KSW_Fish_Velociraptor,spr_KSW_Fish_Velociraptor_Pal,series_JurassicPark,mint,1,serranoSprings,KSW_Phases.day,1993);
+	scr_KSW_AddFish("Alan Grant",spr_KSW_Fish_AlanGrant,spr_KSW_Fish_AlanGrant_Pal,series_JurassicPark,mint,2,serranoSprings,KSW_Phases.day,2015);
 	
 	#endregion
 	#endregion
