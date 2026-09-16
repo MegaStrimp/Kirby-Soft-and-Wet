@@ -1935,6 +1935,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Giant Turboss",spr_KSW_Fish_GiantTurboss,spr_KSW_Fish_GiantTurboss_Pal,series_StarTropics,mint,2,serranoSprings,KSW_Phases.none,19900);
 	scr_KSW_AddFish("Dolphin NPC",spr_KSW_Fish_DolphinNPC,spr_KSW_Fish_DolphinNPC_Pal,series_StarTropics,mage,2,serranoSprings,KSW_Phases.none,19900);
 	scr_KSW_AddFish("Mike Jones",spr_KSW_Fish_MikeJones,spr_KSW_Fish_MikeJones_Pal,series_StarTropics,mint,3,serranoSprings,KSW_Phases.none,199000);
+	scr_KSW_AddFish("Owtch",spr_KSW_Fish_Owtch,spr_KSW_Fish_Owtch_Pal,series_Metroid,legion,0,grassBeach,KSW_Phases.none,100);
+	scr_KSW_AddFish("Powamp",spr_KSW_Fish_Powamp,spr_KSW_Fish_Powamp_Pal,series_Metroid,legion,0,grassBeach,KSW_Phases.none,300);
+	scr_KSW_AddFish("Hornoad",spr_KSW_Fish_Hornoad,spr_KSW_Fish_Hornoad_Pal,series_Metroid,legion,0,grassBeach,KSW_Phases.none,400);
+	scr_KSW_AddFish("Sciser",spr_KSW_Fish_Sciser,spr_KSW_Fish_Sciser_Pal,series_Metroid,legion,0,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Yard",spr_KSW_Fish_Yard,spr_KSW_Fish_Yard_Pal,series_Metroid,legion,0,grassBeach,KSW_Phases.none,700);
+	scr_KSW_AddFish("Zebesian (Aqua)",spr_KSW_Fish_ZebesianAqua,spr_KSW_Fish_ZebesianAqua_Pal,series_Metroid,legion,1,grassBeach,KSW_Phases.none,1000);
+	scr_KSW_AddFish("Samus Aran (Gravity Suit)",spr_KSW_Fish_SamusAranGravitySuit,spr_KSW_Fish_SamusAranGravitySuit_Pal,series_Metroid,flux,3,grassBeach,KSW_Phases.none,100000);
 	
 	#endregion
 	#endregion
