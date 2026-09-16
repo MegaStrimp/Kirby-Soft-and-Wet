@@ -34,5 +34,11 @@ var exitIcon = "";
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("B"))];
 if (targetIcon != undefined) exitIcon = "[" + sprite_get_name(targetIcon) + "]";
 
+var selectIcon = "";
+var targetIcon = global.UI_IconBindings[? string(input_binding_get("A"))];
+if (targetIcon != undefined) selectIcon = "[" + sprite_get_name(targetIcon) + "]";
+
 scribble(exitIcon + "EXIT").draw(4,room_height - 16 + (2 * (buttonInputTimerComponent_BTimer != -1)));
+var text = scribble(selectIcon + "SPEED UP");
+text.draw(room_width - 4 - text.get_width(),room_height - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
 #endregion
