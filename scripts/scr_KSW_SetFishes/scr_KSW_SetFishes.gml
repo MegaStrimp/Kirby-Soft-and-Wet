@@ -1666,12 +1666,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Flier",spr_KSW_Fish_Flier,spr_KSW_Fish_Flier_Pal,series_UndertaleYellow,glimmer,0,grassBeach,KSW_Phases.none,235,-12,-12);
 	scr_KSW_AddFish("Penilla",spr_KSW_Fish_Penilla,spr_KSW_Fish_Penilla_Pal,series_UndertaleYellow,mint,0,grassBeach,KSW_Phases.none,376,-13,-12);
 	scr_KSW_AddFish("Sweet Corn",spr_KSW_Fish_SweetCorn,spr_KSW_Fish_SweetCorn_Pal,series_UndertaleYellow,candy,0,hallowReen,KSW_Phases.day,275,-13,-14);
-	scr_KSW_AddFish("Dalv",spr_KSW_Fish_Dalv,spr_KSW_Fish_Dalv_Pal,series_UndertaleYellow,flux,1,hallowReen,KSW_Phases.day,621,-14,-61);
+	scr_KSW_AddFish("Dalv",spr_KSW_Fish_Dalv,spr_KSW_Fish_Dalv_Pal,series_UndertaleYellow,flux,1,hallowReen,KSW_Phases.day,621);
 	scr_KSW_AddFish("Slurpy",spr_KSW_Fish_Slurpy,spr_KSW_Fish_Slurpy_Pal,series_UndertaleYellow,mage,0,creamCrevasse,KSW_Phases.none,100,-6);
 	scr_KSW_AddFish("Jane Doe",spr_KSW_Fish_JaneDoe,spr_KSW_Fish_JaneDoe_Pal,series_UndertaleYellow,mage,0,creamCrevasse,KSW_Phases.night,200,0,7);
 	scr_KSW_AddFish("Mo",spr_KSW_Fish_Mo,spr_KSW_Fish_Mo_Pal,series_UndertaleYellow,maze,1,creamCrevasse,KSW_Phases.none,1950,-21,-15);
 	scr_KSW_AddFish("Martlet",spr_KSW_Fish_Martlet,spr_KSW_Fish_Martlet_Pal,series_UndertaleYellow,mage,2,creamCrevasse,KSW_Phases.none,3000,-19,-102);
-	scr_KSW_AddFish("El Bailador",spr_KSW_Fish_ElBailador,spr_KSW_Fish_ElBailador_Pal,series_UndertaleYellow,candy,1,serranoSprings,KSW_Phases.none,750,-1,26);
+	scr_KSW_AddFish("El Bailador",spr_KSW_Fish_ElBailador,spr_KSW_Fish_ElBailador_Pal,series_UndertaleYellow,candy,1,serranoSprings,KSW_Phases.none,750);
 	scr_KSW_AddFish("Mooch",spr_KSW_Fish_Mooch,spr_KSW_Fish_Mooch_Pal,series_UndertaleYellow,mint,1,serranoSprings,KSW_Phases.afternoon,5,0,6);
 	scr_KSW_AddFish("Moray",spr_KSW_Fish_Moray,spr_KSW_Fish_Moray_Pal,series_UndertaleYellow,legion,1,serranoSprings,KSW_Phases.afternoon,55);
 	scr_KSW_AddFish("Ace",spr_KSW_Fish_Aceuty,spr_KSW_Fish_Aceuty_Pal,series_UndertaleYellow,flux,1,serranoSprings,KSW_Phases.afternoon,555,4,9);
@@ -1685,7 +1685,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Guardener",spr_KSW_Fish_Guardener,spr_KSW_Fish_Guardener_Pal,series_UndertaleYellow,flux,1,androidPort,KSW_Phases.night,1011,-27,-33);
 	scr_KSW_AddFish("Axis",spr_KSW_Fish_Axis,spr_KSW_Fish_Axis_Pal,series_UndertaleYellow,flux,2,androidPort,KSW_Phases.none,1014,-23,-17);
 	scr_KSW_AddFish("Chujin",spr_KSW_Fish_Chujin,spr_KSW_Fish_Chujin_Pal,series_UndertaleYellow,mint,3,androidPort,KSW_Phases.none,80000,0,11);
-	scr_KSW_AddFish("Kanako",spr_KSW_Fish_Kanako,spr_KSW_Fish_Kanako_Pal,series_UndertaleYellow,maze,3,hallowReen,KSW_Phases.none,120000,-152,-90);
+	scr_KSW_AddFish("Kanako",spr_KSW_Fish_Kanako,spr_KSW_Fish_Kanako_Pal,series_UndertaleYellow,maze,3,hallowReen,KSW_Phases.none,120000);
 	#endregion
 	#endregion
 }
