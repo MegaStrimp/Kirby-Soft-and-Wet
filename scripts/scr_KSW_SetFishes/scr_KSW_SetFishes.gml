@@ -1963,6 +1963,10 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Al Negator",spr_KSW_Fish_AlNegator,spr_KSW_Fish_AlNegator_Pal,series_BuckyOHare,mint,1,androidPort,KSW_Phases.day,1992);
 	scr_KSW_AddFish("Toadborg",spr_KSW_Fish_Toadborg,spr_KSW_Fish_Toadborg_Pal,series_BuckyOHare,mint,1,androidPort,KSW_Phases.day,1992);
 	scr_KSW_AddFish("Dead-Eye Duck",spr_KSW_Fish_DeadEyeDuck,spr_KSW_Fish_DeadEyeDuck_Pal,series_BuckyOHare,mint,2,androidPort,KSW_Phases.day,2019);
+	scr_KSW_AddFish("Deep Strider",spr_KSW_Fish_DeepStrider,spr_KSW_Fish_DeepStrider_Pal,series_AlienSoldier,flux,1,androidPort,KSW_Phases.none,195);
+	scr_KSW_AddFish("Joker",spr_KSW_Fish_Joker,spr_KSW_Fish_Joker_Pal,series_AlienSoldier,mint,1,androidPort,KSW_Phases.none,1995);
+	scr_KSW_AddFish("Madam Barber",spr_KSW_Fish_MadamBarber,spr_KSW_Fish_MadamBarber_Pal,series_AlienSoldier,candy,2,androidPort,KSW_Phases.none,1995);
+	scr_KSW_AddFish("Epsilon",spr_KSW_Fish_Epsilon,spr_KSW_Fish_Epsilon_Pal,series_AlienSoldier,borange,3,androidPort,KSW_Phases.none,2022);
 	
 	#endregion
 	#endregion
