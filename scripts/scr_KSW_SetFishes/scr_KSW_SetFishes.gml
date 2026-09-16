@@ -106,6 +106,7 @@ function scr_KSW_SetFishes()
 	var series_KeroBlaster = global.KSW_SeriesIDs[? "KeroBlaster"];
 	var series_Deltarot = global.KSW_SeriesIDs[? "deltarot"];
 	var series_JamesPond = global.KSW_SeriesIDs[? "jamesPond"];
+	var series_StarTropics = global.KSW_SeriesIDs[? "startropics"];
 	#endregion
 	
 	#region Stages
@@ -1922,7 +1923,18 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Pinky",spr_KSW_Fish_Pinky,spr_KSW_Fish_Pinky_Pal,series_PacMan,maze,2,androidPort,KSW_Phases.none,1980);
 	scr_KSW_AddFish("Clyde",spr_KSW_Fish_Clyde,spr_KSW_Fish_Clyde_Pal,series_PacMan,maze,2,androidPort,KSW_Phases.none,1980);
 	scr_KSW_AddFish("Pac-Man",spr_KSW_Fish_PacMan,spr_KSW_Fish_PacMan_Pal,series_PacMan,maze,3,androidPort,KSW_Phases.none,198000);
-	
+	scr_KSW_AddFish("Mud-o-Fish",spr_KSW_Fish_Mudofish,spr_KSW_Fish_Mudofish_Pal,series_StarTropics,candy,0,serranoSprings,KSW_Phases.none,190);
+	scr_KSW_AddFish("Spinistar",spr_KSW_Fish_Spinistar,spr_KSW_Fish_Spinistar_Pal,series_StarTropics,borange,0,serranoSprings,KSW_Phases.none,190);
+	scr_KSW_AddFish("Squido",spr_KSW_Fish_Squido,spr_KSW_Fish_Squido_Pal,series_StarTropics,candy,0,serranoSprings,KSW_Phases.none,190);
+	scr_KSW_AddFish("Armet",spr_KSW_Fish_Armet,spr_KSW_Fish_Armet_Pal,series_StarTropics,mint,0,serranoSprings,KSW_Phases.none,190);
+	scr_KSW_AddFish("Octot",spr_KSW_Fish_Octot,spr_KSW_Fish_Octot_Pal,series_StarTropics,glimmer,0,serranoSprings,KSW_Phases.none,190);
+	scr_KSW_AddFish("Froppa",spr_KSW_Fish_Froppa,spr_KSW_Fish_Froppa_Pal,series_StarTropics,mint,1,serranoSprings,KSW_Phases.none,1990);
+	scr_KSW_AddFish("Puff",spr_KSW_Fish_Puff,spr_KSW_Fish_Puff_Pal,series_StarTropics,borange,1,serranoSprings,KSW_Phases.none,1990);
+	scr_KSW_AddFish("Mad Muddy",spr_KSW_Fish_MadMuddy,spr_KSW_Fish_MadMuddy_Pal,series_StarTropics,candy,1,serranoSprings,KSW_Phases.none,1990);
+	scr_KSW_AddFish("Octo the Huge",spr_KSW_Fish_OctoTheHuge,spr_KSW_Fish_OctoTheHuge_Pal,series_StarTropics,borange,2,serranoSprings,KSW_Phases.none,19900);
+	scr_KSW_AddFish("Giant Turboss",spr_KSW_Fish_GiantTurboss,spr_KSW_Fish_GiantTurboss_Pal,series_StarTropics,mint,2,serranoSprings,KSW_Phases.none,19900);
+	scr_KSW_AddFish("Dolphin NPC",spr_KSW_Fish_DolphinNPC,spr_KSW_Fish_DolphinNPC_Pal,series_StarTropics,mage,2,serranoSprings,KSW_Phases.none,19900);
+	scr_KSW_AddFish("Mike Jones",spr_KSW_Fish_MikeJones,spr_KSW_Fish_MikeJones_Pal,series_StarTropics,mint,3,serranoSprings,KSW_Phases.none,199000);
 	
 	#endregion
 	#endregion
