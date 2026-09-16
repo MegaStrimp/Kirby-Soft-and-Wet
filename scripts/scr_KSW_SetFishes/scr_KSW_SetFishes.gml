@@ -111,6 +111,7 @@ function scr_KSW_SetFishes()
 	var series_Worms = global.KSW_SeriesIDs[? "worms"];
 	var series_AlienSoldier = global.KSW_SeriesIDs[? "alienSoldier"];
 	var series_JurassicPark = global.KSW_SeriesIDs[? "jurassicPark"];
+	var series_BuckyOHare = global.KSW_SeriesIDs[? "buckyOHare"];
 	#endregion
 	
 	#region Stages
@@ -1956,6 +1957,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Compsognathus",spr_KSW_Fish_Compsognathus,spr_KSW_Fish_Compsognathus_Pal,series_JurassicPark,mint,0,serranoSprings,KSW_Phases.day,193);
 	scr_KSW_AddFish("Velociraptor",spr_KSW_Fish_Velociraptor,spr_KSW_Fish_Velociraptor_Pal,series_JurassicPark,mint,1,serranoSprings,KSW_Phases.day,1993);
 	scr_KSW_AddFish("Alan Grant",spr_KSW_Fish_AlanGrant,spr_KSW_Fish_AlanGrant_Pal,series_JurassicPark,mint,2,serranoSprings,KSW_Phases.day,2015);
+	scr_KSW_AddFish("Toad Fish",spr_KSW_Fish_ToadFish,spr_KSW_Fish_ToadFish_Pal,series_BuckyOHare,mint,0,androidPort,KSW_Phases.day,192);
+	scr_KSW_AddFish("Jetpack Toad",spr_KSW_Fish_JetpackToad,spr_KSW_Fish_JetpackToad_Pal,series_BuckyOHare,mint,0,androidPort,KSW_Phases.day,192);
+	scr_KSW_AddFish("Toad Bot",spr_KSW_Fish_ToadBot,spr_KSW_Fish_ToadBot_Pal,series_BuckyOHare,mint,0,androidPort,KSW_Phases.day,192);
+	scr_KSW_AddFish("Al Negator",spr_KSW_Fish_AlNegator,spr_KSW_Fish_AlNegator_Pal,series_BuckyOHare,mint,1,androidPort,KSW_Phases.day,1992);
+	scr_KSW_AddFish("Toadborg",spr_KSW_Fish_Toadborg,spr_KSW_Fish_Toadborg_Pal,series_BuckyOHare,mint,1,androidPort,KSW_Phases.day,1992);
+	scr_KSW_AddFish("Dead-Eye Duck",spr_KSW_Fish_DeadEyeDuck,spr_KSW_Fish_DeadEyeDuck_Pal,series_BuckyOHare,mint,2,androidPort,KSW_Phases.day,2019);
 	
 	#endregion
 	#endregion
