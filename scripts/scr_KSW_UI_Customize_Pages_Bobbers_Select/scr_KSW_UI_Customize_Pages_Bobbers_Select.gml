@@ -16,6 +16,7 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Select()
 			
 			global.KSW_EquippedBobberShuffle[playerNum] = false;
 			global.KSW_EquippedBobberID[playerNum] = ds_list_find_value(selectionList,selection);
+			global.KSW_EquippedBobberIsShiny[playerNum] = bobberIsShiny[selection];
 		}
 		else
 		{

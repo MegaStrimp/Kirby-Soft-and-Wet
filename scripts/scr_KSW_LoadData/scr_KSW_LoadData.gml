@@ -41,6 +41,7 @@ function scr_KSW_LoadData(file,importFile = false)
 	    global.KSW_PlayerEquippedSprayPaintShuffle[i] = ini_read_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),false);
 	    global.KSW_PlayerEquippedHatShuffle[i] = ini_read_real("playerStatus","playerEquippedHatShuffle_" + string(i),false);
 		global.KSW_EquippedBobberShuffle[i] = ini_read_real("playerStatus","equippedBobberShuffle_" + string(i),true);
+		global.KSW_EquippedBobberIsShiny[i] = ini_read_real("playerStatus","equippedBobberIsShiny_" + string(i),false);
 		global.KSW_EquippedBobberID[i] = global.KSW_BobberIDs[? ini_read_string("playerStatus","equippedBobber_" + string(i),"red")];
 		global.KSW_EquippedBaitID[i] = global.KSW_BaitIDs[? ini_read_string("playerStatus","equippedBait_" + string(i),"none")];
 		
@@ -116,6 +117,8 @@ function scr_KSW_LoadData(file,importFile = false)
 		if (global.KSW_BobberList[i].isDefault) bobberIsUnlocked = true;
 		
 		global.KSW_BobberList[i].isUnlocked = bobberIsUnlocked;
+		global.KSW_BobberList[i].shinyIsUnlocked = ini_read_real("bobberStatus",string(bobberID) + "_ShinyIsUnlocked",false);
+		global.KSW_BobberList[i].shinyCaughtNumber = ini_read_real("bobberStatus",string(bobberID) + "_ShinyCaughtNumber",false);
 		
 		if (bobberIsUnlocked)
 		{

@@ -50,6 +50,7 @@ function scr_KSW_LoadFullSave(loadFish = true)
 	for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
 	{
 		global.KSW_BobberList[i].isUnlocked = true;
+		global.KSW_BobberList[i].shinyIsUnlocked = true;
 		
 		ds_list_add(global.KSW_AvailableBobbers,i);
 		

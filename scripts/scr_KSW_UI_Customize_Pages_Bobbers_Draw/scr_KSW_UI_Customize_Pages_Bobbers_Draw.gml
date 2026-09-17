@@ -74,11 +74,17 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 		if ((global.shaders) and (backgroundPalette != -1)) pal_swap_reset();
 		#endregion
 		
+		#region Shine
+		if (bobberIsShiny[i]) draw_sprite(spr_KSW_UI_CaughtBox_Shine,shineIndex,boxX,boxY);
+		#endregion
+		
 		#region Sprite
 		if (spriteIndex != -1)
 		{
 			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_BobberList[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(true,c_black,0,0);
+			if ((global.shaders) and (bobberIsShiny[i])) pal_swap_set(global.KSW_BobberList[ds_list_find_value(selectionList,i)].palette,1,false);
 			draw_sprite(spriteIndex,bobberImageIndex[i],boxX + 14 + spriteXOffset + calibX,boxY + 14 + spriteYOffset + calibY);
+			if ((global.shaders) and (bobberIsShiny[i])) pal_swap_reset();
 			if ((ds_list_find_value(selectionList,i) != -1) and (!global.KSW_BobberList[ds_list_find_value(selectionList,i)].isUnlocked)) gpu_set_fog(false,c_black,0,0);
 		}
 		#endregion
@@ -121,7 +127,7 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 		if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked) targetName = global.KSW_BobberList[ds_list_find_value(selectionList,selection)].name;
 	}
 	
-	scribble(targetName).align(fa_center).draw(global.gameWidth / 2,global.gameHeight - 14 + hintOffset);
+	scribble(targetName).align(fa_center).draw(global.gameWidth / 2,18 - hintOffset);
 	#endregion
 	
 	#region Button Hints
@@ -173,5 +179,25 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Draw()
 		text.draw(global.gameWidth - 4 - text.get_width(),global.gameHeight + hintOffset - 16 + (2 * (buttonInputTimerComponent_ATimer != -1)));
 	}
 	
+	if (ds_list_find_value(selectionList,selection) != -1)
+	{
+		var shinyIcon = "";
+		var targetIcon = global.UI_IconBindings[? string(input_binding_get("Y"))];
+		if (targetIcon != undefined) shinyIcon = "[" + sprite_get_name(targetIcon) + "]";
+		
+		if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].isUnlocked)
+		{
+			if (global.KSW_BobberList[ds_list_find_value(selectionList,selection)].shinyIsUnlocked)
+			{
+				var shinyText = scribble(shinyIcon + "SHINY").align(fa_center);
+				
+				shinyText.draw(global.gameWidth / 2,global.gameHeight + hintOffset - 16 + (2 * (buttonInputTimerComponent_YTimer != -1)));
+			}
+			else
+			{
+				var shinyText = scribble(string(global.KSW_BobberList[ds_list_find_value(selectionList,selection)].shinyCaughtNumber) + "/" + string(global.KSW_BobberList[ds_list_find_value(selectionList,selection)].shinyCaughtRequirement)).align(fa_center).draw(global.gameWidth / 2,global.gameHeight + hintOffset - 16);
+			}
+		}
+	}
 	#endregion
 }

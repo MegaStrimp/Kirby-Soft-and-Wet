@@ -40,8 +40,13 @@ function scr_KSW_Player_Kirby_Draw()
 	#endregion
 	
 	#region Bobber
+	if (bobberIsShiny) draw_sprite(spr_KSW_UI_CaughtBox_Shine,bobberShineIndex,bobberX - 15 + bobberShakeFinal,bobberY - 15);
+	
 	scr_DrawCurve(rodX + shakeXFinal,rodY,bobberX + bobberShakeFinal,bobberY,0,8);
+	
+	if ((global.shaders) and (bobberIsShiny)) pal_swap_set(sprBobberPal,1,false);
 	draw_sprite(sprBobber,sprBobberImageIndex,bobberX + bobberShakeFinal,bobberY);
+	if ((global.shaders) and (bobberIsShiny)) pal_swap_reset();
 	#endregion
 	
 	#region Rod
