@@ -1985,6 +1985,23 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Lord Iwama",spr_KSW_Fish_LordIwama,spr_KSW_Fish_LordIwama_Pal,series_LiveALive,glimmer,3,anyStage,KSW_Phases.night,202200);
 	scr_KSW_AddFish("Ode Iou",spr_KSW_Fish_OdeIou,spr_KSW_Fish_OdeIou_Pal,series_LiveALive,candy,3,anyStage,KSW_Phases.night,2022000);
 	scr_KSW_AddFish("Bullet Kin",spr_KSW_Fish_BulletKin,spr_KSW_Fish_BulletKin_Pal,series_EnterTheGungeon,maze,0,anyStage,KSW_Phases.none,216);
+	scr_KSW_AddFish("Sand Crab",spr_KSW_Fish_SandCrab,spr_KSW_Fish_SandCrab_Pal,series_TheLegendOfZelda,glimmer,0,grassBeach,KSW_Phases.afternoon,100);
+	scr_KSW_AddFish("Kyameron",spr_KSW_Fish_Kyameron,spr_KSW_Fish_Kyameron_Pal,series_TheLegendOfZelda,mage,0,grassBeach,KSW_Phases.day,200);
+	scr_KSW_AddFish("Freezor",spr_KSW_Fish_Freezor,spr_KSW_Fish_Freezor_Pal,series_TheLegendOfZelda,mage,0,creamCrevasse,KSW_Phases.none,300);
+	scr_KSW_AddFish("Bari",spr_KSW_Fish_Bari,spr_KSW_Fish_Bari_Pal,series_TheLegendOfZelda,legion,0,serranoSprings,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Water Tektite",spr_KSW_Fish_WaterTektite,spr_KSW_Fish_WaterTektite_Pal,series_TheLegendOfZelda,borange,0,serranoSprings,KSW_Phases.day,200);
+	scr_KSW_AddFish("Tokay",spr_KSW_Fish_Tokay,spr_KSW_Fish_Tokay_Pal,series_TheLegendOfZelda,candy,1,serranoSprings,KSW_Phases.none,550);
+	scr_KSW_AddFish("Octopus Storyteller",spr_KSW_Fish_OctopusStoryteller,spr_KSW_Fish_OctopusStoryteller_Pal,series_TheLegendOfZelda,mint,1,serranoSprings,KSW_Phases.night,500);
+	scr_KSW_AddFish("Catfish (Zelda)",spr_KSW_Fish_CatfishZelda,spr_KSW_Fish_CatfishZelda_Pal,series_TheLegendOfZelda,mint,1,hallowReen,KSW_Phases.afternoon,700);
+	scr_KSW_AddFish("Pengator",spr_KSW_Fish_Pengator,spr_KSW_Fish_Pengator_Pal,series_TheLegendOfZelda,legion,1,creamCrevasse,KSW_Phases.none,600);
+	scr_KSW_AddFish("Swamola",spr_KSW_Fish_Swamola,spr_KSW_Fish_Swamola_Pal,series_TheLegendOfZelda,mint,1,hallowReen,KSW_Phases.none,800);
+	scr_KSW_AddFish("Angler Fry",spr_KSW_Fish_AnglerFry,spr_KSW_Fish_AnglerFry_Pal,series_TheLegendOfZelda,flux,1,serranoSprings,KSW_Phases.night,400);
+	scr_KSW_AddFish("Angler Fish",spr_KSW_Fish_AnglerFish,spr_KSW_Fish_AnglerFish_Pal,series_TheLegendOfZelda,flux,2,serranoSprings,KSW_Phases.night,4000);
+	scr_KSW_AddFish("Octogon",spr_KSW_Fish_Octogon,spr_KSW_Fish_Octogon_Pal,series_TheLegendOfZelda,borange,2,serranoSprings,KSW_Phases.none,4500);
+	scr_KSW_AddFish("Plasmarine",spr_KSW_Fish_Plasmarine,spr_KSW_Fish_Plasmarine_Pal,series_TheLegendOfZelda,flux,2,serranoSprings,KSW_Phases.none,4500);
+	scr_KSW_AddFish("King Zora",spr_KSW_Fish_KingZora,spr_KSW_Fish_KingZora_Pal,series_TheLegendOfZelda,mage,3,serranoSprings,KSW_Phases.night,50000);
+	scr_KSW_AddFish("Lord Jabu-Jabu",spr_KSW_Fish_LordJabuJabu,spr_KSW_Fish_LordJabuJabu_Pal,series_TheLegendOfZelda,borange,3,serranoSprings,KSW_Phases.afternoon,55000);
+	scr_KSW_AddFish("Link",spr_KSW_Fish_Link,spr_KSW_Fish_Link_Pal,series_TheLegendOfZelda,mint,3,creamCrevasse,KSW_Phases.none,90000);
 	
 	#endregion
 	#endregion
