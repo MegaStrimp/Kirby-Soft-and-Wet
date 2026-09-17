@@ -179,6 +179,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "BigtopSteve",playerID,"Bigtop Steve",spr_KSW_Player_Marx_SprayPaint_BigtopSteve,legion,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Krusty",playerID,"Krusty",spr_KSW_Player_Marx_SprayPaint_Krusty,mint,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Joker",playerID,"Joker",spr_KSW_Player_Marx_SprayPaint_Joker,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Jarona",playerID,"Jarona",spr_KSW_Player_Marx_SprayPaint_Jarona,glimmer,75);
 	#endregion
 	
 	#region Waddle Dee
@@ -203,7 +204,6 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "GhostlyBlue",playerID,"Ghostly Blue",spr_KSW_Player_WaddleDee_SprayPaint_GhostlyBlue,mage,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Beanbon",playerID,"Beanbon",spr_KSW_Player_WaddleDee_SprayPaint_Beanbon,mint,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Primal",playerID,"Primal",spr_KSW_Player_WaddleDee_SprayPaint_Primal,borange,75);
-	
 	scr_KSW_AddSprayPaint(playerID + "_" + "Metall",playerID,"Metall",spr_KSW_Player_WaddleDee_SprayPaint_Metall,glimmer,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "FleaMan",playerID,"Flea Man",spr_KSW_Player_WaddleDee_SprayPaint_FleaMan,mint,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Grunt",playerID,"Grunt",spr_KSW_Player_WaddleDee_SprayPaint_Grunt,borange,75);
