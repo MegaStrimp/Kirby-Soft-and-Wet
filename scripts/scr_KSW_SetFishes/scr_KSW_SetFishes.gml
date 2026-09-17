@@ -2019,7 +2019,6 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Snowy Flopper",spr_KSW_Fish_SnowyFlopper,spr_KSW_Fish_SnowyFlopper_Pal,series_Fortnite,legion,1,creamCrevasse,KSW_Phases.none,1800);
 	scr_KSW_AddFish("Shadow Fish",spr_KSW_Fish_ShadowFish,spr_KSW_Fish_ShadowFish_Pal,series_Fortnite,borange,1,hallowReen,KSW_Phases.night,6666);
 	scr_KSW_AddFish("Cuddle Fish",spr_KSW_Fish_CuddleFish,spr_KSW_Fish_CuddleFish_Pal,series_Fortnite,candy,1,grassBeach,KSW_Phases.afternoon,750);
-	scr_KSW_AddFish("Loot Shark",spr_KSW_Fish_LootShark,spr_KSW_Fish_LootShark_Pal,series_Fortnite,flux,3,grassBeach,KSW_Phases.none,150000);
 	scr_KSW_AddFish("Vendetta Flopper",spr_KSW_Fish_VendettaFlopper,spr_KSW_Fish_VendettaFlopper_Pal,series_Fortnite,glimmer,3,androidPort,KSW_Phases.none,14000);
 	scr_KSW_AddFish("Midas Flopper",spr_KSW_Fish_MidasFlopper,spr_KSW_Fish_MidasFlopper_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,715124);
 	scr_KSW_AddFish("Mythic Goldfish",spr_KSW_Fish_MythicGoldfish,spr_KSW_Fish_MythicGoldfish_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,999999);
