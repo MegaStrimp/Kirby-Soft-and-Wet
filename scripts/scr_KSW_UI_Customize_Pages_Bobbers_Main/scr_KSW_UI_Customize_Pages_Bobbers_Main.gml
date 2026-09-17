@@ -36,6 +36,10 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Main()
 		backgroundY = (backgroundY + (backgroundSpd * speedMultFinal)) % 40;
 		#endregion
 		
+		#region Shine
+		shineIndex = (shineIndex + shineSpd) % shineNumber;
+		#endregion
+		
 		#region Sprite Animation
 		var selectionStart = page * pageSelectionCount;
 		var selectionEnd = min((page + 1) * 18,selectionCount);

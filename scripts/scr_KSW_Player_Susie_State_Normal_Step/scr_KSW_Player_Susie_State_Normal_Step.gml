@@ -265,6 +265,8 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 			}
 		}
 	}
+	
+	bobberShineIndex = (bobberShineIndex + bobberShineSpd) % bobberShineNumber;
 	#endregion
 	
 	#region Animation

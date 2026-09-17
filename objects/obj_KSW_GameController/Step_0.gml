@@ -397,6 +397,17 @@ if (!localPause)
 			global.KSW_TotalCoins += targetCoins;
 			#endregion
 			
+			#region Bobber Shiny Caught Number
+			if (!global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyIsUnlocked)
+			{
+				global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtNumber += 1;
+				if (global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtNumber >= global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtRequirement)
+				{
+					global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyIsUnlocked = true;
+				}
+			}
+			#endregion
+			
 			global.KSW_CaughtTotalFishCount += 1;
 			global.KSW_CurrentFishCombo += 1;
 			global.KSW_HighestFishCombo = max(global.KSW_HighestFishCombo,global.KSW_CurrentFishCombo);

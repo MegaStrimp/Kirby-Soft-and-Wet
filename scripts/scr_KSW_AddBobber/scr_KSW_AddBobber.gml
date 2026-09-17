@@ -1,6 +1,6 @@
 ///@description KSW - Add Bobber
 
-function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetBoxPalette,targetPrice,targetXOffset,targetYOffset,targetIsHidden = false,targetIsDefault = false)
+function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetPalette,targetBoxPalette,targetPrice,targetXOffset,targetYOffset,targetIsHidden = false,targetIsDefault = false)
 {
 	ds_map_add(global.KSW_BobberIDs,targetID,global.KSW_BobberCount);
 	
@@ -9,6 +9,7 @@ function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetBoxPalette,tar
         ID: targetID,
         name: targetName,
         sprite: targetSprite,
+        palette: targetPalette,
 		boxPalette: targetBoxPalette,
 		price: targetPrice,
         xOffset: targetXOffset,
@@ -17,8 +18,11 @@ function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetBoxPalette,tar
 		isDefault: targetIsDefault,
 		
 		tiedAchievementName: "",
+		shinyCaughtNumber: 0,
+		shinyCaughtRequirement: 30,
 		
-		isUnlocked: false
+		isUnlocked: false,
+		shinyIsUnlocked: false
     };
 	
 	global.KSW_BobberCount += 1;

@@ -19,6 +19,9 @@ function scr_KSW_Player_WaddleDee_Setup()
 	bobberYTarget = -100;
 	bobberXOffset = 0;
 	bobberYOffset = 0;
+	bobberShineIndex = 0;
+	bobberShineSpd = sprite_get_speed(spr_KSW_UI_CaughtBox_Shine) / 60;
+	bobberShineNumber = sprite_get_number(spr_KSW_UI_CaughtBox_Shine);
 	
 	baitSurface = -1;
 	baitTexture = -1;
@@ -69,6 +72,8 @@ function scr_KSW_Player_WaddleDee_Setup()
 	sprSuccess_Rod = spr_KSW_Player_WaddleDee_Success_Rod;
 	
 	sprBobber = spr_KSW_Bobber_Red;
+	sprBobberPal = spr_KSW_Bobber_Red_Pal;
+	bobberIsShiny = false;
 	sprBobberImageIndex = 0;
 	sprBobberSpeed = 0;
 	sprBobberImageNumber = 0;
