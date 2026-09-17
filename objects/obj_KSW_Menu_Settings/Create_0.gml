@@ -11,10 +11,15 @@ playerNum = 0;
 selection = 0;
 targetKey = "";
 
-buttonsList_Max = 20;
+buttonsList_Max = 21;
 
 mousePressed = false;
 settingPressed = false;
+
+dragActive = false;
+dragStartY = 0;
+dragStartScroll = 0;
+listScroll = 0;
 #endregion
 
 #region Keys

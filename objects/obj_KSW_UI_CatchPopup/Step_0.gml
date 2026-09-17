@@ -65,6 +65,17 @@ if (escapeTimer != -1)
 }
 #endregion
 
+#region Weird Icon Timer
+if (weirdIconTimer != -1)
+{
+	weirdIconTimer = max(weirdIconTimer - speedMultFinal,0);
+	if (weirdIconTimer == 0)
+	{
+		weirdIconTimer = -1;
+	}
+}
+#endregion
+
 #region End Timer
 if (endTimer != -1)
 {

@@ -21,6 +21,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("theLegendOfZelda","The Legend of Zelda");
 	scr_KSW_AddSeries("terraria","Terraria");
 	scr_KSW_AddSeries("pokemon","Pokemon");
+	scr_KSW_AddSeries("pmdEoF","PMD: Explorers of Fortune");
 	scr_KSW_AddSeries("warioLand","Wario Land");
 	scr_KSW_AddSeries("yugioh","Yu-Gi-Oh");
 	scr_KSW_AddSeries("godzilla","Godzilla");
@@ -92,7 +93,15 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("celeste","Celeste");
 	scr_KSW_AddSeries("touhouProject","Touhou Project");
 	scr_KSW_AddSeries("umamusume","Umamusume");
+	scr_KSW_AddSeries("megaManUnlimited","Mega Man Unlimited");
+	scr_KSW_AddSeries("bloodstained","Bloodstained");
 	scr_KSW_AddSeries("misc","Misc");
 	scr_KSW_AddSeries("undertaleYellow","Undertale Yellow");
+	scr_KSW_AddSeries("DaveTheDiver","Dave the Diver");
+	scr_KSW_AddSeries("KeroBlaster","Kero Blaster");
+	scr_KSW_AddSeries("deltarot","Deltarot");
+	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
+	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
+	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
 	#endregion
 }

@@ -44,10 +44,15 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Setup()
 	selectionSpd = sprite_get_speed(spr_KSW_Menu_Fishbook_Selection) / 60;
 	selectionNumber = sprite_get_number(spr_KSW_Menu_Fishbook_Selection);
 	
+	shineIndex = 0;
+	shineSpd = sprite_get_speed(spr_KSW_UI_CaughtBox_Shine) / 60;
+	shineNumber = sprite_get_number(spr_KSW_UI_CaughtBox_Shine);
+	
 	bobberImageIndex = [];
 	for (var i = 0; i < ds_list_size(selectionList); i++)
 	{
 		bobberImageIndex[i] = 0;
+		bobberIsShiny[i] = ((global.KSW_EquippedBobberID[playerNum] == ds_list_find_value(selectionList,i)) and (global.KSW_EquippedBobberIsShiny[playerNum]));
 	}
 	#endregion
 	#endregion

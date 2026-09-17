@@ -362,14 +362,8 @@ if (!localPause)
 							var dummy = instance_create_depth(bobberX + global.KSW_FishList[other.currentFish].xOffset,bobberY + global.KSW_FishList[other.currentFish].yOffset,depth - 1,obj_KSW_CatchedFishDummy);
 							dummy.sprite_index = global.KSW_FishList[other.currentFish].sprite;
 							dummy.palSprite = global.KSW_FishList[other.currentFish].palette;
-							if (other.currentFishIsNew)
-							{
-								dummy.palIndex = 3;
-							}
-							else
-							{
-								dummy.palIndex = other.currentFishIsShiny;
-							}
+							dummy.palIndex = other.currentFishIsShiny
+							dummy.isSilhouette = other.currentFishIsNew;
 						}
 						
 						catchAnimationTimer = 40 + (currentFishIsNew * 20);
@@ -398,12 +392,25 @@ if (!localPause)
 			#endregion
 			
 			#region Give Coins
-			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
+			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + (min(3 + (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]),floor(global.KSW_CurrentFishCombo / 15))) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
 			global.KSW_CurrentCoins += targetCoins;
+			global.KSW_TotalCoins += targetCoins;
+			#endregion
+			
+			#region Bobber Shiny Caught Number
+			if (!global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyIsUnlocked)
+			{
+				global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtNumber += 1;
+				if (global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtNumber >= global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtRequirement)
+				{
+					global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyIsUnlocked = true;
+				}
+			}
 			#endregion
 			
 			global.KSW_CaughtTotalFishCount += 1;
 			global.KSW_CurrentFishCombo += 1;
+			global.KSW_HighestFishCombo = max(global.KSW_HighestFishCombo,global.KSW_CurrentFishCombo);
 			global.KSW_FishList[other.currentFish].isCaught += 1;
 			if (other.currentFishIsShiny) global.KSW_FishList[other.currentFish].isCaughtShiny += 1;
 			catchCombo_YOffsetTimer = catchCombo_YOffsetTimerMax;
@@ -590,14 +597,27 @@ if (!localPause)
 				for (var i = 0; i < pityRate; i++)
 				{
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];
-					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny))) break;
+					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny)))
+					{
+						pityRate += floor(global.KSW_FishList[currentFish].isCaught / 2);
+						
+						break;
+					}
 				}
 				
 				if (global.KSW_DebugRig != -1) currentFish = global.KSW_DebugRig;
 				
 				var shinyRng = 1;
 				var hasShinyBait = (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreShinies"]);
-				if (global.KSW_FishList[currentFish].isCaught) shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
+				if (global.KSW_FishList[currentFish].isCaught)
+				{
+					for (var i = 0; i < pityRate; i++)
+					{
+						shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
+					
+						if (shinyRng == 0) break;
+					}
+				}
 				currentFishIsShiny = (shinyRng == 0);
 				
 				catchInput_CurrentList = scr_KSW_Game_GenerateCatchInputList(playerNum,global.KSW_FishList[currentFish].rarity);
@@ -738,6 +758,9 @@ if (!localPause)
 					*/
 					
 					var stealthTutorialID = global.KSW_StealthTutorialIDs[? "catchComboShinyRate"];
+					if (global.KSW_StealthTutorialList[stealthTutorialID].unlockScript()) scr_KSW_ObtainStealthTutorial(stealthTutorialID);
+					
+					var stealthTutorialID = global.KSW_StealthTutorialIDs[? "gramsLuckRate"];
 					if (global.KSW_StealthTutorialList[stealthTutorialID].unlockScript()) scr_KSW_ObtainStealthTutorial(stealthTutorialID);
 					
 					with (obj_KSW_Player) scr_ChangeSprite(sprReady);

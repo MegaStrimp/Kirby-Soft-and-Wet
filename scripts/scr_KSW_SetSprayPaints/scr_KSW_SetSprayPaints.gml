@@ -88,6 +88,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "CoralBreeze",playerID,"Coral Breeze",spr_KSW_Player_Kirby_SprayPaint_CoralBreeze,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Crunchy",playerID,"Crunchy",spr_KSW_Player_Kirby_SprayPaint_Crunchy,glimmer,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Missing",playerID,"[blink]MISSINGNO[/blink]",spr_KSW_Player_Kirby_SprayPaint_Missing,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SmashPurple",playerID,"Smash Purple",spr_KSW_Player_Kirby_SprayPaint_SmashPurple,flux,75);
 	#endregion
 	
 	#region Gooey
@@ -146,6 +147,11 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "LightGrape",playerID,"Light Grape",spr_KSW_Player_Elfilin_SprayPaint_LightGrape,flux,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Crisp",playerID,"Crisp",spr_KSW_Player_Elfilin_SprayPaint_Crisp,borange,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "TheJudge",playerID,"The Judge",spr_KSW_Player_Elfilin_SprayPaint_TheJudge,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Amethyst",playerID,"Amethyst",spr_KSW_Player_Elfilin_SprayPaint_Amethyst,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "CoinGold",playerID,"Coin Gold",spr_KSW_Player_Elfilin_SprayPaint_CoinGold,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Cookie",playerID,"Cookie",spr_KSW_Player_Elfilin_SprayPaint_Cookie,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Reversed",playerID,"Reversed",spr_KSW_Player_Elfilin_SprayPaint_Reversed,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "GreenApple",playerID,"Green Apple",spr_KSW_Player_Elfilin_SprayPaint_GreenApple,mint,75);
 	#endregion
 	
 	#region Marx

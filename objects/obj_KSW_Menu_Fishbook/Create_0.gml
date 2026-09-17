@@ -23,8 +23,9 @@ backgroundX = 0;
 backgroundY = 0;
 backgroundSpd = .1;
 hintOffset = 0;
-shineIndex = 0;
 shineEffectAngle = 0;
+
+shineIndex = 0;
 shineSpd = sprite_get_speed(spr_KSW_UI_CaughtBox_Shine) / 60;
 shineNumber = sprite_get_number(spr_KSW_UI_CaughtBox_Shine);
 
@@ -53,6 +54,7 @@ sortIndex = 1;
 
 sortList = ds_list_create();
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Default);
+ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Name);
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Rarity);
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Series);
 ds_list_add(sortList,scr_KSW_Menu_Fishbook_Sort_Stage);

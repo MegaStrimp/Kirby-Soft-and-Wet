@@ -9,6 +9,7 @@ global.gameTileSize = 24;
 global.fullscreen = true;
 
 global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
+global.KSW_HasCursor = true;
 #endregion
 
 #region Gameplay Variables
@@ -19,6 +20,8 @@ global.versionSubtitle = "His Birthday";
 global.pauseScript = scr_KSW_PauseScript;
 
 global.maxPlayers = 1;
+
+global.screenOrientation = 0;
 
 global.KSW_FishRarity[3] = 0;
 global.KSW_FishTime[3] = 0;
@@ -85,6 +88,11 @@ global.KSW_EnteredAquarium = false;
 global.KSW_MusicShuffle = false;
 
 global.KSW_DebugRig = -1;
+
+global.tapFeedbackStars = [];
+global.tapDragLastX = 0;
+global.tapDragLastY = 0;
+global.mobileDebug = false;
 
 playtimeAchievementTimerMax = 3600;
 playtimeAchievementTimer = playtimeAchievementTimerMax;

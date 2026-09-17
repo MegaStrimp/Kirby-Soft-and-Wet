@@ -5,7 +5,10 @@ scribble_font_set_default("fnt_Advance");
 #endregion
 
 #region Page Title
-scribble("PAGE " + string(page + 1)).align(fa_center).draw(room_width / 2,6);
+var finalTitle = "PAGE " + string(page + 1);
+if (page == pageMax) finalTitle = "STATS"
+
+scribble(finalTitle).align(fa_center).draw(room_width / 2,6);
 #endregion
 
 #region Completion
@@ -60,9 +63,62 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 }
 #endregion
 
-#region Playtime
-scribble("Played for " + string(global.timePlayed_Hours) + ":" + string(global.timePlayed_Minutes) + ":" + string(global.timePlayed_Seconds)).align(fa_right).draw(global.gameWidth - 4,146);
-#endregion
+#region Stats Page
+if (page == pageMax)
+{
+	var i = 0;
+	
+	#region Total Fish Count
+	scribble("[#1CD5FF]Total Fish Caught [c_white]" + string(global.KSW_CaughtTotalFishCount) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+	i += 1;
+	#endregion
+	
+	#region Day Fish Count
+	scribble("[#FFE95C]Day Fish Caught [c_white]" + string(global.KSW_CaughtTotalFishCount_Day) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+	i += 1;
+	#endregion
+	
+	#region Afternoon Fish Count
+	scribble("[#FFA25C]Afternoon Fish Caught [c_white]" + string(global.KSW_CaughtTotalFishCount_Afternoon) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+	i += 1;
+	#endregion
+	
+	#region Night Fish Count
+	scribble("[#B3BDFF]Night Fish Caught [c_white]" + string(global.KSW_CaughtTotalFishCount_Night) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+	i += 1;
+	#endregion
+	
+	#region Shiny Count
+	if (global.KSW_CaughtShinyFishCount != 0)
+	{
+		scribble("[#FFD726]Total Shinies Caught [c_white]" + string(global.KSW_CaughtShinyFishCount) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+		i += 1;
+	}
+	#endregion
+	
+	#region Best Catch Combo
+	scribble("[#FF495C]Best Catch Combo [c_white]" + string(global.KSW_HighestFishCombo) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+	i += 1;
+	#endregion
+	
+	#region Total Coins Earned
+	scribble("[#FFAA66]Total Coins Earned [c_white]" + string(global.KSW_TotalCoins) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+	i += 1;
+	#endregion
+	
+	#region Most Caught Fish
+	if (mostCaughtFish != -1)
+	{
+		scribble("[#CD98FF]Most Caught Fish [c_white]" + string(mostCaughtFish) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+		i += 1;
+	}
+	#endregion
+	
+	#region Playtime
+	scribble("[#4FFF9E]Played For [c_white]" + string(global.timePlayed_Hours) + ":" + string(global.timePlayed_Minutes) + ":" + string(global.timePlayed_Seconds) + "[/color]").gradient(c_white,1).draw(4,26 + (12 * i));
+	i += 1;
+	#endregion
+}
 
 #region Button Hints
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("L"))];

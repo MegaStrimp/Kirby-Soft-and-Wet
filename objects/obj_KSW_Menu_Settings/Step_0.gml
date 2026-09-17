@@ -15,6 +15,7 @@ if (canSelect)
 		
 		selection -= 1;
 		if (selection < 0) selection += buttonsList_Max + 1;
+		listScroll = max(0,selection - 7);
 	}
 	
 	if (input_check_pressed("down",playerNum))
@@ -23,10 +24,11 @@ if (canSelect)
 		
 		selection += 1;
 		if (selection > buttonsList_Max) selection -= buttonsList_Max + 1;
+		listScroll = max(0,selection - 7);
 	}
 	
 	var space = 16;
-	var startY = 8 - (max(0,selection - 7) * space);
+	var startY = 8 - (listScroll * space);
 	for (var i = 0; i <= buttonsList_Max; i++)
 	{
 		if ((!mousePressed) and (scr_MouseIsInbetween(8,startY + (space * i),8 + 120,startY + (space * i) + 12)) and (mouse_check_button_pressed(mb_left)))
@@ -47,6 +49,41 @@ if (canSelect)
 	}
 	
 	if ((scr_MouseIsInbetween(182,144,235,156)) and (mouse_check_button_pressed(mb_left))) settingPressed = true;
+	
+	if (targetKey == "")
+	{
+		#region Mouse Wheel Scroll
+		var wheelUp = mouse_wheel_up();
+		var wheelDown = mouse_wheel_down();
+		
+		if (wheelUp or wheelDown)
+		{
+			scr_PlaySfx(snd_KSW_BossHealth);
+			listScroll = clamp(listScroll + (wheelDown - wheelUp),0,buttonsList_Max - 7);
+		}
+		#endregion
+		
+		#region Drag Scroll
+		if (mouse_check_button_pressed(mb_left))
+		{
+			if (scr_MouseIsInbetween(8,8,128,140))
+			{
+				dragActive = true;
+				dragStartY = mouse_y;
+				dragStartScroll = listScroll;
+			}
+		}
+		else if ((mouse_check_button(mb_left)) and (dragActive))
+		{
+			var _dy = mouse_y - dragStartY;
+			listScroll = clamp(dragStartScroll - round(_dy / space),0,buttonsList_Max - 7);
+		}
+		else
+		{
+			dragActive = false;
+		}
+		#endregion
+	}
 	
 	if ((targetKey == "") and ((input_check_pressed("B",playerNum)) or (keyboard_check_pressed(vk_escape))) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 	{
@@ -97,8 +134,23 @@ if (canSelect)
 		#endregion
 		
 		case 2:
-		#region Fullscreen
-		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
+		#region Fullscreen / Orientation
+		if (global.isMobile)
+		{
+			if (input_check_pressed("left",playerNum))
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				global.screenOrientation = (global.screenOrientation + 2) mod 3;
+			}
+			else if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("right",playerNum)))
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				global.screenOrientation = (global.screenOrientation + 1) mod 3;
+			}
+		}
+		else if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
 		{
 			if ((!global.isMobile) and (!global.isOpera))
 			{
@@ -112,6 +164,22 @@ if (canSelect)
 			else
 			{
 				scr_PlaySfx(snd_KSW_ButtonNo);
+			}
+		}
+		
+		if (global.isMobile)
+		{
+			switch (global.screenOrientation)
+			{
+				case 0:
+					os_set_orientation_lock(true,true);
+				break;
+				case 1:
+					os_set_orientation_lock(false,true);
+				break;
+				case 2:
+					os_set_orientation_lock(true,false);
+				break;
 			}
 		}
 		break;
@@ -166,6 +234,26 @@ if (canSelect)
 		#endregion
 		
 		case 5:
+		#region Cursor
+		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
+		{
+			scr_PlaySfx(snd_KSW_ButtonChange);
+			
+			global.KSW_HasCursor = !global.KSW_HasCursor;
+			
+			if (global.KSW_HasCursor)
+			{
+				global.customCursorSprite = spr_KSW_UI_Shared_Cursor;
+			}
+			else
+			{
+				global.customCursorSprite = -1;
+			}
+		}
+		break;
+		#endregion
+		
+		case 6:
 		#region Export Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -184,7 +272,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 6:
+		case 7:
 		#region Import Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -203,7 +291,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 7:
+		case 8:
 		#region Delete Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -217,7 +305,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 8:
+		case 9:
 		#region Key Up
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -263,7 +351,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 9:
+		case 10:
 		#region Key Down
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -309,7 +397,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 10:
+		case 11:
 		#region Key Left
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -355,7 +443,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 11:
+		case 12:
 		#region Key Right
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -401,7 +489,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 12:
+		case 13:
 		#region Key A
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -447,7 +535,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 13:
+		case 14:
 		#region Key B
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -493,7 +581,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 14:
+		case 15:
 		#region Key X
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -587,7 +675,7 @@ if (canSelect)
 		#endregion
 		*/
 		
-		case 15:
+		case 16:
 		#region Key L
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -633,7 +721,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 16:
+		case 17:
 		#region Key R
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -679,7 +767,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 17:
+		case 18:
 		#region Key LT
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -725,7 +813,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 18:
+		case 19:
 		#region Key RT
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -771,7 +859,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 19:
+		case 20:
 		#region Key Start
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -865,7 +953,7 @@ if (canSelect)
 		#endregion
 		*/
 		
-		case 20:
+		case 21:
 		#region Reset Keys
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{

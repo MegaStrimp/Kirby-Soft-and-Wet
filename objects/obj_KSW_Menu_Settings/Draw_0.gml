@@ -2,7 +2,7 @@
 
 #region Selections
 var space = 16;
-var startY = 8 - (max(0,selection - 7) * space);
+var startY = 8 - (listScroll * space);
 var i = 0;
 
 if (!instance_exists(obj_KSW_UI_NotifBox)) scribble_flush_everything();
@@ -71,7 +71,15 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-if ((!global.isMobile) and (!global.isOpera))
+if (global.isMobile)
+{
+	var orientationText = "SCREEN ORIENTATION - AUTO";
+	if (global.screenOrientation == 1) orientationText = "SCREEN ORIENTATION - PORTRAIT";
+	else if (global.screenOrientation == 2) orientationText = "SCREEN ORIENTATION - LANDSCAPE";
+	
+	scribble(orientationText).draw(8,startY + (space * i));
+}
+else if ((!global.isMobile) and (!global.isOpera))
 {
 	scribble("TOGGLE FULLSCREEN").draw(8,startY + (space * i));
 }
@@ -111,6 +119,20 @@ if (selection == i)
 
 var text = "ENABLE SHADERS";
 if (global.shaders) text = "DISABLE SHADERS";
+scribble(text).draw(8,startY + (space * i));
+#endregion
+
+i += 1;
+
+#region Cursor
+scribble_font_set_default("fnt_Advance_Gray");
+if (selection == i)
+{
+	scribble_font_set_default("fnt_Advance");
+}
+
+var text = "ENABLE CURSOR";
+if (global.KSW_HasCursor) text = "DISABLE CURSOR";
 scribble(text).draw(8,startY + (space * i));
 #endregion
 

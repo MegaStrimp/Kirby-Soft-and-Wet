@@ -26,7 +26,11 @@ function scr_KSW_LoadData(file,importFile = false)
 	global.KSW_CaughtTotalFishCount_Afternoon = ini_read_real("gameplay","caughtTotalFishCount_Afternoon",0);
 	global.KSW_CaughtTotalFishCount_Night = ini_read_real("gameplay","caughtTotalFishCount_Night",0);
 	global.KSW_CurrentFishCombo = ini_read_real("gameplay","currentFishCombo",0);
+	global.KSW_HighestFishCombo = ini_read_real("gameplay","highestFishCombo",0);
+	if (global.KSW_HighestFishCombo == 0) global.KSW_HighestFishCombo = global.KSW_CurrentFishCombo;
 	global.KSW_CurrentCoins = ini_read_real("gameplay","coins",0);
+	global.KSW_TotalCoins = ini_read_real("gameplay","totalCoins",0);
+	if (global.KSW_TotalCoins == 0) global.KSW_TotalCoins = global.KSW_CurrentCoins;
 	global.KSW_CurrentStageID = global.KSW_StageIDs[? ini_read_string("gameplay","currentStage","grassBeach")];
 	#endregion
 	
@@ -37,6 +41,7 @@ function scr_KSW_LoadData(file,importFile = false)
 	    global.KSW_PlayerEquippedSprayPaintShuffle[i] = ini_read_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),false);
 	    global.KSW_PlayerEquippedHatShuffle[i] = ini_read_real("playerStatus","playerEquippedHatShuffle_" + string(i),false);
 		global.KSW_EquippedBobberShuffle[i] = ini_read_real("playerStatus","equippedBobberShuffle_" + string(i),true);
+		global.KSW_EquippedBobberIsShiny[i] = ini_read_real("playerStatus","equippedBobberIsShiny_" + string(i),false);
 		global.KSW_EquippedBobberID[i] = global.KSW_BobberIDs[? ini_read_string("playerStatus","equippedBobber_" + string(i),"red")];
 		global.KSW_EquippedBaitID[i] = global.KSW_BaitIDs[? ini_read_string("playerStatus","equippedBait_" + string(i),"none")];
 		
@@ -112,6 +117,8 @@ function scr_KSW_LoadData(file,importFile = false)
 		if (global.KSW_BobberList[i].isDefault) bobberIsUnlocked = true;
 		
 		global.KSW_BobberList[i].isUnlocked = bobberIsUnlocked;
+		global.KSW_BobberList[i].shinyIsUnlocked = ini_read_real("bobberStatus",string(bobberID) + "_ShinyIsUnlocked",false);
+		global.KSW_BobberList[i].shinyCaughtNumber = ini_read_real("bobberStatus",string(bobberID) + "_ShinyCaughtNumber",false);
 		
 		if (bobberIsUnlocked)
 		{
@@ -193,7 +200,18 @@ function scr_KSW_LoadData(file,importFile = false)
 		
 		global.KSW_AchievementList[i].isObtained = achievementIsObtained;
 		
-		if (achievementIsObtained) global.KSW_ObtainedAchievementCount += 1;
+		if (achievementIsObtained)
+		{
+			if ((global.KSW_AchievementList[i].bobberReward != -1) and (!global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isUnlocked))
+			{
+				global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isUnlocked = true;
+				
+				ds_list_add(global.KSW_AvailableBobbers,i);
+				if (!global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isHidden) global.KSW_UnlockedBobberCount += 1;
+			}
+			
+			global.KSW_ObtainedAchievementCount += 1;
+		}
 	}
 	#endregion
 	

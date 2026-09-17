@@ -40,6 +40,8 @@ function scr_KSW_UI_Customize_Pages_Music_Setup()
 	
 	coinsVisible = false;
 	
+	musicCustomizeBuffer = 0;
+	
 	for (var i = 0; i < ds_list_size(selectionList); i++)
 	{
 		if (audio_get_name(global.musicPlaying) == audio_get_name(global.KSW_MusicList[ds_list_find_value(selectionList,i)].audio))

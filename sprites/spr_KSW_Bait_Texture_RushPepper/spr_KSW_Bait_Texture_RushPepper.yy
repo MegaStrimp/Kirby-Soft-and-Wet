@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Bait_Texture_RushPepper",
   "bboxMode":0,
-  "bbox_bottom":35,
+  "bbox_bottom":47,
   "bbox_left":0,
-  "bbox_right":35,
+  "bbox_right":47,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -13,14 +13,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5b569418-9c6a-4628-b09f-fadd8c1c0dc5","name":"5b569418-9c6a-4628-b09f-fadd8c1c0dc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"516002dc-d460-43f5-b76a-dfa0ef73f3e3","name":"516002dc-d460-43f5-b76a-dfa0ef73f3e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":36,
+  "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6bcb8dcc-ecfc-478f-a078-0b7ed7edb84f","blendMode":0,"displayName":"default","isLocked":false,"name":"6bcb8dcc-ecfc-478f-a078-0b7ed7edb84f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"07296281-6b21-466a-bd4a-2a0f0e3de59a","blendMode":0,"displayName":"default","isLocked":false,"name":"07296281-6b21-466a-bd4a-2a0f0e3de59a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Bait_Texture_RushPepper",
   "nineSlice":null,
@@ -72,8 +72,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b569418-9c6a-4628-b09f-fadd8c1c0dc5","path":"sprites/spr_KSW_Bait_Texture_RushPepper/spr_KSW_Bait_Texture_RushPepper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"381eecc9-216d-42d5-95e7-7dd1e8b991bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"516002dc-d460-43f5-b76a-dfa0ef73f3e3","path":"sprites/spr_KSW_Bait_Texture_RushPepper/spr_KSW_Bait_Texture_RushPepper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ee96c3f4-f4e5-4196-942a-decc2d52c353","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -89,5 +89,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":36,
+  "width":48,
 }
