@@ -2002,6 +2002,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("King Zora",spr_KSW_Fish_KingZora,spr_KSW_Fish_KingZora_Pal,series_TheLegendOfZelda,mage,3,serranoSprings,KSW_Phases.night,50000);
 	scr_KSW_AddFish("Lord Jabu-Jabu",spr_KSW_Fish_LordJabuJabu,spr_KSW_Fish_LordJabuJabu_Pal,series_TheLegendOfZelda,borange,3,serranoSprings,KSW_Phases.afternoon,55000);
 	scr_KSW_AddFish("Link",spr_KSW_Fish_Link,spr_KSW_Fish_Link_Pal,series_TheLegendOfZelda,mint,3,creamCrevasse,KSW_Phases.none,90000);
+	scr_KSW_AddFish("Suavemente Ganondorf",spr_KSW_Fish_SuaveGanondorf,spr_KSW_Fish_SuaveGanondorf_Pal,series_TheLegendOfZelda,glimmer,3,anyStage,KSW_Phases.none,199800,0,0,-1,snd_KSW_Fish_Suavemente);
 	
 	#endregion
 	#endregion
