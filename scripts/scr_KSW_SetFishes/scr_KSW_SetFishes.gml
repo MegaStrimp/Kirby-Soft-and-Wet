@@ -112,6 +112,9 @@ function scr_KSW_SetFishes()
 	var series_AlienSoldier = global.KSW_SeriesIDs[? "alienSoldier"];
 	var series_JurassicPark = global.KSW_SeriesIDs[? "jurassicPark"];
 	var series_BuckyOHare = global.KSW_SeriesIDs[? "buckyOHare"];
+	var series_EccoTheDolphin = global.KSW_SeriesIDs[? "eccoTheDolphin"];
+	var series_LiveALive = global.KSW_SeriesIDs[? "liveALive"];
+	var series_EnterTheGungeon = global.KSW_SeriesIDs[? "enterTheGungeon"];
 	#endregion
 	
 	#region Stages
@@ -1967,6 +1970,21 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Joker",spr_KSW_Fish_Joker,spr_KSW_Fish_Joker_Pal,series_AlienSoldier,mint,1,androidPort,KSW_Phases.none,1995);
 	scr_KSW_AddFish("Madam Barber",spr_KSW_Fish_MadamBarber,spr_KSW_Fish_MadamBarber_Pal,series_AlienSoldier,candy,2,androidPort,KSW_Phases.none,1995);
 	scr_KSW_AddFish("Epsilon",spr_KSW_Fish_Epsilon,spr_KSW_Fish_Epsilon_Pal,series_AlienSoldier,borange,3,androidPort,KSW_Phases.none,2022);
+	scr_KSW_AddFish("Pufferfish (Ecco)",spr_KSW_Fish_PufferfishEcco,spr_KSW_Fish_PufferfishEcco_Pal,series_EccoTheDolphin,mage,0,grassBeach,KSW_Phases.none,192);
+	scr_KSW_AddFish("Stingray (Ecco)",spr_KSW_Fish_StingrayEcco,spr_KSW_Fish_StingrayEcco_Pal,series_EccoTheDolphin,legion,0,creamCrevasse,KSW_Phases.none,192);
+	scr_KSW_AddFish("Ancient Jellyfish",spr_KSW_Fish_AncientJellyfish,spr_KSW_Fish_AncientJellyfish_Pal,series_EccoTheDolphin,flux,0,serranoSprings,KSW_Phases.none,192);
+	scr_KSW_AddFish("Trilobite",spr_KSW_Fish_Trilobite,spr_KSW_Fish_Trilobite_Pal,series_EccoTheDolphin,legion,0,serranoSprings,KSW_Phases.none,192);
+	scr_KSW_AddFish("Orthocone",spr_KSW_Fish_Orthocone,spr_KSW_Fish_Orthocone_Pal,series_EccoTheDolphin,mint,1,serranoSprings,KSW_Phases.none,1992);
+	scr_KSW_AddFish("Dunkleosteus (Ecco)",spr_KSW_Fish_DunkleosteusEcco,spr_KSW_Fish_DunkleosteusEcco_Pal,series_EccoTheDolphin,candy,1,serranoSprings,KSW_Phases.none,1992);
+	scr_KSW_AddFish("Arctic Spider",spr_KSW_Fish_ArcticSpider,spr_KSW_Fish_ArcticSpider_Pal,series_EccoTheDolphin,legion,1,creamCrevasse,KSW_Phases.none,1992);
+	scr_KSW_AddFish("Orca",spr_KSW_Fish_Orca,spr_KSW_Fish_Orca_Pal,series_EccoTheDolphin,mage,2,creamCrevasse,KSW_Phases.none,1992);
+	scr_KSW_AddFish("Shark",spr_KSW_Fish_Shark,spr_KSW_Fish_Shark_Pal,series_EccoTheDolphin,flux,2,grassBeach,KSW_Phases.none,1992);
+	scr_KSW_AddFish("Leopard Shark",spr_KSW_Fish_LeopardShark,spr_KSW_Fish_LeopardShark_Pal,series_EccoTheDolphin,mint,2,grassBeach,KSW_Phases.none,1992);
+	scr_KSW_AddFish("Vortex Drone",spr_KSW_Fish_VortexDrone,spr_KSW_Fish_VortexDrone_Pal,series_EccoTheDolphin,maze,2,hallowReen,KSW_Phases.none,1992);
+	scr_KSW_AddFish("Ecco",spr_KSW_Fish_Ecco,spr_KSW_Fish_Ecco_Pal,series_EccoTheDolphin,legion,3,anyStage,KSW_Phases.none,2018);
+	scr_KSW_AddFish("Lord Iwama",spr_KSW_Fish_LordIwama,spr_KSW_Fish_LordIwama_Pal,series_LiveALive,glimmer,3,anyStage,KSW_Phases.night,202200);
+	scr_KSW_AddFish("Ode Iou",spr_KSW_Fish_OdeIou,spr_KSW_Fish_OdeIou_Pal,series_LiveALive,candy,3,anyStage,KSW_Phases.night,2022000);
+	scr_KSW_AddFish("Bullet Kin",spr_KSW_Fish_BulletKin,spr_KSW_Fish_BulletKin_Pal,series_EnterTheGungeon,maze,0,anyStage,KSW_Phases.none,216);
 	
 	#endregion
 	#endregion

@@ -107,6 +107,9 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("alienSoldier","Alien Soldier");
 	scr_KSW_AddSeries("jurassicPark","Jurassic Park");
 	scr_KSW_AddSeries("buckyOHare","Bucky O'Hare");
+	scr_KSW_AddSeries("eccoTheDolphin","Ecco the Dolphin");
+	scr_KSW_AddSeries("liveALive","Live A Live");
+	scr_KSW_AddSeries("enterTheGungeon","Enter The Gungeon");
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
