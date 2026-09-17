@@ -110,6 +110,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("eccoTheDolphin","Ecco the Dolphin");
 	scr_KSW_AddSeries("liveALive","Live A Live");
 	scr_KSW_AddSeries("enterTheGungeon","Enter The Gungeon");
+	scr_KSW_AddSeries("fortnite","Fortnite");
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");

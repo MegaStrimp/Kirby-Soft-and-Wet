@@ -115,6 +115,7 @@ function scr_KSW_SetFishes()
 	var series_EccoTheDolphin = global.KSW_SeriesIDs[? "eccoTheDolphin"];
 	var series_LiveALive = global.KSW_SeriesIDs[? "liveALive"];
 	var series_EnterTheGungeon = global.KSW_SeriesIDs[? "enterTheGungeon"];
+	var series_Fortnite = global.KSW_SeriesIDs[? "fortnite"];
 	#endregion
 	
 	#region Stages
@@ -2004,6 +2005,25 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Link",spr_KSW_Fish_Link,spr_KSW_Fish_Link_Pal,series_TheLegendOfZelda,mint,3,creamCrevasse,KSW_Phases.none,90000);
 	scr_KSW_AddFish("Suavemente Ganondorf",spr_KSW_Fish_SuaveGanondorf,spr_KSW_Fish_SuaveGanondorf_Pal,series_TheLegendOfZelda,glimmer,3,anyStage,KSW_Phases.none,199800,0,0,-1,snd_KSW_Fish_Suavemente);
 	scr_KSW_AddFish("Morshu",spr_KSW_Fish_Morshu,spr_KSW_Fish_Morshu_Pal,series_TheLegendOfZelda,borange,3,anyStage,KSW_Phases.none,199300,0,0,-1,snd_KSW_Fish_Morshu);
+	scr_KSW_AddFish("Flopper",spr_KSW_Fish_Flopper,spr_KSW_Fish_Flopper_Pal,series_Fortnite,mint,1,grassBeach,KSW_Phases.none,1200);
+	scr_KSW_AddFish("Small Fry (Fortnite)",spr_KSW_Fish_SmallFryFortnite,spr_KSW_Fish_SmallFryFortnite_Pal,series_Fortnite,mage,0,grassBeach,KSW_Phases.none,120);
+	scr_KSW_AddFish("Slurpfish",spr_KSW_Fish_Slurpfish,spr_KSW_Fish_Slurpfish_Pal,series_Fortnite,legion,2,grassBeach,KSW_Phases.none,3400);
+	scr_KSW_AddFish("Shield Fish",spr_KSW_Fish_ShieldFish,spr_KSW_Fish_ShieldFish_Pal,series_Fortnite,flux,1,grassBeach,KSW_Phases.none,2800);
+	scr_KSW_AddFish("Thermal Fish",spr_KSW_Fish_ThermalFish,spr_KSW_Fish_ThermalFish_Pal,series_Fortnite,borange,3,anyStage,KSW_Phases.night,15000);
+	scr_KSW_AddFish("Hop Flopper",spr_KSW_Fish_HopFlopper,spr_KSW_Fish_HopFlopper_Pal,series_Fortnite,mint,2,anyStage,KSW_Phases.none,9000);
+	scr_KSW_AddFish("Jellyfish (Fortnite)",spr_KSW_Fish_JellyfishFortnite,spr_KSW_Fish_JellyfishFortnite_Pal,series_Fortnite,maze,1,grassBeach,KSW_Phases.none,800);
+	scr_KSW_AddFish("Spicy Fish",spr_KSW_Fish_SpicyFish,spr_KSW_Fish_SpicyFish_Pal,series_Fortnite,borange,1,serranoSprings,KSW_Phases.none,4200);
+	scr_KSW_AddFish("Stink Fish",spr_KSW_Fish_StinkFishFortnite,spr_KSW_Fish_StinkFishFortnite_Pal,series_Fortnite,flux,1,hallowReen,KSW_Phases.none,3100);
+	scr_KSW_AddFish("Rift Fish",spr_KSW_Fish_RiftFish,spr_KSW_Fish_RiftFish_Pal,series_Fortnite,mage,2,anyStage,KSW_Phases.none,65000);
+	scr_KSW_AddFish("Zero Point Fish",spr_KSW_Fish_ZeroPointFish,spr_KSW_Fish_ZeroPointFish_Pal,series_Fortnite,legion,1,anyStage,KSW_Phases.none,17000);
+	scr_KSW_AddFish("Snowy Flopper",spr_KSW_Fish_SnowyFlopper,spr_KSW_Fish_SnowyFlopper_Pal,series_Fortnite,legion,1,creamCrevasse,KSW_Phases.none,1800);
+	scr_KSW_AddFish("Shadow Fish",spr_KSW_Fish_ShadowFish,spr_KSW_Fish_ShadowFish_Pal,series_Fortnite,borange,1,hallowReen,KSW_Phases.night,6666);
+	scr_KSW_AddFish("Cuddle Fish",spr_KSW_Fish_CuddleFish,spr_KSW_Fish_CuddleFish_Pal,series_Fortnite,candy,1,grassBeach,KSW_Phases.afternoon,750);
+	scr_KSW_AddFish("Loot Shark",spr_KSW_Fish_LootShark,spr_KSW_Fish_LootShark_Pal,series_Fortnite,flux,3,grassBeach,KSW_Phases.none,150000);
+	scr_KSW_AddFish("Vendetta Flopper",spr_KSW_Fish_VendettaFlopper,spr_KSW_Fish_VendettaFlopper_Pal,series_Fortnite,glimmer,3,androidPort,KSW_Phases.none,14000);
+	scr_KSW_AddFish("Midas Flopper",spr_KSW_Fish_MidasFlopper,spr_KSW_Fish_MidasFlopper_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,715124);
+	scr_KSW_AddFish("Mythic Goldfish",spr_KSW_Fish_MythicGoldfish,spr_KSW_Fish_MythicGoldfish_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,999999);
+	scr_KSW_AddFish("Blinky (Simpsons)",spr_KSW_Fish_BlinkySimpsons,spr_KSW_Fish_BlinkySimpsons_Pal,series_Fortnite,flux,1,androidPort,KSW_Phases.day,3500);
 	
 	#endregion
 	#endregion
