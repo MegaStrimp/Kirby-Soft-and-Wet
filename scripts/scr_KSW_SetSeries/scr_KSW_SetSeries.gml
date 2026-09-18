@@ -114,6 +114,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("fieldsOfMistria","Fields of Mistria");
 	scr_KSW_AddSeries("sh2Demake","Silent Hill 2 Demake");
 	scr_KSW_AddSeries("rhythmHeaven","Rhythm Heaven");
+	scr_KSW_AddSeries("bioshock","Bioshock");
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");

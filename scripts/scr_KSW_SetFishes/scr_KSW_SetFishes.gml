@@ -119,6 +119,7 @@ function scr_KSW_SetFishes()
 	var series_FieldsOfMistria = global.KSW_SeriesIDs[? "fieldsOfMistria"];
 	var series_SH2Demake = global.KSW_SeriesIDs[? "sh2Demake"];
 	var series_RhythmHeaven = global.KSW_SeriesIDs[? "rhythmHeaven"];
+	var series_Bioshock = global.KSW_SeriesIDs[? "bioshock"];
 	#endregion
 	
 	#region Stages
@@ -2040,6 +2041,8 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Pyramid Head",spr_KSW_Fish_PyramidHead,spr_KSW_Fish_PyramidHead_Pal,series_SH2Demake,legion,2,hallowReen,KSW_Phases.night,1999);
 	//scr_KSW_AddFish("Mary",spr_KSW_Fish_Mary,spr_KSW_Fish_Mary_Pal,series_SH2Demake,glimmer,3,hallowReen,KSW_Phases.day,2500);
 	//scr_KSW_AddFish("James",spr_KSW_Fish_James,spr_KSW_Fish_James_Pal,series_SH2Demake,flux,3,hallowReen,KSW_Phases.none,2900);
+	//scr_KSW_AddFish("Jack",spr_KSW_Fish_Jack,spr_KSW_Fish_Jack_Pal,series_Bioshock,legion,2,hallowReen,KSW_Phases.none,1956);
+	//scr_KSW_AddFish("Big Daddy",spr_KSW_Fish_BigDaddy,spr_KSW_Fish_BigDaddy_Pal,series_Bioshock,flux,3,hallowReen,KSW_Phases.night,2007);
 	
 	#endregion
 	#endregion
