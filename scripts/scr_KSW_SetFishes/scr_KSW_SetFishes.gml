@@ -1923,6 +1923,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Hotel Luigi",spr_KSW_Fish_HotelLuigi,spr_KSW_Fish_HotelLuigi_Pal,series_SuperMario,flux,3,androidPort,KSW_Phases.none,28000,0,0,,snd_KSW_Fish_LOTSASPAGHETTI);
 	scr_KSW_AddFish("The Stray Pixel",spr_KSW_Fish_StrayPixel,spr_KSW_Fish_StrayPixel_Pal,series_Misc,maze,0,anyStage,KSW_Phases.none,1); //How hard would it be to randomize the offsets for this one just to piss people off LOL
 	scr_KSW_AddFish("Bomb Boo",spr_KSW_Fish_BombBoo,spr_KSW_Fish_BombBoo_Pal,series_SuperMario,maze,1,hallowReen,KSW_Phases.none,500,0,0,-1,snd_KSW_Fish_BombBoo);
+	scr_KSW_AddFish("Fossil",spr_KSW_Fish_Fossil,spr_KSW_Fish_Fossil_Pal,series_AnimalCrossing,flux,1,grassBeach,KSW_Phases.none,100);
+	scr_KSW_AddFish("Froggy Chair",spr_KSW_Fish_FroggyChair,spr_KSW_Fish_FroggyChair_Pal,series_AnimalCrossing,mint,3,anyStage,KSW_Phases.none,1200);
 	scr_KSW_AddFish("James Pond",spr_KSW_Fish_JamesPond,spr_KSW_Fish_JamesPond_Pal,series_JamesPond,flux,3,grassBeach,KSW_Phases.day,100000);
 	scr_KSW_AddFish("Ultros",spr_KSW_Fish_Ultros,spr_KSW_Fish_Ultros_Pal,series_FinalFantasy,borange,2,anyStage,KSW_Phases.afternoon,19940);
 	scr_KSW_AddFish("Parrot",spr_KSW_Fish_Parrot,spr_KSW_Fish_Parrot_Pal,series_PacMan,borange,0,serranoSprings,KSW_Phases.day,199);
