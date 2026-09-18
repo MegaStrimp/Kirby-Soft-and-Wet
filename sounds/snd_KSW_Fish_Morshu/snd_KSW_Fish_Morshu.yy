@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":8.229637,
+  "duration":0.0,
   "exportDir":"",
   "name":"snd_KSW_Fish_Morshu",
   "parent":{
@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_KSW_Fish_Morshu.mp3",
+  "tags":[
+    "Sound Effect",
+  ],
   "volume":1.0,
 }
