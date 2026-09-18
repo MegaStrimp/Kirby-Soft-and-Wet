@@ -118,6 +118,7 @@ function scr_KSW_SetFishes()
 	var series_Fortnite = global.KSW_SeriesIDs[? "fortnite"];
 	var series_FieldsOfMistria = global.KSW_SeriesIDs[? "fieldsOfMistria"];
 	var series_SH2Demake = global.KSW_SeriesIDs[? "sh2Demake"];
+	var series_RhythmHeaven = global.KSW_SeriesIDs[? "rhythmHeaven"];
 	#endregion
 	
 	#region Stages
@@ -2027,7 +2028,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Midas Flopper",spr_KSW_Fish_MidasFlopper,spr_KSW_Fish_MidasFlopper_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,715124);
 	scr_KSW_AddFish("Mythic Goldfish",spr_KSW_Fish_MythicGoldfish,spr_KSW_Fish_MythicGoldfish_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,999999);
 	scr_KSW_AddFish("Blinky (Simpsons)",spr_KSW_Fish_BlinkySimpsons,spr_KSW_Fish_BlinkySimpsons_Pal,series_Fortnite,flux,1,androidPort,KSW_Phases.day,3500);
-	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,grassBeach,KSW_Phases.none,250);
+	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
+	//scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
 	//scr_KSW_AddFish("Lying Figure",spr_KSW_Fish_LyingFigure,spr_KSW_Fish_LyingFigure_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.afternoon,224);
 	//scr_KSW_AddFish("Mannequin (SH2)",spr_KSW_Fish_MannequinSH2,spr_KSW_Fish_MannequinSH2_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.night,224);
 	//scr_KSW_AddFish("Bubble Head Nurse",spr_KSW_Fish_BubbleHeadNurse,spr_KSW_Fish_BubbleHeadNurse_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.day,224);
