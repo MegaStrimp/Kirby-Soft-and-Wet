@@ -116,6 +116,11 @@ function scr_KSW_SetFishes()
 	var series_LiveALive = global.KSW_SeriesIDs[? "liveALive"];
 	var series_EnterTheGungeon = global.KSW_SeriesIDs[? "enterTheGungeon"];
 	var series_Fortnite = global.KSW_SeriesIDs[? "fortnite"];
+	var series_FieldsOfMistria = global.KSW_SeriesIDs[? "fieldsOfMistria"];
+	var series_SH2Demake = global.KSW_SeriesIDs[? "sh2Demake"];
+	var series_RhythmHeaven = global.KSW_SeriesIDs[? "rhythmHeaven"];
+	var series_Bioshock = global.KSW_SeriesIDs[? "bioshock"];
+	var series_ResidentEvil = global.KSW_SeriesIDs[? "residentEvil"];
 	#endregion
 	
 	#region Stages
@@ -2025,6 +2030,29 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Midas Flopper",spr_KSW_Fish_MidasFlopper,spr_KSW_Fish_MidasFlopper_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,715124);
 	scr_KSW_AddFish("Mythic Goldfish",spr_KSW_Fish_MythicGoldfish,spr_KSW_Fish_MythicGoldfish_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,999999);
 	scr_KSW_AddFish("Blinky (Simpsons)",spr_KSW_Fish_BlinkySimpsons,spr_KSW_Fish_BlinkySimpsons_Pal,series_Fortnite,flux,1,androidPort,KSW_Phases.day,3500);
+	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
+	//scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
+	//scr_KSW_AddFish("Lying Figure",spr_KSW_Fish_LyingFigure,spr_KSW_Fish_LyingFigure_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.afternoon,224);
+	//scr_KSW_AddFish("Mannequin (SH2)",spr_KSW_Fish_MannequinSH2,spr_KSW_Fish_MannequinSH2_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.night,224);
+	//scr_KSW_AddFish("Bubble Head Nurse",spr_KSW_Fish_BubbleHeadNurse,spr_KSW_Fish_BubbleHeadNurse_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.day,224);
+	//scr_KSW_AddFish("Angela",spr_KSW_Fish_Angela,spr_KSW_Fish_Angela_Pal,series_SH2Demake,mint,1,hallowReen,KSW_Phases.afternoon,1900);
+	//scr_KSW_AddFish("Eddie (SH2)",spr_KSW_Fish_EddieSH2,spr_KSW_Fish_EddieSH2_Pal,series_SH2Demake,maze,1,hallowReen,KSW_Phases.night,2300);
+	//scr_KSW_AddFish("Laura",spr_KSW_Fish_Laura,spr_KSW_Fish_Laura_Pal,series_SH2Demake,glimmer,2,hallowReen,KSW_Phases.day,800);
+	//scr_KSW_AddFish("Maria",spr_KSW_Fish_Maria,spr_KSW_Fish_Maria_Pal,series_SH2Demake,candy,2,hallowReen,KSW_Phases.none,2500);
+	//scr_KSW_AddFish("Pyramid Head",spr_KSW_Fish_PyramidHead,spr_KSW_Fish_PyramidHead_Pal,series_SH2Demake,legion,2,hallowReen,KSW_Phases.night,1999);
+	//scr_KSW_AddFish("Mary",spr_KSW_Fish_Mary,spr_KSW_Fish_Mary_Pal,series_SH2Demake,glimmer,3,hallowReen,KSW_Phases.day,2500);
+	//scr_KSW_AddFish("James",spr_KSW_Fish_James,spr_KSW_Fish_James_Pal,series_SH2Demake,flux,3,hallowReen,KSW_Phases.none,2900);
+	//scr_KSW_AddFish("Jack",spr_KSW_Fish_Jack,spr_KSW_Fish_Jack_Pal,series_Bioshock,legion,2,hallowReen,KSW_Phases.none,1956);
+	//scr_KSW_AddFish("Big Daddy",spr_KSW_Fish_BigDaddy,spr_KSW_Fish_BigDaddy_Pal,series_Bioshock,flux,3,hallowReen,KSW_Phases.night,2007);
+	//scr_KSW_AddFish("Piranha (Resident Evil)",spr_KSW_Fish_PiranhaRE,spr_KSW_Fish_PiranhaRE_Pal,series_ResidentEvil,flux,0,hallowReen,KSW_Phases.none,100);
+	//scr_KSW_AddFish("Zombie",spr_KSW_Fish_Zombie,spr_KSW_Fish_Zombie_Pal,series_ResidentEvil,flux,0,hallowReen,KSW_Phases.none,197);
+	//scr_KSW_AddFish("Hunter",spr_KSW_Fish_Hunter,spr_KSW_Fish_Hunter_Pal,series_ResidentEvil,flux,1,hallowReen,KSW_Phases.none,970);
+	//scr_KSW_AddFish("Enrico",spr_KSW_Fish_Enrico,spr_KSW_Fish_Enrico_Pal,series_ResidentEvil,flux,1,hallowReen,KSW_Phases.none,950);
+	//scr_KSW_AddFish("Rebecca",spr_KSW_Fish_Rebecca,spr_KSW_Fish_Rebecca_Pal,series_ResidentEvil,flux,1,hallowReen,KSW_Phases.none,980);
+	//scr_KSW_AddFish("Wesker",spr_KSW_Fish_Wesker,spr_KSW_Fish_Wesker_Pal,series_ResidentEvil,flux,2,hallowReen,KSW_Phases.none,1960);
+	//scr_KSW_AddFish("Tyrant",spr_KSW_Fish_Tyrant,spr_KSW_Fish_Tyrant_Pal,series_ResidentEvil,flux,2,hallowReen,KSW_Phases.none,1988);
+	//scr_KSW_AddFish("Chris",spr_KSW_Fish_Chris,spr_KSW_Fish_Chris_Pal,series_ResidentEvil,flux,3,hallowReen,KSW_Phases.none,19730);
+	//scr_KSW_AddFish("Jill",spr_KSW_Fish_Jill,spr_KSW_Fish_Jill_Pal,series_ResidentEvil,flux,3,hallowReen,KSW_Phases.none,19740);
 	
 	#endregion
 	#endregion
