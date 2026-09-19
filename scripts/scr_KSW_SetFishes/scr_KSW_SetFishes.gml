@@ -105,6 +105,7 @@ function scr_KSW_SetFishes()
 	var series_DaveTheDiver = global.KSW_SeriesIDs[? "DaveTheDiver"];
 	var series_KeroBlaster = global.KSW_SeriesIDs[? "KeroBlaster"];
 	var series_Deltarot = global.KSW_SeriesIDs[? "deltarot"];
+	var series_MinaTheHollower = global.KSW_SeriesIDs[? "minatheHollower"];
 	#endregion
 	
 	#region Stages
@@ -1912,7 +1913,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Hotel Luigi",spr_KSW_Fish_HotelLuigi,spr_KSW_Fish_HotelLuigi_Pal,series_SuperMario,flux,3,androidPort,KSW_Phases.none,28000,0,0,,snd_KSW_Fish_LOTSASPAGHETTI);
 	scr_KSW_AddFish("The Stray Pixel",spr_KSW_Fish_StrayPixel,spr_KSW_Fish_StrayPixel_Pal,series_Misc,maze,0,anyStage,KSW_Phases.none,1); //How hard would it be to randomize the offsets for this one just to piss people off LOL
 	scr_KSW_AddFish("Bomb Boo",spr_KSW_Fish_BombBoo,spr_KSW_Fish_BombBoo_Pal,series_SuperMario,maze,1,hallowReen,KSW_Phases.none,500,0,0,-1,snd_KSW_Fish_BombBoo);
-	
+	scr_KSW_AddFish("Klumpy Dee",spr_KSW_Fish_KlumpyDee,spr_KSW_Fish_KlumpyDee_Pal,series_MinaTheHollower,glimmer,1,hallowReen,KSW_Phases.afternoon,600,-13,-14);
+	scr_KSW_AddFish("Poppit",spr_KSW_Fish_Poppit,spr_KSW_Fish_Poppit_Pal,series_MinaTheHollower,mage,1,hallowReen,KSW_Phases.afternoon,260,-10,-12);
+	scr_KSW_AddFish("Mina",spr_KSW_Fish_Mina,spr_KSW_Fish_Mina_Pal,series_MinaTheHollower,candy,2,anyStage,KSW_Phases.none,400,-8,-8);
+	scr_KSW_AddFish("Blaise",spr_KSW_Fish_Blaise,spr_KSW_Fish_Blaise_Pal,series_MinaTheHollower,borange,2,anyStage,KSW_Phases.day,200,-9,-12);
+	scr_KSW_AddFish("Lady Susan",spr_KSW_Fish_LadySusan,spr_KSW_Fish_LadySusan_Pal,series_MinaTheHollower,legion,3,hallowReen,KSW_Phases.night,15000,-22,-45);
+	scr_KSW_AddFish("Grinnsly",spr_KSW_Fish_Grinnsly,spr_KSW_Fish_Grinnsly_Pal,series_MinaTheHollower,flux,3,hallowReen,KSW_Phases.night,5000,-33,-21,,snd_KSW_Fish_Grinnsly);
 	#endregion
 	#endregion
 }
