@@ -2029,6 +2029,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Vendetta Flopper",spr_KSW_Fish_VendettaFlopper,spr_KSW_Fish_VendettaFlopper_Pal,series_Fortnite,glimmer,3,androidPort,KSW_Phases.none,14000);
 	scr_KSW_AddFish("Midas Flopper",spr_KSW_Fish_MidasFlopper,spr_KSW_Fish_MidasFlopper_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,715124);
 	scr_KSW_AddFish("Mythic Goldfish",spr_KSW_Fish_MythicGoldfish,spr_KSW_Fish_MythicGoldfish_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,999999);
+	scr_KSW_AddFish("Loot Shark",spr_KSW_Fish_LootShark,spr_KSW_Fish_LootShark_Pal,series_Fortnite,maze,3,grassBeach,KSW_Phases.none,150000);
 	scr_KSW_AddFish("Blinky (Simpsons)",spr_KSW_Fish_BlinkySimpsons,spr_KSW_Fish_BlinkySimpsons_Pal,series_Fortnite,flux,1,androidPort,KSW_Phases.day,3500);
 	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
 	//scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
