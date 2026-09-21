@@ -122,6 +122,7 @@ function scr_KSW_SetFishes()
 	var series_Bioshock = global.KSW_SeriesIDs[? "bioshock"];
 	var series_ResidentEvil = global.KSW_SeriesIDs[? "residentEvil"];
 	var series_MinaTheHollower = global.KSW_SeriesIDs[? "minatheHollower"];
+	var series_GhoulsNGhosts = global.KSW_SeriesIDs[? "ghoulsNGhosts"];
 	#endregion
 	
 	#region Stages
@@ -1790,7 +1791,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Slugma",spr_KSW_Fish_Slugma,spr_KSW_Fish_Slugma_Pal,series_Pokemon,borange,0,serranoSprings,KSW_Phases.night,600);
 	scr_KSW_AddFish("Magcargo",spr_KSW_Fish_Magcargo,spr_KSW_Fish_Magcargo_Pal,series_Pokemon,borange,1,serranoSprings,KSW_Phases.night,2400);
 	scr_KSW_AddFish("Numel",spr_KSW_Fish_Numel,spr_KSW_Fish_Numel_Pal,series_Pokemon,borange,0,serranoSprings,KSW_Phases.afternoon,600);
-	scr_KSW_AddFish("Camerupt",spr_KSW_Fish_Camerupt,spr_KSW_Fish_Numel_Pal,series_Pokemon,borange,1,serranoSprings,KSW_Phases.afternoon,2400);
+	scr_KSW_AddFish("Camerupt",spr_KSW_Fish_Camerupt,spr_KSW_Fish_Camerupt_Pal,series_Pokemon,borange,1,serranoSprings,KSW_Phases.afternoon,2400);
 	scr_KSW_AddFish("Groudon",spr_KSW_Fish_Groudon,spr_KSW_Fish_Groudon_Pal,series_Pokemon,borange,3,serranoSprings,KSW_Phases.night,50000);
 	scr_KSW_AddFish("Buizel",spr_KSW_Fish_Buizel,spr_KSW_Fish_Buizel_Pal,series_Pokemon,mage,0,grassBeach,KSW_Phases.day,900);
 	scr_KSW_AddFish("Floatzel",spr_KSW_Fish_Floatzel,spr_KSW_Fish_Floatzel_Pal,series_Pokemon,mage,1,grassBeach,KSW_Phases.day,2600);
@@ -2030,6 +2031,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Vendetta Flopper",spr_KSW_Fish_VendettaFlopper,spr_KSW_Fish_VendettaFlopper_Pal,series_Fortnite,glimmer,3,androidPort,KSW_Phases.none,14000);
 	scr_KSW_AddFish("Midas Flopper",spr_KSW_Fish_MidasFlopper,spr_KSW_Fish_MidasFlopper_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,715124);
 	scr_KSW_AddFish("Mythic Goldfish",spr_KSW_Fish_MythicGoldfish,spr_KSW_Fish_MythicGoldfish_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,999999);
+	scr_KSW_AddFish("Loot Shark",spr_KSW_Fish_LootShark,spr_KSW_Fish_LootShark_Pal,series_Fortnite,maze,3,grassBeach,KSW_Phases.none,150000);
 	scr_KSW_AddFish("Blinky (Simpsons)",spr_KSW_Fish_BlinkySimpsons,spr_KSW_Fish_BlinkySimpsons_Pal,series_Fortnite,flux,1,androidPort,KSW_Phases.day,3500);
 	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
 	//scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
@@ -2062,6 +2064,43 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Blaise",spr_KSW_Fish_Blaise,spr_KSW_Fish_Blaise_Pal,series_MinaTheHollower,borange,2,anyStage,KSW_Phases.day,200,-9,-12);
 	scr_KSW_AddFish("Lady Susan",spr_KSW_Fish_LadySusan,spr_KSW_Fish_LadySusan_Pal,series_MinaTheHollower,legion,3,hallowReen,KSW_Phases.night,15000,-22,-45);
 	scr_KSW_AddFish("Grinnsly",spr_KSW_Fish_Grinnsly,spr_KSW_Fish_Grinnsly_Pal,series_MinaTheHollower,flux,3,hallowReen,KSW_Phases.night,5000,-33,-21,,snd_KSW_Fish_Grinnsly);
+	//scr_KSW_AddFish("Sir Arthur",spr_KSW_Fish_SirArthur,spr_KSW_Fish_SirArthur_Pal,series_GhoulsNGhosts,mint,3,hallowReen,KSW_Phases.none,19850);
+	//scr_KSW_AddFish("Princess Prin Prin",spr_KSW_Fish_PrincessPrinPrin,spr_KSW_Fish_PrincessPrinPrin_Pal,series_GhoulsNGhosts,mage,2,hallowReen,KSW_Phases.none,1985);
+	//scr_KSW_AddFish("Firebrand (Tidal)",spr_KSW_Fish_FirebrandTidal,spr_KSW_Fish_FirebrandTidal_Pal,series_GhoulsNGhosts,legion,2,grassBeach,KSW_Phases.night,19940);
+	//scr_KSW_AddFish("Astaroth",spr_KSW_Fish_Astaroth,spr_KSW_Fish_Astaroth_Pal,series_GhoulsNGhosts,candy,2,serranoSprings,KSW_Phases.night,19850);
+	//scr_KSW_AddFish("Sardius",spr_KSW_Fish_Sardius,spr_KSW_Fish_Sardius_Pal,series_GhoulsNGhosts,maze,3,serranoSprings,KSW_Phases.night,199100);
+	//scr_KSW_AddFish("Fire Bat",spr_KSW_Fish_FireBat,spr_KSW_Fish_FireBat_Pal,series_GhoulsNGhosts,borange,0,serranoSprings,KSW_Phases.night,198);
+	//scr_KSW_AddFish("Rock Turtle",spr_KSW_Fish_RockTurtle,spr_KSW_Fish_RockTurtle_Pal,series_GhoulsNGhosts,mint,0,hallowReen,KSW_Phases.night,198);
+	//scr_KSW_AddFish("Sand Beetle",spr_KSW_Fish_SandBeetle,spr_KSW_Fish_SandBeetle_Pal,series_GhoulsNGhosts,glimmer,0,serranoSprings,KSW_Phases.night,198);
+	//scr_KSW_AddFish("Cerberus (GnG)",spr_KSW_Fish_CerberusGnG,spr_KSW_Fish_CerberusGnG_Pal,series_GhoulsNGhosts,borange,1,serranoSprings,KSW_Phases.night,1988);
+	//scr_KSW_AddFish("Seal Transformation",spr_KSW_Fish_SealTransformation,spr_KSW_Fish_SealTransformation_Pal,series_GhoulsNGhosts,mage,1,grassBeach,KSW_Phases.none,191);
+	//scr_KSW_AddFish("Axe Ghost",spr_KSW_Fish_AxeGhost,spr_KSW_Fish_AxeGhost_Pal,series_GhoulsNGhosts,candy,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Belial",spr_KSW_Fish_Belial,spr_KSW_Fish_Belial_Pal,series_GhoulsNGhosts,borange,0,serranoSprings,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Coral Cannon",spr_KSW_Fish_CoralCannon,spr_KSW_Fish_CoralCannon_Pal,series_GhoulsNGhosts,mint,0,grassBeach,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Doom Blossom",spr_KSW_Fish_DoomBlossom,spr_KSW_Fish_DoomBlossom_Pal,series_GhoulsNGhosts,legion,0,creamCrevasse,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Fire Killer",spr_KSW_Fish_FireKiller,spr_KSW_Fish_FireKiller_Pal,series_GhoulsNGhosts,borange,0,serranoSprings,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Flying Killer",spr_KSW_Fish_FlyingKiller,spr_KSW_Fish_FlyingKiller_Pal,series_GhoulsNGhosts,legion,0,grassBeach,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Flying Knight",spr_KSW_Fish_FlyingKnight,spr_KSW_Fish_FlyingKnight_Pal,series_GhoulsNGhosts,candy,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Ghost",spr_KSW_Fish_Ghost,spr_KSW_Fish_Ghost_Pal,series_GhoulsNGhosts,glimmer,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Magician",spr_KSW_Fish_Magician,spr_KSW_Fish_Magician_Pal,series_GhoulsNGhosts,borange,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Mimic (GnG)",spr_KSW_Fish_MimicGnG,spr_KSW_Fish_MimicGnG_Pal,series_GhoulsNGhosts,glimmer,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Mini-Cyclops",spr_KSW_Fish_MiniCyclops,spr_KSW_Fish_MiniCyclops_Pal,series_GhoulsNGhosts,borange,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Seiren",spr_KSW_Fish_Seiren,spr_KSW_Fish_Seiren_Pal,series_GhoulsNGhosts,flux,0,grassBeach,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Shell",spr_KSW_Fish_Shell,spr_KSW_Fish_Shell_Pal,series_GhoulsNGhosts,flux,0,grassBeach,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Skull Flower",spr_KSW_Fish_SkullFlower,spr_KSW_Fish_SkullFlower_Pal,series_GhoulsNGhosts,borange,0,serranoSprings,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Weredog",spr_KSW_Fish_Weredog,spr_KSW_Fish_Weredog_Pal,series_GhoulsNGhosts,mint,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Zombie (GnG)",spr_KSW_Fish_ZombieGnG,spr_KSW_Fish_ZombieGnG_Pal,series_GhoulsNGhosts,mint,0,hallowReen,KSW_Phases.night,191);
+	//scr_KSW_AddFish("Red Arremer",spr_KSW_Fish_RedArremer,spr_KSW_Fish_RedArremer_Pal,series_GhoulsNGhosts,borange,1,serranoSprings,KSW_Phases.night,1991);
+	//scr_KSW_AddFish("Gririan",spr_KSW_Fish_Gririan,spr_KSW_Fish_Gririan_Pal,series_GhoulsNGhosts,borange,1,serranoSprings,KSW_Phases.night,1991);
+	//scr_KSW_AddFish("Storm Cesaris",spr_KSW_Fish_StormCesaris,spr_KSW_Fish_StormCesaris_Pal,series_GhoulsNGhosts,legion,1,grassBeach,KSW_Phases.night,1991);
+	//scr_KSW_AddFish("Veil Aloken",spr_KSW_Fish_VeilAloken,spr_KSW_Fish_VeilAloken_Pal,series_GhoulsNGhosts,flux,1,creamCrevasse,KSW_Phases.night,1991);
+	//scr_KSW_AddFish("Anemone",spr_KSW_Fish_Anemone,spr_KSW_Fish_Anemone_Pal,series_GhoulsNGhosts,flux,0,grassBeach,KSW_Phases.night,194);
+	//scr_KSW_AddFish("Aquatic Demon",spr_KSW_Fish_AquaticDemon,spr_KSW_Fish_AquaticDemon_Pal,series_GhoulsNGhosts,maze,0,grassBeach,KSW_Phases.night,194);
+	//scr_KSW_AddFish("Skull Fish",spr_KSW_Fish_SkullFish,spr_KSW_Fish_SkullFish_Pal,series_GhoulsNGhosts,flux,0,grassBeach,KSW_Phases.night,194);
+	//scr_KSW_AddFish("Water Ghost",spr_KSW_Fish_WaterGhost,spr_KSW_Fish_WaterGhost_Pal,series_GhoulsNGhosts,maze,0,grassBeach,KSW_Phases.night,194);
+	//scr_KSW_AddFish("Flame Lord",spr_KSW_Fish_FlameLord,spr_KSW_Fish_FlameLord_Pal,series_GhoulsNGhosts,borange,1,serranoSprings,KSW_Phases.night,1994);
+	//scr_KSW_AddFish("Scula",spr_KSW_Fish_Scula,spr_KSW_Fish_Scula_Pal,series_GhoulsNGhosts,legion,1,hallowReen,KSW_Phases.night,1994);
+	//scr_KSW_AddFish("Holothurion",spr_KSW_Fish_Holothurion,spr_KSW_Fish_Holothurion_Pal,series_GhoulsNGhosts,maze,2,grassBeach,KSW_Phases.night,19940);
 	#endregion
 	#endregion
 }
