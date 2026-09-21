@@ -121,6 +121,7 @@ function scr_KSW_SetFishes()
 	var series_RhythmHeaven = global.KSW_SeriesIDs[? "rhythmHeaven"];
 	var series_Bioshock = global.KSW_SeriesIDs[? "bioshock"];
 	var series_ResidentEvil = global.KSW_SeriesIDs[? "residentEvil"];
+	var series_MinaTheHollower = global.KSW_SeriesIDs[? "minatheHollower"];
 	#endregion
 	
 	#region Stages
@@ -2055,6 +2056,12 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Jill",spr_KSW_Fish_Jill,spr_KSW_Fish_Jill_Pal,series_ResidentEvil,flux,3,hallowReen,KSW_Phases.none,19740);
 	scr_KSW_AddFish("Mike...?",spr_KSW_Fish_Mikes,spr_KSW_Fish_Mikes_Pal,series_Deltarune,tvtime,3,androidPort,KSW_Phases.none,64530);
 	scr_KSW_AddFish("DELTA_HEROES",spr_KSW_Fish_HERODELTA,spr_KSW_Fish_HERODELTA_Pal,series_Deltarune,mage,2,androidPort,KSW_Phases.none,7770);
+	scr_KSW_AddFish("Klumpy Dee",spr_KSW_Fish_KlumpyDee,spr_KSW_Fish_KlumpyDee_Pal,series_MinaTheHollower,glimmer,1,hallowReen,KSW_Phases.afternoon,600,-13,-14);
+	scr_KSW_AddFish("Poppit",spr_KSW_Fish_Poppit,spr_KSW_Fish_Poppit_Pal,series_MinaTheHollower,mage,1,hallowReen,KSW_Phases.afternoon,260,-10,-12);
+	scr_KSW_AddFish("Mina",spr_KSW_Fish_Mina,spr_KSW_Fish_Mina_Pal,series_MinaTheHollower,candy,2,anyStage,KSW_Phases.none,400,-8,-8);
+	scr_KSW_AddFish("Blaise",spr_KSW_Fish_Blaise,spr_KSW_Fish_Blaise_Pal,series_MinaTheHollower,borange,2,anyStage,KSW_Phases.day,200,-9,-12);
+	scr_KSW_AddFish("Lady Susan",spr_KSW_Fish_LadySusan,spr_KSW_Fish_LadySusan_Pal,series_MinaTheHollower,legion,3,hallowReen,KSW_Phases.night,15000,-22,-45);
+	scr_KSW_AddFish("Grinnsly",spr_KSW_Fish_Grinnsly,spr_KSW_Fish_Grinnsly_Pal,series_MinaTheHollower,flux,3,hallowReen,KSW_Phases.night,5000,-33,-21,,snd_KSW_Fish_Grinnsly);
 	#endregion
 	#endregion
 }
