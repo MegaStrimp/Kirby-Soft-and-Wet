@@ -2053,7 +2053,6 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Tyrant",spr_KSW_Fish_Tyrant,spr_KSW_Fish_Tyrant_Pal,series_ResidentEvil,flux,2,hallowReen,KSW_Phases.none,1988);
 	//scr_KSW_AddFish("Chris",spr_KSW_Fish_Chris,spr_KSW_Fish_Chris_Pal,series_ResidentEvil,flux,3,hallowReen,KSW_Phases.none,19730);
 	//scr_KSW_AddFish("Jill",spr_KSW_Fish_Jill,spr_KSW_Fish_Jill_Pal,series_ResidentEvil,flux,3,hallowReen,KSW_Phases.none,19740);
-	
 	scr_KSW_AddFish("Mike...?",spr_KSW_Fish_Mikes,spr_KSW_Fish_Mikes_Pal,series_Deltarune,tvtime,3,androidPort,KSW_Phases.none,64530);
 	scr_KSW_AddFish("DELTA_HEROES",spr_KSW_Fish_HERODELTA,spr_KSW_Fish_HERODELTA_Pal,series_Deltarune,mage,2,androidPort,KSW_Phases.none,7770);
 	#endregion
