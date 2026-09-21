@@ -15,7 +15,7 @@
     },
   },
   "conversionMode":0,
-  "duration":0.0,
+  "duration":8.229637,
   "exportDir":"",
   "name":"snd_KSW_Fish_Morshu",
   "parent":{

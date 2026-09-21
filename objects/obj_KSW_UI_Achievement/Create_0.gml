@@ -1,6 +1,9 @@
 ///@description Create
 
 #region Initialize Variables
+localPause = ((instance_exists(obj_KSW_UI_CatchPopup)) or (instance_exists(obj_KSW_UI_NotifBox)));
+speedMultFinal = global.speedMultGlobal * global.deltaTime;
+
 state = 0;
 stateTimer = 300;
 
