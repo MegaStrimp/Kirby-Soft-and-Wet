@@ -403,7 +403,13 @@ if (!localPause)
 				global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtNumber += 1;
 				if (global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtNumber >= global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyCaughtRequirement)
 				{
+					scr_PlaySfx(snd_KSW_Unlock);
+					
+					with (obj_Player) scr_KSW_UI_SpecialActionText_Create("[rainbow]Shiny Bobber Get[/rainbow]",x,y - 8);
+					
 					global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyIsUnlocked = true;
+					
+					global.KSW_EquippedBobberIsShiny[playerNum] = true;
 				}
 			}
 			#endregion
