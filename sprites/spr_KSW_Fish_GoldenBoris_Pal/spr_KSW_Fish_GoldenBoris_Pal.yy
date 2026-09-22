@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_GoldenBoris_Pal",
   "bboxMode":0,
-  "bbox_bottom":23,
+  "bbox_bottom":14,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6c182d42-e867-4e2e-8416-1340b1652c05","name":"6c182d42-e867-4e2e-8416-1340b1652c05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":15,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f29f4ecd-9624-471e-a709-b78988498235","blendMode":0,"displayName":"default","isLocked":false,"name":"f29f4ecd-9624-471e-a709-b78988498235","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6a05a4c0-813c-49ce-b6da-a35c0f903a14","blendMode":0,"displayName":"default","isLocked":false,"name":"6a05a4c0-813c-49ce-b6da-a35c0f903a14","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_GoldenBoris_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","path":"sprites/spr_KSW_Fish_GoldenBoris_Pal/spr_KSW_Fish_GoldenBoris_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a399091-861e-42f2-9179-bda115fbdd25","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c182d42-e867-4e2e-8416-1340b1652c05","path":"sprites/spr_KSW_Fish_GoldenBoris_Pal/spr_KSW_Fish_GoldenBoris_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d44e474e-2ea2-4c7e-aba6-0dd9083a0585","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

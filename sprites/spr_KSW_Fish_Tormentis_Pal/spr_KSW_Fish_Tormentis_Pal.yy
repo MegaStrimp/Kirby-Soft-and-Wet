@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Tormentis_Pal",
   "bboxMode":0,
-  "bbox_bottom":23,
+  "bbox_bottom":4,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a986d74b-f07a-4de5-992a-01179ee4ca12","name":"a986d74b-f07a-4de5-992a-01179ee4ca12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":5,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f29f4ecd-9624-471e-a709-b78988498235","blendMode":0,"displayName":"default","isLocked":false,"name":"f29f4ecd-9624-471e-a709-b78988498235","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"bac8a8b2-8ce8-491b-9f28-b57aea273965","blendMode":0,"displayName":"default","isLocked":false,"name":"bac8a8b2-8ce8-491b-9f28-b57aea273965","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Tormentis_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","path":"sprites/spr_KSW_Fish_Tormentis_Pal/spr_KSW_Fish_Tormentis_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a399091-861e-42f2-9179-bda115fbdd25","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a986d74b-f07a-4de5-992a-01179ee4ca12","path":"sprites/spr_KSW_Fish_Tormentis_Pal/spr_KSW_Fish_Tormentis_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"71ab3dff-5a39-42de-846a-e4ac31e64ff1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

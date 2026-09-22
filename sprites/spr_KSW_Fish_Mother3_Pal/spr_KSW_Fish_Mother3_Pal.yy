@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Mother3_Pal",
   "bboxMode":0,
-  "bbox_bottom":23,
+  "bbox_bottom":28,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf3848e5-bbc3-4009-be42-5d50387c51e0","name":"cf3848e5-bbc3-4009-be42-5d50387c51e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":29,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f29f4ecd-9624-471e-a709-b78988498235","blendMode":0,"displayName":"default","isLocked":false,"name":"f29f4ecd-9624-471e-a709-b78988498235","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c4f53600-d2bf-4dbb-b362-20a386600c56","blendMode":0,"displayName":"default","isLocked":false,"name":"c4f53600-d2bf-4dbb-b362-20a386600c56","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Mother3_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","path":"sprites/spr_KSW_Fish_Mother3_Pal/spr_KSW_Fish_Mother3_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a399091-861e-42f2-9179-bda115fbdd25","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf3848e5-bbc3-4009-be42-5d50387c51e0","path":"sprites/spr_KSW_Fish_Mother3_Pal/spr_KSW_Fish_Mother3_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c8413869-a2fa-4bc5-8c24-52eafbebdcbe","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Mike_Pal",
   "bboxMode":0,
-  "bbox_bottom":23,
+  "bbox_bottom":1,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b9d449e0-dcc3-4475-bb0e-0fa07b3b1621","name":"b9d449e0-dcc3-4475-bb0e-0fa07b3b1621","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":2,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f29f4ecd-9624-471e-a709-b78988498235","blendMode":0,"displayName":"default","isLocked":false,"name":"f29f4ecd-9624-471e-a709-b78988498235","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3b4ce482-2b7a-4e9c-acf0-9bb77fe8fbd8","blendMode":0,"displayName":"default","isLocked":false,"name":"3b4ce482-2b7a-4e9c-acf0-9bb77fe8fbd8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Mike_Pal",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f40ab189-5b4a-4cec-aa36-465c52e81e1e","path":"sprites/spr_KSW_Fish_Mike_Pal/spr_KSW_Fish_Mike_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a399091-861e-42f2-9179-bda115fbdd25","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b9d449e0-dcc3-4475-bb0e-0fa07b3b1621","path":"sprites/spr_KSW_Fish_Mike_Pal/spr_KSW_Fish_Mike_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad295d80-c87d-4a7f-af25-5d2c306f3036","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
