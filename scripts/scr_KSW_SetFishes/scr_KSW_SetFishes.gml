@@ -105,6 +105,9 @@ function scr_KSW_SetFishes()
 	var series_DaveTheDiver = global.KSW_SeriesIDs[? "DaveTheDiver"];
 	var series_KeroBlaster = global.KSW_SeriesIDs[? "KeroBlaster"];
 	var series_Deltarot = global.KSW_SeriesIDs[? "deltarot"];
+	var series_IB = global.KSW_SeriesIDs[? "iB"];
+	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
+	var series_omori = global.KSW_SeriesIDs[? "omori"];
 	#endregion
 	
 	#region Stages
@@ -1914,6 +1917,16 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Bomb Boo",spr_KSW_Fish_BombBoo,spr_KSW_Fish_BombBoo_Pal,series_SuperMario,maze,1,hallowReen,KSW_Phases.none,500,0,0,-1,snd_KSW_Fish_BombBoo);
 	scr_KSW_AddFish("Mike...?",spr_KSW_Fish_Mikes,spr_KSW_Fish_Mikes_Pal,series_Deltarune,tvtime,3,androidPort,KSW_Phases.none,6453);
 	scr_KSW_AddFish("DELTA_HEROES",spr_KSW_Fish_HERODELTA,spr_KSW_Fish_HERODELTA_Pal,series_Deltarune,mage,2,androidPort,KSW_Phases.none,777);
+	scr_KSW_AddFish("Ib",spr_KSW_Fish_Ib,spr_KSW_Fish_Ib_Pal,series_IB,candy,2,hallowReen,KSW_Phases.none,6235);
+	scr_KSW_AddFish("Garry",spr_KSW_Fish_Garry,spr_KSW_Fish_Garry_Pal,series_IB,mage,2,hallowReen,KSW_Phases.none,6219);
+	scr_KSW_AddFish("Mary",spr_KSW_Fish_Mary,spr_KSW_Fish_Mary_Pal,series_IB,mint,2,hallowReen,KSW_Phases.none,6250);
+	scr_KSW_AddFish("Blue Doll",spr_KSW_Fish_BlueDoll,spr_KSW_Fish_BlueDoll_Pal,series_IB,flux,0,hallowReen,KSW_Phases.night,365);
+	scr_KSW_AddFish("Red Eyes",spr_KSW_Fish_BigDoll,spr_KSW_Fish_BigDoll_Pal,series_IB,flux,3,hallowReen,KSW_Phases.night,36557);
+	scr_KSW_AddFish("Lady in Red",spr_KSW_Fish_PaintedLady,spr_KSW_Fish_PaintedLady_Pal,series_IB,candy,0,hallowReen,KSW_Phases.none,621);
+	scr_KSW_AddFish("Lady in White",spr_KSW_Fish_LadyWhite,spr_KSW_Fish_LadyWhite_Pal,series_IB,flux,1,hallowReen,KSW_Phases.night,6210);
+	scr_KSW_AddFish("The Snatcher",spr_KSW_Fish_TheSnatcher,spr_KSW_Fish_TheSnatcher_Pal,series_aHatInTime,flux,3,hallowReen,KSW_Phases.night,45000);
+	scr_KSW_AddFish("Mr. Jawsum",spr_KSW_Fish_Jawsum,spr_KSW_Fish_Jawsum_Pal,series_omori,mage,3,grassBeach,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Humphrey",spr_KSW_Fish_Humphrey,spr_KSW_Fish_Humphrey_Pal,series_omori,mage,3,grassBeach,KSW_Phases.afternoon,13000);
 	#endregion
 	#endregion
 }
