@@ -120,6 +120,11 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
-	scr_KSW_AddSeries("minatheHollower","Mina The Hollower")
+	scr_KSW_AddSeries("minatheHollower","Mina The Hollower");
+	scr_KSW_AddSeries("nightmareCollection","Nightmare Collection");
+	scr_KSW_AddSeries("dreamLandEXE","Dreamland.EXE");
+	scr_KSW_AddSeries("kirbyEXE","Kirby EXE");
+	scr_KSW_AddSeries("dreamLand2002","Dream Land 2002");
+	scr_KSW_AddSeries("bendyAndTheInkMachine","Bendy and the Ink Machine");
 	#endregion
 }
