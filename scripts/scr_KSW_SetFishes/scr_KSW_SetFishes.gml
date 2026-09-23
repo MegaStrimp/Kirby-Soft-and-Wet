@@ -129,6 +129,7 @@ function scr_KSW_SetFishes()
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
 	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
 	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
+	var limit = spr_KSW_UI_CaughtBox_Palette_Limit;
 	#endregion
 	
 	#region Add Fishes Here
@@ -1927,6 +1928,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Snatcher",spr_KSW_Fish_TheSnatcher,spr_KSW_Fish_TheSnatcher_Pal,series_aHatInTime,flux,3,hallowReen,KSW_Phases.night,45000);
 	scr_KSW_AddFish("Mr. Jawsum",spr_KSW_Fish_Jawsum,spr_KSW_Fish_Jawsum_Pal,series_omori,mage,3,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Humphrey",spr_KSW_Fish_Humphrey,spr_KSW_Fish_Humphrey_Pal,series_omori,mage,3,grassBeach,KSW_Phases.afternoon,13000);
+	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,999999,0,0,0,snd_KSW_Fish_Chark);
 	#endregion
 	#endregion
 }
