@@ -243,5 +243,11 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "BlasterMasterE",playerID,"Blaster Master E",spr_KSW_Player_Susie_SprayPaint_BlasterMasterE,glimmer,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Miku",playerID,"Miku",spr_KSW_Player_Susie_SprayPaint_Miku,mage,75);
 	#endregion
+	
+	#region Ybrik
+	var playerID = "ybrik";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Business",playerID,"Business",spr_KSW_Player_Susie_SprayPaint_Business,candy,0,true);
+	#endregion
 	#endregion
 }

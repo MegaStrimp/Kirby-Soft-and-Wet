@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_FredbearPlush_Pal",
   "bboxMode":0,
-  "bbox_bottom":6,
+  "bbox_bottom":5,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":7,
+  "height":6,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"d385e882-a8b5-4ea5-bd7b-798188233f0f","blendMode":0,"displayName":"default","isLocked":false,"name":"d385e882-a8b5-4ea5-bd7b-798188233f0f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_YbriksFang_Pal",
   "bboxMode":0,
-  "bbox_bottom":8,
+  "bbox_bottom":7,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":9,
+  "height":8,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7444c8f0-091c-4d09-804d-87ae7f0ce73f","blendMode":0,"displayName":"default","isLocked":false,"name":"7444c8f0-091c-4d09-804d-87ae7f0ce73f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

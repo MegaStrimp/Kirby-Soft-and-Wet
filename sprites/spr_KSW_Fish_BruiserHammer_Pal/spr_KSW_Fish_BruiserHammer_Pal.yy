@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_BruiserHammer_Pal",
   "bboxMode":0,
-  "bbox_bottom":7,
+  "bbox_bottom":6,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -17,11 +17,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c04de622-0366-4a3e-abc7-2f73304fd480","name":"c04de622-0366-4a3e-abc7-2f73304fd480","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bcb4bcec-e1df-4e61-8a11-ee611099cf38","name":"bcb4bcec-e1df-4e61-8a11-ee611099cf38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":8,
+  "height":7,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"947f293d-f73b-4497-bdb6-88ed8f4e56d5","blendMode":0,"displayName":"default","isLocked":false,"name":"947f293d-f73b-4497-bdb6-88ed8f4e56d5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c04de622-0366-4a3e-abc7-2f73304fd480","path":"sprites/spr_KSW_Fish_BruiserHammer_Pal/spr_KSW_Fish_BruiserHammer_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"24502867-c6b4-4fc5-9d6a-a758ab990ab2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bcb4bcec-e1df-4e61-8a11-ee611099cf38","path":"sprites/spr_KSW_Fish_BruiserHammer_Pal/spr_KSW_Fish_BruiserHammer_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"283da83a-9498-4133-ac13-db624c278348","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
