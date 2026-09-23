@@ -68,5 +68,11 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
 	#endregion
+	
+	#region Chip
+	var playerID = "chip";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
+	#endregion
 	#endregion
 }
