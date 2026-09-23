@@ -100,8 +100,26 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("DaveTheDiver","Dave the Diver");
 	scr_KSW_AddSeries("KeroBlaster","Kero Blaster");
 	scr_KSW_AddSeries("deltarot","Deltarot");
+	scr_KSW_AddSeries("jamesPond","James Pond");
+	scr_KSW_AddSeries("startropics","StarTropics");
+	scr_KSW_AddSeries("earthwormJim","Earthworm Jim");
+	scr_KSW_AddSeries("worms","Worms");
+	scr_KSW_AddSeries("alienSoldier","Alien Soldier");
+	scr_KSW_AddSeries("jurassicPark","Jurassic Park");
+	scr_KSW_AddSeries("buckyOHare","Bucky O'Hare");
+	scr_KSW_AddSeries("eccoTheDolphin","Ecco the Dolphin");
+	scr_KSW_AddSeries("liveALive","Live A Live");
+	scr_KSW_AddSeries("enterTheGungeon","Enter The Gungeon");
+	scr_KSW_AddSeries("fortnite","Fortnite");
+	scr_KSW_AddSeries("fieldsOfMistria","Fields of Mistria");
+	scr_KSW_AddSeries("sh2Demake","Silent Hill 2 Demake");
+	scr_KSW_AddSeries("rhythmHeaven","Rhythm Heaven");
+	scr_KSW_AddSeries("bioshock","Bioshock");
+	scr_KSW_AddSeries("residentEvil","Resident Evil");
+	scr_KSW_AddSeries("ghoulsNGhosts","Ghouls 'n Ghosts");
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
+	scr_KSW_AddSeries("minatheHollower","Mina The Hollower")
 	#endregion
 }
