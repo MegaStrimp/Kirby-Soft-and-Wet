@@ -1689,7 +1689,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Hunter Fairy",spr_KSW_Fish_THHunterFairy,spr_KSW_Fish_THHunterFairy_Pal,series_TouhouProject,mint,0,serranoSprings,KSW_Phases.none,300,0,6);
 	scr_KSW_AddFish("Black Fairy",spr_KSW_Fish_THBlackFairy,spr_KSW_Fish_THBlackFairy_Pal,series_TouhouProject,flux,1,anyStage,KSW_Phases.night,300,0,7);
 	scr_KSW_AddFish("Mambofish",spr_KSW_Fish_Mambofish,spr_KSW_Fish_Mambofish_Pal,series_Umamusume,mage,2,grassBeach,KSW_Phases.none,4500,-24,-5,-1,snd_KSW_Fish_Mambofish);
-	var krisAndNoelle = scr_KSW_AddFish("Two Friends Started Just As Neighbors",spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors,spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors_Pal,series_Deltarune,borange,3,anyStage,KSW_Phases.afternoon,12250);
+	var krisAndNoelle = scr_KSW_AddFish("Two Friends Started Just As Neighbors",spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors,spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors_Pal,series_Deltarune,borange,3,anyStage,KSW_Phases.afternoon,12250,,,,snd_KSW_Fish_KrisAndNoelle);
 	krisAndNoelle.displayedName = "2 Friends Started Just As Neighbors";
 	scr_KSW_AddFish("Flier",spr_KSW_Fish_Flier,spr_KSW_Fish_Flier_Pal,series_UndertaleYellow,glimmer,0,grassBeach,KSW_Phases.none,235);
 	scr_KSW_AddFish("Penilla",spr_KSW_Fish_Penilla,spr_KSW_Fish_Penilla_Pal,series_UndertaleYellow,mint,0,grassBeach,KSW_Phases.none,376);
