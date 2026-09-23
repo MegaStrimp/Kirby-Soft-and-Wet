@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_KSW_Fish_Morshu",
+  "%Name":"snd_KSW_Fish_BoomKnuckles",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -15,9 +15,9 @@
     },
   },
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.3440136,
   "exportDir":"",
-  "name":"snd_KSW_Fish_Morshu",
+  "name":"snd_KSW_Fish_BoomKnuckles",
   "parent":{
     "name":"Fish",
     "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Fish.yy",
@@ -26,7 +26,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_KSW_Fish_Morshu.mp3",
+  "soundFile":"snd_KSW_Fish_BoomKnuckles.ogg",
   "tags":[
     "Sound Effect",
   ],
