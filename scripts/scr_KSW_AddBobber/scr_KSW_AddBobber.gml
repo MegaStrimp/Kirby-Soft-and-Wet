@@ -19,7 +19,7 @@ function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetPalette,target
 		
 		tiedAchievementName: "",
 		shinyCaughtNumber: 0,
-		shinyCaughtRequirement: 30,
+		shinyCaughtRequirement: 50,
 		
 		isUnlocked: false,
 		shinyIsUnlocked: false
