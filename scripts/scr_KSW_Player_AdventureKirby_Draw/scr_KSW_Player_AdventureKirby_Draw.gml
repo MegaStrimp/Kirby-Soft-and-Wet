@@ -200,7 +200,7 @@ function scr_KSW_Player_AdventureKirby_Draw()
 		var currentSprayPaint = global.KSW_PlayerEquippedSprayPaintID[playerNum][global.playerCharacter[playerNum]];
 		
 		if ((global.shaders) and (currentSprayPaint != 0)) pal_swap_set(global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[currentSprayPaint].sprite,1,false);
-		draw_sprite_ext(sprite_index,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
+		if (!global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[currentHat].hidesPlayer) draw_sprite_ext(sprite_index,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 		if (targetHatShadowSprite != undefined) draw_sprite_ext(targetHatShadowSprite,image_index,x + shakeXFinal + drawXOffset,y + shakeYFinal + drawYOffset,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 		if ((global.shaders) and (currentSprayPaint != 0)) pal_swap_reset();
 		
