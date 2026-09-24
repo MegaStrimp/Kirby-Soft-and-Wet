@@ -1,6 +1,6 @@
 ///@description KSW - Add Hat
 
-function scr_KSW_AddHat(targetID,targetCharacterID,targetName,targetIcon,targetSpriteSet,targetBoxPalette,targetPrice,targetXOffset = 0,targetYOffset = 0,targetIsDefault = false)
+function scr_KSW_AddHat(targetID,targetCharacterID,targetName,targetIcon,targetSpriteSet,targetBoxPalette,targetPrice,targetXOffset = 0,targetYOffset = 0,targetIsDefault = false,targetHidesPlayer = false)
 {
 	var tempHatCount = global.KSW_HatCount[global.KSW_CharacterIDs[? targetCharacterID]];
 	
@@ -19,6 +19,7 @@ function scr_KSW_AddHat(targetID,targetCharacterID,targetName,targetIcon,targetS
         xOffset: targetXOffset,
         yOffset: targetYOffset,
 		isDefault: targetIsDefault,
+		hidesPlayer: targetHidesPlayer,
 		isUnlocked: false
     };
 	

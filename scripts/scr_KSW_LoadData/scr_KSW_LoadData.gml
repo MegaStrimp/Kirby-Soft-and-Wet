@@ -206,7 +206,7 @@ function scr_KSW_LoadData(file,importFile = false)
 			{
 				global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isUnlocked = true;
 				
-				ds_list_add(global.KSW_AvailableBobbers,i);
+				ds_list_add(global.KSW_AvailableBobbers,global.KSW_AchievementList[i].bobberReward);
 				if (!global.KSW_BobberList[global.KSW_AchievementList[i].bobberReward].isHidden) global.KSW_UnlockedBobberCount += 1;
 			}
 			

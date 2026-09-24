@@ -1,3 +1,5 @@
+precision highp float;
+
 //
 // Simple passthrough fragment shader
 //

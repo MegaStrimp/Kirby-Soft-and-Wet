@@ -17,7 +17,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1d88b334-f9c3-4cf9-8728-837e1fdc117b","name":"1d88b334-f9c3-4cf9-8728-837e1fdc117b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6ca44bc9-1783-48c5-a1b9-a356727ee401","name":"6ca44bc9-1783-48c5-a1b9-a356727ee401","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Marx",
-    "path":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Marx.yy",
+    "name":"Susie",
+    "path":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Susie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d88b334-f9c3-4cf9-8728-837e1fdc117b","path":"sprites/spr_KSW_Player_Marx_SprayPaint_Jarona/spr_KSW_Player_Marx_SprayPaint_Jarona.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"444fed21-af2f-4bb7-845e-3d2668d10b84","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ca44bc9-1783-48c5-a1b9-a356727ee401","path":"sprites/spr_KSW_Player_Marx_SprayPaint_Jarona/spr_KSW_Player_Marx_SprayPaint_Jarona.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5655c2a2-210e-447a-a475-9837235aff5a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
