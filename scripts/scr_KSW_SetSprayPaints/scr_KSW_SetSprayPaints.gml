@@ -247,7 +247,8 @@ function scr_KSW_SetSprayPaints()
 	#region Ybrik
 	var playerID = "ybrik";
 	
-	scr_KSW_AddSprayPaint(playerID + "_" + "Business",playerID,"Business",spr_KSW_Player_Susie_SprayPaint_Business,candy,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "MonsterInDreamLand",playerID,"Monster in Dream Land",spr_KSW_Player_Ybrik_SprayPaint_MonsterInDreamland,borange,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DreamlandExe",playerID,"Dreamland.exe",spr_KSW_Player_Ybrik_SprayPaint_DreamlandExe,candy,75);
 	#endregion
 	#endregion
 }

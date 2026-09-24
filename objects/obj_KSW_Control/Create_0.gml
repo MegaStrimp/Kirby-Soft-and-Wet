@@ -14,8 +14,8 @@ global.KSW_HasCursor = true;
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.2.5";
-global.versionSubtitle = "Android Port";
+global.versionNumber = "1.2.X";
+global.versionSubtitle = "Monster in Dreamland";
 
 global.pauseScript = scr_KSW_PauseScript;
 

@@ -71,7 +71,8 @@ function scr_KSW_SetHats()
 	#region Ybrik
 	var playerID = "ybrik";
 	
-	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Original",playerID,"Original",spr_KSW_Player_Ybrik_Hat_Original_Ready_Shadow,scr_KSW_Player_Ybrik_Hat_Original_SpriteSet(),borange,100,2,5);
 	#endregion
 	#endregion
 }
