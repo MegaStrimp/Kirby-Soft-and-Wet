@@ -2095,6 +2095,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Holothurion",spr_KSW_Fish_Holothurion,spr_KSW_Fish_Holothurion_Pal,series_GhoulsNGhosts,maze,2,grassBeach,KSW_Phases.night,19940);
 	//scr_KSW_AddFish("Mike...?",spr_KSW_Fish_Mikes,spr_KSW_Fish_Mikes_Pal,series_Deltarune,tvtime,3,androidPort,KSW_Phases.none,64530);
 	//scr_KSW_AddFish("DELTA_HEROES",spr_KSW_Fish_HERODELTA,spr_KSW_Fish_HERODELTA_Pal,series_Deltarune,mage,2,androidPort,KSW_Phases.none,7770);
+	//scr_KSW_AddFish("Aqua",spr_KSW_Fish_Aqua,spr_KSW_Fish_Aqua_Pal,series_Deltarune,flux,2,hallowReen,KSW_Phases.afternoon,1000);
 	//scr_KSW_AddFish("Klumpy Dee",spr_KSW_Fish_KlumpyDee,spr_KSW_Fish_KlumpyDee_Pal,series_MinaTheHollower,glimmer,1,hallowReen,KSW_Phases.afternoon,600,-13,-14);
 	//scr_KSW_AddFish("Poppit",spr_KSW_Fish_Poppit,spr_KSW_Fish_Poppit_Pal,series_MinaTheHollower,mage,1,hallowReen,KSW_Phases.afternoon,260,-10,-12);
 	//scr_KSW_AddFish("Mina",spr_KSW_Fish_Mina,spr_KSW_Fish_Mina_Pal,series_MinaTheHollower,candy,2,anyStage,KSW_Phases.none,400,-8,-8);
