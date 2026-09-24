@@ -2035,6 +2035,10 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Blinky (Simpsons)",spr_KSW_Fish_BlinkySimpsons,spr_KSW_Fish_BlinkySimpsons_Pal,series_Fortnite,flux,1,androidPort,KSW_Phases.day,3500);
 	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
 	//scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
+	//scr_KSW_AddFish("Freddy Fazbear",spr_KSW_Fish_Freddy,spr_KSW_Fish_Freddy_Pal,series_FiveNightsAtFreddys,borange,2,hallowReen,KSW_Phases.night,20140);
+	//scr_KSW_AddFish("Chica the Chicken",spr_KSW_Fish_Chica,spr_KSW_Fish_Chica_Pal,series_FiveNightsAtFreddys,glimmer,2,hallowReen,KSW_Phases.night,20140);
+	//scr_KSW_AddFish("Bonnie the Rabbit",spr_KSW_Fish_Bonnie,spr_KSW_Fish_Bonnie_Pal,series_FiveNightsAtFreddys,flux,2,hallowReen,KSW_Phases.night,20140);
+	//scr_KSW_AddFish("Yellow Rabbit",spr_KSW_Fish_YellowRabbit,spr_KSW_Fish_YellowRabbit_Pal,series_FiveNightsAtFreddys,maze,3,hallowReen,KSW_Phases.night,202400);
 	//scr_KSW_AddFish("Lying Figure",spr_KSW_Fish_LyingFigure,spr_KSW_Fish_LyingFigure_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.afternoon,224);
 	//scr_KSW_AddFish("Mannequin (SH2)",spr_KSW_Fish_MannequinSH2,spr_KSW_Fish_MannequinSH2_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.night,224);
 	//scr_KSW_AddFish("Bubble Head Nurse",spr_KSW_Fish_BubbleHeadNurse,spr_KSW_Fish_BubbleHeadNurse_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.day,224);
