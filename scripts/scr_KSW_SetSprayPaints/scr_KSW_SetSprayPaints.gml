@@ -248,17 +248,23 @@ function scr_KSW_SetSprayPaints()
 	var playerID = "chip";
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "Lemon",playerID,"Lemon",spr_KSW_Player_Chip_SprayPaint_Lemon,glimmer,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Arctic",playerID,"Arctic",spr_KSW_Player_Chip_SprayPaint_Arctic,mage,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Pumpkin",playerID,"Pumpkin",spr_KSW_Player_Chip_SprayPaint_Pumpkin,borange,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Grape",playerID,"Grape",spr_KSW_Player_Chip_SprayPaint_Grape,flux,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Olive",playerID,"Olive",spr_KSW_Player_Chip_SprayPaint_Olive,mint,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Steel",playerID,"Steel",spr_KSW_Player_Chip_SprayPaint_Steel,legion,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "BubbleGum",playerID,"Bubble Gum",spr_KSW_Player_Chip_SprayPaint_BubbleGum,candy,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Frog",playerID,"Frog",spr_KSW_Player_Chip_SprayPaint_Frog,mint,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "BlueRasp",playerID,"Blue Rasp",spr_KSW_Player_Chip_SprayPaint_BlueRasp,mage,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "Miko",playerID,"Miko",spr_KSW_Player_Chip_SprayPaint_Miko,candy,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "BigTail",playerID,"Big Tail",spr_KSW_Player_Chip_SprayPaint_BigTail,borange,0,true);
-	scr_KSW_AddSprayPaint(playerID + "_" + "RosyMaple",playerID,"Rosy Maple",spr_KSW_Player_Chip_SprayPaint_RosyMaple,candy,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Arctic",playerID,"Arctic",spr_KSW_Player_Chip_SprayPaint_Arctic,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pumpkin",playerID,"Pumpkin",spr_KSW_Player_Chip_SprayPaint_Pumpkin,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Grape",playerID,"Grape",spr_KSW_Player_Chip_SprayPaint_Grape,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Olive",playerID,"Olive",spr_KSW_Player_Chip_SprayPaint_Olive,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Steel",playerID,"Steel",spr_KSW_Player_Chip_SprayPaint_Steel,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BubbleGum",playerID,"Bubble Gum",spr_KSW_Player_Chip_SprayPaint_BubbleGum,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Frog",playerID,"Frog",spr_KSW_Player_Chip_SprayPaint_Frog,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BlueRasp",playerID,"Blue Rasp",spr_KSW_Player_Chip_SprayPaint_BlueRasp,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Miko",playerID,"Miko",spr_KSW_Player_Chip_SprayPaint_Miko,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BigTail",playerID,"Big Tail",spr_KSW_Player_Chip_SprayPaint_BigTail,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "RosyMaple",playerID,"Rosy Maple",spr_KSW_Player_Chip_SprayPaint_RosyMaple,candy,75);
+	#endregion
+	
+	#region N-Z
+	var playerID = "nz";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Matter",playerID,"Matter",spr_KSW_Player_NZ_SprayPaint_Matter,legion,0,true);
 	#endregion
 	#endregion
 }

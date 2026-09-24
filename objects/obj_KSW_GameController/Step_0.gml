@@ -263,7 +263,14 @@ if (!localPause)
 			}
 			else if ((failed) or ((catchInput_NextLineTimer == -1) and (failTimer == -1)))
 			{
-				global.KSW_CurrentFishCombo = 0;
+				if (global.KSW_CurrentEvent == -1)
+				{
+					global.KSW_CurrentFishCombo = 0;
+				}
+				else
+				{
+					scr_KSW_Event_End();
+				}
 				
 				scr_KSW_SaveData("data1.ini");
 				
@@ -582,6 +589,12 @@ if (!localPause)
 				}
 			}
 			
+			var eventRng = 0;
+			if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+			{
+				scr_KSW_Event_Start(global.KSW_EventIDs[? "novemberRain"]);
+			}
+			
 			findFishTimer = -1;
 			state = KSW_GameStates.idle_Ready;
 			
@@ -652,12 +665,12 @@ if (!localPause)
 					if (global.KSW_Gamemode == KSW_Gamemodes.normal)
 					{
 						var line = catchInput_CurrentList[catchInput_CurrentLine];
-						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - 1) * failTimerMin));
+						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - failTimerOffset) * failTimerMin));
 					}
 					else
 					{
 						var line = choose(KSW_CatchInputList.up,KSW_CatchInputList.down,KSW_CatchInputList.left,KSW_CatchInputList.right,KSW_CatchInputList.wait);
-						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - .2) * failTimerMin));
+						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - (failTimerOffset / 5)) * failTimerMin));
 					}
 					
 					switch (line)
@@ -780,7 +793,7 @@ if (!localPause)
 					catchInput_CurrentLine = -1;
 					catchInput_CurrentLineMax = -1;
 					catchInput_SfxIndex = 0;
-					findFishTimer = irandom_range(60,400 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
+					findFishTimer = irandom_range(findFishTimerMin,findFishTimerMax - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
 					
 					stateReadyTimer = -1;
 					break;
@@ -846,6 +859,19 @@ if (!localPause)
 				scr_KSW_ParticleSet_Eternity(irandom_range(152,240),irandom_range(160,320),layer_get_depth(layer_get_id("Collision")),-1);
 				
 				decorTimer = irandom_range(decorTimerMin,decorTimerMax);
+			}
+		}
+		#endregion
+		
+		#region Event Timer
+		if (eventTimer != -1)
+		{
+			eventTimer = max(eventTimer - speedMultFinal,0);
+			if (eventTimer == 0)
+			{
+				scr_KSW_Event_End();
+				
+				eventTimer = -1;
 			}
 		}
 		#endregion
@@ -925,6 +951,8 @@ if (!localPause)
 		exitTimer = max(exitTimer - speedMultFinal,0);
 		if (exitTimer == 0)
 		{
+			scr_KSW_Event_End();
+			
 			scr_GoToRoom(exitTarget,false);
 			
 			exitTimer = -1;

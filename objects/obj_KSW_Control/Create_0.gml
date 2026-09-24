@@ -14,8 +14,8 @@ global.KSW_HasCursor = true;
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.2.5";
-global.versionSubtitle = "Android Port";
+global.versionNumber = "1.2.X";
+global.versionSubtitle = "November Rain";
 
 global.pauseScript = scr_KSW_PauseScript;
 
@@ -32,6 +32,7 @@ scr_KSW_SetBaits();
 scr_KSW_SetHats();
 scr_KSW_SetSprayPaints();
 scr_KSW_SetStages();
+scr_KSW_SetEvents();
 scr_KSW_SetSeries();
 scr_KSW_SetFishes();
 scr_KSW_SetAchievements();
@@ -75,6 +76,7 @@ global.KSW_AvailableBobbers = ds_list_create();
 
 global.KSW_CurrentPhase = KSW_Phases.day;
 global.KSW_CurrentStageID = global.KSW_StageList[global.KSW_StageIDs[? "grassBeach"]];
+global.KSW_CurrentEvent = -1;
 global.KSW_ForcedPhase = KSW_Phases.none;
 global.KSW_MainMenuSelection = KSW_MainMenu_Buttons.startFishing;
 global.KSW_CurrentFishCombo = 0;
@@ -144,6 +146,10 @@ scr_KSW_LoadControls("controls.ini");
 scr_KSW_LoadData("data1.ini");
 
 scr_KSW_LoadMysteryTreats("mysteryTreats.ini");
+#endregion
+
+#region Scribble Setup
+scribble_anim_wave(2,50,.1);
 #endregion
 
 #region Discord Rich Presence Setup
