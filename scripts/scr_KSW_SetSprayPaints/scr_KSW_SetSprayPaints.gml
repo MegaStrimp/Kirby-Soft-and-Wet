@@ -259,6 +259,9 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Miko",playerID,"Miko",spr_KSW_Player_Chip_SprayPaint_Miko,candy,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "BigTail",playerID,"Big Tail",spr_KSW_Player_Chip_SprayPaint_BigTail,borange,75);
 	scr_KSW_AddSprayPaint(playerID + "_" + "RosyMaple",playerID,"Rosy Maple",spr_KSW_Player_Chip_SprayPaint_RosyMaple,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Aqua",playerID,"Aqua",spr_KSW_Player_Chip_SprayPaint_Aqua,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Chocolate",playerID,"Chocolate",spr_KSW_Player_Chip_SprayPaint_Chocolate,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Virtual",playerID,"Virtual",spr_KSW_Player_Chip_SprayPaint_Virtual,candy,75);
 	#endregion
 	
 	#region N-Z
