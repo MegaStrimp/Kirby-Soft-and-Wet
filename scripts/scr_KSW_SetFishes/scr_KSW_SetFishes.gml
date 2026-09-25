@@ -2200,8 +2200,12 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Master Belch",spr_KSW_Fish_MasterBelch,spr_KSW_Fish_MasterBelch_Pal,series_Mother,mint,2,hallowReen,KSW_Phases.none,20000);
 	//scr_KSW_AddFish("Starman",spr_KSW_Fish_Starman,spr_KSW_Fish_Starman_Pal,series_Mother,candy,1,androidPort,KSW_Phases.none,2500);
 	//scr_KSW_AddFish("Starman Deluxe",spr_KSW_Fish_StarmanDeluxe,spr_KSW_Fish_StarmanDeluxe_Pal,series_Mother,glimmer,2,androidPort,KSW_Phases.none,25000);
-	
-
+	//scr_KSW_AddFish("Tessie",spr_KSW_Fish_Tessie,spr_KSW_Fish_Tessie_Pal,series_Mother,mage,2,grassBeach,KSW_Phases.day,20000);
+	//scr_KSW_AddFish("Ness",spr_KSW_Fish_Ness,spr_KSW_Fish_Ness_Pal,series_Mother,glimmer,3,grassBeach,KSW_Phases.none,200000);
+	//scr_KSW_AddFish("Paula",spr_KSW_Fish_Paula,spr_KSW_Fish_Paula_Pal,series_Mother,candy,3,grassBeach,KSW_Phases.none,200000);
+	//scr_KSW_AddFish("Jeff",spr_KSW_Fish_Jeff,spr_KSW_Fish_Jeff_Pal,series_Mother,mint,3,androidPort,KSW_Phases.none,200000);
+	//scr_KSW_AddFish("Poo",spr_KSW_Fish_Poo,spr_KSW_Fish_Poo_Pal,series_Mother,maze,3,serranoSprings,KSW_Phases.none,200000);
+	//scr_KSW_AddFish("Giygas",spr_KSW_Fish_Giygas,spr_KSW_Fish_Giygas_Pal,series_Mother,candy,3,hallowReen,KSW_Phases.night,290000);
 	//scr_KSW_AddFish("Spineless Lobster",spr_KSW_Fish_SpinelessLobster,spr_KSW_Fish_SpinelessLobster_Pal,series_Mother,candy,0,grassBeach,KSW_Phases.night,30);
 	//scr_KSW_AddFish("Dogfish (Mother 3)",spr_KSW_Fish_DogfishMother,spr_KSW_Fish_DogfishMother_Pal,series_Mother,mage,0,grassBeach,KSW_Phases.day,300);
 	//scr_KSW_AddFish("Carefree Jellyfish",spr_KSW_Fish_CarefreeJellyfish,spr_KSW_Fish_CarefreeJellyfish_Pal,series_Mother,legion,0,grassBeach,KSW_Phases.afternoon,300);
