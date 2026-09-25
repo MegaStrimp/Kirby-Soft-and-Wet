@@ -2195,6 +2195,22 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("ReturnOfOctobot",spr_KSW_Fish_ReturnOfOctobot,spr_KSW_Fish_ReturnOfOctobot_Pal,series_Mother,flux,0,androidPort,KSW_Phases.none,300);
 	//scr_KSW_AddFish("Hippo Launcher",spr_KSW_Fish_HippoLauncher,spr_KSW_Fish_HippoLauncher_Pal,series_Mother,maze,1,androidPort,KSW_Phases.none,3000);
 	//scr_KSW_AddFish("Navy SQUEAL",spr_KSW_Fish_NavySQUEAL,spr_KSW_Fish_NavySQUEAL_Pal,series_Mother,legion,1,androidPort,KSW_Phases.none,3000);
+	//scr_KSW_AddFish("Hermit Crab",spr_KSW_Fish_HermitCrab,spr_KSW_Fish_HermitCrab_Pal,series_Mother,glimmer,1,grassBeach,KSW_Phases.none,3000);
+	//scr_KSW_AddFish("Bucket Brothers",spr_KSW_Fish_BucketBrothers,spr_KSW_Fish_BucketBrothers_Pal,series_Mother,candy,1,serranoSprings,KSW_Phases.day,3000);
+	//scr_KSW_AddFish("Mr. Pump",spr_KSW_Fish_MrPump,spr_KSW_Fish_MrPump_Pal,series_Mother,glimmer,1,serranoSprings,KSW_Phases.afternoon,30000);
+	//scr_KSW_AddFish("Dryguy",spr_KSW_Fish_Dryguy,spr_KSW_Fish_Dryguy_Pal,series_Mother,flux,1,serranoSprings,KSW_Phases.night,30000);
+	//scr_KSW_AddFish("Dr. Andonuts",spr_KSW_Fish_DrAndonuts,spr_KSW_Fish_DrAndonuts_Pal,series_Mother,mint,2,grassBeach,KSW_Phases.none,30000);
+	//scr_KSW_AddFish("Ultimate Chimera",spr_KSW_Fish_UltimateChimera,spr_KSW_Fish_UltimateChimera_Pal,series_Mother,candy,2,serranoSprings,KSW_Phases.none,30000);
+	//scr_KSW_AddFish("Ocho",spr_KSW_Fish_Ocho,spr_KSW_Fish_Ocho_Pal,series_Mother,candy,1,grassBeach,KSW_Phases.none,30000);
+	//scr_KSW_AddFish("Lucas",spr_KSW_Fish_Lucas,spr_KSW_Fish_Lucas_Pal,series_Mother,glimmer,3,grassBeach,KSW_Phases.day,300000);
+	//scr_KSW_AddFish("Kumatora",spr_KSW_Fish_Kumatora,spr_KSW_Fish_Kumatora_Pal,series_Mother,candy,3,grassBeach,KSW_Phases.afternoon,300000);
+	//scr_KSW_AddFish("Flint",spr_KSW_Fish_Flint,spr_KSW_Fish_Flint_Pal,series_Mother,mint,3,serranoSprings,KSW_Phases.afternoon,300000);
+	//scr_KSW_AddFish("Boney",spr_KSW_Fish_Boney,spr_KSW_Fish_Boney_Pal,series_Mother,mint,2,serranoSprings,KSW_Phases.day,30000);
+	//scr_KSW_AddFish("Duster",spr_KSW_Fish_Duster,spr_KSW_Fish_Duster_Pal,series_Mother,maze,2,androidPort,KSW_Phases.night,30000);
+	//scr_KSW_AddFish("Salsa",spr_KSW_Fish_Salsa,spr_KSW_Fish_Salsa_Pal,series_Mother,borange,2,serranoSprings,KSW_Phases.none,30000);
+	//scr_KSW_AddFish("Samba",spr_KSW_Fish_Samba,spr_KSW_Fish_Samba_Pal,series_Mother,borange,2,serranoSprings,KSW_Phases.none,30000);
+	//scr_KSW_AddFish("Masked Man",spr_KSW_Fish_MaskedMan,spr_KSW_Fish_MaskedMan_Pal,series_Mother,legion,3,androidPort,KSW_Phases.none,30000);
+	//scr_KSW_AddFish("Porky",spr_KSW_Fish_Porky,spr_KSW_Fish_Porky_Pal,series_Mother,flux,3,androidPort,KSW_Phases.none,300000);
 	
 	#endregion
 	#endregion
