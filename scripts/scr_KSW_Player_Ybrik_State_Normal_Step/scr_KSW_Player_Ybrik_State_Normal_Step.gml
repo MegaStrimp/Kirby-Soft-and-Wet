@@ -72,8 +72,8 @@ function scr_KSW_Player_Ybrik_State_Normal_Step()
 		break;
 		
 		case sprWait:
-		rodX = x + 18;
-		rodY = y - 20;
+		rodX = x + 30;
+		rodY = y - 11;
 		break;
 		
 		case sprFound:

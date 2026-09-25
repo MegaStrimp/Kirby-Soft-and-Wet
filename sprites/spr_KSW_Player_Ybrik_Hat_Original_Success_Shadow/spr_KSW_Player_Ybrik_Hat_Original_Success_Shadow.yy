@@ -2,33 +2,43 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow",
   "bboxMode":0,
-  "bbox_bottom":0,
-  "bbox_left":0,
-  "bbox_right":0,
-  "bbox_top":0,
+  "bbox_bottom":41,
+  "bbox_left":25,
+  "bbox_right":55,
+  "bbox_top":11,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
     },
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
   },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5ce643f8-bbc2-45e5-a5e1-780e8c66e15c","name":"5ce643f8-bbc2-45e5-a5e1-780e8c66e15c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0426014c-940d-460c-806d-519a7331f449","name":"0426014c-940d-460c-806d-519a7331f449","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"db91969c-df89-4599-a5f8-ed8225ee78f1","name":"db91969c-df89-4599-a5f8-ed8225ee78f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62f244ec-2548-41d0-ab51-394d19027522","name":"62f244ec-2548-41d0-ab51-394d19027522","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"68c9cf53-61ba-4f41-9880-44051f820b59","name":"68c9cf53-61ba-4f41-9880-44051f820b59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3b55c9e0-a889-4af3-9377-c35926c42338","name":"3b55c9e0-a889-4af3-9377-c35926c42338","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8af679a6-7c90-4899-bcc4-df960f116e39","name":"8af679a6-7c90-4899-bcc4-df960f116e39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a498725-5a46-4223-99d6-a0f3972724d8","name":"7a498725-5a46-4223-99d6-a0f3972724d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4801f92-c906-4c36-8292-4e0e04ce6d13","name":"b4801f92-c906-4c36-8292-4e0e04ce6d13","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":44,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"70fc7987-9b9a-4e63-9639-bb5727d88838","blendMode":0,"displayName":"default","isLocked":false,"name":"70fc7987-9b9a-4e63-9639-bb5727d88838","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"07ccfaf2-75e8-4c9f-88a2-cb3a64895a26","blendMode":0,"displayName":"default","isLocked":false,"name":"07ccfaf2-75e8-4c9f-88a2-cb3a64895a26","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Kirby ~ Soft & Wet/Player/Hats/Hats/Ybrik/Original/Sprites.yy",
@@ -54,8 +64,8 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
-    "lockOrigin":false,
+    "length":8.0,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -64,7 +74,7 @@
     },
     "name":"spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":15.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -74,14 +84,35 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ce643f8-bbc2-45e5-a5e1-780e8c66e15c","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"92419768-619b-4e0c-8946-407ab1b4fd34","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0426014c-940d-460c-806d-519a7331f449","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3787f102-25d0-4702-b5bd-c75f9aa2a037","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db91969c-df89-4599-a5f8-ed8225ee78f1","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5f14a6a6-307f-4eee-8854-a64348e8e4d2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62f244ec-2548-41d0-ab51-394d19027522","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"39dc259e-5829-4507-bb43-a4becb40cafc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"68c9cf53-61ba-4f41-9880-44051f820b59","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5bc7085f-b25c-42e7-9be7-b7b296da9c4e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3b55c9e0-a889-4af3-9377-c35926c42338","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5671fed9-4b3b-47e8-92ea-1bbffd5b32cd","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8af679a6-7c90-4899-bcc4-df960f116e39","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9c4d7812-1245-4457-93ef-f8275a6ac6cc","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a498725-5a46-4223-99d6-a0f3972724d8","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e0ad3f91-a449-44e9-a811-478f6bcf2fed","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4801f92-c906-4c36-8292-4e0e04ce6d13","path":"sprites/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow/spr_KSW_Player_Ybrik_Hat_Original_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bcd28bde-ed96-42e7-8917-9bde4b85184a","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":37,
+    "yorigin":34,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +122,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":75,
 }

@@ -2284,8 +2284,8 @@
     {"$GMFolder":"","%Name":"Kirby","folderPath":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Kirby.yy","name":"Kirby","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Marx","folderPath":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Marx.yy","name":"Marx","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Susie","folderPath":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Susie.yy","name":"Susie","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Ybrik","folderPath":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Ybrik.yy","name":"Ybrik","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Waddle Dee","folderPath":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Waddle Dee.yy","name":"Waddle Dee","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Ybrik","folderPath":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Ybrik.yy","name":"Ybrik","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Kirby ~ Soft & Wet/Player/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Kirby ~ Soft & Wet/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sound Effects","folderPath":"folders/Kirby ~ Soft & Wet/Sound Effects.yy","name":"Sound Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -9086,7 +9086,13 @@
           "loadType":"default",
         },
       },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
-    {"$GMTextureGroup":"","%Name":"StarDreamFramework","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{},"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"StarDreamFramework","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"StarDreamFramework","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{
+        "Desktop":{
+          "groupParent":"null",
+          "compressFormat":"bz2",
+          "loadType":"default",
+        },
+      },"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"StarDreamFramework","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"SoftAndWet","autocrop":true,"border":2,"compressFormat":"bz2","ConfigValues":{},"customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"SoftAndWet","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }

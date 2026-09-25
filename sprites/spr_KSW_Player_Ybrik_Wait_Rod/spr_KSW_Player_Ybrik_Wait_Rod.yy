@@ -2,22 +2,25 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Ybrik_Wait_Rod",
   "bboxMode":0,
-  "bbox_bottom":39,
-  "bbox_left":41,
-  "bbox_right":57,
-  "bbox_top":10,
+  "bbox_bottom":36,
+  "bbox_left":45,
+  "bbox_right":69,
+  "bbox_top":18,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
     "DesktopDebug":{
       "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
     },
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
   },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0abd205b-9c73-45ac-9ca1-1542386c6186","name":"0abd205b-9c73-45ac-9ca1-1542386c6186","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b6af81a-dde3-4a7b-a69e-ca7819f08188","name":"2b6af81a-dde3-4a7b-a69e-ca7819f08188","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -64,7 +67,7 @@
     },
     "name":"spr_KSW_Player_Ybrik_Wait_Rod",
     "playback":1,
-    "playbackSpeed":10.0,
+    "playbackSpeed":0.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -74,8 +77,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0abd205b-9c73-45ac-9ca1-1542386c6186","path":"sprites/spr_KSW_Player_Ybrik_Wait_Rod/spr_KSW_Player_Ybrik_Wait_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"511a6923-db4a-4694-b0aa-f85831ee7d2d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b6af81a-dde3-4a7b-a69e-ca7819f08188","path":"sprites/spr_KSW_Player_Ybrik_Wait_Rod/spr_KSW_Player_Ybrik_Wait_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1a6fb62e-e3e6-41ba-aa62-1224af6e7c1b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

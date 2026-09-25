@@ -72,7 +72,7 @@ function scr_KSW_SetHats()
 	var playerID = "ybrik";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
-	scr_KSW_AddHat(playerID + "_" + "Original",playerID,"Original",spr_KSW_Player_Ybrik_Hat_Original_Ready_Shadow,scr_KSW_Player_Ybrik_Hat_Original_SpriteSet(),borange,100,2,5);
+	scr_KSW_AddHat(playerID + "_" + "Original",playerID,"Original",spr_KSW_Player_Ybrik_Hat_Original_Ready_Shadow,scr_KSW_Player_Ybrik_Hat_Original_SpriteSet(),borange,100,0,1);
 	#endregion
 	#endregion
 }
