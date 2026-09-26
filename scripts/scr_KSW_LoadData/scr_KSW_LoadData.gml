@@ -31,24 +31,24 @@ function scr_KSW_LoadData(file,importFile = false)
 	global.KSW_CurrentCoins = ini_read_real("gameplay","coins",0);
 	global.KSW_TotalCoins = ini_read_real("gameplay","totalCoins",0);
 	if (global.KSW_TotalCoins == 0) global.KSW_TotalCoins = global.KSW_CurrentCoins;
-	global.KSW_CurrentStageID = global.KSW_StageIDs[? ini_read_string("gameplay","currentStage","grassBeach")];
+	global.KSW_CurrentStageID = global.KSW_StageIDs[? ini_read_string("gameplay","currentStage","grassBeach")] ?? global.KSW_StageIDs[? "grassBeach"];
 	#endregion
 	
 	#region Player Status
 	for (var i = 0; i < global.maxPlayers; i++)
 	{
-	    global.playerCharacter[i] = global.KSW_CharacterIDs[? ini_read_string("playerStatus","playerCharacter_" + string(i),"kirby")];
+	    global.playerCharacter[i] = global.KSW_CharacterIDs[? ini_read_string("playerStatus","playerCharacter_" + string(i),"kirby")] ?? global.KSW_CharacterIDs[? "kirby"];
 	    global.KSW_PlayerEquippedSprayPaintShuffle[i] = ini_read_real("playerStatus","playerEquippedSprayPaintShuffle_" + string(i),false);
 	    global.KSW_PlayerEquippedHatShuffle[i] = ini_read_real("playerStatus","playerEquippedHatShuffle_" + string(i),false);
 		global.KSW_EquippedBobberShuffle[i] = ini_read_real("playerStatus","equippedBobberShuffle_" + string(i),true);
 		global.KSW_EquippedBobberIsShiny[i] = ini_read_real("playerStatus","equippedBobberIsShiny_" + string(i),false);
-		global.KSW_EquippedBobberID[i] = global.KSW_BobberIDs[? ini_read_string("playerStatus","equippedBobber_" + string(i),"red")];
-		global.KSW_EquippedBaitID[i] = global.KSW_BaitIDs[? ini_read_string("playerStatus","equippedBait_" + string(i),"none")];
+		global.KSW_EquippedBobberID[i] = global.KSW_BobberIDs[? ini_read_string("playerStatus","equippedBobber_" + string(i),"red")] ?? global.KSW_BobberIDs[? "red"];
+		global.KSW_EquippedBaitID[i] = global.KSW_BaitIDs[? ini_read_string("playerStatus","equippedBait_" + string(i),"none")] ?? global.KSW_BaitIDs[? "none"];
 		
 	    for (var h = 0; h < global.KSW_CharacterCount; h++)
 	    {
-	        global.KSW_PlayerEquippedSprayPaintID[i][h] = global.KSW_SprayPaintIDs[? ini_read_string("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].defaultSprayPaint)];
-	        global.KSW_PlayerEquippedHatID[i][h] = global.KSW_HatIDs[? ini_read_string("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].defaultHat)];
+	        global.KSW_PlayerEquippedSprayPaintID[i][h] = global.KSW_SprayPaintIDs[? ini_read_string("playerStatus","playerEquippedSprayPaint_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].defaultSprayPaint)] ?? global.KSW_SprayPaintIDs[? global.KSW_CharacterList[h].defaultSprayPaint];
+	        global.KSW_PlayerEquippedHatID[i][h] = global.KSW_HatIDs[? ini_read_string("playerStatus","playerEquippedHat_" + string(i) + "_" + string(global.KSW_CharacterList[h].ID),global.KSW_CharacterList[h].defaultHat)] ?? global.KSW_HatIDs[? global.KSW_CharacterList[h].defaultHat];
 		}
 	}
 	#endregion
