@@ -124,6 +124,7 @@ function scr_KSW_SetFishes()
 	var series_MinaTheHollower = global.KSW_SeriesIDs[? "minatheHollower"];
 	var series_GhoulsNGhosts = global.KSW_SeriesIDs[? "ghoulsNGhosts"];
 	var series_Mother = global.KSW_SeriesIDs[? "mother"];
+	var series_MotherEncore = global.KSW_SeriesIDs[? "motherEncore"];
 	#endregion
 	
 	#region Stages
@@ -2155,6 +2156,14 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Turbo Man",spr_KSW_Fish_TurboMan,spr_KSW_Fish_TurboMan_Pal,series_MegaMan,glimmer,2,serranoSprings,KSW_Phases.afternoon,70000);
 	//scr_KSW_AddFish("Gameriser",spr_KSW_Fish_Gameriser,spr_KSW_Fish_Gameriser_Pal,series_MegaMan,mint,3,androidPort,KSW_Phases.day,70000);
 	//scr_KSW_AddFish("Guts Man G",spr_KSW_Fish_GutsManG,spr_KSW_Fish_GutsManG_Pal,series_MegaMan,candy,3,serranoSprings,KSW_Phases.afternoon,70000);
+	//scr_KSW_AddFish("Lamp",spr_KSW_Fish_Lamp,spr_KSW_Fish_Lamp_Pal,series_MotherEncore,maze,0,hallowReen,KSW_Phases.night,100);
+	//scr_KSW_AddFish("Ghost (Mother)",spr_KSW_Fish_GhostMother,spr_KSW_Fish_GhostMother_Pal,series_MotherEncore,flux,0,hallowReen,KSW_Phases.night,100);
+	//scr_KSW_AddFish("Gang Zombie",spr_KSW_Fish_GangZombie,spr_KSW_Fish_GangZombie_Pal,series_MotherEncore,legion,0,hallowReen,KSW_Phases.night,100);
+	//scr_KSW_AddFish("Ninten",spr_KSW_Fish_Ninten,spr_KSW_Fish_Ninten_Pal,series_Mother,candy,3,grassBeach,KSW_Phases.none,100000);
+	//scr_KSW_AddFish("Pippi",spr_KSW_Fish_Pippi,spr_KSW_Fish_Pippi_Pal,series_Mother,borange,2,grassBeach,KSW_Phases.night,10000);
+	//scr_KSW_AddFish("Lloyd",spr_KSW_Fish_Lloyd,spr_KSW_Fish_Lloyd_Pal,series_Mother,mint,3,grassBeach,KSW_Phases.none,100000);
+	//scr_KSW_AddFish("Ana",spr_KSW_Fish_Ana,spr_KSW_Fish_Ana_Pal,series_Mother,mage,3,grassBeach,KSW_Phases.day,100000);
+	//scr_KSW_AddFish("Teddy",spr_KSW_Fish_Teddy,spr_KSW_Fish_Teddy_Pal,series_Mother,maze,2,androidPort,KSW_Phases.night,10000);
 	//scr_KSW_AddFish("New Age Retro Hippie",spr_KSW_Fish_NewAgeRetroHippie,spr_KSW_Fish_NewAgeRetroHippie_Pal,series_Mother,candy,1,grassBeach,KSW_Phases.day,2000);
 	//scr_KSW_AddFish("Mad Duck",spr_KSW_Fish_MadDuck,spr_KSW_Fish_MadDuck_Pal,series_Mother,mage,0,creamCrevasse,KSW_Phases.day,200);
 	//scr_KSW_AddFish("Worthless Protoplasm",spr_KSW_Fish_WorthlessProtoplasm,spr_KSW_Fish_WorthlessProtoplasm_Pal,series_Mother,flux,0,creamCrevasse,KSW_Phases.night,200);
