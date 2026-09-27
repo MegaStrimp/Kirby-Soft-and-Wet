@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Chica_Pal",
   "bboxMode":0,
-  "bbox_bottom":1028,
+  "bbox_bottom":15,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"bccaffac-7912-4444-a3f1-d63034ce5763","name":"bccaffac-7912-4444-a3f1-d63034ce5763","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ecd64594-6464-4c0d-acd0-f1a37f9a6d96","name":"ecd64594-6464-4c0d-acd0-f1a37f9a6d96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1029,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"23182119-de19-4fa3-9531-e091286dbf1d","blendMode":0,"displayName":"default","isLocked":false,"name":"23182119-de19-4fa3-9531-e091286dbf1d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8a458fdb-9177-40e5-8618-53186c620cf8","blendMode":0,"displayName":"default","isLocked":false,"name":"8a458fdb-9177-40e5-8618-53186c620cf8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Chica_Pal",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bccaffac-7912-4444-a3f1-d63034ce5763","path":"sprites/spr_KSW_Fish_Chica_Pal/spr_KSW_Fish_Chica_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4b7dcfbe-cdc2-444d-8b09-64b9c328f31c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ecd64594-6464-4c0d-acd0-f1a37f9a6d96","path":"sprites/spr_KSW_Fish_Chica_Pal/spr_KSW_Fish_Chica_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f64a9a93-a6a6-4ea4-85d5-84dbd9b8accf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

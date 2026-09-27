@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Bonnie_Pal",
   "bboxMode":0,
-  "bbox_bottom":686,
+  "bbox_bottom":15,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c0cd401a-5f25-4265-af90-7b7fd1082cf8","name":"c0cd401a-5f25-4265-af90-7b7fd1082cf8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f73bef0a-2234-4632-b7d8-52665dc4fd58","name":"f73bef0a-2234-4632-b7d8-52665dc4fd58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":687,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"707aae64-e5a1-4e0c-b9ee-d1a03951b089","blendMode":0,"displayName":"default","isLocked":false,"name":"707aae64-e5a1-4e0c-b9ee-d1a03951b089","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1e4e14ef-659e-407f-84d5-49714230ab70","blendMode":0,"displayName":"default","isLocked":false,"name":"1e4e14ef-659e-407f-84d5-49714230ab70","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Bonnie_Pal",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0cd401a-5f25-4265-af90-7b7fd1082cf8","path":"sprites/spr_KSW_Fish_Bonnie_Pal/spr_KSW_Fish_Bonnie_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a65fb92a-c341-43fc-9063-4321d98f491b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f73bef0a-2234-4632-b7d8-52665dc4fd58","path":"sprites/spr_KSW_Fish_Bonnie_Pal/spr_KSW_Fish_Bonnie_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5dc2598a-7099-4a91-b81e-5f695d6c621a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
