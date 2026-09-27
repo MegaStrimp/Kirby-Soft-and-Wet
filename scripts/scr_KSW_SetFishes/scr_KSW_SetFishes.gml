@@ -2271,6 +2271,18 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Samba",spr_KSW_Fish_Samba,spr_KSW_Fish_Samba_Pal,series_Mother,borange,2,serranoSprings,KSW_Phases.none,30000);
 	//scr_KSW_AddFish("Masked Man",spr_KSW_Fish_MaskedMan,spr_KSW_Fish_MaskedMan_Pal,series_Mother,legion,3,androidPort,KSW_Phases.none,30000);
 	//scr_KSW_AddFish("Porky",spr_KSW_Fish_Porky,spr_KSW_Fish_Porky_Pal,series_Mother,flux,3,androidPort,KSW_Phases.none,300000);
+	//scr_KSW_AddFish("Spongebob",spr_KSW_Fish_Spongebob,spr_KSW_Fish_Spongebob_Pal,series_Spongebob,glimmer,3,grassBeach,KSW_Phases.none,199900);
+	//scr_KSW_AddFish("Patrick",spr_KSW_Fish_Patrick,spr_KSW_Fish_Patrick_Pal,series_Spongebob,glimmer,3,grassBeach,KSW_Phases.none,199900);
+	//scr_KSW_AddFish("Squidward",spr_KSW_Fish_Squidward,spr_KSW_Fish_Squidward_Pal,series_Spongebob,legion,2,grassBeach,KSW_Phases.none,19990);
+	//scr_KSW_AddFish("Sandy Cheeks",spr_KSW_Fish_SandyCheeks,spr_KSW_Fish_SandyCheeks_Pal,series_Spongebob,borange,2,grassBeach,KSW_Phases.none,19990);
+	//scr_KSW_AddFish("Mr. Krabs",spr_KSW_Fish_MrKrabs,spr_KSW_Fish_MrKrabs_Pal,series_Spongebob,candy,2,grassBeach,KSW_Phases.day,19990);
+	//scr_KSW_AddFish("Plankton",spr_KSW_Fish_Plankton,spr_KSW_Fish_Plankton_Pal,series_Spongebob,mint,2,grassBeach,KSW_Phases.night,19990);
+	//scr_KSW_AddFish("Gary",spr_KSW_Fish_Gary,spr_KSW_Fish_Gary_Pal,series_Spongebob,glimmer,1,grassBeach,KSW_Phases.afternoon,1999);
+	//scr_KSW_AddFish("Hans",spr_KSW_Fish_Hans,spr_KSW_Fish_Hans_Pal,series_Spongebob,maze,1,grassBeach,KSW_Phases.none,1999);
+	//scr_KSW_AddFish("Jellyfish (Spongebob)",spr_KSW_Fish_JellyfishSpongebob,spr_KSW_Fish_JellyfishSpongebob_Pal,series_Spongebob,candy,0,grassBeach,KSW_Phases.none,199);
+	//scr_KSW_AddFish("Alaskan Bull Worm",spr_KSW_Fish_AlaskanBullWorm,spr_KSW_Fish_AlaskanBullWorm_Pal,series_Spongebob,mage,1,creamCrevasse,KSW_Phases.none,1999);
+	//scr_KSW_AddFish("The Flying Dutchman",spr_KSW_Fish_FlyingDutchman,spr_KSW_Fish_FlyingDutchman_Pal,series_Spongebob,maze,2,hallowReen,KSW_Phases.night,19990);
+	//scr_KSW_AddFish("The Flying Dutchman's Ship",spr_KSW_Fish_FlyingDutchmanShip,spr_KSW_Fish_FlyingDutchmanShip_Pal,series_Spongebob,maze,3,hallowReen,KSW_Phases.night,199900);
 	
 	#endregion
 	#endregion
