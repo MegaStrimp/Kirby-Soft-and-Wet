@@ -125,6 +125,8 @@ function scr_KSW_SetFishes()
 	var series_GhoulsNGhosts = global.KSW_SeriesIDs[? "ghoulsNGhosts"];
 	var series_Mother = global.KSW_SeriesIDs[? "mother"];
 	var series_MotherEncore = global.KSW_SeriesIDs[? "motherEncore"];
+	var series_Banjo = global.KSW_SeriesIDs[? "banjo"];
+	
 	#endregion
 	
 	#region Stages
@@ -2283,6 +2285,16 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Alaskan Bull Worm",spr_KSW_Fish_AlaskanBullWorm,spr_KSW_Fish_AlaskanBullWorm_Pal,series_Spongebob,mage,1,creamCrevasse,KSW_Phases.none,1999);
 	//scr_KSW_AddFish("The Flying Dutchman",spr_KSW_Fish_FlyingDutchman,spr_KSW_Fish_FlyingDutchman_Pal,series_Spongebob,maze,2,hallowReen,KSW_Phases.night,19990);
 	//scr_KSW_AddFish("The Flying Dutchman's Ship",spr_KSW_Fish_FlyingDutchmanShip,spr_KSW_Fish_FlyingDutchmanShip_Pal,series_Spongebob,maze,3,hallowReen,KSW_Phases.night,199900);
+	//scr_KSW_AddFish("Honeycomb",spr_KSW_Fish_Honeycomb,spr_KSW_Fish_Honeycomb_Pal,series_Banjo,glimmer,0,creamCrevasse,KSW_Phases.none,250);
+	//scr_KSW_AddFish("Hollow Honeycomb",spr_KSW_Fish_HollowHoneycomb,spr_KSW_Fish_HollowHoneycomb_Pal,series_Banjo,glimmer,1,creamCrevasse,KSW_Phases.none,500);
+	//scr_KSW_AddFish("Jiggy",spr_KSW_Fish_Jiggy,spr_KSW_Fish_Jiggy_Pal,series_Banjo,glimmer,2,grassBeach,KSW_Phases.day,5000);
+	//scr_KSW_AddFish("Yum-Yum",spr_KSW_Fish_YumYum,spr_KSW_Fish_YumYum_Pal,series_Banjo,mage,0,grassBeach,KSW_Phases.none,200);
+	//scr_KSW_AddFish("Snippet",spr_KSW_Fish_Snippet,spr_KSW_Fish_Snippet_Pal,series_Banjo,legion,1,grassBeach,KSW_Phases.day,2500);
+	//scr_KSW_AddFish("Snorkel",spr_KSW_Fish_Snorkel,spr_KSW_Fish_Snorkel_Pal,series_Banjo,flux,2,grassBeach,KSW_Phases.afternoon,10000);
+	//scr_KSW_AddFish("Tee-Hee",spr_KSW_Fish_TeeHee,spr_KSW_Fish_TeeHee_Pal,series_Banjo,mint,1,hallowReen,KSW_Phases.night,1000);
+	//scr_KSW_AddFish("Candle Banjo",spr_KSW_Fish_CandleBanjo,spr_KSW_Fish_CandleBanjo_Pal,series_Banjo,candy,3,hallowReen,KSW_Phases.none,7500);
+	//scr_KSW_AddFish("Tank Banjo",spr_KSW_Fish_TankBanjo,spr_KSW_Fish_TankBanjo_Pal,series_Banjo,mint,3,androidPort,KSW_Phases.afternoon,20000);
+	//scr_KSW_AddFish("Mecha Grunty",spr_KSW_Fish_MechaGrunty,spr_KSW_Fish_MechaGrunty_Pal,series_Banjo,maze,3,androidPort,KSW_Phases.night,100000);
 	
 	#endregion
 	#endregion
