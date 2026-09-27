@@ -89,6 +89,8 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("diamond","Diamond",spr_KSW_Bobber_Diamond,spr_KSW_Bobber_Diamond_Pal,mage,50,0,-5);
 	scr_KSW_AddBobber("stardrop","Stardrop",spr_KSW_Bobber_Stardrop,spr_KSW_Bobber_Stardrop_Pal,flux,50,0,-4);
 	scr_KSW_AddBobber("luckyShorts","Lucky Shorts",spr_KSW_Bobber_LuckyShorts,spr_KSW_Bobber_LuckyShorts_Pal,flux,50,0,-5);
+	scr_KSW_AddBobber("scarfy","Scarfy",spr_KSW_Bobber_Scarfy,spr_KSW_Bobber_Scarfy_Pal,borange,50,0,-4);
+	scr_KSW_AddBobber("NCScarfy","NC Scarfy",spr_KSW_Bobber_NCScarfy,spr_KSW_Bobber_NCScarfy_Pal,borange,50,0,-3);
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,0,-7);
 	scr_KSW_AddBobber("starDream","Star Dream",spr_KSW_Bobber_StarDream,spr_KSW_Bobber_StarDream_Pal,candy,0,0,-5);
