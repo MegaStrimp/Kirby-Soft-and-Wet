@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_GutsButt_Pal",
   "bboxMode":0,
-  "bbox_bottom":168,
+  "bbox_bottom":15,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0022b509-b581-46a7-b084-ed033546d97f","name":"0022b509-b581-46a7-b084-ed033546d97f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"074c195f-5d0f-4dcd-be4b-b1fb29a21fe4","name":"074c195f-5d0f-4dcd-be4b-b1fb29a21fe4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":169,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cb9ea1c7-68a7-4c4c-8a2a-8669d6ab6cb9","blendMode":0,"displayName":"default","isLocked":false,"name":"cb9ea1c7-68a7-4c4c-8a2a-8669d6ab6cb9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ae4a9c8d-761c-4ad6-b0bf-1bc7b91f374d","blendMode":0,"displayName":"default","isLocked":false,"name":"ae4a9c8d-761c-4ad6-b0bf-1bc7b91f374d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_GutsButt_Pal",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0022b509-b581-46a7-b084-ed033546d97f","path":"sprites/spr_KSW_Fish_GutsButt_Pal/spr_KSW_Fish_GutsButt_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"66de75b4-ed7a-491b-9535-da910ed5ee3f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"074c195f-5d0f-4dcd-be4b-b1fb29a21fe4","path":"sprites/spr_KSW_Fish_GutsButt_Pal/spr_KSW_Fish_GutsButt_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0e043b16-a116-44a7-93bf-e7fa14f9b395","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
