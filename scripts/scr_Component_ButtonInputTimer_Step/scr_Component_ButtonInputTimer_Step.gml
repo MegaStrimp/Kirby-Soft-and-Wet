@@ -1,13 +1,13 @@
 ///@description Component - Button Input Timer - Step
 
-function scr_Component_ButtonInputTimer_Step()
+function scr_Component_ButtonInputTimer_Step(targetSpeedMultFinal = speedMultFinal)
 {
 	#region Button Input Up Timer
 	if (input_check_pressed("up",playerNum)) buttonInputTimerComponent_UpTimer = buttonInputTimerComponent_TimerMax;
 	
 	if (buttonInputTimerComponent_UpTimer != -1)
 	{
-		buttonInputTimerComponent_UpTimer = max(buttonInputTimerComponent_UpTimer - speedMultFinal,0);
+		buttonInputTimerComponent_UpTimer = max(buttonInputTimerComponent_UpTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_UpTimer == 0)
 		{
 			buttonInputTimerComponent_UpTimer = -1;
@@ -20,7 +20,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_DownTimer != -1)
 	{
-		buttonInputTimerComponent_DownTimer = max(buttonInputTimerComponent_DownTimer - speedMultFinal,0);
+		buttonInputTimerComponent_DownTimer = max(buttonInputTimerComponent_DownTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_DownTimer == 0)
 		{
 			buttonInputTimerComponent_DownTimer = -1;
@@ -33,7 +33,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_LeftTimer != -1)
 	{
-		buttonInputTimerComponent_LeftTimer = max(buttonInputTimerComponent_LeftTimer - speedMultFinal,0);
+		buttonInputTimerComponent_LeftTimer = max(buttonInputTimerComponent_LeftTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_LeftTimer == 0)
 		{
 			buttonInputTimerComponent_LeftTimer = -1;
@@ -46,7 +46,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_RightTimer != -1)
 	{
-		buttonInputTimerComponent_RightTimer = max(buttonInputTimerComponent_RightTimer - speedMultFinal,0);
+		buttonInputTimerComponent_RightTimer = max(buttonInputTimerComponent_RightTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_RightTimer == 0)
 		{
 			buttonInputTimerComponent_RightTimer = -1;
@@ -59,7 +59,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_ATimer != -1)
 	{
-		buttonInputTimerComponent_ATimer = max(buttonInputTimerComponent_ATimer - speedMultFinal,0);
+		buttonInputTimerComponent_ATimer = max(buttonInputTimerComponent_ATimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_ATimer == 0)
 		{
 			buttonInputTimerComponent_ATimer = -1;
@@ -72,7 +72,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_BTimer != -1)
 	{
-		buttonInputTimerComponent_BTimer = max(buttonInputTimerComponent_BTimer - speedMultFinal,0);
+		buttonInputTimerComponent_BTimer = max(buttonInputTimerComponent_BTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_BTimer == 0)
 		{
 			buttonInputTimerComponent_BTimer = -1;
@@ -85,7 +85,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_XTimer != -1)
 	{
-		buttonInputTimerComponent_XTimer = max(buttonInputTimerComponent_XTimer - speedMultFinal,0);
+		buttonInputTimerComponent_XTimer = max(buttonInputTimerComponent_XTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_XTimer == 0)
 		{
 			buttonInputTimerComponent_XTimer = -1;
@@ -98,7 +98,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_YTimer != -1)
 	{
-		buttonInputTimerComponent_YTimer = max(buttonInputTimerComponent_YTimer - speedMultFinal,0);
+		buttonInputTimerComponent_YTimer = max(buttonInputTimerComponent_YTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_YTimer == 0)
 		{
 			buttonInputTimerComponent_YTimer = -1;
@@ -111,7 +111,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_LTimer != -1)
 	{
-		buttonInputTimerComponent_LTimer = max(buttonInputTimerComponent_LTimer - speedMultFinal,0);
+		buttonInputTimerComponent_LTimer = max(buttonInputTimerComponent_LTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_LTimer == 0)
 		{
 			buttonInputTimerComponent_LTimer = -1;
@@ -124,7 +124,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_RTimer != -1)
 	{
-		buttonInputTimerComponent_RTimer = max(buttonInputTimerComponent_RTimer - speedMultFinal,0);
+		buttonInputTimerComponent_RTimer = max(buttonInputTimerComponent_RTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_RTimer == 0)
 		{
 			buttonInputTimerComponent_RTimer = -1;
@@ -137,7 +137,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_LTTimer != -1)
 	{
-		buttonInputTimerComponent_LTTimer = max(buttonInputTimerComponent_LTTimer - speedMultFinal,0);
+		buttonInputTimerComponent_LTTimer = max(buttonInputTimerComponent_LTTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_LTTimer == 0)
 		{
 			buttonInputTimerComponent_LTTimer = -1;
@@ -150,7 +150,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_RTTimer != -1)
 	{
-		buttonInputTimerComponent_RTTimer = max(buttonInputTimerComponent_RTTimer - speedMultFinal,0);
+		buttonInputTimerComponent_RTTimer = max(buttonInputTimerComponent_RTTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_RTTimer == 0)
 		{
 			buttonInputTimerComponent_RTTimer = -1;
@@ -163,7 +163,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_StartTimer != -1)
 	{
-		buttonInputTimerComponent_StartTimer = max(buttonInputTimerComponent_StartTimer - speedMultFinal,0);
+		buttonInputTimerComponent_StartTimer = max(buttonInputTimerComponent_StartTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_StartTimer == 0)
 		{
 			buttonInputTimerComponent_StartTimer = -1;
@@ -176,7 +176,7 @@ function scr_Component_ButtonInputTimer_Step()
 	
 	if (buttonInputTimerComponent_SelectTimer != -1)
 	{
-		buttonInputTimerComponent_SelectTimer = max(buttonInputTimerComponent_SelectTimer - speedMultFinal,0);
+		buttonInputTimerComponent_SelectTimer = max(buttonInputTimerComponent_SelectTimer - targetSpeedMultFinal,0);
 		if (buttonInputTimerComponent_SelectTimer == 0)
 		{
 			buttonInputTimerComponent_SelectTimer = -1;

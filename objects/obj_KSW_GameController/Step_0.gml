@@ -599,7 +599,7 @@ if (!localPause)
 				
 				state = KSW_GameStates.catching;
 				
-				var pityRate = 4 + floor(global.levelScoreCurrent / 1000000);
+				var pityRate = 2 + floor(global.levelScoreCurrent / 5000000);
 				for (var i = 0; i < pityRate; i++)
 				{
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];
