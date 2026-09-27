@@ -16,6 +16,10 @@ function scr_KSW_SaveData(file)
 		}
 	
 		ini_open(fileFinal);
+		
+		#region Meta
+		ini_write_string("meta","versionNumber",global.versionNumber);
+		#endregion
 	
 		#region Gameplay
 		if (global.levelScoreCurrent != 0) ini_write_real("gameplay","score",global.levelScoreCurrent);
