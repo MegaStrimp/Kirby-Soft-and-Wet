@@ -3563,6 +3563,8 @@
     {"name":"spr_KSW_Bobber_Boot","order":122,"path":"sprites/spr_KSW_Bobber_Boot/spr_KSW_Bobber_Boot.yy",},
     {"name":"spr_KSW_Bobber_Clyde_Pal","order":69,"path":"sprites/spr_KSW_Bobber_Clyde_Pal/spr_KSW_Bobber_Clyde_Pal.yy",},
     {"name":"spr_KSW_Bobber_Clyde","order":68,"path":"sprites/spr_KSW_Bobber_Clyde/spr_KSW_Bobber_Clyde.yy",},
+    {"name":"spr_KSW_Bobber_CoreDrill_Pal","order":161,"path":"sprites/spr_KSW_Bobber_CoreDrill_Pal/spr_KSW_Bobber_CoreDrill_Pal.yy",},
+    {"name":"spr_KSW_Bobber_CoreDrill","order":160,"path":"sprites/spr_KSW_Bobber_CoreDrill/spr_KSW_Bobber_CoreDrill.yy",},
     {"name":"spr_KSW_Bobber_Cork_Pal","order":113,"path":"sprites/spr_KSW_Bobber_Cork_Pal/spr_KSW_Bobber_Cork_Pal.yy",},
     {"name":"spr_KSW_Bobber_Cork","order":112,"path":"sprites/spr_KSW_Bobber_Cork/spr_KSW_Bobber_Cork.yy",},
     {"name":"spr_KSW_Bobber_DarkMatter_Pal","order":19,"path":"sprites/spr_KSW_Bobber_DarkMatter_Pal/spr_KSW_Bobber_DarkMatter_Pal.yy",},
