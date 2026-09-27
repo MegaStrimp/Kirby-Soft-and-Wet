@@ -20,6 +20,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("doshinTheGiant","Doshin The Giant");
 	scr_KSW_AddSeries("theLegendOfZelda","The Legend of Zelda");
 	scr_KSW_AddSeries("terraria","Terraria");
+	scr_KSW_AddSeries("terrariaCalamity","Terraria: Calamity Mod");
 	scr_KSW_AddSeries("pokemon","Pokemon");
 	scr_KSW_AddSeries("pmdEoF","PMD: Explorers of Fortune");
 	scr_KSW_AddSeries("warioLand","Wario Land");

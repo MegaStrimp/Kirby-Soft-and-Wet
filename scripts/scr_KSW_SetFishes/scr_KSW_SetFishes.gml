@@ -23,6 +23,7 @@ function scr_KSW_SetFishes()
 	var series_DoshinTheGiant = global.KSW_SeriesIDs[? "doshinTheGiant"];
 	var series_TheLegendOfZelda = global.KSW_SeriesIDs[? "theLegendOfZelda"];
 	var series_Terraria = global.KSW_SeriesIDs[? "terraria"];
+	var series_TerrariaCalamity = global.KSW_SeriesIDs[? "terrariaCalamity"];
 	var series_Pokemon = global.KSW_SeriesIDs[? "pokemon"];
 	var series_PMDEoF = global.KSW_SeriesIDs[? "pmdEoF"];
 	var series_WarioLand = global.KSW_SeriesIDs[? "warioLand"];
@@ -2295,6 +2296,11 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Candle Banjo",spr_KSW_Fish_CandleBanjo,spr_KSW_Fish_CandleBanjo_Pal,series_Banjo,candy,3,hallowReen,KSW_Phases.none,7500);
 	//scr_KSW_AddFish("Tank Banjo",spr_KSW_Fish_TankBanjo,spr_KSW_Fish_TankBanjo_Pal,series_Banjo,mint,3,androidPort,KSW_Phases.afternoon,20000);
 	//scr_KSW_AddFish("Mecha Grunty",spr_KSW_Fish_MechaGrunty,spr_KSW_Fish_MechaGrunty_Pal,series_Banjo,maze,3,androidPort,KSW_Phases.night,100000);
+	//scr_KSW_AddFish("Polaris Parrotfish",spr_KSW_Fish_PolarisParrotfish,spr_KSW_Fish_PolarisParrotfish_Pal,series_TerrariaCalamity,glimmer,3,hallowReen,KSW_Phases.night,3500);
+	//scr_KSW_AddFish("Giant Clam",spr_KSW_Fish_GiantClam,spr_KSW_Fish_GiantClam_Pal,series_TerrariaCalamity,legion,1,grassBeach,KSW_Phases.none,5500);
+	//scr_KSW_AddFish("Aquatic Scourge",spr_KSW_Fish_AquaticScourge,spr_KSW_Fish_AquaticScourge_Pal,series_TerrariaCalamity,glimmer,3,serranoSprings,KSW_Phases.day,50000);
+	//scr_KSW_AddFish("Anahita",spr_KSW_Fish_Anahita,spr_KSW_Fish_Anahita_Pal,series_TerrariaCalamity,mage,1,grassBeach,KSW_Phases.day,3500);
+	//scr_KSW_AddFish("Old Duke",spr_KSW_Fish_OldDuke,spr_KSW_Fish_OldDuke_Pal,series_TerrariaCalamity,mint,2,serranoSprings,KSW_Phases.night,19500);
 	
 	#endregion
 	#endregion
