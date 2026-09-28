@@ -128,6 +128,10 @@ function scr_KSW_SetFishes()
 	var series_MotherEncore = global.KSW_SeriesIDs[? "motherEncore"];
 	var series_Banjo = global.KSW_SeriesIDs[? "banjo"];
 	var series_HaloDemake = global.KSW_SeriesIDs[? "haloDemake"];
+	var series_GeometryDash = global.KSW_SeriesIDs[? "geometryDash"];
+	var series_MetalGear = global.KSW_SeriesIDs[? "metalGear"];
+	var series_Fallout = global.KSW_SeriesIDs[? "fallout"];
+	var series_Portal = global.KSW_SeriesIDs[? "portal"];
 	
 	#endregion
 	
@@ -2328,6 +2332,17 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Captain Keyes",spr_KSW_Fish_CaptainKeyes,spr_KSW_Fish_CaptainKeyes_Pal,series_HaloDemake,glimmer,2,androidPort,KSW_Phases.afternoon,2001);
 	//scr_KSW_AddFish("Master Chief",spr_KSW_Fish_MasterChief,spr_KSW_Fish_MasterChief_Pal,series_HaloDemake,maze,3,androidPort,KSW_Phases.none,20070);
 	//scr_KSW_AddFish("Warthog",spr_KSW_Fish_Warthog,spr_KSW_Fish_Warthog_Pal,series_HaloDemake,mint,3,androidPort,KSW_Phases.none,20070);
+	//scr_KSW_AddFish("Cube",spr_KSW_Fish_Cube,spr_KSW_Fish_Cube_Pal,series_GeometryDash,flux,3,androidPort,KSW_Phases.none,20130);
+	//scr_KSW_AddFish("Red (Bird)",spr_KSW_Fish_RedBird,spr_KSW_Fish_RedBird_Pal,series_AngryBirds,candy,3,androidPort,KSW_Phases.none,209);
+	//scr_KSW_AddFish("Chuck",spr_KSW_Fish_Chuck,spr_KSW_Fish_Chuck_Pal,series_AngryBirds,maze,3,androidPort,KSW_Phases.none,2009);
+	//scr_KSW_AddFish("Bomb",spr_KSW_Fish_Bomb,spr_KSW_Fish_Bomb_Pal,series_AngryBirds,borange,3,androidPort,KSW_Phases.none,2009);
+	//scr_KSW_AddFish("The Blues",spr_KSW_Fish_TheBlues,spr_KSW_Fish_TheBlues_Pal,series_AngryBirds,mage,3,androidPort,KSW_Phases.none,2009);
+	//scr_KSW_AddFish("Matilda",spr_KSW_Fish_Matilda,spr_KSW_Fish_Matilda_Pal,series_AngryBirds,glimmer,3,androidPort,KSW_Phases.none,2009);
+	//scr_KSW_AddFish("Small Pig",spr_KSW_Fish_SmallPig,spr_KSW_Fish_SmallPig_Pal,series_AngryBirds,mint,0,androidPort,KSW_Phases.none,29);
+	//scr_KSW_AddFish("Medium Pig",spr_KSW_Fish_MediumPig,spr_KSW_Fish_MediumPig_Pal,series_AngryBirds,mint,1,androidPort,KSW_Phases.none,209);
+	//scr_KSW_AddFish("Corporal Pig",spr_KSW_Fish_CorporalPig,spr_KSW_Fish_CorporalPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
+	//scr_KSW_AddFish("Foreman Pig",spr_KSW_Fish_ForemanPig,spr_KSW_Fish_ForemanPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
+	//scr_KSW_AddFish("King Pig",spr_KSW_Fish_KingPig,spr_KSW_Fish_KingPig_Pal,series_AngryBirds,mint,3,androidPort,KSW_Phases.none,20090);
 	
 	#endregion
 	#endregion

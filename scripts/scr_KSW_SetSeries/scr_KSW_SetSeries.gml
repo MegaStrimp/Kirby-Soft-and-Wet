@@ -122,6 +122,11 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("motherEncore","Mother: Encore");
 	scr_KSW_AddSeries("banjo","Banjo-Kazooie");
 	scr_KSW_AddSeries("haloDemake","Halo Combat Devolved");
+	scr_KSW_AddSeries("angryBirds","Angry Birds");
+	scr_KSW_AddSeries("geometryDash","Geometry Dash");
+	scr_KSW_AddSeries("metalGear","MetalGearSolid");
+	scr_KSW_AddSeries("fallout","Fallout");
+	scr_KSW_AddSeries("portal","Portal");
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
