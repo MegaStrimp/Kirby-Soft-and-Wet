@@ -1196,6 +1196,8 @@ sheetWidth = sprite_get_width(spr_KSW_Menu_Credits_Sheet);
 bubbleTimer = 0;
 bubbleTimerMax = 30;
 
+speedMultGlobalPrev = global.speedMultGlobal;
+
 exitTimer = ((((array_length(creditsNames) + 2) * 16) + global.gameHeight) * scrollTimerMax);
 #endregion
 #endregion
