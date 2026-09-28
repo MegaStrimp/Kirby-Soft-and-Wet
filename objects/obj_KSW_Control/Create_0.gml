@@ -89,6 +89,8 @@ global.KSW_MusicShuffle = false;
 
 global.KSW_DebugRig = -1;
 
+global.KSW_BubblePalette = spr_KSW_UI_CatchInput_Palette_Day;
+
 global.tapFeedbackStars = [];
 global.tapDragLastX = 0;
 global.tapDragLastY = 0;

@@ -5,7 +5,12 @@ if (state < 3)
 {
 	draw_sprite_ext(spr_KSW_Menu_SplashScreen_StrimpsKitchen_Transparent,0,room_width / 2,textY,1,1,wave,image_blend,image_alpha);
 	draw_sprite(spr_KSW_Menu_SplashScreen_Strimp,strimpIndex,room_width / 2,textY + strimpY);
-	if (strimpBubbleSize != 0) draw_sprite_ext(spr_KSW_Menu_SplashScreen_StrimpBubble,strimpIndex,room_width / 2,textY + strimpY,strimpBubbleSize,strimpBubbleSize,image_angle,image_blend,image_alpha);
+	if (strimpBubbleSize != 0)
+	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
+		draw_sprite_ext(spr_KSW_Menu_SplashScreen_StrimpBubble,strimpIndex,room_width / 2,textY + strimpY,strimpBubbleSize,strimpBubbleSize,image_angle,image_blend,image_alpha);
+		if (global.shaders) pal_swap_reset();
+	}
 }
 #endregion
 
