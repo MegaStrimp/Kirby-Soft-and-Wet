@@ -126,5 +126,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("kirbyEXE","Kirby EXE");
 	scr_KSW_AddSeries("dreamLand2002","Dream Land 2002");
 	scr_KSW_AddSeries("bendyAndTheInkMachine","Bendy and the Ink Machine");
+	scr_KSW_AddSeries("shinMegamiTensei","Shin Megami Tensei");
 	#endregion
 }

@@ -129,6 +129,7 @@ function scr_KSW_SetFishes()
 	var series_NightmareCollection = global.KSW_SeriesIDs[? "nightmareCollection"];
 	var series_DreamLand2002 = global.KSW_SeriesIDs[? "dreamLand2002"];
 	var series_BendyAndTheInkMachine = global.KSW_SeriesIDs[? "bendyAndTheInkMachine"];
+	var series_ShinMegamiTensei = global.KSW_SeriesIDs[? "shinMegamiTensei"];
 	#endregion
 	
 	#region Stages
@@ -2122,23 +2123,23 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Tormentis",spr_KSW_Fish_Tormentis,spr_KSW_Fish_Tormentis_Pal,series_KirbyEXE,mint,2,androidPort,KSW_Phases.night,8600);
 	scr_KSW_AddFish("Ado64's Canvas",spr_KSW_Fish_Ado64sCanvas,spr_KSW_Fish_Ado64sCanvas_Pal,series_KirbyEXE,candy,2,hallowReen,KSW_Phases.night,640);
 	scr_KSW_AddFish("Ado64's True Canvas",spr_KSW_Fish_Ado64sTrueCanvas,spr_KSW_Fish_Ado64sTrueCanvas_Pal,series_KirbyEXE,candy,3,hallowReen,KSW_Phases.night,6400);
-	scr_KSW_AddFish("Tyrant's Statue",spr_KSW_Fish_TyrantsStatue,spr_KSW_Fish_TyrantsStatue_Pal,series_KirbyEXE,mint,2,hallowReen,KSW_Phases.night,191122);
+	scr_KSW_AddFish("Tyrant's Statue",spr_KSW_Fish_TyrantsStatue,spr_KSW_Fish_TyrantsStatue_Pal,series_KirbyEXE,mint,2,hallowReen,KSW_Phases.night,19112);
 	scr_KSW_AddFish("Mortis' Skull",spr_KSW_Fish_MortisSkull,spr_KSW_Fish_MortisSkull_Pal,series_KirbyEXE,mint,1,hallowReen,KSW_Phases.night,66);
 	scr_KSW_AddFish("Remnants",spr_KSW_Fish_Remnants,spr_KSW_Fish_Remnants_Pal,series_KirbyEXE,flux,2,hallowReen,KSW_Phases.afternoon,1800);
 	scr_KSW_AddFish("Eggby",spr_KSW_Fish_Eggby,spr_KSW_Fish_Eggby_Pal,series_KirbyEXE,glimmer,2,hallowReen,KSW_Phases.day,5000);
-	scr_KSW_AddFish("Gluttonatas Tadpole",spr_KSW_Fish_GluttonatasTadpole,spr_KSW_Fish_GluttonatasTadpole_Pal,series_KirbyEXE,borange,2,serranoSprings,KSW_Phases.night,272155);
+	scr_KSW_AddFish("Gluttonatas Tadpole",spr_KSW_Fish_GluttonatasTadpole,spr_KSW_Fish_GluttonatasTadpole_Pal,series_KirbyEXE,borange,2,serranoSprings,KSW_Phases.night,27215);
 	scr_KSW_AddFish("Swarmed",spr_KSW_Fish_Swarmed,spr_KSW_Fish_Swarmed_Pal,series_KirbyEXE,borange,1,hallowReen,KSW_Phases.afternoon,2500);
-	scr_KSW_AddFish("Cropple Foo",spr_KSW_Fish_CroppleFoo,spr_KSW_Fish_CroppleFoo_Pal,series_KirbyEXE,candy,2,hallowReen,KSW_Phases.afternoon,102822);
+	scr_KSW_AddFish("Cropple Foo",spr_KSW_Fish_CroppleFoo,spr_KSW_Fish_CroppleFoo_Pal,series_KirbyEXE,candy,2,hallowReen,KSW_Phases.afternoon,10282);
 	scr_KSW_AddFish("Zombie Dee",spr_KSW_Fish_ZombieDee,spr_KSW_Fish_ZombieDee_Pal,series_DreamLand2002,legion,0,hallowReen,KSW_Phases.night,350);
 	scr_KSW_AddFish("Zombie Doo",spr_KSW_Fish_ZombieDoo,spr_KSW_Fish_ZombieDoo_Pal,series_DreamLand2002,legion,0,hallowReen,KSW_Phases.night,400);
-	scr_KSW_AddFish("Not Whispy",spr_KSW_Fish_NotWhispy,spr_KSW_Fish_NotWhispy_Pal,series_DreamLand2002,legion,1,hallowReen,KSW_Phases.night,10000);
-	scr_KSW_AddFish("Not Kracko",spr_KSW_Fish_NotKracko,spr_KSW_Fish_NotKracko_Pal,series_DreamLand2002,legion,1,hallowReen,KSW_Phases.afternoon,15000);
+	scr_KSW_AddFish("Not Whispy",spr_KSW_Fish_NotWhispy,spr_KSW_Fish_NotWhispy_Pal,series_DreamLand2002,legion,1,hallowReen,KSW_Phases.night,1000);
+	scr_KSW_AddFish("Not Kracko",spr_KSW_Fish_NotKracko,spr_KSW_Fish_NotKracko_Pal,series_DreamLand2002,legion,1,hallowReen,KSW_Phases.afternoon,1500);
 	scr_KSW_AddFish("Statue",spr_KSW_Fish_Statue,spr_KSW_Fish_Statue_Pal,series_DreamLand2002,legion,1,hallowReen,KSW_Phases.night,1300);
-	scr_KSW_AddFish("Hand of Dio",spr_KSW_Fish_HandOfDio,spr_KSW_Fish_HandOfDio_Pal,series_DreamLand2002,legion,2,hallowReen,KSW_Phases.night,77700);
+	scr_KSW_AddFish("Hand of Dio",spr_KSW_Fish_HandOfDio,spr_KSW_Fish_HandOfDio_Pal,series_DreamLand2002,legion,2,hallowReen,KSW_Phases.night,7770);
 	scr_KSW_AddFish("Clock",spr_KSW_Fish_Clock,spr_KSW_Fish_Clock_Pal,series_DreamLand2002,legion,2,hallowReen,KSW_Phases.night,77700);
-	scr_KSW_AddFish("Dio (Comedy)",spr_KSW_Fish_DioComedy,spr_KSW_Fish_DioComedy_Pal,series_DreamLand2002,legion,3,hallowReen,KSW_Phases.day,777000);
+	scr_KSW_AddFish("Dio (Comedy)",spr_KSW_Fish_DioComedy,spr_KSW_Fish_DioComedy_Pal,series_DreamLand2002,legion,3,hallowReen,KSW_Phases.day,77700);
 	scr_KSW_AddFish("Purple Guy",spr_KSW_Fish_PurpleGuy,spr_KSW_Fish_PurpleGuy_Pal,series_FiveNightsAtFreddys,flux,2,hallowReen,KSW_Phases.night,51987);
-	scr_KSW_AddFish("Springtrap",spr_KSW_Fish_Springtrap,spr_KSW_Fish_Springtrap_Pal,series_FiveNightsAtFreddys,glimmer,3,hallowReen,KSW_Phases.night,395248);
+	scr_KSW_AddFish("Springtrap",spr_KSW_Fish_Springtrap,spr_KSW_Fish_Springtrap_Pal,series_FiveNightsAtFreddys,glimmer,3,hallowReen,KSW_Phases.night,39524);
 	scr_KSW_AddFish("Sea Bonnies",spr_KSW_Fish_SeaBonnies,spr_KSW_Fish_SeaBonnies_Pal,series_FiveNightsAtFreddys,mage,0,hallowReen,KSW_Phases.night,1);
 	scr_KSW_AddFish("Fredbear Plush",spr_KSW_Fish_FredbearPlush,spr_KSW_Fish_FredbearPlush_Pal,series_FiveNightsAtFreddys,maze,2,hallowReen,KSW_Phases.night,1985);
 	scr_KSW_AddFish("Mike",spr_KSW_Fish_Mike,spr_KSW_Fish_Mike_Pal,series_FiveNightsAtFreddys,legion,2,androidPort,KSW_Phases.night,2);
@@ -2146,8 +2147,26 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Golden Boris",spr_KSW_Fish_GoldenBoris,spr_KSW_Fish_GoldenBoris_Pal,series_BendyAndTheInkMachine,glimmer,3,hallowReen,KSW_Phases.none,666);
 	scr_KSW_AddFish("Boom Knuckles",spr_KSW_Fish_BoomKnuckles,spr_KSW_Fish_BoomKnuckles_Pal,series_SonicTheHedgehog,candy,2,grassBeach,KSW_Phases.afternoon,75000,,,,snd_KSW_Fish_BoomKnuckles);
 	scr_KSW_AddFish("Mr Pibb Shirt",spr_KSW_Fish_MrPibbShirt,spr_KSW_Fish_MrPibbShirt_Pal,series_Misc,candy,1,hallowReen,KSW_Phases.night,777);
-	scr_KSW_AddFish("Mother 3",spr_KSW_Fish_Mother3,spr_KSW_Fish_Mother3_Pal,series_Misc,borange,3,creamCrevasse,KSW_Phases.none,500000);
+	scr_KSW_AddFish("Mother 3",spr_KSW_Fish_Mother3,spr_KSW_Fish_Mother3_Pal,series_Misc,borange,3,creamCrevasse,KSW_Phases.none,50000);
 	scr_KSW_AddFish("Paisley",spr_KSW_Fish_Paisley,spr_KSW_Fish_Paisley_Pal,series_Misc,legion,3,grassBeach,KSW_Phases.day,2700);
+	scr_KSW_AddFish("Abaddon",spr_KSW_Fish_Abaddon,spr_KSW_Fish_Abaddon_Pal,series_ShinMegamiTensei,mint,2,serranoSprings,KSW_Phases.none,26060);
+	scr_KSW_AddFish("Badb Catha",spr_KSW_Fish_BadbCatha,spr_KSW_Fish_BadbCatha_Pal,series_ShinMegamiTensei,mage,0,hallowReen,KSW_Phases.none,900);
+	scr_KSW_AddFish("Beelzebub",spr_KSW_Fish_Beelzebub,spr_KSW_Fish_Beelzebub_Pal,series_ShinMegamiTensei,mage,2,hallowReen,KSW_Phases.night,12361);
+	scr_KSW_AddFish("Bishamon",spr_KSW_Fish_Bishamon,spr_KSW_Fish_Bishamon_Pal,series_ShinMegamiTensei,candy,1,androidPort,KSW_Phases.day,4700);
+	scr_KSW_AddFish("Black Frost",spr_KSW_Fish_BlackFrost,spr_KSW_Fish_BlackFrost_Pal,series_ShinMegamiTensei,flux,3,creamCrevasse,KSW_Phases.night,13000);
+	scr_KSW_AddFish("Cait Sith",spr_KSW_Fish_CaitSith,spr_KSW_Fish_CaitSith_Pal,series_ShinMegamiTensei,flux,0,hallowReen,KSW_Phases.none,1000);
+	scr_KSW_AddFish("Decarabia",spr_KSW_Fish_Decarabia,spr_KSW_Fish_Decarabia_Pal,series_ShinMegamiTensei,borange,1,androidPort,KSW_Phases.afternoon,2700);
+	scr_KSW_AddFish("Ganesha",spr_KSW_Fish_Ganesha,spr_KSW_Fish_Ganesha_Pal,series_ShinMegamiTensei,mage,2,androidPort,KSW_Phases.day,41719);
+	scr_KSW_AddFish("Legion",spr_KSW_Fish_Legion,spr_KSW_Fish_Legion_Pal,series_ShinMegamiTensei,candy,1,androidPort,KSW_Phases.night,15000);
+	scr_KSW_AddFish("Loa",spr_KSW_Fish_Loa,spr_KSW_Fish_Loa_Pal,series_ShinMegamiTensei,mint,0,hallowReen,KSW_Phases.none,1300);
+	scr_KSW_AddFish("Loki",spr_KSW_Fish_Loki,spr_KSW_Fish_Loki_Pal,series_ShinMegamiTensei,flux,2,androidPort,KSW_Phases.night,18660);
+	scr_KSW_AddFish("Lucifer",spr_KSW_Fish_Lucifer,spr_KSW_Fish_Lucifer_Pal,series_ShinMegamiTensei,legion,3,serranoSprings,KSW_Phases.night,66666);
+	scr_KSW_AddFish("Mothman",spr_KSW_Fish_Mothman,spr_KSW_Fish_Mothman_Pal,series_ShinMegamiTensei,legion,0,hallowReen,KSW_Phases.none,1966);
+	scr_KSW_AddFish("Norn",spr_KSW_Fish_Norn,spr_KSW_Fish_Norn_Pal,series_ShinMegamiTensei,glimmer,2,androidPort,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Pixie",spr_KSW_Fish_Pixie,spr_KSW_Fish_Pixie_Pal,series_ShinMegamiTensei,mage,0,hallowReen,KSW_Phases.none,610);
+	scr_KSW_AddFish("Power",spr_KSW_Fish_Power,spr_KSW_Fish_Power_Pal,series_ShinMegamiTensei,candy,1,androidPort,KSW_Phases.day,1211);
+	scr_KSW_AddFish("Jack Frost",spr_KSW_Fish_JackFrost,spr_KSW_Fish_JackFrost_Pal,series_ShinMegamiTensei,mage,1,creamCrevasse,KSW_Phases.day,1992);
+	scr_KSW_AddFish("Pyro Jack",spr_KSW_Fish_PyroJack,spr_KSW_Fish_PyroJack_Pal,series_ShinMegamiTensei,borange,0,hallowReen,KSW_Phases.night,1995);
 	#endregion
 	#endregion
 }

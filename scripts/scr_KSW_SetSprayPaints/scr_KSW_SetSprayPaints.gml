@@ -16,6 +16,7 @@ function scr_KSW_SetSprayPaints()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
+	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
 	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
 	#endregion
 	
@@ -249,6 +250,46 @@ function scr_KSW_SetSprayPaints()
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "MonsterInDreamLand",playerID,"Monster in Dream Land",spr_KSW_Player_Ybrik_SprayPaint_MonsterInDreamland,borange,0,true);
 	scr_KSW_AddSprayPaint(playerID + "_" + "DreamlandExe",playerID,"Dreamland.exe",spr_KSW_Player_Ybrik_SprayPaint_DreamlandExe,candy,75);
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "TMK",playerID,"TMK",spr_KSW_Player_Ybrik_SprayPaint_TMK,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "EFGK",playerID,"EFGK",spr_KSW_Player_Ybrik_SprayPaint_EFGK,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "2016",playerID,"2016",spr_KSW_Player_Ybrik_SprayPaint_2016,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Redreamed",playerID,"Redreamed",spr_KSW_Player_Ybrik_SprayPaint_Redreamed,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "HungryPinkPuffball",playerID,"Hungry Pink Puffball",spr_KSW_Player_Ybrik_SprayPaint_HungryPinkPuffball,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "IllegalInstruction",playerID,"Illegal Instruction",spr_KSW_Player_Ybrik_SprayPaint_IllegalInstruction,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "WaddleWaddle",playerID,"Waddle Waddle",spr_KSW_Player_Ybrik_SprayPaint_WaddleWaddle,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DevourYourSoul",playerID,"Devour Your Soul",spr_KSW_Player_Ybrik_SprayPaint_DevourYourSoul,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DarkBlood",playerID,"Dark Blood",spr_KSW_Player_Ybrik_SprayPaint_DarkBlood,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ColoringBook",playerID,"Coloring Book",spr_KSW_Player_Ybrik_SprayPaint_ColoringBook,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Sheriff",playerID,"Sheriff",spr_KSW_Player_Ybrik_SprayPaint_Sheriff,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Ybeek",playerID,"Ybeek",spr_KSW_Player_Ybrik_SprayPaint_Ybeek,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Forgotten",playerID,"Forgotten",spr_KSW_Player_Ybrik_SprayPaint_Forgotten,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ShadowMantle",playerID,"Shadow Mantle",spr_KSW_Player_Ybrik_SprayPaint_ShadowMantle,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SnowPalace",playerID,"Snow Palace",spr_KSW_Player_Ybrik_SprayPaint_SnowPalace,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "KirbysWorld",playerID,"Kirby's World",spr_KSW_Player_Ybrik_SprayPaint_KirbysWorld,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "UndeadOfNevada",playerID,"Undead of Nevada",spr_KSW_Player_Ybrik_SprayPaint_UndeadOfNevada,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "NevadaAgent",playerID,"Nevada Agent",spr_KSW_Player_Ybrik_SprayPaint_NevadaAgent,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "WackaWackaWacka",playerID,"Wacka Wacka Wacka",spr_KSW_Player_Ybrik_SprayPaint_WackaWackaWacka,maze,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "FeelingBlue",playerID,"Feeling Blue",spr_KSW_Player_Ybrik_SprayPaint_FeelingBlue,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TooSlow",playerID,"Too Slow",spr_KSW_Player_Ybrik_SprayPaint_TooSlow,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "GrapeGarden",playerID,"Grape Garden",spr_KSW_Player_Ybrik_SprayPaint_GrapeGarden,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "FridayNight",playerID,"Friday Night",spr_KSW_Player_Ybrik_SprayPaint_FridayNight,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "KirbyBrik",playerID,"Kirby Brik",spr_KSW_Player_Ybrik_SprayPaint_KirbyBrik,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "StarryNight",playerID,"Starry Night",spr_KSW_Player_Ybrik_SprayPaint_StarryNight,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DoNotSteel",playerID,"Do Not Steel",spr_KSW_Player_Ybrik_SprayPaint_DoNotSteel,flux,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BiteOf85",playerID,"Bite of 85",spr_KSW_Player_Ybrik_SprayPaint_BiteOf85,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "AnnoyingOrange",playerID,"Annoying Orange",spr_KSW_Player_Ybrik_SprayPaint_AnnoyingOrange,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ShapesAndBites",playerID,"Shapes and Bites",spr_KSW_Player_Ybrik_SprayPaint_ShapesAndBites,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "HulkSmash",playerID,"Hulk Smash",spr_KSW_Player_Ybrik_SprayPaint_HulkSmash,mint,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Roundabout",playerID,"Roundabout",spr_KSW_Player_Ybrik_SprayPaint_Roundabout,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Breakfast",playerID,"Breakfast",spr_KSW_Player_Ybrik_SprayPaint_Breakfast,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DontBuyThis",playerID,"Don't Buy This",spr_KSW_Player_Ybrik_SprayPaint_DontBuyThis,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ITTNZMAHEKG",playerID,"ITTNZMAHEKG",spr_KSW_Player_Ybrik_SprayPaint_ITTNZMAHEKG,glimmer,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "RoyalRival",playerID,"Royal Rival",spr_KSW_Player_Ybrik_SprayPaint_RoyalRival,mage,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TheVisitor",playerID,"The Visitor",spr_KSW_Player_Ybrik_SprayPaint_TheVisitor,candy,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TheDevil",playerID,"The Devil",spr_KSW_Player_Ybrik_SprayPaint_TheDevil,borange,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ComicRed",playerID,"Comic Red",spr_KSW_Player_Ybrik_SprayPaint_ComicRed,legion,75);
+	scr_KSW_AddSprayPaint(playerID + "_" + "RIP",playerID,"RIP",spr_KSW_Player_Ybrik_SprayPaint_RIP,legion,75);
 	#endregion
 	#endregion
 }
