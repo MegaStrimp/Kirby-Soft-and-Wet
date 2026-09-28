@@ -127,6 +127,7 @@ function scr_KSW_SetFishes()
 	var series_Mother = global.KSW_SeriesIDs[? "mother"];
 	var series_MotherEncore = global.KSW_SeriesIDs[? "motherEncore"];
 	var series_Banjo = global.KSW_SeriesIDs[? "banjo"];
+	var series_HaloDemake = global.KSW_SeriesIDs[? "haloDemake"];
 	
 	#endregion
 	
@@ -2296,11 +2297,30 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Candle Banjo",spr_KSW_Fish_CandleBanjo,spr_KSW_Fish_CandleBanjo_Pal,series_Banjo,candy,3,hallowReen,KSW_Phases.none,7500);
 	//scr_KSW_AddFish("Tank Banjo",spr_KSW_Fish_TankBanjo,spr_KSW_Fish_TankBanjo_Pal,series_Banjo,mint,3,androidPort,KSW_Phases.afternoon,20000);
 	//scr_KSW_AddFish("Mecha Grunty",spr_KSW_Fish_MechaGrunty,spr_KSW_Fish_MechaGrunty_Pal,series_Banjo,maze,3,androidPort,KSW_Phases.night,100000);
+	
+	
+	
+	
+	#region NovemberRain
 	//scr_KSW_AddFish("Polaris Parrotfish",spr_KSW_Fish_PolarisParrotfish,spr_KSW_Fish_PolarisParrotfish_Pal,series_TerrariaCalamity,glimmer,3,hallowReen,KSW_Phases.night,3500);
 	//scr_KSW_AddFish("Giant Clam",spr_KSW_Fish_GiantClam,spr_KSW_Fish_GiantClam_Pal,series_TerrariaCalamity,legion,1,grassBeach,KSW_Phases.none,5500);
 	//scr_KSW_AddFish("Aquatic Scourge",spr_KSW_Fish_AquaticScourge,spr_KSW_Fish_AquaticScourge_Pal,series_TerrariaCalamity,glimmer,3,serranoSprings,KSW_Phases.day,50000);
 	//scr_KSW_AddFish("Anahita",spr_KSW_Fish_Anahita,spr_KSW_Fish_Anahita_Pal,series_TerrariaCalamity,mage,1,grassBeach,KSW_Phases.day,3500);
 	//scr_KSW_AddFish("Old Duke",spr_KSW_Fish_OldDuke,spr_KSW_Fish_OldDuke_Pal,series_TerrariaCalamity,mint,2,serranoSprings,KSW_Phases.night,19500);
+	//scr_KSW_AddFish("Medkit",spr_KSW_Fish_Medkit,spr_KSW_Fish_Medkit_Pal,series_HaloDemake,candy,0,androidPort,KSW_Phases.none,8);
+	//scr_KSW_AddFish("Assault Rifle",spr_KSW_Fish_AssaultRifle,spr_KSW_Fish_AssaultRifle_Pal,series_HaloDemake,candy,0,androidPort,KSW_Phases.none,21);
+	//scr_KSW_AddFish("Magnum",spr_KSW_Fish_Magnum,spr_KSW_Fish_Magnum_Pal,series_HaloDemake,candy,1,androidPort,KSW_Phases.none,201);
+	//scr_KSW_AddFish("Sniper Rifle",spr_KSW_Fish_SniperRifle,spr_KSW_Fish_SniperRifle_Pal,series_HaloDemake,candy,2,androidPort,KSW_Phases.none,2010);
+	//scr_KSW_AddFish("Escape Pod",spr_KSW_Fish_EscapePod,spr_KSW_Fish_EscapePod_Pal,series_HaloDemake,mint,3,androidPort,KSW_Phases.day,20010);
+	//scr_KSW_AddFish("Grunt",spr_KSW_Fish_Grunt,spr_KSW_Fish_Grunt_Pal,series_HaloDemake,glimmer,0,androidPort,KSW_Phases.day,27);
+	//scr_KSW_AddFish("Jackal",spr_KSW_Fish_Jackal,spr_KSW_Fish_Jackal_Pal,series_HaloDemake,borange,1,androidPort,KSW_Phases.afternoon,201);
+	//scr_KSW_AddFish("Elite",spr_KSW_Fish_Elite,spr_KSW_Fish_Elite_Pal,series_HaloDemake,flux,2,androidPort,KSW_Phases.night,2004);
+	//scr_KSW_AddFish("Spirit",spr_KSW_Fish_Spirit,spr_KSW_Fish_Spirit_Pal,series_HaloDemake,mage,3,androidPort,KSW_Phases.none,20010);
+	//scr_KSW_AddFish("Marine",spr_KSW_Fish_Marine,spr_KSW_Fish_Marine_Pal,series_HaloDemake,mint,1,androidPort,KSW_Phases.night,201);
+	//scr_KSW_AddFish("Sergeant Johnson",spr_KSW_Fish_SergeantJohnson,spr_KSW_Fish_SergeantJohnson_Pal,series_HaloDemake,mint,2,androidPort,KSW_Phases.day,2007);
+	//scr_KSW_AddFish("Captain Keyes",spr_KSW_Fish_CaptainKeyes,spr_KSW_Fish_CaptainKeyes_Pal,series_HaloDemake,glimmer,2,androidPort,KSW_Phases.afternoon,2001);
+	//scr_KSW_AddFish("Master Chief",spr_KSW_Fish_MasterChief,spr_KSW_Fish_MasterChief_Pal,series_HaloDemake,maze,3,androidPort,KSW_Phases.none,20070);
+	//scr_KSW_AddFish("Warthog",spr_KSW_Fish_Warthog,spr_KSW_Fish_Warthog_Pal,series_HaloDemake,mint,3,androidPort,KSW_Phases.none,20070);
 	
 	#endregion
 	#endregion
