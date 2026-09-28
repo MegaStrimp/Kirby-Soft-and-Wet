@@ -2302,11 +2302,18 @@ function scr_KSW_SetFishes()
 	
 	
 	#region NovemberRain
-	//scr_KSW_AddFish("Polaris Parrotfish",spr_KSW_Fish_PolarisParrotfish,spr_KSW_Fish_PolarisParrotfish_Pal,series_TerrariaCalamity,glimmer,3,hallowReen,KSW_Phases.night,3500);
-	//scr_KSW_AddFish("Giant Clam",spr_KSW_Fish_GiantClam,spr_KSW_Fish_GiantClam_Pal,series_TerrariaCalamity,legion,1,grassBeach,KSW_Phases.none,5500);
-	//scr_KSW_AddFish("Aquatic Scourge",spr_KSW_Fish_AquaticScourge,spr_KSW_Fish_AquaticScourge_Pal,series_TerrariaCalamity,glimmer,3,serranoSprings,KSW_Phases.day,50000);
+	//scr_KSW_AddFish("Ghostbell",spr_KSW_Fish_Ghostbell,spr_KSW_Fish_Ghostbell_Pal,series_TerrariaCalamity,mage,0,grassBeach,KSW_Phases.none,800);
+	//scr_KSW_AddFish("Eutropic Ray",spr_KSW_Fish_EutropicRay,spr_KSW_Fish_EutropicRay_Pal,series_TerrariaCalamity,mint,0,grassBeach,KSW_Phases.none,1200);
 	//scr_KSW_AddFish("Anahita",spr_KSW_Fish_Anahita,spr_KSW_Fish_Anahita_Pal,series_TerrariaCalamity,mage,1,grassBeach,KSW_Phases.day,3500);
+	//scr_KSW_AddFish("Giant Clam",spr_KSW_Fish_GiantClam,spr_KSW_Fish_GiantClam_Pal,series_TerrariaCalamity,legion,1,grassBeach,KSW_Phases.none,5500);
+	//scr_KSW_AddFish("Fearless Goldfish Warrior",spr_KSW_Fish_FearlessGoldfishWarrior,spr_KSW_Fish_FearlessGoldfishWarrior_Pal,series_TerrariaCalamity,glimmer,2,grassBeach,KSW_Phases.none,250);
+	//scr_KSW_AddFish("Polaris Parrotfish",spr_KSW_Fish_PolarisParrotfish,spr_KSW_Fish_PolarisParrotfish_Pal,series_TerrariaCalamity,glimmer,3,hallowReen,KSW_Phases.night,3500);
+	//scr_KSW_AddFish("Trasher",spr_KSW_Fish_Trasher,spr_KSW_Fish_Trasher_Pal,series_TerrariaCalamity,borange,1,serranoSprings,KSW_Phases.day,3550);
+	//scr_KSW_AddFish("Mirage Jelly",spr_KSW_Fish_MirageJelly,spr_KSW_Fish_MirageJelly_Pal,series_TerrariaCalamity,flux,1,serranoSprings,KSW_Phases.night,1000);
+	//scr_KSW_AddFish("Devil Fish",spr_KSW_Fish_DevilFish,spr_KSW_Fish_DevilFish_Pal,series_TerrariaCalamity,borange,1,serranoSprings,KSW_Phases.afternoon,2500);
 	//scr_KSW_AddFish("Old Duke",spr_KSW_Fish_OldDuke,spr_KSW_Fish_OldDuke_Pal,series_TerrariaCalamity,mint,2,serranoSprings,KSW_Phases.night,19500);
+	//scr_KSW_AddFish("Aquatic Scourge",spr_KSW_Fish_AquaticScourge,spr_KSW_Fish_AquaticScourge_Pal,series_TerrariaCalamity,glimmer,3,serranoSprings,KSW_Phases.day,50000);
+	//scr_KSW_AddFish("Fusion Feeder",spr_KSW_Fish_FusionFeeder,spr_KSW_Fish_FusionFeeder_Pal,series_TerrariaCalamity,borange,2,androidPort,KSW_Phases.night,5500);
 	//scr_KSW_AddFish("Medkit",spr_KSW_Fish_Medkit,spr_KSW_Fish_Medkit_Pal,series_HaloDemake,candy,0,androidPort,KSW_Phases.none,8);
 	//scr_KSW_AddFish("Assault Rifle",spr_KSW_Fish_AssaultRifle,spr_KSW_Fish_AssaultRifle_Pal,series_HaloDemake,candy,0,androidPort,KSW_Phases.none,21);
 	//scr_KSW_AddFish("Magnum",spr_KSW_Fish_Magnum,spr_KSW_Fish_Magnum_Pal,series_HaloDemake,candy,1,androidPort,KSW_Phases.none,201);
