@@ -4,7 +4,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
 {
 	if (global.debug)
 	{
-		if (ds_map_exists(global.KSW_FishIDs,targetName)) scr_Debug_WriteLog("Duplicate Fish Found - " + string(targetName));
+		if (ds_map_exists(global.KSW_FishIDs,targetName)) scr_Debug_WriteLog("[ERROR] Duplicate Fish Found - " + string(targetName));
 	}
 	
 	if (targetGramOffset == -1) targetGramOffset = floor(targetGram / 5);

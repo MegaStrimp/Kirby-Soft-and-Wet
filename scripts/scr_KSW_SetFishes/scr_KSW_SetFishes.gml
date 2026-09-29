@@ -1504,8 +1504,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Bandit",spr_KSW_Fish_Bandit,spr_KSW_Fish_Bandit_Pal,series_NuclearThrone,borange,0,serranoSprings,KSW_Phases.day,1960);
 	scr_KSW_AddFish("Beartank",spr_KSW_Fish_Beartank,spr_KSW_Fish_Beartank_Pal,series_Castlevania,mint,1,hallowReen,KSW_Phases.day,1998);
 	scr_KSW_AddFish("Beer",spr_KSW_Fish_BarleyTea,spr_KSW_Fish_BarleyTea_Pal,series_Castlevania,borange,0,hallowReen,KSW_Phases.night,15);
-	var rebel = scr_KSW_AddFish("Big Bandit",spr_KSW_Fish_BigBandit,spr_KSW_Fish_BigBandit_Pal,series_NuclearThrone,borange,3,serranoSprings,KSW_Phases.day,24490);
-	rebel.displayedName = "Rebel"
+	scr_KSW_AddFish("Big Bandit",spr_KSW_Fish_BigBandit,spr_KSW_Fish_BigBandit_Pal,series_NuclearThrone,borange,3,serranoSprings,KSW_Phases.day,24490);
 	scr_KSW_AddFish("Big Dog",spr_KSW_Fish_BigDog,spr_KSW_Fish_BigDog_Pal,series_NuclearThrone,glimmer,3,serranoSprings,KSW_Phases.afternoon,15020);
 	scr_KSW_AddFish("Big Maggot",spr_KSW_Fish_BigMaggot,spr_KSW_Fish_BigMaggot_Pal,series_NuclearThrone,borange,1,serranoSprings,KSW_Phases.day,3850);
 	scr_KSW_AddFish("Nuclear Bone Fish",spr_KSW_Fish_NuclearBoneFish,spr_KSW_Fish_NuclearBoneFish_Pal,series_NuclearThrone,mage,0,grassBeach,KSW_Phases.none,1310);
@@ -1565,7 +1564,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Hamburger",spr_KSW_Fish_Hamburger,spr_KSW_Fish_Hamburger_Pal,series_Castlevania,borange,0,hallowReen,KSW_Phases.afternoon,20);
 	scr_KSW_AddFish("Headhunter",spr_KSW_Fish_Headhunter,spr_KSW_Fish_Headhunter_Pal,series_Castlevania,mint,1,hallowReen,KSW_Phases.afternoon,30000);
 	scr_KSW_AddFish("Heart of Vlad",spr_KSW_Fish_HeartOfVlad,spr_KSW_Fish_HeartOfVlad_Pal,series_Castlevania,mage,0,hallowReen,KSW_Phases.none,2000);
-	scr_KSW_AddFish("Hero Bandit",spr_KSW_Fish_HeroBandit,spr_KSW_Fish_HeroBandit_Pal,series_NuclearThrone,mage,2,anyStage,KSW_Phases.none,13570);
+	var rebel = scr_KSW_AddFish("Hero Bandit",spr_KSW_Fish_HeroBandit,spr_KSW_Fish_HeroBandit_Pal,series_NuclearThrone,mage,2,anyStage,KSW_Phases.none,13570);
+	rebel.displayedName = "Rebel";
 	scr_KSW_AddFish("Hippogryph",spr_KSW_Fish_Hippogryph,spr_KSW_Fish_Hippogryph_Pal,series_Castlevania,candy,1,hallowReen,KSW_Phases.day,8000);
 	scr_KSW_AddFish("Holy Symbol",spr_KSW_Fish_HolySymbol,spr_KSW_Fish_HolySymbol_Pal,series_Castlevania,legion,0,hallowReen,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Horror",spr_KSW_Fish_Horror,spr_KSW_Fish_Horror_Pal,series_NuclearThrone,candy,2,anyStage,KSW_Phases.none,12250);
