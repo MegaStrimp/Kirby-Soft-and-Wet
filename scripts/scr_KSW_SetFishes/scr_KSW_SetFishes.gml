@@ -2122,13 +2122,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Snatcher",spr_KSW_Fish_TheSnatcher,spr_KSW_Fish_TheSnatcher_Pal,series_aHatInTime,flux,3,hallowReen,KSW_Phases.night,45000);
 	scr_KSW_AddFish("Mr. Jawsum",spr_KSW_Fish_Jawsum,spr_KSW_Fish_Jawsum_Pal,series_omori,mage,3,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Humphrey",spr_KSW_Fish_Humphrey,spr_KSW_Fish_Humphrey_Pal,series_omori,mage,3,grassBeach,KSW_Phases.afternoon,13000);
-	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,999999,0,0,0,snd_KSW_Fish_Chark);
+	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,99999,0,0,0,snd_KSW_Fish_Chark);
 	scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
 	scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
 	scr_KSW_AddFish("Freddy Fazbear",spr_KSW_Fish_Freddy,spr_KSW_Fish_Freddy_Pal,series_FiveNightsAtFreddys,borange,2,hallowReen,KSW_Phases.night,20140);
 	scr_KSW_AddFish("Chica the Chicken",spr_KSW_Fish_Chica,spr_KSW_Fish_Chica_Pal,series_FiveNightsAtFreddys,glimmer,2,hallowReen,KSW_Phases.night,20140);
 	scr_KSW_AddFish("Bonnie the Rabbit",spr_KSW_Fish_Bonnie,spr_KSW_Fish_Bonnie_Pal,series_FiveNightsAtFreddys,flux,2,hallowReen,KSW_Phases.night,20140);
-	scr_KSW_AddFish("Yellow Rabbit",spr_KSW_Fish_YellowRabbit,spr_KSW_Fish_YellowRabbit_Pal,series_FiveNightsAtFreddys,maze,3,hallowReen,KSW_Phases.night,202400);
+	scr_KSW_AddFish("Yellow Rabbit",spr_KSW_Fish_YellowRabbit,spr_KSW_Fish_YellowRabbit_Pal,series_FiveNightsAtFreddys,maze,3,hallowReen,KSW_Phases.night,20240);
 	scr_KSW_AddFish("Lying Figure",spr_KSW_Fish_LyingFigure,spr_KSW_Fish_LyingFigure_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.afternoon,224);
 	scr_KSW_AddFish("Mannequin (SH2)",spr_KSW_Fish_MannequinSH2,spr_KSW_Fish_MannequinSH2_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.night,224);
 	scr_KSW_AddFish("Bubble Head Nurse",spr_KSW_Fish_BubbleHeadNurse,spr_KSW_Fish_BubbleHeadNurse_Pal,series_SH2Demake,flux,0,hallowReen,KSW_Phases.day,224);
@@ -2359,8 +2359,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Samba",spr_KSW_Fish_Samba,spr_KSW_Fish_Samba_Pal,series_Mother,borange,2,serranoSprings,KSW_Phases.none,30000);
 	scr_KSW_AddFish("Masked Man",spr_KSW_Fish_MaskedMan,spr_KSW_Fish_MaskedMan_Pal,series_Mother,legion,3,androidPort,KSW_Phases.none,30000);
 	scr_KSW_AddFish("Porky",spr_KSW_Fish_Porky,spr_KSW_Fish_Porky_Pal,series_Mother,flux,3,androidPort,KSW_Phases.none,300000);
-	scr_KSW_AddFish("Spongebob",spr_KSW_Fish_Spongebob,spr_KSW_Fish_Spongebob_Pal,series_Spongebob,glimmer,3,grassBeach,KSW_Phases.none,199900);
-	scr_KSW_AddFish("Patrick",spr_KSW_Fish_Patrick,spr_KSW_Fish_Patrick_Pal,series_Spongebob,glimmer,3,grassBeach,KSW_Phases.none,199900);
+	scr_KSW_AddFish("Spongebob",spr_KSW_Fish_Spongebob,spr_KSW_Fish_Spongebob_Pal,series_Spongebob,glimmer,3,grassBeach,KSW_Phases.none,19990);
+	scr_KSW_AddFish("Patrick",spr_KSW_Fish_Patrick,spr_KSW_Fish_Patrick_Pal,series_Spongebob,glimmer,3,grassBeach,KSW_Phases.none,19990);
 	scr_KSW_AddFish("Squidward",spr_KSW_Fish_Squidward,spr_KSW_Fish_Squidward_Pal,series_Spongebob,legion,2,grassBeach,KSW_Phases.none,19990);
 	scr_KSW_AddFish("Sandy Cheeks",spr_KSW_Fish_SandyCheeks,spr_KSW_Fish_SandyCheeks_Pal,series_Spongebob,borange,2,grassBeach,KSW_Phases.none,19990);
 	scr_KSW_AddFish("Mr. Krabs",spr_KSW_Fish_MrKrabs,spr_KSW_Fish_MrKrabs_Pal,series_Spongebob,candy,2,grassBeach,KSW_Phases.day,19990);
