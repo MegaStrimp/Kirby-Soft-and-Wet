@@ -68,5 +68,5 @@ if (bubbleTimer != -1)
 #endregion
 
 #region Button Input Timers
-scr_Component_ButtonInputTimer_Step();
+scr_Component_ButtonInputTimer_Step(1);
 #endregion
