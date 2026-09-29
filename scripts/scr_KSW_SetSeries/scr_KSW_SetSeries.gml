@@ -121,5 +121,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
 	scr_KSW_AddSeries("minatheHollower","Mina The Hollower")
+	scr_KSW_AddSeries("LookOutside","Look Outside");
 	#endregion
 }
