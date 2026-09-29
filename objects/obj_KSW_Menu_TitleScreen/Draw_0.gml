@@ -17,8 +17,12 @@ if (trailerShot)
 {
 	#region Version Number
 	scribble("[c_lime]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) - 5);
-	scribble("Available Now").align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) + 15);
-	scribble("On All Platforms").align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) + 25);
+	
+	if (keyboard_check(vk_space))
+	{
+		scribble("Available Now").align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) + 15);
+		scribble("On All Platforms").align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) + 25);
+	}
 	#endregion
 }
 else
