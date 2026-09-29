@@ -133,6 +133,9 @@ function scr_KSW_SetFishes()
 	var series_Fallout = global.KSW_SeriesIDs[? "fallout"];
 	var series_Portal = global.KSW_SeriesIDs[? "portal"];
 	
+	var series_IB = global.KSW_SeriesIDs[? "iB"];
+	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
+	var series_omori = global.KSW_SeriesIDs[? "omori"];
 	#endregion
 	
 	#region Stages
@@ -154,6 +157,7 @@ function scr_KSW_SetFishes()
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
 	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
 	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
+	var limit = spr_KSW_UI_CaughtBox_Palette_Limit;
 	#endregion
 	
 	#region Add Fishes Here
@@ -2043,6 +2047,17 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mythic Goldfish",spr_KSW_Fish_MythicGoldfish,spr_KSW_Fish_MythicGoldfish_Pal,series_Fortnite,glimmer,3,anyStage,KSW_Phases.none,999999);
 	scr_KSW_AddFish("Loot Shark",spr_KSW_Fish_LootShark,spr_KSW_Fish_LootShark_Pal,series_Fortnite,maze,3,grassBeach,KSW_Phases.none,150000);
 	scr_KSW_AddFish("Blinky (Simpsons)",spr_KSW_Fish_BlinkySimpsons,spr_KSW_Fish_BlinkySimpsons_Pal,series_Fortnite,flux,1,androidPort,KSW_Phases.day,3500);
+	scr_KSW_AddFish("Ib",spr_KSW_Fish_Ib,spr_KSW_Fish_Ib_Pal,series_IB,candy,2,hallowReen,KSW_Phases.none,6235);
+	scr_KSW_AddFish("Garry",spr_KSW_Fish_Garry,spr_KSW_Fish_Garry_Pal,series_IB,mage,2,hallowReen,KSW_Phases.none,6219);
+	scr_KSW_AddFish("Mary (IB)",spr_KSW_Fish_MaryIB,spr_KSW_Fish_MaryIB_Pal,series_IB,mint,2,hallowReen,KSW_Phases.none,6250);
+	scr_KSW_AddFish("Blue Doll",spr_KSW_Fish_BlueDoll,spr_KSW_Fish_BlueDoll_Pal,series_IB,flux,0,hallowReen,KSW_Phases.night,365);
+	scr_KSW_AddFish("Red Eyes",spr_KSW_Fish_BigDoll,spr_KSW_Fish_BigDoll_Pal,series_IB,flux,3,hallowReen,KSW_Phases.night,36557);
+	scr_KSW_AddFish("Lady in Red",spr_KSW_Fish_PaintedLady,spr_KSW_Fish_PaintedLady_Pal,series_IB,candy,0,hallowReen,KSW_Phases.none,621);
+	scr_KSW_AddFish("Lady in White",spr_KSW_Fish_LadyWhite,spr_KSW_Fish_LadyWhite_Pal,series_IB,flux,1,hallowReen,KSW_Phases.night,6210);
+	scr_KSW_AddFish("The Snatcher",spr_KSW_Fish_TheSnatcher,spr_KSW_Fish_TheSnatcher_Pal,series_aHatInTime,flux,3,hallowReen,KSW_Phases.night,45000);
+	scr_KSW_AddFish("Mr. Jawsum",spr_KSW_Fish_Jawsum,spr_KSW_Fish_Jawsum_Pal,series_omori,mage,3,grassBeach,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Humphrey",spr_KSW_Fish_Humphrey,spr_KSW_Fish_Humphrey_Pal,series_omori,mage,3,grassBeach,KSW_Phases.afternoon,13000);
+	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,999999,0,0,0,snd_KSW_Fish_Chark);
 	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
 	//scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
 	//scr_KSW_AddFish("Freddy Fazbear",spr_KSW_Fish_Freddy,spr_KSW_Fish_Freddy_Pal,series_FiveNightsAtFreddys,borange,2,hallowReen,KSW_Phases.night,20140);
