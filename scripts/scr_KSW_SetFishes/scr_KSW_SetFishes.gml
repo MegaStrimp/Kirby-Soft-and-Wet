@@ -132,10 +132,10 @@ function scr_KSW_SetFishes()
 	var series_MetalGear = global.KSW_SeriesIDs[? "metalGear"];
 	var series_Fallout = global.KSW_SeriesIDs[? "fallout"];
 	var series_Portal = global.KSW_SeriesIDs[? "portal"];
-	
 	var series_IB = global.KSW_SeriesIDs[? "iB"];
 	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
 	var series_omori = global.KSW_SeriesIDs[? "omori"];
+	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"]
 	#endregion
 	
 	#region Stages
@@ -2058,6 +2058,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mr. Jawsum",spr_KSW_Fish_Jawsum,spr_KSW_Fish_Jawsum_Pal,series_omori,mage,3,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Humphrey",spr_KSW_Fish_Humphrey,spr_KSW_Fish_Humphrey_Pal,series_omori,mage,3,grassBeach,KSW_Phases.afternoon,13000);
 	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,999999,0,0,0,snd_KSW_Fish_Chark);
+	scr_KSW_AddFish("Sam",spr_KSW_Fish_Sam,spr_KSW_Fish_Sam_Pal,series_LookOutside,flux,2,hallowReen,KSW_Phases.none,1000,-8,-10);
 	//scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
 	//scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
 	//scr_KSW_AddFish("Freddy Fazbear",spr_KSW_Fish_Freddy,spr_KSW_Fish_Freddy_Pal,series_FiveNightsAtFreddys,borange,2,hallowReen,KSW_Phases.night,20140);
