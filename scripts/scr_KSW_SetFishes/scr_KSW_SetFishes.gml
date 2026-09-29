@@ -2304,8 +2304,7 @@ function scr_KSW_SetFishes()
 	
 	
 	
-	
-	#region NovemberRain
+	#region November Rain
 	//scr_KSW_AddFish("Ghostbell",spr_KSW_Fish_Ghostbell,spr_KSW_Fish_Ghostbell_Pal,series_TerrariaCalamity,mage,0,grassBeach,KSW_Phases.none,800);
 	//scr_KSW_AddFish("Eutropic Ray",spr_KSW_Fish_EutropicRay,spr_KSW_Fish_EutropicRay_Pal,series_TerrariaCalamity,mint,0,grassBeach,KSW_Phases.none,1200);
 	//scr_KSW_AddFish("Anahita",spr_KSW_Fish_Anahita,spr_KSW_Fish_Anahita_Pal,series_TerrariaCalamity,mage,1,grassBeach,KSW_Phases.day,3500);
@@ -2349,7 +2348,6 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Corporal Pig",spr_KSW_Fish_CorporalPig,spr_KSW_Fish_CorporalPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("Foreman Pig",spr_KSW_Fish_ForemanPig,spr_KSW_Fish_ForemanPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("King Pig",spr_KSW_Fish_KingPig,spr_KSW_Fish_KingPig_Pal,series_AngryBirds,mint,3,androidPort,KSW_Phases.none,20090);
-	
 	#endregion
 	#endregion
 }
