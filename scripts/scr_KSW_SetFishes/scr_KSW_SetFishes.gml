@@ -2364,6 +2364,8 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Corporal Pig",spr_KSW_Fish_CorporalPig,spr_KSW_Fish_CorporalPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("Foreman Pig",spr_KSW_Fish_ForemanPig,spr_KSW_Fish_ForemanPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("King Pig",spr_KSW_Fish_KingPig,spr_KSW_Fish_KingPig_Pal,series_AngryBirds,mint,3,androidPort,KSW_Phases.none,20090);
+	scr_KSW_AddFish("Leigh",spr_KSW_Fish_Leigh,spr_KSW_Fish_Leigh_Pal,series_LookOutside,flux,2,hallowReen,KSW_Phases.none,2000,-8,-10);
+	scr_KSW_AddFish("Lyle",spr_KSW_Fish_Lyle,spr_KSW_Fish_Lyle_Pal,series_LookOutside,flux,2,hallowReen,KSW_Phases.none,2500,-16,-10)
 	#endregion
 	#endregion
 }
