@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_KSW_OrientalOcean",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":378.0,
+  "exportDir":"",
+  "name":"mus_KSW_OrientalOcean",
+  "parent":{
+    "name":"Afternoon",
+    "path":"folders/Kirby ~ Soft & Wet/Music/Gameplay/Afternoon.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_KSW_OrientalOcean.ogg",
+  "tags":[
+    "Music",
+  ],
+  "volume":1.0,
+}
