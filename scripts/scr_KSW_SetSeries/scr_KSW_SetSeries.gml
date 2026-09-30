@@ -20,7 +20,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("doshinTheGiant","Doshin The Giant");
 	scr_KSW_AddSeries("theLegendOfZelda","The Legend of Zelda");
 	scr_KSW_AddSeries("terraria","Terraria");
-	scr_KSW_AddSeries("terrariaCalamity","Terraria: Calamity Mod");
 	scr_KSW_AddSeries("pokemon","Pokemon");
 	scr_KSW_AddSeries("pmdEoF","PMD: Explorers of Fortune");
 	scr_KSW_AddSeries("warioLand","Wario Land");
@@ -118,15 +117,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("bioshock","Bioshock");
 	scr_KSW_AddSeries("residentEvil","Resident Evil");
 	scr_KSW_AddSeries("ghoulsNGhosts","Ghouls 'n Ghosts");
-	scr_KSW_AddSeries("mother","Mother");
-	scr_KSW_AddSeries("motherEncore","Mother: Encore");
-	scr_KSW_AddSeries("banjo","Banjo-Kazooie");
-	scr_KSW_AddSeries("haloDemake","Halo Combat Devolved");
-	scr_KSW_AddSeries("angryBirds","Angry Birds");
-	scr_KSW_AddSeries("geometryDash","Geometry Dash");
-	scr_KSW_AddSeries("metalGear","MetalGearSolid");
-	scr_KSW_AddSeries("fallout","Fallout");
-	scr_KSW_AddSeries("portal","Portal");
 	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
@@ -134,6 +124,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("iB","IB");
 	scr_KSW_AddSeries("aHatInTime","A Hat In Time");
 	scr_KSW_AddSeries("omori","Omori");
+	scr_KSW_AddSeries("minatheHollower","Mina The Hollower");
 	scr_KSW_AddSeries("LookOutside","Look Outside");
 	#endregion
 }

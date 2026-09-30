@@ -124,6 +124,7 @@ function scr_KSW_SetFishes()
 	var series_ResidentEvil = global.KSW_SeriesIDs[? "residentEvil"];
 	var series_MinaTheHollower = global.KSW_SeriesIDs[? "minatheHollower"];
 	var series_GhoulsNGhosts = global.KSW_SeriesIDs[? "ghoulsNGhosts"];
+	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"]
 	var series_Mother = global.KSW_SeriesIDs[? "mother"];
 	var series_MotherEncore = global.KSW_SeriesIDs[? "motherEncore"];
 	var series_Banjo = global.KSW_SeriesIDs[? "banjo"];
@@ -2123,6 +2124,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Flame Lord",spr_KSW_Fish_FlameLord,spr_KSW_Fish_FlameLord_Pal,series_GhoulsNGhosts,borange,1,serranoSprings,KSW_Phases.night,1994);
 	//scr_KSW_AddFish("Scula",spr_KSW_Fish_Scula,spr_KSW_Fish_Scula_Pal,series_GhoulsNGhosts,legion,1,hallowReen,KSW_Phases.night,1994);
 	//scr_KSW_AddFish("Holothurion",spr_KSW_Fish_Holothurion,spr_KSW_Fish_Holothurion_Pal,series_GhoulsNGhosts,maze,2,grassBeach,KSW_Phases.night,19940);
+	scr_KSW_AddFish("Sam",spr_KSW_Fish_Sam,spr_KSW_Fish_Sam_Pal,series_LookOutside,flux,2,hallowReen,KSW_Phases.none,1000,-8,-10);
 	//scr_KSW_AddFish("Mike...?",spr_KSW_Fish_Mikes,spr_KSW_Fish_Mikes_Pal,series_Deltarune,tvtime,3,androidPort,KSW_Phases.none,64530);
 	//scr_KSW_AddFish("DELTA_HEROES",spr_KSW_Fish_HERODELTA,spr_KSW_Fish_HERODELTA_Pal,series_Deltarune,mage,2,androidPort,KSW_Phases.none,7770);
 	//scr_KSW_AddFish("Aqua",spr_KSW_Fish_Aqua,spr_KSW_Fish_Aqua_Pal,series_Deltarune,flux,2,hallowReen,KSW_Phases.afternoon,1000);
