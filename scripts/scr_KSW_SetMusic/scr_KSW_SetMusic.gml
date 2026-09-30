@@ -80,6 +80,7 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("hurricos","Hurricos","Spyro 2: Ripto's Rage",KSW_Phases.night,mus_KSW_Hurricos);
 	scr_KSW_AddMusic("aquariaTowers","Aquaria Towers","Spyro 2: Ripto's Rage",KSW_Phases.night,mus_KSW_AquariaTowers);
 	scr_KSW_AddMusic("eveningLake","Evening Lake","Spyro: Year of The Dragon",KSW_Phases.night,mus_KSW_EveningLake);
+	scr_KSW_AddMusic("theCoast","The Coast","Rain World",KSW_Phases.night,mus_KSW_TheCoast);
 	#endregion
 	
 	#region Any
