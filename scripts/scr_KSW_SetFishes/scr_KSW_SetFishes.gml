@@ -2385,20 +2385,20 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Gunner Drone",spr_KSW_Fish_GunnerDrone,spr_KSW_Fish_GunnerDrone_Pal,series_RiskRain,maze,0,androidPort,KSW_Phases.none,220);
 	//scr_KSW_AddFish("Missile Drone",spr_KSW_Fish_MissileDrone,spr_KSW_Fish_MissileDrone_Pal,series_RiskRain,flux,1,androidPort,KSW_Phases.none,2020);
 	//scr_KSW_AddFish("Flame Drone",spr_KSW_Fish_FlameDrone,spr_KSW_Fish_FlameDrone_Pal,series_RiskRain,borange,1,androidPort,KSW_Phases.none,2020);
-	//scr_KSW_AddFish("Ukulele",spr_KSW_Fish_Ukulele,spr_KSW_Fish_Ukulele_Pal,series_RiskRain,flux,3,androidPort,KSW_Phases.none,198000,0,0,-1,snd_KSW_Fish_RainFormerPurple);
 	
+	//scr_KSW_AddFish("Ukulele",spr_KSW_Fish_Ukulele,spr_KSW_Fish_Ukulele_Pal,series_RiskRain,flux,3,androidPort,KSW_Phases.none,198000,0,0,-1,snd_KSW_Fish_RainFormerPurple);
 	//scr_KSW_AddFish("Commando",spr_KSW_Fish_Commando,spr_KSW_Fish_Commando_Pal,series_RiskRain,glimmer,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Huntress",spr_KSW_Fish_Huntress,spr_KSW_Fish_Huntress_Pal,series_RiskRain,candy,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Bandit (RoR)",spr_KSW_Fish_BanditRoR,spr_KSW_Fish_BanditRoR_Pal,series_RiskRain,legion,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("HAN-D",spr_KSW_Fish_HAND,spr_KSW_Fish_HAND_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Engineer",spr_KSW_Fish_Engineer,spr_KSW_Fish_Engineer_Pal,series_RiskRain,flux,3,androidPort,KSW_Phases.none,20200);
-	scr_KSW_AddFish("Artificer",spr_KSW_Fish_Artificer,spr_KSW_Fish_Artificer_Pal,series_RiskRain,mage,3,androidPort,KSW_Phases.none,20200);
-	scr_KSW_AddFish("Mercenary",spr_KSW_Fish_Mercenary,spr_KSW_Fish_Mercenary_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
-	scr_KSW_AddFish("Loader",spr_KSW_Fish_Loader,spr_KSW_Fish_Loader_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
-	scr_KSW_AddFish("Acrid",spr_KSW_Fish_Acrid,spr_KSW_Fish_Acrid_Pal,series_RiskRain,mint,3,androidPort,KSW_Phases.none,20200);
-	scr_KSW_AddFish("Chef",spr_KSW_Fish_Chef,spr_KSW_Fish_Chef_Pal,series_RiskRain,candy,3,androidPort,KSW_Phases.none,20200);
-	scr_KSW_AddFish("Drifter",spr_KSW_Fish_Drifter,spr_KSW_Fish_Drifter_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
-	scr_KSW_AddFish("Enforcer",spr_KSW_Fish_Enforcer,spr_KSW_Fish_Enforcer_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Artificer",spr_KSW_Fish_Artificer,spr_KSW_Fish_Artificer_Pal,series_RiskRain,mage,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Mercenary",spr_KSW_Fish_Mercenary,spr_KSW_Fish_Mercenary_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Loader",spr_KSW_Fish_Loader,spr_KSW_Fish_Loader_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Acrid",spr_KSW_Fish_Acrid,spr_KSW_Fish_Acrid_Pal,series_RiskRain,mint,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Chef",spr_KSW_Fish_Chef,spr_KSW_Fish_Chef_Pal,series_RiskRain,candy,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Drifter",spr_KSW_Fish_Drifter,spr_KSW_Fish_Drifter_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Enforcer",spr_KSW_Fish_Enforcer,spr_KSW_Fish_Enforcer_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
 	
 	#endregion
 	#endregion
