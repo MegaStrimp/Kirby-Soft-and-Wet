@@ -135,7 +135,8 @@ function scr_KSW_SetFishes()
 	var series_IB = global.KSW_SeriesIDs[? "iB"];
 	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
 	var series_omori = global.KSW_SeriesIDs[? "omori"];
-	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"]
+	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"];
+	var series_TheBattleCats = global.KSW_SeriesIDs[? "theBattleCats"];
 	#endregion
 	
 	#region Stages
@@ -2364,6 +2365,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Corporal Pig",spr_KSW_Fish_CorporalPig,spr_KSW_Fish_CorporalPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("Foreman Pig",spr_KSW_Fish_ForemanPig,spr_KSW_Fish_ForemanPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("King Pig",spr_KSW_Fish_KingPig,spr_KSW_Fish_KingPig_Pal,series_AngryBirds,mint,3,androidPort,KSW_Phases.none,20090);
+	scr_KSW_AddFish("Basic Cat", spr_KSW_Fish_BasicCat, spr_KSW_Fish_BasicCat_Pal,series_TheBattleCats,mint,1,androidPort,KSW_Phases.none,75,-6);
 	#endregion
 	#endregion
 }
