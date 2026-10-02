@@ -4,6 +4,7 @@ function scr_KSW_LoadFullSave(loadFish = true)
 {
 	#region Variables
 	global.fullSaveLoaded = true;
+	global.fullSaveLoaded = false;
 	#endregion
 	
 	#region Character Status
