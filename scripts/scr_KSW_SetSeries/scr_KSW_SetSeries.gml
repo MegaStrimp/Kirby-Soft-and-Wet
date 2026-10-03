@@ -142,6 +142,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("aHatInTime","A Hat In Time");
 	scr_KSW_AddSeries("omori","Omori");
 	scr_KSW_AddSeries("LookOutside","Look Outside");
+	scr_KSW_AddSeries("CassetteBeasts","Cassette Beasts");
 	scr_KSW_AddSeries("riskRain","Risk of Rain");
 	#endregion
 }

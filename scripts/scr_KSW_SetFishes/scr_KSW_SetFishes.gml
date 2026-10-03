@@ -142,6 +142,7 @@ function scr_KSW_SetFishes()
 	var series_IB = global.KSW_SeriesIDs[? "iB"];
 	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
 	var series_omori = global.KSW_SeriesIDs[? "omori"];
+	var series_CassetteBeasts = global.KSW_SeriesIDs[? "CassetteBeasts"]
 	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"];
 	var series_RiskRain = global.KSW_SeriesIDs[? "riskRain"];
 	#endregion
@@ -2252,7 +2253,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Gang Zombie",spr_KSW_Fish_GangZombie,spr_KSW_Fish_GangZombie_Pal,series_MotherEncore,legion,0,hallowReen,KSW_Phases.night,100);
 	scr_KSW_AddFish("Ninten",spr_KSW_Fish_Ninten,spr_KSW_Fish_Ninten_Pal,series_Mother,candy,3,grassBeach,KSW_Phases.none,100000);
 	scr_KSW_AddFish("Pippi",spr_KSW_Fish_Pippi,spr_KSW_Fish_Pippi_Pal,series_Mother,borange,2,grassBeach,KSW_Phases.night,10000);
-	scr_KSW_AddFish("Lloyd",spr_KSW_Fish_Lloyd,spr_KSW_Fish_Lloyd_Pal,series_Mother,mint,3,grassBeach,KSW_Phases.none,100000);
+	scr_KSW_AddFish("Lloyd",spr_KSW_Fish_Lloyd,spr_KSW_Fish_Lloyd_Pal,series_Mother,mint,3,grassBeach,KStteW_Phases.none,100000);
 	scr_KSW_AddFish("Ana",spr_KSW_Fish_Ana,spr_KSW_Fish_Ana_Pal,series_Mother,mage,3,grassBeach,KSW_Phases.day,100000);
 	scr_KSW_AddFish("Teddy",spr_KSW_Fish_Teddy,spr_KSW_Fish_Teddy_Pal,series_Mother,maze,2,androidPort,KSW_Phases.night,10000);
 	scr_KSW_AddFish("New Age Retro Hippie",spr_KSW_Fish_NewAgeRetroHippie,spr_KSW_Fish_NewAgeRetroHippie_Pal,series_Mother,candy,1,grassBeach,KSW_Phases.day,2000,0,0,-1,snd_KSW_Fish_Hippie);
@@ -2384,6 +2385,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Candle Banjo",spr_KSW_Fish_CandleBanjo,spr_KSW_Fish_CandleBanjo_Pal,series_Banjo,candy,3,hallowReen,KSW_Phases.none,7500);
 	scr_KSW_AddFish("Tank Banjo",spr_KSW_Fish_TankBanjo,spr_KSW_Fish_TankBanjo_Pal,series_Banjo,mint,3,androidPort,KSW_Phases.afternoon,20000);
 	scr_KSW_AddFish("Mecha Grunty",spr_KSW_Fish_MechaGrunty,spr_KSW_Fish_MechaGrunty_Pal,series_Banjo,maze,3,androidPort,KSW_Phases.night,100000);
+	scr_KSW_AddFish("Diveal",spr_KSW_Fish_Diveal,spr_KSW_Fish_Diveal_Pal,series_CassetteBeasts,mint,1,creamCrevasse,KSW_Phases.none,20000,-10,10);
+	scr_KSW_AddFish("Scubalrus",spr_KSW_Fish_Scubalrus,spr_KSW_Fish_Scubalrus_Pal,series_CassetteBeasts,mint,2,creamCrevasse,KSW_Phases.none,30000,-30,10);
+	scr_KSW_AddFish("Diveberg",spr_KSW_Fish_Diveberg,spr_KSW_Fish_Diveberg_Pal,series_CassetteBeasts,mint,3,creamCrevasse,KSW_Phases.none,40000,-20,12);
 	
 	
 	

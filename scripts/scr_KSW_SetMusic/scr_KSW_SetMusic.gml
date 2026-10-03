@@ -38,6 +38,7 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("junkyardIsles","Junkyard Isles","Skylanders Giants",KSW_Phases.day,mus_KSW_JunkyardIsles);
 	scr_KSW_AddMusic("ghostIsland","Ghost Island","Pac-Man World",KSW_Phases.day,mus_KSW_GhostIsland);
 	scr_KSW_AddMusic("pacVillage","Pac-Village","Pac-Man World 2",KSW_Phases.day,mus_KSW_PacVillage);
+	scr_KSW_AddMusic("elefeesHealingMagic","Elefee's Healing Magic","UNDER NIGHT IN-BIRTH II [Sys:Celes]",KSW_Phases.day,mus_KSW_ElefeesHealingMagic);
 	#endregion
 	
 	#region Afternoon
@@ -61,6 +62,7 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("buccaneerBeach","Buccaneer Beach","Pac-Man World",KSW_Phases.afternoon,mus_KSW_BuccaneerBeach);
 	scr_KSW_AddMusic("thebearBasics","The Bear Basics","Pac-Man World 2",KSW_Phases.afternoon,mus_KSW_TheBearBasics);
 	scr_KSW_AddMusic("scubaduba","Scuba Duba","Pac-Man World 2",KSW_Phases.afternoon,mus_KSW_ScubaDuba);
+	scr_KSW_AddMusic("orientalOcean","Oriental Ocean","Hanaby's Summer Festival",KSW_Phases.afternoon,mus_KSW_OrientalOcean);
 	#endregion
 	
 	#region Night
@@ -78,6 +80,7 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("hurricos","Hurricos","Spyro 2: Ripto's Rage",KSW_Phases.night,mus_KSW_Hurricos);
 	scr_KSW_AddMusic("aquariaTowers","Aquaria Towers","Spyro 2: Ripto's Rage",KSW_Phases.night,mus_KSW_AquariaTowers);
 	scr_KSW_AddMusic("eveningLake","Evening Lake","Spyro: Year of The Dragon",KSW_Phases.night,mus_KSW_EveningLake);
+	scr_KSW_AddMusic("theCoast","The Coast","Rain World",KSW_Phases.night,mus_KSW_TheCoast);
 	#endregion
 	
 	#region Any
