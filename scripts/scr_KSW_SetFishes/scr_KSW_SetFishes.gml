@@ -1199,7 +1199,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Roll",spr_KSW_Fish_Roll,spr_KSW_Fish_Roll_Pal,series_MegaManSequelWars,candy,3,androidPort,KSW_Phases.day,198700);
 	scr_KSW_AddFish("Proto Man",spr_KSW_Fish_ProtoMan,spr_KSW_Fish_ProtoMan_Pal,series_MegaMan,mint,3,androidPort,KSW_Phases.afternoon,199000);
 	scr_KSW_AddFish("Rush",spr_KSW_Fish_Rush,spr_KSW_Fish_Rush_Pal,series_MegaMan,borange,3,androidPort,KSW_Phases.day,198800);
-	scr_KSW_AddFish("Dr. Light",spr_KSW_Fish_Light,spr_KSW_Fish_Light_Pal,series_MegaMan,glimmer,3,androidPort,KSW_Phases.day,1987000);
+	scr_KSW_AddFish("Dr. Light",spr_KSW_Fish_Light,spr_KSW_Fish_Light_Pal,series_MegaMan,glimmer,3,androidPort,KSW_Phases.day,198700);
 	scr_KSW_AddFish("Dr. Wily",spr_KSW_Fish_Wily,spr_KSW_Fish_Wily_Pal,series_MegaMan,maze,3,androidPort,KSW_Phases.night,198900);
 	scr_KSW_AddFish("Metall",spr_KSW_Fish_Metall,spr_KSW_Fish_Metall_Pal,series_MegaMan,borange,0,serranoSprings,KSW_Phases.day,1000);
 	scr_KSW_AddFish("Pickelman",spr_KSW_Fish_Pickelman,spr_KSW_Fish_Pickelman_Pal,series_MegaMan,borange,0,serranoSprings,KSW_Phases.day,1000);
@@ -1520,13 +1520,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Buff Alligator",spr_KSW_Fish_BuffAlligator,spr_KSW_Fish_BuffAlligator_Pal,series_NuclearThrone,mint,1,grassBeach,KSW_Phases.none,5770);
 	scr_KSW_AddFish("Buster Blimp",spr_KSW_Fish_BusterBlimp,spr_KSW_Fish_BusterBlimp_Pal,series_AntonBlast,candy,2,grassBeach,KSW_Phases.afternoon,10000);
 	scr_KSW_AddFish("Cerberus",spr_KSW_Fish_Cerberus,spr_KSW_Fish_Cerberus_Pal,series_Castlevania,candy,1,serranoSprings,KSW_Phases.night,15000);
-	scr_KSW_AddFish("Chaos",spr_KSW_Fish_Chaos,spr_KSW_Fish_Chaos_Pal,series_Castlevania,legion,3,hallowReen,KSW_Phases.none,3000000);
+	scr_KSW_AddFish("Chaos",spr_KSW_Fish_Chaos,spr_KSW_Fish_Chaos_Pal,series_Castlevania,legion,3,hallowReen,KSW_Phases.none,300000);
 	scr_KSW_AddFish("Cheese (Symphony)",spr_KSW_Fish_SymphonyCheese,spr_KSW_Fish_SymphonyCheese_Pal,series_Castlevania,legion,0,hallowReen,KSW_Phases.afternoon,18);
 	scr_KSW_AddFish("Cheesecake",spr_KSW_Fish_Cheesecake,spr_KSW_Fish_Cheesecake_Pal,series_Castlevania,borange,0,hallowReen,KSW_Phases.afternoon,14);
 	scr_KSW_AddFish("Chicken",spr_KSW_Fish_Chicken,spr_KSW_Fish_Chicken_Pal,series_NuclearThrone,candy,2,anyStage,KSW_Phases.none,9870);
 	scr_KSW_AddFish("Chinese Bun",spr_KSW_Fish_ChineseBun,spr_KSW_Fish_ChineseBun_Pal,series_Castlevania,candy,0,hallowReen,KSW_Phases.night,10);
 	scr_KSW_AddFish("Camilla (Circle)",spr_KSW_Fish_CircleCamilla,spr_KSW_Fish_CircleCamilla_Pal,series_Castlevania,candy,2,hallowReen,KSW_Phases.afternoon,80000);
-	scr_KSW_AddFish("Dracula (Circle)",spr_KSW_Fish_CircleCount,spr_KSW_Fish_CircleCount_Pal,series_Castlevania,flux,3,hallowReen,KSW_Phases.night,1830000);
+	scr_KSW_AddFish("Dracula (Circle)",spr_KSW_Fish_CircleCount,spr_KSW_Fish_CircleCount_Pal,series_Castlevania,flux,3,hallowReen,KSW_Phases.night,183000);
 	scr_KSW_AddFish("Death (Circle)",spr_KSW_Fish_CircleDeath,spr_KSW_Fish_CircleDeath_Pal,series_Castlevania,flux,3,hallowReen,KSW_Phases.day,60000);
 	scr_KSW_AddFish("Count Olrox",spr_KSW_Fish_CountOlrox,spr_KSW_Fish_CountOlrox_Pal,series_Castlevania,mint,1,hallowReen,KSW_Phases.afternoon,66600);
 	scr_KSW_AddFish("Creaking Skull",spr_KSW_Fish_CreakingSkull,spr_KSW_Fish_CreakingSkull_Pal,series_Castlevania,mage,1,hallowReen,KSW_Phases.day,1100);
@@ -1556,7 +1556,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Frankfurter",spr_KSW_Fish_Frankfurter,spr_KSW_Fish_Frankfurter_Pal,series_Castlevania,borange,0,hallowReen,KSW_Phases.day,19);
 	scr_KSW_AddFish("Freak",spr_KSW_Fish_Freak,spr_KSW_Fish_Freak_Pal,series_NuclearThrone,mint,0,hallowReen,KSW_Phases.night,850);
 	scr_KSW_AddFish("Freako Dragon",spr_KSW_Fish_FreakoDragon,spr_KSW_Fish_FreakoDragon_Pal,series_AntonBlast,mint,2,serranoSprings,KSW_Phases.afternoon,20000);
-	scr_KSW_AddFish("Galamoth",spr_KSW_Fish_Galamoth,spr_KSW_Fish_Galamoth_Pal,series_Castlevania,glimmer,3,hallowReen,KSW_Phases.afternoon,1990000);
+	scr_KSW_AddFish("Galamoth",spr_KSW_Fish_Galamoth,spr_KSW_Fish_Galamoth_Pal,series_Castlevania,glimmer,3,hallowReen,KSW_Phases.afternoon,199000);
 	scr_KSW_AddFish("Gamakichi",spr_KSW_Fish_Gamakichi,spr_KSW_Fish_Gamakichi_Pal,series_SnowBros,candy,3,creamCrevasse,KSW_Phases.night,6890);
 	scr_KSW_AddFish("Gas Cloud",spr_KSW_Fish_GasCloud,spr_KSW_Fish_GasCloud_Pal,series_Castlevania,flux,0,hallowReen,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Genya Arikado",spr_KSW_Fish_GenyaArikado,spr_KSW_Fish_GenyaArikado_Pal,series_Castlevania,candy,2,hallowReen,KSW_Phases.day,2036);
@@ -1672,7 +1672,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Spirit Orb",spr_KSW_Fish_SpiritOrb,spr_KSW_Fish_SpiritOrb_Pal,series_Castlevania,mint,0,hallowReen,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Spooky Bandit",spr_KSW_Fish_SpookyBandit,spr_KSW_Fish_SpookyBandit_Pal,series_NuclearThrone,borange,0,hallowReen,KSW_Phases.day,1810);
 	scr_KSW_AddFish("Steroids",spr_KSW_Fish_Steroids,spr_KSW_Fish_Steroids_Pal,series_NuclearThrone,borange,2,anyStage,KSW_Phases.none,13820);
-	scr_KSW_AddFish("Stone Skull",spr_KSW_Fish_StoneSkull,spr_KSW_Fish_StoneSkull_Pal,series_Castlevania,glimmer,3,hallowReen,KSW_Phases.none,1000000);
+	scr_KSW_AddFish("Stone Skull",spr_KSW_Fish_StoneSkull,spr_KSW_Fish_StoneSkull_Pal,series_Castlevania,glimmer,3,hallowReen,KSW_Phases.none,100000);
 	scr_KSW_AddFish("Strawberry (Symphony)",spr_KSW_Fish_SymphonyStrawberry,spr_KSW_Fish_SymphonyStrawberry_Pal,series_Misc,candy,0,hallowReen,KSW_Phases.day,10);
 	scr_KSW_AddFish("Sushi",spr_KSW_Fish_Sushi,spr_KSW_Fish_Sushi_Pal,series_Castlevania,borange,0,hallowReen,KSW_Phases.afternoon,100);
 	scr_KSW_AddFish("Sword Familiar",spr_KSW_Fish_SwordFamiliar,spr_KSW_Fish_SwordFamiliar_Pal,series_Castlevania,mint,1,hallowReen,KSW_Phases.afternoon,90);
@@ -2013,7 +2013,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Vortex Drone",spr_KSW_Fish_VortexDrone,spr_KSW_Fish_VortexDrone_Pal,series_EccoTheDolphin,maze,2,hallowReen,KSW_Phases.none,1992);
 	scr_KSW_AddFish("Ecco",spr_KSW_Fish_Ecco,spr_KSW_Fish_Ecco_Pal,series_EccoTheDolphin,legion,3,anyStage,KSW_Phases.none,2018);
 	scr_KSW_AddFish("Lord Iwama",spr_KSW_Fish_LordIwama,spr_KSW_Fish_LordIwama_Pal,series_LiveALive,glimmer,3,anyStage,KSW_Phases.night,202200);
-	scr_KSW_AddFish("Ode Iou",spr_KSW_Fish_OdeIou,spr_KSW_Fish_OdeIou_Pal,series_LiveALive,candy,3,anyStage,KSW_Phases.night,2022000);
+	scr_KSW_AddFish("Ode Iou",spr_KSW_Fish_OdeIou,spr_KSW_Fish_OdeIou_Pal,series_LiveALive,candy,3,anyStage,KSW_Phases.night,202200);
 	scr_KSW_AddFish("Bullet Kin",spr_KSW_Fish_BulletKin,spr_KSW_Fish_BulletKin_Pal,series_EnterTheGungeon,maze,1,anyStage,KSW_Phases.none,216);
 	scr_KSW_AddFish("Sand Crab",spr_KSW_Fish_SandCrab,spr_KSW_Fish_SandCrab_Pal,series_TheLegendOfZelda,glimmer,0,grassBeach,KSW_Phases.afternoon,100);
 	scr_KSW_AddFish("Kyameron",spr_KSW_Fish_Kyameron,spr_KSW_Fish_Kyameron_Pal,series_TheLegendOfZelda,mage,0,grassBeach,KSW_Phases.day,200);
