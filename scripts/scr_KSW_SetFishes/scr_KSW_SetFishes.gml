@@ -136,6 +136,8 @@ function scr_KSW_SetFishes()
 	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
 	var series_omori = global.KSW_SeriesIDs[? "omori"];
 	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"]
+	var series_Undertale2 = global.KSW_SeriesIDs[? "Undertale2"]
+	var series_MadSistersWeekOff = global.KSW_SeriesIDs[? "MadSistersWeekOff"]
 	#endregion
 	
 	#region Stages
@@ -2364,6 +2366,45 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Corporal Pig",spr_KSW_Fish_CorporalPig,spr_KSW_Fish_CorporalPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("Foreman Pig",spr_KSW_Fish_ForemanPig,spr_KSW_Fish_ForemanPig_Pal,series_AngryBirds,mint,2,androidPort,KSW_Phases.none,2009);
 	//scr_KSW_AddFish("King Pig",spr_KSW_Fish_KingPig,spr_KSW_Fish_KingPig_Pal,series_AngryBirds,mint,3,androidPort,KSW_Phases.none,20090);
+	scr_KSW_AddFish("Empty Can",spr_KSW_Fish_EmptyCan,spr_KSW_Fish_EmptyCan_Pal,series_Undertale2,limit,1,-1,KSW_Phases.none,200);
+	scr_KSW_AddFish("Sega Bass",spr_KSW_Fish_SegaBass,spr_KSW_Fish_SegaBass_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,380);
+	scr_KSW_AddFish("Cornfish",spr_KSW_Fish_Cornfish,spr_KSW_Fish_Cornfish_Pal,series_Undertale2,maze,1,-1,KSW_Phases.none,800);
+	scr_KSW_AddFish("Orbfish",spr_KSW_Fish_Orbfish,spr_KSW_Fish_Orbfish_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,1990);
+	scr_KSW_AddFish("Badge Betta",spr_KSW_Fish_BadgeBetta,spr_KSW_Fish_BadgeBetta_Pal,series_Undertale2,candy,2,-1,KSW_Phases.none,500);
+	scr_KSW_AddFish("Taiyaki",spr_KSW_Fish_Taiyaki,spr_KSW_Fish_Taiyaki_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,380);
+	scr_KSW_AddFish("Fugu Fish",spr_KSW_Fish_FuguFish,spr_KSW_Fish_FuguFish_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,440);
+	scr_KSW_AddFish("Rotten Mackerel",spr_KSW_Fish_RottenMackerel,spr_KSW_Fish_RottenMackerel_Pal,series_Undertale2,mage,2,-1,KSW_Phases.night,4400);
+	scr_KSW_AddFish("UT2 Luvdisc",spr_KSW_Fish_UT2Luvdisc,spr_KSW_Fish_UT2Luvdisc_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,370);
+	scr_KSW_AddFish("Helmet Jelly",spr_KSW_Fish_HelmetJelly,spr_KSW_Fish_HelmetJelly_Pal,series_Undertale2,limit,1,-1,KSW_Phases.afternoon,500);
+	scr_KSW_AddFish("Whip Eel",spr_KSW_Fish_WhipEel,spr_KSW_Fish_WhipEel_Pal,series_Undertale2,tvtime,1,-1,KSW_Phases.none,888);
+	scr_KSW_AddFish("Tuna Sashimi",spr_KSW_Fish_TunaSashimi,spr_KSW_Fish_TunaSashimi_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,850);
+	scr_KSW_AddFish("Blobfish Buddy",spr_KSW_Fish_BlobfishBuddy,spr_KSW_Fish_BlobfishBuddy_Pal,series_Undertale2,mint,1,-1,KSW_Phases.day,632);
+	scr_KSW_AddFish("UT2 Angler",spr_KSW_Fish_UT2Angler,spr_KSW_Fish_UT2Angler_Pal,series_Undertale2,tvtime,3,-1,KSW_Phases.night,666,0,0,-1,snd_KSW_Fish_UT2Angler);
+	scr_KSW_AddFish("Rubber Ducky",spr_KSW_Fish_RubberDucky,spr_KSW_Fish_RubberDucky_Pal,series_Undertale2,mint,1,-1,KSW_Phases.none,50);
+	scr_KSW_AddFish("Haliberd",spr_KSW_Fish_Haliberd,spr_KSW_Fish_Haliberd_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,777);
+	scr_KSW_AddFish("Goldfish Cracker",spr_KSW_Fish_GoldfishCracker,spr_KSW_Fish_GoldfishCracker_Pal,series_Undertale2,maze,3,-1,KSW_Phases.afternoon,5);
+	scr_KSW_AddFish("Mechanical Carp",spr_KSW_Fish_MechanicalCarp,spr_KSW_Fish_MechanicalCarp_Pal,series_Undertale2,flux,2,-1,KSW_Phases.none,1665);
+	scr_KSW_AddFish("Cum Buddy",spr_KSW_Fish_CumBuddy,spr_KSW_Fish_CumBuddy_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,6969); //If this one is too sexual or it can just be removed. My apologizes.
+	scr_KSW_AddFish("Son of Lokey",spr_KSW_Fish_SonofLokey,spr_KSW_Fish_SonofLokey_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,8282);
+	scr_KSW_AddFish("Pagliacci",spr_KSW_Fish_Pagliacci,spr_KSW_Fish_Pagliacci_Pal,series_Undertale2,mage,2,-1,KSW_Phases.afternoon,6969);
+	scr_KSW_AddFish("UT2 Blinky",spr_KSW_Fish_UT2Blinky,spr_KSW_Fish_UT2Blinky_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,46637);
+	scr_KSW_AddFish("Undyne Jr",spr_KSW_Fish_UndyneJr,spr_KSW_Fish_UndyneJr_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,1255);
+	scr_KSW_AddFish("Whale Shark Onesie",spr_KSW_Fish_WhaleSharkOnesie,spr_KSW_Fish_WhaleSharkOnesie_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,7770);
+	scr_KSW_AddFish("Sansfish",spr_KSW_Fish_Sansfish,spr_KSW_Fish_Sansfish_Pal,series_Undertale2,limit,3,-1,KSW_Phases.none,38440);
+	scr_KSW_AddFish("Pisces",spr_KSW_Fish_Pisces,spr_KSW_Fish_Pisces_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,1217);
+	scr_KSW_AddFish("Angeler",spr_KSW_Fish_Angeler,spr_KSW_Fish_Angeler_Pal,series_Undertale2,mage,3,-1,KSW_Phases.night,7738,0,0,-1,snd_KSW_Fish_Angeler);
+	scr_KSW_AddFish("UT2 Angelfish",spr_KSW_Fish_UT2Angelfish,spr_KSW_Fish_UT2Angelfish_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,4444);
+	scr_KSW_AddFish("UT2 Leviathan",spr_KSW_Fish_UT2Leviathan,spr_KSW_Fish_UT2Leviathan_Pal,series_Undertale2,limit,2,-1,KSW_Phases.afternoon,7347);
+	scr_KSW_AddFish("Tsuchinoko",spr_KSW_Fish_Tsuchinoko,spr_KSW_Fish_Tsuchinoko_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,3888888);
+	scr_KSW_AddFish("Morsel",spr_KSW_Fish_Morsel,spr_KSW_Fish_Morsel_Pal,series_Undertale2,glimmer,1,-1,KSW_Phases.night,3800);
+	scr_KSW_AddFish("Expio",spr_KSW_Fish_Expio,spr_KSW_Fish_Expio_Pal,series_Undertale2,glimmer,1,-1,KSW_Phases.night,3800);
+	scr_KSW_AddFish("Soupie",spr_KSW_Fish_Soupie,spr_KSW_Fish_Soupie_Pal,series_Undertale2,glimmer,1,-1,KSW_Phases.night,3800);
+	scr_KSW_AddFish("Rezzie",spr_KSW_Fish_Rezzie,spr_KSW_Fish_Rezzie_Pal,series_Undertale2,glimmer,3,-1,KSW_Phases.night,44000);
+	scr_KSW_AddFish("Mem-F",spr_KSW_Fish_MemF,spr_KSW_Fish_MemF_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
+	scr_KSW_AddFish("Mem-Y",spr_KSW_Fish_MemY,spr_KSW_Fish_MemY_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
+	scr_KSW_AddFish("Mem-G",spr_KSW_Fish_MemG,spr_KSW_Fish_MemG_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
+	scr_KSW_AddFish("Wrangler",spr_KSW_Fish_Wrangler,spr_KSW_Fish_Wrangler_Pal,series_MadSistersWeekOff,glimmer,3,-1,KSW_Phases.afternoon,53890);
+	scr_KSW_AddFish("UT2 Frisk",spr_KSW_Fish_UT2Frisk,spr_KSW_Fish_UT2Frisk_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,777);
 	#endregion
 	#endregion
 }
