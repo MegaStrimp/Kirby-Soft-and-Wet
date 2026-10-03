@@ -22,3 +22,11 @@ instance_create_depth(0,0,100,obj_KSW_Background_Underwater);
 #region Discord
 scr_Discord_Setup("Title Screen",-1,"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
 #endregion
+
+#region Completion Achievements Failsafe
+var achievementID = global.KSW_AchievementIDs[? "getAllStars"];
+if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+
+var achievementID = global.KSW_AchievementIDs[? "doEverything"];
+if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+#endregion
