@@ -2060,7 +2060,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Melted Freezy",spr_KSW_Fish_MeltedFreezy,spr_KSW_Fish_MeltedFreezy_Pal,series_NightmareCollection,borange,2,creamCrevasse,KSW_Phases.day,127);
 	scr_KSW_AddFish("Pot Caliente",spr_KSW_Fish_PotCaliente,spr_KSW_Fish_PotCaliente_Pal,series_NightmareCollection,legion,2,serranoSprings,KSW_Phases.none,3400);
 	scr_KSW_AddFish("Bruiser Hammer",spr_KSW_Fish_BruiserHammer,spr_KSW_Fish_BruiserHammer_Pal,series_NightmareCollection,candy,2,grassBeach,KSW_Phases.none,10293);
-	scr_KSW_AddFish("Drifter",spr_KSW_Fish_Drifter,spr_KSW_Fish_Drifter_Pal,series_NightmareCollection,mint,2,androidPort,KSW_Phases.none,19500);
+	scr_KSW_AddFish("Drifter (NC)",spr_KSW_Fish_DrifterNC,spr_KSW_Fish_DrifterNC_Pal,series_NightmareCollection,mint,2,androidPort,KSW_Phases.none,19500);
 	scr_KSW_AddFish("K06",spr_KSW_Fish_K06,spr_KSW_Fish_K06_Pal,series_NightmareCollection,legion,2,androidPort,KSW_Phases.night,21996);
 	scr_KSW_AddFish("Ybrik's Fang",spr_KSW_Fish_YbriksFang,spr_KSW_Fish_YbriksFang_Pal,series_NightmareCollection,candy,1,hallowReen,KSW_Phases.night,2016);
 	scr_KSW_AddFish("Kibbly's Headband",spr_KSW_Fish_KibblysHeadband,spr_KSW_Fish_KibblysHeadband_Pal,series_NightmareCollection,candy,2,grassBeach,KSW_Phases.day,19920);
@@ -2466,7 +2466,6 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Kappalord",spr_KSW_Fish_Kappalord,spr_KSW_Fish_Kappalord_Pal,series_Medabots,mint,0,androidPort,KSW_Phases.afternoon,1250);
 	//scr_KSW_AddFish("Fligflag",spr_KSW_Fish_Fligflag,spr_KSW_Fish_Fligflag_Pal,series_Medabots,mage,0,androidPort,KSW_Phases.afternoon,1500);
 	//scr_KSW_AddFish("Star Pentagon",spr_KSW_Fish_StarPentagon,spr_KSW_Fish_StarPentagon_Pal,series_Medabots,candy,1,androidPort,KSW_Phases.night,3000);
-	
 	#endregion
 	#endregion
 }
