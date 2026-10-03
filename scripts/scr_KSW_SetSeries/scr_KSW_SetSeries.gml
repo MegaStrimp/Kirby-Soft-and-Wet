@@ -106,5 +106,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("iB","IB");
 	scr_KSW_AddSeries("aHatInTime","A Hat In Time");
 	scr_KSW_AddSeries("omori","Omori");
+	scr_KSW_AddSeries("persona","Persona");
+	scr_KSW_AddSeries("vampireSurvivors","Vampire Survivors");
 	#endregion
 }
