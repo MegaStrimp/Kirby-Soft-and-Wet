@@ -90,6 +90,10 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("stardrop","Stardrop",spr_KSW_Bobber_Stardrop,spr_KSW_Bobber_Stardrop_Pal,flux,50,0,-4);
 	scr_KSW_AddBobber("luckyShorts","Lucky Shorts",spr_KSW_Bobber_LuckyShorts,spr_KSW_Bobber_LuckyShorts_Pal,flux,50,0,-5);
 	scr_KSW_AddBobber("coreDrill","Core Drill",spr_KSW_Bobber_CoreDrill,spr_KSW_Bobber_CoreDrill_Pal,glimmer,50,0,-7);
+	scr_KSW_AddBobber("yoYo","YoYo",spr_KSW_Bobber_YoYo,spr_KSW_Bobber_YoYo_Pal,mint,50,0,0);
+	scr_KSW_AddBobber("bBall","B. Ball",spr_KSW_Bobber_BBall,spr_KSW_Bobber_BBall_Pal,candy,50,0,0);
+	scr_KSW_AddBobber("top","Top",spr_KSW_Bobber_Top,spr_KSW_Bobber_Top_Pal,candy,50,0,0);
+	scr_KSW_AddBobber("wheel","Wheel",spr_KSW_Bobber_Wheel,spr_KSW_Bobber_Wheel_Pal,glimmer,50,0,0);
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,0,-7);
 	scr_KSW_AddBobber("starDream","Star Dream",spr_KSW_Bobber_StarDream,spr_KSW_Bobber_StarDream_Pal,candy,0,0,-5);
