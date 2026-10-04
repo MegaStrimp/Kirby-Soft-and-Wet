@@ -2404,7 +2404,18 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mem-Y",spr_KSW_Fish_MemY,spr_KSW_Fish_MemY_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
 	scr_KSW_AddFish("Mem-G",spr_KSW_Fish_MemG,spr_KSW_Fish_MemG_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
 	scr_KSW_AddFish("Wrangler",spr_KSW_Fish_Wrangler,spr_KSW_Fish_Wrangler_Pal,series_MadSistersWeekOff,glimmer,3,-1,KSW_Phases.afternoon,5389);
-	//scr_KSW_AddFish("UT2 Frisk",spr_KSW_Fish_UT2Frisk,spr_KSW_Fish_UT2Frisk_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,777);
+	scr_KSW_AddFish("UT2 Frisk",spr_KSW_Fish_UT2Frisk,spr_KSW_Fish_UT2Frisk_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,380);
+	scr_KSW_AddFish("Fabio",spr_KSW_Fish_Fabio,spr_KSW_Fish_Fabio_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,380);
+	scr_KSW_AddFish("UT2 Sans",spr_KSW_Fish_UT2Sans,spr_KSW_Fish_UT2Sans_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,440);
+	scr_KSW_AddFish("Monk Key",spr_KSW_Fish_MonkKey,spr_KSW_Fish_MonkKey_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,380);
+	scr_KSW_AddFish("UT2 Nazrin",spr_KSW_Fish_UT2Nazrin,spr_KSW_Fish_UT2Nazrin_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,2009);
+	scr_KSW_AddFish("Eclaire",spr_KSW_Fish_Eclaire,spr_KSW_Fish_Eclaire_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,888);
+	scr_KSW_AddFish("Grindy",spr_KSW_Fish_Grindy,spr_KSW_Fish_Grindy_Pal,series_Undertale2,maze,1,-1,KSW_Phases.none,200);
+	scr_KSW_AddFish("Tutariel",spr_KSW_Fish_Tutariel,spr_KSW_Fish_Tutariel_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,2011);
+	scr_KSW_AddFish("DIE HARD I",spr_KSW_Fish_DIEHARD,spr_KSW_Fish_DIEHARD_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,1988);
+	scr_KSW_AddFish("Die HARD II",spr_KSW_Fish_DIEHARD2,spr_KSW_Fish_DIEHARD2_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,1990);
+	scr_KSW_AddFish("Froguelass",spr_KSW_Fish_Froguelass,spr_KSW_Fish_froguelass_Pal,series_Undertale2,mint,2,-1,KSW_Phases.none,1111);
+	scr_KSW_AddFish("Frougeslick",spr_KSW_Fish_Frougeslick,spr_KSW_Fish_Frougeslick_Pal,series_Undertale2,mint,2,-1,KSW_Phases.none,777);
 	#endregion
 	#endregion
 }
