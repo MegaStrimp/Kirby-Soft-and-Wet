@@ -145,6 +145,7 @@ function scr_KSW_SetFishes()
 	var series_CassetteBeasts = global.KSW_SeriesIDs[? "CassetteBeasts"]
 	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"];
 	var series_RiskRain = global.KSW_SeriesIDs[? "riskRain"];
+	var series_FISH = global.KSW_SeriesIDs[? "fish"];
 	#endregion
 	
 	#region Stages
@@ -2388,6 +2389,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Diveal",spr_KSW_Fish_Diveal,spr_KSW_Fish_Diveal_Pal,series_CassetteBeasts,mint,1,creamCrevasse,KSW_Phases.none,20000,-10,10);
 	scr_KSW_AddFish("Scubalrus",spr_KSW_Fish_Scubalrus,spr_KSW_Fish_Scubalrus_Pal,series_CassetteBeasts,mint,2,creamCrevasse,KSW_Phases.none,30000,-30,10);
 	scr_KSW_AddFish("Diveberg",spr_KSW_Fish_Diveberg,spr_KSW_Fish_Diveberg_Pal,series_CassetteBeasts,mint,3,creamCrevasse,KSW_Phases.none,40000,-20,12);
+	scr_KSW_AddFish("Priest Puffball",spr_KSW_Fish_PriestPuffball,spr_KSW_Fish_PriestPuffball_Pal,series_Deltarot,mint,3,hallowReen,KSW_Phases.night,66700);
+	scr_KSW_AddFish("Killer Fish",spr_KSW_Fish_KillerFish,spr_KSW_Fish_KillerFish_Pal,series_FISH,borange,3,grassBeach,KSW_Phases.day,120000,,,,snd_KSW_Fish_KillerFish);
+	scr_KSW_AddFish("Killer Tuna",spr_KSW_Fish_KillerTuna,spr_KSW_Fish_KillerTuna_Pal,series_FISH,legion,2,hallowReen,KSW_Phases.night,72413);
 	
 	
 	
