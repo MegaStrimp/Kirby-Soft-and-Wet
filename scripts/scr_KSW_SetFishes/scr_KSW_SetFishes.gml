@@ -2403,8 +2403,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mem-F",spr_KSW_Fish_MemF,spr_KSW_Fish_MemF_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
 	scr_KSW_AddFish("Mem-Y",spr_KSW_Fish_MemY,spr_KSW_Fish_MemY_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
 	scr_KSW_AddFish("Mem-G",spr_KSW_Fish_MemG,spr_KSW_Fish_MemG_Pal,series_Undertale2,borange,3,-1,KSW_Phases.day,77777);
-	scr_KSW_AddFish("Wrangler",spr_KSW_Fish_Wrangler,spr_KSW_Fish_Wrangler_Pal,series_MadSistersWeekOff,glimmer,3,-1,KSW_Phases.afternoon,53890);
-	scr_KSW_AddFish("UT2 Frisk",spr_KSW_Fish_UT2Frisk,spr_KSW_Fish_UT2Frisk_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,777);
+	scr_KSW_AddFish("Wrangler",spr_KSW_Fish_Wrangler,spr_KSW_Fish_Wrangler_Pal,series_MadSistersWeekOff,glimmer,3,-1,KSW_Phases.afternoon,5389);
+	//scr_KSW_AddFish("UT2 Frisk",spr_KSW_Fish_UT2Frisk,spr_KSW_Fish_UT2Frisk_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,777);
 	#endregion
 	#endregion
 }
