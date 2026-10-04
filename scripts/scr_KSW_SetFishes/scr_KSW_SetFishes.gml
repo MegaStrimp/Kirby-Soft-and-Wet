@@ -2414,8 +2414,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Tutariel",spr_KSW_Fish_Tutariel,spr_KSW_Fish_Tutariel_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,2011);
 	scr_KSW_AddFish("DIE HARD I",spr_KSW_Fish_DIEHARD,spr_KSW_Fish_DIEHARD_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,1988);
 	scr_KSW_AddFish("Die HARD II",spr_KSW_Fish_DIEHARD2,spr_KSW_Fish_DIEHARD2_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,1990);
-	scr_KSW_AddFish("Froguelass",spr_KSW_Fish_Froguelass,spr_KSW_Fish_froguelass_Pal,series_Undertale2,mint,2,-1,KSW_Phases.none,1111);
-	scr_KSW_AddFish("Frougeslick",spr_KSW_Fish_Frougeslick,spr_KSW_Fish_Frougeslick_Pal,series_Undertale2,mint,2,-1,KSW_Phases.none,777);
+	scr_KSW_AddFish("Froguelass",spr_KSW_Fish_Froguelass,spr_KSW_Fish_froguelass_Pal,series_Undertale2,mint,2,-1,KSW_Phases.night,1111);
+	scr_KSW_AddFish("Frougeslick",spr_KSW_Fish_Frougeslick,spr_KSW_Fish_Frougeslick_Pal,series_Undertale2,mint,2,-1,KSW_Phases.night,777);
+	scr_KSW_AddFish("Bogcog",spr_KSW_Fish_Bogcog,spr_KSW_Fish_Bogcog_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,3482);
 	#endregion
 	#endregion
 }

@@ -12,16 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4427f9d9-a1ed-4e1b-8963-6afbfc85194c","name":"4427f9d9-a1ed-4e1b-8963-6afbfc85194c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"69461ad1-54b4-4764-a6a6-1f645fc4b11c","name":"69461ad1-54b4-4764-a6a6-1f645fc4b11c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"0ed09d58-7e45-46b4-b796-69b3fc7c5d1a","name":"0ed09d58-7e45-46b4-b796-69b3fc7c5d1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a32b4a4c-1dc9-4cae-9c1e-72cab550ac90","name":"a32b4a4c-1dc9-4cae-9c1e-72cab550ac90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f44ebbff-d52f-4251-bb49-2aeaff177445","name":"f44ebbff-d52f-4251-bb49-2aeaff177445","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0afcb11-404a-4587-acf3-f73f3d9c2bd6","name":"e0afcb11-404a-4587-acf3-f73f3d9c2bd6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8dcced47-f2be-434b-9dab-4a65551e3674","name":"8dcced47-f2be-434b-9dab-4a65551e3674","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":44,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b3c2429d-d576-4340-ad13-a8c943251a9e","blendMode":0,"displayName":"default","isLocked":false,"name":"b3c2429d-d576-4340-ad13-a8c943251a9e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0250733e-b0e7-42c1-b181-86c9b30ffde9","blendMode":0,"displayName":"default","isLocked":false,"name":"0250733e-b0e7-42c1-b181-86c9b30ffde9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_DIEHARD",
   "nineSlice":null,
@@ -51,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,20 +72,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4427f9d9-a1ed-4e1b-8963-6afbfc85194c","path":"sprites/spr_KSW_Fish_DIEHARD/spr_KSW_Fish_DIEHARD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"930af2e9-ca91-4e86-9444-2834ea65a0be","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a32b4a4c-1dc9-4cae-9c1e-72cab550ac90","path":"sprites/spr_KSW_Fish_DIEHARD/spr_KSW_Fish_DIEHARD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d6e591de-34b3-4239-ac3d-e6796cc30fe7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"69461ad1-54b4-4764-a6a6-1f645fc4b11c","path":"sprites/spr_KSW_Fish_DIEHARD/spr_KSW_Fish_DIEHARD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d990c468-028b-4e4e-bbc2-0f665ce30c7e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f44ebbff-d52f-4251-bb49-2aeaff177445","path":"sprites/spr_KSW_Fish_DIEHARD/spr_KSW_Fish_DIEHARD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"02f3e666-49ea-4df5-94df-4f59f23163d0","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ed09d58-7e45-46b4-b796-69b3fc7c5d1a","path":"sprites/spr_KSW_Fish_DIEHARD/spr_KSW_Fish_DIEHARD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35a43202-2bb4-467e-b6bd-000dcc092966","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0afcb11-404a-4587-acf3-f73f3d9c2bd6","path":"sprites/spr_KSW_Fish_DIEHARD/spr_KSW_Fish_DIEHARD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3797ea1e-01d1-4f73-8ca1-c6debc5f336d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8dcced47-f2be-434b-9dab-4a65551e3674","path":"sprites/spr_KSW_Fish_DIEHARD/spr_KSW_Fish_DIEHARD.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ef2ca9ad-a315-4f5e-8477-cd94d0c73810","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":24,
+    "yorigin":22,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

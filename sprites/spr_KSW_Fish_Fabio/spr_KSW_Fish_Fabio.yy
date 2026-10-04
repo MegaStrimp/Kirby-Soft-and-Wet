@@ -12,16 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f486adf1-ce7c-45b2-8aa2-fb5071b2e44e","name":"f486adf1-ce7c-45b2-8aa2-fb5071b2e44e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"154a0b75-96f6-4d67-b034-a2e787cb86e6","name":"154a0b75-96f6-4d67-b034-a2e787cb86e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"1fc11bb0-a037-40ba-9ec7-ba8ef2c1a552","name":"1fc11bb0-a037-40ba-9ec7-ba8ef2c1a552","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55ee9b78-5e23-4365-8ba8-c0bcb033a19d","name":"55ee9b78-5e23-4365-8ba8-c0bcb033a19d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f836f623-e760-4f3f-895a-e1ef08642ac2","name":"f836f623-e760-4f3f-895a-e1ef08642ac2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6bb854ff-c149-4ced-8893-7d3e9e9705b8","name":"6bb854ff-c149-4ced-8893-7d3e9e9705b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6e1ef75-79e9-4990-b862-46d018bd25a1","name":"f6e1ef75-79e9-4990-b862-46d018bd25a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":39,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"88c0ca06-8e55-40c2-8007-ff2578b3bbeb","blendMode":0,"displayName":"default","isLocked":false,"name":"88c0ca06-8e55-40c2-8007-ff2578b3bbeb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7de9981f-6daf-4ffd-835b-8708f57b7423","blendMode":0,"displayName":"default","isLocked":false,"name":"7de9981f-6daf-4ffd-835b-8708f57b7423","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Fabio",
   "nineSlice":null,
@@ -51,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,20 +72,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f486adf1-ce7c-45b2-8aa2-fb5071b2e44e","path":"sprites/spr_KSW_Fish_Fabio/spr_KSW_Fish_Fabio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fba2d5f4-368a-4260-9e7a-3c7dce84a754","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"55ee9b78-5e23-4365-8ba8-c0bcb033a19d","path":"sprites/spr_KSW_Fish_Fabio/spr_KSW_Fish_Fabio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d4295166-3b8a-4b45-a16a-45951e8499e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"154a0b75-96f6-4d67-b034-a2e787cb86e6","path":"sprites/spr_KSW_Fish_Fabio/spr_KSW_Fish_Fabio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6943a1a4-dc88-4bd6-a287-23ced4bc1c35","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f836f623-e760-4f3f-895a-e1ef08642ac2","path":"sprites/spr_KSW_Fish_Fabio/spr_KSW_Fish_Fabio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0aab31de-438a-4a91-8354-2c6fe359befe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1fc11bb0-a037-40ba-9ec7-ba8ef2c1a552","path":"sprites/spr_KSW_Fish_Fabio/spr_KSW_Fish_Fabio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ec2da410-c5ad-4d3a-a20a-7b455f70dab5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6bb854ff-c149-4ced-8893-7d3e9e9705b8","path":"sprites/spr_KSW_Fish_Fabio/spr_KSW_Fish_Fabio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"580729f4-54a3-47c6-8969-5b628db9aae0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6e1ef75-79e9-4990-b862-46d018bd25a1","path":"sprites/spr_KSW_Fish_Fabio/spr_KSW_Fish_Fabio.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2ec18995-e367-4c0a-b156-47f763c905c7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":13,
-    "yorigin":18,
+    "yorigin":20,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
