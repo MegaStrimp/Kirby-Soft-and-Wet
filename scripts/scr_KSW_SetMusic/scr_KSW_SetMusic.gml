@@ -38,7 +38,7 @@ function scr_KSW_SetMusic()
 	scr_KSW_AddMusic("junkyardIsles","Junkyard Isles","Skylanders Giants",KSW_Phases.day,mus_KSW_JunkyardIsles);
 	scr_KSW_AddMusic("ghostIsland","Ghost Island","Pac-Man World",KSW_Phases.day,mus_KSW_GhostIsland);
 	scr_KSW_AddMusic("pacVillage","Pac-Village","Pac-Man World 2",KSW_Phases.day,mus_KSW_PacVillage);
-	scr_KSW_AddMusic("elefeesHealingMagic","Elefee's Healing Magic","UNDER NIGHT IN-BIRTH II [Sys:Celes]",KSW_Phases.day,mus_KSW_ElefeesHealingMagic);
+	scr_KSW_AddMusic("elefeesHealingMagic","Elefee's Healing Magic","Under Night In-Birth",KSW_Phases.day,mus_KSW_ElefeesHealingMagic);
 	#endregion
 	
 	#region Afternoon
