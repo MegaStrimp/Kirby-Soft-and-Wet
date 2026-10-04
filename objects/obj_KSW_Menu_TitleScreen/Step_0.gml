@@ -153,9 +153,9 @@ if (canSelect)
 			scr_PlaySfx(snd_KSW_Enter);
 			
 			var targetRoom = rm_KSW_Menu_Aquarium;
-			if ((!global.KSW_EnteredAquariumAlt) and (global.KSW_EnteredAquarium))
+			if (!global.KSW_EnteredAquariumAlt)
 			{
-				var rng = irandom(33);
+				var rng = irandom(14);
 				if (rng == 0) targetRoom = rm_KSW_Menu_AquariumAlt;
 			}
 			scr_GoToRoom(targetRoom,false);

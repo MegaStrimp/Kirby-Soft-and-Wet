@@ -16,7 +16,7 @@ draw_sprite(spr_KSW_Menu_TitleScreen_Logo,0,room_width / 2,36 + logoWave);
 if (trailerShot)
 {
 	#region Version Number
-	scribble("[c_red]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) - 5);
+	scribble("[c_lime]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) - 5);
 	
 	if (keyboard_check(vk_space))
 	{
@@ -66,7 +66,7 @@ else
 	#endregion
 	
 	#region Version Number
-	scribble("[c_red]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_right).draw(236,4);
+	scribble("[c_lime]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_right).draw(236,4);
 	if (global.alivelInstaller_HasUpdate) scribble("[c_yellow]Update Available[/color]").gradient(c_orange,1).align(fa_right).draw(236,20);
 	#endregion
 	

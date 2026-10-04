@@ -22,7 +22,7 @@ if (scrollTimer != -1)
 	scrollTimer = max(scrollTimer - speedMultFinal,0);
 	if (scrollTimer == 0)
 	{
-		yScroll -= 1;
+		yScroll -= speedMultFinal;
 	
 		scrollTimer = scrollTimerMax;
 	}

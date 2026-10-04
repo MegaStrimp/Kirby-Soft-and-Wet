@@ -9,9 +9,6 @@ textAlphaSpd = .05;
 halign = fa_left;
 valign = fa_top;
 
-speedMultFinal = global.speedMultGlobal * global.deltaTime;
-localPause = global.pauseFinal;
-
 destroyTimer = 600;
 
 upIcon = undefined;

@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Bobber_LuckyShorts_Pal",
   "bboxMode":0,
-  "bbox_bottom":11,
+  "bbox_bottom":4,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c8e7969e-f8ab-41a0-910f-13fb9acf01a3","name":"c8e7969e-f8ab-41a0-910f-13fb9acf01a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6c7b9b7e-5b92-40eb-961c-ee9b88d5025c","name":"6c7b9b7e-5b92-40eb-961c-ee9b88d5025c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":12,
+  "height":5,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"dc0f8c16-f225-4161-a6d8-4f86a37d22f6","blendMode":0,"displayName":"default","isLocked":false,"name":"dc0f8c16-f225-4161-a6d8-4f86a37d22f6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7a6ce556-24e5-40ec-8044-564d7afd8177","blendMode":0,"displayName":"default","isLocked":false,"name":"7a6ce556-24e5-40ec-8044-564d7afd8177","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Bobber_LuckyShorts_Pal",
   "nineSlice":null,
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8e7969e-f8ab-41a0-910f-13fb9acf01a3","path":"sprites/spr_KSW_Bobber_LuckyShorts_Pal/spr_KSW_Bobber_LuckyShorts_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b6031364-5c0a-47cd-9159-bf6e88930987","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c7b9b7e-5b92-40eb-961c-ee9b88d5025c","path":"sprites/spr_KSW_Bobber_LuckyShorts_Pal/spr_KSW_Bobber_LuckyShorts_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"94662404-8af3-4329-8dc5-5217e0079757","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
