@@ -2496,6 +2496,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Tsumigame",spr_KSW_Fish_Tsumigame,spr_KSW_Fish_Tsumigame_Pal,series_Bomberman,flux,1,androidPort,KSW_Phases.day,6000);
 	//scr_KSW_AddFish("White Bomberman",spr_KSW_Fish_WhiteBomberman,spr_KSW_Fish_WhiteBomberman_Pal,series_Bomberman,candy,3,androidPort,KSW_Phases.none,60000);
 	//scr_KSW_AddFish("Black Bomberman",spr_KSW_Fish_BlackBomberman,spr_KSW_Fish_BlackBomberman_Pal,series_Bomberman,glimmer,3,androidPort,KSW_Phases.none,60000);
+	//scr_KSW_AddFish("Sirius",spr_KSW_Fish_Sirius,spr_KSW_Fish_Sirius_Pal,series_Bomberman,borange,3,androidPort,KSW_Phases.none,64000);
 	
 	#endregion
 	#endregion
