@@ -23,10 +23,11 @@ function scr_KSW_SetCharacters()
 	
 	#region Add Characters Here
 	scr_KSW_AddCharacter("kirby","Kirby",spr_KSW_UI_Customize_CharacterIcon_Kirby,candy,scr_KSW_Player_Kirby_Setup,0,spr_KSW_UI_Customize_Spray_Kirby,true);
-	scr_KSW_AddCharacter("gooey","Gooey",spr_KSW_UI_Customize_CharacterIcon_Gooey,mage,scr_KSW_Player_Gooey_Setup,300,spr_KSW_UI_Customize_Spray_Gooey);
-	scr_KSW_AddCharacter("elfilin","Elfilin",spr_KSW_UI_Customize_CharacterIcon_Elfilin,mint,scr_KSW_Player_Elfilin_Setup,300,spr_KSW_UI_Customize_Spray_Elfilin);
-	scr_KSW_AddCharacter("marx","Marx",spr_KSW_UI_Customize_CharacterIcon_Marx,flux,scr_KSW_Player_Marx_Setup,300,spr_KSW_UI_Customize_Spray_Marx);
-	scr_KSW_AddCharacter("waddleDee","Waddle Dee",spr_KSW_UI_Customize_CharacterIcon_WaddleDee,borange,scr_KSW_Player_WaddleDee_Setup,300,spr_KSW_UI_Customize_Spray_WaddleDee);
-	scr_KSW_AddCharacter("susie","Susie",spr_KSW_UI_Customize_CharacterIcon_Susie,candy,scr_KSW_Player_Susie_Setup,300,spr_KSW_UI_Customize_Spray_Susie);
+	scr_KSW_AddCharacter("gooey","Gooey",spr_KSW_UI_Customize_CharacterIcon_Gooey,mage,scr_KSW_Player_Gooey_Setup,400,spr_KSW_UI_Customize_Spray_Gooey);
+	scr_KSW_AddCharacter("elfilin","Elfilin",spr_KSW_UI_Customize_CharacterIcon_Elfilin,mint,scr_KSW_Player_Elfilin_Setup,400,spr_KSW_UI_Customize_Spray_Elfilin);
+	scr_KSW_AddCharacter("marx","Marx",spr_KSW_UI_Customize_CharacterIcon_Marx,flux,scr_KSW_Player_Marx_Setup,400,spr_KSW_UI_Customize_Spray_Marx);
+	scr_KSW_AddCharacter("waddleDee","Waddle Dee",spr_KSW_UI_Customize_CharacterIcon_WaddleDee,borange,scr_KSW_Player_WaddleDee_Setup,400,spr_KSW_UI_Customize_Spray_WaddleDee);
+	scr_KSW_AddCharacter("susie","Susie",spr_KSW_UI_Customize_CharacterIcon_Susie,candy,scr_KSW_Player_Susie_Setup,400,spr_KSW_UI_Customize_Spray_Susie);
+	scr_KSW_AddCharacter("ybrik","Ybrik",spr_KSW_UI_Customize_CharacterIcon_Ybrik,borange,scr_KSW_Player_Ybrik_Setup,400,spr_KSW_UI_Customize_Spray_Ybrik);
 	#endregion
 }

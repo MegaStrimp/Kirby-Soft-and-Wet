@@ -35,7 +35,9 @@ function scr_KSW_SetStages()
 	
 	var targetNightBgColors = [161,255,102,205,191,140];
 	
-	scr_KSW_AddStage("grassBeach","Grass Beach",spr_KSW_UI_Customize_StageIcon_GrassBeach,spr_KSW_Layout_GrassBeach_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_GrassBeach_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_GrassBeach_Night,targetNightBackgrounds,targetNightBgColors,0,true);
+	var grassBeachDiscount = 1;
+	
+	scr_KSW_AddStage("grassBeach","Grass Beach",spr_KSW_UI_Customize_StageIcon_GrassBeach,spr_KSW_Layout_GrassBeach_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_GrassBeach_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_GrassBeach_Night,targetNightBackgrounds,targetNightBgColors,0,grassBeachDiscount,true);
 	#endregion
 	
 	#region Cream Crevasse
@@ -52,7 +54,10 @@ function scr_KSW_SetStages()
 	
 	var targetNightBgColors = [146,255,196,114,178,206];
 	
-	scr_KSW_AddStage("creamCrevasse","Cream Crevasse",spr_KSW_UI_Customize_StageIcon_CreamCrevasse,spr_KSW_Layout_CreamCrevasse_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_CreamCrevasse_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_CreamCrevasse_Night,targetNightBackgrounds,targetNightBgColors,500);
+	var creamCrevasseDiscount = 1;
+	if (current_month == 12) creamCrevasseDiscount /= 2;
+	
+	scr_KSW_AddStage("creamCrevasse","Cream Crevasse",spr_KSW_UI_Customize_StageIcon_CreamCrevasse,spr_KSW_Layout_CreamCrevasse_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_CreamCrevasse_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_CreamCrevasse_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * creamCrevasseDiscount),creamCrevasseDiscount);
 	#endregion
 	
 	#region Hallow Reen
@@ -69,7 +74,10 @@ function scr_KSW_SetStages()
 	
 	var targetNightBgColors = [0,0,0,0,255,209];
 	
-	scr_KSW_AddStage("hallowReen","Hallow Reen",spr_KSW_UI_Customize_StageIcon_HallowReen,spr_KSW_Layout_HallowReen_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_HallowReen_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_HallowReen_Night,targetNightBackgrounds,targetNightBgColors,500);
+	var hallowReenDiscount = 1;
+	if (current_month == 10) hallowReenDiscount /= 2;
+	
+	scr_KSW_AddStage("hallowReen","Hallow Reen",spr_KSW_UI_Customize_StageIcon_HallowReen,spr_KSW_Layout_HallowReen_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_HallowReen_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_HallowReen_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * hallowReenDiscount),hallowReenDiscount);
 	#endregion
 
 	#region Serrano Springs
@@ -85,7 +93,10 @@ function scr_KSW_SetStages()
 	
 	var targetNightBgColors = [13,255,152,152,47,0];
 	
-	scr_KSW_AddStage("serranoSprings","Serrano Springs",spr_KSW_UI_Customize_StageIcon_SerranoSprings,spr_KSW_Layout_SerranoSprings_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_SerranoSprings_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_SerranoSprings_Night,targetNightBackgrounds,targetNightBgColors,500);
+	var serranoSpringsDiscount = 1;
+	if (current_month == 6) serranoSpringsDiscount /= 2;
+	
+	scr_KSW_AddStage("serranoSprings","Serrano Springs",spr_KSW_UI_Customize_StageIcon_SerranoSprings,spr_KSW_Layout_SerranoSprings_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_SerranoSprings_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_SerranoSprings_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * serranoSpringsDiscount),serranoSpringsDiscount);
 	#endregion
 	
 	#region Android Port
@@ -101,7 +112,10 @@ function scr_KSW_SetStages()
 	
 	var targetNightBgColors = [223,263,97,267,220,25];
 	
-	scr_KSW_AddStage("androidPort","Android Port",spr_KSW_UI_Customize_StageIcon_AndroidPort,spr_KSW_Layout_AndroidPort_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_AndroidPort_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_AndroidPort_Night,targetNightBackgrounds,targetNightBgColors,500);
+	var androidPortDiscount = 1;
+	if (current_month == 8) androidPortDiscount /= 2;
+	
+	scr_KSW_AddStage("androidPort","Android Port",spr_KSW_UI_Customize_StageIcon_AndroidPort,spr_KSW_Layout_AndroidPort_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_AndroidPort_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_AndroidPort_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * androidPortDiscount),androidPortDiscount);
 	#endregion
 	#endregion
 }
