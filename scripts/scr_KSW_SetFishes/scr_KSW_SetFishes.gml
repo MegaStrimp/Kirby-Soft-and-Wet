@@ -2470,6 +2470,11 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Kappalord",spr_KSW_Fish_Kappalord,spr_KSW_Fish_Kappalord_Pal,series_Medabots,mint,0,androidPort,KSW_Phases.afternoon,1250);
 	//scr_KSW_AddFish("Fligflag",spr_KSW_Fish_Fligflag,spr_KSW_Fish_Fligflag_Pal,series_Medabots,mage,0,androidPort,KSW_Phases.afternoon,1500);
 	//scr_KSW_AddFish("Star Pentagon",spr_KSW_Fish_StarPentagon,spr_KSW_Fish_StarPentagon_Pal,series_Medabots,candy,1,androidPort,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Morton (Look Outside)",spr_KSW_Fish_MortonLookOutside,spr_KSW_Fish_MortonLookOutside_Pal,series_LookOutside,maze,3,hallowReen,KSW_Phases.night,20000,-77,-42);
+	scr_KSW_AddFish("Audrey",spr_KSW_Fish_Audrey,spr_KSW_Fish_Audrey_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.day,30000,-9,-11);
+	scr_KSW_AddFish("Dan",spr_KSW_Fish_Dan,spr_KSW_Fish_Dan_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.night,1000,-9,-11);
+	scr_KSW_AddFish("Roaches",spr_KSW_Fish_Roaches,spr_KSW_Fish_Roaches_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.night,2000,-9,-11);
+	scr_KSW_AddFish("Phillippe",spr_KSW_Fish_Phillippe,spr_KSW_Fish_Phillippe_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.day,2000,-9,-11);
 	#endregion
 	#endregion
 }
