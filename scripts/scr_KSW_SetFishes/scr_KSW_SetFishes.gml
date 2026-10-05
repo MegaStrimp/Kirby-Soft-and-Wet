@@ -2509,6 +2509,13 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Ponpon",spr_KSW_Fish_Ponpon,spr_KSW_Fish_Ponpon_Pal,series_Bomberman,borange,1,androidPort,KSW_Phases.afternoon,4000);
 	//scr_KSW_AddFish("Swim",spr_KSW_Fish_Swim,spr_KSW_Fish_Swim_Pal,series_Bomberman,candy,1,androidPort,KSW_Phases.night,4000);
 	//scr_KSW_AddFish("Dogun",spr_KSW_Fish_Dogun,spr_KSW_Fish_Dogun_Pal,series_Bomberman,borange,2,serranoSprings,KSW_Phases.night,40000);
+	//scr_KSW_AddFish("Kerooey",spr_KSW_Fish_Kerooey,spr_KSW_Fish_Kerooey_Pal,series_Bomberman,mage,2,androidPort,KSW_Phases.none,5000);
+	//scr_KSW_AddFish("Gyarooey",spr_KSW_Fish_Gyarooey,spr_KSW_Fish_Gyarooey_Pal,series_Bomberman,glimmer,2,androidPort,KSW_Phases.none,5000);
+	//scr_KSW_AddFish("Hanerooey",spr_KSW_Fish_Hanerooey,spr_KSW_Fish_Hanerooey_Pal,series_Bomberman,candy,2,androidPort,KSW_Phases.none,5000);
+	//scr_KSW_AddFish("Magicarooey",spr_KSW_Fish_Magicarooey,spr_KSW_Fish_Magicarooey_Pal,series_Bomberman,flux,2,androidPort,KSW_Phases.none,5000);
+	//scr_KSW_AddFish("Marooey",spr_KSW_Fish_Marooey,spr_KSW_Fish_Marooey_Pal,series_Bomberman,mint,2,androidPort,KSW_Phases.none,5000);
+	//scr_KSW_AddFish("Nagurooey",spr_KSW_Fish_Nagurooey,spr_KSW_Fish_Nagurooey_Pal,series_Bomberman,borange,2,androidPort,KSW_Phases.none,5000);
+	//scr_KSW_AddFish("Warooey",spr_KSW_Fish_Warooey,spr_KSW_Fish_Warooey_Pal,series_Bomberman,maze,2,androidPort,KSW_Phases.night,5500);
 	//scr_KSW_AddFish("Ballom",spr_KSW_Fish_Ballom,spr_KSW_Fish_Ballom_Pal,series_Bomberman,flux,1,androidPort,KSW_Phases.none,600);
 	//scr_KSW_AddFish("Buroru",spr_KSW_Fish_Buroru,spr_KSW_Fish_Buroru_Pal,series_Bomberman,flux,1,hallowReen,KSW_Phases.none,600);
 	//scr_KSW_AddFish("Onil",spr_KSW_Fish_Onil,spr_KSW_Fish_Onil_Pal,series_Bomberman,flux,1,creamCrevasse,KSW_Phases.none,600);
