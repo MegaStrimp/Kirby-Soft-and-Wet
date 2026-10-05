@@ -2502,6 +2502,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Phantom Bomber",spr_KSW_Fish_PhantomBomber,spr_KSW_Fish_PhantomBomber_Pal,series_Bomberman,flux,3,hallowReen,KSW_Phases.none,35000);
 	//scr_KSW_AddFish("Golem Bomber",spr_KSW_Fish_GolemBomber,spr_KSW_Fish_GolemBomber_Pal,series_Bomberman,borange,3,serranoSprings,KSW_Phases.none,35000);
 	//scr_KSW_AddFish("Plasma Bomber",spr_KSW_Fish_PlasmaBomber,spr_KSW_Fish_PlasmaBomber_Pal,series_Bomberman,mint,3,androidPort,KSW_Phases.none,35000);
+	scr_KSW_AddFish("Bagura",spr_KSW_Fish_Bagura,spr_KSW_Fish_Bagura_Pal,series_Bomberman,flux,3,androidPort,KSW_Phases.night,45000);
 	//scr_KSW_AddFish("Angora",spr_KSW_Fish_Angora,spr_KSW_Fish_Angora_Pal,series_Bomberman,mint,1,grassBeach,KSW_Phases.afternoon,4000);
 	//scr_KSW_AddFish("Bobo",spr_KSW_Fish_Bobo,spr_KSW_Fish_Bobo_Pal,series_Bomberman,flux,1,serranoSprings,KSW_Phases.afternoon,4000);
 	//scr_KSW_AddFish("Gamefurai",spr_KSW_Fish_Gamefurai,spr_KSW_Fish_Gamefurai_Pal,series_Bomberman,mint,1,androidPort,KSW_Phases.day,4000);
@@ -2524,8 +2525,26 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Snow Jet",spr_KSW_Fish_SnowJet,spr_KSW_Fish_SnowJet_Pal,series_Bomberman,mage,1,creamCrevasse,KSW_Phases.day,600);
 	//scr_KSW_AddFish("Sword Shark",spr_KSW_Fish_SwordShark,spr_KSW_Fish_SwordShark_Pal,series_Bomberman,mint,1,grassBeach,KSW_Phases.night,600);
 	//scr_KSW_AddFish("Tsumigame",spr_KSW_Fish_Tsumigame,spr_KSW_Fish_Tsumigame_Pal,series_Bomberman,flux,1,androidPort,KSW_Phases.day,6000);
+	scr_KSW_AddFish("Hige Hige Bandit",spr_KSW_Fish_HigeHigeBandit,spr_KSW_Fish_HigeHigeBandit_Pal,series_Bomberman,candy,1,androidPort,KSW_Phases.none,6000);
+	scr_KSW_AddFish("Dr. Mechado",spr_KSW_Fish_DrMechado,spr_KSW_Fish_DrMechado_Pal,series_Bomberman,glimmer,3,androidPort,KSW_Phases.none,60000);
+	scr_KSW_AddFish("Tirra",spr_KSW_Fish_Tirra,spr_KSW_Fish_Tirra_Pal,series_Bomberman,mint,2,grassBeach,KSW_Phases.none,6500);
 	//scr_KSW_AddFish("White Bomberman",spr_KSW_Fish_WhiteBomberman,spr_KSW_Fish_WhiteBomberman_Pal,series_Bomberman,candy,3,androidPort,KSW_Phases.none,60000);
 	//scr_KSW_AddFish("Black Bomberman",spr_KSW_Fish_BlackBomberman,spr_KSW_Fish_BlackBomberman_Pal,series_Bomberman,glimmer,3,androidPort,KSW_Phases.none,60000);
+	scr_KSW_AddFish("The Cockle Twins",spr_KSW_Fish_CockleTwins,spr_KSW_Fish_CockleTwins_Pal,series_Bomberman,mage,2,grassBeach,KSW_Phases.afternoon,19930);
+	scr_KSW_AddFish("Grumpus",spr_KSW_Fish_Grumpus,spr_KSW_Fish_Grumpus_Pal,series_Bomberman,legion,2,creamCrevasse,KSW_Phases.night,19930);
+	scr_KSW_AddFish("El-Baal",spr_KSW_Fish_ElBaal,spr_KSW_Fish_ElBaal_Pal,series_Bomberman,glimmer,2,creamCrevasse,KSW_Phases.afternoon,19930);
+	scr_KSW_AddFish("Grub Robs",spr_KSW_Fish_GrubRobs,spr_KSW_Fish_GrubRobs_Pal,series_Bomberman,flux,2,grassBeach,KSW_Phases.night,19940);
+	scr_KSW_AddFish("Pyramid Gan:G",spr_KSW_Fish_PyramidGanG,spr_KSW_Fish_PyramidGanG_Pal,series_Bomberman,candy,2,serranoSprings,KSW_Phases.night,19940);
+	scr_KSW_AddFish("Starfish",spr_KSW_Fish_Starfish,spr_KSW_Fish_Starfish_Pal,series_Bomberman,borange,0,grassBeach,KSW_Phases.night,195);
+	scr_KSW_AddFish("Clownfish (Bomberman)",spr_KSW_Fish_ClownfishBomb,spr_KSW_Fish_ClownfishBomb_Pal,series_Bomberman,glimmer,0,grassBeach,KSW_Phases.night,195);
+	scr_KSW_AddFish("Crab (Bomberman)",spr_KSW_Fish_CrabBomb,spr_KSW_Fish_CrabBomb_Pal,series_Bomberman,candy,1,grassBeach,KSW_Phases.night,1995);
+	scr_KSW_AddFish("Furamanbo",spr_KSW_Fish_Furamanbo,spr_KSW_Fish_Furamanbo_Pal,series_Bomberman,legion,1,grassBeach,KSW_Phases.night,1995);
+	scr_KSW_AddFish("Mogeko",spr_KSW_Fish_Mogeko,spr_KSW_Fish_Mogeko_Pal,series_Bomberman,flux,1,hallowReen,KSW_Phases.night,1995);
+	scr_KSW_AddFish("Komori Count",spr_KSW_Fish_KomoriCount,spr_KSW_Fish_KomoriCount_Pal,series_Bomberman,maze,2,hallowReen,KSW_Phases.night,19950);
+	scr_KSW_AddFish("Queen Oyobee",spr_KSW_Fish_QueenOyobee,spr_KSW_Fish_QueenOyobee_Pal,series_Bomberman,legion,2,creamCrevasse,KSW_Phases.night,19950);
+	scr_KSW_AddFish("Max",spr_KSW_Fish_Max,spr_KSW_Fish_Max_Pal,series_Bomberman,candy,3,androidPort,KSW_Phases.night,20000);
+	scr_KSW_AddFish("Pommy",spr_KSW_Fish_Pommy,spr_KSW_Fish_Pommy_Pal,series_Bomberman,glimmer,2,grassBeach,KSW_Phases.afternoon,19990);
+	scr_KSW_AddFish("Mujoe",spr_KSW_Fish_Mujoe,spr_KSW_Fish_Mujoe_Pal,series_Bomberman,flux,2,grassBeach,KSW_Phases.night,19970);
 	//scr_KSW_AddFish("Sirius",spr_KSW_Fish_Sirius,spr_KSW_Fish_Sirius_Pal,series_Bomberman,borange,3,androidPort,KSW_Phases.none,64000);
 	
 	#endregion
