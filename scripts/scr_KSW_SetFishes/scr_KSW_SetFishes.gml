@@ -2130,7 +2130,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Snatcher",spr_KSW_Fish_TheSnatcher,spr_KSW_Fish_TheSnatcher_Pal,series_aHatInTime,flux,3,hallowReen,KSW_Phases.night,45000);
 	scr_KSW_AddFish("Mr. Jawsum",spr_KSW_Fish_Jawsum,spr_KSW_Fish_Jawsum_Pal,series_omori,mage,3,grassBeach,KSW_Phases.none,10000);
 	scr_KSW_AddFish("Humphrey",spr_KSW_Fish_Humphrey,spr_KSW_Fish_Humphrey_Pal,series_omori,mage,3,grassBeach,KSW_Phases.afternoon,13000);
-	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,99999,0,0,0,snd_KSW_Fish_Chark);
+	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,99999,0,0,,snd_KSW_Fish_Chark);
 	scr_KSW_AddFish("Sam",spr_KSW_Fish_Sam,spr_KSW_Fish_Sam_Pal,series_LookOutside,flux,2,hallowReen,KSW_Phases.none,1000,-8,-10);
 	scr_KSW_AddFish("Morton (Look Outside)",spr_KSW_Fish_MortonLookOutside,spr_KSW_Fish_MortonLookOutside_Pal,series_LookOutside,maze,3,hallowReen,KSW_Phases.night,20000,-77,-42);
 	scr_KSW_AddFish("Audrey",spr_KSW_Fish_Audrey,spr_KSW_Fish_Audrey_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.day,30000,-9,-11);
@@ -2395,19 +2395,19 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Candle Banjo",spr_KSW_Fish_CandleBanjo,spr_KSW_Fish_CandleBanjo_Pal,series_Banjo,candy,3,hallowReen,KSW_Phases.none,7500);
 	scr_KSW_AddFish("Tank Banjo",spr_KSW_Fish_TankBanjo,spr_KSW_Fish_TankBanjo_Pal,series_Banjo,mint,3,androidPort,KSW_Phases.afternoon,20000);
 	scr_KSW_AddFish("Mecha Grunty",spr_KSW_Fish_MechaGrunty,spr_KSW_Fish_MechaGrunty_Pal,series_Banjo,maze,3,androidPort,KSW_Phases.night,100000);
-	scr_KSW_AddFish("Diveal",spr_KSW_Fish_Diveal,spr_KSW_Fish_Diveal_Pal,series_CassetteBeasts,mint,1,creamCrevasse,KSW_Phases.none,20000,-10,10);
-	scr_KSW_AddFish("Scubalrus",spr_KSW_Fish_Scubalrus,spr_KSW_Fish_Scubalrus_Pal,series_CassetteBeasts,mint,2,creamCrevasse,KSW_Phases.none,30000,-30,10);
-	scr_KSW_AddFish("Diveberg",spr_KSW_Fish_Diveberg,spr_KSW_Fish_Diveberg_Pal,series_CassetteBeasts,mint,3,creamCrevasse,KSW_Phases.none,40000,-20,12);
+	scr_KSW_AddFish("Diveal",spr_KSW_Fish_Diveal,spr_KSW_Fish_Diveal_Pal,series_CassetteBeasts,mage,1,creamCrevasse,KSW_Phases.none,20000,-10,10);
+	scr_KSW_AddFish("Scubalrus",spr_KSW_Fish_Scubalrus,spr_KSW_Fish_Scubalrus_Pal,series_CassetteBeasts,mage,2,creamCrevasse,KSW_Phases.none,30000,-30,10);
+	scr_KSW_AddFish("Diveberg",spr_KSW_Fish_Diveberg,spr_KSW_Fish_Diveberg_Pal,series_CassetteBeasts,mage,3,creamCrevasse,KSW_Phases.none,40000,-20,12);
 	scr_KSW_AddFish("Priest Puffball",spr_KSW_Fish_PriestPuffball,spr_KSW_Fish_PriestPuffball_Pal,series_Deltarot,mint,3,hallowReen,KSW_Phases.night,66700);
 	scr_KSW_AddFish("Killer Fish",spr_KSW_Fish_KillerFish,spr_KSW_Fish_KillerFish_Pal,series_FISH,borange,3,grassBeach,KSW_Phases.day,120000,,,,snd_KSW_Fish_KillerFish);
 	scr_KSW_AddFish("Killer Tuna",spr_KSW_Fish_KillerTuna,spr_KSW_Fish_KillerTuna_Pal,series_FISH,legion,2,hallowReen,KSW_Phases.night,72413);
 	scr_KSW_AddFish("Basic Cat", spr_KSW_Fish_BasicCat, spr_KSW_Fish_BasicCat_Pal,series_TheBattleCats,mint,1,androidPort,KSW_Phases.none,75,-6);
-	scr_KSW_AddFish("Adachi",spr_KSW_Fish_Adachi,spr_KSW_Fish_Adachi_Pal,series_Persona,candy,3,hallowReen,KSW_Phases.none,63000,0,0,2,snd_KSW_Fish_Adachi);
+	scr_KSW_AddFish("Adachi",spr_KSW_Fish_Adachi,spr_KSW_Fish_Adachi_Pal,series_Persona,candy,3,hallowReen,KSW_Phases.none,63000,0,0,,snd_KSW_Fish_Adachi);
 	scr_KSW_AddFish("Pipeestrello",spr_KSW_Fish_Pipeestrello,spr_KSW_Fish_Pipeestrello_Pal,series_vampireSurvivors,mage,0,hallowReen,KSW_Phases.none,10);
 	scr_KSW_AddFish("Bloodbath",spr_KSW_Fish_Bloodbath,spr_KSW_Fish_Bloodbath_Pal,series_vampireSurvivors,candy,0,hallowReen,KSW_Phases.none,20);
 	scr_KSW_AddFish("Skullino",spr_KSW_Fish_Skullino,spr_KSW_Fish_Skullino_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,30);
 	scr_KSW_AddFish("Scarleton",spr_KSW_Fish_Scarleton,spr_KSW_Fish_Scarleton_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,50);
-	scr_KSW_AddFish("Zombie",spr_KSW_Fish_ZombieV,spr_KSW_Fish_ZombieV_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,70);
+	scr_KSW_AddFish("Zombie (VS)",spr_KSW_Fish_ZombieV,spr_KSW_Fish_ZombieV_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,70);
 	scr_KSW_AddFish("Mudman",spr_KSW_Fish_mudman,spr_KSW_Fish_mudman_pal,series_vampireSurvivors,mint,0,grassBeach,KSW_Phases.none,80);
 	scr_KSW_AddFish("Flower Wall",spr_KSW_Fish_Flowerwall,spr_KSW_Fish_Flowerwall_Pal,series_vampireSurvivors,mint,0,grassBeach,KSW_Phases.none,90);
 	

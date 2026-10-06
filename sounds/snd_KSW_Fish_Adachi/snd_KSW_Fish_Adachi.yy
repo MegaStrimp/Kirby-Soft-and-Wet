@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":9.504014,
+  "duration":2.584694,
   "exportDir":"",
   "name":"snd_KSW_Fish_Adachi",
   "parent":{
@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_KSW_Fish_Adachi.mp3",
+  "tags":[
+    "Sound Effect",
+  ],
   "volume":1.0,
 }
