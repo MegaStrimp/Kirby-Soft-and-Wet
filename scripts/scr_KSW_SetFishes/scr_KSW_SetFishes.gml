@@ -142,6 +142,7 @@ function scr_KSW_SetFishes()
 	var series_IB = global.KSW_SeriesIDs[? "iB"];
 	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
 	var series_omori = global.KSW_SeriesIDs[? "omori"];
+	var series_TheBattleCats = global.KSW_SeriesIDs[? "theBattleCats"];
 	var series_CassetteBeasts = global.KSW_SeriesIDs[? "CassetteBeasts"]
 	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"];
 	var series_RiskRain = global.KSW_SeriesIDs[? "riskRain"];
@@ -2398,6 +2399,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Priest Puffball",spr_KSW_Fish_PriestPuffball,spr_KSW_Fish_PriestPuffball_Pal,series_Deltarot,mint,3,hallowReen,KSW_Phases.night,66700);
 	scr_KSW_AddFish("Killer Fish",spr_KSW_Fish_KillerFish,spr_KSW_Fish_KillerFish_Pal,series_FISH,borange,3,grassBeach,KSW_Phases.day,120000,,,,snd_KSW_Fish_KillerFish);
 	scr_KSW_AddFish("Killer Tuna",spr_KSW_Fish_KillerTuna,spr_KSW_Fish_KillerTuna_Pal,series_FISH,legion,2,hallowReen,KSW_Phases.night,72413);
+	scr_KSW_AddFish("Basic Cat", spr_KSW_Fish_BasicCat, spr_KSW_Fish_BasicCat_Pal,series_TheBattleCats,mint,1,androidPort,KSW_Phases.none,75,-6);
 	
 	
 	
