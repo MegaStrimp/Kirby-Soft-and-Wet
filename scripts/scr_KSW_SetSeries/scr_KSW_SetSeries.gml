@@ -149,5 +149,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("bomberman","Bomberman");
 	scr_KSW_AddSeries("persona","Persona");
 	scr_KSW_AddSeries("vampireSurvivors","Vampire Survivors");
+	scr_KSW_AddSeries("OFF","OFF");
 	#endregion
 }
