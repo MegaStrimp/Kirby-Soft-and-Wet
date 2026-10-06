@@ -2128,6 +2128,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Humphrey",spr_KSW_Fish_Humphrey,spr_KSW_Fish_Humphrey_Pal,series_omori,mage,3,grassBeach,KSW_Phases.afternoon,13000);
 	scr_KSW_AddFish("Chark",spr_KSW_Fish_Chark,spr_KSW_Fish_Chark_Pal,series_Undertale,limit,3,hallowReen,KSW_Phases.none,99999,0,0,0,snd_KSW_Fish_Chark);
 	scr_KSW_AddFish("Sam",spr_KSW_Fish_Sam,spr_KSW_Fish_Sam_Pal,series_LookOutside,flux,2,hallowReen,KSW_Phases.none,1000,-8,-10);
+	scr_KSW_AddFish("Morton (Look Outside)",spr_KSW_Fish_MortonLookOutside,spr_KSW_Fish_MortonLookOutside_Pal,series_LookOutside,maze,3,hallowReen,KSW_Phases.night,20000,-77,-42);
+	scr_KSW_AddFish("Audrey",spr_KSW_Fish_Audrey,spr_KSW_Fish_Audrey_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.day,30000,-9,-11);
+	scr_KSW_AddFish("Dan",spr_KSW_Fish_Dan,spr_KSW_Fish_Dan_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.night,1000,-9,-11);
+	scr_KSW_AddFish("Roaches",spr_KSW_Fish_Roaches,spr_KSW_Fish_Roaches_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.night,2000,-9,-11);
+	scr_KSW_AddFish("Phillippe",spr_KSW_Fish_Phillippe,spr_KSW_Fish_Phillippe_Pal,series_LookOutside,maze,2,hallowReen,KSW_Phases.day,2000,-9,-11);
 	scr_KSW_AddFish("Winged Shrimp",spr_KSW_Fish_WingedShrimp,spr_KSW_Fish_WingedShrimp_Pal,series_FieldsOfMistria,mage,0,hallowReen,KSW_Phases.none,250);
 	scr_KSW_AddFish("Sneaky Spirit",spr_KSW_Fish_SneakySpirit,spr_KSW_Fish_SneakySpirit_Pal,series_RhythmHeaven,mage,1,hallowReen,KSW_Phases.night,300);
 	scr_KSW_AddFish("Freddy Fazbear",spr_KSW_Fish_Freddy,spr_KSW_Fish_Freddy_Pal,series_FiveNightsAtFreddys,borange,2,hallowReen,KSW_Phases.night,20140);
@@ -2553,7 +2558,6 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Pommy",spr_KSW_Fish_Pommy,spr_KSW_Fish_Pommy_Pal,series_Bomberman,glimmer,2,grassBeach,KSW_Phases.afternoon,19990);
 	//scr_KSW_AddFish("Mujoe",spr_KSW_Fish_Mujoe,spr_KSW_Fish_Mujoe_Pal,series_Bomberman,flux,2,grassBeach,KSW_Phases.night,19970);
 	//scr_KSW_AddFish("Sirius",spr_KSW_Fish_Sirius,spr_KSW_Fish_Sirius_Pal,series_Bomberman,borange,3,androidPort,KSW_Phases.none,64000);
-	
 	#endregion
 	#endregion
 }
