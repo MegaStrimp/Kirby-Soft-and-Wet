@@ -8,18 +8,23 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"dc877c7f-981e-4600-84e3-1da4055c2435","name":"dc877c7f-981e-4600-84e3-1da4055c2435","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"28f7543a-28bd-493d-b356-b1ad82303a55","name":"28f7543a-28bd-493d-b356-b1ad82303a55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":5,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0916b213-2bd3-4628-94c5-ee6a22fb31eb","blendMode":0,"displayName":"default","isLocked":false,"name":"0916b213-2bd3-4628-94c5-ee6a22fb31eb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c8b87f1c-7a74-46a5-bf6a-e8683fdc2990","blendMode":0,"displayName":"default","isLocked":false,"name":"c8b87f1c-7a74-46a5-bf6a-e8683fdc2990","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Mary_Pal",
   "nineSlice":null,
@@ -69,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc877c7f-981e-4600-84e3-1da4055c2435","path":"sprites/spr_KSW_Fish_Mary_Pal/spr_KSW_Fish_Mary_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"52fd5b70-c036-4655-91aa-8757172ee9aa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"28f7543a-28bd-493d-b356-b1ad82303a55","path":"sprites/spr_KSW_Fish_Mary_Pal/spr_KSW_Fish_Mary_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5ead487f-b082-427d-8eb5-1b04a8ba602b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

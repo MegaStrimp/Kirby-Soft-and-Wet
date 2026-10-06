@@ -996,6 +996,19 @@ if (canSelect)
 }
 #endregion
 
+#region Bubble Timer
+if (bubbleTimer != -1)
+{
+	bubbleTimer = max(bubbleTimer - speedMultFinal,0);
+	if (bubbleTimer == 0)
+	{
+		scr_KSW_ParticleSet_Bubble(irandom_range(-10,room_width + 10),room_height,random_range(-.2,.2),irandom_range(-3,-2));
+		
+		bubbleTimer = bubbleTimerMax;
+	}
+}
+#endregion
+
 #region Button Input Timers
 scr_Component_ButtonInputTimer_Step();
 #endregion

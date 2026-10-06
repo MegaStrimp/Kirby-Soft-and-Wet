@@ -103,13 +103,13 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	#endregion
 	
 	#region Rarity
-	if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught != 0)
-	{
+	//if (global.KSW_FishList[ds_list_find_value(selectionList,i)].isCaught != 0)
+	//{
 		for (var h = 0; h < rarity; h++)
 		{
 			draw_sprite(spr_KSW_UI_CaughtBox_Star,0,boxX - 2 + (12 * h),boxY + 22);
 		}
-	}
+	//}
 	#endregion
 	
 	#region Phase

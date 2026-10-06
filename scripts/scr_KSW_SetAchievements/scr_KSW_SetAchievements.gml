@@ -234,7 +234,7 @@ function scr_KSW_SetAchievements()
 		
 		for (var i = 0; i < ds_map_size(global.KSW_AchievementIDs); i++)
 		{
-			if ((!global.KSW_AchievementList[i].isObtained) and (global.KSW_AchievementList[i].id != "catchShiny") and (!global.KSW_AchievementList[i].isHidden))
+			if ((!global.KSW_AchievementList[i].isObtained) and (global.KSW_AchievementList[i].id != "getAllStars") and (!global.KSW_AchievementList[i].isHidden))
 			{
 				canObtain = false;
 				break;
@@ -253,7 +253,7 @@ function scr_KSW_SetAchievements()
 		
 		for (var i = 0; i < ds_map_size(global.KSW_AchievementIDs); i++)
 		{
-			if ((!global.KSW_AchievementList[i].isObtained) and (global.KSW_AchievementList[i].id != "getAllStars"))
+			if ((!global.KSW_AchievementList[i].isObtained) and (global.KSW_AchievementList[i].id != "doEverything"))
 			{
 				canObtain = false;
 				break;

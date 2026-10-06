@@ -2,24 +2,29 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_SuaveGanondorf_Pal",
   "bboxMode":0,
-  "bbox_bottom":244,
+  "bbox_bottom":62,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4a949645-6cd9-4ba5-9c49-a6b8ecfab937","name":"4a949645-6cd9-4ba5-9c49-a6b8ecfab937","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d9adf43-0400-4e96-95c6-bc7ac953a2a9","name":"6d9adf43-0400-4e96-95c6-bc7ac953a2a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":245,
+  "height":63,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5ac6ce50-71c7-47bf-87a2-83572706a669","blendMode":0,"displayName":"default","isLocked":false,"name":"5ac6ce50-71c7-47bf-87a2-83572706a669","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c4d18b1e-85a8-40b9-918a-f165c3a54413","blendMode":0,"displayName":"default","isLocked":false,"name":"c4d18b1e-85a8-40b9-918a-f165c3a54413","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_SuaveGanondorf_Pal",
   "nineSlice":null,
@@ -69,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a949645-6cd9-4ba5-9c49-a6b8ecfab937","path":"sprites/spr_KSW_Fish_SuaveGanondorf_Pal/spr_KSW_Fish_SuaveGanondorf_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ccaa24d7-b424-4f83-9d4d-f4274c75ffc6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d9adf43-0400-4e96-95c6-bc7ac953a2a9","path":"sprites/spr_KSW_Fish_SuaveGanondorf_Pal/spr_KSW_Fish_SuaveGanondorf_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2a00581d-8f90-4bfa-a0be-c80b95c3d3e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

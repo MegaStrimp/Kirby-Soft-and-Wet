@@ -8,18 +8,23 @@
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"20c906f3-18e6-4e25-9a68-b3a4d72cc6d0","name":"20c906f3-18e6-4e25-9a68-b3a4d72cc6d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"521700f1-461c-4041-8768-37f45ba6ca13","name":"521700f1-461c-4041-8768-37f45ba6ca13","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":15,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b63ccc6b-aa94-4c51-8fc3-06e6a3e0ed4a","blendMode":0,"displayName":"default","isLocked":false,"name":"b63ccc6b-aa94-4c51-8fc3-06e6a3e0ed4a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2837ec9c-b197-4fd9-a29e-fa79aed166b5","blendMode":0,"displayName":"default","isLocked":false,"name":"2837ec9c-b197-4fd9-a29e-fa79aed166b5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Mary",
   "nineSlice":null,
@@ -59,7 +64,7 @@
     },
     "name":"spr_KSW_Fish_Mary",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":9.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20c906f3-18e6-4e25-9a68-b3a4d72cc6d0","path":"sprites/spr_KSW_Fish_Mary/spr_KSW_Fish_Mary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"79c220e9-5fe3-4df8-a1d8-bc461bcc4af5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"521700f1-461c-4041-8768-37f45ba6ca13","path":"sprites/spr_KSW_Fish_Mary/spr_KSW_Fish_Mary.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5b914595-1bba-4ca6-bf77-5be13514f19e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

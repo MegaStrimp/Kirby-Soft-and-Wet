@@ -22,7 +22,7 @@ if (scrollTimer != -1)
 	scrollTimer = max(scrollTimer - speedMultFinal,0);
 	if (scrollTimer == 0)
 	{
-		yScroll -= speedMultFinal;
+		yScroll -= 1;
 	
 		scrollTimer = scrollTimerMax;
 	}
@@ -68,5 +68,5 @@ if (bubbleTimer != -1)
 #endregion
 
 #region Button Input Timers
-scr_Component_ButtonInputTimer_Step();
+scr_Component_ButtonInputTimer_Step(1);
 #endregion
