@@ -3258,6 +3258,8 @@
     {"name":"spr_KSW_Bobber_Blinky","order":56,"path":"sprites/spr_KSW_Bobber_Blinky/spr_KSW_Bobber_Blinky.yy",},
     {"name":"spr_KSW_Bobber_Blue_Pal","order":3,"path":"sprites/spr_KSW_Bobber_Blue_Pal/spr_KSW_Bobber_Blue_Pal.yy",},
     {"name":"spr_KSW_Bobber_Blue","order":2,"path":"sprites/spr_KSW_Bobber_Blue/spr_KSW_Bobber_Blue.yy",},
+    {"name":"spr_KSW_Bobber_Bobbery_Pal","order":171,"path":"sprites/spr_KSW_Bobber_Bobbery_Pal/spr_KSW_Bobber_Bobbery_Pal.yy",},
+    {"name":"spr_KSW_Bobber_Bobbery","order":170,"path":"sprites/spr_KSW_Bobber_Bobbery/spr_KSW_Bobber_Bobbery.yy",},
     {"name":"spr_KSW_Bobber_Boot_Pal","order":123,"path":"sprites/spr_KSW_Bobber_Boot_Pal/spr_KSW_Bobber_Boot_Pal.yy",},
     {"name":"spr_KSW_Bobber_Boot","order":122,"path":"sprites/spr_KSW_Bobber_Boot/spr_KSW_Bobber_Boot.yy",},
     {"name":"spr_KSW_Bobber_Clyde_Pal","order":69,"path":"sprites/spr_KSW_Bobber_Clyde_Pal/spr_KSW_Bobber_Clyde_Pal.yy",},
