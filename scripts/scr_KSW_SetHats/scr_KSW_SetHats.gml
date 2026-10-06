@@ -74,6 +74,15 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
 	scr_KSW_AddHat(playerID + "_" + "Original",playerID,"Original",spr_KSW_Player_Ybrik_Hat_Original_Ready_Shadow,scr_KSW_Player_Ybrik_Hat_Original_SpriteSet(),borange,150,0,1);
+	scr_KSW_AddHat(playerID + "_" + "JackOLantern",playerID,"Jack-o-Lantern",spr_KSW_Player_Ybrik_Hat_JackOLantern_Shop,scr_KSW_Player_Ybrik_Hat_JackOLantern_SpriteSet(),borange,150,2,3);
+	scr_KSW_AddHat(playerID + "_" + "MrPUmpkin",playerID,"Mr. P. Umpkin",spr_KSW_Player_Ybrik_Hat_MrPUmpkin_Shop,scr_KSW_Player_Ybrik_Hat_MrPUmpkin_SpriteSet(),borange,150,2,3);
+	scr_KSW_AddHat(playerID + "_" + "Kaboya",playerID,"Kaboya",spr_KSW_Player_Ybrik_Hat_Kaboya_Shop,scr_KSW_Player_Ybrik_Hat_Kaboya_SpriteSet(),flux,150,2,3);
+	scr_KSW_AddHat(playerID + "_" + "Tricky",playerID,"Tricky",spr_KSW_Player_Ybrik_Hat_Tricky_Shop,scr_KSW_Player_Ybrik_Hat_Tricky_SpriteSet(),mint,150,1,2);
+	scr_KSW_AddHat(playerID + "_" + "OldFriend",playerID,"Old Friend",spr_KSW_Player_Ybrik_Hat_OldFriend_Shop,scr_KSW_Player_Ybrik_Hat_OldFriend_SpriteSet(),mage,150,4,4);
+	scr_KSW_AddHat(playerID + "_" + "Sonic",playerID,"Sonic...",spr_KSW_Player_Ybrik_Hat_Sonic_Shop,scr_KSW_Player_Ybrik_Hat_Sonic_SpriteSet(),mage,150,4,4);
+	scr_KSW_AddHat(playerID + "_" + "SuperBoy",playerID,"Super Boy",spr_KSW_Player_Ybrik_Hat_SuperBoy_Shop,scr_KSW_Player_Ybrik_Hat_SuperBoy_SpriteSet(),borange,150,1,9);
+	scr_KSW_AddHat(playerID + "_" + "TheVisitor",playerID,"THE VISITOR",spr_KSW_Player_Ybrik_Hat_TheVisitor_Shop,scr_KSW_Player_Ybrik_Hat_TheVisitor_SpriteSet(),candy,150,1,14);
+	scr_KSW_AddHat(playerID + "_" + "TMK",playerID,"TMK",spr_KSW_Player_Ybrik_Hat_TMK_Shop,scr_KSW_Player_Ybrik_Hat_TMK_SpriteSet(),legion,150,1,3);
 	#endregion
 	#endregion
 }
