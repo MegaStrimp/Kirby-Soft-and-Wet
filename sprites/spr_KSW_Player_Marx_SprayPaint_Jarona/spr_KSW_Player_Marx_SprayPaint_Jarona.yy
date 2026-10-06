@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Susie",
-    "path":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Susie.yy",
+    "name":"Marx",
+    "path":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Marx.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
