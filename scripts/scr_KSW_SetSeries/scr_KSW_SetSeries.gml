@@ -144,5 +144,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("LookOutside","Look Outside");
 	scr_KSW_AddSeries("riskRain","Risk of Rain");
 	scr_KSW_AddSeries("fish","FISH");
+	scr_KSW_AddSeries("bomberman","Bomberman");
 	#endregion
 }
