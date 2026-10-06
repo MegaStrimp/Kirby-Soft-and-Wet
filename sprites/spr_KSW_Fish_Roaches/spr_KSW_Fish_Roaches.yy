@@ -13,20 +13,8 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"b394d6b2-95fd-48f3-9744-2848a27512e6","name":"b394d6b2-95fd-48f3-9744-2848a27512e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"ebacfbb6-c721-4277-b111-e19b55181c2f","name":"ebacfbb6-c721-4277-b111-e19b55181c2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"71985140-c925-40b7-9743-2b2ca8aca66a","name":"71985140-c925-40b7-9743-2b2ca8aca66a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d4edbc7c-e38f-4399-b4be-2cd952854ca8","name":"d4edbc7c-e38f-4399-b4be-2cd952854ca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"cb9768a3-4d2b-47a2-bb35-95777a43726b","name":"cb9768a3-4d2b-47a2-bb35-95777a43726b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"1a878b60-1a80-4e4d-8463-eab33fe37bde","name":"1a878b60-1a80-4e4d-8463-eab33fe37bde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"50d8b6d7-49cd-45f8-91dc-0e9e5f629a37","name":"50d8b6d7-49cd-45f8-91dc-0e9e5f629a37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"1d50cff8-a76f-4711-8a6c-9edb532e67fb","name":"1d50cff8-a76f-4711-8a6c-9edb532e67fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f06d301c-525b-4f12-8924-f8b73297c292","name":"f06d301c-525b-4f12-8924-f8b73297c292","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"1a610aa7-5bc4-493a-86ab-492ad0b3e5d2","name":"1a610aa7-5bc4-493a-86ab-492ad0b3e5d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"112a8d9b-c00d-4957-9a31-9df8e63fbb7e","name":"112a8d9b-c00d-4957-9a31-9df8e63fbb7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"eff9f6b2-1ba1-4ad6-b0f6-2f0c984b454f","name":"eff9f6b2-1ba1-4ad6-b0f6-2f0c984b454f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8cb2c88a-7600-4ada-b251-aaf17b72da54","name":"8cb2c88a-7600-4ada-b251-aaf17b72da54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"82b0d895-9d4e-4ea4-9bb8-69579d6f14ca","name":"82b0d895-9d4e-4ea4-9bb8-69579d6f14ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"4cc4a78f-ba7a-4c8f-a5bc-50e139730dcc","name":"4cc4a78f-ba7a-4c8f-a5bc-50e139730dcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -37,7 +25,7 @@
   ],
   "name":"spr_KSW_Fish_Roaches",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"Roaches",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Roaches.yy",
@@ -63,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":15.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -73,7 +61,7 @@
     },
     "name":"spr_KSW_Fish_Roaches",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":6.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -86,53 +74,17 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b394d6b2-95fd-48f3-9744-2848a27512e6","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3233ebdc-9ce8-4020-b0be-445e8c81b303","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebacfbb6-c721-4277-b111-e19b55181c2f","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8b1b5354-943d-49df-877b-731ee7cd9cf8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"71985140-c925-40b7-9743-2b2ca8aca66a","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"28ce4b2f-1831-4f9f-b0f0-96156c8f5e76","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4edbc7c-e38f-4399-b4be-2cd952854ca8","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0f0ccdb4-9470-4f8e-8ae3-cf9f795f91a4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb9768a3-4d2b-47a2-bb35-95777a43726b","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"17bb6c08-080a-4f19-aa03-75f61ac1ba7a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a878b60-1a80-4e4d-8463-eab33fe37bde","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8025e838-48da-4ae0-be07-9d6d62379de4","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50d8b6d7-49cd-45f8-91dc-0e9e5f629a37","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cf02650f-28b0-427e-aaa5-ea316129edfe","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d50cff8-a76f-4711-8a6c-9edb532e67fb","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4f5d5a96-ccc4-4e9c-8cd2-49b4b991e912","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f06d301c-525b-4f12-8924-f8b73297c292","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"da8f4df7-b728-4857-8f63-9ec011edd530","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a610aa7-5bc4-493a-86ab-492ad0b3e5d2","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c1f82689-2a8a-4b06-995a-e9bbad55b4de","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"8025e838-48da-4ae0-be07-9d6d62379de4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"112a8d9b-c00d-4957-9a31-9df8e63fbb7e","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d28767d-a33e-47f3-b342-d6aba4a7ee8a","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eff9f6b2-1ba1-4ad6-b0f6-2f0c984b454f","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"661874e5-a857-4b98-8e28-c1edd8c5a761","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8cb2c88a-7600-4ada-b251-aaf17b72da54","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fe890a82-dfb9-443f-963d-e43542647296","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"82b0d895-9d4e-4ea4-9bb8-69579d6f14ca","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"73ac9491-2fa6-4f52-be27-766a4cb1bfd6","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4cc4a78f-ba7a-4c8f-a5bc-50e139730dcc","path":"sprites/spr_KSW_Fish_Roaches/spr_KSW_Fish_Roaches.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c21d5416-8c6d-45d4-bcc4-f4323a2a7a04","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2d28767d-a33e-47f3-b342-d6aba4a7ee8a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":8,
+    "yorigin":13,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
