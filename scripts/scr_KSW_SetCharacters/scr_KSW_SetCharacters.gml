@@ -30,6 +30,7 @@ function scr_KSW_SetCharacters()
 	scr_KSW_AddCharacter("susie","Susie",spr_KSW_UI_Customize_CharacterIcon_Susie,candy,scr_KSW_Player_Susie_Setup,300,spr_KSW_UI_Customize_Spray_Susie);
 	scr_KSW_AddCharacter("ybrik","Ybrik",spr_KSW_UI_Customize_CharacterIcon_Ybrik,borange,scr_KSW_Player_Ybrik_Setup,400,spr_KSW_UI_Customize_Spray_Ybrik);
 	scr_KSW_AddCharacter("chip","Chip",spr_KSW_UI_Customize_CharacterIcon_Chip,glimmer,scr_KSW_Player_Chip_Setup,300,spr_KSW_UI_Customize_Spray_Chip);
+	scr_KSW_AddCharacter("kracko","Kracko",spr_KSW_UI_Customize_CharacterIcon_Kracko,mage,scr_KSW_Player_Kracko_Setup,300,spr_KSW_UI_Customize_Spray_Kracko);
 	scr_KSW_AddCharacter("nz","N-Z",spr_KSW_UI_Customize_CharacterIcon_NZ,legion,scr_KSW_Player_NZ_Setup,300,spr_KSW_UI_Customize_Spray_NZ);
 	#endregion
 }

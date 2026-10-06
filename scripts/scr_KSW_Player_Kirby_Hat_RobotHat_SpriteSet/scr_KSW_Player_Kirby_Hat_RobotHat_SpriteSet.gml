@@ -1,4 +1,4 @@
-///@description KSW - Player - Kirby - Hat - RobotHat - Sprite Set
+///@description KSW - Player - Kirby - Hat - Robot Hat - Sprite Set
 
 function scr_KSW_Player_Kirby_Hat_RobotHat_SpriteSet()
 {

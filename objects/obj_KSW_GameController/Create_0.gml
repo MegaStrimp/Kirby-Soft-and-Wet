@@ -28,6 +28,7 @@ global.KSW_ForcedPhase = global.KSW_StageList[global.KSW_CurrentStageID].forcedP
 global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
 
 currentFishPool = scr_KSW_Game_SetPool(playerNum);
+currentEventPool = scr_KSW_Game_SetEventPool();
 currentFish = -1;
 currentFishIsNew = false;
 currentFishIsShiny = false;

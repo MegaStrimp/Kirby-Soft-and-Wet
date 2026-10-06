@@ -40,7 +40,7 @@
   "origin":9,
   "parent":{
     "name":"Sprites",
-    "path":"folders/Kirby ~ Soft & Wet/Player/Hats/Hats/Kirby/RobotHat/Sprites.yy",
+    "path":"folders/Kirby ~ Soft & Wet/Player/Hats/Hats/Kirby/Robot Hat/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

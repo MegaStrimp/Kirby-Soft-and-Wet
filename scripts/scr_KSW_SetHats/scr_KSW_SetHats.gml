@@ -32,6 +32,8 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "ClassicBomb",playerID,"Classic Bomb",spr_KSW_Player_Kirby_Hat_ClassicBomb_Ready,scr_KSW_Player_Kirby_Hat_ClassicBomb_SpriteSet(),mage,150,3,7);
 	scr_KSW_AddHat(playerID + "_" + "Pirate",playerID,"Pirate",spr_KSW_Player_Kirby_Hat_Pirate_Ready,scr_KSW_Player_Kirby_Hat_Pirate_SpriteSet(),mage,150,1,10);
 	scr_KSW_AddHat(playerID + "_" + "RobotHat",playerID,"Robot Hat",spr_KSW_Player_Kirby_Hat_RobotHat_Ready,scr_KSW_Player_Kirby_Hat_RobotHat_SpriteSet(),candy,150,2,9);
+	scr_KSW_AddHat(playerID + "_" + "Classic",playerID,"Classic",spr_KSW_Player_Kirby_Hat_Classic_Shop,scr_KSW_Player_Kirby_Hat_Classic_SpriteSet(),candy,150,0,1);
+	scr_KSW_AddHat(playerID + "_" + "MiniMe",playerID,"Mini Me",spr_KSW_Player_Kirby_Hat_MiniMe_Ready_Shadow,scr_KSW_Player_Kirby_Hat_MiniMe_SpriteSet(),candy,150,0,14);
 	#endregion
 	
 	#region Gooey
@@ -89,6 +91,12 @@ function scr_KSW_SetHats()
 	var playerID = "chip";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,glimmer,0,0,0,true);
+	#endregion
+	
+	#region Kracko
+	var playerID = "kracko";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
 	#endregion
 	
 	#region N-Z

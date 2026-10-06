@@ -117,8 +117,11 @@ if (!localPause)
 			break;
 			
 			case KSW_GameStates.catching:
-			var success = false;
-			var failed = false;
+			success = false;
+			failed = false;
+			
+			parTargetX = 0;
+			parTargetY = 0;
 			
 			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
@@ -134,8 +137,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 174;
-					var parTargetY = 40;
+					parTargetX = 174;
+					parTargetY = 40;
 					
 					with (obj_KSW_Player)
 					{
@@ -158,8 +161,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 174;
-					var parTargetY = 88;
+					parTargetX = 174;
+					parTargetY = 88;
 					
 					with (obj_KSW_Player)
 					{
@@ -182,8 +185,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 150;
-					var parTargetY = 64;
+					parTargetX = 150;
+					parTargetY = 64;
 					
 					with (obj_KSW_Player)
 					{
@@ -206,8 +209,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 198;
-					var parTargetY = 64;
+					parTargetX = 198;
+					parTargetY = 64;
 					
 					with (obj_KSW_Player)
 					{
@@ -589,10 +592,13 @@ if (!localPause)
 				}
 			}
 			
-			var eventRng = 0;
+			var eventRng = irandom_range(0,29);
+			eventRng = 0; //STRIMPTODO
 			if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
 			{
-				scr_KSW_Event_Start(global.KSW_EventIDs[? "novemberRain"]);
+				var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
+				
+				scr_KSW_Event_Start(targetEvent);
 			}
 			
 			findFishTimer = -1;
@@ -864,14 +870,17 @@ if (!localPause)
 		#endregion
 		
 		#region Event Timer
-		if (eventTimer != -1)
+		if (canGoToMenu)
 		{
-			eventTimer = max(eventTimer - speedMultFinal,0);
-			if (eventTimer == 0)
+			if (eventTimer != -1)
 			{
-				scr_KSW_Event_End();
-				
-				eventTimer = -1;
+				eventTimer = max(eventTimer - speedMultFinal,0);
+				if (eventTimer == 0)
+				{
+					scr_KSW_Event_End();
+					
+					eventTimer = -1;
+				}
 			}
 		}
 		#endregion

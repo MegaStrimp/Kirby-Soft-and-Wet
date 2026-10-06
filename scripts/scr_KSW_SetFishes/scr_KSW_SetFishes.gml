@@ -1487,7 +1487,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Pure Mermaid",spr_KSW_Fish_PureMermaid,spr_KSW_Fish_PureMermaid_Pal,series_Medabots,glimmer,0,androidPort,KSW_Phases.none,1250);
 	scr_KSW_AddFish("Orkamar",spr_KSW_Fish_Orkamar,spr_KSW_Fish_Orkamar_Pal,series_Medabots,mage,1,androidPort,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Scourge Of The Sea",spr_KSW_Fish_ScourgeOfTheSea,spr_KSW_Fish_ScourgeOfTheSea_Pal,series_OctopathTraveler,mage,3,grassBeach,KSW_Phases.night,95000);
-	var manTree = scr_KSW_AddFish("Man Tree",spr_KSW_Fish_ManTree,spr_KSW_Fish_ManTree_Pal,series_Deltarune,candy,3,anyStage,KSW_Phases.none,666667);
+	var manTree = scr_KSW_AddFish("Man Tree",spr_KSW_Fish_ManTree,spr_KSW_Fish_ManTree_Pal,series_Deltarune,candy,3,anyStage,KSW_Phases.none,666667,,,,snd_KSW_Fish_ManTree);
 	manTree.displayedName = "[wheel]Well... There's a tree here[/wheel]";
 	scr_KSW_AddFish("Prince Fluff",spr_KSW_Fish_PrinceFluff,spr_KSW_Fish_PrinceFluff_Pal,series_Kirby,mint,3,grassBeach,KSW_Phases.day,1);
 	scr_KSW_AddFish("Entelognathus",spr_KSW_Fish_Entelognathus,spr_KSW_Fish_Entelognathus_Pal,series_RogueHeroes,legion,3,creamCrevasse,KSW_Phases.afternoon,12500);
