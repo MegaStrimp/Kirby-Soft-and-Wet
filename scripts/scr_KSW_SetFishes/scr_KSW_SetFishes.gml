@@ -148,6 +148,8 @@ function scr_KSW_SetFishes()
 	var series_RiskRain = global.KSW_SeriesIDs[? "riskRain"];
 	var series_FISH = global.KSW_SeriesIDs[? "fish"];
 	var series_Bomberman = global.KSW_SeriesIDs[? "bomberman"];
+	var series_Persona = global.KSW_SeriesIDs[? "persona"];
+	var series_vampireSurvivors = global.KSW_SeriesIDs[? "vampireSurvivors"];
 	#endregion
 	
 	#region Stages
@@ -2400,6 +2402,14 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Killer Fish",spr_KSW_Fish_KillerFish,spr_KSW_Fish_KillerFish_Pal,series_FISH,borange,3,grassBeach,KSW_Phases.day,120000,,,,snd_KSW_Fish_KillerFish);
 	scr_KSW_AddFish("Killer Tuna",spr_KSW_Fish_KillerTuna,spr_KSW_Fish_KillerTuna_Pal,series_FISH,legion,2,hallowReen,KSW_Phases.night,72413);
 	scr_KSW_AddFish("Basic Cat", spr_KSW_Fish_BasicCat, spr_KSW_Fish_BasicCat_Pal,series_TheBattleCats,mint,1,androidPort,KSW_Phases.none,75,-6);
+	scr_KSW_AddFish("Adachi",spr_KSW_Fish_Adachi,spr_KSW_Fish_Adachi_Pal,series_Persona,candy,3,hallowReen,KSW_Phases.none,63000,0,0,2,snd_KSW_Fish_Adachi);
+	scr_KSW_AddFish("Pipeestrello",spr_KSW_Fish_Pipeestrello,spr_KSW_Fish_Pipeestrello_Pal,series_vampireSurvivors,mage,0,hallowReen,KSW_Phases.none,10);
+	scr_KSW_AddFish("Bloodbath",spr_KSW_Fish_Bloodbath,spr_KSW_Fish_Bloodbath_Pal,series_vampireSurvivors,candy,0,hallowReen,KSW_Phases.none,20);
+	scr_KSW_AddFish("Skullino",spr_KSW_Fish_Skullino,spr_KSW_Fish_Skullino_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,30);
+	scr_KSW_AddFish("Scarleton",spr_KSW_Fish_Scarleton,spr_KSW_Fish_Scarleton_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,50);
+	scr_KSW_AddFish("Zombie",spr_KSW_Fish_ZombieV,spr_KSW_Fish_ZombieV_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,70);
+	scr_KSW_AddFish("Mudman",spr_KSW_Fish_mudman,spr_KSW_Fish_mudman_pal,series_vampireSurvivors,mint,0,grassBeach,KSW_Phases.none,80);
+	scr_KSW_AddFish("Flower Wall",spr_KSW_Fish_Flowerwall,spr_KSW_Fish_Flowerwall_Pal,series_vampireSurvivors,mint,0,grassBeach,KSW_Phases.none,90);
 	
 	
 	
