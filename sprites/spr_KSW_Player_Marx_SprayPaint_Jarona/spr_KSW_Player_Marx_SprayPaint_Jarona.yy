@@ -17,21 +17,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6ca44bc9-1783-48c5-a1b9-a356727ee401","name":"6ca44bc9-1783-48c5-a1b9-a356727ee401","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5dbe2f1f-3ca9-4daa-9925-6e29d3b39aa4","name":"5dbe2f1f-3ca9-4daa-9925-6e29d3b39aa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":24,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2c098b81-990c-401d-8b7e-a8a0f1d5143b","blendMode":0,"displayName":"default","isLocked":false,"name":"2c098b81-990c-401d-8b7e-a8a0f1d5143b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ba32733d-7210-41d4-9e7e-6a4eec5c6958","blendMode":0,"displayName":"default","isLocked":false,"name":"ba32733d-7210-41d4-9e7e-6a4eec5c6958","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Marx_SprayPaint_Jarona",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Susie",
-    "path":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Susie.yy",
+    "name":"Marx",
+    "path":"folders/Kirby ~ Soft & Wet/Player/Spray Paints/Spray Paints/Marx.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ca44bc9-1783-48c5-a1b9-a356727ee401","path":"sprites/spr_KSW_Player_Marx_SprayPaint_Jarona/spr_KSW_Player_Marx_SprayPaint_Jarona.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5655c2a2-210e-447a-a475-9837235aff5a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5dbe2f1f-3ca9-4daa-9925-6e29d3b39aa4","path":"sprites/spr_KSW_Player_Marx_SprayPaint_Jarona/spr_KSW_Player_Marx_SprayPaint_Jarona.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"81e165a0-8d8a-4067-b98d-dfdd0b9c39c4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -252,7 +252,6 @@ function scr_KSW_SetSprayPaints()
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "MonsterInDreamLand",playerID,"Monster in Dream Land",spr_KSW_Player_Ybrik_SprayPaint_MonsterInDreamland,borange,0,true);
 	scr_KSW_AddSprayPaint(playerID + "_" + "DreamlandExe",playerID,"Dreamland.exe",spr_KSW_Player_Ybrik_SprayPaint_DreamlandExe,candy,100);
-	
 	scr_KSW_AddSprayPaint(playerID + "_" + "TMK",playerID,"TMK",spr_KSW_Player_Ybrik_SprayPaint_TMK,legion,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "EFGK",playerID,"EFGK",spr_KSW_Player_Ybrik_SprayPaint_EFGK,mint,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "2016",playerID,"2016",spr_KSW_Player_Ybrik_SprayPaint_2016,borange,100);
