@@ -2384,7 +2384,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Haliberd",spr_KSW_Fish_Haliberd,spr_KSW_Fish_Haliberd_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,777);
 	scr_KSW_AddFish("Goldfish Cracker",spr_KSW_Fish_GoldfishCracker,spr_KSW_Fish_GoldfishCracker_Pal,series_Undertale2,maze,3,-1,KSW_Phases.afternoon,5);
 	scr_KSW_AddFish("Mechanical Carp",spr_KSW_Fish_MechanicalCarp,spr_KSW_Fish_MechanicalCarp_Pal,series_Undertale2,flux,2,-1,KSW_Phases.none,1665);
-	scr_KSW_AddFish("Cum Buddy",spr_KSW_Fish_CumBuddy,spr_KSW_Fish_CumBuddy_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,6969); //If this one is too sexual or it can just be removed. My apologizes.
+	scr_KSW_AddFish("Gum Buddy",spr_KSW_Fish_GumBuddy,spr_KSW_Fish_GumBuddy_Pal,series_Undertale2,maze,2,-1,KSW_Phases.none,6969); //If this one is too sexual or it can just be removed. My apologizes.
 	scr_KSW_AddFish("Son of Lokey",spr_KSW_Fish_SonofLokey,spr_KSW_Fish_SonofLokey_Pal,series_Undertale2,mage,2,-1,KSW_Phases.none,8282);
 	scr_KSW_AddFish("Pagliacci",spr_KSW_Fish_Pagliacci,spr_KSW_Fish_Pagliacci_Pal,series_Undertale2,mage,2,-1,KSW_Phases.afternoon,6969);
 	scr_KSW_AddFish("UT2 Blinky",spr_KSW_Fish_UT2Blinky,spr_KSW_Fish_UT2Blinky_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,46637);
@@ -2417,6 +2417,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Froguelass",spr_KSW_Fish_Froguelass,spr_KSW_Fish_froguelass_Pal,series_Undertale2,mint,2,-1,KSW_Phases.night,1111);
 	scr_KSW_AddFish("Frougeslick",spr_KSW_Fish_Frougeslick,spr_KSW_Fish_Frougeslick_Pal,series_Undertale2,mint,2,-1,KSW_Phases.night,777);
 	scr_KSW_AddFish("Bogcog",spr_KSW_Fish_Bogcog,spr_KSW_Fish_Bogcog_Pal,series_Undertale2,mage,1,-1,KSW_Phases.none,3482);
+	scr_KSW_AddFish("Catboy Sans",spr_KSW_Fish_CatboySans,spr_KSW_Fish_CatboySans_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,3844);
 	#endregion
 	#endregion
 }
