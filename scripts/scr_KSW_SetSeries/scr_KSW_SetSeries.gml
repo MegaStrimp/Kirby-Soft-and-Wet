@@ -13,6 +13,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("kirby","Kirby");
 	scr_KSW_AddSeries("castlevania","Castlevania");
 	scr_KSW_AddSeries("metroid","Metroid");
+	scr_KSW_AddSeries("metroidPrimeOrigins","Metroid Prime Origins");
 	scr_KSW_AddSeries("insaniquarium","Insaniquarium");
 	scr_KSW_AddSeries("slayersX","Slayers X");
 	scr_KSW_AddSeries("superMario","Super Mario");
