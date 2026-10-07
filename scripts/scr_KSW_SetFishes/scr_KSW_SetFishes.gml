@@ -151,6 +151,7 @@ function scr_KSW_SetFishes()
 	var series_Bomberman = global.KSW_SeriesIDs[? "bomberman"];
 	var series_Persona = global.KSW_SeriesIDs[? "persona"];
 	var series_vampireSurvivors = global.KSW_SeriesIDs[? "vampireSurvivors"];
+	var series_KidKirby = global.KSW_SeriesIDs[? "kidKirby"];
 	#endregion
 	
 	#region Stages
@@ -2599,6 +2600,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Hunter Metroid",spr_KSW_Fish_HunterMetroid,spr_KSW_Fish_HunterMetroid_Pal,series_MetroidPrimeOrigins,candy,1,androidPort,KSW_Phases.none,2002);
 	//scr_KSW_AddFish("Metroid Prime",spr_KSW_Fish_MetroidPrime,spr_KSW_Fish_MetroidPrime_Pal,series_MetroidPrimeOrigins,legion,2,androidPort,KSW_Phases.none,20020);
 	//scr_KSW_AddFish("Metroid Prime (Exo)",spr_KSW_Fish_MetroidPrimeExo,spr_KSW_Fish_MetroidPrimeExo_Pal,series_MetroidPrimeOrigins,limit,3,androidPort,KSW_Phases.none,200200);
+	//scr_KSW_AddFish("Kid Kirby",spr_KSW_Fish_KidKirby,spr_KSW_Fish_KidKirby_Pal,series_KidKirby,candy,3,androidPort,KSW_Phases.none,1995);
 	
 	#endregion
 	#endregion
