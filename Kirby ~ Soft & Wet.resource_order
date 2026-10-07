@@ -3502,6 +3502,7 @@
     {"name":"spr_KSW_Drink_Shortcake","order":17,"path":"sprites/spr_KSW_Drink_Shortcake/spr_KSW_Drink_Shortcake.yy",},
     {"name":"spr_KSW_Drink_SodaPop","order":4,"path":"sprites/spr_KSW_Drink_SodaPop/spr_KSW_Drink_SodaPop.yy",},
     {"name":"spr_KSW_Drink_SpicyEel","order":61,"path":"sprites/spr_KSW_Drink_SpicyEel/spr_KSW_Drink_SpicyEel.yy",},
+    {"name":"spr_KSW_Drink_StardewWine","order":65,"path":"sprites/spr_KSW_Drink_StardewWine/spr_KSW_Drink_StardewWine.yy",},
     {"name":"spr_KSW_Drink_StardropTea","order":62,"path":"sprites/spr_KSW_Drink_StardropTea/spr_KSW_Drink_StardropTea.yy",},
     {"name":"spr_KSW_Drink_Starfait","order":63,"path":"sprites/spr_KSW_Drink_Starfait/spr_KSW_Drink_Starfait.yy",},
     {"name":"spr_KSW_Drink_StrawberryTofu","order":22,"path":"sprites/spr_KSW_Drink_StrawberryTofu/spr_KSW_Drink_StrawberryTofu.yy",},

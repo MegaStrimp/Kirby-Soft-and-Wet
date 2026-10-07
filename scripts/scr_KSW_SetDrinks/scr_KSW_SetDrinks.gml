@@ -37,6 +37,7 @@ function scr_KSW_SetDrinks()
 	scr_KSW_AddDrink("goldenBanana","Golden Banana",spr_KSW_Drink_GoldenBanana,grassBeach);
 	scr_KSW_AddDrink("pelletPosy","Pellet Posy",spr_KSW_Drink_PelletPosy,grassBeach);
 	scr_KSW_AddDrink("luckyLunch","Lucky Lunch",spr_KSW_Drink_LuckyLunch,grassBeach);
+	scr_KSW_AddDrink("stardewWine","Stardew Wine",spr_KSW_Drink_StardewWine,grassBeach);
 	
 	scr_KSW_AddDrink("rootBeerFloat","Root Beer Float",spr_KSW_Drink_RootBeerFloat,creamCrevasse);
 	scr_KSW_AddDrink("iceCream","Ice Cream",spr_KSW_Drink_IceCream,creamCrevasse);
