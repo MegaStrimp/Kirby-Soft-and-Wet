@@ -36,6 +36,7 @@ function scr_KSW_SetDrinks()
 	scr_KSW_AddDrink("tallDrink","Tall Drink",spr_KSW_Drink_TallDrink,grassBeach);
 	scr_KSW_AddDrink("goldenBanana","Golden Banana",spr_KSW_Drink_GoldenBanana,grassBeach);
 	scr_KSW_AddDrink("pelletPosy","Pellet Posy",spr_KSW_Drink_PelletPosy,grassBeach);
+	scr_KSW_AddDrink("luckyLunch","Lucky Lunch",spr_KSW_Drink_LuckyLunch,grassBeach);
 	
 	scr_KSW_AddDrink("rootBeerFloat","Root Beer Float",spr_KSW_Drink_RootBeerFloat,creamCrevasse);
 	scr_KSW_AddDrink("iceCream","Ice Cream",spr_KSW_Drink_IceCream,creamCrevasse);
@@ -48,6 +49,8 @@ function scr_KSW_SetDrinks()
 	scr_KSW_AddDrink("strawberryTofu","Strawberry Tofu",spr_KSW_Drink_StrawberryTofu,creamCrevasse);
 	scr_KSW_AddDrink("orangeWinterberry","Orange Winterberry",spr_KSW_Drink_OrangeWinterberry,creamCrevasse);
 	scr_KSW_AddDrink("bobaTea","Boba Tea",spr_KSW_Drink_BobaTea,creamCrevasse);
+	scr_KSW_AddDrink("stardropTea","Stardrop Tea",spr_KSW_Drink_StardropTea,creamCrevasse);
+	scr_KSW_AddDrink("starfait","Starfait",spr_KSW_Drink_Starfait,creamCrevasse);
 	
 	scr_KSW_AddDrink("undyneSoda","Undyne Soda",spr_KSW_Drink_UndyneSoda,hallowReen);
 	scr_KSW_AddDrink("breadMonster","Bread Monster",spr_KSW_Drink_BreadMonster,hallowReen);
@@ -72,6 +75,7 @@ function scr_KSW_SetDrinks()
 	scr_KSW_AddDrink("liberTea","Liber-Tea",spr_KSW_Drink_LiberTea,serranoSprings);
 	scr_KSW_AddDrink("garlic","Garlic",spr_KSW_Drink_Garlic,serranoSprings);
 	scr_KSW_AddDrink("fleaBrew","Flea Brew",spr_KSW_Drink_FleaBrew,serranoSprings);
+	scr_KSW_AddDrink("spicyEel","SpicyEel",spr_KSW_Drink_SpicyEel,serranoSprings);
 	
 	scr_KSW_AddDrink("queensBatteryAcid","Queen's Battery Acid",spr_KSW_Drink_QueensBatteryAcid,androidPort);
 	scr_KSW_AddDrink("gamerCombo","Gamer Combo",spr_KSW_Drink_GamerCombo,androidPort);
