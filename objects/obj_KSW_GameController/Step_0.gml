@@ -605,7 +605,7 @@ if (!localPause)
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];
 					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny)))
 					{
-						pityRate += floor(global.KSW_FishList[currentFish].isCaught / 2);
+						pityRate += floor(global.KSW_FishList[currentFish].isCaught / 3);
 						
 						break;
 					}
@@ -617,7 +617,7 @@ if (!localPause)
 				var hasShinyBait = (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreShinies"]);
 				if (global.KSW_FishList[currentFish].isCaught)
 				{
-					for (var i = 0; i < pityRate; i++)
+					for (var i = 0; i < (max(1,floor(pityRate / 2))); i++)
 					{
 						shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
 					

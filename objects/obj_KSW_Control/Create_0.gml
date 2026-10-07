@@ -14,8 +14,8 @@ global.KSW_HasCursor = true;
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.2.5";
-global.versionSubtitle = "Android Port";
+global.versionNumber = "1.2.6";
+global.versionSubtitle = "Monster in Dreamland";
 
 global.pauseScript = scr_KSW_PauseScript;
 
@@ -38,6 +38,7 @@ scr_KSW_SetAchievements();
 scr_KSW_SetNotifs();
 scr_KSW_SetStealthTutorials();
 scr_KSW_SetMusic();
+scr_KSW_SetDrinks();
 
 for (var i = 0; i < global.maxPlayers; i++)
 {
@@ -84,6 +85,7 @@ global.KSW_EnteredFishbook = false;
 global.KSW_EnteredSettings = false;
 global.KSW_EnteredStars = false;
 global.KSW_EnteredAquarium = false;
+global.KSW_EnteredSecretStars = false;
 
 global.KSW_MusicShuffle = false;
 

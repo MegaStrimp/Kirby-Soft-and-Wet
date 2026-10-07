@@ -57,7 +57,14 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 			else
 			{
 				draw_sprite(spr_KSW_UI_Coin,0,boxX + 34,boxY + 34);
-				scribble(string(global.KSW_StageList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX + 34,boxY + 40);
+				var color = "[c_white]";
+				var saleText = "";
+				if (global.KSW_StageList[ds_list_find_value(selectionList,i)].hasDiscount)
+				{
+					color = "[c_red]";
+					saleText = "\n(Sale!)";
+				}
+				scribble(color + string(global.KSW_StageList[ds_list_find_value(selectionList,i)].price) + saleText + "[/color]").gradient(c_white,1).align(fa_center).draw(boxX + 34,boxY + 40);
 			}
 		}
 		#endregion

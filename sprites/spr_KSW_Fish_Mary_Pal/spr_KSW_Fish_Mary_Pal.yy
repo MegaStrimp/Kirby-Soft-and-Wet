@@ -2,24 +2,29 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Mary_Pal",
   "bboxMode":0,
-  "bbox_bottom":46,
+  "bbox_bottom":4,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
+  "ConfigValues":{
+    "Desktop":{
+      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"3bfe28b4-c3ea-49ec-a3ec-7a8b8f08d29e","name":"3bfe28b4-c3ea-49ec-a3ec-7a8b8f08d29e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"28f7543a-28bd-493d-b356-b1ad82303a55","name":"28f7543a-28bd-493d-b356-b1ad82303a55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":5,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e9e4b5a3-815e-45e2-924e-fec4e406d4bf","blendMode":0,"displayName":"default","isLocked":false,"name":"e9e4b5a3-815e-45e2-924e-fec4e406d4bf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c8b87f1c-7a74-46a5-bf6a-e8683fdc2990","blendMode":0,"displayName":"default","isLocked":false,"name":"c8b87f1c-7a74-46a5-bf6a-e8683fdc2990","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Mary_Pal",
   "nineSlice":null,
@@ -69,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3bfe28b4-c3ea-49ec-a3ec-7a8b8f08d29e","path":"sprites/spr_KSW_Fish_Mary_Pal/spr_KSW_Fish_Mary_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ca06cb43-6f5c-4116-ae91-1e3f1f262370","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"28f7543a-28bd-493d-b356-b1ad82303a55","path":"sprites/spr_KSW_Fish_Mary_Pal/spr_KSW_Fish_Mary_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5ead487f-b082-427d-8eb5-1b04a8ba602b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -81,10 +86,10 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet",
+    "path":"texturegroups/SoftAndWet",
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":4,
 }

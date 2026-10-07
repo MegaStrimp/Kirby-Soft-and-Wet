@@ -39,6 +39,12 @@ if (canSelect)
 		{
 			waveNum[i] = irandom_range(3600,5000);
 		}
+		
+		if ((global.KSW_EnteredAquariumAlt) and (!global.KSW_EnteredSecretStars) and ((page == pageMax) or (page == 0)))
+		{
+			var rng = irandom(33);
+			if (rng == 0) room_goto(rm_KSW_STARS);
+		}
 	}
 	
 	if ((input_check_pressed("R",playerNum)) or ((scr_MouseIsInbetween(156,3,167,15)) and (mouse_check_button_pressed(mb_left))) or (swipeResult == 1))
@@ -48,6 +54,12 @@ if (canSelect)
 		for (var i = 0; i < pageSelectionCount; i++)
 		{
 			waveNum[i] = irandom_range(3600,5000);
+		}
+		
+		if ((global.KSW_EnteredAquariumAlt) and (!global.KSW_EnteredSecretStars) and ((page == pageMax) or (page == 0)))
+		{
+			var rng = irandom(33);
+			if (rng == 0) room_goto(rm_KSW_STARS);
 		}
 	}
 	

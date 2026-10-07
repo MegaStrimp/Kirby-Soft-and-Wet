@@ -1,6 +1,9 @@
 ///@description Create
 
 #region Initialize Variables
+speedMultFinal = global.speedMultGlobal * global.speedMultEnvironment;
+localPause = global.pauseFinal;
+
 hsp = 0;
 
 accel = .01;
