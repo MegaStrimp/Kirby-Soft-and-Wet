@@ -23,7 +23,7 @@
   ],
   "name":"spr_KSW_Fish_AlphaOmegaEpsilon",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Alpha Omega Epsilon",
     "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Alpha Omega Epsilon.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":30,
     "yorigin":0,
   },
   "swatchColours":null,
