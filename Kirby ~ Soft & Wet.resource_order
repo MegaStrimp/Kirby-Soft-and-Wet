@@ -3460,6 +3460,7 @@
     {"name":"spr_KSW_Drink_BustlingFungus","order":31,"path":"sprites/spr_KSW_Drink_BustlingFungus/spr_KSW_Drink_BustlingFungus.yy",},
     {"name":"spr_KSW_Drink_Cherries","order":44,"path":"sprites/spr_KSW_Drink_Cherries/spr_KSW_Drink_Cherries.yy",},
     {"name":"spr_KSW_Drink_ChiliDog","order":58,"path":"sprites/spr_KSW_Drink_ChiliDog/spr_KSW_Drink_ChiliDog.yy",},
+    {"name":"spr_KSW_Drink_ChugJug","order":64,"path":"sprites/spr_KSW_Drink_ChugJug/spr_KSW_Drink_ChugJug.yy",},
     {"name":"spr_KSW_Drink_ETank","order":46,"path":"sprites/spr_KSW_Drink_ETank/spr_KSW_Drink_ETank.yy",},
     {"name":"spr_KSW_Drink_FairyBottle","order":10,"path":"sprites/spr_KSW_Drink_FairyBottle/spr_KSW_Drink_FairyBottle.yy",},
     {"name":"spr_KSW_Drink_FireWatermelon","order":37,"path":"sprites/spr_KSW_Drink_FireWatermelon/spr_KSW_Drink_FireWatermelon.yy",},
