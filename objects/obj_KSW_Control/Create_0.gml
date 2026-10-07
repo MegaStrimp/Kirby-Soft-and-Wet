@@ -38,6 +38,7 @@ scr_KSW_SetAchievements();
 scr_KSW_SetNotifs();
 scr_KSW_SetStealthTutorials();
 scr_KSW_SetMusic();
+scr_KSW_SetDrinks();
 
 for (var i = 0; i < global.maxPlayers; i++)
 {
@@ -84,6 +85,7 @@ global.KSW_EnteredFishbook = false;
 global.KSW_EnteredSettings = false;
 global.KSW_EnteredStars = false;
 global.KSW_EnteredAquarium = false;
+global.KSW_EnteredSecretStars = false;
 
 global.KSW_MusicShuffle = false;
 
