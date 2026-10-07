@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Drink_Syrup",
   "bboxMode":0,
-  "bbox_bottom":19,
+  "bbox_bottom":15,
   "bbox_left":0,
   "bbox_right":15,
   "bbox_top":0,
@@ -17,21 +17,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"94e01b5f-e6bb-4dc4-8c92-62bb66a5388d","name":"94e01b5f-e6bb-4dc4-8c92-62bb66a5388d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"cc4de2a9-1c5a-49eb-8553-1be6232a3fb1","name":"cc4de2a9-1c5a-49eb-8553-1be6232a3fb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"369ff577-a422-4dcd-8ab2-0517d5366ca6","name":"369ff577-a422-4dcd-8ab2-0517d5366ca6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6befbbba-de04-4278-a4b8-62aedd37c3ed","name":"6befbbba-de04-4278-a4b8-62aedd37c3ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bd157e67-1d74-4a07-8acb-6de4c4ffaa4f","name":"bd157e67-1d74-4a07-8acb-6de4c4ffaa4f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":20,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3271273d-0cc3-4518-b849-c5f56a7654af","blendMode":0,"displayName":"default","isLocked":false,"name":"3271273d-0cc3-4518-b849-c5f56a7654af","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c881f0e7-d2d5-47bf-ba08-dc33a731e762","blendMode":0,"displayName":"default","isLocked":false,"name":"c881f0e7-d2d5-47bf-ba08-dc33a731e762","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Drink_Syrup",
   "nineSlice":null,
-  "origin":9,
+  "origin":7,
   "parent":{
     "name":"Sprites",
     "path":"folders/Kirby ~ Soft & Wet/Drink/Sprites.yy",
@@ -57,8 +54,8 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":4.0,
-    "lockOrigin":true,
+    "length":1.0,
+    "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -79,23 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94e01b5f-e6bb-4dc4-8c92-62bb66a5388d","path":"sprites/spr_KSW_Drink_Syrup/spr_KSW_Drink_Syrup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"115f0e5a-7578-4822-82d0-2ca3eeeb08ad","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc4de2a9-1c5a-49eb-8553-1be6232a3fb1","path":"sprites/spr_KSW_Drink_Syrup/spr_KSW_Drink_Syrup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"627c4ecb-d5d1-496b-bec9-3cf02b716cf5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"369ff577-a422-4dcd-8ab2-0517d5366ca6","path":"sprites/spr_KSW_Drink_Syrup/spr_KSW_Drink_Syrup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"90b13593-b0b1-419d-bc2b-8fbc6d6bd697","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6befbbba-de04-4278-a4b8-62aedd37c3ed","path":"sprites/spr_KSW_Drink_Syrup/spr_KSW_Drink_Syrup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a5076fbb-681c-4a1c-8ed3-e74b9b75e243","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd157e67-1d74-4a07-8acb-6de4c4ffaa4f","path":"sprites/spr_KSW_Drink_Syrup/spr_KSW_Drink_Syrup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5088a23b-ce61-4bb8-b6cd-7b71e6a1ea2b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":7,
-    "yorigin":20,
+    "xorigin":8,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
