@@ -2594,7 +2594,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Space Pirate",spr_KSW_Fish_SpacePirate,spr_KSW_Fish_SpacePirate_Pal,series_MetroidPrimeOrigins,legion,0,androidPort,KSW_Phases.night,202);
 	//scr_KSW_AddFish("Elite Pirate",spr_KSW_Fish_ElitePirate,spr_KSW_Fish_ElitePirate_Pal,series_MetroidPrimeOrigins,legion,1,androidPort,KSW_Phases.night,2002);
 	//scr_KSW_AddFish("Omega Pirate",spr_KSW_Fish_OmegaPirate,spr_KSW_Fish_OmegaPirate_Pal,series_MetroidPrimeOrigins,legion,2,androidPort,KSW_Phases.night,20020);
-	//scr_KSW_AddFish("Meta Ridley",spr_KSW_Fish_MetaRidley,spr_KSW_Fish_MetaRidley_Pal,series_MetroidPrimeOrigins,limit,2,androidPort,KSW_Phases.night,20020);
+	//scr_KSW_AddFish("Meta Ridley",spr_KSW_Fish_MetaRidley,spr_KSW_Fish_MetaRidley_Pal,series_MetroidPrimeOrigins,limit,2,androidPort,KSW_Phases.night,20020,0,0,-1,snd_KSW_Fish_MetaRidley);
 	//scr_KSW_AddFish("Fission Metroid",spr_KSW_Fish_FissionMetroid,spr_KSW_Fish_FissionMetroid_Pal,series_MetroidPrimeOrigins,mage,0,androidPort,KSW_Phases.none,202);
 	//scr_KSW_AddFish("Hunter Metroid",spr_KSW_Fish_HunterMetroid,spr_KSW_Fish_HunterMetroid_Pal,series_MetroidPrimeOrigins,candy,1,androidPort,KSW_Phases.none,2002);
 	//scr_KSW_AddFish("Metroid Prime",spr_KSW_Fish_MetroidPrime,spr_KSW_Fish_MetroidPrime_Pal,series_MetroidPrimeOrigins,legion,2,androidPort,KSW_Phases.none,20020);
