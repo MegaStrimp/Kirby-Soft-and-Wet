@@ -2601,6 +2601,8 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Metroid Prime",spr_KSW_Fish_MetroidPrime,spr_KSW_Fish_MetroidPrime_Pal,series_MetroidPrimeOrigins,legion,2,androidPort,KSW_Phases.none,20020);
 	//scr_KSW_AddFish("Metroid Prime (Exo)",spr_KSW_Fish_MetroidPrimeExo,spr_KSW_Fish_MetroidPrimeExo_Pal,series_MetroidPrimeOrigins,limit,3,androidPort,KSW_Phases.none,200200);
 	//scr_KSW_AddFish("Kid Kirby",spr_KSW_Fish_KidKirby,spr_KSW_Fish_KidKirby_Pal,series_KidKirby,candy,3,androidPort,KSW_Phases.none,1995);
+	//scr_KSW_AddFish("Mini Lobster",spr_KSW_Fish_MiniLobster,spr_KSW_Fish_MiniLobster_Pal,series_Kirby,mint,1,androidPort,KSW_Phases.afternoon,1996);
+	//scr_KSW_AddFish("Heavy Lobster",spr_KSW_Fish_HeavyLobster,spr_KSW_Fish_HeavyLobster_Pal,series_Kirby,mint,2,androidPort,KSW_Phases.afternoon,20080);
 	
 	#endregion
 	#endregion
