@@ -91,5 +91,6 @@ function scr_KSW_SetDrinks()
 	scr_KSW_AddDrink("chiliDog","Chili Dog",spr_KSW_Drink_ChiliDog,androidPort);
 	scr_KSW_AddDrink("plumJuice","Plum Juice",spr_KSW_Drink_PlumJuice,androidPort);
 	scr_KSW_AddDrink("chugJug","Chug Jug",spr_KSW_Drink_ChugJug,androidPort);
+	scr_KSW_AddDrink("lieCake","LieCake",spr_KSW_Drink_LieCake,androidPort);
 	#endregion
 }

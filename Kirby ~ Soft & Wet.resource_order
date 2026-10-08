@@ -3486,6 +3486,7 @@
     {"name":"spr_KSW_Drink_KirbySorbet","order":19,"path":"sprites/spr_KSW_Drink_KirbySorbet/spr_KSW_Drink_KirbySorbet.yy",},
     {"name":"spr_KSW_Drink_Lemonade","order":36,"path":"sprites/spr_KSW_Drink_Lemonade/spr_KSW_Drink_Lemonade.yy",},
     {"name":"spr_KSW_Drink_LiberTea","order":39,"path":"sprites/spr_KSW_Drink_LiberTea/spr_KSW_Drink_LiberTea.yy",},
+    {"name":"spr_KSW_Drink_LieCake","order":67,"path":"sprites/spr_KSW_Drink_LieCake/spr_KSW_Drink_LieCake.yy",},
     {"name":"spr_KSW_Drink_LifePot","order":48,"path":"sprites/spr_KSW_Drink_LifePot/spr_KSW_Drink_LifePot.yy",},
     {"name":"spr_KSW_Drink_LuckyLunch","order":60,"path":"sprites/spr_KSW_Drink_LuckyLunch/spr_KSW_Drink_LuckyLunch.yy",},
     {"name":"spr_KSW_Drink_MagicUrn","order":30,"path":"sprites/spr_KSW_Drink_MagicUrn/spr_KSW_Drink_MagicUrn.yy",},
