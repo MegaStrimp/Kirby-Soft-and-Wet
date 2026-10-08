@@ -77,6 +77,7 @@ function scr_KSW_SetDrinks()
 	scr_KSW_AddDrink("garlic","Garlic",spr_KSW_Drink_Garlic,serranoSprings);
 	scr_KSW_AddDrink("fleaBrew","Flea Brew",spr_KSW_Drink_FleaBrew,serranoSprings);
 	scr_KSW_AddDrink("spicyEel","SpicyEel",spr_KSW_Drink_SpicyEel,serranoSprings);
+	scr_KSW_AddDrink("estusFlask","Estus Flask",spr_KSW_Drink_EstusFlask,serranoSprings);
 	
 	scr_KSW_AddDrink("queensBatteryAcid","Queen's Battery Acid",spr_KSW_Drink_QueensBatteryAcid,androidPort);
 	scr_KSW_AddDrink("gamerCombo","Gamer Combo",spr_KSW_Drink_GamerCombo,androidPort);
