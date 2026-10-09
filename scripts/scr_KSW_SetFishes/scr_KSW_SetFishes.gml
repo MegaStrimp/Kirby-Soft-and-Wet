@@ -2468,10 +2468,11 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Black Imp",spr_KSW_Fish_BlackImp,spr_KSW_Fish_BlackImp_Pal,series_RiskRain,candy,1,serranoSprings,KSW_Phases.night,220);
 	//scr_KSW_AddFish("Imp Overlord",spr_KSW_Fish_ImpOverlord,spr_KSW_Fish_ImpOverlord_Pal,series_RiskRain,candy,2,serranoSprings,KSW_Phases.night,2020);
 	//scr_KSW_AddFish("Rock Golem",spr_KSW_Fish_RockGolem,spr_KSW_Fish_RockGolem_Pal,series_RiskRain,mint,0,grassBeach,KSW_Phases.none,220);
+	//scr_KSW_AddFish("Jellyfish (RoR)",spr_KSW_Fish_JellyfishRoR,spr_KSW_Fish_JellyfishRoR_Pal,series_RiskRain,mint,0,hallowReen,KSW_Phases.day,220);
+	//scr_KSW_AddFish("Mushrum",spr_KSW_Fish_Mushrum,spr_KSW_Fish_Mushrum_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.day,222);
 	//scr_KSW_AddFish("Lynx Scout",spr_KSW_Fish_LynxScout,spr_KSW_Fish_LynxScout_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.night,226);
 	//scr_KSW_AddFish("Lynx Hunter",spr_KSW_Fish_LynxHunter,spr_KSW_Fish_LynxHunter_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.night,226);
 	//scr_KSW_AddFish("Lynx Archer",spr_KSW_Fish_LynxArcher,spr_KSW_Fish_LynxArcher_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.night,226);
-	//scr_KSW_AddFish("Mushrum",spr_KSW_Fish_Mushrum,spr_KSW_Fish_Mushrum_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.day,22);
 	//scr_KSW_AddFish("Bighorn Bison",spr_KSW_Fish_BighornBison,spr_KSW_Fish_BighornBison_Pal,series_RiskRain,mage,1,creamCrevasse,KSW_Phases.night,2020);
 	//scr_KSW_AddFish("Temple Guard",spr_KSW_Fish_TempleGuard,spr_KSW_Fish_TempleGuard_Pal,series_RiskRain,mage,1,androidPort,KSW_Phases.day,2020);
 	//scr_KSW_AddFish("Gup",spr_KSW_Fish_Gup,spr_KSW_Fish_Gup_Pal,series_RiskRain,borange,2,anyStage,KSW_Phases.none,2020);
