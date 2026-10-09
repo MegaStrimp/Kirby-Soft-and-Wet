@@ -2478,6 +2478,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Gunner Drone",spr_KSW_Fish_GunnerDrone,spr_KSW_Fish_GunnerDrone_Pal,series_RiskRain,maze,0,androidPort,KSW_Phases.none,220);
 	//scr_KSW_AddFish("Missile Drone",spr_KSW_Fish_MissileDrone,spr_KSW_Fish_MissileDrone_Pal,series_RiskRain,flux,1,androidPort,KSW_Phases.none,2020);
 	//scr_KSW_AddFish("Flame Drone",spr_KSW_Fish_FlameDrone,spr_KSW_Fish_FlameDrone_Pal,series_RiskRain,borange,1,androidPort,KSW_Phases.none,2020);
+	//scr_KSW_AddFish("Strike Drone",spr_KSW_Fish_StrikeDrone,spr_KSW_Fish_StrikeDrone_Pal,series_RiskRain,limit,2,androidPort,KSW_Phases.none,2022);
 	//scr_KSW_AddFish("Ukulele",spr_KSW_Fish_Ukulele,spr_KSW_Fish_Ukulele_Pal,series_RiskRain,flux,3,androidPort,KSW_Phases.none,198000,0,0,-1,snd_KSW_Fish_RainFormerPurple);
 	//scr_KSW_AddFish("Commando",spr_KSW_Fish_Commando,spr_KSW_Fish_Commando_Pal,series_RiskRain,glimmer,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Huntress",spr_KSW_Fish_Huntress,spr_KSW_Fish_Huntress_Pal,series_RiskRain,candy,3,androidPort,KSW_Phases.none,20200);
@@ -2492,7 +2493,9 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Chef",spr_KSW_Fish_Chef,spr_KSW_Fish_Chef_Pal,series_RiskRain,candy,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Drifter",spr_KSW_Fish_Drifter,spr_KSW_Fish_Drifter_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Enforcer",spr_KSW_Fish_Enforcer,spr_KSW_Fish_Enforcer_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
-	//scr_KSW_AddFish("Providence",spr_KSW_Fish_Providence,spr_KSW_Fish_Providence_Pal,series_RiskRain,limit,3,hallowReen,KSW_Phases.night,202600);
+	//scr_KSW_AddFish("Red Gilded Wurm",spr_KSW_Fish_RedGildedWurm,spr_KSW_Fish_RedGildedWurm_Pal,series_RiskRain,limit,2,androidPort,KSW_Phases.night,20260);
+	//scr_KSW_AddFish("Black Gilded Wurm",spr_KSW_Fish_BlackGildedWurm,spr_KSW_Fish_BlackGildedWurm_Pal,series_RiskRain,limit,2,androidPort,KSW_Phases.night,20260);
+	//scr_KSW_AddFish("Providence",spr_KSW_Fish_Providence,spr_KSW_Fish_Providence_Pal,series_RiskRain,limit,3,androidPort,KSW_Phases.night,202600);
 	//scr_KSW_AddFish("Kappalord",spr_KSW_Fish_Kappalord,spr_KSW_Fish_Kappalord_Pal,series_Medabots,mint,0,androidPort,KSW_Phases.afternoon,1250);
 	//scr_KSW_AddFish("Fligflag",spr_KSW_Fish_Fligflag,spr_KSW_Fish_Fligflag_Pal,series_Medabots,mage,0,androidPort,KSW_Phases.afternoon,1500);
 	//scr_KSW_AddFish("Star Pentagon",spr_KSW_Fish_StarPentagon,spr_KSW_Fish_StarPentagon_Pal,series_Medabots,candy,1,androidPort,KSW_Phases.night,3000);
