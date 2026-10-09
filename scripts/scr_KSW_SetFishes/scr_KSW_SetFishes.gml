@@ -2468,11 +2468,16 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Black Imp",spr_KSW_Fish_BlackImp,spr_KSW_Fish_BlackImp_Pal,series_RiskRain,candy,1,serranoSprings,KSW_Phases.night,220);
 	//scr_KSW_AddFish("Imp Overlord",spr_KSW_Fish_ImpOverlord,spr_KSW_Fish_ImpOverlord_Pal,series_RiskRain,candy,2,serranoSprings,KSW_Phases.night,2020);
 	//scr_KSW_AddFish("Rock Golem",spr_KSW_Fish_RockGolem,spr_KSW_Fish_RockGolem_Pal,series_RiskRain,mint,0,grassBeach,KSW_Phases.none,220);
+	//scr_KSW_AddFish("Lynx Scout",spr_KSW_Fish_LynxScout,spr_KSW_Fish_LynxScout_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.night,226);
+	//scr_KSW_AddFish("Lynx Hunter",spr_KSW_Fish_LynxHunter,spr_KSW_Fish_LynxHunter_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.night,226);
+	//scr_KSW_AddFish("Lynx Archer",spr_KSW_Fish_LynxArcher,spr_KSW_Fish_LynxArcher_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.night,226);
 	//scr_KSW_AddFish("Mushrum",spr_KSW_Fish_Mushrum,spr_KSW_Fish_Mushrum_Pal,series_RiskRain,legion,0,hallowReen,KSW_Phases.day,22);
 	//scr_KSW_AddFish("Bighorn Bison",spr_KSW_Fish_BighornBison,spr_KSW_Fish_BighornBison_Pal,series_RiskRain,mage,1,creamCrevasse,KSW_Phases.night,2020);
+	//scr_KSW_AddFish("Temple Guard",spr_KSW_Fish_TempleGuard,spr_KSW_Fish_TempleGuard_Pal,series_RiskRain,mage,1,androidPort,KSW_Phases.day,2020);
 	//scr_KSW_AddFish("Gup",spr_KSW_Fish_Gup,spr_KSW_Fish_Gup_Pal,series_RiskRain,borange,2,anyStage,KSW_Phases.none,2020);
 	//scr_KSW_AddFish("Wandering Vagrant",spr_KSW_Fish_WanderingVagrant,spr_KSW_Fish_WanderingVagrant_Pal,series_RiskRain,mage,2,grassBeach,KSW_Phases.night,20200);
 	//scr_KSW_AddFish("Magma Worm",spr_KSW_Fish_MagmaWorm,spr_KSW_Fish_MagmaWorm_Pal,series_RiskRain,borange,2,serranoSprings,KSW_Phases.night,20200);
+	//scr_KSW_AddFish("Lynx Totem",spr_KSW_Fish_LynxTotem,spr_KSW_Fish_LynxTotem_Pal,series_RiskRain,legion,2,hallowReen,KSW_Phases.night,20260);
 	//scr_KSW_AddFish("Scavenger",spr_KSW_Fish_Scavenger,spr_KSW_Fish_Scavenger_Pal,series_RiskRain,spr_KSW_UI_CaughtBox_Palette_Randomize,3,androidPort,KSW_Phases.day,202000);
 	//scr_KSW_AddFish("Healing Drone",spr_KSW_Fish_HealingDrone,spr_KSW_Fish_HealingDrone_Pal,series_RiskRain,mint,0,androidPort,KSW_Phases.none,220);
 	//scr_KSW_AddFish("Gunner Drone",spr_KSW_Fish_GunnerDrone,spr_KSW_Fish_GunnerDrone_Pal,series_RiskRain,maze,0,androidPort,KSW_Phases.none,220);
