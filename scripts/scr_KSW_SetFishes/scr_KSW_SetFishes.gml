@@ -2488,6 +2488,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Mercenary",spr_KSW_Fish_Mercenary,spr_KSW_Fish_Mercenary_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Loader",spr_KSW_Fish_Loader,spr_KSW_Fish_Loader_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Acrid",spr_KSW_Fish_Acrid,spr_KSW_Fish_Acrid_Pal,series_RiskRain,mint,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Captain",spr_KSW_Fish_Captain,spr_KSW_Fish_Captain_Pal,series_RiskRain,mage,3,androidPort,KSW_Phases.none,20220);
 	//scr_KSW_AddFish("Chef",spr_KSW_Fish_Chef,spr_KSW_Fish_Chef_Pal,series_RiskRain,candy,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Drifter",spr_KSW_Fish_Drifter,spr_KSW_Fish_Drifter_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Enforcer",spr_KSW_Fish_Enforcer,spr_KSW_Fish_Enforcer_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
