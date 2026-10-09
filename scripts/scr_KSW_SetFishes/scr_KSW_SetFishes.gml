@@ -2491,6 +2491,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Chef",spr_KSW_Fish_Chef,spr_KSW_Fish_Chef_Pal,series_RiskRain,candy,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Drifter",spr_KSW_Fish_Drifter,spr_KSW_Fish_Drifter_Pal,series_RiskRain,borange,3,androidPort,KSW_Phases.none,20200);
 	//scr_KSW_AddFish("Enforcer",spr_KSW_Fish_Enforcer,spr_KSW_Fish_Enforcer_Pal,series_RiskRain,maze,3,androidPort,KSW_Phases.none,20200);
+	//scr_KSW_AddFish("Providence",spr_KSW_Fish_Providence,spr_KSW_Fish_Providence_Pal,series_RiskRain,limit,3,hallowReen,KSW_Phases.night,202600);
 	//scr_KSW_AddFish("Kappalord",spr_KSW_Fish_Kappalord,spr_KSW_Fish_Kappalord_Pal,series_Medabots,mint,0,androidPort,KSW_Phases.afternoon,1250);
 	//scr_KSW_AddFish("Fligflag",spr_KSW_Fish_Fligflag,spr_KSW_Fish_Fligflag_Pal,series_Medabots,mage,0,androidPort,KSW_Phases.afternoon,1500);
 	//scr_KSW_AddFish("Star Pentagon",spr_KSW_Fish_StarPentagon,spr_KSW_Fish_StarPentagon_Pal,series_Medabots,candy,1,androidPort,KSW_Phases.night,3000);
@@ -2603,6 +2604,10 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Kid Kirby",spr_KSW_Fish_KidKirby,spr_KSW_Fish_KidKirby_Pal,series_KidKirby,candy,3,androidPort,KSW_Phases.none,1995);
 	//scr_KSW_AddFish("Mini Lobster",spr_KSW_Fish_MiniLobster,spr_KSW_Fish_MiniLobster_Pal,series_Kirby,mint,1,androidPort,KSW_Phases.afternoon,1996);
 	//scr_KSW_AddFish("Heavy Lobster",spr_KSW_Fish_HeavyLobster,spr_KSW_Fish_HeavyLobster_Pal,series_Kirby,mint,2,androidPort,KSW_Phases.afternoon,20080);
+
+	// chill penguin, blizzard buffalo, frost walrus, tidal whale = already here
+	
+	
 	
 	#endregion
 	#endregion
