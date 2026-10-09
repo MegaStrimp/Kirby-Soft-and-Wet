@@ -257,7 +257,13 @@ if (canSelect)
 		#region Export Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
-			if ((!global.isMobile) and (!global.isOpera))
+			if (global.isMobile)
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				scr_KSW_ExportSaveFile();
+			}
+			else if (!global.isOpera)
 			{
 				scr_PlaySfx(snd_KSW_ButtonChange);
 				
@@ -276,7 +282,13 @@ if (canSelect)
 		#region Import Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
-			if ((!global.isMobile) and (!global.isOpera))
+			if (global.isMobile)
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				scr_KSW_ImportSaveFile();
+			}
+			else if (!global.isOpera)
 			{
 				scr_PlaySfx(snd_KSW_ButtonChange);
 				
