@@ -161,6 +161,7 @@ function scr_KSW_SetFishes()
 	var hallowReen = global.KSW_StageIDs[? "hallowReen"];
 	var serranoSprings = global.KSW_StageIDs[? "serranoSprings"];
 	var androidPort = global.KSW_StageIDs[? "androidPort"];
+	var cloudyPark = global.KSW_StageIDs[? "cloudyPark"];
 	#endregion
 	
 	#region Caught Box Palettes
