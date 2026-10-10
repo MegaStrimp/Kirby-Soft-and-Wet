@@ -32,6 +32,7 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "ClassicBomb",playerID,"Classic Bomb",spr_KSW_Player_Kirby_Hat_ClassicBomb_Ready,scr_KSW_Player_Kirby_Hat_ClassicBomb_SpriteSet(),mage,150,3,7);
 	scr_KSW_AddHat(playerID + "_" + "Pirate",playerID,"Pirate",spr_KSW_Player_Kirby_Hat_Pirate_Ready,scr_KSW_Player_Kirby_Hat_Pirate_SpriteSet(),mage,150,1,10);
 	scr_KSW_AddHat(playerID + "_" + "RobotHat",playerID,"Robot Hat",spr_KSW_Player_Kirby_Hat_RobotHat_Ready,scr_KSW_Player_Kirby_Hat_RobotHat_SpriteSet(),candy,150,2,9);
+	scr_KSW_AddHat(playerID + "_" + "KibblyHeadband",playerID,"Kibbly Headband",spr_KSW_Player_Kirby_Hat_KibblyHeadband_Shop,scr_KSW_Player_Kirby_Hat_KibblyHeadband_SpriteSet(),candy,150,3,4);
 	scr_KSW_AddHat(playerID + "_" + "Classic",playerID,"Classic",spr_KSW_Player_Kirby_Hat_Classic_Shop,scr_KSW_Player_Kirby_Hat_Classic_SpriteSet(),candy,150,0,1);
 	scr_KSW_AddHat(playerID + "_" + "MiniMe",playerID,"Mini Me",spr_KSW_Player_Kirby_Hat_MiniMe_Ready_Shadow,scr_KSW_Player_Kirby_Hat_MiniMe_SpriteSet(),candy,150,0,14);
 	#endregion
@@ -85,6 +86,7 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "SuperBoy",playerID,"Super Boy",spr_KSW_Player_Ybrik_Hat_SuperBoy_Shop,scr_KSW_Player_Ybrik_Hat_SuperBoy_SpriteSet(),borange,150,1,9);
 	scr_KSW_AddHat(playerID + "_" + "TheVisitor",playerID,"THE VISITOR",spr_KSW_Player_Ybrik_Hat_TheVisitor_Shop,scr_KSW_Player_Ybrik_Hat_TheVisitor_SpriteSet(),candy,150,1,14);
 	scr_KSW_AddHat(playerID + "_" + "TMK",playerID,"TMK",spr_KSW_Player_Ybrik_Hat_TMK_Shop,scr_KSW_Player_Ybrik_Hat_TMK_SpriteSet(),legion,150,1,3);
+	scr_KSW_AddHat(playerID + "_" + "Zero",playerID,"Zero",spr_KSW_Player_Ybrik_Hat_Zero_Shop,scr_KSW_Player_Ybrik_Hat_Zero_SpriteSet(),candy,150,1,1);
 	#endregion
 	
 	#region Chip
