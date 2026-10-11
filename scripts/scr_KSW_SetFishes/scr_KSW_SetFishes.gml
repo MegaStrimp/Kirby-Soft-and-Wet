@@ -2690,7 +2690,25 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Metal Alien",spr_KSW_Fish_MetalAlien,spr_KSW_Fish_MetalAlien_Pal,series_Contra,candy,2,cloudyPark,KSW_Phases.night,19920);
 	//scr_KSW_AddFish("Bill Rizer",spr_KSW_Fish_BillRizer,spr_KSW_Fish_BillRizer_Pal,series_Contra,limit,3,androidPort,KSW_Phases.none,19880);
 	//scr_KSW_AddFish("Lance Bean",spr_KSW_Fish_LanceBean,spr_KSW_Fish_LanceBean_Pal,series_Contra,limit,3,androidPort,KSW_Phases.none,19900);
-	
+	//scr_KSW_AddFish("Vault 13 Canteen",spr_KSW_Fish_Vault13Canteen,spr_KSW_Fish_Vault13Canteen_Pal,series_Fallout,tvtime,0,androidPort,KSW_Phases.none,1);
+	//scr_KSW_AddFish("Brahmin",spr_KSW_Fish_Brahmin,spr_KSW_Fish_Brahmin_Pal,series_Fallout,borange,0,androidPort,KSW_Phases.afternoon,210);
+	//scr_KSW_AddFish("Male Vault Dweller",spr_KSW_Fish_MaleVaultDweller,spr_KSW_Fish_MaleVaultDweller_Pal,series_Fallout,glimmer,1,androidPort,KSW_Phases.none,2161);
+	//scr_KSW_AddFish("Female Vault Dweller",spr_KSW_Fish_FemaleVaultDweller,spr_KSW_Fish_FemaleVaultDweller_Pal,series_Fallout,glimmer,1,androidPort,KSW_Phases.none,2161);
+	//scr_KSW_AddFish("Mr. Handy",spr_KSW_Fish_MrHandy,spr_KSW_Fish_MrHandy_Pal,series_Fallout,mage,1,androidPort,KSW_Phases.none,2037);
+	//scr_KSW_AddFish("Robobrain",spr_KSW_Fish_Robobrain,spr_KSW_Fish_Robobrain_Pal,series_Fallout,candy,1,androidPort,KSW_Phases.none,2077);
+	//scr_KSW_AddFish("Paladin",spr_KSW_Fish_Paladin,spr_KSW_Fish_Paladin_Pal,series_Fallout,mint,1,androidPort,KSW_Phases.day,2008);
+	//scr_KSW_AddFish("Super Mutant",spr_KSW_Fish_SuperMutant,spr_KSW_Fish_SuperMutant_Pal,series_Fallout,legion,1,androidPort,KSW_Phases.night,2008);
+	//scr_KSW_AddFish("Centaur",spr_KSW_Fish_Centaur,spr_KSW_Fish_Centaur_Pal,series_Fallout,borange,1,androidPort,KSW_Phases.afternoon,1997);
+	//scr_KSW_AddFish("Ghoul",spr_KSW_Fish_Ghoul,spr_KSW_Fish_Ghoul_Pal,series_Fallout,maze,0,androidPort,KSW_Phases.night,224);
+	//scr_KSW_AddFish("Gecko",spr_KSW_Fish_Gecko,spr_KSW_Fish_Gecko_Pal,series_Fallout,borange,0,androidPort,KSW_Phases.day,210);
+	//scr_KSW_AddFish("Floater",spr_KSW_Fish_Floater,spr_KSW_Fish_Floater_Pal,series_Fallout,borange,0,androidPort,KSW_Phases.day,210);
+	//scr_KSW_AddFish("Radscorpion",spr_KSW_Fish_Radscorpion,spr_KSW_Fish_Radscorpion_Pal,series_Fallout,borange,2,androidPort,KSW_Phases.afternoon,19980);
+	//scr_KSW_AddFish("Deathclaw",spr_KSW_Fish_Deathclaw,spr_KSW_Fish_Deathclaw_Pal,series_Fallout,borange,3,androidPort,KSW_Phases.afternoon,20700);
+	//scr_KSW_AddFish("Lou Tenant",spr_KSW_Fish_LouTenant,spr_KSW_Fish_LouTenant_Pal,series_Fallout,limit,2,androidPort,KSW_Phases.none,21620);
+	//scr_KSW_AddFish("Master",spr_KSW_Fish_Master,spr_KSW_Fish_Master_Pal,series_Fallout,limit,3,androidPort,KSW_Phases.none,216200);
+	//scr_KSW_AddFish("Enclave Soldier",spr_KSW_Fish_EnclaveSoldier,spr_KSW_Fish_EnclaveSoldier_Pal,series_Fallout,maze,2,androidPort,KSW_Phases.none,20770);
+	//scr_KSW_AddFish("Frank Horrigan",spr_KSW_Fish_FrankHorrigan,spr_KSW_Fish_FrankHorrigan_Pal,series_Fallout,maze,3,androidPort,KSW_Phases.none,224200);
+
 	#endregion
 	#endregion
 }
