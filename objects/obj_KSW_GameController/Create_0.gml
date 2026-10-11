@@ -28,11 +28,16 @@ global.KSW_ForcedPhase = global.KSW_StageList[global.KSW_CurrentStageID].forcedP
 global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
 
 currentFishPool = scr_KSW_Game_SetPool(playerNum);
+currentEventPool = scr_KSW_Game_SetEventPool();
 currentFish = -1;
 currentFishIsNew = false;
 currentFishIsShiny = false;
 
 findFishTimer = -1;
+findFishTimerMinDefault = 60;
+findFishTimerMaxDefault = 400;
+findFishTimerMin = findFishTimerMinDefault;
+findFishTimerMax = findFishTimerMaxDefault;
 
 catchInput_CurrentList = -1;
 catchInput_CurrentLine = -1;
@@ -73,9 +78,19 @@ catchCombo_YOffsetTimerMax = 4;
 
 failTimer = -1;
 failTimerTarget = -1;
-failTimerMax = 150;
-failTimerMin = 10;
+failTimerMaxDefault = 150;
+failTimerMinDefault = 10;
+failTimerOffsetDefault = 1;
+failTimerMax = failTimerMaxDefault;
+failTimerMin = failTimerMinDefault;
+failTimerOffset = failTimerOffsetDefault;
+
 failTimerEMin = 20;
+
+failBarBackDefault = spr_KSW_UI_FailTimerBar_Back;
+failBarTextureDefault = spr_KSW_UI_FailTimerBar_Texture;
+failBarBack = failBarBackDefault;
+failBarTexture = failBarTextureDefault;
 
 failTimerBarTextureX = 0;
 failTimerBarTextureWidth = 16;
@@ -100,6 +115,8 @@ hintOffset = 0;
 bubbleIndex = 0;
 bubbleSpd = sprite_get_speed(spr_KSW_UI_CatchInput_Active) / 60;
 bubbleNumber = sprite_get_number(spr_KSW_UI_CatchInput_Active);
+
+eventTimer = -1;
 
 mousePressed = false;
 

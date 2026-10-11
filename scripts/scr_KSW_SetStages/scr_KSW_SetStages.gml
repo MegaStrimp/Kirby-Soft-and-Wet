@@ -118,5 +118,26 @@ function scr_KSW_SetStages()
 	
 	scr_KSW_AddStage("androidPort","Android Port",spr_KSW_UI_Customize_StageIcon_AndroidPort,spr_KSW_Layout_AndroidPort_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_AndroidPort_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_AndroidPort_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * androidPortDiscount),androidPortDiscount);
 	#endregion
+	
+	#region Cloudy Park
+	var targetDayBackgrounds = [scr_KSW_SetBackground_CloudyPark_Day_1,
+	scr_KSW_SetBackground_CloudyPark_Day_2];
+	
+	var targetDayBgColors = [98,238,248,136,65,18];
+	
+	var targetAfternoonBackgrounds = [scr_KSW_SetBackground_CloudyPark_Afternoon_1,
+	scr_KSW_SetBackground_CloudyPark_Afternoon_2];
+	
+	var targetAfternoonBgColors = [75,274,234,115,223,58];
+	
+	var targetNightBackgrounds = [scr_KSW_SetBackground_CloudyPark_Night_1];
+	
+	var targetNightBgColors = [223,263,97,267,220,25];
+	
+	var cloudyParkDiscount = 1;
+	if (current_month == 11) cloudyParkDiscount /= 2;
+	
+	scr_KSW_AddStage("cloudyPark","Cloudy Park",spr_KSW_UI_Customize_StageIcon_CloudyPark,spr_KSW_Layout_CloudyPark_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_CloudyPark_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_CloudyPark_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * cloudyParkDiscount),cloudyParkDiscount);
+	#endregion
 	#endregion
 }
