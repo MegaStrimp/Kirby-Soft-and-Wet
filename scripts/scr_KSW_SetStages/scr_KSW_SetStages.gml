@@ -76,6 +76,7 @@ function scr_KSW_SetStages()
 	
 	var hallowReenDiscount = 1;
 	if (current_month == 10) hallowReenDiscount /= 2;
+	if (current_month == 11) hallowReenDiscount /= 2; //STRIMPTODO Remove in November Rain
 	
 	scr_KSW_AddStage("hallowReen","Hallow Reen",spr_KSW_UI_Customize_StageIcon_HallowReen,spr_KSW_Layout_HallowReen_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_HallowReen_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_HallowReen_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * hallowReenDiscount),hallowReenDiscount);
 	#endregion

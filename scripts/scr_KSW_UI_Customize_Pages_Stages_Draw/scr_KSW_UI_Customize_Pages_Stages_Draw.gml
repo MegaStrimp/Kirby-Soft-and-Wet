@@ -82,12 +82,12 @@ function scr_KSW_UI_Customize_Pages_Stages_Draw()
 	#region Completion
 	var color = "[#FFFFFF]";
 	
-	if (isCompleted)
-	{
-		color = "[#FFD800]";
-		draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,global.gameWidth - 40,2 - hintOffset);
-	}
-	scribble(color + string(global.KSW_UnlockedStageCount) + "/" + string(global.KSW_StageCount) + "[/color]").align(fa_right).draw(global.gameWidth - 4,6 - hintOffset);
+	if (isCompleted) color = "[#FFD800]";
+	
+	var countText = scribble(color + string(global.KSW_UnlockedStageCount) + "/" + string(global.KSW_StageCount) + "[/color]");
+	countText.align(fa_right).draw(global.gameWidth - 4,6 - hintOffset);
+	
+	if (isCompleted) draw_sprite(spr_KSW_Menu_Fishbook_Completion,0,global.gameWidth - 19 - countText.get_width(),2 - hintOffset);
 	#endregion
 	
 	#region Stage Name
