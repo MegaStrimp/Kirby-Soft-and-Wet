@@ -153,6 +153,7 @@ function scr_KSW_SetFishes()
 	var series_vampireSurvivors = global.KSW_SeriesIDs[? "vampireSurvivors"];
 	var series_KidKirby = global.KSW_SeriesIDs[? "kidKirby"];
 	var series_BMZ = global.KSW_SeriesIDs[? "blasterMaster"];
+	var series_Contra = global.KSW_SeriesIDs[? "contra"];
 	#endregion
 	
 	#region Stages
@@ -2652,6 +2653,26 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Sophia III",spr_KSW_Fish_SophiaIII,spr_KSW_Fish_SophiaIII_Pal,series_BMZ,tvtime,2,androidPort,KSW_Phases.none,19880);
 	//scr_KSW_AddFish("Jason",spr_KSW_Fish_Jason,spr_KSW_Fish_Jason_Pal,series_BMZ,limit,3,androidPort,KSW_Phases.none,198800);
 	//scr_KSW_AddFish("Eve",spr_KSW_Fish_Eve,spr_KSW_Fish_Eve_Pal,series_BMZ,candy,3,androidPort,KSW_Phases.none,201700);
+	//scr_KSW_AddFish("Acuba",spr_KSW_Fish_Acuba,spr_KSW_Fish_Acuba_Pal,series_Contra,mage,0,grassBeach,KSW_Phases.day,207);
+	//scr_KSW_AddFish("Human-Faced Dog",spr_KSW_Fish_HumanFacedDog,spr_KSW_Fish_HumanFacedDog_Pal,series_Contra,flux,0,hallowReen,KSW_Phases.day,207);
+	//scr_KSW_AddFish("Greeder",spr_KSW_Fish_Greeder,spr_KSW_Fish_Greeder_Pal,series_Contra,mint,0,androidPort,KSW_Phases.day,207);
+	//scr_KSW_AddFish("Ledder",spr_KSW_Fish_Ledder,spr_KSW_Fish_Ledder_Pal,series_Contra,mint,0,androidPort,KSW_Phases.day,207);
+	//scr_KSW_AddFish("Grenade Thrower",spr_KSW_Fish_GrenadeThrower,spr_KSW_Fish_GrenadeThrower_Pal,series_Contra,mint,0,androidPort,KSW_Phases.day,207);
+	//scr_KSW_AddFish("Bugger",spr_KSW_Fish_Bugger,spr_KSW_Fish_Bugger_Pal,series_Contra,limit,0,androidPort,KSW_Phases.afternoon,207);
+	//scr_KSW_AddFish("Orian",spr_KSW_Fish_Orian,spr_KSW_Fish_Orian_Pal,series_Contra,limit,1,androidPort,KSW_Phases.night,2007);
+	//scr_KSW_AddFish("Garth",spr_KSW_Fish_Garth,spr_KSW_Fish_Garth_Pal,series_Contra,mint,0,cloudyPark,KSW_Phases.day,207);
+	//scr_KSW_AddFish("Falcon Reaper",spr_KSW_Fish_FalconReaper,spr_KSW_Fish_FalconReaper_Pal,series_Contra,flux,1,cloudyPark,KSW_Phases.afternoon,207);
+	//scr_KSW_AddFish("Wing Lizard",spr_KSW_Fish_WingLizard,spr_KSW_Fish_WingLizard_Pal,series_Contra,glimmer,0,cloudyPark,KSW_Phases.afternoon,194);
+	//scr_KSW_AddFish("Necroid",spr_KSW_Fish_Necroid,spr_KSW_Fish_Necroid_Pal,series_Contra,borange,0,cloudyPark,KSW_Phases.afternoon,194);
+	//scr_KSW_AddFish("Rocket Ninja Sasaki",spr_KSW_Fish_RocketNinjaSasaki,spr_KSW_Fish_RocketNinjaSasaki_Pal,series_Contra,flux,1,cloudyPark,KSW_Phases.night,1994);
+	//scr_KSW_AddFish("Deadeye Joe",spr_KSW_Fish_DeadeyeJoe,spr_KSW_Fish_DeadeyeJoe_Pal,series_Contra,maze,1,cloudyPark,KSW_Phases.night,1994);
+	//scr_KSW_AddFish("Police Cruiser",spr_KSW_Fish_PoliceCruiser,spr_KSW_Fish_PoliceCruiser_Pal,series_Contra,flux,2,cloudyPark,KSW_Phases.night,19940);
+	//scr_KSW_AddFish("Taka",spr_KSW_Fish_Taka,spr_KSW_Fish_Taka_Pal,series_Contra,flux,2,androidPort,KSW_Phases.night,19920);
+	//scr_KSW_AddFish("Brother Robot Kenny",spr_KSW_Fish_BrotherRobotKenny,spr_KSW_Fish_BrotherRobotKenny_Pal,series_Contra,borange,2,androidPort,KSW_Phases.night,19920);
+	//scr_KSW_AddFish("Garth Base",spr_KSW_Fish_GarthBase,spr_KSW_Fish_GarthBase_Pal,series_Contra,flux,2,cloudyPark,KSW_Phases.night,19920);
+	//scr_KSW_AddFish("Metal Alien",spr_KSW_Fish_MetalAlien,spr_KSW_Fish_MetalAlien_Pal,series_Contra,candy,2,cloudyPark,KSW_Phases.night,19920);
+	//scr_KSW_AddFish("Bill Rizer",spr_KSW_Fish_BillRizer,spr_KSW_Fish_BillRizer_Pal,series_Contra,limit,3,androidPort,KSW_Phases.none,19880);
+	//scr_KSW_AddFish("Lance Bean",spr_KSW_Fish_LanceBean,spr_KSW_Fish_LanceBean_Pal,series_Contra,limit,3,androidPort,KSW_Phases.none,19900);
 	
 	#endregion
 	#endregion
