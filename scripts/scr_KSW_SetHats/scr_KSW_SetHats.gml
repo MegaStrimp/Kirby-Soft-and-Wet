@@ -74,7 +74,7 @@ function scr_KSW_SetHats()
 	var playerID = "ybrik";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
-	scr_KSW_AddHat(playerID + "_" + "Original",playerID,"Original",spr_KSW_Player_Ybrik_Hat_Original_Ready_Shadow,scr_KSW_Player_Ybrik_Hat_Original_SpriteSet(),borange,150,0,1);
+	scr_KSW_AddHat(playerID + "_" + "Original",playerID,"Original",spr_KSW_Player_Ybrik_Hat_Original_Ready_Shadow,scr_KSW_Player_Ybrik_Hat_Original_SpriteSet(),borange,150,0,1,,true);
 	scr_KSW_AddHat(playerID + "_" + "JackOLantern",playerID,"Jack-o-Lantern",spr_KSW_Player_Ybrik_Hat_JackOLantern_Shop,scr_KSW_Player_Ybrik_Hat_JackOLantern_SpriteSet(),borange,150,2,3);
 	scr_KSW_AddHat(playerID + "_" + "MrPUmpkin",playerID,"Mr. P. Umpkin",spr_KSW_Player_Ybrik_Hat_MrPUmpkin_Shop,scr_KSW_Player_Ybrik_Hat_MrPUmpkin_SpriteSet(),borange,150,2,3);
 	scr_KSW_AddHat(playerID + "_" + "Kaboya",playerID,"Kaboya",spr_KSW_Player_Ybrik_Hat_Kaboya_Shop,scr_KSW_Player_Ybrik_Hat_Kaboya_SpriteSet(),flux,150,2,3);
