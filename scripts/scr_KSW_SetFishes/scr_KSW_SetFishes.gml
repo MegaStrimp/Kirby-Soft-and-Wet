@@ -152,6 +152,7 @@ function scr_KSW_SetFishes()
 	var series_Persona = global.KSW_SeriesIDs[? "persona"];
 	var series_vampireSurvivors = global.KSW_SeriesIDs[? "vampireSurvivors"];
 	var series_KidKirby = global.KSW_SeriesIDs[? "kidKirby"];
+	var series_BMZ = global.KSW_SeriesIDs[? "blasterMaster"];
 	#endregion
 	
 	#region Stages
@@ -2628,10 +2629,28 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Kid Kirby",spr_KSW_Fish_KidKirby,spr_KSW_Fish_KidKirby_Pal,series_KidKirby,candy,3,androidPort,KSW_Phases.none,1995);
 	//scr_KSW_AddFish("Mini Lobster",spr_KSW_Fish_MiniLobster,spr_KSW_Fish_MiniLobster_Pal,series_Kirby,mint,1,androidPort,KSW_Phases.afternoon,1996);
 	//scr_KSW_AddFish("Heavy Lobster",spr_KSW_Fish_HeavyLobster,spr_KSW_Fish_HeavyLobster_Pal,series_Kirby,mint,2,androidPort,KSW_Phases.afternoon,20080);
-
-	// chill penguin, blizzard buffalo, frost walrus, tidal whale = already here
-	
-	
+	//scr_KSW_AddFish("Invem Nautilus",spr_KSW_Fish_InvemNautilus,spr_KSW_Fish_InvemNautilus_Pal,series_BMZ,mage,0,grassBeach,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Anemone",spr_KSW_Fish_InvemAnemone,spr_KSW_Fish_InvemAnemone_Pal,series_BMZ,mage,0,grassBeach,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Sea Soldier",spr_KSW_Fish_InvemSeaSoldier,spr_KSW_Fish_InvemSeaSoldier_Pal,series_BMZ,mage,0,grassBeach,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Jellyfish",spr_KSW_Fish_InvemJellyfish,spr_KSW_Fish_InvemJellyfish_Pal,series_BMZ,mage,0,grassBeach,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Armored Fish",spr_KSW_Fish_InvemArmoredFish,spr_KSW_Fish_InvemArmoredFish_Pal,series_BMZ,mage,1,grassBeach,KSW_Phases.none,217);
+	//scr_KSW_AddFish("HardShell",spr_KSW_Fish_HardShell,spr_KSW_Fish_HardShell_Pal,series_BMZ,flux,2,grassBeach,KSW_Phases.none,2017);
+	//scr_KSW_AddFish("Invem Metal Octopus",spr_KSW_Fish_InvemMetalOctopus,spr_KSW_Fish_InvemMetalOctopus_Pal,series_BMZ,legion,0,androidPort,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Mutant Jellyfish",spr_KSW_Fish_InvemMutantJellyfish,spr_KSW_Fish_InvemMutantJellyfish_Pal,series_BMZ,legion,0,androidPort,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Tadroll",spr_KSW_Fish_Tadroll,spr_KSW_Fish_Tadroll_Pal,series_BMZ,legion,0,androidPort,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Soldier",spr_KSW_Fish_InvemSoldier,spr_KSW_Fish_InvemSoldier_Pal,series_BMZ,legion,0,androidPort,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Cells",spr_KSW_Fish_InvemCells,spr_KSW_Fish_InvemCells_Pal,series_BMZ,legion,1,androidPort,KSW_Phases.none,217);
+	//scr_KSW_AddFish("Crabularva",spr_KSW_Fish_Crabularva,spr_KSW_Fish_Crabularva_Pal,series_BMZ,legion,1,androidPort,KSW_Phases.none,217);
+	//scr_KSW_AddFish("Crabullus",spr_KSW_Fish_Crabullus,spr_KSW_Fish_Crabullus_Pal,series_BMZ,legion,2,androidPort,KSW_Phases.none,2017);
+	//scr_KSW_AddFish("SparkSalamander",spr_KSW_Fish_SparkSalamander,spr_KSW_Fish_SparkSalamander_Pal,series_BMZ,legion,2,androidPort,KSW_Phases.none,2017);
+	//scr_KSW_AddFish("Invem Magma Bug",spr_KSW_Fish_InvemMagmaBug,spr_KSW_Fish_InvemMagmaBug_Pal,series_BMZ,candy,0,serranoSprings,KSW_Phases.none,27);
+	//scr_KSW_AddFish("Invem Magma Soldier",spr_KSW_Fish_InvemMagmaSoldier,spr_KSW_Fish_InvemMagmaSoldier_Pal,series_BMZ,candy,1,serranoSprings,KSW_Phases.none,217);
+	//scr_KSW_AddFish("S-1000",spr_KSW_Fish_S1000,spr_KSW_Fish_S1000_Pal,series_BMZ,candy,1,serranoSprings,KSW_Phases.none,217);
+	//scr_KSW_AddFish("Underworld Lord",spr_KSW_Fish_UnderworldLord,spr_KSW_Fish_UnderworldLord_Pal,series_BMZ,candy,2,serranoSprings,KSW_Phases.none,20170);
+	//scr_KSW_AddFish("Multidimensional Overlord",spr_KSW_Fish_MultidimensionalOverlord,spr_KSW_Fish_MultidimensionalOverlord_Pal,series_BMZ,limit,2,serranoSprings,KSW_Phases.none,201700);
+	//scr_KSW_AddFish("Sophia III",spr_KSW_Fish_SophiaIII,spr_KSW_Fish_SophiaIII_Pal,series_BMZ,tvtime,2,androidPort,KSW_Phases.none,19880);
+	//scr_KSW_AddFish("Jason",spr_KSW_Fish_Jason,spr_KSW_Fish_Jason_Pal,series_BMZ,limit,3,androidPort,KSW_Phases.none,198800);
+	//scr_KSW_AddFish("Eve",spr_KSW_Fish_Eve,spr_KSW_Fish_Eve_Pal,series_BMZ,candy,3,androidPort,KSW_Phases.none,201700);
 	
 	#endregion
 	#endregion
