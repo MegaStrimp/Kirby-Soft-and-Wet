@@ -145,7 +145,7 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-if ((!global.isMobile) and (!global.isOpera))
+if ((global.isMobile) or (!global.isOpera))
 {
 	scribble("EXPORT SAVE").draw(8,startY + (space * i));
 }
@@ -164,7 +164,7 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-if ((!global.isMobile) and (!global.isOpera))
+if ((global.isMobile) or (!global.isOpera))
 {
 	scribble("IMPORT SAVE").draw(8,startY + (space * i));
 }
