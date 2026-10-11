@@ -2512,6 +2512,9 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Arms Race Drone",spr_KSW_Fish_ArmsRaceDrone,spr_KSW_Fish_ArmsRaceDrone_Pal,series_RiskRain,mint,1,androidPort,KSW_Phases.none,2023);
 	//scr_KSW_AddFish("Sand Crab (RoR)",spr_KSW_Fish_SandCrabRoR,spr_KSW_Fish_SandCrabRoR_Pal,series_RiskRain,glimmer,1,grassBeach,KSW_Phases.night,2023);
 	//scr_KSW_AddFish("Whorl",spr_KSW_Fish_Whorl,spr_KSW_Fish_Whorl_Pal,series_RiskRain,flux,1,grassBeach,KSW_Phases.night,2023);
+	//scr_KSW_AddFish("Archer Bug",spr_KSW_Fish_ArcherBug,spr_KSW_Fish_ArcherBug_Pal,series_RiskRain,glimmer,0,cloudyPark,KSW_Phases.afternoon,223);
+	//scr_KSW_AddFish("Swift",spr_KSW_Fish_Swift,spr_KSW_Fish_Swift_Pal,series_RiskRain,mint,0,cloudyPark,KSW_Phases.day,223);
+	//scr_KSW_AddFish("Evolved Lemurian",spr_KSW_Fish_EvolvedLemurian,spr_KSW_Fish_EvolvedLemurian_Pal,series_RiskRain,limit,1,cloudyPark,KSW_Phases.night,223);
 	//scr_KSW_AddFish("Archaic Wisp",spr_KSW_Fish_ArchaicWisp,spr_KSW_Fish_ArchaicWisp_Pal,series_RiskRain,flux,1,serranoSprings,KSW_Phases.night,2023);
 	//scr_KSW_AddFish("Ancient Wisp",spr_KSW_Fish_AncientWisp,spr_KSW_Fish_AncientWisp_Pal,series_RiskRain,flux,2,serranoSprings,KSW_Phases.night,2023);
 	//scr_KSW_AddFish("Ifrit",spr_KSW_Fish_Ifrit,spr_KSW_Fish_Ifrit_Pal,series_RiskRain,mage,2,serranoSprings,KSW_Phases.afternoon,2023);
@@ -2636,7 +2639,8 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Invem Sea Soldier",spr_KSW_Fish_InvemSeaSoldier,spr_KSW_Fish_InvemSeaSoldier_Pal,series_BMZ,mage,0,grassBeach,KSW_Phases.none,27);
 	//scr_KSW_AddFish("Invem Jellyfish",spr_KSW_Fish_InvemJellyfish,spr_KSW_Fish_InvemJellyfish_Pal,series_BMZ,mage,0,grassBeach,KSW_Phases.none,27);
 	//scr_KSW_AddFish("Invem Armored Fish",spr_KSW_Fish_InvemArmoredFish,spr_KSW_Fish_InvemArmoredFish_Pal,series_BMZ,mage,1,grassBeach,KSW_Phases.none,217);
-	//scr_KSW_AddFish("HardShell",spr_KSW_Fish_HardShell,spr_KSW_Fish_HardShell_Pal,series_BMZ,flux,2,grassBeach,KSW_Phases.none,2017);
+	//scr_KSW_AddFish("Hard Shell",spr_KSW_Fish_HardShell,spr_KSW_Fish_HardShell_Pal,series_BMZ,flux,2,grassBeach,KSW_Phases.none,2017);
+	//scr_KSW_AddFish("Invem Fly",spr_KSW_Fish_InvemFly,spr_KSW_Fish_InvemFly_Pal,series_BMZ,flux,0,cloudyPark,KSW_Phases.afternoon,27);
 	//scr_KSW_AddFish("Invem Metal Octopus",spr_KSW_Fish_InvemMetalOctopus,spr_KSW_Fish_InvemMetalOctopus_Pal,series_BMZ,legion,0,androidPort,KSW_Phases.none,27);
 	//scr_KSW_AddFish("Invem Mutant Jellyfish",spr_KSW_Fish_InvemMutantJellyfish,spr_KSW_Fish_InvemMutantJellyfish_Pal,series_BMZ,legion,0,androidPort,KSW_Phases.none,27);
 	//scr_KSW_AddFish("Tadroll",spr_KSW_Fish_Tadroll,spr_KSW_Fish_Tadroll_Pal,series_BMZ,legion,0,androidPort,KSW_Phases.none,27);
