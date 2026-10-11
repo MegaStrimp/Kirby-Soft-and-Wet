@@ -413,5 +413,17 @@ function scr_KSW_SetSprayPaints()
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "Matter",playerID,"Matter",spr_KSW_Player_NZ_SprayPaint_Matter,legion,0,true);
 	#endregion
+	
+	#region N-Z
+	var playerID = "kabula";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "AerialFortress",playerID,"Aerial Fortress",spr_KSW_Player_Kabula_SprayPaint_AerialFortress,borange,0,true);
+	#endregion
+	
+	#region N-Z
+	var playerID = "starman";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Regal",playerID,"Regal",spr_KSW_Player_Starman_SprayPaint_Regal,glimmer,0,true);
+	#endregion
 	#endregion
 }

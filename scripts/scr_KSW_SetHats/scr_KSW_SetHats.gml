@@ -106,4 +106,16 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,legion,0,0,0,true);
 	#endregion
+	
+	#region Kabula
+	var playerID = "kabula";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
+	#endregion
+	
+	#region Starman
+	var playerID = "starman";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,glimmer,0,0,0,true);
+	#endregion
 }
