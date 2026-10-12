@@ -153,5 +153,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("kidKirby","Kid Kirby Recreation");
 	scr_KSW_AddSeries("blasterMaster","Blaster Master Zero");
 	scr_KSW_AddSeries("contra","Contra");
+	scr_KSW_AddSeries("metalSlug","Metal Slug");
 	#endregion
 }
