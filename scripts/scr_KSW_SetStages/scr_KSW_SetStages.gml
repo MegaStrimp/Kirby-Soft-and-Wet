@@ -76,7 +76,6 @@ function scr_KSW_SetStages()
 	
 	var hallowReenDiscount = 1;
 	if (current_month == 10) hallowReenDiscount /= 2;
-	if (current_month == 11) hallowReenDiscount /= 2; //STRIMPTODO Remove in November Rain
 	
 	scr_KSW_AddStage("hallowReen","Hallow Reen",spr_KSW_UI_Customize_StageIcon_HallowReen,spr_KSW_Layout_HallowReen_Day,targetDayBackgrounds,targetDayBgColors,spr_KSW_Layout_HallowReen_Afternoon,targetAfternoonBackgrounds,targetAfternoonBgColors,spr_KSW_Layout_HallowReen_Night,targetNightBackgrounds,targetNightBgColors,floor(700 * hallowReenDiscount),hallowReenDiscount);
 	#endregion
@@ -123,16 +122,16 @@ function scr_KSW_SetStages()
 	var targetDayBackgrounds = [scr_KSW_SetBackground_CloudyPark_Day_1,
 	scr_KSW_SetBackground_CloudyPark_Day_2];
 	
-	var targetDayBgColors = [98,238,248,136,65,18];
+	var targetDayBgColors = [134,51,250,145,63,222];
 	
 	var targetAfternoonBackgrounds = [scr_KSW_SetBackground_CloudyPark_Afternoon_1,
 	scr_KSW_SetBackground_CloudyPark_Afternoon_2];
 	
-	var targetAfternoonBgColors = [75,274,234,115,223,58];
+	var targetAfternoonBgColors = [6,56,255,200,63,217];
 	
 	var targetNightBackgrounds = [scr_KSW_SetBackground_CloudyPark_Night_1];
 	
-	var targetNightBgColors = [223,263,97,267,220,25];
+	var targetNightBgColors = [156,71,179,141,91,184];
 	
 	var cloudyParkDiscount = 1;
 	if (current_month == 11) cloudyParkDiscount /= 2;

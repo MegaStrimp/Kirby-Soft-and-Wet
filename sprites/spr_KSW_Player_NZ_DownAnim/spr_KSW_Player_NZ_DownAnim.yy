@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_NZ_DownAnim",
   "bboxMode":0,
-  "bbox_bottom":36,
-  "bbox_left":9,
-  "bbox_right":93,
-  "bbox_top":16,
+  "bbox_bottom":17,
+  "bbox_left":0,
+  "bbox_right":43,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,18 +17,20 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"518f7b1a-1dfb-4592-b1e1-e96efa0a8d0e","name":"518f7b1a-1dfb-4592-b1e1-e96efa0a8d0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d726ba58-f9e7-4421-9733-fde38c740e74","name":"d726ba58-f9e7-4421-9733-fde38c740e74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d1d400e-3f91-4f0d-bb87-40dbe148a932","name":"4d1d400e-3f91-4f0d-bb87-40dbe148a932","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":52,
+  "height":18,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"80dae00f-2d1f-4c19-a98e-854acc487b06","blendMode":0,"displayName":"default","isLocked":false,"name":"80dae00f-2d1f-4c19-a98e-854acc487b06","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_NZ_DownAnim",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Kirby ~ Soft & Wet/Player/Characters/N-Z/Sprites.yy",
@@ -54,8 +56,8 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
-    "lockOrigin":false,
+    "length":3.0,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -74,14 +76,20 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9808c7d-c0b7-48dc-b5a5-7f679578b706","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"518f7b1a-1dfb-4592-b1e1-e96efa0a8d0e","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d215b979-559e-4232-b78b-079dcf4e34b5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d726ba58-f9e7-4421-9733-fde38c740e74","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7a9def67-e468-4d52-b136-04a46ab155e7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d1d400e-3f91-4f0d-bb87-40dbe148a932","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5c48d308-f9e9-4963-810b-d01a2b16873e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":11,
+    "yorigin":10,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +99,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":109,
+  "width":44,
 }

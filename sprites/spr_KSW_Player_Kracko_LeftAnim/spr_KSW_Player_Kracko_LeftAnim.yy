@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Kracko_LeftAnim",
   "bboxMode":0,
-  "bbox_bottom":0,
-  "bbox_left":0,
-  "bbox_right":0,
-  "bbox_top":0,
+  "bbox_bottom":106,
+  "bbox_left":24,
+  "bbox_right":322,
+  "bbox_top":43,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":148,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a62c1ea3-6db7-4828-a784-ca5c2056790d","blendMode":0,"displayName":"default","isLocked":false,"name":"a62c1ea3-6db7-4828-a784-ca5c2056790d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -91,5 +91,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":372,
 }

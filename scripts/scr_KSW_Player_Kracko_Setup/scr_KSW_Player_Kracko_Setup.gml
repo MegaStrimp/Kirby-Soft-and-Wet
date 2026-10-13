@@ -43,33 +43,33 @@ function scr_KSW_Player_Kracko_Setup()
 	
 	#region Sprites
 	sprReady = spr_KSW_Player_Kracko_Ready;
-	sprReady_Rod = spr_KSW_Player_Kracko_Ready_Rod;
+	//sprReady_Rod = spr_KSW_Player_Kracko_Ready_Rod;
 	sprThrow = spr_KSW_Player_Kracko_Throw;
-	sprThrow_Rod = spr_KSW_Player_Kracko_Throw_Rod;
+	//sprThrow_Rod = spr_KSW_Player_Kracko_Throw_Rod;
 	sprWait = spr_KSW_Player_Kracko_Wait;
-	sprWait_Rod = spr_KSW_Player_Kracko_Wait_Rod;
+	//sprWait_Rod = spr_KSW_Player_Kracko_Wait_Rod;
 	sprFound = spr_KSW_Player_Kracko_Found;
-	sprFound_Rod = spr_KSW_Player_Kracko_Found_Rod;
+	//sprFound_Rod = spr_KSW_Player_Kracko_Found_Rod;
 	sprUp = spr_KSW_Player_Kracko_Up;
-	sprUp_Rod = spr_KSW_Player_Kracko_Up_Rod;
+	//sprUp_Rod = spr_KSW_Player_Kracko_Up_Rod;
 	sprUpAnim = spr_KSW_Player_Kracko_UpAnim;
-	sprUpAnim_Rod = spr_KSW_Player_Kracko_UpAnim_Rod;
+	//sprUpAnim_Rod = spr_KSW_Player_Kracko_UpAnim_Rod;
 	sprDown = spr_KSW_Player_Kracko_Down;
-	sprDown_Rod = spr_KSW_Player_Kracko_Down_Rod;
+	//sprDown_Rod = spr_KSW_Player_Kracko_Down_Rod;
 	sprDownAnim = spr_KSW_Player_Kracko_DownAnim;
-	sprDownAnim_Rod = spr_KSW_Player_Kracko_DownAnim_Rod;
+	//sprDownAnim_Rod = spr_KSW_Player_Kracko_DownAnim_Rod;
 	sprLeft = spr_KSW_Player_Kracko_Left;
-	sprLeft_Rod = spr_KSW_Player_Kracko_Left_Rod;
+	//sprLeft_Rod = spr_KSW_Player_Kracko_Left_Rod;
 	sprLeftAnim = spr_KSW_Player_Kracko_LeftAnim;
-	sprLeftAnim_Rod = spr_KSW_Player_Kracko_LeftAnim_Rod;
+	//sprLeftAnim_Rod = spr_KSW_Player_Kracko_LeftAnim_Rod;
 	sprRight = spr_KSW_Player_Kracko_Right;
-	sprRight_Rod = spr_KSW_Player_Kracko_Right_Rod;
+	//sprRight_Rod = spr_KSW_Player_Kracko_Right_Rod;
 	sprRightAnim = spr_KSW_Player_Kracko_RightAnim;
-	sprRightAnim_Rod = spr_KSW_Player_Kracko_RightAnim_Rod;
+	//sprRightAnim_Rod = spr_KSW_Player_Kracko_RightAnim_Rod;
 	sprFailed = spr_KSW_Player_Kracko_Failed;
-	sprFailed_Rod = spr_KSW_Player_Kracko_Failed_Rod;
+	//sprFailed_Rod = spr_KSW_Player_Kracko_Failed_Rod;
 	sprSuccess = spr_KSW_Player_Kracko_Success;
-	sprSuccess_Rod = spr_KSW_Player_Kracko_Success_Rod;
+	//sprSuccess_Rod = spr_KSW_Player_Kracko_Success_Rod;
 	
 	sprBobber = spr_KSW_Bobber_Red;
 	sprBobberPal = spr_KSW_Bobber_Red_Pal;

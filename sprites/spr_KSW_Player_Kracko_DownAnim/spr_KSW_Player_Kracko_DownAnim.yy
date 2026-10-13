@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Kracko_DownAnim",
   "bboxMode":0,
-  "bbox_bottom":36,
-  "bbox_left":9,
-  "bbox_right":93,
-  "bbox_top":16,
+  "bbox_bottom":97,
+  "bbox_left":50,
+  "bbox_right":342,
+  "bbox_top":26,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,11 +17,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50430139-a29e-4d1c-87fa-6aa7e4c796bd","name":"50430139-a29e-4d1c-87fa-6aa7e4c796bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":52,
+  "height":116,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"80dae00f-2d1f-4c19-a98e-854acc487b06","blendMode":0,"displayName":"default","isLocked":false,"name":"80dae00f-2d1f-4c19-a98e-854acc487b06","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","path":"sprites/spr_KSW_Player_Kracko_DownAnim/spr_KSW_Player_Kracko_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9808c7d-c0b7-48dc-b5a5-7f679578b706","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50430139-a29e-4d1c-87fa-6aa7e4c796bd","path":"sprites/spr_KSW_Player_Kracko_DownAnim/spr_KSW_Player_Kracko_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4c79f8e5-d6a6-4990-afe3-23d3788b1ffa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -91,5 +91,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":109,
+  "width":444,
 }

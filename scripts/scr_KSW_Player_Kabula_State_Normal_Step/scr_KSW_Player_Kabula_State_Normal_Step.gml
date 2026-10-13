@@ -41,6 +41,9 @@ function scr_KSW_Player_Kabula_State_Normal_Step()
 				rodX = x + 29;
 				rodY = y - 11;
 				
+				scr_PlaySfx(snd_KSW_Character_Kabula_Throw);
+				scr_KSW_ParticleSet_KabulaExplosion(x + 29,y - 11);
+				
 				threwBobber = true;
 			}
 		}
