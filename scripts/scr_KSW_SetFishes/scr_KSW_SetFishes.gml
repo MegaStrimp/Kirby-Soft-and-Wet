@@ -2709,6 +2709,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Master",spr_KSW_Fish_Master,spr_KSW_Fish_Master_Pal,series_Fallout,limit,3,androidPort,KSW_Phases.none,216200);
 	//scr_KSW_AddFish("Enclave Soldier",spr_KSW_Fish_EnclaveSoldier,spr_KSW_Fish_EnclaveSoldier_Pal,series_Fallout,maze,2,androidPort,KSW_Phases.none,20770);
 	//scr_KSW_AddFish("Frank Horrigan",spr_KSW_Fish_FrankHorrigan,spr_KSW_Fish_FrankHorrigan_Pal,series_Fallout,maze,3,androidPort,KSW_Phases.none,224200);
+	//scr_KSW_AddFish("Rocket Launcher",spr_KSW_Fish_RocketLauncher,spr_KSW_Fish_RocketLauncher_Pal,series_MetalSlug,glimmer,0,anyStage,KSW_Phases.none,196,0,0,-1,snd_KSW_Fish_RocketLauncher);
 	//scr_KSW_AddFish("P.O.W.",spr_KSW_Fish_POW,spr_KSW_Fish_POW_Pal,series_MetalSlug,borange,0,anyStage,KSW_Phases.none,196);
 	//scr_KSW_AddFish("Rumi Aikawa",spr_KSW_Fish_RumiAikawa,spr_KSW_Fish_RumiAikawa_Pal,series_MetalSlug,mint,0,anyStage,KSW_Phases.none,198);
 	//scr_KSW_AddFish("Marco Rossi",spr_KSW_Fish_MarcoRossi,spr_KSW_Fish_MarcoRossi_Pal,series_MetalSlug,tvtime,1,androidPort,KSW_Phases.none,1996);
