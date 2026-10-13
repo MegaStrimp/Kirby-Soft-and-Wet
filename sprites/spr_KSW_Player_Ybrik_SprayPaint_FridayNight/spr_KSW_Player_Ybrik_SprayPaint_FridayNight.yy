@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Ybrik_SprayPaint_FridayNight",
   "bboxMode":0,
-  "bbox_bottom":12,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":1,
   "bbox_top":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":13,
+  "height":12,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"f9dab8a5-3798-4872-a39e-39937ddcb75b","blendMode":0,"displayName":"default","isLocked":false,"name":"f9dab8a5-3798-4872-a39e-39937ddcb75b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Ybrik_SprayPaint_Breakfast",
   "bboxMode":0,
-  "bbox_bottom":12,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":1,
   "bbox_top":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":13,
+  "height":12,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"65e67b54-cc8e-48a1-8c41-378176a7718d","blendMode":0,"displayName":"default","isLocked":false,"name":"65e67b54-cc8e-48a1-8c41-378176a7718d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
