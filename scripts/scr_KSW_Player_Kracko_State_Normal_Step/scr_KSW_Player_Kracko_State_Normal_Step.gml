@@ -39,7 +39,7 @@ function scr_KSW_Player_Kracko_State_Normal_Step()
 			{
 				scr_KSW_ThrowBobber();
 				rodX = x;
-				rodY = y;
+				rodY = y - 24;
 				
 				threwBobber = true;
 			}
@@ -47,66 +47,66 @@ function scr_KSW_Player_Kracko_State_Normal_Step()
 		else
 		{
 			rodX = x;
-			rodY = y;
+			rodY = y - 24;
 		}
 		break;
 		
 		case sprWait:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		break;
 		
 		case sprFound:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprUp:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprUpAnim:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprDown:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprDownAnim:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprLeft:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprLeftAnim:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprRight:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		
 		case sprRightAnim:
 		rodX = x;
-		rodY = y;
+		rodY = y - 24;
 		bobberShake = true;
 		break;
 		

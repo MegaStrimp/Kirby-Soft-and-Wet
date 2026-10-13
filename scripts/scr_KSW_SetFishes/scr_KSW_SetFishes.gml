@@ -152,6 +152,7 @@ function scr_KSW_SetFishes()
 	var series_Persona = global.KSW_SeriesIDs[? "persona"];
 	var series_vampireSurvivors = global.KSW_SeriesIDs[? "vampireSurvivors"];
 	var series_KidKirby = global.KSW_SeriesIDs[? "kidKirby"];
+	var series_DreamCrafter = global.KSW_SeriesIDs[? "dreamCrafter"];
 	#endregion
 	
 	#region Stages
@@ -2602,7 +2603,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Metroid Prime",spr_KSW_Fish_MetroidPrime,spr_KSW_Fish_MetroidPrime_Pal,series_MetroidPrimeOrigins,legion,2,androidPort,KSW_Phases.none,20020);
 	//scr_KSW_AddFish("Metroid Prime (Exo)",spr_KSW_Fish_MetroidPrimeExo,spr_KSW_Fish_MetroidPrimeExo_Pal,series_MetroidPrimeOrigins,limit,3,androidPort,KSW_Phases.none,200200);
 	//scr_KSW_AddFish("Kid Kirby",spr_KSW_Fish_KidKirby,spr_KSW_Fish_KidKirby_Pal,series_KidKirby,candy,3,androidPort,KSW_Phases.none,1995);
-	
+	scr_KSW_AddFish("Mamanti",spr_KSW_Fish_Mamanti,spr_KSW_Fish_Mamanti_Pal,series_DreamCrafter,mage,2,cloudyPark,KSW_Phases.none,12000);
 	#endregion
 	#endregion
 }
