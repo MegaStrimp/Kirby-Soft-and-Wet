@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_UI_Customize_CharacterIcon_Starman",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":0,
-  "bbox_top":0,
+  "bbox_right":63,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{

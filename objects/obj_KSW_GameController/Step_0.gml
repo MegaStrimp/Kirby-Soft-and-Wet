@@ -110,7 +110,10 @@ if (!localPause)
 				state = KSW_GameStates.idle_Ready;
 				mousePressed = true;
 				
-				with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+				with (obj_KSW_Player)
+				{
+					scr_ChangeSprite(sprReady);
+				}
 				
 				stateReadyTimer = stateReadyTimerMax;
 			}
@@ -651,7 +654,10 @@ if (!localPause)
 				catchInput_SoundCount = -1;
 				catchInput_NextLineTimer = 0;
 				
-				with (obj_KSW_Player) scr_ChangeSprite(sprFound);
+				with (obj_KSW_Player)
+				{
+					scr_ChangeSprite(sprFound);
+				}
 				
 				findFishTimer = -1;
 			}
@@ -788,7 +794,10 @@ if (!localPause)
 					var stealthTutorialID = global.KSW_StealthTutorialIDs[? "gramsLuckRate"];
 					if (global.KSW_StealthTutorialList[stealthTutorialID].unlockScript()) scr_KSW_ObtainStealthTutorial(stealthTutorialID);
 					
-					with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+					with (obj_KSW_Player)
+					{
+						scr_ChangeSprite(sprReady);
+					}
 					
 					stateReadyTimer = -1;
 					break;
@@ -807,7 +816,10 @@ if (!localPause)
 					case KSW_GameStates.waiting_End:
 					state = KSW_GameStates.idle_Ready;
 					
-					with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+					with (obj_KSW_Player)
+					{
+						scr_ChangeSprite(sprReady);
+					}
 					
 					stateReadyTimer = stateReadyTimerMax;
 					break;

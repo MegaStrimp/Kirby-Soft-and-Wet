@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Kabula_DownAnim",
   "bboxMode":0,
-  "bbox_bottom":36,
-  "bbox_left":9,
-  "bbox_right":93,
-  "bbox_top":16,
+  "bbox_bottom":87,
+  "bbox_left":0,
+  "bbox_right":144,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
@@ -17,18 +17,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bee539bb-3b7a-4513-b7ae-0da7f9176062","name":"bee539bb-3b7a-4513-b7ae-0da7f9176062","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":52,
+  "height":88,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"80dae00f-2d1f-4c19-a98e-854acc487b06","blendMode":0,"displayName":"default","isLocked":false,"name":"80dae00f-2d1f-4c19-a98e-854acc487b06","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d21c08a3-97e4-466e-8e0c-70b240ab9df5","blendMode":0,"displayName":"default","isLocked":false,"name":"d21c08a3-97e4-466e-8e0c-70b240ab9df5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Kabula_DownAnim",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Kirby ~ Soft & Wet/Player/Characters/Kabula/Sprites.yy",
@@ -74,14 +74,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49cad561-c8b7-4e44-94da-8533c9e2f1d3","path":"sprites/spr_KSW_Player_Kabula_DownAnim/spr_KSW_Player_Kabula_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9808c7d-c0b7-48dc-b5a5-7f679578b706","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bee539bb-3b7a-4513-b7ae-0da7f9176062","path":"sprites/spr_KSW_Player_Kabula_DownAnim/spr_KSW_Player_Kabula_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fb349a67-c4eb-4c76-8f54-df6296b924e6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":80,
+    "yorigin":80,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -91,5 +91,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":109,
+  "width":145,
 }
