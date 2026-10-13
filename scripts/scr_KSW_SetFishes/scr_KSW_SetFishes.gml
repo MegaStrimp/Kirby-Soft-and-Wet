@@ -2744,23 +2744,23 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Hopper Mecha",spr_KSW_Fish_HopperMecha,spr_KSW_Fish_HopperMecha_Pal,series_MetalSlug,candy,0,cloudyPark,KSW_Phases.none,200);
 	//scr_KSW_AddFish("Ring Laser Mecha",spr_KSW_Fish_RingLaserMecha,spr_KSW_Fish_RingLaserMecha_Pal,series_MetalSlug,candy,1,cloudyPark,KSW_Phases.none,2000);
 	//scr_KSW_AddFish("Mars Mecha",spr_KSW_Fish_MarsMecha,spr_KSW_Fish_MarsMecha_Pal,series_MetalSlug,candy,2,cloudyPark,KSW_Phases.none,20000);
-	scr_KSW_AddFish("Allen O'Neil",spr_KSW_Fish_AllenONeil,spr_KSW_Fish_AllenONeil_Pal,series_MetalSlug,mint,2,androidPort,KSW_Phases.none,19960);
-	scr_KSW_AddFish("General Morden",spr_KSW_Fish_GeneralMorden,spr_KSW_Fish_GeneralMorden_Pal,series_MetalSlug,mint,3,androidPort,KSW_Phases.none,1);
-	scr_KSW_AddFish("Jet Hammer-Yang",spr_KSW_Fish_JetHammerYang,spr_KSW_Fish_JetHammerYang_Pal,series_MetalSlug,legion,1,androidPort,KSW_Phases.none,1998);
-	scr_KSW_AddFish("Mini-Sub 88",spr_KSW_Fish_MiniSub88,spr_KSW_Fish_MiniSub88_Pal,series_MetalSlug,flux,1,androidPort,KSW_Phases.none,2000);
-	scr_KSW_AddFish("MH-6S Masknell",spr_KSW_Fish_Masknell,spr_KSW_Fish_Masknell_Pal,series_MetalSlug,mage,1,cloudyPark,KSW_Phases.none,1996);
-	scr_KSW_AddFish("R-Shobu",spr_KSW_Fish_RShobu,spr_KSW_Fish_RShobu_Pal,series_MetalSlug,legion,1,cloudyPark,KSW_Phases.none,1996);
-	scr_KSW_AddFish("Hammer-Yang",spr_KSW_Fish_HammerYang,spr_KSW_Fish_HammerYang_Pal,series_MetalSlug,legion,2,androidPort,KSW_Phases.night,19960);
-	scr_KSW_AddFish("U25U",spr_KSW_Fish_U25U,spr_KSW_Fish_U25U_Pal,series_MetalSlug,candy,2,androidPort,KSW_Phases.night,20000);
-	scr_KSW_AddFish("Hairbuster Ribert",spr_KSW_Fish_HairbusterRibert,spr_KSW_Fish_HairbusterRibert_Pal,series_MetalSlug,limit,2,cloudyPark,KSW_Phases.afternoon,19960);
-	scr_KSW_AddFish("Hi-Do",spr_KSW_Fish_HiDo,spr_KSW_Fish_HiDo_Pal,series_MetalSlug,mage,2,cloudyPark,KSW_Phases.day,20000);
-	scr_KSW_AddFish("Hozumi",spr_KSW_Fish_Hozumi,spr_KSW_Fish_Hozumi_Pal,series_MetalSlug,maze,3,androidPort,KSW_Phases.night,199800);
-	scr_KSW_AddFish("The Keesi II",spr_KSW_Fish_Keesi2,spr_KSW_Fish_Keesi2_Pal,series_MetalSlug,borange,3,cloudyPark,KSW_Phases.afternoon,199800);
-	scr_KSW_AddFish("The Keesi III",spr_KSW_Fish_Keesi3,spr_KSW_Fish_Keesi3_Pal,series_MetalSlug,mage,3,cloudyPark,KSW_Phases.day,200400);
-	scr_KSW_AddFish("Dai-Manji",spr_KSW_Fish_DaiManji,spr_KSW_Fish_DaiManji_Pal,series_MetalSlug,limit,3,cloudyPark,KSW_Phases.night,200000);
-	scr_KSW_AddFish("Big Shiee",spr_KSW_Fish_BigShiee,spr_KSW_Fish_BigShiee_Pal,series_MetalSlug,flux,3,androidPort,KSW_Phases.afternoon,199800);
-	scr_KSW_AddFish("Huge Hermit",spr_KSW_Fish_HugeHermit,spr_KSW_Fish_HugeHermit_Pal,series_MetalSlug,borange,3,androidPort,KSW_Phases.afternoon,200000);
-	scr_KSW_AddFish("Rugname",spr_KSW_Fish_Rugname,spr_KSW_Fish_Rugname_Pal,series_MetalSlug,limit,3,cloudyPark,KSW_Phases.night,300000);
+	//scr_KSW_AddFish("Allen O'Neil",spr_KSW_Fish_AllenONeil,spr_KSW_Fish_AllenONeil_Pal,series_MetalSlug,mint,2,androidPort,KSW_Phases.none,19960);
+	//scr_KSW_AddFish("General Morden",spr_KSW_Fish_GeneralMorden,spr_KSW_Fish_GeneralMorden_Pal,series_MetalSlug,mint,3,androidPort,KSW_Phases.none,1);
+	//scr_KSW_AddFish("Jet Hammer-Yang",spr_KSW_Fish_JetHammerYang,spr_KSW_Fish_JetHammerYang_Pal,series_MetalSlug,legion,1,androidPort,KSW_Phases.none,1998);
+	//scr_KSW_AddFish("Mini-Sub 88",spr_KSW_Fish_MiniSub88,spr_KSW_Fish_MiniSub88_Pal,series_MetalSlug,flux,1,androidPort,KSW_Phases.none,2000);
+	//scr_KSW_AddFish("MH-6S Masknell",spr_KSW_Fish_Masknell,spr_KSW_Fish_Masknell_Pal,series_MetalSlug,mage,1,cloudyPark,KSW_Phases.none,1996);
+	//scr_KSW_AddFish("R-Shobu",spr_KSW_Fish_RShobu,spr_KSW_Fish_RShobu_Pal,series_MetalSlug,legion,1,cloudyPark,KSW_Phases.none,1996);
+	//scr_KSW_AddFish("Hammer-Yang",spr_KSW_Fish_HammerYang,spr_KSW_Fish_HammerYang_Pal,series_MetalSlug,legion,2,androidPort,KSW_Phases.night,19960);
+	//scr_KSW_AddFish("U25U",spr_KSW_Fish_U25U,spr_KSW_Fish_U25U_Pal,series_MetalSlug,candy,2,androidPort,KSW_Phases.night,20000);
+	//scr_KSW_AddFish("Hairbuster Ribert",spr_KSW_Fish_HairbusterRibert,spr_KSW_Fish_HairbusterRibert_Pal,series_MetalSlug,limit,2,cloudyPark,KSW_Phases.afternoon,19960);
+	//scr_KSW_AddFish("Hi-Do",spr_KSW_Fish_HiDo,spr_KSW_Fish_HiDo_Pal,series_MetalSlug,mage,2,cloudyPark,KSW_Phases.day,20000);
+	//scr_KSW_AddFish("Hozumi",spr_KSW_Fish_Hozumi,spr_KSW_Fish_Hozumi_Pal,series_MetalSlug,maze,3,androidPort,KSW_Phases.night,199800);
+	//scr_KSW_AddFish("The Keesi II",spr_KSW_Fish_Keesi2,spr_KSW_Fish_Keesi2_Pal,series_MetalSlug,borange,3,cloudyPark,KSW_Phases.afternoon,199800);
+	//scr_KSW_AddFish("The Keesi III",spr_KSW_Fish_Keesi3,spr_KSW_Fish_Keesi3_Pal,series_MetalSlug,mage,3,cloudyPark,KSW_Phases.day,200400);
+	//scr_KSW_AddFish("Dai-Manji",spr_KSW_Fish_DaiManji,spr_KSW_Fish_DaiManji_Pal,series_MetalSlug,limit,3,cloudyPark,KSW_Phases.night,200000);
+	//scr_KSW_AddFish("Big Shiee",spr_KSW_Fish_BigShiee,spr_KSW_Fish_BigShiee_Pal,series_MetalSlug,flux,3,androidPort,KSW_Phases.afternoon,199800);
+	//scr_KSW_AddFish("Huge Hermit",spr_KSW_Fish_HugeHermit,spr_KSW_Fish_HugeHermit_Pal,series_MetalSlug,borange,3,androidPort,KSW_Phases.afternoon,200000);
+	//scr_KSW_AddFish("Rugname",spr_KSW_Fish_Rugname,spr_KSW_Fish_Rugname_Pal,series_MetalSlug,limit,3,cloudyPark,KSW_Phases.night,300000);
 
 
 	#endregion
