@@ -2761,7 +2761,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Dai-Manji",spr_KSW_Fish_DaiManji,spr_KSW_Fish_DaiManji_Pal,series_MetalSlug,limit,3,cloudyPark,KSW_Phases.night,200000);
 	//scr_KSW_AddFish("Big Shiee",spr_KSW_Fish_BigShiee,spr_KSW_Fish_BigShiee_Pal,series_MetalSlug,flux,3,androidPort,KSW_Phases.afternoon,199800);
 	//scr_KSW_AddFish("Huge Hermit",spr_KSW_Fish_HugeHermit,spr_KSW_Fish_HugeHermit_Pal,series_MetalSlug,borange,3,androidPort,KSW_Phases.afternoon,200000);
-	//scr_KSW_AddFish("Rugname",spr_KSW_Fish_Rugname,spr_KSW_Fish_Rugname_Pal,series_MetalSlug,limit,3,cloudyPark,KSW_Phases.night,300000);
+	//scr_KSW_AddFish("Rugname",spr_KSW_Fish_Rugname,spr_KSW_Fish_Rugname_Pal,series_MetalSlug,limit,3,cloudyPark,KSW_Phases.night,300000,0,-40);
 
 
 	#endregion
