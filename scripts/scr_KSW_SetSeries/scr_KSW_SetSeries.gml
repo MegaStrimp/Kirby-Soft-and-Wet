@@ -152,5 +152,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("vampireSurvivors","Vampire Survivors");
 	scr_KSW_AddSeries("kidKirby","Kid Kirby Recreation");
 	scr_KSW_AddSeries("dreamCrafter","Dream Crafter");
+	scr_KSW_AddSeries("shyGuySurfing","Shy Guy Surfing");
 	#endregion
 }
