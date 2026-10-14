@@ -2810,6 +2810,20 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Yo, This Song Is Really Good",spr_KSW_Fish_YoThisSong,spr_KSW_Fish_YoThisSong_Pal,series_MegaMan,glimmer,3,androidPort,KSW_Phases.none,202000,0,0,-1,snd_KSW_Fish_YoThisSong);
 	//scr_KSW_AddFish("What Am I Fighting For?????????",spr_KSW_Fish_WAIFF,spr_KSW_Fish_WAIFF_Pal,series_MegaMan,mage,3,androidPort,KSW_Phases.none,199700,0,0,-1,snd_KSW_Fish_WAIFF);
 	//scr_KSW_AddFish("Dancing Pumpkin",spr_KSW_Fish_DancingPumpkin,spr_KSW_Fish_DancingPumpkin_Pal,series_Deltarune,limit,1,hallowReen,KSW_Phases.none,2500);
+	//scr_KSW_AddFish("Snowball",spr_KSW_Fish_Snowball,spr_KSW_Fish_Snowball_Pal,series_Minecraft,mage,0,creamCrevasse,KSW_Phases.none,10);
+	//scr_KSW_AddFish("Icicle",spr_KSW_Fish_Icicle,spr_KSW_Fish_Icicle_Pal,series_Minecraft,maze,0,creamCrevasse,KSW_Phases.none,30);
+	//scr_KSW_AddFish("Powder Snow Bucket",spr_KSW_Fish_PowderSnowBucket,spr_KSW_Fish_PowderSnowBucket_Pal,series_Minecraft,legion,1,creamCrevasse,KSW_Phases.none,100);
+	//scr_KSW_AddFish("Ice Ball",spr_KSW_Fish_IceBall,spr_KSW_Fish_IceBall_Pal,series_Minecraft,maze,1,creamCrevasse,KSW_Phases.none,110);
+	//scr_KSW_AddFish("Campfire",spr_KSW_Fish_Campfire,spr_KSW_Fish_Campfire_Pal,series_Minecraft,borange,0,serranoSprings,KSW_Phases.none,60);
+	//scr_KSW_AddFish("Flint and Steel",spr_KSW_Fish_FlintAndSteel,spr_KSW_Fish_FlintAndSteel_Pal,series_Minecraft,candy,1,serranoSprings,KSW_Phases.none,100);
+	//scr_KSW_AddFish("Blaze Rod",spr_KSW_Fish_BlazeRod,spr_KSW_Fish_BlazeRod_Pal,series_Minecraft,borange,1,serranoSprings,KSW_Phases.none,130);
+	//scr_KSW_AddFish("Fire Charge",spr_KSW_Fish_FireCharge,spr_KSW_Fish_FireCharge_Pal,series_Minecraft,limit,2,serranoSprings,KSW_Phases.none,150);
+	//scr_KSW_AddFish("Firework Rocket",spr_KSW_Fish_FireworkRocket,spr_KSW_Fish_FireworkRocket_Pal,series_Minecraft,candy,0,cloudyPark,KSW_Phases.none,50);
+	//scr_KSW_AddFish("Bow",spr_KSW_Fish_Bow,spr_KSW_Fish_Bow_Pal,series_Minecraft,mint,0,cloudyPark,KSW_Phases.none,90);
+	//scr_KSW_AddFish("Crossbow",spr_KSW_Fish_Crossbow,spr_KSW_Fish_Crossbow_Pal,series_Minecraft,glimmer,1,cloudyPark,KSW_Phases.none,110);
+	//scr_KSW_AddFish("Breeze Rod",spr_KSW_Fish_BreezeRod,spr_KSW_Fish_BreezeRod_Pal,series_Minecraft,legion,1,cloudyPark,KSW_Phases.none,130);
+	//scr_KSW_AddFish("Wind Charge",spr_KSW_Fish_WindCharge,spr_KSW_Fish_WindCharge_Pal,series_Minecraft,mage,2,cloudyPark,KSW_Phases.none,150);
+	//scr_KSW_AddFish("Elytra",spr_KSW_Fish_Elytra,spr_KSW_Fish_Elytra_Pal,series_Minecraft,flux,3,cloudyPark,KSW_Phases.none,6000);
 	
 	#endregion
 	#endregion
