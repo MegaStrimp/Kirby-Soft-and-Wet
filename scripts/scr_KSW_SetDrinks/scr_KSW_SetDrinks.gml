@@ -93,5 +93,9 @@ function scr_KSW_SetDrinks()
 	scr_KSW_AddDrink("plumJuice","Plum Juice",spr_KSW_Drink_PlumJuice,androidPort);
 	scr_KSW_AddDrink("chugJug","Chug Jug",spr_KSW_Drink_ChugJug,androidPort);
 	scr_KSW_AddDrink("lieCake","LieCake",spr_KSW_Drink_LieCake,androidPort);
+	
+	scr_KSW_AddDrink("cloudBottle","CloudBottle",spr_KSW_Drink_CloudBottle,cloudyPark);
+	scr_KSW_AddDrink("potionLeaping","PotionLeaping",spr_KSW_Drink_PotionLeaping,cloudyPark);
+	
 	#endregion
 }
