@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_NZ_Throw_Rod",
   "bboxMode":0,
-  "bbox_bottom":41,
+  "bbox_bottom":40,
   "bbox_left":0,
   "bbox_right":55,
   "bbox_top":0,
@@ -17,12 +17,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"94aa985d-f481-48d1-b561-c556635c2aac","name":"94aa985d-f481-48d1-b561-c556635c2aac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"230b0e9e-b9b0-43ce-9532-244826f5d29f","name":"230b0e9e-b9b0-43ce-9532-244826f5d29f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"3e1416b1-4845-45d9-8ad0-6feaa0e3fb8d","name":"3e1416b1-4845-45d9-8ad0-6feaa0e3fb8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d6e4b20d-074c-4d88-8cb7-1f3db62ce023","name":"d6e4b20d-074c-4d88-8cb7-1f3db62ce023","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"318e4ec1-fd9a-4299-b822-44919c891182","name":"318e4ec1-fd9a-4299-b822-44919c891182","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"229b6e3c-ca8e-47c6-b715-d09e1ef54190","name":"229b6e3c-ca8e-47c6-b715-d09e1ef54190","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c720b0d-a9ab-4b59-9b0e-b27b1d425647","name":"9c720b0d-a9ab-4b59-9b0e-b27b1d425647","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"da6f9c33-d97e-45f6-bc4b-5839b744a6ce","name":"da6f9c33-d97e-45f6-bc4b-5839b744a6ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3fd19fe-f4f2-4390-a832-7dc5536bea36","name":"b3fd19fe-f4f2-4390-a832-7dc5536bea36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aae5a751-9e1a-4184-82ff-79532b58c4ed","name":"aae5a751-9e1a-4184-82ff-79532b58c4ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9cc8932b-685f-493e-b6d8-f6bdcd73c5b1","name":"9cc8932b-685f-493e-b6d8-f6bdcd73c5b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"583661d4-8e89-40c1-8aad-e5bc38d0afd1","name":"583661d4-8e89-40c1-8aad-e5bc38d0afd1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -79,23 +79,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94aa985d-f481-48d1-b561-c556635c2aac","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9a764bb0-12c1-4252-a78f-c75a31c31d35","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c720b0d-a9ab-4b59-9b0e-b27b1d425647","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f004c2c0-52da-4bea-beb7-3c4778093510","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"230b0e9e-b9b0-43ce-9532-244826f5d29f","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"206efef6-d6fb-4d22-b564-c007869ad8f7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da6f9c33-d97e-45f6-bc4b-5839b744a6ce","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ea4e039d-e855-463b-90c6-76d22691e329","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3e1416b1-4845-45d9-8ad0-6feaa0e3fb8d","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"abd6688c-06b6-4a4b-a1c6-ad7c772a4b14","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3fd19fe-f4f2-4390-a832-7dc5536bea36","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0db1dc83-2c0a-4ff4-be29-eef8d0376773","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6e4b20d-074c-4d88-8cb7-1f3db62ce023","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4d1a0320-a7e9-4631-b231-d9f3e0a46c1e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aae5a751-9e1a-4184-82ff-79532b58c4ed","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f8d771f2-30ec-4985-a808-def91fd0a7f1","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"318e4ec1-fd9a-4299-b822-44919c891182","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a8927f0c-d4a0-4646-a7e4-5eab092be300","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9cc8932b-685f-493e-b6d8-f6bdcd73c5b1","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6164f61d-8b2c-44e8-994e-257741b08894","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"229b6e3c-ca8e-47c6-b715-d09e1ef54190","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e64b069b-9410-4e6d-bedf-2093cb01a19c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"583661d4-8e89-40c1-8aad-e5bc38d0afd1","path":"sprites/spr_KSW_Player_NZ_Throw_Rod/spr_KSW_Player_NZ_Throw_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"90f3ece6-24d4-4bb7-b2e7-1df991986c1d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

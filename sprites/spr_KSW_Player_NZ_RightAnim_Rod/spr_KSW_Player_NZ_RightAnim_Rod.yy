@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_NZ_RightAnim_Rod",
   "bboxMode":0,
-  "bbox_bottom":33,
+  "bbox_bottom":23,
   "bbox_left":0,
-  "bbox_right":30,
+  "bbox_right":14,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1c8ffb14-a7bb-4996-85ee-993cdd922b70","name":"1c8ffb14-a7bb-4996-85ee-993cdd922b70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e99c1c37-1e45-46c3-907b-4260d3eaf993","name":"e99c1c37-1e45-46c3-907b-4260d3eaf993","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e6b4440f-d448-4528-b999-c8e430b2bf1b","name":"e6b4440f-d448-4528-b999-c8e430b2bf1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d221406d-816a-4525-8ed1-741d4412fe5a","name":"d221406d-816a-4525-8ed1-741d4412fe5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f80c0c14-ddee-44af-a3ba-27ada74cd674","name":"f80c0c14-ddee-44af-a3ba-27ada74cd674","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76b9a97e-cd07-486b-b5ab-d7360d43e94a","name":"76b9a97e-cd07-486b-b5ab-d7360d43e94a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,14 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c8ffb14-a7bb-4996-85ee-993cdd922b70","path":"sprites/spr_KSW_Player_NZ_RightAnim_Rod/spr_KSW_Player_NZ_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3bd81b24-0733-4843-8af9-a503acf2a25b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d221406d-816a-4525-8ed1-741d4412fe5a","path":"sprites/spr_KSW_Player_NZ_RightAnim_Rod/spr_KSW_Player_NZ_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f153849a-3f8b-4b74-bebd-2c913ca13c6e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e99c1c37-1e45-46c3-907b-4260d3eaf993","path":"sprites/spr_KSW_Player_NZ_RightAnim_Rod/spr_KSW_Player_NZ_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"01f53674-cc9f-4191-9fb7-a7e4ff557d56","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f80c0c14-ddee-44af-a3ba-27ada74cd674","path":"sprites/spr_KSW_Player_NZ_RightAnim_Rod/spr_KSW_Player_NZ_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd8de9fc-75f8-40e4-8edf-06985334585b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6b4440f-d448-4528-b999-c8e430b2bf1b","path":"sprites/spr_KSW_Player_NZ_RightAnim_Rod/spr_KSW_Player_NZ_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5547a657-db82-41bf-a03e-5d9b194b2449","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"76b9a97e-cd07-486b-b5ab-d7360d43e94a","path":"sprites/spr_KSW_Player_NZ_RightAnim_Rod/spr_KSW_Player_NZ_RightAnim_Rod.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"33d0060a-f36e-48a7-915e-7e2fb3f5988a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

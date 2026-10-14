@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":17,
   "bbox_left":0,
-  "bbox_right":43,
+  "bbox_right":21,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,9 +17,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"518f7b1a-1dfb-4592-b1e1-e96efa0a8d0e","name":"518f7b1a-1dfb-4592-b1e1-e96efa0a8d0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d726ba58-f9e7-4421-9733-fde38c740e74","name":"d726ba58-f9e7-4421-9733-fde38c740e74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"4d1d400e-3f91-4f0d-bb87-40dbe148a932","name":"4d1d400e-3f91-4f0d-bb87-40dbe148a932","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62ed0366-a6e7-430e-98b6-9fbe8399d54d","name":"62ed0366-a6e7-430e-98b6-9fbe8399d54d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2f7fe6e-76c1-4152-851e-1799b06091f0","name":"a2f7fe6e-76c1-4152-851e-1799b06091f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"afee020e-9e79-4c5b-8e8c-09e087f1d943","name":"afee020e-9e79-4c5b-8e8c-09e087f1d943","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,14 +76,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"518f7b1a-1dfb-4592-b1e1-e96efa0a8d0e","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d215b979-559e-4232-b78b-079dcf4e34b5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62ed0366-a6e7-430e-98b6-9fbe8399d54d","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"95640c96-7674-4d38-9912-0fdd10eae5a5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d726ba58-f9e7-4421-9733-fde38c740e74","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7a9def67-e468-4d52-b136-04a46ab155e7","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2f7fe6e-76c1-4152-851e-1799b06091f0","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1c11d698-5d5c-4a51-8496-b0507a25b6bc","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d1d400e-3f91-4f0d-bb87-40dbe148a932","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5c48d308-f9e9-4963-810b-d01a2b16873e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"afee020e-9e79-4c5b-8e8c-09e087f1d943","path":"sprites/spr_KSW_Player_NZ_DownAnim/spr_KSW_Player_NZ_DownAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fc6dae14-6cc4-4b89-b00d-027254f97ddb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
