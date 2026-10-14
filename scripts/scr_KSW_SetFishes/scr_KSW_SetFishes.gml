@@ -2807,6 +2807,8 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Gareth",spr_KSW_Fish_Gareth,spr_KSW_Fish_Gareth_Pal,series_MegaMan,mage,2,hallowReen,KSW_Phases.none,20010);
 	//scr_KSW_AddFish("Skullhead",spr_KSW_Fish_Skullhead,spr_KSW_Fish_Skullhead_Pal,series_MegaMan,limit,2,serranoSprings,KSW_Phases.afternoon,20010);
 	//scr_KSW_AddFish("Isaz and Sowilo",spr_KSW_Fish_IsazAndSowilo,spr_KSW_Fish_IsazAndSowilo_Pal,series_MegaMan,limit,2,serranoSprings,KSW_Phases.night,20010);
+	//scr_KSW_AddFish("Yo, This Song Is Really Good",spr_KSW_Fish_YoThisSong,spr_KSW_Fish_YoThisSong_Pal,series_MegaMan,glimmer,3,androidPort,KSW_Phases.none,202000,0,0,-1,snd_KSW_Fish_YoThisSong);
+	//scr_KSW_AddFish("What Am I Fighting For?????????",spr_KSW_Fish_WAIFF,spr_KSW_Fish_WAIFF_Pal,series_MegaMan,mage,3,androidPort,KSW_Phases.none,199700,0,0,-1,snd_KSW_Fish_WAIFF);
 	
 	#endregion
 	#endregion
