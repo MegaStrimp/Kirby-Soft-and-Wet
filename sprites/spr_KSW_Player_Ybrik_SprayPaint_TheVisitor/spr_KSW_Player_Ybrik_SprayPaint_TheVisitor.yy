@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Ybrik_SprayPaint_TheVisitor",
   "bboxMode":0,
-  "bbox_bottom":12,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":1,
   "bbox_top":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":13,
+  "height":12,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"27a3c18b-d994-4f53-9be1-7dd19bf3342c","blendMode":0,"displayName":"default","isLocked":false,"name":"27a3c18b-d994-4f53-9be1-7dd19bf3342c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

@@ -110,15 +110,21 @@ if (!localPause)
 				state = KSW_GameStates.idle_Ready;
 				mousePressed = true;
 				
-				with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+				with (obj_KSW_Player)
+				{
+					scr_ChangeSprite(sprReady);
+				}
 				
 				stateReadyTimer = stateReadyTimerMax;
 			}
 			break;
 			
 			case KSW_GameStates.catching:
-			var success = false;
-			var failed = false;
+			success = false;
+			failed = false;
+			
+			parTargetX = 0;
+			parTargetY = 0;
 			
 			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
@@ -134,8 +140,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 174;
-					var parTargetY = 40;
+					parTargetX = 174;
+					parTargetY = 40;
 					
 					with (obj_KSW_Player)
 					{
@@ -158,8 +164,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 174;
-					var parTargetY = 88;
+					parTargetX = 174;
+					parTargetY = 88;
 					
 					with (obj_KSW_Player)
 					{
@@ -182,8 +188,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 150;
-					var parTargetY = 64;
+					parTargetX = 150;
+					parTargetY = 64;
 					
 					with (obj_KSW_Player)
 					{
@@ -206,8 +212,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 198;
-					var parTargetY = 64;
+					parTargetX = 198;
+					parTargetY = 64;
 					
 					with (obj_KSW_Player)
 					{
@@ -263,7 +269,14 @@ if (!localPause)
 			}
 			else if ((failed) or ((catchInput_NextLineTimer == -1) and (failTimer == -1)))
 			{
-				global.KSW_CurrentFishCombo = 0;
+				if (global.KSW_CurrentEvent == -1)
+				{
+					global.KSW_CurrentFishCombo = 0;
+				}
+				else
+				{
+					scr_KSW_Event_End();
+				}
 				
 				scr_KSW_SaveData("data1.ini");
 				
@@ -582,6 +595,15 @@ if (!localPause)
 				}
 			}
 			
+			var eventRng = irandom_range(0,29);
+			eventRng = 0; //STRIMPTODO
+			if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+			{
+				var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
+				
+				scr_KSW_Event_Start(targetEvent);
+			}
+			
 			findFishTimer = -1;
 			state = KSW_GameStates.idle_Ready;
 			
@@ -632,7 +654,10 @@ if (!localPause)
 				catchInput_SoundCount = -1;
 				catchInput_NextLineTimer = 0;
 				
-				with (obj_KSW_Player) scr_ChangeSprite(sprFound);
+				with (obj_KSW_Player)
+				{
+					scr_ChangeSprite(sprFound);
+				}
 				
 				findFishTimer = -1;
 			}
@@ -652,12 +677,12 @@ if (!localPause)
 					if (global.KSW_Gamemode == KSW_Gamemodes.normal)
 					{
 						var line = catchInput_CurrentList[catchInput_CurrentLine];
-						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - 1) * failTimerMin));
+						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - failTimerOffset) * failTimerMin));
 					}
 					else
 					{
 						var line = choose(KSW_CatchInputList.up,KSW_CatchInputList.down,KSW_CatchInputList.left,KSW_CatchInputList.right,KSW_CatchInputList.wait);
-						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - .2) * failTimerMin));
+						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - (failTimerOffset / 5)) * failTimerMin));
 					}
 					
 					switch (line)
@@ -769,7 +794,10 @@ if (!localPause)
 					var stealthTutorialID = global.KSW_StealthTutorialIDs[? "gramsLuckRate"];
 					if (global.KSW_StealthTutorialList[stealthTutorialID].unlockScript()) scr_KSW_ObtainStealthTutorial(stealthTutorialID);
 					
-					with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+					with (obj_KSW_Player)
+					{
+						scr_ChangeSprite(sprReady);
+					}
 					
 					stateReadyTimer = -1;
 					break;
@@ -780,7 +808,7 @@ if (!localPause)
 					catchInput_CurrentLine = -1;
 					catchInput_CurrentLineMax = -1;
 					catchInput_SfxIndex = 0;
-					findFishTimer = irandom_range(60,400 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
+					findFishTimer = irandom_range(findFishTimerMin,findFishTimerMax - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
 					
 					stateReadyTimer = -1;
 					break;
@@ -788,7 +816,10 @@ if (!localPause)
 					case KSW_GameStates.waiting_End:
 					state = KSW_GameStates.idle_Ready;
 					
-					with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+					with (obj_KSW_Player)
+					{
+						scr_ChangeSprite(sprReady);
+					}
 					
 					stateReadyTimer = stateReadyTimerMax;
 					break;
@@ -846,6 +877,22 @@ if (!localPause)
 				scr_KSW_ParticleSet_Eternity(irandom_range(152,240),irandom_range(160,320),layer_get_depth(layer_get_id("Collision")),-1);
 				
 				decorTimer = irandom_range(decorTimerMin,decorTimerMax);
+			}
+		}
+		#endregion
+		
+		#region Event Timer
+		if (canGoToMenu)
+		{
+			if (eventTimer != -1)
+			{
+				eventTimer = max(eventTimer - speedMultFinal,0);
+				if (eventTimer == 0)
+				{
+					scr_KSW_Event_End();
+					
+					eventTimer = -1;
+				}
 			}
 		}
 		#endregion
@@ -925,6 +972,8 @@ if (!localPause)
 		exitTimer = max(exitTimer - speedMultFinal,0);
 		if (exitTimer == 0)
 		{
+			scr_KSW_Event_End();
+			
 			scr_GoToRoom(exitTarget,false);
 			
 			exitTimer = -1;

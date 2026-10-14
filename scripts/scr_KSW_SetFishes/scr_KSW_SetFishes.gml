@@ -155,6 +155,8 @@ function scr_KSW_SetFishes()
 	var series_Persona = global.KSW_SeriesIDs[? "persona"];
 	var series_vampireSurvivors = global.KSW_SeriesIDs[? "vampireSurvivors"];
 	var series_KidKirby = global.KSW_SeriesIDs[? "kidKirby"];
+	var series_DreamCrafter = global.KSW_SeriesIDs[? "dreamCrafter"];
+	var series_ShyGuySurfing = global.KSW_SeriesIDs[? "shyGuySurfing"];
 	#endregion
 	
 	#region Stages
@@ -164,6 +166,7 @@ function scr_KSW_SetFishes()
 	var hallowReen = global.KSW_StageIDs[? "hallowReen"];
 	var serranoSprings = global.KSW_StageIDs[? "serranoSprings"];
 	var androidPort = global.KSW_StageIDs[? "androidPort"];
+	var cloudyPark = global.KSW_StageIDs[? "cloudyPark"];
 	#endregion
 	
 	#region Caught Box Palettes
@@ -1492,7 +1495,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Pure Mermaid",spr_KSW_Fish_PureMermaid,spr_KSW_Fish_PureMermaid_Pal,series_Medabots,glimmer,0,androidPort,KSW_Phases.none,1250);
 	scr_KSW_AddFish("Orkamar",spr_KSW_Fish_Orkamar,spr_KSW_Fish_Orkamar_Pal,series_Medabots,mage,1,androidPort,KSW_Phases.none,1000);
 	scr_KSW_AddFish("Scourge Of The Sea",spr_KSW_Fish_ScourgeOfTheSea,spr_KSW_Fish_ScourgeOfTheSea_Pal,series_OctopathTraveler,mage,3,grassBeach,KSW_Phases.night,95000);
-	var manTree = scr_KSW_AddFish("Man Tree",spr_KSW_Fish_ManTree,spr_KSW_Fish_ManTree_Pal,series_Deltarune,candy,3,anyStage,KSW_Phases.none,666667);
+	var manTree = scr_KSW_AddFish("Man Tree",spr_KSW_Fish_ManTree,spr_KSW_Fish_ManTree_Pal,series_Deltarune,candy,3,anyStage,KSW_Phases.none,666667,,,,snd_KSW_Fish_ManTree);
 	manTree.displayedName = "[wheel]Well... There's a tree here[/wheel]";
 	scr_KSW_AddFish("Prince Fluff",spr_KSW_Fish_PrinceFluff,spr_KSW_Fish_PrinceFluff_Pal,series_Kirby,mint,3,grassBeach,KSW_Phases.day,1);
 	scr_KSW_AddFish("Entelognathus",spr_KSW_Fish_Entelognathus,spr_KSW_Fish_Entelognathus_Pal,series_RogueHeroes,legion,3,creamCrevasse,KSW_Phases.afternoon,12500);
@@ -2656,7 +2659,8 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Metroid Prime",spr_KSW_Fish_MetroidPrime,spr_KSW_Fish_MetroidPrime_Pal,series_MetroidPrimeOrigins,legion,2,androidPort,KSW_Phases.none,20020);
 	//scr_KSW_AddFish("Metroid Prime (Exo)",spr_KSW_Fish_MetroidPrimeExo,spr_KSW_Fish_MetroidPrimeExo_Pal,series_MetroidPrimeOrigins,limit,3,androidPort,KSW_Phases.none,200200);
 	//scr_KSW_AddFish("Kid Kirby",spr_KSW_Fish_KidKirby,spr_KSW_Fish_KidKirby_Pal,series_KidKirby,candy,3,androidPort,KSW_Phases.none,1995);
-	
+	scr_KSW_AddFish("Mamanti",spr_KSW_Fish_Mamanti,spr_KSW_Fish_Mamanti_Pal,series_DreamCrafter,mage,2,cloudyPark,KSW_Phases.none,12000);
+	scr_KSW_AddFish("Shy Guy (Surfing)",spr_KSW_Fish_ShyGuySurfing,spr_KSW_Fish_ShyGuySurfing_Pal,series_ShyGuySurfing,candy,2,grassBeach,KSW_Phases.day,20240);
 	#endregion
 	#endregion
 }

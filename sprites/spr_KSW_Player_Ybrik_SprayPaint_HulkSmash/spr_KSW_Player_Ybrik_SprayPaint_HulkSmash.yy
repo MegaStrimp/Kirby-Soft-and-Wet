@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Ybrik_SprayPaint_HulkSmash",
   "bboxMode":0,
-  "bbox_bottom":12,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":1,
   "bbox_top":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":13,
+  "height":12,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"5da92ab9-db24-4ab4-a3a6-79bb50809224","blendMode":0,"displayName":"default","isLocked":false,"name":"5da92ab9-db24-4ab4-a3a6-79bb50809224","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

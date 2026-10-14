@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Ybrik_SprayPaint_FeelingBlue",
   "bboxMode":0,
-  "bbox_bottom":12,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":1,
   "bbox_top":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":13,
+  "height":12,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"17c8636f-e4b8-4a85-a5cc-3429dce1a3b3","blendMode":0,"displayName":"default","isLocked":false,"name":"17c8636f-e4b8-4a85-a5cc-3429dce1a3b3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
