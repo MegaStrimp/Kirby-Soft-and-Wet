@@ -2823,6 +2823,18 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Agile",spr_KSW_Fish_Agile,spr_KSW_Fish_Agile_Pal,series_MegaMan,legion,2,androidPort,KSW_Phases.none,19950);
 	//scr_KSW_AddFish("Serges",spr_KSW_Fish_Serges,spr_KSW_Fish_Serges_Pal,series_MegaMan,flux,2,androidPort,KSW_Phases.none,19950);
 	//scr_KSW_AddFish("Sigma Virus",spr_KSW_Fish_SigmaVirus,spr_KSW_Fish_SigmaVirus_Pal,series_MegaMan,limit,3,androidPort,KSW_Phases.none,199500);
+	//scr_KSW_AddFish("Ice De Voux",spr_KSW_Fish_IceDeVoux,spr_KSW_Fish_IceDeVoux_Pal,series_MegaMan,legion,0,creamCrevasse,KSW_Phases.afternoon,195);
+	//scr_KSW_AddFish("Snow Slider",spr_KSW_Fish_SnowSlider,spr_KSW_Fish_SnowSlider_Pal,series_MegaMan,legion,1,creamCrevasse,KSW_Phases.afternoon,1995);
+	//scr_KSW_AddFish("Crablaster",spr_KSW_Fish_Crablaster,spr_KSW_Fish_Crablaster_Pal,series_MegaMan,candy,0,androidPort,KSW_Phases.night,195);
+	//scr_KSW_AddFish("Escanail",spr_KSW_Fish_Escanail,spr_KSW_Fish_Escanail_Pal,series_MegaMan,flux,0,androidPort,KSW_Phases.night,195);
+	//scr_KSW_AddFish("Mine Tortoise",spr_KSW_Fish_MineTortoise,spr_KSW_Fish_MineTortoise_Pal,series_MegaMan,mint,0,androidPort,KSW_Phases.night,195);
+	//scr_KSW_AddFish("WallCancer",spr_KSW_Fish_WallCancer,spr_KSW_Fish_WallCancer_Pal,series_MegaMan,flux,0,androidPort,KSW_Phases.day,195);
+	//scr_KSW_AddFish("Helit",spr_KSW_Fish_Helit,spr_KSW_Fish_Helit_Pal,series_MegaMan,mage,0,cloudyPark,KSW_Phases.day,195);
+	//scr_KSW_AddFish("Tombort",spr_KSW_Fish_Tombort,spr_KSW_Fish_Tombort_Pal,series_MegaMan,mint,0,cloudyPark,KSW_Phases.afternoon,195);
+	//scr_KSW_AddFish("Skycopter",spr_KSW_Fish_Skycopter,spr_KSW_Fish_Skycopter_Pal,series_MegaMan,flux,1,cloudyPark,KSW_Phases.night,1995);
+	//scr_KSW_AddFish("Hotareeca",spr_KSW_Fish_Hotareeca,spr_KSW_Fish_Hotareeca_Pal,series_MegaMan,mint,2,androidPort,KSW_Phases.night,19950);
+	//scr_KSW_AddFish("Volt Kurageil",spr_KSW_Fish_VoltKurageil,spr_KSW_Fish_VoltKurageil_Pal,series_MegaMan,maze,2,androidPort,KSW_Phases.night,19950);
+	//scr_KSW_AddFish("Mosquitus",spr_KSW_Fish_Mosquitus,spr_KSW_Fish_Mosquitus_Pal,series_MegaMan,flux,2,cloudyPark,KSW_Phases.night,19950);
 	//scr_KSW_AddFish("Toxic Seahorse",spr_KSW_Fish_ToxicSeahorse,spr_KSW_Fish_ToxicSeahorse_Pal,series_MegaMan,mint,2,androidPort,KSW_Phases.none,6000);
 	//scr_KSW_AddFish("Tunnel Rhino",spr_KSW_Fish_TunnelRhino,spr_KSW_Fish_TunnelRhino_Pal,series_MegaMan,glimmer,2,serranoSprings,KSW_Phases.none,6000);
 	//scr_KSW_AddFish("Volt Catfish",spr_KSW_Fish_VoltCatfish,spr_KSW_Fish_VoltCatfish_Pal,series_MegaMan,flux,2,androidPort,KSW_Phases.none,6000);
