@@ -192,6 +192,26 @@ function scr_KSW_SetSprayPaints()
 	spray.gooeyTongueColor = #2D681B;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "SulfurCube",playerID,"Sulfur Cube",spr_KSW_Player_Gooey_SprayPaint_SulfurCube,glimmer,100);
 	spray.gooeyTongueColor = #503E32;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Astral",playerID,"Astral",spr_KSW_Player_Gooey_SprayPaint_Astral,borange,100);
+	spray.gooeyTongueColor = #2E9299;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Crimulan",playerID,"Crimulan",spr_KSW_Player_Gooey_SprayPaint_Crimulan,candy,100);
+	spray.gooeyTongueColor = #E2C716;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Ebonian",playerID,"Ebonian",spr_KSW_Player_Gooey_SprayPaint_Ebonian,flux,100);
+	spray.gooeyTongueColor = #E2C716;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Goeyruner",playerID,"Goeyruner",spr_KSW_Player_Gooey_SprayPaint_Goeyruner,mint,100);
+	spray.gooeyTongueColor = #2E2E2E;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Illuminant",playerID,"Illuminant",spr_KSW_Player_Gooey_SprayPaint_Illuminant,flux,100);
+	spray.gooeyTongueColor = #EF8DD2;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "InvertedAstral",playerID,"Inverted Astral",spr_KSW_Player_Gooey_SprayPaint_InvertedAstral,mint,100);
+	spray.gooeyTongueColor = #ED5D53;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "JackOGooey",playerID,"Jack-o-Gooey",spr_KSW_Player_Gooey_SprayPaint_JackOGooey,borange,100);
+	spray.gooeyTongueColor = #C6FC75;
+	//var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Moneybags",playerID,"Moneybags",spr_KSW_Player_Gooey_SprayPaint_Moneybags,glimmer,100); HoG
+	//spray.gooeyTongueColor = #000000;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Snatching",playerID,"Snatching",spr_KSW_Player_Gooey_SprayPaint_Snatching,flux,100);
+	spray.gooeyTongueColor = #FFE900;
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "ToxicSludge",playerID,"Toxic Sludge",spr_KSW_Player_Gooey_SprayPaint_ToxicSludge,mint,100);
+	spray.gooeyTongueColor = #68773D;
 	#endregion
 	
 	#region Elfilin
@@ -225,6 +245,10 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Gnorpy",playerID,"Gnorpy",spr_KSW_Player_Elfilin_SprayPaint_Gnorpy,mint,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Foxy",playerID,"Foxy",spr_KSW_Player_Elfilin_SprayPaint_Foxy,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Elfilin_SprayPaint_Delirious,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Figure",playerID,"Figure",spr_KSW_Player_Elfilin_SprayPaint_Figure,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Funtime",playerID,"Funtime",spr_KSW_Player_Elfilin_SprayPaint_Funtime,flux,100);
+	//scr_KSW_AddSprayPaint(playerID + "_" + "TanukiTycoon",playerID,"Tanuki Tycoon",spr_KSW_Player_Elfilin_SprayPaint_TanukiTycoon,borange,100); HoG
+	scr_KSW_AddSprayPaint(playerID + "_" + "WorldBeyond",playerID,"World Beyond",spr_KSW_Player_Elfilin_SprayPaint_WorldBeyond,mage,100);
 	#endregion
 	
 	#region Marx
@@ -324,6 +348,17 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Chica",playerID,"Chica",spr_KSW_Player_Susie_SprayPaint_Chica,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Susie_SprayPaint_Delirious,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Lacey",playerID,"Lacey",spr_KSW_Player_Susie_SprayPaint_Lacey,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Brimwitch",playerID,"Brimwitch",spr_KSW_Player_Susie_SprayPaint_Brimwitch,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Daisies",playerID,"Daisies",spr_KSW_Player_Susie_SprayPaint_Daisies,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DarkEnchantress",playerID,"Dark Enchantress",spr_KSW_Player_Susie_SprayPaint_DarkEnchantress,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "JumpUp",playerID,"Jump Up",spr_KSW_Player_Susie_SprayPaint_JumpUp,candy,100);
+	//scr_KSW_AddSprayPaint(playerID + "_" + "Lovely",playerID,"Lovely",spr_KSW_Player_Susie_SprayPaint_Lovely,candy,100); HoG
+	scr_KSW_AddSprayPaint(playerID + "_" + "ThousandYears",playerID,"Thousand Years",spr_KSW_Player_Susie_SprayPaint_ThousandYears,flux,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Peachy",playerID,"Peachy",spr_KSW_Player_Susie_SprayPaint_Peachy,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "RetroPrincess",playerID,"Retro Princess",spr_KSW_Player_Susie_SprayPaint_RetroPrincess,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SamsungBig",playerID,"Samsung Big",spr_KSW_Player_Susie_SprayPaint_SamsungBig,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Stargirl",playerID,"Stargirl",spr_KSW_Player_Susie_SprayPaint_Stargirl,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Watergirl",playerID,"Watergirl",spr_KSW_Player_Susie_SprayPaint_Watergirl,mage,100);
 	#endregion
 	
 	#region Ybrik
@@ -393,6 +428,13 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Slime",playerID,"Slime",spr_KSW_Player_Chip_SprayPaint_Slime,mint,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Dusty",playerID,"Dusty",spr_KSW_Player_Chip_SprayPaint_Dusty,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Midnight",playerID,"Midnight",spr_KSW_Player_Chip_SprayPaint_Midnight,flux,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Chip_SprayPaint_Delirious,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Experiment626",playerID,"Experiment 626",spr_KSW_Player_Chip_SprayPaint_Experiment626,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "NightguardsFavorite",playerID,"Nightguard's Favorite",spr_KSW_Player_Chip_SprayPaint_NightguardsFavorite,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "OrphanWolf",playerID,"Orphan Wolf",spr_KSW_Player_Chip_SprayPaint_OrphanWolf,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Tails",playerID,"Tails",spr_KSW_Player_Chip_SprayPaint_Tails,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TailsSoul",playerID,"Tails Soul",spr_KSW_Player_Chip_SprayPaint_TailsSoul,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Wookie",playerID,"Wookie",spr_KSW_Player_Chip_SprayPaint_Wookie,borange,100);
 	#endregion
 	
 	#region Kracko
@@ -418,18 +460,75 @@ function scr_KSW_SetSprayPaints()
 	var playerID = "nz";
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "Matter",playerID,"Matter",spr_KSW_Player_NZ_SprayPaint_Matter,legion,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "CrystalShard",playerID,"Crystal Shard",spr_KSW_Player_NZ_SprayPaint_CrystalShard,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "0",playerID,"0",spr_KSW_Player_NZ_SprayPaint_0,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "AstralAlley",playerID,"Astral Alley",spr_KSW_Player_NZ_SprayPaint_AstralAlley,flux,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "OtherMatter",playerID,"Other Matter",spr_KSW_Player_NZ_SprayPaint_OtherMatter,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Biozhock",playerID,"Biozhock",spr_KSW_Player_NZ_SprayPaint_Biozhock,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "HotPink",playerID,"Hot Pink",spr_KSW_Player_NZ_SprayPaint_HotPink,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Whatsapp",playerID,"Whatsapp",spr_KSW_Player_NZ_SprayPaint_Whatsapp,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Beanbon",playerID,"Beanbon",spr_KSW_Player_NZ_SprayPaint_Beanbon,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BeetRed",playerID,"Beet Red",spr_KSW_Player_NZ_SprayPaint_BeetRed,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Blue",playerID,"Blue",spr_KSW_Player_NZ_SprayPaint_Blue,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "FluffyDream",playerID,"Fluffy Dream",spr_KSW_Player_NZ_SprayPaint_FluffyDream,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Green",playerID,"Green",spr_KSW_Player_NZ_SprayPaint_Green,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Inverted",playerID,"Inverted",spr_KSW_Player_NZ_SprayPaint_Inverted,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "LightBlue",playerID,"Light Blue",spr_KSW_Player_NZ_SprayPaint_LightBlue,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Orange",playerID,"Orange",spr_KSW_Player_NZ_SprayPaint_Orange,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pale",playerID,"Pale",spr_KSW_Player_NZ_SprayPaint_Pale,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pastel",playerID,"Pastel",spr_KSW_Player_NZ_SprayPaint_Pastel,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pink",playerID,"Pink",spr_KSW_Player_NZ_SprayPaint_Pink,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Purple",playerID,"Purple",spr_KSW_Player_NZ_SprayPaint_Purple,flux,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Red",playerID,"Red",spr_KSW_Player_NZ_SprayPaint_Red,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Scarfy",playerID,"Scarfy",spr_KSW_Player_NZ_SprayPaint_Scarfy,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Teal",playerID,"Teal",spr_KSW_Player_NZ_SprayPaint_Teal,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Trubbish",playerID,"Trubbish",spr_KSW_Player_NZ_SprayPaint_Trubbish,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Yellow",playerID,"Yellow",spr_KSW_Player_NZ_SprayPaint_Yellow,glimmer,100);
 	#endregion
 	
-	#region N-Z
+	#region Kabula
 	var playerID = "kabula";
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "AerialFortress",playerID,"Aerial Fortress",spr_KSW_Player_Kabula_SprayPaint_AerialFortress,borange,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Blue",playerID,"Blue",spr_KSW_Player_Kabula_SprayPaint_Blue,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Green",playerID,"Green",spr_KSW_Player_Kabula_SprayPaint_Green,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pink",playerID,"Pink",spr_KSW_Player_Kabula_SprayPaint_Pink,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Red",playerID,"Red",spr_KSW_Player_Kabula_SprayPaint_Red,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Yellow",playerID,"Yellow",spr_KSW_Player_Kabula_SprayPaint_Yellow,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Bloonarius",playerID,"Bloonarius",spr_KSW_Player_Kabula_SprayPaint_Bloonarius,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Kabula_SprayPaint_Delirious,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "FlaminHot",playerID,"Flamin Hot",spr_KSW_Player_Kabula_SprayPaint_FlaminHot,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Ghastly",playerID,"Ghastly",spr_KSW_Player_Kabula_SprayPaint_Ghastly,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "AntiShadowBot",playerID,"Anti-Shadow Bot",spr_KSW_Player_Kabula_SprayPaint_AntiShadowBot,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Goodyear",playerID,"Goodyear",spr_KSW_Player_Kabula_SprayPaint_Goodyear,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "LABlimp",playerID,"LA Blimp",spr_KSW_Player_Kabula_SprayPaint_LABlimp,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Skyscourge",playerID,"Skyscourge",spr_KSW_Player_Kabula_SprayPaint_Skyscourge,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "LicoriceTwist",playerID,"Licorice Twist",spr_KSW_Player_Kabula_SprayPaint_LicoriceTwist,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TakingTooLong",playerID,"[shake]Taking Too Long[/shake]",spr_KSW_Player_Kabula_SprayPaint_TakingTooLong,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Vintage",playerID,"Vintage",spr_KSW_Player_Kabula_SprayPaint_Vintage,borange,100);
 	#endregion
 	
-	#region N-Z
+	#region Starman
 	var playerID = "starman";
 	
 	scr_KSW_AddSprayPaint(playerID + "_" + "Regal",playerID,"Regal",spr_KSW_Player_Starman_SprayPaint_Regal,glimmer,0,true);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BlackHole",playerID,"Black Hole",spr_KSW_Player_Starman_SprayPaint_BlackHole,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Blue",playerID,"Blue",spr_KSW_Player_Starman_SprayPaint_Blue,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Count",playerID,"Count",spr_KSW_Player_Starman_SprayPaint_Count,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Starman_SprayPaint_Delirious,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Green",playerID,"Green",spr_KSW_Player_Starman_SprayPaint_Green,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "GreenRing",playerID,"Green Ring",spr_KSW_Player_Starman_SprayPaint_GreenRing,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "HeroicBlue",playerID,"Heroic Blue",spr_KSW_Player_Starman_SprayPaint_HeroicBlue,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "JoliNite",playerID,"Joli Nite",spr_KSW_Player_Starman_SprayPaint_JoliNite,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pajama",playerID,"Pajama",spr_KSW_Player_Starman_SprayPaint_Pajama,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pink",playerID,"Pink",spr_KSW_Player_Starman_SprayPaint_Pink,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Purple",playerID,"Purple",spr_KSW_Player_Starman_SprayPaint_Purple,flux,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Raven",playerID,"Raven",spr_KSW_Player_Starman_SprayPaint_Raven,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Red",playerID,"Red",spr_KSW_Player_Starman_SprayPaint_Red,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Seastar",playerID,"Seastar",spr_KSW_Player_Starman_SprayPaint_Seastar,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Starwalker",playerID,"Starwalker",spr_KSW_Player_Starman_SprayPaint_Starwalker,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Starmie",playerID,"Starmie",spr_KSW_Player_Starman_SprayPaint_Starmie,flux,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Staryu",playerID,"Staryu",spr_KSW_Player_Starman_SprayPaint_Staryu,glimmer,100);
 	#endregion
 	#endregion
 }
