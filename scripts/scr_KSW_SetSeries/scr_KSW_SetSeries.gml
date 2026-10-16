@@ -56,9 +56,12 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("shovelKnight","Shovel Knight");
 	scr_KSW_AddSeries("megaMan","Mega Man");
 	scr_KSW_AddSeries("megaManSequelWars","Mega Man: The Sequel Wars");
-	scr_KSW_AddSeries("megaManUnlimited","Mega Man Unlimited");
-	scr_KSW_AddSeries("megaManX8","Mega Man X8 16-bit");
 	scr_KSW_AddSeries("megaManDeathmatch","Mega Man 8-Bit Deathmatch");
+	scr_KSW_AddSeries("megaManUnlimited","Mega Man Unlimited");
+	scr_KSW_AddSeries("megaManX","Mega Man X");
+	scr_KSW_AddSeries("megaManX8","Mega Man X8 16-bit");
+	scr_KSW_AddSeries("megaManZero","Mega Man Zero");
+	scr_KSW_AddSeries("megaManZX","Mega Man ZX");
 	scr_KSW_AddSeries("peggle","Peggle");
 	scr_KSW_AddSeries("antonBlast","AntonBlast");
 	scr_KSW_AddSeries("dragonQuest","Dragon Quest");
