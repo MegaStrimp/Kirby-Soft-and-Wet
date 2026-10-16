@@ -2872,9 +2872,9 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Bombee",spr_KSW_Fish_Bombee,spr_KSW_Fish_Bombee_Pal,series_MegaManX8,mint,0,cloudyPark,KSW_Phases.day,224);
 	//scr_KSW_AddFish("Queen Bombee",spr_KSW_Fish_QueenBombee,spr_KSW_Fish_QueenBombee_Pal,series_MegaManX8,mint,1,cloudyPark,KSW_Phases.day,2024);
 	//scr_KSW_AddFish("Copy Sigma",spr_KSW_Fish_CopySigma,spr_KSW_Fish_CopySigma_Pal,series_MegaManX8,maze,1,cloudyPark,KSW_Phases.night,2024);
-	scr_KSW_AddFish("Crabs-Y",spr_KSW_Fish_CrabsY,spr_KSW_Fish_CrabsY_Pal,series_MegaManX8,mint,2,hallowReen,KSW_Phases.day,20240);
-	scr_KSW_AddFish("Yellow Brontes",spr_KSW_Fish_YellowBrontes,spr_KSW_Fish_YellowBrontes_Pal,series_MegaManX8,glimmer,2,serranoSprings,KSW_Phases.afternoon,20240);
-	scr_KSW_AddFish("Ravemanta",spr_KSW_Fish_Ravemanta,spr_KSW_Fish_Ravemanta_Pal,series_MegaManX8,mage,2,cloudyPark,KSW_Phases.afternoon,20240);
+	//scr_KSW_AddFish("Crabs-Y",spr_KSW_Fish_CrabsY,spr_KSW_Fish_CrabsY_Pal,series_MegaManX8,mint,2,hallowReen,KSW_Phases.day,20240);
+	//scr_KSW_AddFish("Yellow Brontes",spr_KSW_Fish_YellowBrontes,spr_KSW_Fish_YellowBrontes_Pal,series_MegaManX8,glimmer,2,serranoSprings,KSW_Phases.afternoon,20240);
+	//scr_KSW_AddFish("Ravemanta",spr_KSW_Fish_Ravemanta,spr_KSW_Fish_Ravemanta_Pal,series_MegaManX8,mage,2,cloudyPark,KSW_Phases.afternoon,20240);
 	scr_KSW_AddFish("Optic Sunflower",spr_KSW_Fish_OpticSunflower,spr_KSW_Fish_OpticSunflower_Pal,series_MegaManX8,mint,2,androidPort,KSW_Phases.none,8000);
 	scr_KSW_AddFish("Dark Mantis",spr_KSW_Fish_DarkMantis,spr_KSW_Fish_DarkMantis_Pal,series_MegaManX8,limit,2,androidPort,KSW_Phases.none,8000);
 	scr_KSW_AddFish("Gravity Antonion",spr_KSW_Fish_GravityAntonion,spr_KSW_Fish_GravityAntonion_Pal,series_MegaManX8,flux,2,androidPort,KSW_Phases.none,8000);
@@ -2883,9 +2883,9 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Avalanche Yeti",spr_KSW_Fish_AvalancheYeti,spr_KSW_Fish_AvalancheYeti_Pal,series_MegaManX8,mage,2,creamCrevasse,KSW_Phases.none,8000);
 	scr_KSW_AddFish("Burn Rooster",spr_KSW_Fish_BurnRooster,spr_KSW_Fish_BurnRooster_Pal,series_MegaManX8,borange,2,serranoSprings,KSW_Phases.none,8000);
 	scr_KSW_AddFish("Bamboo Pandamonium",spr_KSW_Fish_BambooPandamonium,spr_KSW_Fish_BambooPandamonium_Pal,series_MegaManX8,mint,2,hallowReen,KSW_Phases.none,8000);
-	scr_KSW_AddFish("Vile V",spr_KSW_Fish_VileV,spr_KSW_Fish_VileV_Pal,series_MegaManX8,mint,3,androidPort,KSW_Phases.none,20040);
-	scr_KSW_AddFish("Lumine",spr_KSW_Fish_Lumine,spr_KSW_Fish_Lumine_Pal,series_MegaManX8,legion,3,cloudyPark,KSW_Phases.none,200400);
-	scr_KSW_AddFish("Devil Sigma",spr_KSW_Fish_DevilSigma,spr_KSW_Fish_DevilSigma_Pal,series_MegaManX8,maze,3,cloudyPark,KSW_Phases.night,202400);
+	//scr_KSW_AddFish("Vile V",spr_KSW_Fish_VileV,spr_KSW_Fish_VileV_Pal,series_MegaManX8,mint,3,androidPort,KSW_Phases.none,20040);
+	//scr_KSW_AddFish("Lumine",spr_KSW_Fish_Lumine,spr_KSW_Fish_Lumine_Pal,series_MegaManX8,legion,3,cloudyPark,KSW_Phases.none,200400);
+	//scr_KSW_AddFish("Devil Sigma",spr_KSW_Fish_DevilSigma,spr_KSW_Fish_DevilSigma_Pal,series_MegaManX8,maze,3,cloudyPark,KSW_Phases.night,202400);
 	//scr_KSW_AddFish("Serenade",spr_KSW_Fish_Serenade,spr_KSW_Fish_Serenade_Pal,series_MegaManX8,glimmer,3,androidPort,KSW_Phases.night,260000);
 	//scr_KSW_AddFish("Dancing Pumpkin",spr_KSW_Fish_DancingPumpkin,spr_KSW_Fish_DancingPumpkin_Pal,series_Deltarune,limit,1,hallowReen,KSW_Phases.none,2500);
 	//scr_KSW_AddFish("Snowball",spr_KSW_Fish_Snowball,spr_KSW_Fish_Snowball_Pal,series_Minecraft,mage,0,creamCrevasse,KSW_Phases.none,10);
