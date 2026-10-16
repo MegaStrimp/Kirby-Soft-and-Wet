@@ -154,6 +154,7 @@ function scr_KSW_SetFishes()
 	var series_KidKirby = global.KSW_SeriesIDs[? "kidKirby"];
 	var series_DreamCrafter = global.KSW_SeriesIDs[? "dreamCrafter"];
 	var series_ShyGuySurfing = global.KSW_SeriesIDs[? "shyGuySurfing"];
+	var series_JJBA = global.KSW_SeriesIDs[? "jjba"];
 	#endregion
 	
 	#region Stages
@@ -2606,6 +2607,8 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Kid Kirby",spr_KSW_Fish_KidKirby,spr_KSW_Fish_KidKirby_Pal,series_KidKirby,candy,3,androidPort,KSW_Phases.none,1995);
 	scr_KSW_AddFish("Mamanti",spr_KSW_Fish_Mamanti,spr_KSW_Fish_Mamanti_Pal,series_DreamCrafter,mage,2,cloudyPark,KSW_Phases.none,12000);
 	scr_KSW_AddFish("Shy Guy (Surfing)",spr_KSW_Fish_ShyGuySurfing,spr_KSW_Fish_ShyGuySurfing_Pal,series_ShyGuySurfing,candy,2,grassBeach,KSW_Phases.day,20240);
+	scr_KSW_AddFish("Gyro Zeppeli",spr_KSW_Fish_GyroZeppeli,spr_KSW_Fish_GyroZeppeli_Pal,series_JJBA,borange,3,serranoSprings,KSW_Phases.afternoon,200000);
+	scr_KSW_AddFish("Baoh",spr_KSW_Fish_Baoh,spr_KSW_Fish_Baoh_Pal,series_JJBA,mage,2,serranoSprings,KSW_Phases.night,19840);
 	#endregion
 	#endregion
 }
