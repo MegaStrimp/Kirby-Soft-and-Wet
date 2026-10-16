@@ -4817,6 +4817,8 @@
     {"id":{"name":"spr_KSW_Bobber_Hayudo","path":"sprites/spr_KSW_Bobber_Hayudo/spr_KSW_Bobber_Hayudo.yy",},},
     {"id":{"name":"spr_KSW_Bobber_Heart_Pal","path":"sprites/spr_KSW_Bobber_Heart_Pal/spr_KSW_Bobber_Heart_Pal.yy",},},
     {"id":{"name":"spr_KSW_Bobber_Heart","path":"sprites/spr_KSW_Bobber_Heart/spr_KSW_Bobber_Heart.yy",},},
+    {"id":{"name":"spr_KSW_Bobber_HeartTank_Pal","path":"sprites/spr_KSW_Bobber_HeartTank_Pal/spr_KSW_Bobber_HeartTank_Pal.yy",},},
+    {"id":{"name":"spr_KSW_Bobber_HeartTank","path":"sprites/spr_KSW_Bobber_HeartTank/spr_KSW_Bobber_HeartTank.yy",},},
     {"id":{"name":"spr_KSW_Bobber_Inky_Pal","path":"sprites/spr_KSW_Bobber_Inky_Pal/spr_KSW_Bobber_Inky_Pal.yy",},},
     {"id":{"name":"spr_KSW_Bobber_Inky","path":"sprites/spr_KSW_Bobber_Inky/spr_KSW_Bobber_Inky.yy",},},
     {"id":{"name":"spr_KSW_Bobber_Iridium_Pal","path":"sprites/spr_KSW_Bobber_Iridium_Pal/spr_KSW_Bobber_Iridium_Pal.yy",},},
