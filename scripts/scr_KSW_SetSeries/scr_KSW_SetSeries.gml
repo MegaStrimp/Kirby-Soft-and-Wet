@@ -56,6 +56,9 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("shovelKnight","Shovel Knight");
 	scr_KSW_AddSeries("megaMan","Mega Man");
 	scr_KSW_AddSeries("megaManSequelWars","Mega Man: The Sequel Wars");
+	scr_KSW_AddSeries("megaManUnlimited","Mega Man Unlimited");
+	scr_KSW_AddSeries("megaManX8","Mega Man X8 16-bit");
+	scr_KSW_AddSeries("megaManDeathmatch","Mega Man 8-Bit Deathmatch");
 	scr_KSW_AddSeries("peggle","Peggle");
 	scr_KSW_AddSeries("antonBlast","AntonBlast");
 	scr_KSW_AddSeries("dragonQuest","Dragon Quest");
@@ -95,7 +98,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("celeste","Celeste");
 	scr_KSW_AddSeries("touhouProject","Touhou Project");
 	scr_KSW_AddSeries("umamusume","Umamusume");
-	scr_KSW_AddSeries("megaManUnlimited","Mega Man Unlimited");
 	scr_KSW_AddSeries("bloodstained","Bloodstained");
 	scr_KSW_AddSeries("misc","Misc");
 	scr_KSW_AddSeries("undertaleYellow","Undertale Yellow");
