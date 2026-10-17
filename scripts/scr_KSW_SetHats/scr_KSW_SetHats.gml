@@ -41,6 +41,7 @@ function scr_KSW_SetHats()
 	var playerID = "gooey";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Diver",playerID,"Diver",spr_KSW_Player_Gooey_Hat_Diver_Ready,scr_KSW_Player_Gooey_Hat_Diver_SpriteSet(),glimmer,150,-3,6);
 	#endregion
 	
 	#region Elfilin
