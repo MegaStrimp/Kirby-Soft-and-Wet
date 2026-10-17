@@ -155,6 +155,9 @@ function scr_KSW_SetFishes()
 	var series_DreamCrafter = global.KSW_SeriesIDs[? "dreamCrafter"];
 	var series_ShyGuySurfing = global.KSW_SeriesIDs[? "shyGuySurfing"];
 	var series_JJBA = global.KSW_SeriesIDs[? "jjba"];
+	var series_genshinImpact = global.KSW_SeriesIDs[? "genshinImpact"];
+	var series_mabinogi = global.KSW_SeriesIDs[? "mabinogi"];
+	var series_homestuck = global.KSW_SeriesIDs[? "homestuck"];
 	#endregion
 	
 	#region Stages
@@ -2416,8 +2419,44 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Zombie (VS)",spr_KSW_Fish_ZombieV,spr_KSW_Fish_ZombieV_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.none,70);
 	scr_KSW_AddFish("Mudman",spr_KSW_Fish_mudman,spr_KSW_Fish_mudman_pal,series_vampireSurvivors,mint,0,grassBeach,KSW_Phases.none,80);
 	scr_KSW_AddFish("Flower Wall",spr_KSW_Fish_Flowerwall,spr_KSW_Fish_Flowerwall_Pal,series_vampireSurvivors,mint,0,grassBeach,KSW_Phases.none,90);
-	
-	
+	scr_KSW_AddFish("Ajaw",spr_KSW_Fish_Ajaw,spr_KSW_Fish_Ajaw_Pal,series_genshinImpact,borange,2,serranoSprings,KSW_Phases.none,3000,-22,-21);
+	scr_KSW_AddFish("Squiddles",spr_KSW_Fish_Squiddles,spr_KSW_Fish_Squiddles_Pal,series_homestuck,mage,2,grassBeach,KSW_Phases.none,1000,-36,-23);
+	scr_KSW_AddFish("Brifne Carp",spr_KSW_Fish_BrifneCarp,spr_KSW_Fish_BrifneCarp_Pal,series_mabinogi,mint,0,grassBeach,KSW_Phases.none,4500,-12,-9);
+	scr_KSW_AddFish("Broad Stick",spr_KSW_Fish_BroadStick,spr_KSW_Fish_BroadStick_Pal,series_mabinogi,borange,0,anyStage,KSW_Phases.none,500,-10,-12);
+	scr_KSW_AddFish("Bronze Play Page",spr_KSW_Fish_BronzePlayPage,spr_KSW_Fish_BronzePlayPage_Pal,series_mabinogi,borange,1,cloudyPark,KSW_Phases.none,10,-9,-11);
+	scr_KSW_AddFish("Carnivorous Fish",spr_KSW_Fish_CarnivorousFish,spr_KSW_Fish_CarnivorousFish_Pal,series_mabinogi,mage,2,grassBeach,KSW_Phases.none,100000,-14,-19);
+	scr_KSW_AddFish("Dorcha Crystal",spr_KSW_Fish_DorchaCrystal,spr_KSW_Fish_DorchaCrystal_Pal,series_mabinogi,borange,1,anyStage,KSW_Phases.night,1000,-8,-11);
+	scr_KSW_AddFish("Erinn Herring",spr_KSW_Fish_ErinnHerring,spr_KSW_Fish_ErinnHerring_Pal,series_mabinogi,mage,0,grassBeach,KSW_Phases.none,200,-12,-8);
+	scr_KSW_AddFish("Erinn Rainbow Trout",spr_KSW_Fish_ErinnRainbowTrout,spr_KSW_Fish_ErinnRainbowTrout_Pal,series_mabinogi,mint,0,grassBeach,KSW_Phases.none,1500,-12,-8);
+	scr_KSW_AddFish("Erinn Sturgeon",spr_KSW_Fish_ErinnSturgeon,spr_KSW_Fish_ErinnSturgeon_Pal,series_mabinogi,borange,2,creamCrevasse,KSW_Phases.none,45000,-12,-10);
+	scr_KSW_AddFish("Firewood",spr_KSW_Fish_Firewood,spr_KSW_Fish_Firewood_Pal,series_mabinogi,borange,0,anyStage,KSW_Phases.none,700,-16,-12);
+	scr_KSW_AddFish("Flying Fish",spr_KSW_Fish_FlyingFish,spr_KSW_Fish_FlyingFish_Pal,series_mabinogi,mage,1,grassBeach,KSW_Phases.none,700,-13,-13);
+	scr_KSW_AddFish("Food Waste",spr_KSW_Fish_FoodWaste,spr_KSW_Fish_FoodWaste_Pal,series_mabinogi,mint,0,anyStage,KSW_Phases.none,600,-22,-12);
+	scr_KSW_AddFish("Garbage Herb",spr_KSW_Fish_GarbageHerb,spr_KSW_Fish_GarbageHerb_Pal,series_mabinogi,legion,0,anyStage,KSW_Phases.none,50,-11,-12);
+	scr_KSW_AddFish("Golden Scale Fish",spr_KSW_Fish_GoldenScaleFish,spr_KSW_Fish_GoldenScaleFish_Pal,series_mabinogi,borange,1,grassBeach,KSW_Phases.none,2000,-13,-8);
+	scr_KSW_AddFish("Erinn King Crab",spr_KSW_Fish_ErinnKingCrab,spr_KSW_Fish_ErinnKingCrab_Pal,series_mabinogi,limit,1,grassBeach,KSW_Phases.none,3500,-22,-11);
+	scr_KSW_AddFish("Lamprey",spr_KSW_Fish_Lamprey,spr_KSW_Fish_Lamprey_Pal,series_mabinogi,legion,1,creamCrevasse,KSW_Phases.none,130,-12,-6);
+	scr_KSW_AddFish("Marine Pearl Oyster",spr_KSW_Fish_MarinePearlOyster,spr_KSW_Fish_MarinePearlOyster_Pal,series_mabinogi,glimmer,2,grassBeach,KSW_Phases.none,100,-11,-12);
+	scr_KSW_AddFish("Paper Crane",spr_KSW_Fish_PaperCrane,spr_KSW_Fish_PaperCrane_Pal,series_mabinogi,legion,0,cloudyPark,KSW_Phases.none,10,-16,-17);
+	scr_KSW_AddFish("Quest Scroll",spr_KSW_Fish_QuestScroll,spr_KSW_Fish_QuestScroll_Pal,series_mabinogi,mint,0,anyStage,KSW_Phases.none,30,-11,-33);
+	scr_KSW_AddFish("Striped Marlin",spr_KSW_Fish_StripedMarlin,spr_KSW_Fish_StripedMarlin_Pal,series_mabinogi,maze,1,grassBeach,KSW_Phases.none,90000,-12,-12);
+	scr_KSW_AddFish("Taitinn Carp",spr_KSW_Fish_TaitinnCarp,spr_KSW_Fish_TaitinnCarp_Pal,series_mabinogi,mage,0,grassBeach,KSW_Phases.none,50,-11,-4);
+	scr_KSW_AddFish("Tattered Nautical Chart",spr_KSW_Fish_TatteredNauticalChart,spr_KSW_Fish_TatteredNauticalChart_Pal,series_mabinogi,borange,1,grassBeach,KSW_Phases.none,50,-20,-16);
+	scr_KSW_AddFish("Yellowfin Tuna",spr_KSW_Fish_YellowfinTuna,spr_KSW_Fish_YellowfinTuna_Pal,series_mabinogi,mint,1,grassBeach,KSW_Phases.none,150000,-12,-9);
+	scr_KSW_AddFish("Aquatic Mine",spr_KSW_Fish_AquaticMine,spr_KSW_Fish_AquaticMine_Pal,series_Pikmin,borange,1,grassBeach,KSW_Phases.none,300,-7,-7);
+	scr_KSW_AddFish("Blue Pikmin",spr_KSW_Fish_BluePikmin,spr_KSW_Fish_BluePikmin_Pal,series_Pikmin,maze,1,anyStage,KSW_Phases.none,100,-4,-8);
+	scr_KSW_AddFish("Chocolate Cushion",spr_KSW_Fish_ChocolateCushion,spr_KSW_Fish_ChocolateCushion_Pal,series_Pikmin,borange,1,serranoSprings,KSW_Phases.none,1000,-8,-5);
+	scr_KSW_AddFish("Colossal Fossil",spr_KSW_Fish_ColossalFossil,spr_KSW_Fish_ColossalFossil_Pal,series_Pikmin,borange,1,serranoSprings,KSW_Phases.none,2000,-8,-5);
+	scr_KSW_AddFish("Heavy-duty Magnetizer",spr_KSW_Fish_HeavyDutyMagnetizer,spr_KSW_Fish_HeavyDutyMagnetizer_Pal,series_Pikmin,limit,1,serranoSprings,KSW_Phases.none,1000,-8,-7);
+	scr_KSW_AddFish("Paradoxical Enigma",spr_KSW_Fish_ParadoxicalEnigma,spr_KSW_Fish_ParadoxicalEnigma_Pal,series_Pikmin,borange,1,serranoSprings,KSW_Phases.none,400,-8,-7);
+	scr_KSW_AddFish("Pink Menace",spr_KSW_Fish_PinkMenace,spr_KSW_Fish_PinkMenace_Pal,series_Pikmin,glimmer,1,creamCrevasse,KSW_Phases.none,500,-8,-4);
+	scr_KSW_AddFish("Sunseed Berry",spr_KSW_Fish_SunseedBerry,spr_KSW_Fish_SunseedBerry_Pal,series_Pikmin,limit,1,grassBeach,KSW_Phases.none,500,-7,-5);
+	scr_KSW_AddFish("Tear Stone",spr_KSW_Fish_TearStone,spr_KSW_Fish_TearStone_Pal,series_Pikmin,mage,1,serranoSprings,KSW_Phases.none,500,-8,-6);
+	scr_KSW_AddFish("The Key",spr_KSW_Fish_TheKey,spr_KSW_Fish_TheKey_Pal,series_Pikmin,borange,2,serranoSprings,KSW_Phases.none,100,-7,-8);
+	scr_KSW_AddFish("Axolotl Yukari",spr_KSW_Fish_AxolotlYukari,spr_KSW_Fish_AxolotlYukari_Pal,series_TouhouProject,flux,3,hallowReen,KSW_Phases.none,300,-53,-47);
+	scr_KSW_AddFish("Iku Nagae",spr_KSW_Fish_IkuNagae,spr_KSW_Fish_IkuNagae_Pal,series_TouhouProject,flux,3,cloudyPark,KSW_Phases.none,58000,-33,-56);
+	scr_KSW_AddFish("Miyoi",spr_KSW_Fish_Miyoi,spr_KSW_Fish_Miyoi_Pal,series_TouhouProject,mage,2,grassBeach,KSW_Phases.none,55000,-18,-16);
+	scr_KSW_AddFish("Nitori Kawashiro",spr_KSW_Fish_NitoriKawashiro,spr_KSW_Fish_NitoriKawashiro_Pal,series_TouhouProject,maze,3,androidPort,KSW_Phases.none,100000,-84,-82);
 	
 	#region November Rain
 	//scr_KSW_AddFish("Ghostbell",spr_KSW_Fish_Ghostbell,spr_KSW_Fish_Ghostbell_Pal,series_TerrariaCalamity,mage,0,grassBeach,KSW_Phases.none,800);
