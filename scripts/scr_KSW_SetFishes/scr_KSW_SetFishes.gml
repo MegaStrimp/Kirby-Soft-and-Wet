@@ -63,6 +63,7 @@ function scr_KSW_SetFishes()
 	var series_MegaManUnlimited = global.KSW_SeriesIDs[? "megaManUnlimited"];
 	var series_MegaManX = global.KSW_SeriesIDs[? "megaManX"];
 	var series_MegaManX8 = global.KSW_SeriesIDs[? "megaManX8"];
+	var series_MegaManXRegenesis = global.KSW_SeriesIDs[? "megaManXRegenesis"];
 	var series_MegaManZero = global.KSW_SeriesIDs[? "megaManZero"];
 	var series_MegaManZX = global.KSW_SeriesIDs[? "megaManZX"];
 	var series_Peggle = global.KSW_SeriesIDs[? "peggle"];
@@ -2833,7 +2834,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Crablaster",spr_KSW_Fish_Crablaster,spr_KSW_Fish_Crablaster_Pal,series_MegaManX,candy,0,androidPort,KSW_Phases.night,195);
 	//scr_KSW_AddFish("Escanail",spr_KSW_Fish_Escanail,spr_KSW_Fish_Escanail_Pal,series_MegaManX,flux,0,androidPort,KSW_Phases.night,195);
 	//scr_KSW_AddFish("Mine Tortoise",spr_KSW_Fish_MineTortoise,spr_KSW_Fish_MineTortoise_Pal,series_MegaManX,mint,0,androidPort,KSW_Phases.night,195);
-	//scr_KSW_AddFish("WallCancer",spr_KSW_Fish_WallCancer,spr_KSW_Fish_WallCancer_Pal,series_MegaManX,flux,0,androidPort,KSW_Phases.day,195);
+	//scr_KSW_AddFish("Wall Cancer",spr_KSW_Fish_WallCancer,spr_KSW_Fish_WallCancer_Pal,series_MegaManX,flux,0,androidPort,KSW_Phases.day,195);
 	//scr_KSW_AddFish("Helit",spr_KSW_Fish_Helit,spr_KSW_Fish_Helit_Pal,series_MegaManX,mage,0,cloudyPark,KSW_Phases.day,195);
 	//scr_KSW_AddFish("Tombort",spr_KSW_Fish_Tombort,spr_KSW_Fish_Tombort_Pal,series_MegaManX,mint,0,cloudyPark,KSW_Phases.afternoon,195);
 	//scr_KSW_AddFish("Skycopter",spr_KSW_Fish_Skycopter,spr_KSW_Fish_Skycopter_Pal,series_MegaManX,flux,1,cloudyPark,KSW_Phases.night,1995);
@@ -2890,6 +2891,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Lumine",spr_KSW_Fish_Lumine,spr_KSW_Fish_Lumine_Pal,series_MegaManX8,legion,3,cloudyPark,KSW_Phases.none,200400);
 	//scr_KSW_AddFish("Devil Sigma",spr_KSW_Fish_DevilSigma,spr_KSW_Fish_DevilSigma_Pal,series_MegaManX8,maze,3,cloudyPark,KSW_Phases.night,202400);
 	//scr_KSW_AddFish("Serenade",spr_KSW_Fish_Serenade,spr_KSW_Fish_Serenade_Pal,series_MegaManX8,glimmer,3,androidPort,KSW_Phases.night,260000);
+	//scr_KSW_AddFish("Green Biker Dude",spr_KSW_Fish_GreenBikerDude,spr_KSW_Fish_GreenBikerDude_Pal,series_MegaManXRegenesis,mage,3,creamCrevasse,KSW_Phases.night,20260);
 	//scr_KSW_AddFish("Dancing Pumpkin",spr_KSW_Fish_DancingPumpkin,spr_KSW_Fish_DancingPumpkin_Pal,series_Deltarune,limit,1,hallowReen,KSW_Phases.none,2500);
 	//scr_KSW_AddFish("Snowball",spr_KSW_Fish_Snowball,spr_KSW_Fish_Snowball_Pal,series_Minecraft,mage,0,creamCrevasse,KSW_Phases.none,10);
 	//scr_KSW_AddFish("Icicle",spr_KSW_Fish_Icicle,spr_KSW_Fish_Icicle_Pal,series_Minecraft,maze,0,creamCrevasse,KSW_Phases.none,30);
