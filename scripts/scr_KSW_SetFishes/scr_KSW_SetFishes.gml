@@ -2924,6 +2924,24 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Titania",spr_KSW_Fish_Titania,spr_KSW_Fish_Titania_Pal,series_Bloodstained,mint,0,cloudyPark,KSW_Phases.night,450);
 	//scr_KSW_AddFish("Andrealphus",spr_KSW_Fish_Andrealphus,spr_KSW_Fish_Andrealphus_Pal,series_Bloodstained,maze,3,cloudyPark,KSW_Phases.night,40000);
 	//scr_KSW_AddFish("Gremory",spr_KSW_Fish_Gremory,spr_KSW_Fish_Gremory_Pal,series_Bloodstained,limit,3,cloudyPark,KSW_Phases.night,90000);
+	//scr_KSW_AddFish("Fly (Mother)",spr_KSW_Fish_FlyMother,spr_KSW_Fish_FlyMother_Pal,series_MotherEncore,flux,0,cloudyPark,KSW_Phases.day,100);
+	//scr_KSW_AddFish("Mr. Batty",spr_KSW_Fish_MrBatty,spr_KSW_Fish_MrBatty_Pal,series_MotherEncore,legion,0,cloudyPark,KSW_Phases.day,100);
+	//scr_KSW_AddFish("Crow",spr_KSW_Fish_Crow,spr_KSW_Fish_Crow_Pal,series_MotherEncore,mint,0,cloudyPark,KSW_Phases.day,100);
+	//scr_KSW_AddFish("Laura (Mother)",spr_KSW_Fish_LauraMother,spr_KSW_Fish_LauraMother_Pal,series_MotherEncore,mint,1,cloudyPark,KSW_Phases.day,1000);
+	//scr_KSW_AddFish("Spiteful Crow",spr_KSW_Fish_SpitefulCrow,spr_KSW_Fish_SpitefulCrow_Pal,series_Mother,mage,0,cloudyPark,KSW_Phases.day,200);
+	//scr_KSW_AddFish("Thunder Mite",spr_KSW_Fish_ThunderMite,spr_KSW_Fish_ThunderMite_Pal,series_Mother,glimmer,0,cloudyPark,KSW_Phases.afternoon,200);
+	//scr_KSW_AddFish("Thunder and Storm",spr_KSW_Fish_ThunderAndStorm,spr_KSW_Fish_ThunderAndStorm_Pal,series_Mother,glimmer,2,cloudyPark,KSW_Phases.afternoon,20000);
+	//scr_KSW_AddFish("Bubble Monkey",spr_KSW_Fish_BubbleMonkey,spr_KSW_Fish_BubbleMonkey_Pal,series_Mother,glimmer,1,cloudyPark,KSW_Phases.day,2000);
+	//scr_KSW_AddFish("Flying Man",spr_KSW_Fish_FlyingMan,spr_KSW_Fish_FlyingMan_Pal,series_Mother,candy,1,cloudyPark,KSW_Phases.day,2000);
+	//scr_KSW_AddFish("Balding Eagle",spr_KSW_Fish_BaldingEagle,spr_KSW_Fish_BaldingEagle_Pal,series_Mother,borange,0,cloudyPark,KSW_Phases.afternoon,300);
+	//scr_KSW_AddFish("Flying Mouse",spr_KSW_Fish_FlyingMouse,spr_KSW_Fish_FlyingMouse_Pal,series_Mother,mint,0,cloudyPark,KSW_Phases.afternoon,300);
+	//scr_KSW_AddFish("Rhinocerocket",spr_KSW_Fish_Rhinocerocket,spr_KSW_Fish_Rhinocerocket_Pal,series_Mother,borange,0,cloudyPark,KSW_Phases.afternoon,300);
+	//scr_KSW_AddFish("Batangutan",spr_KSW_Fish_Batangutan,spr_KSW_Fish_Batangutan_Pal,series_Mother,legion,0,cloudyPark,KSW_Phases.night,300);
+	//scr_KSW_AddFish("Ancient Dragonfly",spr_KSW_Fish_AncientDragonfly,spr_KSW_Fish_AncientDragonfly_Pal,series_Mother,glimmer,0,cloudyPark,KSW_Phases.day,300);
+	//scr_KSW_AddFish("Unwelcome Gust",spr_KSW_Fish_UnwelcomeGust,spr_KSW_Fish_UnwelcomeGust_Pal,series_Mother,glimmer,0,cloudyPark,KSW_Phases.day,300);
+	//scr_KSW_AddFish("Myrna",spr_KSW_Fish_Myrna,spr_KSW_Fish_Myrna_Pal,series_Mother,mint,1,cloudyPark,KSW_Phases.day,3000);
+	//scr_KSW_AddFish("Balloon Frog",spr_KSW_Fish_BalloonFrog,spr_KSW_Fish_BalloonFrog_Pal,series_Mother,mage,1,cloudyPark,KSW_Phases.day,3000);
+	//scr_KSW_AddFish("Butterfrog",spr_KSW_Fish_Butterfrog,spr_KSW_Fish_Butterfrog_Pal,series_Mother,candy,1,cloudyPark,KSW_Phases.day,3000);
 	
 	#endregion
 	#endregion

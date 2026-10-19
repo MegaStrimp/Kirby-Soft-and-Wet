@@ -129,7 +129,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("motherEncore","Mother: Encore");
 	scr_KSW_AddSeries("banjo","Banjo-Kazooie");
 	scr_KSW_AddSeries("haloDemake","Halo Combat Devolved");
-	scr_KSW_AddSeries("angryBirds","Angry Birds");
 	scr_KSW_AddSeries("geometryDash","Geometry Dash");
 	scr_KSW_AddSeries("metalGear","MetalGearSolid");
 	scr_KSW_AddSeries("fallout","Fallout");
