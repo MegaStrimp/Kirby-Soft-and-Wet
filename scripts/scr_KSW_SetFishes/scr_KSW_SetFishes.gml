@@ -2914,6 +2914,16 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Maestro",spr_KSW_Fish_Maestro,spr_KSW_Fish_Maestro_Pal,series_MM8BDM,mage,3,androidPort,KSW_Phases.none,20100);
 	//scr_KSW_AddFish("Evil Robot",spr_KSW_Fish_EvilRobot,spr_KSW_Fish_EvilRobot_Pal,series_MM8BDM,flux,3,cloudyPark,KSW_Phases.night,19960);
 	//scr_KSW_AddFish("Eclipse",spr_KSW_Fish_Eclipse,spr_KSW_Fish_Eclipse_Pal,series_MM8BDM,maze,3,cloudyPark,KSW_Phases.night,202000);
+	//scr_KSW_AddFish("Archdemon",spr_KSW_Fish_Archdemon,spr_KSW_Fish_Archdemon_Pal,series_Bloodstained,legion,1,cloudyPark,KSW_Phases.day,1000);
+	//scr_KSW_AddFish("Boom Parma",spr_KSW_Fish_BoomParma,spr_KSW_Fish_BoomParma_Pal,series_Bloodstained,flux,0,cloudyPark,KSW_Phases.afternoon,450);
+	//scr_KSW_AddFish("Dark Eagle",spr_KSW_Fish_DarkEagle,spr_KSW_Fish_DarkEagle_Pal,series_Bloodstained,flux,0,cloudyPark,KSW_Phases.night,450);
+	//scr_KSW_AddFish("Dullahammer Head",spr_KSW_Fish_DullahammerHead,spr_KSW_Fish_DullahammerHead_Pal,series_Bloodstained,legion,0,cloudyPark,KSW_Phases.afternoon,450);
+	//scr_KSW_AddFish("Fly",spr_KSW_Fish_Fly,spr_KSW_Fish_Fly_Pal,series_Bloodstained,borange,0,cloudyPark,KSW_Phases.day,450);
+	//scr_KSW_AddFish("Sabnock",spr_KSW_Fish_Sabnock,spr_KSW_Fish_Sabnock_Pal,series_Bloodstained,glimmer,1,cloudyPark,KSW_Phases.afternoon,1000);
+	//scr_KSW_AddFish("Terror Dactyl",spr_KSW_Fish_TerrorDactyl,spr_KSW_Fish_TerrorDactyl_Pal,series_Bloodstained,legion,0,cloudyPark,KSW_Phases.night,450);
+	//scr_KSW_AddFish("Titania",spr_KSW_Fish_Titania,spr_KSW_Fish_Titania_Pal,series_Bloodstained,mint,0,cloudyPark,KSW_Phases.night,450);
+	//scr_KSW_AddFish("Andrealphus",spr_KSW_Fish_Andrealphus,spr_KSW_Fish_Andrealphus_Pal,series_Bloodstained,maze,3,cloudyPark,KSW_Phases.night,40000);
+	//scr_KSW_AddFish("Gremory",spr_KSW_Fish_Gremory,spr_KSW_Fish_Gremory_Pal,series_Bloodstained,limit,3,cloudyPark,KSW_Phases.night,90000);
 	
 	#endregion
 	#endregion
