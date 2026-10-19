@@ -22,7 +22,9 @@ function scr_KSW_AddCharacter(targetID,targetName,targetIcon,targetBoxPalette,ta
 		
 		hats: [],
 		defaultHat: undefined,
-		equippedHat: -1
+		equippedHat: -1,
+		
+		caughtFishCount: 0
     };
 	
 	global.KSW_CharacterCount += 1;

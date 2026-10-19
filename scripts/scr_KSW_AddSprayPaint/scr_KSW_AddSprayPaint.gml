@@ -7,6 +7,7 @@ function scr_KSW_AddSprayPaint(targetID,targetCharacterID,targetName,targetSprit
 	ds_map_add(global.KSW_SprayPaintIDs,targetID,tempSprayPaintCount);
 	
 	global.KSW_SprayPaintCount[global.KSW_CharacterIDs[? targetCharacterID]] += 1;
+	global.KSW_TotalSprayPaintCount += 1;
 	
 	global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].sprayPaints[tempSprayPaintCount] = 
 	{

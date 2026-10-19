@@ -61,8 +61,13 @@ function scr_KSW_SaveData(file)
 		{
 			var characterID = global.KSW_CharacterList[i].ID;
 		
-			if (global.KSW_CharacterList[i].isUnlocked != false) ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
-		
+			if (global.KSW_CharacterList[i].isUnlocked != false)
+			{
+				ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
+				
+				if (global.KSW_CharacterList[i].caughtFishCount != 0) ini_write_real("characterStatus",string(characterID) + "_CaughtFishCount",global.KSW_CharacterList[i].caughtFishCount);
+			}
+			
 			#region Spray Paint Status
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
 			{

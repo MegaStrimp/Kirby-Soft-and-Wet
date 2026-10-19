@@ -69,6 +69,8 @@ function scr_KSW_LoadData(file,importFile = false)
 		
 		if (characterIsUnlocked) global.KSW_UnlockedCharacterCount += 1;
 		
+		global.KSW_CharacterList[i].caughtFishCount = ini_read_real("characterStatus",string(characterID) + "_CaughtFishCount",0);
+		
 		#region Spray Paint Status
 		global.KSW_UnlockedSprayPaintCount[i] = 0;
 		
