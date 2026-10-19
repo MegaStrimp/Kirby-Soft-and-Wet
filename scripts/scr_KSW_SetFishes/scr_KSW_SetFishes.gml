@@ -2072,7 +2072,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("K06",spr_KSW_Fish_K06,spr_KSW_Fish_K06_Pal,series_NightmareCollection,legion,2,androidPort,KSW_Phases.night,21996);
 	scr_KSW_AddFish("Ybrik's Fang",spr_KSW_Fish_YbriksFang,spr_KSW_Fish_YbriksFang_Pal,series_NightmareCollection,candy,1,hallowReen,KSW_Phases.night,2016);
 	scr_KSW_AddFish("Kibbly's Headband",spr_KSW_Fish_KibblysHeadband,spr_KSW_Fish_KibblysHeadband_Pal,series_NightmareCollection,candy,2,grassBeach,KSW_Phases.day,19920);
-	scr_KSW_AddFish("Stinger Bow",spr_KSW_Fish_StingerBow,spr_KSW_Fish_StingerBow_Pal,series_NightmareCollection,borange,2,grassBeach,KSW_Phases.day,19960);
+	scr_KSW_AddFish("Stinger Bow",spr_KSW_Fish_StingerBow,spr_KSW_Fish_StingerBow_Pal,series_NightmareCollection,borange,3,grassBeach,KSW_Phases.day,19960);
 	scr_KSW_AddFish("Scarfy.exe",spr_KSW_Fish_ScarfyExe,spr_KSW_Fish_ScarfyExe_Pal,series_DreamLandEXE,borange,1,hallowReen,KSW_Phases.night,500);
 	scr_KSW_AddFish("Kuamo",spr_KSW_Fish_Kuamo,spr_KSW_Fish_Kuamo_Pal,series_KirbyEXE,legion,2,grassBeach,KSW_Phases.night,3000);
 	scr_KSW_AddFish("Tormentis",spr_KSW_Fish_Tormentis,spr_KSW_Fish_Tormentis_Pal,series_KirbyEXE,mint,2,androidPort,KSW_Phases.night,8600);
