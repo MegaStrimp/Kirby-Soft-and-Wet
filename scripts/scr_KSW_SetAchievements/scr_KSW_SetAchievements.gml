@@ -776,7 +776,7 @@ function scr_KSW_SetAchievements()
 		
 		return (isUnlocked);
 	};
-	scr_KSW_AddAchievement("collectShinyBobbers1","Floater","Collect 1 Bobber",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("collectShinyBobbers1","A Reel Gem","Collect 1 Bobber",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,true);
 	#endregion
 	
 	#region Collect All Shiny Bobbers
@@ -791,7 +791,7 @@ function scr_KSW_SetAchievements()
 		
 		return (unlockedBobberCount >= floor(global.KSW_VisibleBobberCount));
 	};
-	scr_KSW_AddAchievement("collectShinyBobbersAll","Hook, Line, and Sinker","Collect All Bobbers",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("collectShinyBobbersAll","Hooked Til It Shines","Collect All Bobbers",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,true);
 	#endregion
 	#endregion
 	
