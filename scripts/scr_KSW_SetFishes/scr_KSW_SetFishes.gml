@@ -2944,6 +2944,12 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Myrna",spr_KSW_Fish_Myrna,spr_KSW_Fish_Myrna_Pal,series_Mother,mint,1,cloudyPark,KSW_Phases.day,3000);
 	//scr_KSW_AddFish("Balloon Frog",spr_KSW_Fish_BalloonFrog,spr_KSW_Fish_BalloonFrog_Pal,series_Mother,mage,1,cloudyPark,KSW_Phases.day,3000);
 	//scr_KSW_AddFish("Butterfrog",spr_KSW_Fish_Butterfrog,spr_KSW_Fish_Butterfrog_Pal,series_Mother,candy,1,cloudyPark,KSW_Phases.day,3000);
+	//scr_KSW_AddFish("Arrow (Side)",spr_KSW_Fish_ArrowSide,spr_KSW_Fish_ArrowSide_Pal,series_MegaManUnlimited,mint,0,cloudyPark,KSW_Phases.night,150);
+	//scr_KSW_AddFish("Bomb Attacker",spr_KSW_Fish_BombAttacker,spr_KSW_Fish_BombAttacker_Pal,series_MegaManUnlimited,flux,0,cloudyPark,KSW_Phases.night,150);
+	//scr_KSW_AddFish("Chicken Bomb",spr_KSW_Fish_ChickenBomb,spr_KSW_Fish_ChickenBomb_Pal,series_MegaManUnlimited,borange,0,cloudyPark,KSW_Phases.afternoon,150);
+	//scr_KSW_AddFish("Copter Cannon",spr_KSW_Fish_CopterCannon,spr_KSW_Fish_CopterCannon_Pal,series_MegaManUnlimited,mint,0,cloudyPark,KSW_Phases.day,150);
+	//scr_KSW_AddFish("Telly S",spr_KSW_Fish_TellyS,spr_KSW_Fish_TellyS_Pal,series_MegaManUnlimited,mage,0,cloudyPark,KSW_Phases.day,200);
+	//scr_KSW_AddFish("Shield Attacker S",spr_KSW_Fish_ShieldAttackerS,spr_KSW_Fish_ShieldAttackerS_Pal,series_MegaManUnlimited,flux,0,cloudyPark,KSW_Phases.night,450);
 	
 	#endregion
 	#endregion
