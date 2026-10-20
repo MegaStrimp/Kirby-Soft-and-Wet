@@ -451,6 +451,24 @@ function scr_KSW_SetAchievements()
 	scr_KSW_AddAchievement("catch1000Starman","Starman Lover","Catch 1000 Fish As Starman",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	#endregion
+	
+	#region Adventure Kirby
+	#region Catch 100 Fish As Adventure Kirby
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "adventureKirby"]].caughtFishCount >= 100);
+	};
+	scr_KSW_AddAchievement("catch100AdventureKirby","Adventure Kirby Fan","Catch 100 Fish As Starman",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
+	
+	#region Catch 1000 Fish As Adventure Kirby
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "adventureKirby"]].caughtFishCount >= 1000);
+	};
+	scr_KSW_AddAchievement("catch1000AdventureKirby","Adventure Kirby Lover","Catch 1000 Fish As Adventure Kirby",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
+	#endregion
 	#endregion
 	
 	#region Collect Spray Paints

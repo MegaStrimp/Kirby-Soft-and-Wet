@@ -629,6 +629,12 @@ if (!localPause)
 				var achievementID = global.KSW_AchievementIDs[? "catch1000Starman"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
+				var achievementID = global.KSW_AchievementIDs[? "catch100AdventureKirby"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catch1000AdventureKirby"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				var achievementID = global.KSW_AchievementIDs[? "catchUniqueGrassBeach"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
