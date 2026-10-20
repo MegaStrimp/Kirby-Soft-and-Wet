@@ -37,6 +37,18 @@ function scr_KSW_UI_Customize_Pages_SprayPaints_Select()
 				global.KSW_UnlockedSprayPaintCount[global.playerCharacter[playerNum]] += 1;
 				global.KSW_CharacterList[global.playerCharacter[playerNum]].sprayPaints[ds_list_find_value(selectionList,selection)].isUnlocked = true;
 				
+				var achievementID = global.KSW_AchievementIDs[? "collectSprayPaints1"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectSprayPaints30"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectSprayPaints50"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectSprayPaintsAll"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				isCompleted = (global.KSW_UnlockedSprayPaintCount[global.playerCharacter[playerNum]] >= global.KSW_SprayPaintCount[global.playerCharacter[playerNum]]);
 			}
 		}

@@ -4,6 +4,7 @@ function scr_KSW_SetSprayPaints()
 {
 	#region Setup
 	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++) global.KSW_SprayPaintCount[i] = 0;
+	global.KSW_TotalSprayPaintCount = 0;
 	
 	global.KSW_SprayPaintIDs = ds_map_create();
 	#endregion
