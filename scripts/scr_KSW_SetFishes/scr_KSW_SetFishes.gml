@@ -2950,6 +2950,10 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Copter Cannon",spr_KSW_Fish_CopterCannon,spr_KSW_Fish_CopterCannon_Pal,series_MegaManUnlimited,mint,0,cloudyPark,KSW_Phases.day,150);
 	//scr_KSW_AddFish("Telly S",spr_KSW_Fish_TellyS,spr_KSW_Fish_TellyS_Pal,series_MegaManUnlimited,mage,0,cloudyPark,KSW_Phases.day,200);
 	//scr_KSW_AddFish("Shield Attacker S",spr_KSW_Fish_ShieldAttackerS,spr_KSW_Fish_ShieldAttackerS_Pal,series_MegaManUnlimited,flux,0,cloudyPark,KSW_Phases.night,450);
+	//scr_KSW_AddFish("Breegull",spr_KSW_Fish_Breegull,spr_KSW_Fish_Breegull_Pal,series_Banjo,borange,1,cloudyPark,KSW_Phases.day,800);
+	//scr_KSW_AddFish("Alfred P. Cock",spr_KSW_Fish_AlfredPCock,spr_KSW_Fish_AlfredPCock_Pal,series_Banjo,candy,1,cloudyPark,KSW_Phases.day,900);
+	//scr_KSW_AddFish("Honey B.",spr_KSW_Fish_HoneyB,spr_KSW_Fish_HoneyB_Pal,series_Banjo,glimmer,2,cloudyPark,KSW_Phases.day,7000);
+	//scr_KSW_AddFish("Kazooie",spr_KSW_Fish_Kazooie,spr_KSW_Fish_Kazooie_Pal,series_Banjo,borange,3,cloudyPark,KSW_Phases.day,15000);
 	
 	#endregion
 	#endregion
