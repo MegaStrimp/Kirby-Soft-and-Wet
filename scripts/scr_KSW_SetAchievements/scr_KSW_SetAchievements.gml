@@ -733,6 +733,14 @@ function scr_KSW_SetAchievements()
 	};
 	scr_KSW_AddAchievement("catchUniqueAndroidPort","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
+	
+	#region Catch All Unique Fish In Fountain of Dreams
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_StageList[? "fountainOfDreams"].fishCount >= global.KSW_StageList[? "fountainOfDreams"].fishCountMax);
+	};
+	scr_KSW_AddAchievement("catchUniqueFountainOfDreams","Dream a Little Dream","Catch All Unique Fish In Fountain of Dreams",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
 	#endregion
 	
 	#region Playtime
