@@ -25,7 +25,8 @@ function scr_KSW_AddStage(targetID,targetName,targetIcon,targetDayLayout,targetD
 		fishCountMax: 0,
 		fishCount: 0,
 		isAvailable: false,
-		isUnlocked: false
+		isUnlocked: false,
+		caughtFishCount: 0
     };
 	
 	global.KSW_StageCount += 1;

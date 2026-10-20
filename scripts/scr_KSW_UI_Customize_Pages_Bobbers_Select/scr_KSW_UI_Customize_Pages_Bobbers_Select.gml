@@ -37,6 +37,18 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Select()
 				
 				scr_KSW_ObtainBobber(ds_list_find_value(selectionList,selection));
 				
+				var achievementID = global.KSW_AchievementIDs[? "collectBobbers1"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectBobbers30"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectBobbers50"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectBobbersAll"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				isCompleted = (global.KSW_UnlockedBobberCount >= global.KSW_VisibleBobberCount);
 			}
 		}

@@ -408,6 +408,18 @@ if (!localPause)
 			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + (min(3 + (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]),floor(global.KSW_CurrentFishCombo / 15))) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
 			global.KSW_CurrentCoins += targetCoins;
 			global.KSW_TotalCoins += targetCoins;
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins50"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins200"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins3000"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins10000"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			#endregion
 			
 			#region Bobber Shiny Caught Number
@@ -425,6 +437,12 @@ if (!localPause)
 					global.KSW_EquippedBobberIsShiny[playerNum] = true;
 				}
 			}
+			
+			var achievementID = global.KSW_AchievementIDs[? "collectShinyBobbers1"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "collectShinyBobbersAll"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			#endregion
 			
 			global.KSW_CaughtTotalFishCount += 1;
@@ -432,6 +450,7 @@ if (!localPause)
 			global.KSW_HighestFishCombo = max(global.KSW_HighestFishCombo,global.KSW_CurrentFishCombo);
 			global.KSW_FishList[other.currentFish].isCaught += 1;
 			global.KSW_CharacterList[global.playerCharacter[playerNum]].caughtFishCount += 1;
+			global.KSW_StageList[global.KSW_CurrentStageID].caughtFishCount += 1;
 			if (other.currentFishIsShiny) global.KSW_FishList[other.currentFish].isCaughtShiny += 1;
 			catchCombo_YOffsetTimer = catchCombo_YOffsetTimerMax;
 			
@@ -608,6 +627,21 @@ if (!localPause)
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
 				var achievementID = global.KSW_AchievementIDs[? "catch1000Starman"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueGrassBeach"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueCreamCrevasse"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueHallowReen"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueSerranoSprings"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueAndroidPort"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
 				scr_KSW_Game_UpdateDiscord();

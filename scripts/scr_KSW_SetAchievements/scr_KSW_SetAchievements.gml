@@ -165,14 +165,6 @@ function scr_KSW_SetAchievements()
 	};
 	scr_KSW_AddAchievement("catchUniqueAll","Completionist","Collect All Unique Fishes",spr_KSW_Achievement_Icon_Completionist,achievementUnlockMethod,global.KSW_BobberIDs[? "rainbowDrop"]);
 	#endregion
-	
-	#region Collect All Shinies
-	var achievementUnlockMethod = function()
-	{
-		return (global.KSW_CaughtShinyFishCount >= global.KSW_FishCount);
-	};
-	scr_KSW_AddAchievement("catchShinyAll","True Omni","Collect All Shinies",spr_KSW_Achievement_Icon_TrueOmni,achievementUnlockMethod,,true);
-	#endregion
 	#endregion
 	
 	#region Get Grams
@@ -683,7 +675,46 @@ function scr_KSW_SetAchievements()
 	#endregion
 	#endregion
 	
-	#region Catch Unique Fish In Stages
+	#region Catch All Unique Fish In Stages
+	#region Catch All Unique Fish In Grass Beach
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_StageList[? "grassBeach"].fishCount >= global.KSW_StageList[? "grassBeach"].fishCountMax);
+	};
+	scr_KSW_AddAchievement("catchUniqueGrassBeach","Ice Cream Islander","Catch All Unique Fish In Grass Beach",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
+	
+	#region Catch All Unique Fish In Cream Crevasse
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_StageList[? "creamCrevasse"].fishCount >= global.KSW_StageList[? "creamCrevasse"].fishCountMax);
+	};
+	scr_KSW_AddAchievement("catchUniqueCreamCrevasse","Snowman's Land","Catch All Unique Fish In Cream Crevasse",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
+	
+	#region Catch All Unique Fish In Hallow Reen
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_StageList[? "hallowReen"].fishCount >= global.KSW_StageList[? "hallowReen"].fishCountMax);
+	};
+	scr_KSW_AddAchievement("catchUniqueHallowReen","Scary Monster","Catch All Unique Fish In Hallow Reen",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
+	
+	#region Catch All Unique Fish In Serrano Springs
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_StageList[? "serranoSprings"].fishCount >= global.KSW_StageList[? "serranoSprings"].fishCountMax);
+	};
+	scr_KSW_AddAchievement("catchUniqueSerranoSprings","Hotty Heaty Volcano","Catch All Unique Fish In Serrano Springs",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
+	
+	#region Catch All Unique Fish In Android Port
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_StageList[? "androidPort"].fishCount >= global.KSW_StageList[? "androidPort"].fishCountMax);
+	};
+	scr_KSW_AddAchievement("catchUniqueAndroidPort","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
 	#endregion
 	
 	#region Playtime
@@ -719,6 +750,48 @@ function scr_KSW_SetAchievements()
 		return (global.KSW_CaughtShinyFishCount >= 1);
 	};
 	scr_KSW_AddAchievement("catchShiny","Geiger Counter","Catch an Anomaly",spr_KSW_Achievement_Icon_GeigerCounter,achievementUnlockMethod,global.KSW_BobberIDs[? "zero"]);
+	#endregion
+	
+	#region Catch All Shinies
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_CaughtShinyFishCount >= global.KSW_FishCount);
+	};
+	scr_KSW_AddAchievement("catchShinyAll","True Omni","Collect All Shinies",spr_KSW_Achievement_Icon_TrueOmni,achievementUnlockMethod,,true);
+	#endregion
+	
+	#region Collect 1 Shiny Bobber
+	var achievementUnlockMethod = function()
+	{
+		var isUnlocked = 0;
+		
+		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
+		{
+			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].shinyIsUnlocked))
+			{
+				isUnlocked = true;
+				break;
+			}
+		}
+		
+		return (isUnlocked);
+	};
+	scr_KSW_AddAchievement("collectShinyBobbers1","Floater","Collect 1 Bobber",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	#endregion
+	
+	#region Collect All Shiny Bobbers
+	var achievementUnlockMethod = function()
+	{
+		var unlockedBobberCount = 0;
+		
+		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
+		{
+			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].shinyIsUnlocked)) unlockedBobberCount += 1;
+		}
+		
+		return (unlockedBobberCount >= floor(global.KSW_VisibleBobberCount));
+	};
+	scr_KSW_AddAchievement("collectShinyBobbersAll","Hook, Line, and Sinker","Collect All Bobbers",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	#endregion
 	

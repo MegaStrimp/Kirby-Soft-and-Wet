@@ -164,6 +164,8 @@ function scr_KSW_LoadData(file,importFile = false)
 		if (stageIsAvailable) global.KSW_AvailableStageCount += 1;
 		if (stageIsUnlocked) global.KSW_UnlockedStageCount += 1;
 		
+		global.KSW_StageList[i].caughtFishCount = ini_read_real("characterStatus",string(stageID) + "_CaughtFishCount",0);
+		
 		global.KSW_StageList[i].fishCount = 0;
 	}
 	#endregion

@@ -115,6 +115,7 @@ function scr_KSW_SaveData(file)
 		
 			if (global.KSW_StageList[i].isAvailable != false) ini_write_real("stageStatus",string(stageID) + "_IsAvailable",global.KSW_StageList[i].isAvailable);
 			if (global.KSW_StageList[i].isUnlocked != false) ini_write_real("stageStatus",string(stageID) + "_IsUnlocked",global.KSW_StageList[i].isUnlocked);
+			if (global.KSW_StageList[i].caughtFishCount != 0) ini_write_real("stageStatus",string(stageID) + "_CaughtFishCount",global.KSW_StageList[i].caughtFishCount);
 		}
 		#endregion
 	
