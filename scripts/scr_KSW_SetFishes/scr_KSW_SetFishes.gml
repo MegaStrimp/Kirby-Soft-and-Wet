@@ -2894,6 +2894,7 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Green Biker Dude",spr_KSW_Fish_GreenBikerDude,spr_KSW_Fish_GreenBikerDude_Pal,series_MegaManXRegenesis,mage,3,creamCrevasse,KSW_Phases.night,20260);
 	//scr_KSW_AddFish("Dancing Pumpkin",spr_KSW_Fish_DancingPumpkin,spr_KSW_Fish_DancingPumpkin_Pal,series_Deltarune,limit,1,hallowReen,KSW_Phases.none,2500);
 	//scr_KSW_AddFish("Kelp",spr_KSW_Fish_Kelp,spr_KSW_Fish_Kelp_Pal,series_Minecraft,legion,0,grassBeach,KSW_Phases.none,10);
+	scr_KSW_AddFish("Ink Sac",spr_KSW_Fish_InkSac,spr_KSW_Fish_InkSac_Pal,series_Minecraft,legion,0,grassBeach,KSW_Phases.none,40);
 	//scr_KSW_AddFish("Snowball",spr_KSW_Fish_Snowball,spr_KSW_Fish_Snowball_Pal,series_Minecraft,mage,0,creamCrevasse,KSW_Phases.none,10);
 	//scr_KSW_AddFish("Icicle",spr_KSW_Fish_Icicle,spr_KSW_Fish_Icicle_Pal,series_Minecraft,maze,0,creamCrevasse,KSW_Phases.none,30);
 	//scr_KSW_AddFish("Powder Snow Bucket",spr_KSW_Fish_PowderSnowBucket,spr_KSW_Fish_PowderSnowBucket_Pal,series_Minecraft,legion,1,creamCrevasse,KSW_Phases.none,100);
