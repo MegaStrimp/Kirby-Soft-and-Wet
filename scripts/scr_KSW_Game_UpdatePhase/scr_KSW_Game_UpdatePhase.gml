@@ -21,5 +21,20 @@ function scr_KSW_Game_UpdatePhase()
 	
 	if (global.KSW_ForcedPhase != KSW_Phases.none) targetPhase = global.KSW_ForcedPhase;
 	
+	switch (targetPhase)
+	{
+		case KSW_Phases.day:
+		global.KSW_BubblePalette = spr_KSW_UI_CatchInput_Palette_Day;
+		break;
+		
+		case KSW_Phases.afternoon:
+		global.KSW_BubblePalette = spr_KSW_UI_CatchInput_Palette_Afternoon;
+		break;
+		
+		case KSW_Phases.night:
+		global.KSW_BubblePalette = spr_KSW_UI_CatchInput_Palette_Night;
+		break;
+	}
+	
 	return targetPhase;
 }

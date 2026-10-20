@@ -84,7 +84,7 @@ function scr_KSW_SetNotifs()
 	
 	var text = ["Impossible! You have collected every [#FFD726]Shiny[/color] there is!",
 	"You have proven yourself as the [#8E68C1]True Conquerer of the Ocean[/color]!",
-	"* Unlocked the [#8E68C1]Legend of the Night[/color] bobber!"];
+	"You have unlocked the [#8E68C1]Legend of the Night[/color] bobber!"];
 	
 	var image = [spr_KSW_UI_NotifBox_Image_Legend1,
 	spr_KSW_UI_NotifBox_Image_Legend2,

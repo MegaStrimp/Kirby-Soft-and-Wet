@@ -257,7 +257,13 @@ if (canSelect)
 		#region Export Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
-			if ((!global.isMobile) and (!global.isOpera))
+			if (global.isMobile)
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				scr_KSW_ExportSaveFile();
+			}
+			else if (!global.isOpera)
 			{
 				scr_PlaySfx(snd_KSW_ButtonChange);
 				
@@ -276,7 +282,13 @@ if (canSelect)
 		#region Import Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
-			if ((!global.isMobile) and (!global.isOpera))
+			if (global.isMobile)
+			{
+				scr_PlaySfx(snd_KSW_ButtonChange);
+				
+				scr_KSW_ImportSaveFile();
+			}
+			else if (!global.isOpera)
 			{
 				scr_PlaySfx(snd_KSW_ButtonChange);
 				
@@ -993,6 +1005,19 @@ if (canSelect)
 	}
 	
 	//if (targetKey != "") and (keyboard_check_pressed(vk_escape)) targetKey = "";
+}
+#endregion
+
+#region Bubble Timer
+if (bubbleTimer != -1)
+{
+	bubbleTimer = max(bubbleTimer - speedMultFinal,0);
+	if (bubbleTimer == 0)
+	{
+		scr_KSW_ParticleSet_Bubble(irandom_range(-10,room_width + 10),room_height,random_range(-.2,.2),irandom_range(-3,-2));
+		
+		bubbleTimer = bubbleTimerMax;
+	}
 }
 #endregion
 

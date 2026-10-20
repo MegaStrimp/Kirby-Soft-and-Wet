@@ -18,9 +18,21 @@ if (state == KSW_GameStates.idle)
 	scribble(string(formattedCoins) + "[spr_KSW_UI_Coin]").align(fa_right).draw(236,13 - hintOffset - (2 * (displayedCoins_YOffsetTimer != -1)));
 	#endregion
 	
-	#region Catch Combo
-	if ((global.KSW_CurrentFishCombo > 1) and (!canOffset)) scribble("[#FF7F94] CATCH COMBO " + string(global.KSW_CurrentFishCombo) + "[/color]").align(fa_right).draw(236,120 - (2 * (catchCombo_YOffsetTimer != -1)));
-	#endregion
+	if (global.KSW_CurrentEvent == -1)
+	{
+		#region Catch Combo
+		if ((global.KSW_CurrentFishCombo > 1) and (!canOffset)) scribble("[#FF7F94] CATCH COMBO " + string(global.KSW_CurrentFishCombo) + "[/color]").align(fa_right).draw(236,120 - (2 * (catchCombo_YOffsetTimer != -1)));
+		#endregion
+	}
+	else
+	{
+		#region Event Title
+		var eventTitle = global.KSW_EventList[global.KSW_CurrentEvent].name;
+		var eventColor = global.KSW_EventList[global.KSW_CurrentEvent].color;
+		
+		if (!canOffset) scribble("[" + string(eventColor) + "][wave] " + string(eventTitle) + "[/color][/wave]").gradient(c_white,1).align(fa_right).draw(236,120 - (2 * (catchCombo_YOffsetTimer != -1)));
+		#endregion
+	}
 }
 
 #region Catch Inputs
@@ -31,62 +43,86 @@ if ((state == KSW_GameStates.waiting) or (state == KSW_GameStates.waiting_End) o
 	
 	if (catchInput_UpTriggered)
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,174,40);
 		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,174,40,1,1,0,color,1);
+		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("up"))];
 		if (targetIcon != undefined) draw_sprite(targetIcon,0,169,35 + (2 * (buttonInputTimerComponent_UpTimer != -1)));
 		
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,174,40);
+		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput,0,174,40 + (2 * (buttonInputTimerComponent_UpTimer != -1)));
+		if (global.shaders) pal_swap_reset();
 	}
 	
 	if (catchInput_DownTriggered)
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,174,88);
 		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,174,88,1,1,0,color,1);
+		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("down"))];
 		if (targetIcon != undefined) draw_sprite(targetIcon,0,169,83 + (2 * (buttonInputTimerComponent_DownTimer != -1)));
 		
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,174,88);
+		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput,0,174,88 + (2 * (buttonInputTimerComponent_DownTimer != -1)));
+		if (global.shaders) pal_swap_reset();
 	}
 	
 	if (catchInput_LeftTriggered)
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,150,64);
 		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,150,64,1,1,0,color,1);
+		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("left"))];
 		if (targetIcon != undefined) draw_sprite(targetIcon,0,145,59 + (2 * (buttonInputTimerComponent_LeftTimer != -1)));
 		
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,150,64);
+		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput,0,150,64 + (2 * (buttonInputTimerComponent_LeftTimer != -1)));
+		if (global.shaders) pal_swap_reset();
 	}
 	
 	if (catchInput_RightTriggered)
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,198,64);
 		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,198,64,1,1,0,color,1);
+		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("right"))];
 		if (targetIcon != undefined) draw_sprite(targetIcon,0,193,59 + (2 * (buttonInputTimerComponent_RightTimer != -1)));
 		
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,198,64);
+		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
+		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
 		draw_sprite(spr_KSW_UI_CatchInput,0,198,64 + (2 * (buttonInputTimerComponent_RightTimer != -1)));
+		if (global.shaders) pal_swap_reset();
 	}
 }
 #endregion
@@ -107,10 +143,10 @@ if (failTimer != -1)
 	gpu_set_blendmode_ext(bm_dest_alpha,bm_inv_dest_alpha);
 	gpu_set_alphatestenable(true);
 	
-	draw_sprite(spr_KSW_UI_FailTimerBar_Back,0,75,28);
+	draw_sprite(failBarBackDefault,0,75,28);
 	for (var i = 0; i < 6; i++)
 	{
-		draw_sprite(spr_KSW_UI_FailTimerBar_Texture,0,75 + failTimerBarTextureX + ((i - 1) * failTimerBarTextureWidth),28);
+		draw_sprite(failBarTexture,0,75 + failTimerBarTextureX + ((i - 1) * failTimerBarTextureWidth),28);
 		draw_sprite(spr_KSW_UI_FailTimerBar_Shine,0,72,28);
 	}
 	

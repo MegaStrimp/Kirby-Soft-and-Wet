@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Gnome_Pal",
   "bboxMode":0,
-  "bbox_bottom":253,
+  "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":3,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d4980661-bcea-4962-9a7b-27e74f58e19c","name":"d4980661-bcea-4962-9a7b-27e74f58e19c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7b56967-99c7-4662-9bff-176927195d9b","name":"f7b56967-99c7-4662-9bff-176927195d9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":254,
+  "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2bb9b5d3-58c1-4cb8-8094-83c30355df68","blendMode":0,"displayName":"default","isLocked":false,"name":"2bb9b5d3-58c1-4cb8-8094-83c30355df68","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"20de66ed-9c44-4419-b854-c4724346c7f5","blendMode":0,"displayName":"default","isLocked":false,"name":"20de66ed-9c44-4419-b854-c4724346c7f5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Fish_Gnome_Pal",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4980661-bcea-4962-9a7b-27e74f58e19c","path":"sprites/spr_KSW_Fish_Gnome_Pal/spr_KSW_Fish_Gnome_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b238679a-4f5f-432b-8496-ff8fe7f835e6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7b56967-99c7-4662-9bff-176927195d9b","path":"sprites/spr_KSW_Fish_Gnome_Pal/spr_KSW_Fish_Gnome_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"80f1e524-bbb8-4dca-afc3-63a29e686ca0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

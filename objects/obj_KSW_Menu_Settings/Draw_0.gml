@@ -25,7 +25,12 @@ for (var h = -1; h < 10; h++)
 	var bubbleX = musicText.get_width() + 16 + (10 * h);
 	var bubbleY = startY + (space * i) + wave;
 	
-	if (h != -1) draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+	if (h != -1)
+	{
+		if ((global.shaders) and (bubbleIsActive)) pal_swap_set(global.KSW_BubblePalette,1,false);
+		draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+		if ((global.shaders) and (bubbleIsActive)) pal_swap_reset();
+	}
 	
 	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
 	{
@@ -53,7 +58,12 @@ for (var h = -1; h < 10; h++)
 	var bubbleX = soundText.get_width() + 16 + (10 * h);
 	var bubbleY = startY + (space * i) + wave;
 	
-	if (h != -1) draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+	if (h != -1)
+	{
+		if ((global.shaders) and (bubbleIsActive)) pal_swap_set(global.KSW_BubblePalette,1,false);
+		draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+		if ((global.shaders) and (bubbleIsActive)) pal_swap_reset();
+	}
 	
 	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
 	{
@@ -145,7 +155,7 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-if ((!global.isMobile) and (!global.isOpera))
+if ((global.isMobile) or (!global.isOpera))
 {
 	scribble("EXPORT SAVE").draw(8,startY + (space * i));
 }
@@ -164,7 +174,7 @@ if (selection == i)
 	scribble_font_set_default("fnt_Advance");
 }
 
-if ((!global.isMobile) and (!global.isOpera))
+if ((global.isMobile) or (!global.isOpera))
 {
 	scribble("IMPORT SAVE").draw(8,startY + (space * i));
 }

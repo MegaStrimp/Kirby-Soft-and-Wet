@@ -20,6 +20,9 @@ dragActive = false;
 dragStartY = 0;
 dragStartScroll = 0;
 listScroll = 0;
+
+bubbleTimer = 0;
+bubbleTimerMax = 10;
 #endregion
 
 #region Keys

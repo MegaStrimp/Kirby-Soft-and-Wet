@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1f06f239-7377-42ba-88cd-cf4dc2bc829e","name":"1f06f239-7377-42ba-88cd-cf4dc2bc829e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"baac4c33-afeb-4ee3-800b-ae9156bdcb06","name":"baac4c33-afeb-4ee3-800b-ae9156bdcb06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":15,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c313418f-9efc-4aa5-857b-028e725551d0","blendMode":0,"displayName":"default","isLocked":false,"name":"c313418f-9efc-4aa5-857b-028e725551d0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9a7b6942-736c-43c8-aa54-dc803117b332","blendMode":0,"displayName":"default","isLocked":false,"name":"9a7b6942-736c-43c8-aa54-dc803117b332","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Bobber_SurvivalBurger_Pal",
   "nineSlice":null,
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1f06f239-7377-42ba-88cd-cf4dc2bc829e","path":"sprites/spr_KSW_Bobber_SurvivalBurger_Pal/spr_KSW_Bobber_SurvivalBurger_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3931c180-ad6e-4a9b-9d96-d28eeead75ae","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"baac4c33-afeb-4ee3-800b-ae9156bdcb06","path":"sprites/spr_KSW_Bobber_SurvivalBurger_Pal/spr_KSW_Bobber_SurvivalBurger_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"24ed9db5-0a6e-4e3c-b2a5-e32748a0240c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

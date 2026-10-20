@@ -17,6 +17,8 @@ shineEffectAngle = (shineEffectAngle + 1) % 360;
 #endregion
 
 #region Selection
+var swipeResult = scr_KSW_Menu_Component_Swipe();
+
 if (canSelect)
 {
 	if (!isZoomed)
@@ -40,8 +42,6 @@ if (canSelect)
 		{
 			scr_KSW_Menu_Component_Navigate_Right();
 		}
-		
-		var swipeResult = scr_KSW_Menu_Component_Swipe();
 		
 		if ((input_check_pressed("L",playerNum)) or ((scr_MouseIsInbetween(71,3,82,15)) and (mouse_check_button_pressed(mb_left))) or (swipeResult == -1))
 		{

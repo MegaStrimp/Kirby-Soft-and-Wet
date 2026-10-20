@@ -24,7 +24,7 @@ isFull = false;
 fishList = ds_list_create();
 
 maxFishCount = 600;
-if ((global.isMobile) or (global.isOpera)) maxFishCount = 30;
+if ((global.isMobile) or (global.isOpera)) maxFishCount = 300;
 
 for (var i = 0; i < global.KSW_FishCount; i++)
 {

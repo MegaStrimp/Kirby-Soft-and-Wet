@@ -16,6 +16,10 @@ function scr_KSW_SaveData(file)
 		}
 	
 		ini_open(fileFinal);
+		
+		#region Meta
+		ini_write_string("meta","versionNumber",global.versionNumber);
+		#endregion
 	
 		#region Gameplay
 		if (global.levelScoreCurrent != 0) ini_write_real("gameplay","score",global.levelScoreCurrent);
@@ -57,8 +61,13 @@ function scr_KSW_SaveData(file)
 		{
 			var characterID = global.KSW_CharacterList[i].ID;
 		
-			if (global.KSW_CharacterList[i].isUnlocked != false) ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
-		
+			if (global.KSW_CharacterList[i].isUnlocked != false)
+			{
+				ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
+				
+				if (global.KSW_CharacterList[i].caughtFishCount != 0) ini_write_real("characterStatus",string(characterID) + "_CaughtFishCount",global.KSW_CharacterList[i].caughtFishCount);
+			}
+			
 			#region Spray Paint Status
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
 			{
@@ -106,6 +115,7 @@ function scr_KSW_SaveData(file)
 		
 			if (global.KSW_StageList[i].isAvailable != false) ini_write_real("stageStatus",string(stageID) + "_IsAvailable",global.KSW_StageList[i].isAvailable);
 			if (global.KSW_StageList[i].isUnlocked != false) ini_write_real("stageStatus",string(stageID) + "_IsUnlocked",global.KSW_StageList[i].isUnlocked);
+			if (global.KSW_StageList[i].caughtFishCount != 0) ini_write_real("stageStatus",string(stageID) + "_CaughtFishCount",global.KSW_StageList[i].caughtFishCount);
 		}
 		#endregion
 	

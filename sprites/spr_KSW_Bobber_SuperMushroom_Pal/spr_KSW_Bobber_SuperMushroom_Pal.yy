@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6be57f4b-8ed5-41e0-b9c6-8fbf6e18da0a","name":"6be57f4b-8ed5-41e0-b9c6-8fbf6e18da0a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff503f10-fff9-4a99-a532-cdddd9a6d28d","name":"ff503f10-fff9-4a99-a532-cdddd9a6d28d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":12,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4bb59ade-0579-4ff8-a36d-d87b4cd6a71a","blendMode":0,"displayName":"default","isLocked":false,"name":"4bb59ade-0579-4ff8-a36d-d87b4cd6a71a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5076b095-3a98-4ba7-b1c6-c26401c6c70b","blendMode":0,"displayName":"default","isLocked":false,"name":"5076b095-3a98-4ba7-b1c6-c26401c6c70b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Bobber_SuperMushroom_Pal",
   "nineSlice":null,
@@ -76,8 +76,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6be57f4b-8ed5-41e0-b9c6-8fbf6e18da0a","path":"sprites/spr_KSW_Bobber_SuperMushroom_Pal/spr_KSW_Bobber_SuperMushroom_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e6937443-f61c-445a-909b-02bbf8f82e2b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ff503f10-fff9-4a99-a532-cdddd9a6d28d","path":"sprites/spr_KSW_Bobber_SuperMushroom_Pal/spr_KSW_Bobber_SuperMushroom_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"39285c2c-25de-4b4a-9dcd-de311fab106e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
