@@ -2969,6 +2969,16 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Phalanx",spr_KSW_Fish_Phalanx,spr_KSW_Fish_Phalanx_Pal,series_GhoulsNGhosts,flux,2,cloudyPark,KSW_Phases.night,19940);
 	//scr_KSW_AddFish("Firebrand (Aerial)",spr_KSW_Fish_FirebrandAerial,spr_KSW_Fish_FirebrandAerial_Pal,series_GhoulsNGhosts,flux,2,cloudyPark,KSW_Phases.day,19940);
 	//scr_KSW_AddFish("Firebrand (Legendary)",spr_KSW_Fish_FirebrandLegendary,spr_KSW_Fish_FirebrandLegendary_Pal,series_GhoulsNGhosts,limit,3,cloudyPark,KSW_Phases.none,199400);
+	//scr_KSW_AddFish("Bunby Top",spr_KSW_Fish_BunbyTop,spr_KSW_Fish_BunbyTop_Pal,series_MegaMan,mage,0,cloudyPark,KSW_Phases.day,700);
+	//scr_KSW_AddFish("DeluPipi",spr_KSW_Fish_DeluPipi,spr_KSW_Fish_DeluPipi_Pal,series_MegaMan,legion,0,cloudyPark,KSW_Phases.day,700);
+	//scr_KSW_AddFish("Gobot",spr_KSW_Fish_Gobot,spr_KSW_Fish_Gobot_Pal,series_MegaMan,legion,0,cloudyPark,KSW_Phases.day,700);
+	//scr_KSW_AddFish("Kaminari Kogoro",spr_KSW_Fish_KaminariKogoro,spr_KSW_Fish_KaminariKogoro_Pal,series_MegaMan,legion,0,cloudyPark,KSW_Phases.day,700);
+	//scr_KSW_AddFish("Tel Tel",spr_KSW_Fish_TelTel,spr_KSW_Fish_TelTel_Pal,series_MegaMan,legion,0,cloudyPark,KSW_Phases.day,700);
+	//scr_KSW_AddFish("Boufooh",spr_KSW_Fish_Boufooh,spr_KSW_Fish_Boufooh_Pal,series_MegaMan,legion,0,cloudyPark,KSW_Phases.day,7000);
+	//scr_KSW_AddFish("Gockroach S",spr_KSW_Fish_GockroachS,spr_KSW_Fish_GockroachS_Pal,series_MegaMan,borange,0,cloudyPark,KSW_Phases.afternoon,700);
+	//scr_KSW_AddFish("Heli Metall",spr_KSW_Fish_HeliMetall,spr_KSW_Fish_HeliMetall_Pal,series_MegaMan,mint,0,cloudyPark,KSW_Phases.afternoon,700);
+	//scr_KSW_AddFish("Tripropellan",spr_KSW_Fish_Tripropellan,spr_KSW_Fish_Tripropellan_Pal,series_MegaMan,flux,0,cloudyPark,KSW_Phases.afternoon,700);
+	//scr_KSW_AddFish("Wily Capsule",spr_KSW_Fish_WilyCapsule,spr_KSW_Fish_WilyCapsule_Pal,series_MegaMan,limit,3,cloudyPark,KSW_Phases.none,199500);
 	
 	#endregion
 	#endregion
