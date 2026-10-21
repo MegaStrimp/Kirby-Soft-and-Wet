@@ -2978,7 +2978,9 @@ function scr_KSW_SetFishes()
 	//scr_KSW_AddFish("Gockroach S",spr_KSW_Fish_GockroachS,spr_KSW_Fish_GockroachS_Pal,series_MegaMan,borange,0,cloudyPark,KSW_Phases.afternoon,700);
 	//scr_KSW_AddFish("Heli Metall",spr_KSW_Fish_HeliMetall,spr_KSW_Fish_HeliMetall_Pal,series_MegaMan,mint,0,cloudyPark,KSW_Phases.afternoon,700);
 	//scr_KSW_AddFish("Tripropellan",spr_KSW_Fish_Tripropellan,spr_KSW_Fish_Tripropellan_Pal,series_MegaMan,flux,0,cloudyPark,KSW_Phases.afternoon,700);
+	//scr_KSW_AddFish("HannyaNED²",spr_KSW_Fish_HannyaNED2,spr_KSW_Fish_HannyaNED2_Pal,series_MegaMan,flux,3,cloudyPark,KSW_Phases.night,70000);
 	//scr_KSW_AddFish("Wily Capsule",spr_KSW_Fish_WilyCapsule,spr_KSW_Fish_WilyCapsule_Pal,series_MegaMan,limit,3,cloudyPark,KSW_Phases.none,199500);
+	
 	
 	#endregion
 	#endregion
