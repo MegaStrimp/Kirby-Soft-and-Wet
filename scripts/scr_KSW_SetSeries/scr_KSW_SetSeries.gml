@@ -154,5 +154,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("dreamCrafter","Dream Crafter");
 	scr_KSW_AddSeries("shyGuySurfing","Shy Guy Surfing");
 	scr_KSW_AddSeries("jjba","JoJo's Bizarre Adventure");
+	scr_KSW_AddSeries("brutalOrchestra","Hieronymus Bosch's Brutal Orchestra");
 	#endregion
 }

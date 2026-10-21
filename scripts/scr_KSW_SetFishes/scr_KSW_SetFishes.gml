@@ -155,6 +155,7 @@ function scr_KSW_SetFishes()
 	var series_DreamCrafter = global.KSW_SeriesIDs[? "dreamCrafter"];
 	var series_ShyGuySurfing = global.KSW_SeriesIDs[? "shyGuySurfing"];
 	var series_JJBA = global.KSW_SeriesIDs[? "jjba"];
+	var series_BrutalOrchestra = global.KSW_SeriesIDs[? "brutalOrchestra"];
 	#endregion
 	
 	#region Stages
@@ -2609,6 +2610,22 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Shy Guy (Surfing)",spr_KSW_Fish_ShyGuySurfing,spr_KSW_Fish_ShyGuySurfing_Pal,series_ShyGuySurfing,candy,2,grassBeach,KSW_Phases.day,20240);
 	scr_KSW_AddFish("Gyro Zeppeli",spr_KSW_Fish_GyroZeppeli,spr_KSW_Fish_GyroZeppeli_Pal,series_JJBA,borange,3,serranoSprings,KSW_Phases.afternoon,200000);
 	scr_KSW_AddFish("Baoh",spr_KSW_Fish_Baoh,spr_KSW_Fish_Baoh_Pal,series_JJBA,mage,2,serranoSprings,KSW_Phases.night,19840);
+	scr_KSW_AddFish("The World According To Fish",spr_KSW_Fish_TheWorldAccordingToFish,spr_KSW_Fish_TheWorldAccordingToFish_Pal,series_Misc,mage,3,anyStage,KSW_Phases.none,100000);
+	scr_KSW_AddFish("Nowak",spr_KSW_Fish_Nowak,spr_KSW_Fish_Nowak_Pal,series_BrutalOrchestra,glimmer,0,anyStage,KSW_Phases.none,2300);
+	scr_KSW_AddFish("Bosch",spr_KSW_Fish_Bosch,spr_KSW_Fish_Bosch_Pal,series_BrutalOrchestra,flux,0,anyStage,KSW_Phases.none,2300);
+	scr_KSW_AddFish("Boyle",spr_KSW_Fish_Boyle,spr_KSW_Fish_Boyle_Pal,series_BrutalOrchestra,legion,0,anyStage,KSW_Phases.none,1945);
+	scr_KSW_AddFish("Hans (BO)",spr_KSW_Fish_HansBO,spr_KSW_Fish_HansBO_Pal,series_BrutalOrchestra,mage,0,anyStage,KSW_Phases.none,2007);
+	scr_KSW_AddFish("Burnout",spr_KSW_Fish_Burnout,spr_KSW_Fish_Burnout_Pal,series_BrutalOrchestra,candy,1,anyStage,KSW_Phases.none,2000);
+	scr_KSW_AddFish("Fennec",spr_KSW_Fish_Fennec,spr_KSW_Fish_Fennec_Pal,series_BrutalOrchestra,mage,1,anyStage,KSW_Phases.none,2000);
+	scr_KSW_AddFish("Anton (BO)",spr_KSW_Fish_AntonBO,spr_KSW_Fish_AntonBO_Pal,series_BrutalOrchestra,legion,1,anyStage,KSW_Phases.none,2005);
+	scr_KSW_AddFish("Splig",spr_KSW_Fish_Splig,spr_KSW_Fish_Splig_Pal,series_BrutalOrchestra,borange,1,anyStage,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Pearl",spr_KSW_Fish_Pearl,spr_KSW_Fish_Pearl_Pal,series_BrutalOrchestra,legion,1,anyStage,KSW_Phases.none,3000);
+	scr_KSW_AddFish("Thype",spr_KSW_Fish_Thype,spr_KSW_Fish_Thype_Pal,series_BrutalOrchestra,mage,1,anyStage,KSW_Phases.none,12);
+	scr_KSW_AddFish("Griffin",spr_KSW_Fish_Griffin,spr_KSW_Fish_Griffin_Pal,series_BrutalOrchestra,legion,1,anyStage,KSW_Phases.none,2000);
+	scr_KSW_AddFish("Arnold",spr_KSW_Fish_Arnold,spr_KSW_Fish_Arnold_Pal,series_BrutalOrchestra,legion,1,anyStage,KSW_Phases.none,1980);
+	scr_KSW_AddFish("Dimitri",spr_KSW_Fish_Dimitri,spr_KSW_Fish_Dimitri_Pal,series_BrutalOrchestra,borange,1,anyStage,KSW_Phases.none,2000);
+	scr_KSW_AddFish("Shelly K.",spr_KSW_Fish_ShellyK,spr_KSW_Fish_ShellyK_Pal,series_BrutalOrchestra,legion,1,anyStage,KSW_Phases.none,2000);
+	scr_KSW_AddFish("Longliver",spr_KSW_Fish_Longliver,spr_KSW_Fish_Longliver_Pal,series_BrutalOrchestra,legion,2,anyStage,KSW_Phases.none,4000);
 	#endregion
 	#endregion
 }
