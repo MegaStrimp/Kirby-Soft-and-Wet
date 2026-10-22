@@ -2610,6 +2610,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Gyro Zeppeli",spr_KSW_Fish_GyroZeppeli,spr_KSW_Fish_GyroZeppeli_Pal,series_JJBA,borange,3,serranoSprings,KSW_Phases.afternoon,200000);
 	scr_KSW_AddFish("Baoh",spr_KSW_Fish_Baoh,spr_KSW_Fish_Baoh_Pal,series_JJBA,mage,2,serranoSprings,KSW_Phases.night,19840);
 	scr_KSW_AddFish("Baja Blast",spr_KSW_Fish_Baja_Blast,spr_KSW_Fish_Baja_Blast_Pal,series_Misc,mage,1,creamCrevasse,KSW_Phases.none,385,-25,-40);
+	scr_KSW_AddFish("Shadow Mantle Holder",spr_KSW_Fish_MantleHolder,spr_KSW_Fish_MantleHolder_Pal,series_Deltarune,limit,2,hallowReen,KSW_Phases.night,150,-17,-18,,snd_KSW_Fish_MantleLaugh);
 	#endregion
 	#endregion
 }
