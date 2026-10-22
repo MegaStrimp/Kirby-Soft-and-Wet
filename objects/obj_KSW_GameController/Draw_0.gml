@@ -188,7 +188,7 @@ if ((state == KSW_GameStates.idle) and (!canOffset))
 	var selectIcon = "";
 	var targetIcon = global.UI_IconBindings[? string(input_binding_get("A"))];
 	if (targetIcon != undefined) selectIcon = "[" + sprite_get_name(targetIcon) + "]";
-	scribble(selectIcon + "THROW").align(fa_center).draw(86,48 + (2 * (buttonInputTimerComponent_ATimer != -1)));
+	scribble(selectIcon + "THROW").align(fa_center).draw(86,48 + global.KSW_CharacterList[global.playerCharacter[playerNum]].promptYOffset + (2 * (buttonInputTimerComponent_ATimer != -1)));
 }
 
 if ((state == KSW_GameStates.waiting) or (state == KSW_GameStates.catching))

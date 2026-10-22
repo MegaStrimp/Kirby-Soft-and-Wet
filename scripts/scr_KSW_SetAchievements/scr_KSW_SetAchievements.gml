@@ -479,10 +479,10 @@ function scr_KSW_SetAchievements()
 	#region Collect 30 Percent of the Spray Paints
 	var achievementUnlockMethod = function()
 	{
+		var unlockedSorayPaintCount = 0;
+		
 		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 		{
-			var unlockedSorayPaintCount = 0;
-			
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++) if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked) unlockedSorayPaintCount += 1;
 		}
 		
@@ -494,10 +494,10 @@ function scr_KSW_SetAchievements()
 	#region Collect 50 Percent of the Spray Paints
 	var achievementUnlockMethod = function()
 	{
+		var unlockedSorayPaintCount = 0;
+		
 		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 		{
-			var unlockedSorayPaintCount = 0;
-			
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++) if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked) unlockedSorayPaintCount += 1;
 		}
 		
@@ -509,10 +509,10 @@ function scr_KSW_SetAchievements()
 	#region Collect All Spray Paints
 	var achievementUnlockMethod = function()
 	{
+		var unlockedSorayPaintCount = 0;
+		
 		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 		{
-			var unlockedSorayPaintCount = 0;
-			
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++) if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked) unlockedSorayPaintCount += 1;
 		}
 		
@@ -548,14 +548,14 @@ function scr_KSW_SetAchievements()
 	#region Collect 30 Percent of the Hats
 	var achievementUnlockMethod = function()
 	{
+		var unlockedHatCount = 0;
+		
 		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 		{
-			var unlockedHatCount = 0;
-			
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++) if (global.KSW_CharacterList[i].hats[j].isUnlocked) unlockedHatCount += 1;
 		}
 		
-		return (unlockedHatCount >= floor(global.KSW_HatCount * .3));
+		return (unlockedHatCount >= floor(global.KSW_TotalHatCount * .3));
 	};
 	scr_KSW_AddAchievement("collectHats30","Hat Rack","Collect 30 Percent of Hats",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -563,14 +563,14 @@ function scr_KSW_SetAchievements()
 	#region Collect 50 Percent of the Hats
 	var achievementUnlockMethod = function()
 	{
+		var unlockedHatCount = 0;
+		
 		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 		{
-			var unlockedHatCount = 0;
-			
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++) if (global.KSW_CharacterList[i].hats[j].isUnlocked) unlockedHatCount += 1;
 		}
 		
-		return (unlockedHatCount >= floor(global.KSW_HatCount / 2));
+		return (unlockedHatCount >= floor(global.KSW_TotalHatCount / 2));
 	};
 	scr_KSW_AddAchievement("collectHats50","Hat Fanatic","Collect 50 Percent of Hats",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -578,14 +578,14 @@ function scr_KSW_SetAchievements()
 	#region Collect All Hats
 	var achievementUnlockMethod = function()
 	{
+		var unlockedHatCount = 0;
+		
 		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 		{
-			var unlockedHatCount = 0;
-			
 			for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++) if (global.KSW_CharacterList[i].hats[j].isUnlocked) unlockedHatCount += 1;
 		}
 		
-		return (unlockedHatCount >= floor(global.KSW_HatCount));
+		return (unlockedHatCount >= floor(global.KSW_TotalHatCount));
 	};
 	scr_KSW_AddAchievement("collectHatsAll","Haberdashery","Collect All Hats",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -679,7 +679,7 @@ function scr_KSW_SetAchievements()
 	#region Catch All Unique Fish In Grass Beach
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_StageList[? "grassBeach"].fishCount >= global.KSW_StageList[? "grassBeach"].fishCountMax);
+		return (global.KSW_StageList[global.KSW_StageIDs[? "grassBeach"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "grassBeach"]].fishCountMax);
 	};
 	scr_KSW_AddAchievement("catchUniqueGrassBeach","Ice Cream Islander","Catch All Unique Fish In Grass Beach",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -687,7 +687,7 @@ function scr_KSW_SetAchievements()
 	#region Catch All Unique Fish In Cream Crevasse
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_StageList[? "creamCrevasse"].fishCount >= global.KSW_StageList[? "creamCrevasse"].fishCountMax);
+		return (global.KSW_StageList[global.KSW_StageIDs[? "creamCrevasse"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "creamCrevasse"]].fishCountMax);
 	};
 	scr_KSW_AddAchievement("catchUniqueCreamCrevasse","Snowman's Land","Catch All Unique Fish In Cream Crevasse",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -695,7 +695,7 @@ function scr_KSW_SetAchievements()
 	#region Catch All Unique Fish In Hallow Reen
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_StageList[? "hallowReen"].fishCount >= global.KSW_StageList[? "hallowReen"].fishCountMax);
+		return (global.KSW_StageList[global.KSW_StageIDs[? "hallowReen"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "hallowReen"]].fishCountMax);
 	};
 	scr_KSW_AddAchievement("catchUniqueHallowReen","Scary Monster","Catch All Unique Fish In Hallow Reen",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -703,7 +703,7 @@ function scr_KSW_SetAchievements()
 	#region Catch All Unique Fish In Serrano Springs
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_StageList[? "serranoSprings"].fishCount >= global.KSW_StageList[? "serranoSprings"].fishCountMax);
+		return (global.KSW_StageList[global.KSW_StageIDs[? "serranoSprings"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "serranoSprings"]].fishCountMax);
 	};
 	scr_KSW_AddAchievement("catchUniqueSerranoSprings","Hotty Heaty Volcano","Catch All Unique Fish In Serrano Springs",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -711,7 +711,7 @@ function scr_KSW_SetAchievements()
 	#region Catch All Unique Fish In Android Port
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_StageList[? "androidPort"].fishCount >= global.KSW_StageList[? "androidPort"].fishCountMax);
+		return (global.KSW_StageList[global.KSW_StageIDs[? "androidPort"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "androidPort"]].fishCountMax);
 	};
 	scr_KSW_AddAchievement("catchUniqueAndroidPort","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion

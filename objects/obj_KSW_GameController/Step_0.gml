@@ -526,6 +526,78 @@ if (!localPause)
 				break;
 			}
 			
+			var achievementID = global.KSW_AchievementIDs[? "catch100Kirby"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Kirby"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Gooey"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Gooey"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Elfilin"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Elfilin"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Marx"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Marx"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100WaddleDee"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000WaddleDee"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Susie"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Susie"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Ybrik"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Ybrik"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Chip"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Chip"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Kracko"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Kracko"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100NZ"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000NZ"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Kabula"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Kabula"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Starman"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Starman"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			if (currentFishIsNew)
 			{
 				if (other.currentFishIsShiny)
@@ -556,78 +628,6 @@ if (!localPause)
 					var achievementID = global.KSW_AchievementIDs[? "catchUniqueAll"];
 					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				}
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Kirby"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Kirby"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Gooey"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Gooey"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Elfilin"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Elfilin"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Marx"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Marx"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100WaddleDee"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000WaddleDee"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Susie"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Susie"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Ybrik"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Ybrik"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Chip"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Chip"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Kracko"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Kracko"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100NZ"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000NZ"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Kabula"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Kabula"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch100Starman"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
-				
-				var achievementID = global.KSW_AchievementIDs[? "catch1000Starman"];
-				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
 				var achievementID = global.KSW_AchievementIDs[? "catchUniqueGrassBeach"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);

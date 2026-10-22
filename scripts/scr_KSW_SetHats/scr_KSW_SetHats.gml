@@ -4,6 +4,7 @@ function scr_KSW_SetHats()
 {
 	#region Setup
 	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++) global.KSW_HatCount[i] = 0;
+	global.KSW_TotalHatCount = 0;
 	
 	global.KSW_HatIDs = ds_map_create();
 	#endregion

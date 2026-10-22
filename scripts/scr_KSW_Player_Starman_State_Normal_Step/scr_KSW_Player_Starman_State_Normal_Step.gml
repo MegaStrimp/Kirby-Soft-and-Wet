@@ -81,7 +81,7 @@ function scr_KSW_Player_Starman_State_Normal_Step()
 		{
 			case 0:
 			rodX = x + 15;
-			rodY = y - 9;
+			rodY = y - 14;
 			break;
 			
 			case 1:
