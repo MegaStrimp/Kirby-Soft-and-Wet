@@ -77,6 +77,7 @@ global.KSW_CaughtShinyFishCount = 0;
 global.KSW_ObtainedAchievementCount = 0;
 global.KSW_AvailableBobbers = ds_list_create();
 global.KSW_ExModeActive = false;
+global.KSW_AlwaysFishPopups = false;
 
 global.KSW_CurrentPhase = KSW_Phases.day;
 global.KSW_CurrentStageID = global.KSW_StageList[global.KSW_StageIDs[? "grassBeach"]];

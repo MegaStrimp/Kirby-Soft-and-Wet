@@ -22,6 +22,7 @@ function scr_KSW_LoadConfig(file)
 	{
 		global.customCursorSprite = -1;
 	}
+	global.KSW_AlwaysFishPopups = ini_read_real("options","alwaysFishPopups",false);
 	
 	ini_close();
 	

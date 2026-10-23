@@ -5,36 +5,38 @@ var space = 16;
 var startY = 8 - (listScroll * space);
 var i = 0;
 
-if (!instance_exists(obj_KSW_UI_NotifBox)) scribble_flush_everything();
-
 #region Music Volume
-var font = "fnt_Advance_Gray";
-if (selection == i)
-{
-	font = "fnt_Advance";
-}
-scribble_font_set_default(font);
+var yy = startY + (space * i);
 
-var musicText = scribble("MUSIC VOL");
-musicText.draw(8,startY + (space * i));
-
-for (var h = -1; h < 10; h++)
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	var bubbleIsActive = (h < round(global.musicVolume * 10));
-	var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
-	var bubbleX = musicText.get_width() + 16 + (10 * h);
-	var bubbleY = startY + (space * i) + wave;
-	
-	if (h != -1)
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
 	{
-		if ((global.shaders) and (bubbleIsActive)) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
-		if ((global.shaders) and (bubbleIsActive)) pal_swap_reset();
+		var targetFont = "[fnt_Advance]";
 	}
-	
-	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+
+	var musicText = scribble(targetFont + "MUSIC VOL[/font]");
+	musicText.draw(8,yy);
+
+	for (var h = -1; h < 10; h++)
 	{
-		global.musicVolume = (h + 1) * .1;
+		var bubbleIsActive = (h < round(global.musicVolume * 10));
+		var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
+		var bubbleX = musicText.get_width() + 16 + (10 * h);
+		var bubbleY = yy + wave;
+	
+		if (h != -1)
+		{
+			if ((global.shaders) and (bubbleIsActive)) pal_swap_set(global.KSW_BubblePalette,1,false);
+			draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+			if ((global.shaders) and (bubbleIsActive)) pal_swap_reset();
+		}
+	
+		if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+		{
+			global.musicVolume = (h + 1) * .1;
+		}
 	}
 }
 #endregion
@@ -42,32 +44,37 @@ for (var h = -1; h < 10; h++)
 i += 1;
 
 #region Sfx Volume
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-var soundText = scribble("SFX VOL");
-soundText.draw(8,startY + (space * i));
-
-for (var h = -1; h < 10; h++)
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	var bubbleIsActive = (h < round(global.soundVolume * 10));
-	var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
-	var bubbleX = soundText.get_width() + 16 + (10 * h);
-	var bubbleY = startY + (space * i) + wave;
-	
-	if (h != -1)
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
 	{
-		if ((global.shaders) and (bubbleIsActive)) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
-		if ((global.shaders) and (bubbleIsActive)) pal_swap_reset();
+		var targetFont = "[fnt_Advance]";
 	}
-	
-	if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+
+	var soundText = scribble(targetFont + "SFX VOL[/font]");
+	soundText.draw(8,yy);
+
+	for (var h = -1; h < 10; h++)
 	{
-		global.soundVolume = (h + 1) * .1;
+		var bubbleIsActive = (h < round(global.soundVolume * 10));
+		var wave = sine_wave(((current_time + (500 * h)) / 2000),1,3,0);
+		var bubbleX = soundText.get_width() + 16 + (10 * h);
+		var bubbleY = yy + wave;
+	
+		if (h != -1)
+		{
+			if ((global.shaders) and (bubbleIsActive)) pal_swap_set(global.KSW_BubblePalette,1,false);
+			draw_sprite(spr_KSW_Menu_Settings_AudioBubble,bubbleIsActive,bubbleX,bubbleY);
+			if ((global.shaders) and (bubbleIsActive)) pal_swap_reset();
+		}
+	
+		if ((selection == i) and (mouse_check_button(mb_left)) and (scr_MouseIsInbetween(bubbleX,bubbleY,bubbleX + 8,bubbleY + 8)))
+		{
+			global.soundVolume = (h + 1) * .1;
+		}
 	}
 }
 #endregion
@@ -75,368 +82,473 @@ for (var h = -1; h < 10; h++)
 i += 1;
 
 #region Fullscreen
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-if (global.isMobile)
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	var orientationText = "SCREEN ORIENTATION - AUTO";
-	if (global.screenOrientation == 1) orientationText = "SCREEN ORIENTATION - PORTRAIT";
-	else if (global.screenOrientation == 2) orientationText = "SCREEN ORIENTATION - LANDSCAPE";
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	if (global.isMobile)
+	{
+		var orientationText = "SCREEN ORIENTATION - AUTO";
+		if (global.screenOrientation == 1) orientationText = "SCREEN ORIENTATION - PORTRAIT";
+		else if (global.screenOrientation == 2) orientationText = "SCREEN ORIENTATION - LANDSCAPE";
 	
-	scribble(orientationText).draw(8,startY + (space * i));
-}
-else if ((!global.isMobile) and (!global.isOpera))
-{
-	scribble("TOGGLE FULLSCREEN").draw(8,startY + (space * i));
-}
-else
-{
-	scribble("TOGGLE FULLSCREEN (NOT AVAILABLE)").draw(8,startY + (space * i));
+		scribble(targetFont + orientationText + "[/font]").draw(8,yy);
+	}
+	else if ((!global.isMobile) and (!global.isOpera))
+	{
+		scribble(targetFont + "TOGGLE FULLSCREEN[/font]").draw(8,yy);
+	}
+	else
+	{
+		scribble(targetFont + "TOGGLE FULLSCREEN (NOT AVAILABLE)[/font]").draw(8,yy);
+	}
 }
 #endregion
 
 i += 1;
 
 #region Window Size
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-if ((!global.isMobile) and (!global.isOpera))
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble("WINDOW SIZE " + string(global.windowScaleTarget)).draw(8,startY + (space * i));
-}
-else
-{
-	scribble("WINDOW SIZE (NOT AVAILABLE)").draw(8,startY + (space * i));
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	if ((!global.isMobile) and (!global.isOpera))
+	{
+		scribble(targetFont + "WINDOW SIZE " + string(global.windowScaleTarget) + "[/font]").draw(8,yy);
+	}
+	else
+	{
+		scribble(targetFont + "WINDOW SIZE (NOT AVAILABLE)[/font]").draw(8,yy);
+	}
 }
 #endregion
 
 i += 1;
 
 #region Shaders
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-var text = "ENABLE SHADERS";
-if (global.shaders) text = "DISABLE SHADERS";
-scribble(text).draw(8,startY + (space * i));
+if ((yy > -space) and (yy < (global.gameHeight - space)))
+{
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var text = "ENABLE SHADERS";
+	if (global.shaders) text = "DISABLE SHADERS";
+	scribble(targetFont + text + "[/font]").draw(8,yy);
+}
 #endregion
 
 i += 1;
 
 #region Cursor
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-var text = "ENABLE CURSOR";
-if (global.KSW_HasCursor) text = "DISABLE CURSOR";
-scribble(text).draw(8,startY + (space * i));
+if ((yy > -space) and (yy < (global.gameHeight - space)))
+{
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var text = "ENABLE CURSOR";
+	if (global.KSW_HasCursor) text = "DISABLE CURSOR";
+	scribble(targetFont + text + "[/font]").draw(8,yy);
+}
+#endregion
+
+i += 1;
+
+#region Always Fish Popups
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
+{
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var text = "ENABLE ALWAYS FISH POPUPS";
+	if (global.KSW_AlwaysFishPopups) text = "DISABLE ALWAYS FISH POPUPS";
+	scribble(targetFont + text + "[/font]").draw(8,yy);
+}
 #endregion
 
 i += 1;
 
 #region Export Save
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-if ((global.isMobile) or (!global.isOpera))
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble("EXPORT SAVE").draw(8,startY + (space * i));
-}
-else
-{
-	scribble("EXPORT SAVE (NOT AVAILABLE)").draw(8,startY + (space * i));
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	if ((global.isMobile) or (!global.isOpera))
+	{
+		scribble(targetFont + "EXPORT SAVE[/font]").draw(8,yy);
+	}
+	else
+	{
+		scribble(targetFont + "EXPORT SAVE (NOT AVAILABLE)[/font]").draw(8,yy);
+	}
 }
 #endregion
 
 i += 1;
 
 #region Import Save
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-if ((global.isMobile) or (!global.isOpera))
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble("IMPORT SAVE").draw(8,startY + (space * i));
-}
-else
-{
-	scribble("IMPORT SAVE (NOT AVAILABLE)").draw(8,startY + (space * i));
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	if ((global.isMobile) or (!global.isOpera))
+	{
+		scribble(targetFont + "IMPORT SAVE[/font]").draw(8,yy);
+	}
+	else
+	{
+		scribble(targetFont + "IMPORT SAVE (NOT AVAILABLE)[/font]").draw(8,yy);
+	}
 }
 #endregion
 
 i += 1;
 
 #region Delete Save
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-scribble("[c_red]DELETE SAVE[/color]").draw(8,startY + (space * i));
+if ((yy > -space) and (yy < (global.gameHeight - space)))
+{
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	scribble(targetFont + "[c_red]DELETE SAVE[/color][/font]").draw(8,yy);
+}
 #endregion
 
 i += 1;
 
 #region Key Up
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[0])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY UP[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[0])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY UP\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key Down
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[1])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY DOWN[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[1])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY DOWN\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key Left
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[2])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY LEFT[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[2])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY LEFT\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key Right
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[3])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY RIGHT[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[3])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY RIGHT\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key A
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[4])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY NEXT[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[4])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY NEXT\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key B
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[5])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY CANCEL[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[5])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY CANCEL\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key X
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[6])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY SPECIAL[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[6])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY SPECIAL\t" + icon).draw(8,startY + (space * i));
 #endregion
-/*
+
 i += 1;
 
 #region Key Y
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[7])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY SUBMENU[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[7])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY Y\t" + icon).draw(8,startY + (space * i));
 #endregion
-*/
+
 i += 1;
 
 #region Key L
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[8])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY L[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[8])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY L\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key R
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[9])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY R[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[9])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY R\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key LT
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[10])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY LT[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[10])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY LT\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key RT
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[11])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY RT[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[11])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY RT\t" + icon).draw(8,startY + (space * i));
 #endregion
 
 i += 1;
 
 #region Key Start
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
+var yy = startY + (space * i);
+
+if ((yy > -space) and (yy < (global.gameHeight - space)))
 {
-	scribble_font_set_default("fnt_Advance");
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	var icon = "";
+	var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[12])];
+	if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
+
+	scribble(targetFont + "KEY START[/font]\t" + icon).draw(8,yy);
 }
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[12])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY START\t" + icon).draw(8,startY + (space * i));
 #endregion
-/*
-i += 1;
-
-#region Key Select
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
-
-var icon = "";
-var targetIcon = global.UI_IconBindings[? string(buttonRemap_KeysText[13])];
-if (targetIcon != undefined) icon = "[" + sprite_get_name(targetIcon) + "]";
-
-scribble("KEY SELECT\t" + icon).draw(8,startY + (space * i));
-#endregion
-*/
 
 i += 1;
 
 #region Reset Keys
-scribble_font_set_default("fnt_Advance_Gray");
-if (selection == i)
-{
-	scribble_font_set_default("fnt_Advance");
-}
+var yy = startY + (space * i);
 
-scribble("RESET KEYS").draw(8,startY + (space * i));
+if ((yy > -space) and (yy < (global.gameHeight - space)))
+{
+	var targetFont = "[fnt_Advance_Gray]";
+	if (selection == i)
+	{
+		var targetFont = "[fnt_Advance]";
+	}
+
+	scribble(targetFont + "RESET KEYS[/font]").draw(8,yy);
+}
 #endregion
 #endregion
 
 #region Button Hints
-scribble_font_set_default("fnt_Advance");
-
 var exitIcon = "";
 var targetIcon = global.UI_IconBindings[? string(input_binding_get("B"))];
 if (targetIcon != undefined) exitIcon = "[" + sprite_get_name(targetIcon) + "]";
@@ -460,8 +572,6 @@ text.draw(room_width - 1 - text.get_width(),room_height - 16 + (2 * ((buttonInpu
 if (targetKey != "")
 {
 	draw_rectangle_color(0,0,room_width,room_height,c_black,c_black,c_black,c_black,false);
-	
-	scribble_font_set_default("fnt_Advance");
 	
 	scribble("PRESS THE KEY YOU WANT TO REBIND INTO").align(fa_center,fa_middle).wrap(room_width).draw(room_width / 2,room_height / 2);
 }

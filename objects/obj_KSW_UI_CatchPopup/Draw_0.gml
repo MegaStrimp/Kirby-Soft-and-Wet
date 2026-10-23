@@ -90,6 +90,12 @@ if ((global.shaders) and (backgroundPalette != -1)) pal_swap_reset();
 scr_DrawMask_End();
 #endregion
 
+#region Fish ID
+draw_set_alpha(alpha);
+
+scribble("[fnt_Advance]#" + string(ID) + "[/font]").align(fa_left).blend(c_white,alpha).draw(4,4);
+#endregion
+
 #region Fish Name
 draw_set_alpha(alpha);
 

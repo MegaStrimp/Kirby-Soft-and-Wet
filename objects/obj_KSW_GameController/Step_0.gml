@@ -648,7 +648,14 @@ if (!localPause)
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
 				scr_KSW_Game_UpdateDiscord();
-				
+			}
+			else
+			{
+				scr_PlaySfx(snd_KSW_Unlock);
+			}
+			
+			if ((currentFishIsNew) or (global.KSW_AlwaysFishPopups))
+			{
 				scr_PlaySfx(snd_KSW_FishGet);
 				global.pause = true;
 				
@@ -659,6 +666,7 @@ if (!localPause)
 					spritePalette = global.KSW_FishList[other.currentFish].palette;
 					spriteXOffset = global.KSW_FishList[other.currentFish].xOffset;
 					spriteYOffset = global.KSW_FishList[other.currentFish].yOffset;
+					ID = global.KSW_FishList[other.currentFish].IDNum;
 					name = global.KSW_FishList[other.currentFish].displayedName;
 					nameSprite = global.KSW_FishList[other.currentFish].nameSprite;
 					series = global.KSW_SeriesList[global.KSW_FishList[other.currentFish].series].name;
@@ -671,10 +679,6 @@ if (!localPause)
 					
 					if (rarity > 0) starTimer = 20;
 				}
-			}
-			else
-			{
-				scr_PlaySfx(snd_KSW_Unlock);
 			}
 			
 			if (global.KSW_ExModeActive) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "gold"];

@@ -69,9 +69,11 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
 		break;
 	}
 	
-	global.KSW_FishList[global.KSW_FishIDs[? targetName]] = 
+	var targetIDNum = global.KSW_FishIDs[? targetName];
+	global.KSW_FishList[targetIDNum] = 
 	{
         id: global.KSW_FishCount,
+        IDNum: targetIDNum,
         name: targetName,
         nameSprite: -1,
         displayedName: targetName,
