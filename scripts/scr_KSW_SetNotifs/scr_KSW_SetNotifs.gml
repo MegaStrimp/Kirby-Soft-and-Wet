@@ -61,6 +61,23 @@ function scr_KSW_SetNotifs()
 	scr_KSW_AddNotif("stars",text,notifUnlockMethod,true,image);
 	#endregion
 	
+	#region Ex Mode
+	var notifUnlockMethod = function()
+	{
+		return global.KSW_ExModeActive;
+	};
+	
+	var text = ["You have found the [#5BD8C1]Rainmaker[/color]!",
+	"The Ancient Weather Chaos will cause various [#FFD800]Events[/color] to occur!",
+	"Your game is [c_red]Extra[/color] now."];
+	
+	var image = [spr_KSW_UI_NotifBox_Image_AllHail,
+	spr_KSW_UI_NotifBox_Image_AllHail,
+	spr_KSW_UI_NotifBox_Image_AllHail];
+	
+	scr_KSW_AddNotif("exMode",text,notifUnlockMethod,true,image);
+	#endregion
+	
 	#region Completion
 	var notifUnlockMethod = function()
 	{

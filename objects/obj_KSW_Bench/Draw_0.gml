@@ -1,7 +1,7 @@
 ///@description Draw
 
 #region Bench
-draw_sprite(spr_KSW_Bench,0,x,y);
+draw_sprite(global.KSW_BenchList[global.KSW_CurrentBenchID].sprite,0,x,y);
 #endregion
 
 #region Drink

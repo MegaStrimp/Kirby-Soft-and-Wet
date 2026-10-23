@@ -85,7 +85,7 @@ function scr_KSW_UI_Customize_Pages_Baits_Draw()
 			{
 				draw_sprite(spr_KSW_Menu_TitleScreen_Bubble_Stars_Small,0,boxX + 14,boxY + 15);
 			}
-			else
+			else if !((global.KSW_BaitList[ds_list_find_value(selectionList,i)].exNeeded) and (!global.KSW_ExModeActive))
 			{
 				draw_sprite(spr_KSW_UI_Coin,0,boxX + 14,boxY + 11);
 				scribble(string(global.KSW_BaitList[ds_list_find_value(selectionList,i)].price)).align(fa_center).draw(boxX + 14,boxY + 17);
@@ -113,7 +113,7 @@ function scr_KSW_UI_Customize_Pages_Baits_Draw()
 	var targetDescription = "???";
 	if (global.KSW_BaitList[ds_list_find_value(selectionList,selection)].isUnlocked) targetDescription = "[#F5FF77]" + string(global.KSW_BaitList[ds_list_find_value(selectionList,selection)].description) + "[/color]";
 	
-	scribble(targetDescription).draw(4,18 - hintOffset);
+	scribble(targetDescription).align(fa_left).draw(4,18 - hintOffset);
 	#endregion
 	
 	#region Button Hints

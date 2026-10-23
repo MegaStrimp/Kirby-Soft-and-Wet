@@ -34,5 +34,6 @@ function scr_KSW_SetBaits()
 	scr_KSW_AddBait("moreShinies","Lifelight","More frequent anomalies!",spr_KSW_Bait_Icon_Lifelight,spr_KSW_Bait_Texture_Lifelight,glimmer,0,0,300);
 	scr_KSW_AddBait("moreGrams","Stone Chum","Heavier fish!",spr_KSW_Bait_Icon_StoneChum,spr_KSW_Bait_Texture_StoneChum,legion,0,0,150);
 	scr_KSW_AddBait("moreCoins","Baggie Candy","More coins!",spr_KSW_Bait_Icon_BaggieCandy,spr_KSW_Bait_Texture_BaggieCandy,borange,0,0,300);
+	scr_KSW_AddBait("noEvents","Zen Mint","No events!",spr_KSW_Bait_Icon_ZenMint,spr_KSW_Bait_Texture_ZenMint,legion,0,0,100,,true);
 	#endregion
 }

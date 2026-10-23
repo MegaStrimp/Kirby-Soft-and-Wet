@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_KSW_Bench",
-    "path":"sprites/spr_KSW_Bench/spr_KSW_Bench.yy",
+    "name":"spr_KSW_Bench_Default",
+    "path":"sprites/spr_KSW_Bench_Default/spr_KSW_Bench_Default.yy",
   },
   "spriteMaskId":null,
   "visible":true,

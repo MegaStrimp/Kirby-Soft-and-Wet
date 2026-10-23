@@ -260,7 +260,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "gooey"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Gooey","Gooey Fan","Catch 100 Fish As Gooey",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Gooey","Gooey Fan","Catch 100 Fish As Gooey",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Gooey
@@ -268,7 +268,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "gooey"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Gooey","Gooey Lover","Catch 1000 Fish As Gooey",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Gooey","Gooey Lover","Catch 1000 Fish As Gooey",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -278,7 +278,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "elfilin"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Elfilin","Elfilin Fan","Catch 100 Fish As Elfilin",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Elfilin","Elfilin Fan","Catch 100 Fish As Elfilin",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Elfilin
@@ -286,7 +286,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "elfilin"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Elfilin","Elfilin Lover","Catch 1000 Fish As Elfilin",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Elfilin","Elfilin Lover","Catch 1000 Fish As Elfilin",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -296,7 +296,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "marx"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Marx","Marx Fan","Catch 100 Fish As Marx",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Marx","Marx Fan","Catch 100 Fish As Marx",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Marx
@@ -304,7 +304,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "marx"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Marx","Marx Lover","Catch 1000 Fish As Marx",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Marx","Marx Lover","Catch 1000 Fish As Marx",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -314,7 +314,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "waddleDee"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100WaddleDee","Waddle Dee Fan","Catch 100 Fish As Waddle Dee",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100WaddleDee","Waddle Dee Fan","Catch 100 Fish As Waddle Dee",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Waddle Dee
@@ -322,7 +322,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "waddleDee"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000WaddleDee","Waddle Dee Lover","Catch 1000 Fish As Waddle Dee",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000WaddleDee","Waddle Dee Lover","Catch 1000 Fish As Waddle Dee",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -332,7 +332,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "susie"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Susie","Susie Fan","Catch 100 Fish As Susie",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Susie","Susie Fan","Catch 100 Fish As Susie",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Susie
@@ -340,7 +340,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "susie"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Susie","Susie Lover","Catch 1000 Fish As Susie",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Susie","Susie Lover","Catch 1000 Fish As Susie",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -350,7 +350,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "ybrik"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Ybrik","Ybrik Fan","Catch 100 Fish As Ybrik",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Ybrik","Ybrik Fan","Catch 100 Fish As Ybrik",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Ybrik
@@ -358,7 +358,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "ybrik"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Ybrik","Ybrik Lover","Catch 1000 Fish As Ybrik",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Ybrik","Ybrik Lover","Catch 1000 Fish As Ybrik",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -368,7 +368,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "chip"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Chip","Chip Fan","Catch 100 Fish As Chip",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Chip","Chip Fan","Catch 100 Fish As Chip",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Chip
@@ -376,7 +376,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "chip"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Chip","Chip Lover","Catch 1000 Fish As Chip",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Chip","Chip Lover","Catch 1000 Fish As Chip",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -386,7 +386,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "kracko"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Kracko","Kracko Fan","Catch 100 Fish As Kracko",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Kracko","Kracko Fan","Catch 100 Fish As Kracko",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Kracko
@@ -394,7 +394,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "kracko"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Kracko","Kracko Lover","Catch 1000 Fish As Kracko",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Kracko","Kracko Lover","Catch 1000 Fish As Kracko",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -404,7 +404,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "nz"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100NZ","N-Z Fan","Catch 100 Fish As N-Z",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100NZ","N-Z Fan","Catch 100 Fish As N-Z",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As N-Z
@@ -412,7 +412,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "nz"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000NZ","N-Z Lover","Catch 1000 Fish As N-Z",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000NZ","N-Z Lover","Catch 1000 Fish As N-Z",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -422,7 +422,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "kabula"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Kabula","Kabula Fan","Catch 100 Fish As Kabula",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Kabula","Kabula Fan","Catch 100 Fish As Kabula",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Kabula
@@ -430,7 +430,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "kabula"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Kabula","Kabula Lover","Catch 1000 Fish As Kabula",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Kabula","Kabula Lover","Catch 1000 Fish As Kabula",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -440,7 +440,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "starman"]].caughtFishCount >= 100);
 	};
-	scr_KSW_AddAchievement("catch100Starman","Starman Fan","Catch 100 Fish As Starman",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch100Starman","Starman Fan","Catch 100 Fish As Starman",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch 1000 Fish As Starman
@@ -448,7 +448,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "starman"]].caughtFishCount >= 1000);
 	};
-	scr_KSW_AddAchievement("catch1000Starman","Starman Lover","Catch 1000 Fish As Starman",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catch1000Starman","Starman Lover","Catch 1000 Fish As Starman",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	#endregion
@@ -552,7 +552,7 @@ function scr_KSW_SetAchievements()
 		
 		for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++)
 		{
-			for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++) if (global.KSW_CharacterList[i].hats[j].isUnlocked) unlockedHatCount += 1;
+			for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++) if ((global.KSW_CharacterList[i].hats[j].isUnlocked) and (!global.KSW_CharacterList[i].hats[j].isDefault)) unlockedHatCount += 1;
 		}
 		
 		return (unlockedHatCount >= floor(global.KSW_TotalHatCount * .3));
@@ -599,7 +599,7 @@ function scr_KSW_SetAchievements()
 		
 		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
 		{
-			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].isUnlocked) and (global.KSW_BobberList[i].tiedAchievementName == ""))
+			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].isUnlocked) and (!global.KSW_BobberList[i].isDefault) and (global.KSW_BobberList[i].tiedAchievementName == ""))
 			{
 				isUnlocked = true;
 				break;
@@ -661,7 +661,18 @@ function scr_KSW_SetAchievements()
 	#region Collect 1 Bait
 	var achievementUnlockMethod = function()
 	{
-		return (global.KSW_UnlockedBaitCount >= 1);
+		var isUnlocked = 0;
+		
+		for (var i = 0; i < ds_map_size(global.KSW_BaitIDs); i++)
+		{
+			if ((global.KSW_BaitList[i].isUnlocked) and (!global.KSW_BaitList[i].isDefault))
+			{
+				isUnlocked = true;
+				break;
+			}
+		}
+		
+		return (isUnlocked);
 	};
 	scr_KSW_AddAchievement("collectBait1","A Little Boost","Collect 1 Bait",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -689,7 +700,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "creamCrevasse"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "creamCrevasse"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueCreamCrevasse","Snowman's Land","Catch All Unique Fish In Cream Crevasse",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchUniqueCreamCrevasse","Snowman's Land","Catch All Unique Fish In Cream Crevasse",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch All Unique Fish In Hallow Reen
@@ -697,7 +708,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "hallowReen"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "hallowReen"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueHallowReen","Scary Monster","Catch All Unique Fish In Hallow Reen",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchUniqueHallowReen","Scary Monster","Catch All Unique Fish In Hallow Reen",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch All Unique Fish In Serrano Springs
@@ -705,7 +716,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "serranoSprings"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "serranoSprings"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueSerranoSprings","Hotty Heaty Volcano","Catch All Unique Fish In Serrano Springs",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchUniqueSerranoSprings","Hotty Heaty Volcano","Catch All Unique Fish In Serrano Springs",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch All Unique Fish In Android Port
@@ -713,7 +724,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "androidPort"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "androidPort"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueAndroidPort","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("catchUniqueAndroidPort","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -750,6 +761,14 @@ function scr_KSW_SetAchievements()
 		return (global.KSW_CaughtShinyFishCount >= 1);
 	};
 	scr_KSW_AddAchievement("catchShiny","Geiger Counter","Catch an Anomaly",spr_KSW_Achievement_Icon_GeigerCounter,achievementUnlockMethod,global.KSW_BobberIDs[? "zero"]);
+	#endregion
+	
+	#region Ex Mode
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_ExModeActive);
+	};
+	scr_KSW_AddAchievement("exMode","The Rainmaker","Catch an Anomaly",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	
 	#region Catch All Shinies

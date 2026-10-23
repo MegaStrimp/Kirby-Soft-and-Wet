@@ -32,6 +32,8 @@ function scr_KSW_LoadData(file,importFile = false)
 	global.KSW_TotalCoins = ini_read_real("gameplay","totalCoins",0);
 	if (global.KSW_TotalCoins == 0) global.KSW_TotalCoins = global.KSW_CurrentCoins;
 	global.KSW_CurrentStageID = global.KSW_StageIDs[? ini_read_string("gameplay","currentStage","grassBeach")] ?? global.KSW_StageIDs[? "grassBeach"];
+	global.KSW_CurrentBenchID = global.KSW_BenchIDs[? ini_read_string("gameplay","currentBench","default")] ?? global.KSW_BenchIDs[? "default"];
+	global.KSW_ExModeActive = ini_read_real("gameplay","exModeActive",false);
 	#endregion
 	
 	#region Player Status

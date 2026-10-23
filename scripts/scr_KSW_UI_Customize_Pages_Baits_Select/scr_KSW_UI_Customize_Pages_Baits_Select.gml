@@ -10,7 +10,7 @@ function scr_KSW_UI_Customize_Pages_Baits_Select()
 	}
 	else
 	{
-		if ((global.KSW_BaitList[ds_list_find_value(selectionList,selection)].price == 0) or (global.KSW_CurrentCoins < global.KSW_BaitList[ds_list_find_value(selectionList,selection)].price))
+		if (((global.KSW_BaitList[ds_list_find_value(selectionList,selection)].exNeeded) and (!global.KSW_ExModeActive)) or ((global.KSW_BaitList[ds_list_find_value(selectionList,selection)].price == 0) or (global.KSW_CurrentCoins < global.KSW_BaitList[ds_list_find_value(selectionList,selection)].price)))
 		{
 			scr_PlaySfx(snd_KSW_ButtonError);
 		}

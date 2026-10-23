@@ -1,6 +1,6 @@
 ///@description KSW - Add Achievement
 
-function scr_KSW_AddAchievement(targetID,targetName,targetDescription,targetIcon,targetUnlockScript,targetBobberReward = -1,targetHidden = false)
+function scr_KSW_AddAchievement(targetID,targetName,targetDescription,targetIcon,targetUnlockScript,targetBobberReward = -1,targetHidden = false,targetNameHidden = false)
 {
 	ds_map_add(global.KSW_AchievementIDs,targetID,global.KSW_TotalAchievementCount);
 	
@@ -13,6 +13,7 @@ function scr_KSW_AddAchievement(targetID,targetName,targetDescription,targetIcon
 		unlockScript: targetUnlockScript,
 		bobberReward: targetBobberReward,
 		isHidden: targetHidden,
+		nameHidden: targetNameHidden,
 		isObtained: false
     };
 	

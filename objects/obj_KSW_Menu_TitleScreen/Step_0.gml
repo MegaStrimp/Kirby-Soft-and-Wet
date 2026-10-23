@@ -17,11 +17,25 @@ logoWave = sine_between(global.currentTimePausable / 100,1,-2,2);
 #endregion
 
 #region Debug Full Save
-if ((global.debug) and (keyboard_check_pressed(ord("L"))))
+if (global.debug)
 {
-	scr_PlaySfx(snd_KSW_Score);
-	
-	scr_KSW_LoadFullSave(!keyboard_check(vk_shift));
+	if (keyboard_check_pressed(ord("L")))
+	{
+		if (keyboard_check(vk_control))
+		{
+			scr_PlaySfx(snd_KSW_Score);
+		
+			global.fullSaveLoaded = true;
+			
+			global.KSW_ExModeActive = !global.KSW_ExModeActive;
+		}
+		else
+		{
+			scr_PlaySfx(snd_KSW_Score);
+			
+			scr_KSW_LoadFullSave(!keyboard_check(vk_shift));
+		}
+	}
 }
 #endregion
 

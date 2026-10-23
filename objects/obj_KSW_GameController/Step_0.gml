@@ -598,6 +598,9 @@ if (!localPause)
 			var achievementID = global.KSW_AchievementIDs[? "catch1000Starman"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			
+			var achievementID = global.KSW_AchievementIDs[? "exMode"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			if (currentFishIsNew)
 			{
 				if (other.currentFishIsShiny)
@@ -674,6 +677,9 @@ if (!localPause)
 				scr_PlaySfx(snd_KSW_Unlock);
 			}
 			
+			if (global.KSW_ExModeActive) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "gold"];
+			if (global.KSW_AchievementList[global.KSW_AchievementIDs[? "doEverything"]].isObtained) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "legend"];
+			
 			scr_KSW_SaveData("data1.ini");
 			
 			with (obj_KSW_UI_CaughtBox)
@@ -702,13 +708,15 @@ if (!localPause)
 				}
 			}
 			
-			var eventRng = irandom_range(0,29);
-			eventRng = 0; //STRIMPTODO
-			if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+			if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
 			{
-				var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
-				
-				scr_KSW_Event_Start(targetEvent);
+				var eventRng = irandom_range(0,29);
+				if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+				{
+					var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
+					
+					scr_KSW_Event_Start(targetEvent);
+				}
 			}
 			
 			findFishTimer = -1;
@@ -882,6 +890,9 @@ if (!localPause)
 					canOpenCustomize = true;
 					
 					var notifID = global.KSW_NotifIDs[? "welcome"];
+					if (global.KSW_NotifList[notifID].unlockScript()) scr_KSW_ObtainNotif(notifID);
+					
+					var notifID = global.KSW_NotifIDs[? "exMode"];
 					if (global.KSW_NotifList[notifID].unlockScript()) scr_KSW_ObtainNotif(notifID);
 					
 					var notifID = global.KSW_NotifIDs[? "completion"];
