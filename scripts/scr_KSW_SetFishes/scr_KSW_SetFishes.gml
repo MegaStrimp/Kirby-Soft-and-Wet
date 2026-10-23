@@ -155,6 +155,7 @@ function scr_KSW_SetFishes()
 	var series_DreamCrafter = global.KSW_SeriesIDs[? "dreamCrafter"];
 	var series_ShyGuySurfing = global.KSW_SeriesIDs[? "shyGuySurfing"];
 	var series_JJBA = global.KSW_SeriesIDs[? "jjba"];
+	var series_msm = global.KSW_SeriesIDs[? "msm"];
 	#endregion
 	
 	#region Stages
@@ -2609,8 +2610,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Shy Guy (Surfing)",spr_KSW_Fish_ShyGuySurfing,spr_KSW_Fish_ShyGuySurfing_Pal,series_ShyGuySurfing,candy,2,grassBeach,KSW_Phases.day,20240);
 	scr_KSW_AddFish("Gyro Zeppeli",spr_KSW_Fish_GyroZeppeli,spr_KSW_Fish_GyroZeppeli_Pal,series_JJBA,borange,3,serranoSprings,KSW_Phases.afternoon,200000);
 	scr_KSW_AddFish("Baoh",spr_KSW_Fish_Baoh,spr_KSW_Fish_Baoh_Pal,series_JJBA,mage,2,serranoSprings,KSW_Phases.night,19840);
-	scr_KSW_AddFish("Baja Blast",spr_KSW_Fish_Baja_Blast,spr_KSW_Fish_Baja_Blast_Pal,series_Misc,mage,1,creamCrevasse,KSW_Phases.none,385,-25,-40);
-	scr_KSW_AddFish("Shadow Mantle Holder",spr_KSW_Fish_MantleHolder,spr_KSW_Fish_MantleHolder_Pal,series_Deltarune,limit,2,hallowReen,KSW_Phases.night,150,-17,-18,,snd_KSW_Fish_MantleLaugh);
+	scr_KSW_AddFish("Baja Blast",spr_KSW_Fish_Baja_Blast,spr_KSW_Fish_Baja_Blast_Pal,series_Misc,mage,1,creamCrevasse,KSW_Phases.none,385,-25,-40); //If I've done any of these wrong, or they're not suitable for the game, or anything else, feel free to remove/change anything.
+	scr_KSW_AddFish("Shadow Mantle Holder",spr_KSW_Fish_MantleHolder,spr_KSW_Fish_MantleHolder_Pal,series_Deltarune,limit,2,hallowReen,KSW_Phases.night,150,-16,-18,,snd_KSW_Fish_MantleLaugh);
+	scr_KSW_AddFish("Thrash Duck",spr_KSW_Fish_Thrash_Duck,spr_KSW_Fish_Thrash_Duck_Pal,series_Deltarune,candy,2,androidPort,KSW_Phases.day,5750, -31, -40);
+	scr_KSW_AddFish("Heart Shaped Object",spr_KSW_Fish_HeartShapedObject,spr_KSW_Fish_HeartShapedObject_Pal,series_Deltarune,candy,0,hallowReen,KSW_Phases.none,50, -8, -7);
+	scr_KSW_AddFish("ENEMY_FISH",spr_KSW_Fish_FISH_ENEMY,spr_KSW_Fish_FISH_ENEMY_Pal,series_Deltarune,mage,0,androidPort,KSW_Phases.none,250, -7, -5);
+	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,androidPort,KSW_Phases.night,4500, -31, -31, ,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
 	#endregion
 	#endregion
 }
