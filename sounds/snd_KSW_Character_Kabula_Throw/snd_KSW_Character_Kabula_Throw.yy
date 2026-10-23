@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_KSW_Character_Kabula_Throw",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.021678,
+  "exportDir":"",
+  "name":"snd_KSW_Character_Kabula_Throw",
+  "parent":{
+    "name":"Characters",
+    "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Characters.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_KSW_Character_Kabula_Throw.ogg",
+  "tags":[
+    "Sound Effect",
+  ],
+  "volume":1.0,
+}

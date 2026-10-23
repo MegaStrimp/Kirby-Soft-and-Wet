@@ -45,6 +45,11 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
 			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_AndroidPort;
 			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_AndroidPort_Small;
 			break;
+			
+			case "cloudyPark":
+			targetPhaseIconLeft = spr_KSW_Menu_TitleScreen_Phase_CloudyPark;
+			targetPhaseIconLeftSmall = spr_KSW_Menu_TitleScreen_Phase_CloudyPark_Small;
+			break;
 		}
 	}
 	
