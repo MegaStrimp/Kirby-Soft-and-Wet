@@ -157,6 +157,7 @@ function scr_KSW_SetFishes()
 	var series_JJBA = global.KSW_SeriesIDs[? "jjba"];
 	var series_msm = global.KSW_SeriesIDs[? "msm"];
 	var series_terrariahomewardjourney = global.KSW_SeriesIDs[? "terrariahomewardjourney"]
+	var series_fnf = global.KSW_SeriesIDs[? "fnf"];
 	#endregion
 	
 	#region Stages
@@ -2623,6 +2624,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Marquis Moonsquid",spr_KSW_Fish_Marquis_Moonsquid,spr_KSW_Fish_Marquis_Moonsquid_Pal,series_terrariahomewardjourney,mage,2,grassBeach,KSW_Phases.night,8500,-44,-44);
 	scr_KSW_AddFish("Diver",spr_KSW_Fish_Diver,spr_KSW_Fish_Diver_Pal,series_terrariahomewardjourney,maze,3,hallowReen,KSW_Phases.night,16000,-34,-42);
 	scr_KSW_AddFish("Tomopteris",spr_KSW_Fish_Tomopteris,spr_KSW_Fish_Tomopteris_Pal,series_Misc,mage,0,grassBeach,KSW_Phases.night,1,-54,-15);
+	scr_KSW_AddFish("Boyfriend",spr_KSW_Fish_Boyfriend,spr_KSW_Fish_Boyfriend_Pal,series_fnf,mage,2,anyStage,KSW_Phases.night,18500,-28,-21,,snd_KSW_Fish_bffnf);
+	scr_KSW_AddFish("Girlfriend",spr_KSW_Fish_Girlfriend,spr_KSW_Fish_Girlfriend_Pal,series_fnf,candy,3,anyStage,KSW_Phases.night,45000,-52,-28,,snd_KSW_Fish_gffnf);
+	scr_KSW_AddFish("Pico",spr_KSW_Fish_Pico,spr_KSW_Fish_Pico_Pal,series_fnf,borange,2,serranoSprings,KSW_Phases.night,19000,-31,-23,,snd_KSW_Fish_picofnf);
+	scr_KSW_AddFish("Senpai",spr_KSW_Fish_Senpai,spr_KSW_Fish_Senpai_Pal,series_fnf,borange,2,creamCrevasse,KSW_Phases.day,26000,-31,-41,,snd_KSW_Fish_senpaifnf);
+	scr_KSW_AddFish("Spirit (FNF)",spr_KSW_Fish_SpiritFNF,spr_KSW_Fish_SpiritFNF_Pal,series_fnf,limit,3,hallowReen,KSW_Phases.night,18000,-26,-55,,snd_KSW_Fish_spiritfnf);
 	#endregion
 	#endregion
 }
