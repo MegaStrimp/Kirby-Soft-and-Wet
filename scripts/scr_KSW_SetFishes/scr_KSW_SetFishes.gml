@@ -156,6 +156,7 @@ function scr_KSW_SetFishes()
 	var series_ShyGuySurfing = global.KSW_SeriesIDs[? "shyGuySurfing"];
 	var series_JJBA = global.KSW_SeriesIDs[? "jjba"];
 	var series_msm = global.KSW_SeriesIDs[? "msm"];
+	var series_terrariahomewardjourney = global.KSW_SeriesIDs[? "terrariahomewardjourney"]
 	#endregion
 	
 	#region Stages
@@ -2616,6 +2617,12 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Heart Shaped Object",spr_KSW_Fish_HeartShapedObject,spr_KSW_Fish_HeartShapedObject_Pal,series_Deltarune,candy,0,hallowReen,KSW_Phases.none,50, -8, -7);
 	scr_KSW_AddFish("ENEMY_FISH",spr_KSW_Fish_FISH_ENEMY,spr_KSW_Fish_FISH_ENEMY_Pal,series_Deltarune,mage,0,androidPort,KSW_Phases.none,250, -7, -5);
 	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,androidPort,KSW_Phases.night,4500, -31, -31, ,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
+	scr_KSW_AddFish("MissingNo.",spr_KSW_Fish_MissingNo,spr_KSW_Fish_MissingNo_Pal,series_Pokemon,legion,2,androidPort,KSW_Phases.none,404, -12, -26);
+	scr_KSW_AddFish("Wormwood",spr_KSW_Fish_Wormwood,spr_KSW_Fish_Wormwood_Pal,series_TheBindingOfIsaacRebirth,maze,3,serranoSprings,KSW_Phases.none,7500,-65,-76);
+	scr_KSW_AddFish("Purple Fish",spr_KSW_Fish_Purplefish,spr_KSW_Fish_Purplefish_Pal,series_FiveNightsAtFreddys,flux,0,hallowReen,KSW_Phases.none,650,-34,-16);
+	scr_KSW_AddFish("Marquis Moonsquid",spr_KSW_Fish_Marquis_Moonsquid,spr_KSW_Fish_Marquis_Moonsquid_Pal,series_terrariahomewardjourney,mage,2,grassBeach,KSW_Phases.night,8500,-44,-44);
+	scr_KSW_AddFish("Diver",spr_KSW_Fish_Diver,spr_KSW_Fish_Diver_Pal,series_terrariahomewardjourney,maze,3,hallowReen,KSW_Phases.night,16000,-34,-42);
+	scr_KSW_AddFish("Tomopteris",spr_KSW_Fish_Tomopteris,spr_KSW_Fish_Tomopteris_Pal,series_Misc,mage,0,grassBeach,KSW_Phases.night,1,-54,-15);
 	#endregion
 	#endregion
 }
