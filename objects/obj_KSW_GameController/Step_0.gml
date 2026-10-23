@@ -418,6 +418,8 @@ if (!localPause)
 			global.KSW_CurrentFishCombo += 1;
 			global.KSW_HighestFishCombo = max(global.KSW_HighestFishCombo,global.KSW_CurrentFishCombo);
 			global.KSW_FishList[other.currentFish].isCaught += 1;
+			global.KSW_CharacterList[global.playerCharacter[playerNum]].caughtFishCount += 1;
+			global.KSW_StageList[global.KSW_CurrentStageID].caughtFishCount += 1;
 			if (other.currentFishIsShiny) global.KSW_FishList[other.currentFish].isCaughtShiny += 1;
 			catchCombo_YOffsetTimer = catchCombo_YOffsetTimerMax;
 			
