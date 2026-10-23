@@ -16,10 +16,11 @@ draw_sprite(spr_KSW_Menu_TitleScreen_Logo,0,room_width / 2,36 + logoWave);
 if (trailerShot)
 {
 	#region Version Number
-	scribble("[c_red]" + string(global.versionNumber) + " - " + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) - 5);
+	scribble("[#5BD8C1]" + string(global.versionSubtitle) + "[/color]").gradient(c_white,1).align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) - 5);
 	
 	if (keyboard_check(vk_space))
 	{
+		//scribble("Coming Soon").align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) + 15);
 		scribble("Available Now").align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) + 15);
 		scribble("On All Platforms").align(fa_center).draw(global.gameWidth / 2,(global.gameHeight / 2) + 25);
 	}

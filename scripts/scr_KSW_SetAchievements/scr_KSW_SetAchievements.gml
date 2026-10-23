@@ -207,7 +207,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_TotalCoins >= 50);
 	};
-	scr_KSW_AddAchievement("coins50","Pocket Change","Earn 50 Coins Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("coins50","Pocket Change","Earn 50 Coins In Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	
 	#region Earn 200 Coins
@@ -215,7 +215,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_TotalCoins >= 200);
 	};
-	scr_KSW_AddAchievement("coins200","Deep Pockets","Earn 200 Coins Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("coins200","Deep Pockets","Earn 200 Coins In Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	
 	#region Earn 3000 Coins
@@ -223,7 +223,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_TotalCoins >= 3000);
 	};
-	scr_KSW_AddAchievement("coins3000","A Real Scrooge","Earn 3000 Coins Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("coins3000","A Real Scrooge","Earn 3000 Coins In Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	
 	#region Earn 10000 Coins
@@ -231,7 +231,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_TotalCoins >= 10000);
 	};
-	scr_KSW_AddAchievement("coins10000","Need Ways To Spend","Earn 10000 Coins Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("coins10000","Need Ways To Spend","Earn 10000 Coins In Total",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	#endregion
 	
