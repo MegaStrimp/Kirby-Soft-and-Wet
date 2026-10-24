@@ -26,7 +26,10 @@ if (global.debug)
 	#region Wiki
 	if (keyboard_check_pressed(vk_f10))
 	{
-		scr_KSW_Debug_Wiki_Fish();
+		var filename = get_save_filename("*.txt","fish.txt");
+		scr_KSW_Debug_Wiki_Fish(filename);
+		
+		scr_KSW_Debug_Wiki_Hats(filename_path(filename) + "hats.txt");
 	}
 	#endregion
 	
