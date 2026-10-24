@@ -160,5 +160,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("genshinImpact","Genshin Impact");
 	scr_KSW_AddSeries("mabinogi","Mabinogi");
 	scr_KSW_AddSeries("homestuck","Homestuck");
+	scr_KSW_AddSeries("brutalOrchestra","Hieronymus Bosch's Brutal Orchestra");
 	#endregion
 }
