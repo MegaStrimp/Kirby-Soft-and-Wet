@@ -158,6 +158,8 @@ function scr_KSW_SetFishes()
 	var series_msm = global.KSW_SeriesIDs[? "msm"];
 	var series_terrariahomewardjourney = global.KSW_SeriesIDs[? "terrariahomewardjourney"]
 	var series_fnf = global.KSW_SeriesIDs[? "fnf"];
+	var series_badendtheater = global.KSW_SeriesIDs[? "BadEndTheater"];
+	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
 	#endregion
 	
 	#region Stages
@@ -2627,8 +2629,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Boyfriend",spr_KSW_Fish_Boyfriend,spr_KSW_Fish_Boyfriend_Pal,series_fnf,mage,2,anyStage,KSW_Phases.night,18500,-28,-21,,snd_KSW_Fish_bffnf);
 	scr_KSW_AddFish("Girlfriend",spr_KSW_Fish_Girlfriend,spr_KSW_Fish_Girlfriend_Pal,series_fnf,candy,3,anyStage,KSW_Phases.night,45000,-52,-28,,snd_KSW_Fish_gffnf);
 	scr_KSW_AddFish("Pico",spr_KSW_Fish_Pico,spr_KSW_Fish_Pico_Pal,series_fnf,borange,2,serranoSprings,KSW_Phases.night,19000,-31,-23,,snd_KSW_Fish_picofnf);
-	scr_KSW_AddFish("Senpai",spr_KSW_Fish_Senpai,spr_KSW_Fish_Senpai_Pal,series_fnf,borange,2,creamCrevasse,KSW_Phases.day,26000,-31,-41,,snd_KSW_Fish_senpaifnf);
+	scr_KSW_AddFish("Senpai",spr_KSW_Fish_Senpai,spr_KSW_Fish_Senpai_Pal,series_fnf,glimmer,2,creamCrevasse,KSW_Phases.day,26000,-31,-41,,snd_KSW_Fish_senpaifnf);
 	scr_KSW_AddFish("Spirit (FNF)",spr_KSW_Fish_SpiritFNF,spr_KSW_Fish_SpiritFNF_Pal,series_fnf,limit,3,hallowReen,KSW_Phases.night,18000,-26,-55,,snd_KSW_Fish_spiritfnf);
+	scr_KSW_AddFish("The Hero",spr_KSW_Fish_The_Hero,spr_KSW_Fish_The_Hero_Pal,series_badendtheater,borange,2,grassBeach,KSW_Phases.none,8000,-15,-16);
+	scr_KSW_AddFish("The Maiden",spr_KSW_Fish_The_Maiden,spr_KSW_Fish_The_Maiden_Pal,series_badendtheater,mage,1,creamCrevasse,KSW_Phases.none,8000,-15,-16);
+	scr_KSW_AddFish("The Underling",spr_KSW_Fish_The_Underling,spr_KSW_Fish_The_Underling_Pal,series_badendtheater,flux,2,serranoSprings,KSW_Phases.night,8000,-15,-16);
+	scr_KSW_AddFish("The Overlord",spr_KSW_Fish_The_Overlord,spr_KSW_Fish_The_Overlord_Pal,series_badendtheater,candy,3,hallowReen,KSW_Phases.none,8000,-19,-16);
+	scr_KSW_AddFish("Crappy Looking FIsh",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
 	#endregion
 	#endregion
 }
