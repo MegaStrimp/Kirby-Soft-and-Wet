@@ -281,6 +281,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Bonnie",playerID,"Bonnie",spr_KSW_Player_Marx_SprayPaint_Bonnie,mage,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Marx_SprayPaint_Delirious,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Fireboy",playerID,"Fireboy",spr_KSW_Player_Marx_SprayPaint_Fireboy,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Fireboy",playerID,"Paper Harlequin",spr_KSW_Player_Marx_SprayPaint_PaperHarlequin,glimmer,100);
 	#endregion
 	
 	#region Waddle Dee
