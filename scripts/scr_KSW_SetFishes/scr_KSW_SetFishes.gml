@@ -1728,7 +1728,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Red Fairy",spr_KSW_Fish_THRedFairy,spr_KSW_Fish_THRedFairy_Pal,series_TouhouProject,candy,1,anyStage,KSW_Phases.none,300,0,7);
 	scr_KSW_AddFish("Green Fairy",spr_KSW_Fish_THGreenFairy,spr_KSW_Fish_THGreenFairy_Pal,series_TouhouProject,mint,1,anyStage,KSW_Phases.none,300,0,7);
 	scr_KSW_AddFish("Yellow Fairy",spr_KSW_Fish_THYellowFairy,spr_KSW_Fish_THYellowFairy_Pal,series_TouhouProject,borange,1,anyStage,KSW_Phases.none,300,0,7);
-	scr_KSW_AddFish("Hunter Fairy",spr_KSW_Fish_THHunterFairy,spr_KSW_Fish_THHunterFairy_Pal,series_TouhouProject,mint,0,serranoSprings,KSW_Phases.none,300,0,6);
+	scr_KSW_AddFish("Hunter Fairy",spr_KSW_Fish_THHunterFairy,spr_KSW_Fish_THHunterFairy_Pal,series_TouhouProject,mint,1,serranoSprings,KSW_Phases.none,300,0,6);
 	scr_KSW_AddFish("Black Fairy",spr_KSW_Fish_THBlackFairy,spr_KSW_Fish_THBlackFairy_Pal,series_TouhouProject,flux,1,anyStage,KSW_Phases.night,300,0,7);
 	scr_KSW_AddFish("Mambofish",spr_KSW_Fish_Mambofish,spr_KSW_Fish_Mambofish_Pal,series_Umamusume,mage,2,grassBeach,KSW_Phases.none,4500,-24,-5,-1,snd_KSW_Fish_Mambofish);
 	var krisAndNoelle = scr_KSW_AddFish("Two Friends Started Just As Neighbors",spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors,spr_KSW_Fish_TwoFriendsStartedJustAsNeighbors_Pal,series_Deltarune,borange,3,anyStage,KSW_Phases.afternoon,12250,,,,snd_KSW_Fish_KrisAndNoelle);
@@ -2462,6 +2462,15 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Iku Nagae",spr_KSW_Fish_IkuNagae,spr_KSW_Fish_IkuNagae_Pal,series_TouhouProject,flux,3,cloudyPark,KSW_Phases.none,58000,-33,-56);
 	scr_KSW_AddFish("Miyoi",spr_KSW_Fish_Miyoi,spr_KSW_Fish_Miyoi_Pal,series_TouhouProject,mage,2,grassBeach,KSW_Phases.none,55000,-18,-16);
 	scr_KSW_AddFish("Nitori Kawashiro",spr_KSW_Fish_NitoriKawashiro,spr_KSW_Fish_NitoriKawashiro_Pal,series_TouhouProject,maze,3,androidPort,KSW_Phases.none,100000,-84,-82);
+	scr_KSW_AddFish("Power Item",spr_KSW_Fish_PowerItem,spr_KSW_Fish_PowerItem_Pal,series_TouhouProject,candy,0,anyStage,KSW_Phases.none,40,0,0);
+	scr_KSW_AddFish("Point Item",spr_KSW_Fish_PointItem,spr_KSW_Fish_PointItem_Pal,series_TouhouProject,maze,0,anyStage,KSW_Phases.none,40,0,0);
+	scr_KSW_AddFish("Zombie Fairy",spr_KSW_Fish_THZombieFairy,spr_KSW_Fish_THZombieFairy_Pal,series_TouhouProject,flux,1,hallowReen,KSW_Phases.none,300,0,7);
+	scr_KSW_AddFish("Red Chief Fairy",spr_KSW_Fish_THRedChiefFairy,spr_KSW_Fish_THRedChiefFairy_Pal,series_TouhouProject,candy,1,anyStage,KSW_Phases.none,600,0,7);
+	scr_KSW_AddFish("Blue Chief Fairy",spr_KSW_Fish_THBlueChiefFairy,spr_KSW_Fish_THBlueChiefFairy_Pal,series_TouhouProject,mage,1,anyStage,KSW_Phases.none,600,0,7);
+	scr_KSW_AddFish("Brown Big Fairy",spr_KSW_Fish_THBrownBigFairy,spr_KSW_Fish_THBrownBigFairy_Pal,series_TouhouProject,borange,1,anyStage,KSW_Phases.none,1200,0,7);
+	scr_KSW_AddFish("Aqua Big Fairy",spr_KSW_Fish_THAquaBigFairy,spr_KSW_Fish_THAquaBigFairy_Pal,series_TouhouProject,mage,1,anyStage,KSW_Phases.none,1200,0,7);
+	scr_KSW_AddFish("Sunflower Fairy",spr_KSW_Fish_THSunflowerFairy,spr_KSW_Fish_THSunflowerFairy_Pal,series_TouhouProject,candy,2,anyStage,KSW_Phases.none,2400,0,7);
+	scr_KSW_AddFish("Hellish Fairy",spr_KSW_Fish_THHellishFairy,spr_KSW_Fish_THHellishFairy_Pal,series_TouhouProject,flux,2,anyStage,KSW_Phases.night,2400,0,7);
 	
 	#region November Rain
 	//scr_KSW_AddFish("Ghostbell",spr_KSW_Fish_Ghostbell,spr_KSW_Fish_Ghostbell_Pal,series_TerrariaCalamity,mage,0,grassBeach,KSW_Phases.none,800);
