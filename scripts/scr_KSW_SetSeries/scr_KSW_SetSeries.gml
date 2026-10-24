@@ -157,8 +157,5 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("shyGuySurfing","Shy Guy Surfing");
 	scr_KSW_AddSeries("jjba","JoJo's Bizarre Adventure");
 	scr_KSW_AddSeries("OFF","OFF");
-	scr_KSW_AddSeries("genshinImpact","Genshin Impact");
-	scr_KSW_AddSeries("mabinogi","Mabinogi");
-	scr_KSW_AddSeries("homestuck","Homestuck");
 	#endregion
 }
