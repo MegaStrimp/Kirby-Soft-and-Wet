@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings":[
-    {"name":"Alivel Installer","order":10,"path":"folders/Alivel Installer.yy",},
+    {"name":"Alivel Installer","order":1,"path":"folders/Alivel Installer.yy",},
     {"name":"Objects","order":2,"path":"folders/Alivel Installer/Objects.yy",},
     {"name":"Rooms","order":3,"path":"folders/Alivel Installer/Rooms.yy",},
     {"name":"Scripts","order":1,"path":"folders/Alivel Installer/Scripts.yy",},
-    {"name":"Kirby ~ Soft & Wet","order":11,"path":"folders/Kirby ~ Soft & Wet.yy",},
+    {"name":"Kirby ~ Soft & Wet","order":2,"path":"folders/Kirby ~ Soft & Wet.yy",},
     {"name":"Achievements","order":7,"path":"folders/Kirby ~ Soft & Wet/Achievements.yy",},
     {"name":"Scripts","order":1,"path":"folders/Kirby ~ Soft & Wet/Achievements/Scripts.yy",},
     {"name":"Initialization","order":5,"path":"folders/Kirby ~ Soft & Wet/Achievements/Scripts/Initialization.yy",},
@@ -2371,7 +2371,7 @@
   "ResourceOrderSettings":[
     {"name":"scribble_fallback_font","order":16,"path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},
     {"name":"Color Key Mask","order":4,"path":"notes/Color Key Mask/Color Key Mask.yy",},
-    {"name":"DO NOT FORGET BEFORE RELEASING AN UPDATE","order":4,"path":"notes/DO NOT FORGET BEFORE RELEASING AN UPDATE/DO NOT FORGET BEFORE RELEASING AN UPDATE.yy",},
+    {"name":"DO NOT FORGET BEFORE RELEASING AN UPDATE","order":3,"path":"notes/DO NOT FORGET BEFORE RELEASING AN UPDATE/DO NOT FORGET BEFORE RELEASING AN UPDATE.yy",},
     {"name":"Scribble","order":1,"path":"notes/Scribble/Scribble.yy",},
     {"name":"StarDream Framework Credits","order":34,"path":"notes/StarDream Framework Credits/StarDream Framework Credits.yy",},
     {"name":"StarDream Framework","order":3,"path":"notes/StarDream Framework/StarDream Framework.yy",},
@@ -6028,9 +6028,9 @@
     {"name":"spr_KSW_Fish_THBlackFairy_Pal","order":1,"path":"sprites/spr_KSW_Fish_THBlackFairy_Pal/spr_KSW_Fish_THBlackFairy_Pal.yy",},
     {"name":"spr_KSW_Fish_THBlueChiefFairy_Pal","order":1,"path":"sprites/spr_KSW_Fish_THBlueChiefFairy_Pal/spr_KSW_Fish_THBlueChiefFairy_Pal.yy",},
     {"name":"spr_KSW_Fish_THBlueFairy_Pal","order":2,"path":"sprites/spr_KSW_Fish_THBlueFairy_Pal/spr_KSW_Fish_THBlueFairy_Pal.yy",},
+    {"name":"spr_KSW_Fish_THBrownBigFairy_Pal","order":2,"path":"sprites/spr_KSW_Fish_THBrownBigFairy_Pal/spr_KSW_Fish_THBrownBigFairy_Pal.yy",},
     {"name":"spr_KSW_Fish_TheBadBatter_Pal","order":1,"path":"sprites/spr_KSW_Fish_TheBadBatter_Pal/spr_KSW_Fish_TheBadBatter_Pal.yy",},
     {"name":"spr_KSW_Fish_TheBatter_Pal","order":1,"path":"sprites/spr_KSW_Fish_TheBatter_Pal/spr_KSW_Fish_TheBatter_Pal.yy",},
-    {"name":"spr_KSW_Fish_THBrownBigFairy_Pal","order":2,"path":"sprites/spr_KSW_Fish_THBrownBigFairy_Pal/spr_KSW_Fish_THBrownBigFairy_Pal.yy",},
     {"name":"spr_KSW_Fish_TheBigCreep_Pal","order":1,"path":"sprites/spr_KSW_Fish_TheBigCreep_Pal/spr_KSW_Fish_TheBigCreep_Pal.yy",},
     {"name":"spr_KSW_Fish_TheBlues_Pal","order":1,"path":"sprites/spr_KSW_Fish_TheBlues_Pal/spr_KSW_Fish_TheBlues_Pal.yy",},
     {"name":"spr_KSW_Fish_TheCreature_Pal","order":2,"path":"sprites/spr_KSW_Fish_TheCreature_Pal/spr_KSW_Fish_TheCreature_Pal.yy",},
