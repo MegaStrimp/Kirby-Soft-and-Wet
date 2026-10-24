@@ -2778,7 +2778,6 @@
     {"name":"Objects","order":3,"path":"folders/Kirby ~ Soft & Wet/STARS/Objects.yy",},
     {"name":"Rooms","order":4,"path":"folders/Kirby ~ Soft & Wet/STARS/Rooms.yy",},
     {"name":"Scripts","order":1,"path":"folders/Kirby ~ Soft & Wet/STARS/Scripts.yy",},
-    {"name":"Startup","order":21,"path":"folders/Kirby ~ Soft & Wet/Startup.yy",},
     {"name":"UI","order":8,"path":"folders/Kirby ~ Soft & Wet/UI.yy",},
     {"name":"Achievement","order":5,"path":"folders/Kirby ~ Soft & Wet/UI/Achievement.yy",},
     {"name":"Objects","order":2,"path":"folders/Kirby ~ Soft & Wet/UI/Achievement/Objects.yy",},
@@ -2969,7 +2968,7 @@
     {"name":"Keyboard","order":111,"path":"folders/StarDream Framework/UI/Sprites/Buttons/Keyboard.yy",},
     {"name":"Mouse","order":112,"path":"folders/StarDream Framework/UI/Sprites/Buttons/Mouse.yy",},
     {"name":"WaddleDev Common Scripts","order":1,"path":"folders/StarDream Framework/WaddleDev Common Scripts.yy",},
-    {"name":"Startup","order":12,"path":"folders/Startup.yy",},
+    {"name":"Startup","order":21,"path":"folders/Kirby ~ Soft & Wet/Startup.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"scribble_fallback_font","order":16,"path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},
