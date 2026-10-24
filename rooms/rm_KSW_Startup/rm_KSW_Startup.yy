@@ -18,7 +18,7 @@
   "name":"rm_KSW_Startup",
   "parent":{
     "name":"Startup",
-    "path":"folders/Kirby ~ Soft & Wet/Startup.yy",
+    "path":"folders/Startup.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
