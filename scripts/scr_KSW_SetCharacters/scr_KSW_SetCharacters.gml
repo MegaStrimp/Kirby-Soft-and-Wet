@@ -17,8 +17,8 @@ function scr_KSW_SetCharacters()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
-	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
-	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
+	
+	//DO NOT ADD NEW ONES.
 	#endregion
 	
 	#region Add Characters Here

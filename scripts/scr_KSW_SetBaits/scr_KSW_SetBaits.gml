@@ -17,7 +17,8 @@ function scr_KSW_SetBaits()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
-	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
+	
+	//DO NOT ADD NEW ONES.
 	#endregion
 	
 	#region Add Baits Here

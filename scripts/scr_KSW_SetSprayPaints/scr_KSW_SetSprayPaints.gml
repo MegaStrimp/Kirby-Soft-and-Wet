@@ -17,9 +17,6 @@ function scr_KSW_SetSprayPaints()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
-	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
-	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
-	var limit = spr_KSW_UI_CaughtBox_Palette_Limit;
 	#endregion
 	
 	#region Add Spray Paints Here
@@ -284,7 +281,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Marx_SprayPaint_Delirious,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Fireboy",playerID,"Fireboy",spr_KSW_Player_Marx_SprayPaint_Fireboy,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "PaperHarlequin",playerID,"Paper Harlequin",spr_KSW_Player_Marx_SprayPaint_PaperHarlequin,glimmer,100);
-	scr_KSW_AddSprayPaint(playerID + "_" + "DistortionGod",playerID,"Distortion God",spr_KSW_Player_Marx_SprayPaint_DistortionGod,limit,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "DistortionGod",playerID,"Distortion God",spr_KSW_Player_Marx_SprayPaint_DistortionGod,candy,100);
 	#endregion
 	
 	#region Waddle Dee
@@ -392,7 +389,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "KirbysWorld",playerID,"Kirby's World",spr_KSW_Player_Ybrik_SprayPaint_KirbysWorld,mage,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "UndeadOfNevada",playerID,"Undead of Nevada",spr_KSW_Player_Ybrik_SprayPaint_UndeadOfNevada,mint,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "NevadaAgent",playerID,"Nevada Agent",spr_KSW_Player_Ybrik_SprayPaint_NevadaAgent,legion,100);
-	scr_KSW_AddSprayPaint(playerID + "_" + "WackaWackaWacka",playerID,"Wacka Wacka Wacka",spr_KSW_Player_Ybrik_SprayPaint_WackaWackaWacka,maze,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "WackaWackaWacka",playerID,"Wacka Wacka Wacka",spr_KSW_Player_Ybrik_SprayPaint_WackaWackaWacka,spr_KSW_UI_CaughtBox_Palette_Maze,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "FeelingBlue",playerID,"Feeling Blue",spr_KSW_Player_Ybrik_SprayPaint_FeelingBlue,mage,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "TooSlow",playerID,"Too Slow",spr_KSW_Player_Ybrik_SprayPaint_TooSlow,mage,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "GrapeGarden",playerID,"Grape Garden",spr_KSW_Player_Ybrik_SprayPaint_GrapeGarden,flux,100);
@@ -438,7 +435,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Midnight",playerID,"Midnight",spr_KSW_Player_Chip_SprayPaint_Midnight,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Chip_SprayPaint_Delirious,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Experiment626",playerID,"Experiment 626",spr_KSW_Player_Chip_SprayPaint_Experiment626,legion,100);
-	scr_KSW_AddSprayPaint(playerID + "_" + "NightguardsFavorite",playerID,"Nightguard's Favorite",spr_KSW_Player_Chip_SprayPaint_NightguardsFavorite,limit,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "NightguardsFavorite",playerID,"Nightguard's Favorite",spr_KSW_Player_Chip_SprayPaint_NightguardsFavorite,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "OrphanWolf",playerID,"Orphan Wolf",spr_KSW_Player_Chip_SprayPaint_OrphanWolf,legion,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Tails",playerID,"Tails",spr_KSW_Player_Chip_SprayPaint_Tails,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "TailsSoul",playerID,"Tails Soul",spr_KSW_Player_Chip_SprayPaint_TailsSoul,legion,100);
@@ -454,7 +451,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Thunderous",playerID,"Thunderous",spr_KSW_Player_Kracko_SprayPaint_Thunderous,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Mecha",playerID,"Mecha",spr_KSW_Player_Kracko_SprayPaint_Mecha,legion,100);
 	//scr_KSW_AddSprayPaint(playerID + "_" + "Adventure",playerID,"Adventure",spr_KSW_Player_Kracko_SprayPaint_Adventure,mage,100); STRIMPTODO For his birthday
-	scr_KSW_AddSprayPaint(playerID + "_" + "Parallel",playerID,"Parallel",spr_KSW_Player_Kracko_SprayPaint_Parallel,limit,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Parallel",playerID,"Parallel",spr_KSW_Player_Kracko_SprayPaint_Parallel,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Holograph",playerID,"Holograph",spr_KSW_Player_Kracko_SprayPaint_Holograph,mint,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Holograph20",playerID,"Holograph 2.0",spr_KSW_Player_Kracko_SprayPaint_Holograph20,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Venom",playerID,"Venom",spr_KSW_Player_Kracko_SprayPaint_Venom,candy,100);
@@ -512,7 +509,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "LaBlymp",playerID,"Lablymp",spr_KSW_Player_Kabula_SprayPaint_LaBlymp,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Skyscourge",playerID,"Skyscourge",spr_KSW_Player_Kabula_SprayPaint_Skyscourge,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "LicoriceTwist",playerID,"Licorice Twist",spr_KSW_Player_Kabula_SprayPaint_LicoriceTwist,candy,100);
-	scr_KSW_AddSprayPaint(playerID + "_" + "TakingTooLong",playerID,"[shake]Taking Too Long[/shake]",spr_KSW_Player_Kabula_SprayPaint_TakingTooLong,limit,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TakingTooLong",playerID,"[shake]Taking Too Long[/shake]",spr_KSW_Player_Kabula_SprayPaint_TakingTooLong,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Vintage",playerID,"Vintage",spr_KSW_Player_Kabula_SprayPaint_Vintage,borange,100);
 	#endregion
 	
