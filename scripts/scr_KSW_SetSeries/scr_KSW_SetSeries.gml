@@ -169,5 +169,10 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("blasterMaster","Blaster Master Zero");
 	scr_KSW_AddSeries("contra","Contra");
 	scr_KSW_AddSeries("metalSlug","Metal Slug");
+	scr_KSW_AddSeries("msm","My Singing Monsters");
+	scr_KSW_AddSeries("terrariahomewardjourney","Terraria: Homeward Journey Mod");
+	scr_KSW_AddSeries("fnf","Friday Night Funkin'");
+	scr_KSW_AddSeries("BadEndTheater","Bad End Theater");
+	scr_KSW_AddSeries("TADC","The Amazing Digital Circus");
 	#endregion
 }
