@@ -172,6 +172,11 @@ function scr_KSW_SetFishes()
 	var series_BMZ = global.KSW_SeriesIDs[? "blasterMaster"];
 	var series_Contra = global.KSW_SeriesIDs[? "contra"];
 	var series_MetalSlug = global.KSW_SeriesIDs[? "metalSlug"];
+	var series_msm = global.KSW_SeriesIDs[? "msm"];
+	var series_terrariahomewardjourney = global.KSW_SeriesIDs[? "terrariahomewardjourney"]
+	var series_fnf = global.KSW_SeriesIDs[? "fnf"];
+	var series_badendtheater = global.KSW_SeriesIDs[? "BadEndTheater"];
+	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
 	#endregion
 	
 	#region Stages
@@ -3122,6 +3127,28 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Tripropellan",spr_KSW_Fish_Tripropellan,spr_KSW_Fish_Tripropellan_Pal,series_MegaMan,flux,0,cloudyPark,KSW_Phases.afternoon,700);
 	scr_KSW_AddFish("HannyaNED²",spr_KSW_Fish_HannyaNED2,spr_KSW_Fish_HannyaNED2_Pal,series_MegaMan,flux,3,cloudyPark,KSW_Phases.night,70000);
 	scr_KSW_AddFish("Wily Capsule",spr_KSW_Fish_WilyCapsule,spr_KSW_Fish_WilyCapsule_Pal,series_MegaMan,limit,3,cloudyPark,KSW_Phases.none,199500);
+	scr_KSW_AddFish("Baja Blast",spr_KSW_Fish_Baja_Blast,spr_KSW_Fish_Baja_Blast_Pal,series_Misc,mage,1,creamCrevasse,KSW_Phases.none,385,-25,-40); //If I've done any of these wrong, or they're not suitable for the game, or anything else, feel free to remove/change anything.
+	scr_KSW_AddFish("Shadow Mantle Holder",spr_KSW_Fish_MantleHolder,spr_KSW_Fish_MantleHolder_Pal,series_Deltarune,limit,2,hallowReen,KSW_Phases.night,150,-16,-18,,snd_KSW_Fish_MantleLaugh);
+	scr_KSW_AddFish("Thrash Duck",spr_KSW_Fish_Thrash_Duck,spr_KSW_Fish_Thrash_Duck_Pal,series_Deltarune,candy,2,androidPort,KSW_Phases.day,5750, -31, -40);
+	scr_KSW_AddFish("Heart Shaped Object",spr_KSW_Fish_HeartShapedObject,spr_KSW_Fish_HeartShapedObject_Pal,series_Deltarune,candy,0,hallowReen,KSW_Phases.none,50, -8, -7);
+	scr_KSW_AddFish("ENEMY_FISH",spr_KSW_Fish_FISH_ENEMY,spr_KSW_Fish_FISH_ENEMY_Pal,series_Deltarune,mage,0,androidPort,KSW_Phases.none,250, -7, -5);
+	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,androidPort,KSW_Phases.night,4500, -31, -31, ,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
+	scr_KSW_AddFish("MissingNo.",spr_KSW_Fish_MissingNo,spr_KSW_Fish_MissingNo_Pal,series_Pokemon,legion,2,androidPort,KSW_Phases.none,404, -12, -26);
+	scr_KSW_AddFish("Wormwood",spr_KSW_Fish_Wormwood,spr_KSW_Fish_Wormwood_Pal,series_TheBindingOfIsaacRebirth,maze,3,serranoSprings,KSW_Phases.none,7500,-65,-76);
+	scr_KSW_AddFish("Purple Fish",spr_KSW_Fish_Purplefish,spr_KSW_Fish_Purplefish_Pal,series_FiveNightsAtFreddys,flux,0,hallowReen,KSW_Phases.none,650,-34,-16);
+	scr_KSW_AddFish("Marquis Moonsquid",spr_KSW_Fish_Marquis_Moonsquid,spr_KSW_Fish_Marquis_Moonsquid_Pal,series_terrariahomewardjourney,mage,2,grassBeach,KSW_Phases.night,8500,-44,-44);
+	scr_KSW_AddFish("Diver",spr_KSW_Fish_Diver,spr_KSW_Fish_Diver_Pal,series_terrariahomewardjourney,maze,3,hallowReen,KSW_Phases.night,16000,-34,-42);
+	scr_KSW_AddFish("Tomopteris",spr_KSW_Fish_Tomopteris,spr_KSW_Fish_Tomopteris_Pal,series_Misc,mage,0,grassBeach,KSW_Phases.night,1,-54,-15);
+	scr_KSW_AddFish("Boyfriend",spr_KSW_Fish_Boyfriend,spr_KSW_Fish_Boyfriend_Pal,series_fnf,mage,2,anyStage,KSW_Phases.night,18500,-28,-21,,snd_KSW_Fish_bffnf);
+	scr_KSW_AddFish("Girlfriend",spr_KSW_Fish_Girlfriend,spr_KSW_Fish_Girlfriend_Pal,series_fnf,candy,3,anyStage,KSW_Phases.night,45000,-52,-28,,snd_KSW_Fish_gffnf);
+	scr_KSW_AddFish("Pico",spr_KSW_Fish_Pico,spr_KSW_Fish_Pico_Pal,series_fnf,borange,2,serranoSprings,KSW_Phases.night,19000,-31,-23,,snd_KSW_Fish_picofnf);
+	scr_KSW_AddFish("Senpai",spr_KSW_Fish_Senpai,spr_KSW_Fish_Senpai_Pal,series_fnf,glimmer,2,creamCrevasse,KSW_Phases.day,26000,-31,-41,,snd_KSW_Fish_senpaifnf);
+	scr_KSW_AddFish("Spirit (FNF)",spr_KSW_Fish_SpiritFNF,spr_KSW_Fish_SpiritFNF_Pal,series_fnf,limit,3,hallowReen,KSW_Phases.night,18000,-26,-55,,snd_KSW_Fish_spiritfnf);
+	scr_KSW_AddFish("The Hero",spr_KSW_Fish_The_Hero,spr_KSW_Fish_The_Hero_Pal,series_badendtheater,borange,2,grassBeach,KSW_Phases.none,8000,-15,-16);
+	scr_KSW_AddFish("The Maiden",spr_KSW_Fish_The_Maiden,spr_KSW_Fish_The_Maiden_Pal,series_badendtheater,mage,1,creamCrevasse,KSW_Phases.none,8000,-15,-16);
+	scr_KSW_AddFish("The Underling",spr_KSW_Fish_The_Underling,spr_KSW_Fish_The_Underling_Pal,series_badendtheater,flux,2,serranoSprings,KSW_Phases.night,8000,-15,-16);
+	scr_KSW_AddFish("The Overlord",spr_KSW_Fish_The_Overlord,spr_KSW_Fish_The_Overlord_Pal,series_badendtheater,candy,3,hallowReen,KSW_Phases.none,8000,-19,-16);
+	scr_KSW_AddFish("Crappy Looking FIsh",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
 	#endregion
 	#endregion
 }
