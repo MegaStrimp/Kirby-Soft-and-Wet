@@ -172,6 +172,7 @@ function scr_KSW_SetFishes()
 	var series_BMZ = global.KSW_SeriesIDs[? "blasterMaster"];
 	var series_Contra = global.KSW_SeriesIDs[? "contra"];
 	var series_MetalSlug = global.KSW_SeriesIDs[? "metalSlug"];
+	var series_AnimationVERSUS = global.KSW_SeriesIDs[? "animationVERSUS"];
 	#endregion
 	
 	#region Stages
@@ -3121,7 +3122,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Heli Metall",spr_KSW_Fish_HeliMetall,spr_KSW_Fish_HeliMetall_Pal,series_MegaMan,mint,0,cloudyPark,KSW_Phases.afternoon,700);
 	scr_KSW_AddFish("Tripropellan",spr_KSW_Fish_Tripropellan,spr_KSW_Fish_Tripropellan_Pal,series_MegaMan,flux,0,cloudyPark,KSW_Phases.afternoon,700);
 	scr_KSW_AddFish("HannyaNED²",spr_KSW_Fish_HannyaNED2,spr_KSW_Fish_HannyaNED2_Pal,series_MegaMan,flux,3,cloudyPark,KSW_Phases.night,70000);
-	scr_KSW_AddFish("Wily Capsule",spr_KSW_Fish_WilyCapsule,spr_KSW_Fish_WilyCapsule_Pal,series_MegaMan,limit,3,cloudyPark,KSW_Phases.none,199500);
+	scr_KSW_AddFish("TheSecondComing.exe",spr_KSW_Fish_TheSecondComingExe,spr_KSW_Fish_TheSecondComingExe_Pal,series_AnimationVERSUS,borange,3,androidPort,KSW_Phases.none,21014,-29,-14);
+	scr_KSW_AddFish("StickFigureRed.exe",spr_KSW_Fish_StickFigureRedExe,spr_KSW_Fish_StickFigureRedExe_Pal,series_AnimationVERSUS,candy,2,androidPort,KSW_Phases.none,21014,-24,-14);
+	scr_KSW_AddFish("StickFigureYellow.exe",spr_KSW_Fish_StickFigureYellowExe,spr_KSW_Fish_StickFigureYellowExe_Pal,series_AnimationVERSUS,glimmer,2,androidPort,KSW_Phases.none,21014,-16,-14);
+	scr_KSW_AddFish("StickFigureGreen.exe",spr_KSW_Fish_StickFigureGreenExe,spr_KSW_Fish_StickFigureGreenExe_Pal,series_AnimationVERSUS,mint,2,androidPort,KSW_Phases.none,21014,-22,-14);
+	scr_KSW_AddFish("StickFigureBlue.exe",spr_KSW_Fish_StickFigureBlueExe,spr_KSW_Fish_StickFigureBlueExe_Pal,series_AnimationVERSUS,mage,2,androidPort,KSW_Phases.none,21014,-13,-14);
+	scr_KSW_AddFish("Purple",spr_KSW_Fish_Purple,spr_KSW_Fish_Purple_Pal,series_AnimationVERSUS,flux,2,androidPort,KSW_Phases.none,19618,-23,-14);
+	scr_KSW_AddFish("King Orange",spr_KSW_Fish_KingOrange,spr_KSW_Fish_KingOrange_Pal,series_AnimationVERSUS,borange,3,androidPort,KSW_Phases.none,3421,-37,-30);
 	#endregion
 	#endregion
 }
