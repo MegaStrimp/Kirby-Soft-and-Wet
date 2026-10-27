@@ -177,6 +177,8 @@ function scr_KSW_SetFishes()
 	var series_fnf = global.KSW_SeriesIDs[? "fnf"];
 	var series_badendtheater = global.KSW_SeriesIDs[? "BadEndTheater"];
 	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
+	var series_terrariaFargoSouls = global.KSW_SeriesIDs[? "terrariaFargoSouls"];
+	var series_doors = global.KSW_SeriesIDs[? "doors"];
 	#endregion
 	
 	#region Stages
@@ -3145,7 +3147,15 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Maiden",spr_KSW_Fish_The_Maiden,spr_KSW_Fish_The_Maiden_Pal,series_badendtheater,mage,1,creamCrevasse,KSW_Phases.none,8000,-15,-16);
 	scr_KSW_AddFish("The Underling",spr_KSW_Fish_The_Underling,spr_KSW_Fish_The_Underling_Pal,series_badendtheater,flux,2,serranoSprings,KSW_Phases.night,8000,-15,-16);
 	scr_KSW_AddFish("The Overlord",spr_KSW_Fish_The_Overlord,spr_KSW_Fish_The_Overlord_Pal,series_badendtheater,candy,3,hallowReen,KSW_Phases.none,8000,-19,-16);
-	scr_KSW_AddFish("Crappy Looking FIsh",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
+	scr_KSW_AddFish("Crappy Looking Fish",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
+	scr_KSW_AddFish("Banished Baron",spr_KSW_Fish_Banished_Baron,spr_KSW_Fish_Banished_Baron_Pal,series_terrariaFargoSouls,legion,3,androidPort,KSW_Phases.afternoon,9500,-71,-32);
+	scr_KSW_AddFish("Chronomage",spr_KSW_Fish_Chronomage,spr_KSW_Fish_Chronomage_Pal,series_Castlevania,candy,1,hallowReen,KSW_Phases.day,4500,-10,-14);
+	scr_KSW_AddFish("Old Man Consequences",spr_KSW_Fish_Old_Man_Consequences,spr_KSW_Fish_Old_Man_Consequences_Pal,series_FiveNightsAtFreddys,candy,2,hallowReen,KSW_Phases.night,7500,-11,-11);
+	scr_KSW_AddFish("Mazin Sonic",spr_KSW_Fish_Mazin,spr_KSW_Fish_Mazin_Pal,series_SonicTheHedgehog,mage,2,hallowReen,KSW_Phases.none,8500,-25,-22);
+	scr_KSW_AddFish("Madeline",spr_KSW_Fish_Madeline,spr_KSW_Fish_Madeline_Pal,series_Celeste,borange,1,creamCrevasse,KSW_Phases.none,6500,-11,-14);
+	scr_KSW_AddFish("Fih",spr_KSW_Fish_Fih,spr_KSW_Fish_Fih_Pal,series_doors,mint,0,androidPort,KSW_Phases.none,450,-33,-8);
+	scr_KSW_AddFish("Seekfin",spr_KSW_Fish_Seekfin,spr_KSW_Fish_Seekfin_Pal,series_doors,legion,1,hallowReen,KSW_Phases.none,850,-19,-11);
+	scr_KSW_AddFish("Sea Figurefly",spr_KSW_Fish_Sea_Figurefly,spr_KSW_Fish_Sea_Figurefly_Pal,series_doors,borange,2,hallowReen,KSW_Phases.afternoon,3750,-24,-14);
 	#endregion
 	#endregion
 }
