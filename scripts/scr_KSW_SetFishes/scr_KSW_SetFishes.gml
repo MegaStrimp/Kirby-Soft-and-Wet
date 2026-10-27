@@ -3156,6 +3156,14 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Fih",spr_KSW_Fish_Fih,spr_KSW_Fish_Fih_Pal,series_doors,mint,0,androidPort,KSW_Phases.none,450,-33,-8);
 	scr_KSW_AddFish("Seekfin",spr_KSW_Fish_Seekfin,spr_KSW_Fish_Seekfin_Pal,series_doors,legion,1,hallowReen,KSW_Phases.none,850,-19,-11);
 	scr_KSW_AddFish("Sea Figurefly",spr_KSW_Fish_Sea_Figurefly,spr_KSW_Fish_Sea_Figurefly_Pal,series_doors,borange,2,hallowReen,KSW_Phases.afternoon,3750,-24,-14);
+	scr_KSW_AddFish("Diver NPC",spr_KSW_Fish_Diver_NPC,spr_KSW_Fish_Diver_NPC_Pal,series_Undertale,borange,2,serranoSprings,KSW_Phases.none,28000,-18,-14);
+	scr_KSW_AddFish("Stringray NPC",spr_KSW_Fish_Stingray_NPC,spr_KSW_Fish_Stingray_NPC_Pal,series_Undertale,mage,1,grassBeach,KSW_Phases.night,7500,-21,-16);
+	scr_KSW_AddFish("Gel Girl",spr_KSW_Fish_Gel_Girl,spr_KSW_Fish_Gel_Girl_Pal,series_Undertale,candy,1,creamCrevasse,KSW_Phases.none,5000,-15,-13);
+	scr_KSW_AddFish("Underwater Grandpa",spr_KSW_Fish_Underwater_Grandpa,spr_KSW_Fish_Underwater_Grandpa_Pal,series_Undertale,mint,1,serranoSprings,KSW_Phases.none,7000,-22,-12);
+	scr_KSW_AddFish("Eel Woman",spr_KSW_Fish_Eel_Woman,spr_KSW_Fish_Eel_Woman_Pal,series_Undertale,mage,2,grassBeach,KSW_Phases.night,10000,-77,-12);
+	scr_KSW_AddFish("Arbiter Crab",spr_KSW_Fish_Arbiter_Crab,spr_KSW_Fish_Arbiter_Crab_Pal,series_Undertale,candy,1,serranoSprings,KSW_Phases.day,8000,-19,-20);
+	scr_KSW_AddFish("Glyde",spr_KSW_Fish_Glyde,spr_KSW_Fish_Glyde_Pal,series_Undertale,legion,2,grassBeach,KSW_Phases.afternoon,14500,-53,-34);
+	scr_KSW_AddFish("Dust Elemental",spr_KSW_Fish_Dust_Elemental,spr_KSW_Fish_Dust_Elemental_Pal,series_vampireSurvivors,borange,0,hallowReen,KSW_Phases.afternoon,2500,-18,-20);
 	#endregion
 	#endregion
 }
