@@ -177,6 +177,7 @@ function scr_KSW_SetFishes()
 	var series_fnf = global.KSW_SeriesIDs[? "fnf"];
 	var series_badendtheater = global.KSW_SeriesIDs[? "BadEndTheater"];
 	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
+	var series_Sinistar = global.KSW_SeriesIDs[? "sinistar"];
 	#endregion
 	
 	#region Stages
@@ -2381,7 +2382,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Sky Titany",spr_KSW_Fish_SkyTitany,spr_KSW_Fish_SkyTitany_Pal,series_Mother,candy,1,serranoSprings,KSW_Phases.day,3000);
 	scr_KSW_AddFish("Cactus Wolf",spr_KSW_Fish_CactusWolf,spr_KSW_Fish_CactusWolf_Pal,series_Mother,glimmer,2,serranoSprings,KSW_Phases.afternoon,30000);
 	scr_KSW_AddFish("Mecha Turtle",spr_KSW_Fish_MechaTurtle,spr_KSW_Fish_MechaTurtle_Pal,series_Mother,flux,0,androidPort,KSW_Phases.none,300);
-	scr_KSW_AddFish("ReturnOfOctobot",spr_KSW_Fish_ReturnOfOctobot,spr_KSW_Fish_ReturnOfOctobot_Pal,series_Mother,flux,0,androidPort,KSW_Phases.none,300);
+	var octobot = scr_KSW_AddFish("ReturnOfOctobot",spr_KSW_Fish_ReturnOfOctobot,spr_KSW_Fish_ReturnOfOctobot_Pal,series_Mother,flux,0,androidPort,KSW_Phases.none,300);
+	octobot.displayedName = "Return of Octobot";
 	scr_KSW_AddFish("Hippo Launcher",spr_KSW_Fish_HippoLauncher,spr_KSW_Fish_HippoLauncher_Pal,series_Mother,legion,1,androidPort,KSW_Phases.none,3000);
 	scr_KSW_AddFish("Navy SQUEAL",spr_KSW_Fish_NavySQUEAL,spr_KSW_Fish_NavySQUEAL_Pal,series_Mother,legion,1,androidPort,KSW_Phases.none,3000);
 	scr_KSW_AddFish("Hermit Crab",spr_KSW_Fish_HermitCrab,spr_KSW_Fish_HermitCrab_Pal,series_Mother,glimmer,1,grassBeach,KSW_Phases.none,3000);
@@ -2475,15 +2477,15 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Iku Nagae",spr_KSW_Fish_IkuNagae,spr_KSW_Fish_IkuNagae_Pal,series_TouhouProject,flux,3,cloudyPark,KSW_Phases.none,58000,-33,-56);
 	scr_KSW_AddFish("Miyoi",spr_KSW_Fish_Miyoi,spr_KSW_Fish_Miyoi_Pal,series_TouhouProject,mage,2,grassBeach,KSW_Phases.none,55000,-18,-16);
 	scr_KSW_AddFish("Nitori Kawashiro",spr_KSW_Fish_NitoriKawashiro,spr_KSW_Fish_NitoriKawashiro_Pal,series_TouhouProject,legion,3,androidPort,KSW_Phases.none,100000,-84,-82);
-	scr_KSW_AddFish("Power Item",spr_KSW_Fish_PowerItem,spr_KSW_Fish_PowerItem_Pal,series_TouhouProject,candy,0,anyStage,KSW_Phases.none,40,0,0);
-	scr_KSW_AddFish("Point Item",spr_KSW_Fish_PointItem,spr_KSW_Fish_PointItem_Pal,series_TouhouProject,legion,0,anyStage,KSW_Phases.none,40,0,0);
-	scr_KSW_AddFish("Zombie Fairy",spr_KSW_Fish_THZombieFairy,spr_KSW_Fish_THZombieFairy_Pal,series_TouhouProject,flux,1,hallowReen,KSW_Phases.none,300,0,7);
-	scr_KSW_AddFish("Red Chief Fairy",spr_KSW_Fish_THRedChiefFairy,spr_KSW_Fish_THRedChiefFairy_Pal,series_TouhouProject,candy,1,anyStage,KSW_Phases.none,600,0,7);
-	scr_KSW_AddFish("Blue Chief Fairy",spr_KSW_Fish_THBlueChiefFairy,spr_KSW_Fish_THBlueChiefFairy_Pal,series_TouhouProject,mage,1,anyStage,KSW_Phases.none,600,0,7);
-	scr_KSW_AddFish("Brown Big Fairy",spr_KSW_Fish_THBrownBigFairy,spr_KSW_Fish_THBrownBigFairy_Pal,series_TouhouProject,borange,1,anyStage,KSW_Phases.none,1200,0,7);
-	scr_KSW_AddFish("Aqua Big Fairy",spr_KSW_Fish_THAquaBigFairy,spr_KSW_Fish_THAquaBigFairy_Pal,series_TouhouProject,mage,1,anyStage,KSW_Phases.none,1200,0,7);
-	scr_KSW_AddFish("Sunflower Fairy",spr_KSW_Fish_THSunflowerFairy,spr_KSW_Fish_THSunflowerFairy_Pal,series_TouhouProject,candy,2,anyStage,KSW_Phases.none,2400,0,7);
-	scr_KSW_AddFish("Hellish Fairy",spr_KSW_Fish_THHellishFairy,spr_KSW_Fish_THHellishFairy_Pal,series_TouhouProject,flux,2,anyStage,KSW_Phases.night,2400,0,7);
+	scr_KSW_AddFish("Power Item",spr_KSW_Fish_PowerItem,spr_KSW_Fish_PowerItem_Pal,series_TouhouProject,candy,0,cloudyPark,KSW_Phases.none,40,0,0);
+	scr_KSW_AddFish("Point Item",spr_KSW_Fish_PointItem,spr_KSW_Fish_PointItem_Pal,series_TouhouProject,legion,0,cloudyPark,KSW_Phases.none,40,0,0);
+	scr_KSW_AddFish("Zombie Fairy",spr_KSW_Fish_THZombieFairy,spr_KSW_Fish_THZombieFairy_Pal,series_TouhouProject,flux,1,cloudyPark,KSW_Phases.night,300,0,7);
+	scr_KSW_AddFish("Red Chief Fairy",spr_KSW_Fish_THRedChiefFairy,spr_KSW_Fish_THRedChiefFairy_Pal,series_TouhouProject,candy,1,cloudyPark,KSW_Phases.none,600,0,7);
+	scr_KSW_AddFish("Blue Chief Fairy",spr_KSW_Fish_THBlueChiefFairy,spr_KSW_Fish_THBlueChiefFairy_Pal,series_TouhouProject,mage,1,cloudyPark,KSW_Phases.none,600,0,7);
+	scr_KSW_AddFish("Brown Big Fairy",spr_KSW_Fish_THBrownBigFairy,spr_KSW_Fish_THBrownBigFairy_Pal,series_TouhouProject,borange,1,cloudyPark,KSW_Phases.none,1200,0,7);
+	scr_KSW_AddFish("Aqua Big Fairy",spr_KSW_Fish_THAquaBigFairy,spr_KSW_Fish_THAquaBigFairy_Pal,series_TouhouProject,mage,1,cloudyPark,KSW_Phases.none,1200,0,7);
+	scr_KSW_AddFish("Sunflower Fairy",spr_KSW_Fish_THSunflowerFairy,spr_KSW_Fish_THSunflowerFairy_Pal,series_TouhouProject,candy,2,cloudyPark,KSW_Phases.day,2400,0,7);
+	scr_KSW_AddFish("Hellish Fairy",spr_KSW_Fish_THHellishFairy,spr_KSW_Fish_THHellishFairy_Pal,series_TouhouProject,flux,2,cloudyPark,KSW_Phases.night,2400,0,7);
 	scr_KSW_AddFish("Ghostbell",spr_KSW_Fish_Ghostbell,spr_KSW_Fish_Ghostbell_Pal,series_TerrariaCalamity,mage,0,grassBeach,KSW_Phases.none,800);
 	scr_KSW_AddFish("Eutropic Ray",spr_KSW_Fish_EutropicRay,spr_KSW_Fish_EutropicRay_Pal,series_TerrariaCalamity,mint,0,grassBeach,KSW_Phases.none,1200);
 	scr_KSW_AddFish("Anahita",spr_KSW_Fish_Anahita,spr_KSW_Fish_Anahita_Pal,series_TerrariaCalamity,mage,1,grassBeach,KSW_Phases.day,3500);
@@ -3126,11 +3128,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Wily Capsule",spr_KSW_Fish_WilyCapsule,spr_KSW_Fish_WilyCapsule_Pal,series_MegaMan,candy,3,cloudyPark,KSW_Phases.none,199500);
 	scr_KSW_AddFish("Baja Blast",spr_KSW_Fish_Baja_Blast,spr_KSW_Fish_Baja_Blast_Pal,series_Misc,mage,1,creamCrevasse,KSW_Phases.none,385,-25,-40); //If I've done any of these wrong, or they're not suitable for the game, or anything else, feel free to remove/change anything.
 	scr_KSW_AddFish("Shadow Mantle Holder",spr_KSW_Fish_MantleHolder,spr_KSW_Fish_MantleHolder_Pal,series_Deltarune,candy,2,hallowReen,KSW_Phases.night,150,-16,-18,,snd_KSW_Fish_MantleLaugh);
-	scr_KSW_AddFish("Thrash Duck",spr_KSW_Fish_Thrash_Duck,spr_KSW_Fish_Thrash_Duck_Pal,series_Deltarune,candy,2,androidPort,KSW_Phases.day,5750, -31, -40);
-	scr_KSW_AddFish("Heart Shaped Object",spr_KSW_Fish_HeartShapedObject,spr_KSW_Fish_HeartShapedObject_Pal,series_Deltarune,candy,0,hallowReen,KSW_Phases.none,50, -8, -7);
-	scr_KSW_AddFish("ENEMY_FISH",spr_KSW_Fish_FISH_ENEMY,spr_KSW_Fish_FISH_ENEMY_Pal,series_Deltarune,mage,0,androidPort,KSW_Phases.none,250, -7, -5);
-	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,androidPort,KSW_Phases.night,4500, -31, -31, ,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
-	scr_KSW_AddFish("MissingNo.",spr_KSW_Fish_MissingNo,spr_KSW_Fish_MissingNo_Pal,series_Pokemon,legion,2,androidPort,KSW_Phases.none,404, -12, -26);
+	scr_KSW_AddFish("Thrash Duck",spr_KSW_Fish_Thrash_Duck,spr_KSW_Fish_Thrash_Duck_Pal,series_Deltarune,candy,2,androidPort,KSW_Phases.day,5750,-31,-40);
+	scr_KSW_AddFish("Heart Shaped Object",spr_KSW_Fish_HeartShapedObject,spr_KSW_Fish_HeartShapedObject_Pal,series_Deltarune,candy,0,hallowReen,KSW_Phases.none,50,-8,-7);
+	scr_KSW_AddFish("ENEMY_FISH",spr_KSW_Fish_FISH_ENEMY,spr_KSW_Fish_FISH_ENEMY_Pal,series_Deltarune,mage,0,androidPort,KSW_Phases.none,250,-7,-5);
+	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,cloudyPark,KSW_Phases.night,4500,-31,-31,,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
+	scr_KSW_AddFish("MissingNo.",spr_KSW_Fish_MissingNo,spr_KSW_Fish_MissingNo_Pal,series_Pokemon,legion,2,androidPort,KSW_Phases.none,404,-12,-26);
 	scr_KSW_AddFish("Wormwood",spr_KSW_Fish_Wormwood,spr_KSW_Fish_Wormwood_Pal,series_TheBindingOfIsaacRebirth,legion,3,serranoSprings,KSW_Phases.none,7500,-65,-76);
 	scr_KSW_AddFish("Purple Fish",spr_KSW_Fish_Purplefish,spr_KSW_Fish_Purplefish_Pal,series_FiveNightsAtFreddys,flux,0,hallowReen,KSW_Phases.none,650,-34,-16);
 	scr_KSW_AddFish("Marquis Moonsquid",spr_KSW_Fish_Marquis_Moonsquid,spr_KSW_Fish_Marquis_Moonsquid_Pal,series_terrariahomewardjourney,mage,2,grassBeach,KSW_Phases.night,8500,-44,-44);
@@ -3145,7 +3147,10 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Maiden",spr_KSW_Fish_The_Maiden,spr_KSW_Fish_The_Maiden_Pal,series_badendtheater,mage,1,creamCrevasse,KSW_Phases.none,8000,-15,-16);
 	scr_KSW_AddFish("The Underling",spr_KSW_Fish_The_Underling,spr_KSW_Fish_The_Underling_Pal,series_badendtheater,flux,2,serranoSprings,KSW_Phases.night,8000,-15,-16);
 	scr_KSW_AddFish("The Overlord",spr_KSW_Fish_The_Overlord,spr_KSW_Fish_The_Overlord_Pal,series_badendtheater,candy,3,hallowReen,KSW_Phases.none,8000,-19,-16);
-	scr_KSW_AddFish("Crappy Looking FIsh",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
+	scr_KSW_AddFish("Crappy Looking Fish",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
+	scr_KSW_AddFish("Sinistar",spr_KSW_Fish_Sinistar,spr_KSW_Fish_Sinistar_Pal,series_Sinistar,flux,3,cloudyPark,KSW_Phases.night,198300,0,0,-1,snd_KSW_Fish_BewareILive);
+	scr_KSW_AddFish("Onkey",spr_KSW_Fish_Onkey,spr_KSW_Fish_Onkey_Pal,series_Misc,glimmer,3,anyStage,KSW_Phases.none,202600,0,0,-1,snd_KSW_Fish_FunkyOnkey);
+	scr_KSW_AddFish("Haha Jonathan, Squid Polyp",spr_KSW_Fish_SquidPolyp,spr_KSW_Fish_SquidPolyp_Pal,series_RiskRain,mint,3,androidPort,KSW_Phases.none,202500);
 	#endregion
 	#endregion
 }
