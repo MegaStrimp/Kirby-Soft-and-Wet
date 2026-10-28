@@ -3164,6 +3164,29 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Arbiter Crab",spr_KSW_Fish_Arbiter_Crab,spr_KSW_Fish_Arbiter_Crab_Pal,series_Undertale,candy,1,serranoSprings,KSW_Phases.day,8000,-19,-20);
 	scr_KSW_AddFish("Glyde",spr_KSW_Fish_Glyde,spr_KSW_Fish_Glyde_Pal,series_Undertale,legion,2,grassBeach,KSW_Phases.afternoon,14500,-53,-34);
 	scr_KSW_AddFish("Dust Elemental",spr_KSW_Fish_Dust_Elemental,spr_KSW_Fish_Dust_Elemental_Pal,series_vampireSurvivors,borange,0,hallowReen,KSW_Phases.afternoon,2500,-18,-20);
+	scr_KSW_AddFish("Musc Musc",spr_KSW_Fish_Musc_Musc,spr_KSW_Fish_Musc_Musc_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.day,2250,-15,-14);
+	scr_KSW_AddFish("Merman (Vampire Survivors)",spr_KSW_Fish_Merman_VS,spr_KSW_Fish_Merman_VS_Pal,series_vampireSurvivors,legion,0,hallowReen,KSW_Phases.night,4500,-15,-10);
+	scr_KSW_AddFish("Psychic Ogre",spr_KSW_Fish_Psychic_Ogre,spr_KSW_Fish_Psychic_Ogre_Pal,series_vampireSurvivors,candy,1,hallowReen,KSW_Phases.night,5550,-9,-13);
+	scr_KSW_AddFish("Fallen Cherub",spr_KSW_Fish_Fallen_Cherub,spr_KSW_Fish_Fallen_Cherub_Pal,series_vampireSurvivors,glimmer,0,cloudyPark,KSW_Phases.none,800,-12,-12);
+	scr_KSW_AddFish("Fallen Cherubbello",spr_KSW_Fish_Fallen_Cherubbello,spr_KSW_Fish_Fallen_Cherubbello_Pal,series_vampireSurvivors,glimmer,1,cloudyPark,KSW_Phases.none,1350,-15,-13);
+	scr_KSW_AddFish("Fallen Throne",spr_KSW_Fish_Fallen_Throne,spr_KSW_Fish_Fallen_Throne_Pal,series_vampireSurvivors,glimmer,2,cloudyPark,KSW_Phases.day,7777,-24,-18);
+	scr_KSW_AddFish("Tri-Anchors",spr_KSW_Fish_Tri_Anchors,spr_KSW_Fish_Tri_Anchors_Pal,series_vampireSurvivors,mage,3,cloudyPark,KSW_Phases.night,8500,-24,-21);
+	scr_KSW_AddFish("Unknown",spr_KSW_Fish_Unknown,spr_KSW_Fish_Unknown_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,10500,-15,-16);
+	scr_KSW_AddFish("Brainoid",spr_KSW_Fish_Brainoid,spr_KSW_Fish_Brainoid_Pal,series_vampireSurvivors,glimmer,1,hallowReen,KSW_Phases.none,2000,-19,-10); //Another one that would fit the potential space area. Actually from here to "The Reaper" would. They come from the Among Us Vampire Survivors DLC
+	scr_KSW_AddFish("Coldellini",spr_KSW_Fish_Coldellini,spr_KSW_Fish_Coldellini_Pal,series_vampireSurvivors,legion,1,creamCrevasse,KSW_Phases.none,575,-12,-13);
+	scr_KSW_AddFish("Pinthot",spr_KSW_Fish_Pinthot,spr_KSW_Fish_Pinthot_Pal,series_vampireSurvivors,candy,1,serranoSprings,KSW_Phases.none,750,-12,-13);
+	scr_KSW_AddFish("Shapeunshifter",spr_KSW_Fish_Shapeunshifter,spr_KSW_Fish_Shapeunshifter_Pal,series_vampireSurvivors,mint,1,androidPort,KSW_Phases.night,850,-13,-13);
+	scr_KSW_AddFish("Brick Suspicio",spr_KSW_Fish_Brick_Suspicio,spr_KSW_Fish_Brick_Suspicio_Pal,series_vampireSurvivors,candy,0,androidPort,KSW_Phases.day,1,-13,-9);
+	scr_KSW_AddFish("Nugget Suspicio",spr_KSW_Fish_Nugget_Suspicio,spr_KSW_Fish_Nugget_Suspicio_Pal,series_vampireSurvivors,borange,0,androidPort,KSW_Phases.day,16,-11,-9);
+	scr_KSW_AddFish("Trashcan Suspicio",spr_KSW_Fish_Trashcan_Suspicio,spr_KSW_Fish_Trashcan_Suspicio_Pal,series_vampireSurvivors,candy,2,androidPort,KSW_Phases.day,9000,-13,-12);
+	scr_KSW_AddFish("The Reaper",spr_KSW_Fish_The_Reaper,spr_KSW_Fish_The_Reaper_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Drowner",spr_KSW_Fish_The_Drowner,spr_KSW_Fish_The_Drowner_Pal,series_vampireSurvivors,mage,3,creamCrevasse,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Maddener",spr_KSW_Fish_The_Maddener,spr_KSW_Fish_The_Maddener_Pal,series_vampireSurvivors,glimmer,3,cloudyPark,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Stalker",spr_KSW_Fish_The_Stalker,spr_KSW_Fish_The_Stalker_Pal,series_vampireSurvivors,mint,3,grassBeach,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Trickster",spr_KSW_Fish_The_Trickster,spr_KSW_Fish_The_Trickster_Pal,series_vampireSurvivors,flux,3,serranoSprings,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Blinder",spr_KSW_Fish_The_Blinder,spr_KSW_Fish_The_Blinder_Pal,series_vampireSurvivors,legion,3,androidPort,KSW_Phases.night,12000,-21,-9);
+	scr_KSW_AddFish("The Ender",spr_KSW_Fish_The_Ender,spr_KSW_Fish_The_Ender_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,50000,-23,-18);
+	scr_KSW_AddFish("White Hand",spr_KSW_Fish_White_Hand,spr_KSW_Fish_White_Hand_Pal,series_vampireSurvivors,legion,3,hallowReen,KSW_Phases.night,15000,-23,-7);
 	#endregion
 	#endregion
 }
