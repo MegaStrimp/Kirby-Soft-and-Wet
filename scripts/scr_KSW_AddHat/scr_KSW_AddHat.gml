@@ -7,6 +7,7 @@ function scr_KSW_AddHat(targetID,targetCharacterID,targetName,targetIcon,targetS
 	ds_map_add(global.KSW_HatIDs,targetID,tempHatCount);
 	
 	global.KSW_HatCount[global.KSW_CharacterIDs[? targetCharacterID]] += 1;
+	global.KSW_TotalHatCount += 1;
 	
 	global.KSW_CharacterList[global.KSW_CharacterIDs[? targetCharacterID]].hats[tempHatCount] = 
 	{

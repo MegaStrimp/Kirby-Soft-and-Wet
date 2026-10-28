@@ -110,15 +110,21 @@ if (!localPause)
 				state = KSW_GameStates.idle_Ready;
 				mousePressed = true;
 				
-				with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+				with (obj_KSW_Player)
+				{
+					scr_ChangeSprite(sprReady);
+				}
 				
 				stateReadyTimer = stateReadyTimerMax;
 			}
 			break;
 			
 			case KSW_GameStates.catching:
-			var success = false;
-			var failed = false;
+			success = false;
+			failed = false;
+			
+			parTargetX = 0;
+			parTargetY = 0;
 			
 			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
@@ -134,8 +140,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 174;
-					var parTargetY = 40;
+					parTargetX = 174;
+					parTargetY = 40;
 					
 					with (obj_KSW_Player)
 					{
@@ -158,8 +164,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 174;
-					var parTargetY = 88;
+					parTargetX = 174;
+					parTargetY = 88;
 					
 					with (obj_KSW_Player)
 					{
@@ -182,8 +188,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 150;
-					var parTargetY = 64;
+					parTargetX = 150;
+					parTargetY = 64;
 					
 					with (obj_KSW_Player)
 					{
@@ -206,8 +212,8 @@ if (!localPause)
 				{
 					success = true;
 					
-					var parTargetX = 198;
-					var parTargetY = 64;
+					parTargetX = 198;
+					parTargetY = 64;
 					
 					with (obj_KSW_Player)
 					{
@@ -263,7 +269,14 @@ if (!localPause)
 			}
 			else if ((failed) or ((catchInput_NextLineTimer == -1) and (failTimer == -1)))
 			{
-				global.KSW_CurrentFishCombo = 0;
+				if (global.KSW_CurrentEvent == -1)
+				{
+					global.KSW_CurrentFishCombo = 0;
+				}
+				else
+				{
+					scr_KSW_Event_End();
+				}
 				
 				scr_KSW_SaveData("data1.ini");
 				
@@ -395,6 +408,18 @@ if (!localPause)
 			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + (min(3 + (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]),floor(global.KSW_CurrentFishCombo / 15))) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
 			global.KSW_CurrentCoins += targetCoins;
 			global.KSW_TotalCoins += targetCoins;
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins50"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins200"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins3000"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "coins10000"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			#endregion
 			
 			#region Bobber Shiny Caught Number
@@ -412,6 +437,12 @@ if (!localPause)
 					global.KSW_EquippedBobberIsShiny[playerNum] = true;
 				}
 			}
+			
+			var achievementID = global.KSW_AchievementIDs[? "collectShinyBobbers1"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "collectShinyBobbersAll"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			#endregion
 			
 			global.KSW_CaughtTotalFishCount += 1;
@@ -495,6 +526,81 @@ if (!localPause)
 				break;
 			}
 			
+			var achievementID = global.KSW_AchievementIDs[? "catch100Kirby"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Kirby"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Gooey"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Gooey"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Elfilin"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Elfilin"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Marx"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Marx"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100WaddleDee"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000WaddleDee"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Susie"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Susie"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Ybrik"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Ybrik"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Chip"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Chip"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Kracko"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Kracko"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100NZ"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000NZ"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Kabula"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Kabula"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Starman"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Starman"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
+			var achievementID = global.KSW_AchievementIDs[? "exMode"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+			
 			if (currentFishIsNew)
 			{
 				if (other.currentFishIsShiny)
@@ -526,8 +632,30 @@ if (!localPause)
 					if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				}
 				
-				scr_KSW_Game_UpdateDiscord();
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueGrassBeach"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueCreamCrevasse"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueHallowReen"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueSerranoSprings"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueAndroidPort"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				scr_KSW_Game_UpdateDiscord();
+			}
+			else
+			{
+				scr_PlaySfx(snd_KSW_Unlock);
+			}
+			
+			if ((currentFishIsNew) or (global.KSW_AlwaysFishPopups))
+			{
 				scr_PlaySfx(snd_KSW_FishGet);
 				global.pause = true;
 				
@@ -538,6 +666,7 @@ if (!localPause)
 					spritePalette = global.KSW_FishList[other.currentFish].palette;
 					spriteXOffset = global.KSW_FishList[other.currentFish].xOffset;
 					spriteYOffset = global.KSW_FishList[other.currentFish].yOffset;
+					ID = global.KSW_FishList[other.currentFish].IDNum;
 					name = global.KSW_FishList[other.currentFish].displayedName;
 					nameSprite = global.KSW_FishList[other.currentFish].nameSprite;
 					series = global.KSW_SeriesList[global.KSW_FishList[other.currentFish].series].name;
@@ -551,10 +680,9 @@ if (!localPause)
 					if (rarity > 0) starTimer = 20;
 				}
 			}
-			else
-			{
-				scr_PlaySfx(snd_KSW_Unlock);
-			}
+			
+			if (global.KSW_ExModeActive) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "gold"];
+			if (global.KSW_AchievementList[global.KSW_AchievementIDs[? "doEverything"]].isObtained) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "legend"];
 			
 			scr_KSW_SaveData("data1.ini");
 			
@@ -581,6 +709,17 @@ if (!localPause)
 				{
 					storedCoins = targetCoins;
 					coinTimer = other.stateReadyTimerMax + coinTimerMax;
+				}
+			}
+			
+			if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
+			{
+				var eventRng = irandom_range(0,29);
+				if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+				{
+					var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
+					
+					scr_KSW_Event_Start(targetEvent);
 				}
 			}
 			
@@ -634,7 +773,10 @@ if (!localPause)
 				catchInput_SoundCount = -1;
 				catchInput_NextLineTimer = 0;
 				
-				with (obj_KSW_Player) scr_ChangeSprite(sprFound);
+				with (obj_KSW_Player)
+				{
+					scr_ChangeSprite(sprFound);
+				}
 				
 				findFishTimer = -1;
 			}
@@ -654,12 +796,12 @@ if (!localPause)
 					if (global.KSW_Gamemode == KSW_Gamemodes.normal)
 					{
 						var line = catchInput_CurrentList[catchInput_CurrentLine];
-						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - 1) * failTimerMin));
+						failTimerTarget = max(failTimerMin,failTimerMax - ((catchInput_CurrentLine - failTimerOffset) * failTimerMin));
 					}
 					else
 					{
 						var line = choose(KSW_CatchInputList.up,KSW_CatchInputList.down,KSW_CatchInputList.left,KSW_CatchInputList.right,KSW_CatchInputList.wait);
-						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - .2) * failTimerMin));
+						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - (failTimerOffset / 5)) * failTimerMin));
 					}
 					
 					switch (line)
@@ -754,6 +896,9 @@ if (!localPause)
 					var notifID = global.KSW_NotifIDs[? "welcome"];
 					if (global.KSW_NotifList[notifID].unlockScript()) scr_KSW_ObtainNotif(notifID);
 					
+					var notifID = global.KSW_NotifIDs[? "exMode"];
+					if (global.KSW_NotifList[notifID].unlockScript()) scr_KSW_ObtainNotif(notifID);
+					
 					var notifID = global.KSW_NotifIDs[? "completion"];
 					if (global.KSW_NotifList[notifID].unlockScript()) scr_KSW_ObtainNotif(notifID);
 					
@@ -771,7 +916,10 @@ if (!localPause)
 					var stealthTutorialID = global.KSW_StealthTutorialIDs[? "gramsLuckRate"];
 					if (global.KSW_StealthTutorialList[stealthTutorialID].unlockScript()) scr_KSW_ObtainStealthTutorial(stealthTutorialID);
 					
-					with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+					with (obj_KSW_Player)
+					{
+						scr_ChangeSprite(sprReady);
+					}
 					
 					stateReadyTimer = -1;
 					break;
@@ -782,7 +930,7 @@ if (!localPause)
 					catchInput_CurrentLine = -1;
 					catchInput_CurrentLineMax = -1;
 					catchInput_SfxIndex = 0;
-					findFishTimer = irandom_range(60,400 - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
+					findFishTimer = irandom_range(findFishTimerMin,findFishTimerMax - ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "fasterFinds"]) * 250));
 					
 					stateReadyTimer = -1;
 					break;
@@ -790,7 +938,10 @@ if (!localPause)
 					case KSW_GameStates.waiting_End:
 					state = KSW_GameStates.idle_Ready;
 					
-					with (obj_KSW_Player) scr_ChangeSprite(sprReady);
+					with (obj_KSW_Player)
+					{
+						scr_ChangeSprite(sprReady);
+					}
 					
 					stateReadyTimer = stateReadyTimerMax;
 					break;
@@ -848,6 +999,22 @@ if (!localPause)
 				scr_KSW_ParticleSet_Eternity(irandom_range(152,240),irandom_range(160,320),layer_get_depth(layer_get_id("Collision")),-1);
 				
 				decorTimer = irandom_range(decorTimerMin,decorTimerMax);
+			}
+		}
+		#endregion
+		
+		#region Event Timer
+		if (canGoToMenu)
+		{
+			if (eventTimer != -1)
+			{
+				eventTimer = max(eventTimer - speedMultFinal,0);
+				if (eventTimer == 0)
+				{
+					scr_KSW_Event_End();
+					
+					eventTimer = -1;
+				}
 			}
 		}
 		#endregion
@@ -927,6 +1094,8 @@ if (!localPause)
 		exitTimer = max(exitTimer - speedMultFinal,0);
 		if (exitTimer == 0)
 		{
+			scr_KSW_Event_End();
+			
 			scr_GoToRoom(exitTarget,false);
 			
 			exitTimer = -1;

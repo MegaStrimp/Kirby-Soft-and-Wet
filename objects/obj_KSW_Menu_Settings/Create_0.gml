@@ -5,13 +5,45 @@
 scr_Component_ButtonInputTimer_Setup(5);
 #endregion
 
+#region Enums
+enum KSW_Settings_Buttons
+{
+	musicVolume,
+	soundVolume,
+	fullscreen,
+	windowSize,
+	shaders,
+	cursor,
+	alwaysFishPopups,
+	exportSave,
+	importSave,
+	deleteSave,
+	keyUp,
+	keyDown,
+	keyLeft,
+	keyRight,
+	keyNext,
+	keyCancel,
+	keySpecial,
+	keySubmenu,
+	keyL,
+	keyR,
+	keyLT,
+	keyRT,
+	keyStart,
+	resetKeys,
+	
+	length
+}
+#endregion
+
 #region Menu Variables
 playerNum = 0;
 
 selection = 0;
 targetKey = "";
 
-buttonsList_Max = 21;
+buttonsList_Max = KSW_Settings_Buttons.length - 1;
 
 mousePressed = false;
 settingPressed = false;

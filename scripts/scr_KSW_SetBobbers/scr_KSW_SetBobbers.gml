@@ -18,10 +18,8 @@ function scr_KSW_SetBobbers()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
-	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
-	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
-	var limit = spr_KSW_UI_CaughtBox_Palette_Limit;
 	
+	//DO NOT ADD NEW ONES.
 	#endregion
 	
 	#region Add Bobbers Here
@@ -45,11 +43,11 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("dreamPeace","Dream Peace",spr_KSW_Bobber_DreamPeace,spr_KSW_Bobber_DreamPeace_Pal,borange,75,0,-3);
 	scr_KSW_AddBobber("bejewel","Bejewel",spr_KSW_Bobber_Bejewel,spr_KSW_Bobber_Bejewel_Pal,mage,75,0,-5);
 	scr_KSW_AddBobber("masterBall","Master Ball",spr_KSW_Bobber_MasterBall,spr_KSW_Bobber_MasterBall_Pal,flux,75,0,-6);
-	scr_KSW_AddBobber("blinky","Blinky",spr_KSW_Bobber_Blinky,spr_KSW_Bobber_Blinky_Pal,maze,75,0,-6);
-	scr_KSW_AddBobber("inky","Inky",spr_KSW_Bobber_Inky,spr_KSW_Bobber_Inky_Pal,maze,75,0,-6);
-	scr_KSW_AddBobber("pinky","Pinky",spr_KSW_Bobber_Pinky,spr_KSW_Bobber_Pinky_Pal,maze,75,0,-6);
-	scr_KSW_AddBobber("clyde","Clyde",spr_KSW_Bobber_Clyde,spr_KSW_Bobber_Clyde_Pal,maze,75,0,-6);
-	scr_KSW_AddBobber("pacman","Pac-Man",spr_KSW_Bobber_PacMan,spr_KSW_Bobber_PacMan_Pal,maze,75,0,-6);
+	scr_KSW_AddBobber("blinky","Blinky",spr_KSW_Bobber_Blinky,spr_KSW_Bobber_Blinky_Pal,spr_KSW_UI_CaughtBox_Palette_Maze,75,0,-6);
+	scr_KSW_AddBobber("inky","Inky",spr_KSW_Bobber_Inky,spr_KSW_Bobber_Inky_Pal,spr_KSW_UI_CaughtBox_Palette_Maze,75,0,-6);
+	scr_KSW_AddBobber("pinky","Pinky",spr_KSW_Bobber_Pinky,spr_KSW_Bobber_Pinky_Pal,spr_KSW_UI_CaughtBox_Palette_Maze,75,0,-6);
+	scr_KSW_AddBobber("clyde","Clyde",spr_KSW_Bobber_Clyde,spr_KSW_Bobber_Clyde_Pal,spr_KSW_UI_CaughtBox_Palette_Maze,75,0,-6);
+	scr_KSW_AddBobber("pacman","Pac-Man",spr_KSW_Bobber_PacMan,spr_KSW_Bobber_PacMan_Pal,spr_KSW_UI_CaughtBox_Palette_Maze,75,0,-6);
 	scr_KSW_AddBobber("smash","Smash",spr_KSW_Bobber_Smash,spr_KSW_Bobber_Smash_Pal,legion,75,0,-6);
 	scr_KSW_AddBobber("spicy","Spicy",spr_KSW_Bobber_Spicy,spr_KSW_Bobber_Spicy_Pal,candy,75,0,-4);
 	scr_KSW_AddBobber("sweet","Sweet",spr_KSW_Bobber_Sweet,spr_KSW_Bobber_Sweet_Pal,mage,75,0,-4);
@@ -98,7 +96,10 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("bBall","B. Ball",spr_KSW_Bobber_BBall,spr_KSW_Bobber_BBall_Pal,candy,75,0,0);
 	scr_KSW_AddBobber("top","Top",spr_KSW_Bobber_Top,spr_KSW_Bobber_Top_Pal,candy,75,0,0);
 	scr_KSW_AddBobber("wheel","Wheel",spr_KSW_Bobber_Wheel,spr_KSW_Bobber_Wheel_Pal,glimmer,75,0,0);
-	scr_KSW_AddBobber("bobbery","Bobbery",spr_KSW_Bobber_Bobbery,spr_KSW_Bobber_Bobbery_Pal,limit,75,0,0);
+	scr_KSW_AddBobber("bobbery","Bobbery",spr_KSW_Bobber_Bobbery,spr_KSW_Bobber_Bobbery_Pal,glimmer,75,0,0);
+	scr_KSW_AddBobber("attackFly","Attack Fly",spr_KSW_Bobber_AttackFly,spr_KSW_Bobber_AttackFly_Pal,borange,75,0,0);
+	scr_KSW_AddBobber("subTank","Sub Tank",spr_KSW_Bobber_SubTank,spr_KSW_Bobber_SubTank_Pal,mint,75,0,-6);
+	scr_KSW_AddBobber("heartTank","Heart Tank",spr_KSW_Bobber_HeartTank,spr_KSW_Bobber_HeartTank_Pal,candy,75,0,-6);
 	
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,0,-7);

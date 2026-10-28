@@ -20,12 +20,27 @@ if (playtimeAchievementTimer != -1)
 }
 #endregion
 
-#region Mobile Debug
-if ((keyboard_check(vk_control)) and (keyboard_check(vk_shift)) and (keyboard_check_pressed(ord("M"))))
+#region Debug
+if (global.debug)
 {
-	global.mobileDebug = !global.mobileDebug;
-	global.isMobile = global.mobileDebug;
-	scr_PlaySfx(snd_KSW_Score);
+	#region Wiki
+	if (keyboard_check_pressed(vk_f10))
+	{
+		var filename = get_save_filename("*.txt","fish.txt");
+		scr_KSW_Debug_Wiki_Fish(filename);
+		
+		scr_KSW_Debug_Wiki_Hats(filename_path(filename) + "hats.txt");
+	}
+	#endregion
+	
+	#region Mobile Debug
+	if ((keyboard_check(vk_control)) and (keyboard_check(vk_shift)) and (keyboard_check_pressed(ord("M"))))
+	{
+		global.mobileDebug = !global.mobileDebug;
+		global.isMobile = global.mobileDebug;
+		scr_PlaySfx(snd_KSW_Score);
+	}
+	#endregion
 }
 #endregion
 

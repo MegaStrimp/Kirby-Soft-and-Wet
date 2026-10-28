@@ -13,6 +13,7 @@ imageIndex = 0;
 spritePalette = -1;
 spriteXOffset = 0;
 spriteYOffset = 0;
+ID = 0;
 name = "";
 nameSprite = -1;
 series = "";

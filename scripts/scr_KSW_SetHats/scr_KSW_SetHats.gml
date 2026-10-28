@@ -4,6 +4,7 @@ function scr_KSW_SetHats()
 {
 	#region Setup
 	for (var i = 0; i < ds_map_size(global.KSW_CharacterIDs); i++) global.KSW_HatCount[i] = 0;
+	global.KSW_TotalHatCount = 0;
 	
 	global.KSW_HatIDs = ds_map_create();
 	#endregion
@@ -16,7 +17,8 @@ function scr_KSW_SetHats()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
-	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
+	
+	//DO NOT ADD NEW ONES.
 	#endregion
 	
 	#region Add Hats Here
@@ -33,12 +35,15 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "Pirate",playerID,"Pirate",spr_KSW_Player_Kirby_Hat_Pirate_Ready,scr_KSW_Player_Kirby_Hat_Pirate_SpriteSet(),mage,150,1,10);
 	scr_KSW_AddHat(playerID + "_" + "RobotHat",playerID,"Robot Hat",spr_KSW_Player_Kirby_Hat_RobotHat_Ready,scr_KSW_Player_Kirby_Hat_RobotHat_SpriteSet(),candy,150,2,9);
 	scr_KSW_AddHat(playerID + "_" + "KibblyHeadband",playerID,"Kibbly Headband",spr_KSW_Player_Kirby_Hat_KibblyHeadband_Shop,scr_KSW_Player_Kirby_Hat_KibblyHeadband_SpriteSet(),candy,150,3,4);
+	scr_KSW_AddHat(playerID + "_" + "Classic",playerID,"Classic",spr_KSW_Player_Kirby_Hat_Classic_Shop,scr_KSW_Player_Kirby_Hat_Classic_SpriteSet(),candy,150,0,1);
+	scr_KSW_AddHat(playerID + "_" + "MiniMe",playerID,"Mini Me",spr_KSW_Player_Kirby_Hat_MiniMe_Ready_Shadow,scr_KSW_Player_Kirby_Hat_MiniMe_SpriteSet(),candy,150,0,14);
 	#endregion
 	
 	#region Gooey
 	var playerID = "gooey";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Diver",playerID,"Diver",spr_KSW_Player_Gooey_Hat_Diver_Ready,scr_KSW_Player_Gooey_Hat_Diver_SpriteSet(),glimmer,150,-3,6);
 	#endregion
 	
 	#region Elfilin
@@ -86,5 +91,34 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "TMK",playerID,"TMK",spr_KSW_Player_Ybrik_Hat_TMK_Shop,scr_KSW_Player_Ybrik_Hat_TMK_SpriteSet(),legion,150,1,3);
 	scr_KSW_AddHat(playerID + "_" + "Zero",playerID,"Zero",spr_KSW_Player_Ybrik_Hat_Zero_Shop,scr_KSW_Player_Ybrik_Hat_Zero_SpriteSet(),candy,150,1,1);
 	#endregion
+	
+	#region Chip
+	var playerID = "chip";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,glimmer,0,0,0,true);
+	#endregion
+	
+	#region Kracko
+	var playerID = "kracko";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
+	#endregion
+	
+	#region N-Z
+	var playerID = "nz";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,legion,0,0,0,true);
+	#endregion
+	
+	#region Kabula
+	var playerID = "kabula";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
+	#endregion
+	
+	#region Starman
+	var playerID = "starman";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,glimmer,0,0,0,true);
 	#endregion
 }

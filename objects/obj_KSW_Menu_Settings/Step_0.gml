@@ -97,7 +97,7 @@ if (canSelect)
 	
 	switch (selection)
 	{
-		case 0:
+		case KSW_Settings_Buttons.musicVolume:
 		#region Music Volume
 		if (input_check_pressed("left",playerNum))
 		{
@@ -115,7 +115,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 1:
+		case KSW_Settings_Buttons.soundVolume:
 		#region Sfx Volume
 		if (input_check_pressed("left",playerNum))
 		{
@@ -133,7 +133,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 2:
+		case KSW_Settings_Buttons.fullscreen:
 		#region Fullscreen / Orientation
 		if (global.isMobile)
 		{
@@ -185,7 +185,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 3:
+		case KSW_Settings_Buttons.windowSize:
 		#region Window Size
 		var scaleMax = max(floor(display_get_height() / global.gameHeight),1);
 		scaleMax = max(scaleMax,1);
@@ -222,7 +222,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 4:
+		case KSW_Settings_Buttons.shaders:
 		#region Shaders
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
 		{
@@ -233,7 +233,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 5:
+		case KSW_Settings_Buttons.cursor:
 		#region Cursor
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
 		{
@@ -253,7 +253,18 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 6:
+		case KSW_Settings_Buttons.alwaysFishPopups:
+		#region Always Fish Popups
+		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))
+		{
+			scr_PlaySfx(snd_KSW_ButtonChange);
+			
+			global.KSW_AlwaysFishPopups = !global.KSW_AlwaysFishPopups;
+		}
+		break;
+		#endregion
+		
+		case KSW_Settings_Buttons.exportSave:
 		#region Export Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -278,7 +289,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 7:
+		case KSW_Settings_Buttons.importSave:
 		#region Import Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -303,7 +314,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 8:
+		case KSW_Settings_Buttons.deleteSave:
 		#region Delete Save
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -317,7 +328,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 9:
+		case KSW_Settings_Buttons.keyUp:
 		#region Key Up
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -363,7 +374,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 10:
+		case KSW_Settings_Buttons.keyDown:
 		#region Key Down
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -409,7 +420,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 11:
+		case KSW_Settings_Buttons.keyLeft:
 		#region Key Left
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -455,7 +466,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 12:
+		case KSW_Settings_Buttons.keyRight:
 		#region Key Right
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -501,7 +512,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 13:
+		case KSW_Settings_Buttons.keyNext:
 		#region Key A
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -547,7 +558,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 14:
+		case KSW_Settings_Buttons.keyCancel:
 		#region Key B
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -593,7 +604,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 15:
+		case KSW_Settings_Buttons.keySubmenu:
 		#region Key X
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -639,8 +650,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		/*
-		case 9:
+		case KSW_Settings_Buttons.keySpecial:
 		#region Key Y
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -685,9 +695,8 @@ if (canSelect)
 		}
 		break;
 		#endregion
-		*/
 		
-		case 16:
+		case KSW_Settings_Buttons.keyL:
 		#region Key L
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -733,7 +742,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 17:
+		case KSW_Settings_Buttons.keyR:
 		#region Key R
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -779,7 +788,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 18:
+		case KSW_Settings_Buttons.keyLT:
 		#region Key LT
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -825,7 +834,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 19:
+		case KSW_Settings_Buttons.keyRT:
 		#region Key RT
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -871,7 +880,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case 20:
+		case KSW_Settings_Buttons.keyStart:
 		#region Key Start
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{
@@ -917,55 +926,7 @@ if (canSelect)
 		break;
 		#endregion
 		
-		/*
-		case 15:
-		#region Key Select
-		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
-		{
-	        targetKey = "select";
-			
-			input_binding_scan_start(function(newBinding)
-			{
-				input_binding_set_safe(targetKey,newBinding,0);
-				buttonRemap_KeysText[0] = input_binding_get(targetKey);
-				
-				var i = 0;
-				buttonRemap_KeysText[i] = input_binding_get("up");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("down");
-				i += 1; 
-				buttonRemap_KeysText[i] = input_binding_get("left");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("right");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("A");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("B");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("X");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("Y");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("L");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("R");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("LT");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("RT");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("start");
-				i += 1;
-				buttonRemap_KeysText[i] = input_binding_get("select");
-				
-				targetKey = "";
-			});
-		}
-		break;
-		#endregion
-		*/
-		
-		case 21:
+		case KSW_Settings_Buttons.resetKeys:
 		#region Reset Keys
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)))
 		{

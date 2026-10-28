@@ -3,8 +3,8 @@
   "%Name":"DO NOT FORGET BEFORE RELEASING AN UPDATE",
   "name":"DO NOT FORGET BEFORE RELEASING AN UPDATE",
   "parent":{
-    "name":"Alivel Installer",
-    "path":"folders/Alivel Installer.yy",
+    "name":"Kirby ~ Soft & Wet",
+    "path":"Kirby ~ Soft & Wet.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

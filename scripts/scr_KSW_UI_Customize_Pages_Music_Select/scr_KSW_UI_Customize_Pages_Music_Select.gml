@@ -13,7 +13,7 @@ function scr_KSW_UI_Customize_Pages_Music_Select()
 			
 			scr_Screen_Setup(global.gameWidthTarget,global.gameHeightTarget,global.windowScaleTarget);
 			
-			var file = get_open_filename("Sound Files (*.ogg)|*.ogg", "");
+			var file = get_open_filename("Sound Files (*.ogg)|*.ogg", ""); //STRIMPTODO Mobile Support
 			
 			if (file == "")
 			{

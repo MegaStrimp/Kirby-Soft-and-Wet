@@ -37,6 +37,18 @@ function scr_KSW_UI_Customize_Pages_Hats_Select()
 				global.KSW_UnlockedHatCount[global.playerCharacter[playerNum]] += 1;
 				global.KSW_CharacterList[global.playerCharacter[playerNum]].hats[ds_list_find_value(selectionList,selection)].isUnlocked = true;
 				
+				var achievementID = global.KSW_AchievementIDs[? "collectHats1"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectHats30"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectHats50"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+				var achievementID = global.KSW_AchievementIDs[? "collectHatsAll"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				isCompleted = (global.KSW_UnlockedHatCount[global.playerCharacter[playerNum]] >= global.KSW_HatCount[global.playerCharacter[playerNum]]);
 			}
 		}

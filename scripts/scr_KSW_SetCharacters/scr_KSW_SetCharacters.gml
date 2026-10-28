@@ -17,8 +17,8 @@ function scr_KSW_SetCharacters()
 	var glimmer = spr_KSW_UI_CaughtBox_Palette_Glimmer;
 	var borange = spr_KSW_UI_CaughtBox_Palette_Borange;
 	var flux = spr_KSW_UI_CaughtBox_Palette_Flux;
-	var maze = spr_KSW_UI_CaughtBox_Palette_Maze;
-	var tvtime = spr_KSW_UI_CaughtBox_Palette_TVTime;
+	
+	//DO NOT ADD NEW ONES.
 	#endregion
 	
 	#region Add Characters Here
@@ -29,5 +29,10 @@ function scr_KSW_SetCharacters()
 	scr_KSW_AddCharacter("waddleDee","Waddle Dee",spr_KSW_UI_Customize_CharacterIcon_WaddleDee,borange,scr_KSW_Player_WaddleDee_Setup,400,spr_KSW_UI_Customize_Spray_WaddleDee);
 	scr_KSW_AddCharacter("susie","Susie",spr_KSW_UI_Customize_CharacterIcon_Susie,candy,scr_KSW_Player_Susie_Setup,400,spr_KSW_UI_Customize_Spray_Susie);
 	scr_KSW_AddCharacter("ybrik","Ybrik",spr_KSW_UI_Customize_CharacterIcon_Ybrik,borange,scr_KSW_Player_Ybrik_Setup,400,spr_KSW_UI_Customize_Spray_Ybrik);
+	scr_KSW_AddCharacter("chip","Chip",spr_KSW_UI_Customize_CharacterIcon_Chip,glimmer,scr_KSW_Player_Chip_Setup,400,spr_KSW_UI_Customize_Spray_Chip);
+	scr_KSW_AddCharacter("kracko","Kracko",spr_KSW_UI_Customize_CharacterIcon_Kracko,mage,scr_KSW_Player_Kracko_Setup,400,spr_KSW_UI_Customize_Spray_Kracko,,50);
+	scr_KSW_AddCharacter("nz","N-Z",spr_KSW_UI_Customize_CharacterIcon_NZ,legion,scr_KSW_Player_NZ_Setup,400,spr_KSW_UI_Customize_Spray_NZ);
+	scr_KSW_AddCharacter("kabula","Kabula",spr_KSW_UI_Customize_CharacterIcon_Kabula,borange,scr_KSW_Player_Kabula_Setup,400,spr_KSW_UI_Customize_Spray_Kabula,,50);
+	scr_KSW_AddCharacter("starman","Starman",spr_KSW_UI_Customize_CharacterIcon_Starman,glimmer,scr_KSW_Player_Starman_Setup,400,spr_KSW_UI_Customize_Spray_Starman);
 	#endregion
 }

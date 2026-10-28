@@ -56,6 +56,13 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("shovelKnight","Shovel Knight");
 	scr_KSW_AddSeries("megaMan","Mega Man");
 	scr_KSW_AddSeries("megaManSequelWars","Mega Man: The Sequel Wars");
+	scr_KSW_AddSeries("megaManDeathmatch","Mega Man 8-Bit Deathmatch");
+	scr_KSW_AddSeries("megaManUnlimited","Mega Man Unlimited");
+	scr_KSW_AddSeries("megaManX","Mega Man X");
+	scr_KSW_AddSeries("megaManX8","Mega Man X8 16-bit");
+	scr_KSW_AddSeries("megaManXRegenesis","Mega Man X Regenesis");
+	scr_KSW_AddSeries("megaManZero","Mega Man Zero");
+	scr_KSW_AddSeries("megaManZX","Mega Man ZX");
 	scr_KSW_AddSeries("peggle","Peggle");
 	scr_KSW_AddSeries("antonBlast","AntonBlast");
 	scr_KSW_AddSeries("dragonQuest","Dragon Quest");
@@ -95,7 +102,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("celeste","Celeste");
 	scr_KSW_AddSeries("touhouProject","Touhou Project");
 	scr_KSW_AddSeries("umamusume","Umamusume");
-	scr_KSW_AddSeries("megaManUnlimited","Mega Man Unlimited");
 	scr_KSW_AddSeries("bloodstained","Bloodstained");
 	scr_KSW_AddSeries("misc","Misc");
 	scr_KSW_AddSeries("undertaleYellow","Undertale Yellow");
@@ -123,7 +129,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("motherEncore","Mother: Encore");
 	scr_KSW_AddSeries("banjo","Banjo-Kazooie");
 	scr_KSW_AddSeries("haloDemake","Halo Combat Devolved");
-	scr_KSW_AddSeries("angryBirds","Angry Birds");
 	scr_KSW_AddSeries("geometryDash","Geometry Dash");
 	scr_KSW_AddSeries("metalGear","MetalGearSolid");
 	scr_KSW_AddSeries("fallout","Fallout");
@@ -143,6 +148,8 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("aHatInTime","A Hat In Time");
 	scr_KSW_AddSeries("omori","Omori");
 	scr_KSW_AddSeries("LookOutside","Look Outside");
+	scr_KSW_AddSeries("Undertale2","Undertale 2");
+	scr_KSW_AddSeries("MadSistersWeekOff","Mad Sisters' Week Off");
 	scr_KSW_AddSeries("theBattleCats","The Battle Cats");
 	scr_KSW_AddSeries("CassetteBeasts","Cassette Beasts");
 	scr_KSW_AddSeries("riskRain","Risk of Rain");
@@ -151,5 +158,23 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("persona","Persona");
 	scr_KSW_AddSeries("vampireSurvivors","Vampire Survivors");
 	scr_KSW_AddSeries("kidKirby","Kid Kirby Recreation");
+	scr_KSW_AddSeries("dreamCrafter","Dream Crafter");
+	scr_KSW_AddSeries("shyGuySurfing","Shy Guy Surfing");
+	scr_KSW_AddSeries("jjba","JoJo's Bizarre Adventure");
+	scr_KSW_AddSeries("OFF","OFF");
+	scr_KSW_AddSeries("genshinImpact","Genshin Impact");
+	scr_KSW_AddSeries("mabinogi","Mabinogi");
+	scr_KSW_AddSeries("homestuck","Homestuck");
+	scr_KSW_AddSeries("brutalOrchestra","Hieronymus Bosch's Brutal Orchestra");
+	scr_KSW_AddSeries("blasterMaster","Blaster Master Zero");
+	scr_KSW_AddSeries("contra","Contra");
+	scr_KSW_AddSeries("metalSlug","Metal Slug");
+	scr_KSW_AddSeries("msm","My Singing Monsters");
+	scr_KSW_AddSeries("terrariahomewardjourney","Terraria: Homeward Journey Mod");
+	scr_KSW_AddSeries("fnf","Friday Night Funkin'");
+	scr_KSW_AddSeries("BadEndTheater","Bad End Theater");
+	scr_KSW_AddSeries("TADC","The Amazing Digital Circus");
+	scr_KSW_AddSeries("terrariaFargoSouls","Terraria: Fargo's Souls Mod");
+	scr_KSW_AddSeries("doors","Roblox DOORS");
 	#endregion
 }

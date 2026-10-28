@@ -35,6 +35,8 @@ function scr_KSW_SaveData(file)
 		if (global.KSW_CurrentCoins != 0) ini_write_real("gameplay","coins",global.KSW_CurrentCoins);
 		if (global.KSW_TotalCoins != 0) ini_write_real("gameplay","totalCoins",global.KSW_TotalCoins);
 		if (global.KSW_StageList[global.KSW_CurrentStageID].ID != "grassBeach") ini_write_string("gameplay","currentStage",global.KSW_StageList[global.KSW_CurrentStageID].ID);
+		if (global.KSW_BenchList[global.KSW_CurrentBenchID].ID != "default") ini_write_string("gameplay","currentBench",global.KSW_BenchList[global.KSW_CurrentBenchID].ID);
+		if (global.KSW_ExModeActive) ini_write_string("gameplay","exModeActive",global.KSW_ExModeActive);
 		#endregion
 	
 		#region Player Status
@@ -61,30 +63,30 @@ function scr_KSW_SaveData(file)
 		{
 			var characterID = global.KSW_CharacterList[i].ID;
 		
-			if (global.KSW_CharacterList[i].isUnlocked != false)
+			if (global.KSW_CharacterList[i].isUnlocked)
 			{
 				ini_write_real("characterStatus",string(characterID) + "_IsUnlocked",global.KSW_CharacterList[i].isUnlocked);
 				
 				if (global.KSW_CharacterList[i].caughtFishCount != 0) ini_write_real("characterStatus",string(characterID) + "_CaughtFishCount",global.KSW_CharacterList[i].caughtFishCount);
-			}
 			
-			#region Spray Paint Status
-			for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
-			{
-				var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
+				#region Spray Paint Status
+				for (var j = 0; j < array_length(global.KSW_CharacterList[i].sprayPaints); j++)
+				{
+					var sprayPaintID = global.KSW_CharacterList[i].sprayPaints[j].ID;
 			
-				if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked != false) ini_write_real("sprayPaintStatus",string(sprayPaintID) + "_IsUnlocked",global.KSW_CharacterList[i].sprayPaints[j].isUnlocked);
-			}
-			#endregion
+					if (global.KSW_CharacterList[i].sprayPaints[j].isUnlocked != false) ini_write_real("sprayPaintStatus",string(sprayPaintID) + "_IsUnlocked",global.KSW_CharacterList[i].sprayPaints[j].isUnlocked);
+				}
+				#endregion
 		
-			#region Hat Status
-			for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++)
-			{
-				var hatID = global.KSW_CharacterList[i].hats[j].ID;
+				#region Hat Status
+				for (var j = 0; j < array_length(global.KSW_CharacterList[i].hats); j++)
+				{
+					var hatID = global.KSW_CharacterList[i].hats[j].ID;
 		
-				if (global.KSW_CharacterList[i].hats[j].isUnlocked != false) ini_write_real("hatStatus",string(hatID) + "_IsUnlocked",global.KSW_CharacterList[i].hats[j].isUnlocked);
+					if (global.KSW_CharacterList[i].hats[j].isUnlocked != false) ini_write_real("hatStatus",string(hatID) + "_IsUnlocked",global.KSW_CharacterList[i].hats[j].isUnlocked);
+				}
+				#endregion
 			}
-			#endregion
 		}
 		#endregion
 	

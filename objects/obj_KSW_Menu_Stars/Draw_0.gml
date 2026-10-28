@@ -30,8 +30,13 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	var waveY = sine_wave(current_time / (waveNum[i % pageSelectionCount] + 300),.7,4,0);
 	var starX = 25 + (120 * (i % 2)) + waveX;
 	var starY = 32 + (32 * floor((i - page * pageSelectionCount) / 2)) + waveY;
-	var title = string_upper(global.KSW_AchievementList[starList[i]].name);
-	var description = string_upper(global.KSW_AchievementList[starList[i]].description);
+	var title = "???";
+	var description = "";
+	if (!global.KSW_AchievementList[starList[i]].nameHidden)
+	{
+		title = string_upper(global.KSW_AchievementList[starList[i]].name);
+		description = string_upper(global.KSW_AchievementList[starList[i]].description);
+	}
 	var spriteIndex = global.KSW_AchievementList[starList[i]].icon;
 	var isHidden = global.KSW_AchievementList[starList[i]].isHidden;
 	var isObtained = global.KSW_AchievementList[starList[i]].isObtained;
