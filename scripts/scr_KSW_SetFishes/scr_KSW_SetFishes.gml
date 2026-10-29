@@ -3131,7 +3131,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Thrash Duck",spr_KSW_Fish_Thrash_Duck,spr_KSW_Fish_Thrash_Duck_Pal,series_Deltarune,candy,2,androidPort,KSW_Phases.day,5750,-31,-40);
 	scr_KSW_AddFish("Heart Shaped Object",spr_KSW_Fish_HeartShapedObject,spr_KSW_Fish_HeartShapedObject_Pal,series_Deltarune,candy,0,hallowReen,KSW_Phases.none,50,-8,-7);
 	scr_KSW_AddFish("ENEMY_FISH",spr_KSW_Fish_FISH_ENEMY,spr_KSW_Fish_FISH_ENEMY_Pal,series_Deltarune,mage,0,androidPort,KSW_Phases.none,250,-7,-5);
-	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,cloudyPark,KSW_Phases.night,4500,-31,-31,,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
+	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,androidPort,KSW_Phases.night,4500,-31,-31,,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
 	scr_KSW_AddFish("MissingNo.",spr_KSW_Fish_MissingNo,spr_KSW_Fish_MissingNo_Pal,series_Pokemon,legion,2,androidPort,KSW_Phases.none,404,-12,-26);
 	scr_KSW_AddFish("Wormwood",spr_KSW_Fish_Wormwood,spr_KSW_Fish_Wormwood_Pal,series_TheBindingOfIsaacRebirth,legion,3,serranoSprings,KSW_Phases.none,7500,-65,-76);
 	scr_KSW_AddFish("Purple Fish",spr_KSW_Fish_Purplefish,spr_KSW_Fish_Purplefish_Pal,series_FiveNightsAtFreddys,flux,0,hallowReen,KSW_Phases.none,650,-34,-16);
@@ -3151,6 +3151,57 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Sinistar",spr_KSW_Fish_Sinistar,spr_KSW_Fish_Sinistar_Pal,series_Sinistar,flux,3,cloudyPark,KSW_Phases.night,198300,0,0,-1,snd_KSW_Fish_BewareILive);
 	scr_KSW_AddFish("Onkey",spr_KSW_Fish_Onkey,spr_KSW_Fish_Onkey_Pal,series_Misc,glimmer,3,anyStage,KSW_Phases.none,202600,0,0,-1,snd_KSW_Fish_FunkyOnkey);
 	scr_KSW_AddFish("Haha Jonathan, Squid Polyp",spr_KSW_Fish_SquidPolyp,spr_KSW_Fish_SquidPolyp_Pal,series_RiskRain,mint,3,androidPort,KSW_Phases.none,202500);
+	scr_KSW_AddFish("Zelda",spr_KSW_Fish_Zelda,spr_KSW_Fish_Zelda_Pal,series_TheLegendOfZelda,mage,3,creamCrevasse,KSW_Phases.none,90000);
+	scr_KSW_AddFish("Ganon",spr_KSW_Fish_Ganon,spr_KSW_Fish_Ganon_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.night,198600);
+	scr_KSW_AddFish("Bird Storyteller",spr_KSW_Fish_BirdStoryteller,spr_KSW_Fish_BirdStoryteller_Pal,series_TheLegendOfZelda,mint,1,cloudyPark,KSW_Phases.afternoon,500);
+	scr_KSW_AddFish("Chasupa",spr_KSW_Fish_Chasupa,spr_KSW_Fish_Chasupa_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.night,100);
+	scr_KSW_AddFish("Crow (Zelda)",spr_KSW_Fish_CrowZelda,spr_KSW_Fish_CrowZelda_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.night,100);
+	scr_KSW_AddFish("Cucco",spr_KSW_Fish_Cucco,spr_KSW_Fish_Cucco_Pal,series_TheLegendOfZelda,glimmer,1,cloudyPark,KSW_Phases.day,1991);
+	scr_KSW_AddFish("Dacto",spr_KSW_Fish_Dacto,spr_KSW_Fish_Dacto_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.afternoon,100);
+	scr_KSW_AddFish("Flute Boy's Bird",spr_KSW_Fish_FluteBoysBird,spr_KSW_Fish_FluteBoysBird_Pal,series_TheLegendOfZelda,glimmer,1,cloudyPark,KSW_Phases.day,1000);
+	scr_KSW_AddFish("Keese",spr_KSW_Fish_Keese,spr_KSW_Fish_Keese_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.night,100);
+	scr_KSW_AddFish("Mad Batter",spr_KSW_Fish_MadBatter,spr_KSW_Fish_MadBatter_Pal,series_TheLegendOfZelda,glimmer,1,cloudyPark,KSW_Phases.none,1000);
+	scr_KSW_AddFish("Mothula",spr_KSW_Fish_Mothula,spr_KSW_Fish_Mothula_Pal,series_TheLegendOfZelda,glimmer,2,cloudyPark,KSW_Phases.night,10000);
+	scr_KSW_AddFish("Octoballoon",spr_KSW_Fish_Octoballoon,spr_KSW_Fish_Octoballoon_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.afternoon,100);
+	scr_KSW_AddFish("Vulture (Zelda)",spr_KSW_Fish_VultureZelda,spr_KSW_Fish_VultureZelda_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.afternoon,100);
+	scr_KSW_AddFish("Zirro",spr_KSW_Fish_Zirro,spr_KSW_Fish_Zirro_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.afternoon,100);
+	scr_KSW_AddFish("Marin",spr_KSW_Fish_Marin,spr_KSW_Fish_Marin_Pal,series_TheLegendOfZelda,glimmer,2,grassBeach,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Tarin",spr_KSW_Fish_Tarin,spr_KSW_Fish_Tarin_Pal,series_TheLegendOfZelda,glimmer,2,hallowReen,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Prince Richard",spr_KSW_Fish_PrinceRichard,spr_KSW_Fish_PrinceRichard_Pal,series_TheLegendOfZelda,glimmer,2,hallowReen,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Mermaid",spr_KSW_Fish_Mermaid,spr_KSW_Fish_Mermaid_Pal,series_TheLegendOfZelda,mage,1,grassBeach,KSW_Phases.day,500);
+	scr_KSW_AddFish("Fisherman",spr_KSW_Fish_Fisherman,spr_KSW_Fish_Fisherman_Pal,series_TheLegendOfZelda,borange,1,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Schule Donavitch",spr_KSW_Fish_SchuleDonavitch,spr_KSW_Fish_SchuleDonavitch_Pal,series_TheLegendOfZelda,candy,1,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Hippo Model",spr_KSW_Fish_HippoModel,spr_KSW_Fish_HippoModel_Pal,series_TheLegendOfZelda,mage,1,grassBeach,KSW_Phases.none,500);
+	scr_KSW_AddFish("Walrus",spr_KSW_Fish_Walrus,spr_KSW_Fish_Walrus_Pal,series_TheLegendOfZelda,mage,1,creamCrevasse,KSW_Phases.day,500);
+	scr_KSW_AddFish("Gohma",spr_KSW_Fish_Gohma,spr_KSW_Fish_Gohma_Pal,series_TheLegendOfZelda,glimmer,2,grassBeach,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Manbo",spr_KSW_Fish_Manbo,spr_KSW_Fish_Manbo_Pal,series_TheLegendOfZelda,glimmer,2,serranoSprings,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Piranha (Zelda)",spr_KSW_Fish_PiranhaZelda,spr_KSW_Fish_PiranhaZelda_Pal,series_TheLegendOfZelda,glimmer,0,hallowReen,KSW_Phases.day,100);
+	scr_KSW_AddFish("Flying Rooster",spr_KSW_Fish_FlyingRooster,spr_KSW_Fish_FlyingRooster_Pal,series_TheLegendOfZelda,mint,1,cloudyPark,KSW_Phases.day,1998);
+	scr_KSW_AddFish("Owl",spr_KSW_Fish_Owl,spr_KSW_Fish_Owl_Pal,series_TheLegendOfZelda,mint,1,cloudyPark,KSW_Phases.none,1998);
+	scr_KSW_AddFish("Sale",spr_KSW_Fish_Sale,spr_KSW_Fish_Sale_Pal,series_TheLegendOfZelda,glimmer,1,grassBeach,KSW_Phases.none,1998);
+	scr_KSW_AddFish("Bone Putter",spr_KSW_Fish_BonePutter,spr_KSW_Fish_BonePutter_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.day,100);
+	scr_KSW_AddFish("Winged Octorok",spr_KSW_Fish_WingedOctorok,spr_KSW_Fish_WingedOctorok_Pal,series_TheLegendOfZelda,glimmer,0,cloudyPark,KSW_Phases.afternoon,100);
+	scr_KSW_AddFish("Wart",spr_KSW_Fish_Wart,spr_KSW_Fish_Wart_Pal,series_TheLegendOfZelda,glimmer,2,hallowReen,KSW_Phases.afternoon,10000);
+	scr_KSW_AddFish("Evil Eagle",spr_KSW_Fish_EvilEagle,spr_KSW_Fish_EvilEagle_Pal,series_TheLegendOfZelda,glimmer,2,cloudyPark,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Wind Fish",spr_KSW_Fish_WindFish,spr_KSW_Fish_WindFish_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.none,199800);
+	scr_KSW_AddFish("Vire",spr_KSW_Fish_Vire,spr_KSW_Fish_Vire_Pal,series_TheLegendOfZelda,glimmer,1,cloudyPark,KSW_Phases.night,1000);
+	scr_KSW_AddFish("Aquamentus",spr_KSW_Fish_Aquamentus,spr_KSW_Fish_Aquamentus_Pal,series_TheLegendOfZelda,glimmer,2,cloudyPark,KSW_Phases.afternoon,10000);
+	scr_KSW_AddFish("Eyesoar",spr_KSW_Fish_Eyesoar,spr_KSW_Fish_Eyesoar_Pal,series_TheLegendOfZelda,glimmer,2,cloudyPark,KSW_Phases.afternoon,10000);
+	scr_KSW_AddFish("Ricky",spr_KSW_Fish_Ricky,spr_KSW_Fish_Ricky_Pal,series_TheLegendOfZelda,glimmer,2,grassBeach,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Dimitri (Zelda)",spr_KSW_Fish_DimitriZelda,spr_KSW_Fish_DimitriZelda_Pal,series_TheLegendOfZelda,glimmer,2,serranoSprings,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Moosh",spr_KSW_Fish_Moosh,spr_KSW_Fish_Moosh_Pal,series_TheLegendOfZelda,glimmer,2,cloudyPark,KSW_Phases.day,10000);
+	scr_KSW_AddFish("Maple",spr_KSW_Fish_Maple,spr_KSW_Fish_Maple_Pal,series_TheLegendOfZelda,glimmer,2,cloudyPark,KSW_Phases.night,10000);
+	scr_KSW_AddFish("Impa",spr_KSW_Fish_Impa,spr_KSW_Fish_Impa_Pal,series_TheLegendOfZelda,candy,3,grassBeach,KSW_Phases.none,60000);
+	scr_KSW_AddFish("Onox",spr_KSW_Fish_Onox,spr_KSW_Fish_Onox_Pal,series_TheLegendOfZelda,glimmer,3,serranoSprings,KSW_Phases.night,20010);
+	scr_KSW_AddFish("Veran",spr_KSW_Fish_Veran,spr_KSW_Fish_Veran_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.night,20010);
+	scr_KSW_AddFish("Twinrova",spr_KSW_Fish_Twinrova,spr_KSW_Fish_Twinrova_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.none,200100);
+	scr_KSW_AddFish("Din",spr_KSW_Fish_Din,spr_KSW_Fish_Din_Pal,series_TheLegendOfZelda,glimmer,3,serranoSprings,KSW_Phases.none,20010);
+	scr_KSW_AddFish("Nayru",spr_KSW_Fish_Nayru,spr_KSW_Fish_Nayru_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.none,20010);
+	scr_KSW_AddFish("Farore",spr_KSW_Fish_Farore,spr_KSW_Fish_Farore_Pal,series_TheLegendOfZelda,glimmer,3,androidPort,KSW_Phases.none,20010);
+	scr_KSW_AddFish("Navi",spr_KSW_Fish_Navi,spr_KSW_Fish_Navi_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.none,19980);
+	scr_KSW_AddFish("Tingle",spr_KSW_Fish_Tingle,spr_KSW_Fish_Tingle_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.none,20040);
+	scr_KSW_AddFish("Great Fairy",spr_KSW_Fish_GreatFairy,spr_KSW_Fish_GreatFairy_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.none,199800);
+	scr_KSW_AddFish("Fairy Queen",spr_KSW_Fish_FairyQueen,spr_KSW_Fish_FairyQueen_Pal,series_TheLegendOfZelda,glimmer,3,cloudyPark,KSW_Phases.none,200400);
 	#endregion
 	#endregion
 }
