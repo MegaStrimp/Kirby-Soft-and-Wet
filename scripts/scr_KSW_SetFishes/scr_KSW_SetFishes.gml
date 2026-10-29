@@ -3186,7 +3186,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Trickster",spr_KSW_Fish_The_Trickster,spr_KSW_Fish_The_Trickster_Pal,series_vampireSurvivors,flux,3,serranoSprings,KSW_Phases.night,12000,-21,-15);
 	scr_KSW_AddFish("The Blinder",spr_KSW_Fish_The_Blinder,spr_KSW_Fish_The_Blinder_Pal,series_vampireSurvivors,legion,3,androidPort,KSW_Phases.night,12000,-21,-9);
 	scr_KSW_AddFish("The Ender",spr_KSW_Fish_The_Ender,spr_KSW_Fish_The_Ender_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,50000,-23,-18);
-	scr_KSW_AddFish("White Hand",spr_KSW_Fish_White_Hand,spr_KSW_Fish_White_Hand_Pal,series_vampireSurvivors,legion,3,hallowReen,KSW_Phases.night,15000,-
+	scr_KSW_AddFish("White Hand",spr_KSW_Fish_White_Hand,spr_KSW_Fish_White_Hand_Pal,series_vampireSurvivors,legion,3,hallowReen,KSW_Phases.night,15000,-19,-8);
 	#endregion
 	#endregion
 }
