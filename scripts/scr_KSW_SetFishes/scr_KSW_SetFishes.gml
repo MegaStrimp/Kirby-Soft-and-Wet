@@ -177,6 +177,8 @@ function scr_KSW_SetFishes()
 	var series_fnf = global.KSW_SeriesIDs[? "fnf"];
 	var series_badendtheater = global.KSW_SeriesIDs[? "BadEndTheater"];
 	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
+	var series_terrariaFargoSouls = global.KSW_SeriesIDs[? "terrariaFargoSouls"];
+    var series_doors = global.KSW_SeriesIDs[? "doors"];
 	#endregion
 	
 	#region Stages
@@ -3146,6 +3148,45 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Underling",spr_KSW_Fish_The_Underling,spr_KSW_Fish_The_Underling_Pal,series_badendtheater,flux,2,serranoSprings,KSW_Phases.night,8000,-15,-16);
 	scr_KSW_AddFish("The Overlord",spr_KSW_Fish_The_Overlord,spr_KSW_Fish_The_Overlord_Pal,series_badendtheater,candy,3,hallowReen,KSW_Phases.none,8000,-19,-16);
 	scr_KSW_AddFish("Crappy Looking FIsh",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
+	scr_KSW_AddFish("Banished Baron",spr_KSW_Fish_Banished_Baron,spr_KSW_Fish_Banished_Baron_Pal,series_terrariaFargoSouls,legion,3,androidPort,KSW_Phases.afternoon,9500,-71,-32);
+	scr_KSW_AddFish("Chronomage",spr_KSW_Fish_Chronomage,spr_KSW_Fish_Chronomage_Pal,series_Castlevania,candy,1,hallowReen,KSW_Phases.day,4500,-10,-14);
+	scr_KSW_AddFish("Old Man Consequences",spr_KSW_Fish_Old_Man_Consequences,spr_KSW_Fish_Old_Man_Consequences_Pal,series_FiveNightsAtFreddys,candy,2,hallowReen,KSW_Phases.night,7500,-11,-11);
+	scr_KSW_AddFish("Mazin Sonic",spr_KSW_Fish_Mazin,spr_KSW_Fish_Mazin_Pal,series_SonicTheHedgehog,mage,2,hallowReen,KSW_Phases.none,8500,-25,-22);
+	scr_KSW_AddFish("Madeline",spr_KSW_Fish_Madeline,spr_KSW_Fish_Madeline_Pal,series_Celeste,borange,1,creamCrevasse,KSW_Phases.none,6500,-11,-14);
+	scr_KSW_AddFish("Fih",spr_KSW_Fish_Fih,spr_KSW_Fish_Fih_Pal,series_doors,mint,0,androidPort,KSW_Phases.none,450,-33,-8);
+	scr_KSW_AddFish("Seekfin",spr_KSW_Fish_Seekfin,spr_KSW_Fish_Seekfin_Pal,series_doors,legion,1,hallowReen,KSW_Phases.none,850,-19,-11);
+	scr_KSW_AddFish("Sea Figurefly",spr_KSW_Fish_Sea_Figurefly,spr_KSW_Fish_Sea_Figurefly_Pal,series_doors,borange,2,hallowReen,KSW_Phases.afternoon,3750,-24,-14);
+	scr_KSW_AddFish("Diver NPC",spr_KSW_Fish_Diver_NPC,spr_KSW_Fish_Diver_NPC_Pal,series_Undertale,borange,2,serranoSprings,KSW_Phases.none,28000,-18,-14);
+	scr_KSW_AddFish("Stringray NPC",spr_KSW_Fish_Stingray_NPC,spr_KSW_Fish_Stingray_NPC_Pal,series_Undertale,mage,1,grassBeach,KSW_Phases.night,7500,-21,-16);
+	scr_KSW_AddFish("Gel Girl",spr_KSW_Fish_Gel_Girl,spr_KSW_Fish_Gel_Girl_Pal,series_Undertale,candy,1,creamCrevasse,KSW_Phases.none,5000,-15,-13);
+	scr_KSW_AddFish("Underwater Grandpa",spr_KSW_Fish_Underwater_Grandpa,spr_KSW_Fish_Underwater_Grandpa_Pal,series_Undertale,mint,1,serranoSprings,KSW_Phases.none,7000,-22,-12);
+	scr_KSW_AddFish("Eel Woman",spr_KSW_Fish_Eel_Woman,spr_KSW_Fish_Eel_Woman_Pal,series_Undertale,mage,2,grassBeach,KSW_Phases.night,10000,-77,-12);
+	scr_KSW_AddFish("Arbiter Crab",spr_KSW_Fish_Arbiter_Crab,spr_KSW_Fish_Arbiter_Crab_Pal,series_Undertale,candy,1,serranoSprings,KSW_Phases.day,8000,-19,-20);
+	scr_KSW_AddFish("Glyde",spr_KSW_Fish_Glyde,spr_KSW_Fish_Glyde_Pal,series_Undertale,legion,2,grassBeach,KSW_Phases.afternoon,14500,-53,-34);
+	scr_KSW_AddFish("Dust Elemental",spr_KSW_Fish_Dust_Elemental,spr_KSW_Fish_Dust_Elemental_Pal,series_vampireSurvivors,borange,0,hallowReen,KSW_Phases.afternoon,2500,-18,-20);
+	scr_KSW_AddFish("Musc Musc",spr_KSW_Fish_Musc_Musc,spr_KSW_Fish_Musc_Musc_Pal,series_vampireSurvivors,mint,0,hallowReen,KSW_Phases.day,2250,-15,-14);
+	scr_KSW_AddFish("Merman (Vampire Survivors)",spr_KSW_Fish_Merman_VS,spr_KSW_Fish_Merman_VS_Pal,series_vampireSurvivors,legion,0,hallowReen,KSW_Phases.night,4500,-15,-10);
+	scr_KSW_AddFish("Psychic Ogre",spr_KSW_Fish_Psychic_Ogre,spr_KSW_Fish_Psychic_Ogre_Pal,series_vampireSurvivors,candy,1,hallowReen,KSW_Phases.night,5550,-9,-13);
+	scr_KSW_AddFish("Fallen Cherub",spr_KSW_Fish_Fallen_Cherub,spr_KSW_Fish_Fallen_Cherub_Pal,series_vampireSurvivors,glimmer,0,cloudyPark,KSW_Phases.none,800,-12,-12);
+	scr_KSW_AddFish("Fallen Cherubbello",spr_KSW_Fish_Fallen_Cherubbello,spr_KSW_Fish_Fallen_Cherubbello_Pal,series_vampireSurvivors,glimmer,1,cloudyPark,KSW_Phases.none,1350,-15,-13);
+	scr_KSW_AddFish("Fallen Throne",spr_KSW_Fish_Fallen_Throne,spr_KSW_Fish_Fallen_Throne_Pal,series_vampireSurvivors,glimmer,2,cloudyPark,KSW_Phases.day,7777,-24,-18);
+	scr_KSW_AddFish("Tri-Anchors",spr_KSW_Fish_Tri_Anchors,spr_KSW_Fish_Tri_Anchors_Pal,series_vampireSurvivors,mage,3,cloudyPark,KSW_Phases.night,8500,-24,-21);
+	scr_KSW_AddFish("Unknown",spr_KSW_Fish_Unknown,spr_KSW_Fish_Unknown_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,10500,-15,-16);
+	scr_KSW_AddFish("Brainoid",spr_KSW_Fish_Brainoid,spr_KSW_Fish_Brainoid_Pal,series_vampireSurvivors,glimmer,1,hallowReen,KSW_Phases.none,2000,-19,-10); //Another one that would fit the potential space area. Actually from here to "The Reaper" would. They come from the Among Us Vampire Survivors DLC
+	scr_KSW_AddFish("Coldellini",spr_KSW_Fish_Coldellini,spr_KSW_Fish_Coldellini_Pal,series_vampireSurvivors,legion,1,creamCrevasse,KSW_Phases.none,575,-12,-13);
+	scr_KSW_AddFish("Pinthot",spr_KSW_Fish_Pinthot,spr_KSW_Fish_Pinthot_Pal,series_vampireSurvivors,candy,1,serranoSprings,KSW_Phases.none,750,-12,-13);
+	scr_KSW_AddFish("Shapeunshifter",spr_KSW_Fish_Shapeunshifter,spr_KSW_Fish_Shapeunshifter_Pal,series_vampireSurvivors,mint,1,androidPort,KSW_Phases.night,850,-13,-13);
+	scr_KSW_AddFish("Brick Suspicio",spr_KSW_Fish_Brick_Suspicio,spr_KSW_Fish_Brick_Suspicio_Pal,series_vampireSurvivors,candy,0,androidPort,KSW_Phases.day,1,-13,-9);
+	scr_KSW_AddFish("Nugget Suspicio",spr_KSW_Fish_Nugget_Suspicio,spr_KSW_Fish_Nugget_Suspicio_Pal,series_vampireSurvivors,borange,0,androidPort,KSW_Phases.day,16,-11,-9);
+	scr_KSW_AddFish("Trashcan Suspicio",spr_KSW_Fish_Trashcan_Suspicio,spr_KSW_Fish_Trashcan_Suspicio_Pal,series_vampireSurvivors,candy,2,androidPort,KSW_Phases.day,9000,-13,-12);
+	scr_KSW_AddFish("The Reaper",spr_KSW_Fish_The_Reaper,spr_KSW_Fish_The_Reaper_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Drowner",spr_KSW_Fish_The_Drowner,spr_KSW_Fish_The_Drowner_Pal,series_vampireSurvivors,mage,3,creamCrevasse,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Maddener",spr_KSW_Fish_The_Maddener,spr_KSW_Fish_The_Maddener_Pal,series_vampireSurvivors,glimmer,3,cloudyPark,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Stalker",spr_KSW_Fish_The_Stalker,spr_KSW_Fish_The_Stalker_Pal,series_vampireSurvivors,mint,3,grassBeach,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Trickster",spr_KSW_Fish_The_Trickster,spr_KSW_Fish_The_Trickster_Pal,series_vampireSurvivors,flux,3,serranoSprings,KSW_Phases.night,12000,-21,-15);
+	scr_KSW_AddFish("The Blinder",spr_KSW_Fish_The_Blinder,spr_KSW_Fish_The_Blinder_Pal,series_vampireSurvivors,legion,3,androidPort,KSW_Phases.night,12000,-21,-9);
+	scr_KSW_AddFish("The Ender",spr_KSW_Fish_The_Ender,spr_KSW_Fish_The_Ender_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,50000,-23,-18);
+	scr_KSW_AddFish("White Hand",spr_KSW_Fish_White_Hand,spr_KSW_Fish_White_Hand_Pal,series_vampireSurvivors,legion,3,hallowReen,KSW_Phases.night,15000,-19,-8);
 	#endregion
 	#endregion
 }
