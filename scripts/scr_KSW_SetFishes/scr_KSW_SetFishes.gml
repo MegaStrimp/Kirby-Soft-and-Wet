@@ -3187,6 +3187,10 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Blinder",spr_KSW_Fish_The_Blinder,spr_KSW_Fish_The_Blinder_Pal,series_vampireSurvivors,legion,3,androidPort,KSW_Phases.night,12000,-21,-9);
 	scr_KSW_AddFish("The Ender",spr_KSW_Fish_The_Ender,spr_KSW_Fish_The_Ender_Pal,series_vampireSurvivors,candy,3,hallowReen,KSW_Phases.night,50000,-23,-18);
 	scr_KSW_AddFish("White Hand",spr_KSW_Fish_White_Hand,spr_KSW_Fish_White_Hand_Pal,series_vampireSurvivors,legion,3,hallowReen,KSW_Phases.night,15000,-19,-8);
+	scr_KSW_AddFish("Robo Piranha",spr_KSW_Fish_Robo_Piranha,spr_KSW_Fish_Robo_Piranha_Pal,series_FiveNightsAtFreddys,borange,0,androidPort,KSW_Phases.day,650,-41,-28);
+	scr_KSW_AddFish("Robo Carp",spr_KSW_Fish_Robo_Carp,spr_KSW_Fish_Robo_Carp_Pal,series_FiveNightsAtFreddys,flux,1,androidPort,KSW_Phases.day,850,-44,-29);
+	scr_KSW_AddFish("Robo Angler",spr_KSW_Fish_Robo_Angler,spr_KSW_Fish_Robo_Angler_Pal,series_FiveNightsAtFreddys,glimmer,2,androidPort,KSW_Phases.day,1000,-39,-30);
+	scr_KSW_AddFish("Dee Dee's Pearl",spr_KSW_Fish_DeeDee_Pearl,spr_KSW_Fish_DeeDee_Pearl_Pal,series_FiveNightsAtFreddys,legion,3,androidPort,KSW_Phases.day,5000,-25,-23);
 	#endregion
 	#endregion
 }
