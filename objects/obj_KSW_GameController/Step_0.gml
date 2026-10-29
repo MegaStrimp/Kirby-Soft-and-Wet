@@ -681,8 +681,11 @@ if (!localPause)
 				}
 			}
 			
-			if (global.KSW_ExModeActive) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "gold"];
-			if (global.KSW_AchievementList[global.KSW_AchievementIDs[? "doEverything"]].isObtained) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "legend"];
+			if (!global.KSW_DebugTrailerMode)
+			{
+				if (global.KSW_ExModeActive) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "gold"];
+				if (global.KSW_AchievementList[global.KSW_AchievementIDs[? "doEverything"]].isObtained) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "legend"];
+			}
 			
 			scr_KSW_SaveData("data1.ini");
 			
@@ -741,7 +744,8 @@ if (!localPause)
 				state = KSW_GameStates.catching;
 				
 				var pityRate = 2 + floor(global.levelScoreCurrent / 5000000);
-				for (var i = 0; i < pityRate; i++)
+				
+				for (var i = 0; i < (pityRate + (global.KSW_DebugTrailerMode * 999)); i++)
 				{
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];
 					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny)))

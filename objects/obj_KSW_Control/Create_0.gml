@@ -96,6 +96,9 @@ global.KSW_EnteredSecretStars = false;
 global.KSW_MusicShuffle = false;
 
 global.KSW_DebugRig = -1;
+global.KSW_DebugTrailerMode = false;
+//global.KSW_DebugTrailerMode = true;
+global.KSW_DebugTrailerMode_FishEndIndex = 2206;
 
 global.KSW_BubblePalette = spr_KSW_UI_CatchInput_Palette_Day;
 

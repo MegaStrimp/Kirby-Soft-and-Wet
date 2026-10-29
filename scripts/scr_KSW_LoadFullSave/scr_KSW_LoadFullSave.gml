@@ -3,7 +3,7 @@
 function scr_KSW_LoadFullSave(loadFish = true)
 {
 	#region Variables
-	global.fullSaveLoaded = true;
+	if (!global.KSW_DebugTrailerMode) global.fullSaveLoaded = true;
 	#endregion
 	
 	#region Character Status
@@ -89,7 +89,10 @@ function scr_KSW_LoadFullSave(loadFish = true)
 	{
 		global.KSW_CaughtUniqueFishCount = 0;
 		
-		for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
+		var fishSize = ds_map_size(global.KSW_FishIDs);
+		if (global.KSW_DebugTrailerMode) fishSize = global.KSW_DebugTrailerMode_FishEndIndex;
+		
+		for (var i = 0; i < fishSize; i++)
 		{
 			global.KSW_FishList[i].isCaught += 2;
 			global.KSW_FishList[i].isCaughtShiny += 1;

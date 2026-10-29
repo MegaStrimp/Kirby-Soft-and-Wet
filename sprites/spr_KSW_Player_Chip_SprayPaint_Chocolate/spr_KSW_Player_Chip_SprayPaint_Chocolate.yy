@@ -2,17 +2,13 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Chip_SprayPaint_Chocolate",
   "bboxMode":0,
-  "bbox_bottom":11,
+  "bbox_bottom":14,
   "bbox_left":0,
   "bbox_right":1,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
-  },
+  "ConfigValues":{},
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -21,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":12,
+  "height":15,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2c098b81-990c-401d-8b7e-a8a0f1d5143b","blendMode":0,"displayName":"default","isLocked":false,"name":"2c098b81-990c-401d-8b7e-a8a0f1d5143b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
