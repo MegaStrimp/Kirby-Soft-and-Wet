@@ -3,7 +3,7 @@
 function scr_KSW_Game_UpdatePhase()
 {
 	var currentHour = current_hour;
-	if (global.debug) currentHour = irandom_range(0,23);
+	if ((global.debug) and (!global.KSW_DebugTrailerMode)) currentHour = irandom_range(0,23);
 	var targetPhase = KSW_Phases.none;
 	
 	if (currentHour >= 4) and (currentHour < 12)

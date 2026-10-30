@@ -9,11 +9,7 @@
   "channelFormat":1,
   "compression":1,
   "compressionQuality":4,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "audioGroupId":"{ \"name\":\"audiogroup_default\", \"path\":\"audiogroups/audiogroup_default\" }",
-    },
-  },
+  "ConfigValues":{},
   "conversionMode":0,
   "duration":0.0,
   "exportDir":"",
