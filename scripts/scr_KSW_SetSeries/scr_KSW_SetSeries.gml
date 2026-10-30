@@ -174,5 +174,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("fnf","Friday Night Funkin'");
 	scr_KSW_AddSeries("BadEndTheater","Bad End Theater");
 	scr_KSW_AddSeries("TADC","The Amazing Digital Circus");
+	scr_KSW_AddSeries("sinistar","Sinistar");
 	#endregion
 }
