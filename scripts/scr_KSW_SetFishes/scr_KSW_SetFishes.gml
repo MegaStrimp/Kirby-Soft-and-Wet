@@ -2778,7 +2778,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Enoch",Spr_KSW_Fish_Enoch,Spr_KSW_Fish_Enoch_Pal,series_OFF,mage,2,creamCrevasse,KSW_Phases.night,30000);
 	scr_KSW_AddFish("Delta,Ipsilon,Sigma",Spr_KSW_Fish_DeltaIpsilonSigma,Spr_KSW_Fish_DeltaIpsilonSigma_Pal,series_OFF,mage,2,androidPort,KSW_Phases.none,1000);
 	scr_KSW_AddFish("The Queen",Spr_KSW_Fish_TheQueen,Spr_KSW_Fish_TheQueen_PAL,series_OFF,mage,2,androidPort,KSW_Phases.none,1000);
-	scr_KSW_AddFish("Hugo (OFF)",Spr_KSW_Fish_HugoOff,Spr_KSW_Fish_HugoOff_Pal,series_OFF,mage,3,androidPort,KSW_Phases.none,100000);
+	scr_KSW_AddFish("Hugo (OFF)",Spr_KSW_Fish_HugoOff,Spr_KSW_Fish_HugoOff_Pal,series_OFF,mage,3,androidPort,KSW_Phases.none,100000,0,0,-1,snd_KSW_Fish_HugoOff);
 	scr_KSW_AddFish("Sugar",SPR_KSW_Fish_Sugar,SPR_KSW_Fish_Sugar_Pal,series_OFF,mage,3,grassBeach,KSW_Phases.none,100000);
 	scr_KSW_AddFish("The World According To Fish",spr_KSW_Fish_TheWorldAccordingToFish,spr_KSW_Fish_TheWorldAccordingToFish_Pal,series_Misc,mage,3,anyStage,KSW_Phases.none,100000);
 	scr_KSW_AddFish("Nowak",spr_KSW_Fish_Nowak,spr_KSW_Fish_Nowak_Pal,series_BrutalOrchestra,glimmer,0,anyStage,KSW_Phases.none,2300);
@@ -3152,6 +3152,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Justus",spr_KSW_Fish_Justus,spr_KSW_Fish_Justus_Pal,series_OFF,legion,2,cloudyPark,KSW_Phases.none,4000,10,45);
 	scr_KSW_AddFish("Carnival",spr_KSW_Fish_Carnival,spr_KSW_Fish_Carnival_Pal,series_OFF,legion,3,cloudyPark,KSW_Phases.none,5000,1,10);
 	scr_KSW_AddFish("Cob",spr_KSW_Fish_Cob,spr_KSW_Fish_Cob_Pal,series_OFF,legion,3,cloudyPark,KSW_Phases.none,6000,15,9);
+	scr_KSW_AddFish("EnochFly",spr_KSW_Fish_EnochFly,spr_KSW_Fish_EnochFly_Pal,series_OFF,glimmer,1,cloudyPark,KSW_Phases.none,3000,0,0,-1,snd_KSW_Fish_EnochFly);
 	#endregion
 	#endregion
 }
