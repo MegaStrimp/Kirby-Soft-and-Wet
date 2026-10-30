@@ -176,5 +176,11 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("TADC","The Amazing Digital Circus");
 	scr_KSW_AddSeries("terrariaFargoSouls","Terraria: Fargo's Souls Mod");
     scr_KSW_AddSeries("doors","Roblox DOORS");
+	scr_KSW_AddSeries("bugsnax","Bugsnax");
+	scr_KSW_AddSeries("yumeNikki","Yume Nikki");
+	scr_KSW_AddSeries("cookieRun","Cookie Run");
+	scr_KSW_AddSeries("endacopia","Endacopia");
+	scr_KSW_AddSeries("FNaC","Five Nights at Candy's");
+	scr_KSW_AddSeries("deltaruneChapterRewritten","DELTARUNE: Chapter Rewritten");
 	#endregion
 }
