@@ -3258,6 +3258,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Starship (Zero Mission)",spr_KSW_Fish_StarshipZeroMission,spr_KSW_Fish_StarshipZeroMission_Pal,series_Metroid,borange,3,cloudyPark,KSW_Phases.day,20040);
 	scr_KSW_AddFish("Samus's Gunship",spr_KSW_Fish_SamusGunship,spr_KSW_Fish_SamusGunship_Pal,series_Metroid,mint,3,cloudyPark,KSW_Phases.afternoon,19940);
 	scr_KSW_AddFish("Starship (Fusion)",spr_KSW_Fish_StarshipFusion,spr_KSW_Fish_StarshipFusion_Pal,series_Metroid,flux,3,cloudyPark,KSW_Phases.night,20020);
+	scr_KSW_AddFish("Sahagin",spr_KSW_Fish_Sahagin,spr_KSW_Fish_Sahagin_Pal,series_FinalFantasy,mint,0,serranoSprings,KSW_Phases.none,199);
+	scr_KSW_AddFish("Killer Fish (FF)",spr_KSW_Fish_KillerFishFF,spr_KSW_Fish_KillerFishFF_Pal,series_FinalFantasy,flux,0,serranoSprings,KSW_Phases.none,199);
 	#endregion
 	#endregion
 }
