@@ -3260,6 +3260,43 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Starship (Fusion)",spr_KSW_Fish_StarshipFusion,spr_KSW_Fish_StarshipFusion_Pal,series_Metroid,flux,3,cloudyPark,KSW_Phases.night,20020);
 	scr_KSW_AddFish("Sahagin",spr_KSW_Fish_Sahagin,spr_KSW_Fish_Sahagin_Pal,series_FinalFantasy,mint,0,serranoSprings,KSW_Phases.none,199);
 	scr_KSW_AddFish("Killer Fish (FF)",spr_KSW_Fish_KillerFishFF,spr_KSW_Fish_KillerFishFF_Pal,series_FinalFantasy,flux,0,serranoSprings,KSW_Phases.none,199);
+	scr_KSW_AddFish("Quote",spr_KSW_Fish_Quote,spr_KSW_Fish_Quote_Pal,series_CaveStory,candy,3,creamCrevasse,KSW_Phases.none,20040);
+	scr_KSW_AddFish("Curly Brace",spr_KSW_Fish_CurlyBrace,spr_KSW_Fish_CurlyBrace_Pal,series_CaveStory,mage,3,creamCrevasse,KSW_Phases.none,20040);
+	scr_KSW_AddFish("Bat (Cave Story)",spr_KSW_Fish_BatCave,spr_KSW_Fish_BatCave_Pal,series_CaveStory,legion,0,creamCrevasse,KSW_Phases.night,204);
+	scr_KSW_AddFish("Mannan",spr_KSW_Fish_Mannan,spr_KSW_Fish_Mannan_Pal,series_CaveStory,mint,0,creamCrevasse,KSW_Phases.afternoon,204);
+	scr_KSW_AddFish("Gaudi",spr_KSW_Fish_Gaudi,spr_KSW_Fish_Gaudi_Pal,series_CaveStory,flux,0,creamCrevasse,KSW_Phases.day,204);
+	scr_KSW_AddFish("Gravekeeper",spr_KSW_Fish_Gravekeeper,spr_KSW_Fish_Gravekeeper_Pal,series_CaveStory,borange,1,creamCrevasse,KSW_Phases.night,2004);
+	scr_KSW_AddFish("Life Capsule",spr_KSW_Fish_LifeCapsule,spr_KSW_Fish_LifeCapsule_Pal,series_CaveStory,legion,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Egg Fish (Christmas)",spr_KSW_Fish_EggFishChristmas,spr_KSW_Fish_EggFishChristmas_Pal,series_CaveStory,candy,1,creamCrevasse,KSW_Phases.afternoon,2004);
+	scr_KSW_AddFish("Igor",spr_KSW_Fish_Igor,spr_KSW_Fish_Igor_Pal,series_CaveStory,glimmer,1,creamCrevasse,KSW_Phases.afternoon,2004);
+	scr_KSW_AddFish("Sisters",spr_KSW_Fish_Sisters,spr_KSW_Fish_Sisters_Pal,series_CaveStory,flux,2,creamCrevasse,KSW_Phases.night,20040);
+	scr_KSW_AddFish("Omega",spr_KSW_Fish_Omega,spr_KSW_Fish_Omega_Pal,series_CaveStory,glimmer,2,creamCrevasse,KSW_Phases.afternoon,20040);
+	scr_KSW_AddFish("Colon Kid",spr_KSW_Fish_ColonKid,spr_KSW_Fish_ColonKid_Pal,series_CaveStory,glimmer,0,creamCrevasse,KSW_Phases.afternoon,204);
+	scr_KSW_AddFish("King",spr_KSW_Fish_King,spr_KSW_Fish_King_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Jack (Mimiga)",spr_KSW_Fish_JackMimiga,spr_KSW_Fish_JackMimiga_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Kanpachi",spr_KSW_Fish_Kanpachi,spr_KSW_Fish_Kanpachi_Pal,series_CaveStory,glimmer,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Megane",spr_KSW_Fish_Megane,spr_KSW_Fish_Megane_Pal,series_CaveStory,glimmer,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Mahin",spr_KSW_Fish_Mahin,spr_KSW_Fish_Mahin_Pal,series_CaveStory,glimmer,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Chie",spr_KSW_Fish_Chie,spr_KSW_Fish_Chie_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Zett",spr_KSW_Fish_Zett,spr_KSW_Fish_Zett_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Chako",spr_KSW_Fish_Chako,spr_KSW_Fish_Chako_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Santa",spr_KSW_Fish_Santa,spr_KSW_Fish_Santa_Pal,series_CaveStory,candy,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Toroko",spr_KSW_Fish_Toroko,spr_KSW_Fish_Toroko_Pal,series_CaveStory,glimmer,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Malco",spr_KSW_Fish_Malco,spr_KSW_Fish_Malco_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.day,2004);
+	scr_KSW_AddFish("Cthulu",spr_KSW_Fish_Cthulu,spr_KSW_Fish_Cthulu_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.night,2004);
+	scr_KSW_AddFish("Dr. Gero",spr_KSW_Fish_DrGero,spr_KSW_Fish_DrGero_Pal,series_CaveStory,flux,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Nurse Hasumi",spr_KSW_Fish_NurseHasumi,spr_KSW_Fish_NurseHasumi_Pal,series_CaveStory,flux,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Tetsuzou Kamadani",spr_KSW_Fish_TetsuzouKamadani,spr_KSW_Fish_TetsuzouKamadani_Pal,series_CaveStory,flux,1,creamCrevasse,KSW_Phases.night,2004);
+	scr_KSW_AddFish("Itoh",spr_KSW_Fish_Itoh,spr_KSW_Fish_Itoh_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Professor Booster",spr_KSW_Fish_ProfessorBooster,spr_KSW_Fish_ProfessorBooster_Pal,series_CaveStory,mint,1,creamCrevasse,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Sue Sakamoto",spr_KSW_Fish_SueSakamoto,spr_KSW_Fish_SueSakamoto_Pal,series_CaveStory,mage,2,creamCrevasse,KSW_Phases.none,20040);
+	scr_KSW_AddFish("Kazuma Sakamoto",spr_KSW_Fish_KazumaSakamoto,spr_KSW_Fish_KazumaSakamoto_Pal,series_CaveStory,mage,2,creamCrevasse,KSW_Phases.none,20040);
+	scr_KSW_AddFish("Momorin Sakamoto",spr_KSW_Fish_MomorinSakamoto,spr_KSW_Fish_MomorinSakamoto_Pal,series_CaveStory,mage,2,creamCrevasse,KSW_Phases.none,20040);
+	scr_KSW_AddFish("Puppy",spr_KSW_Fish_Puppy,spr_KSW_Fish_Puppy_Pal,series_CaveStory,flux,1,creamCrevasse,KSW_Phases.day,2004);
+	scr_KSW_AddFish("Jenka",spr_KSW_Fish_Jenka,spr_KSW_Fish_Jenka_Pal,series_CaveStory,flux,2,creamCrevasse,KSW_Phases.day,20040);
+	scr_KSW_AddFish("Misery",spr_KSW_Fish_Misery,spr_KSW_Fish_Misery_Pal,series_CaveStory,legion,2,creamCrevasse,KSW_Phases.night,20040);
+	scr_KSW_AddFish("Doctor",spr_KSW_Fish_Doctor,spr_KSW_Fish_Doctor_Pal,series_CaveStory,legion,3,creamCrevasse,KSW_Phases.night,200400);
+	scr_KSW_AddFish("Ballos",spr_KSW_Fish_Ballos,spr_KSW_Fish_Ballos_Pal,series_CaveStory,candy,3,creamCrevasse,KSW_Phases.afternoon,200400);
 	#endregion
 	#endregion
 }
