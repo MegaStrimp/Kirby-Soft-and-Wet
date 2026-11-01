@@ -178,6 +178,7 @@ function scr_KSW_SetFishes()
 	var series_badendtheater = global.KSW_SeriesIDs[? "BadEndTheater"];
 	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
 	var series_Sinistar = global.KSW_SeriesIDs[? "sinistar"];
+	var series_IceClimbers = global.KSW_SeriesIDs[? "iceClimbers"];
 	#endregion
 	
 	#region Stages
@@ -3297,6 +3298,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Misery",spr_KSW_Fish_Misery,spr_KSW_Fish_Misery_Pal,series_CaveStory,legion,2,creamCrevasse,KSW_Phases.night,20040);
 	scr_KSW_AddFish("Doctor",spr_KSW_Fish_Doctor,spr_KSW_Fish_Doctor_Pal,series_CaveStory,legion,3,creamCrevasse,KSW_Phases.night,200400);
 	scr_KSW_AddFish("Ballos",spr_KSW_Fish_Ballos,spr_KSW_Fish_Ballos_Pal,series_CaveStory,candy,3,creamCrevasse,KSW_Phases.afternoon,200400);
+	scr_KSW_AddFish("Topi",spr_KSW_Fish_Topi,spr_KSW_Fish_Topi_Pal,series_IceClimbers,mage,0,creamCrevasse,KSW_Phases.none,985);
+	scr_KSW_AddFish("Bee (Ice Climbers)",spr_KSW_Fish_BeeClimber,spr_KSW_Fish_BeeClimber_Pal,series_IceClimbers,mage,0,creamCrevasse,KSW_Phases.none,985);
+	scr_KSW_AddFish("Nitpicker",spr_KSW_Fish_Nitpicker,spr_KSW_Fish_Nitpicker_Pal,series_IceClimbers,mage,0,creamCrevasse,KSW_Phases.none,985);
+	scr_KSW_AddFish("Polar Bear",spr_KSW_Fish_PolarBear,spr_KSW_Fish_PolarBear_Pal,series_IceClimbers,mage,1,creamCrevasse,KSW_Phases.none,1985);
+	scr_KSW_AddFish("Butterfly",spr_KSW_Fish_Butterfly,spr_KSW_Fish_Butterfly_Pal,series_IceClimbers,mage,1,creamCrevasse,KSW_Phases.none,1985);
+	scr_KSW_AddFish("Condor",spr_KSW_Fish_Condor,spr_KSW_Fish_Condor_Pal,series_IceClimbers,mage,1,creamCrevasse,KSW_Phases.none,1985);
+	scr_KSW_AddFish("Popo",spr_KSW_Fish_Popo,spr_KSW_Fish_Popo_Pal,series_IceClimbers,mage,2,creamCrevasse,KSW_Phases.none,19850);
 	#endregion
 	#endregion
 }
