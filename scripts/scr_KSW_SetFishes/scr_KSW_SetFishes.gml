@@ -177,6 +177,7 @@ function scr_KSW_SetFishes()
 	var series_fnf = global.KSW_SeriesIDs[? "fnf"];
 	var series_badendtheater = global.KSW_SeriesIDs[? "BadEndTheater"];
 	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
+	var series_KingdomHearts = global.KSW_SeriesIDs[? "KingdomHearts"];
 	#endregion
 	
 	#region Stages
@@ -3146,6 +3147,50 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Underling",spr_KSW_Fish_The_Underling,spr_KSW_Fish_The_Underling_Pal,series_badendtheater,flux,2,serranoSprings,KSW_Phases.night,8000,-15,-16);
 	scr_KSW_AddFish("The Overlord",spr_KSW_Fish_The_Overlord,spr_KSW_Fish_The_Overlord_Pal,series_badendtheater,candy,3,hallowReen,KSW_Phases.none,8000,-19,-16);
 	scr_KSW_AddFish("Crappy Looking FIsh",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
+	scr_KSW_AddFish("Sora",spr_KSW_Fish_Sora,spr_KSW_Fish_Sora_Pal,series_KingdomHearts,candy,2,grassBeach,KSW_Phases.day,15000);
+    scr_KSW_AddFish("Riku",spr_KSW_Fish_Riku,spr_KSW_Fish_Riku_Pal,series_KingdomHearts,flux,2,grassBeach,KSW_Phases.night,15000);
+    scr_KSW_AddFish("Kairi",spr_KSW_Fish_Kairi,spr_KSW_Fish_Kairi_Pal,series_KingdomHearts,glimmer,2,grassBeach,KSW_Phases.afternoon,15000);
+    scr_KSW_AddFish("Namine",spr_KSW_Fish_Namine,spr_KSW_Fish_Namine_Pal,series_KingdomHearts,glimmer,2,cloudyPark,KSW_Phases.afternoon,15000);
+    scr_KSW_AddFish("Shadow",spr_KSW_Fish_KHShadow,spr_KSW_Fish_KHShadow_Pal,series_KingdomHearts,flux,0,cloudyPark,KSW_Phases.none,300);
+    scr_KSW_AddFish("Soldier",spr_KSW_Fish_KHSoldier,spr_KSW_Fish_KHSoldier_Pal,series_KingdomHearts,flux,0,cloudyPark,KSW_Phases.none,500);
+    scr_KSW_AddFish("Powerwild",spr_KSW_Fish_Powerwild,spr_KSW_Fish_Powerwild_Pal,series_KingdomHearts,legion,1,cloudyPark,KSW_Phases.none,1000);
+    scr_KSW_AddFish("Bouncywild",spr_KSW_Fish_Bouncywild,spr_KSW_Fish_Bouncywild_Pal,series_KingdomHearts,borange,1,cloudyPark,KSW_Phases.none,1000);
+    scr_KSW_AddFish("Large Body",spr_KSW_Fish_LargeBody,spr_KSW_Fish_LargeBody_Pal,series_KingdomHearts,legion,0,cloudyPark,KSW_Phases.none,800);
+    scr_KSW_AddFish("Fat Bandit",spr_KSW_Fish_Fatbandit,spr_KSW_Fish_Fatbandit_Pal,series_KingdomHearts,borange,1,serranoSprings,KSW_Phases.day,1200);
+    scr_KSW_AddFish("Sea Neon",spr_KSW_Fish_Seaneon,spr_KSW_Fish_Seaneon_Pal,series_KingdomHearts,mage,1,cloudyPark,KSW_Phases.none,900);
+    scr_KSW_AddFish("Bandit Heartless",spr_KSW_Fish_KHBandit,spr_KSW_Fish_KHBandit_Pal,series_KingdomHearts,borange,1,serranoSprings,KSW_Phases.day,1000);
+    scr_KSW_AddFish("Pirate Heartless",spr_KSW_Fish_KHPirate,spr_KSW_Fish_KHPirate_Pal,series_KingdomHearts,candy,1,cloudyPark,KSW_Phases.none,1100);
+    scr_KSW_AddFish("Red Nocturne",spr_KSW_Fish_RedNocturne,spr_KSW_Fish_RedNocturne_Pal,series_KingdomHearts,candy,0,cloudyPark,KSW_Phases.none,400);
+    scr_KSW_AddFish("Blue Rhapsody",spr_KSW_Fish_BlueRhapsody,spr_KSW_Fish_BlueRhapsody_Pal,series_KingdomHearts,mage,0,cloudyPark,KSW_Phases.none,400);
+    scr_KSW_AddFish("Yellow Opera",spr_KSW_Fish_YellowOpera,spr_KSW_Fish_YellowOpera_Pal,series_KingdomHearts,glimmer,0,cloudyPark,KSW_Phases.none,400);
+    scr_KSW_AddFish("Green Requiem",spr_KSW_Fish_GreenRequiem,spr_KSW_Fish_GreenRequiem_Pal,series_KingdomHearts,mint,0,cloudyPark,KSW_Phases.none,400);
+    scr_KSW_AddFish("Wizard Heartless",spr_KSW_Fish_KHWizard,spr_KSW_Fish_KHWizard_Pal,series_KingdomHearts,flux,1,cloudyPark,KSW_Phases.afternoon,1600);
+    scr_KSW_AddFish("Air Soldier",spr_KSW_Fish_AirSoldier,spr_KSW_Fish_AirSoldier_Pal,series_KingdomHearts,borange,0,cloudyPark,KSW_Phases.none,600);
+    scr_KSW_AddFish("Barrel Spider",spr_KSW_Fish_BarrelSpider,spr_KSW_Fish_BarrelSpider_Pal,series_KingdomHearts,legion,0,cloudyPark,KSW_Phases.none,400);
+    scr_KSW_AddFish("Wight Knight",spr_KSW_Fish_WightKnight,spr_KSW_Fish_WightKnight_Pal,series_KingdomHearts,legion,1,hallowReen,KSW_Phases.night,1400);
+    scr_KSW_AddFish("Air Pirate",spr_KSW_Fish_AirPirate,spr_KSW_Fish_AirPirate_Pal,series_KingdomHearts,mage,1,cloudyPark,KSW_Phases.none,400);
+    scr_KSW_AddFish("Gargoyle",spr_KSW_Fish_KHGargoyle,spr_KSW_Fish_KHGargoyle_Pal,series_KingdomHearts,flux,1,hallowReen,KSW_Phases.night,1400);
+    scr_KSW_AddFish("Search Ghost",spr_KSW_Fish_Searchghost,spr_KSW_Fish_Searchghost_Pal,series_KingdomHearts,legion,1,hallowReen,KSW_Phases.night,1400);
+    scr_KSW_AddFish("Aqua Tank",spr_KSW_Fish_Aquatank,spr_KSW_Fish_Aquatank_Pal,series_KingdomHearts,mage,1,cloudyPark,KSW_Phases.day,1700);
+    scr_KSW_AddFish("Screwdiver",spr_KSW_Fish_Screwdiver,spr_KSW_Fish_Screwdiver_Pal,series_KingdomHearts,mint,1,cloudyPark,KSW_Phases.day,1200);
+    scr_KSW_AddFish("Wyvern",spr_KSW_Fish_Wyvern,spr_KSW_Fish_Wyvern_Pal,series_KingdomHearts,borange,1,cloudyPark,KSW_Phases.afternoon,1700);
+    scr_KSW_AddFish("Defender",spr_KSW_Fish_Defender,spr_KSW_Fish_Defender_Pal,series_KingdomHearts,flux,1,cloudyPark,KSW_Phases.afternoon,2000);
+    scr_KSW_AddFish("Darkball",spr_KSW_Fish_Darkball,spr_KSW_Fish_Darkball_Pal,series_KingdomHearts,flux,1,cloudyPark,KSW_Phases.night,1500);
+    scr_KSW_AddFish("White Mushroom",spr_KSW_Fish_WhiteMushroom,spr_KSW_Fish_WhiteMushroom_Pal,series_KingdomHearts,glimmer,2,cloudyPark,KSW_Phases.day,2200);
+    scr_KSW_AddFish("Black Fungus",spr_KSW_Fish_BlackFungus,spr_KSW_Fish_BlackFungus_Pal,series_KingdomHearts,flux,2,cloudyPark,KSW_Phases.night,2200);
+    scr_KSW_AddFish("Creeper Plant",spr_KSW_Fish_CreeperPlant,spr_KSW_Fish_CreeperPlant_Pal,series_KingdomHearts,mint,1,grassBeach,KSW_Phases.none,1400);
+    scr_KSW_AddFish("Tornado Step",spr_KSW_Fish_TornadoStep,spr_KSW_Fish_TornadoStep_Pal,series_KingdomHearts,mint,1,cloudyPark,KSW_Phases.day,1400);
+    scr_KSW_AddFish("Crescendo",spr_KSW_Fish_Crescendo,spr_KSW_Fish_Crescendo_Pal,series_KingdomHearts,borange,1,cloudyPark,KSW_Phases.afternoon,1400);
+    scr_KSW_AddFish("Neoshadow",spr_KSW_Fish_Neoshadow,spr_KSW_Fish_Neoshadow_Pal,series_KingdomHearts,flux,2,cloudyPark,KSW_Phases.night,3000);
+    scr_KSW_AddFish("Guard Armor",spr_KSW_Fish_GuardArmor,spr_KSW_Fish_GuardArmor_Pal,series_KingdomHearts,flux,3,cloudyPark,KSW_Phases.night,35000);
+    scr_KSW_AddFish("Trickmaster",spr_KSW_Fish_Trickmaster,spr_KSW_Fish_Trickmaster_Pal,series_KingdomHearts,candy,3,cloudyPark,KSW_Phases.day,40000);
+    scr_KSW_AddFish("Parasite Cage",spr_KSW_Fish_ParasiteCage,spr_KSW_Fish_ParasiteCage_Pal,series_KingdomHearts,legion,3,cloudyPark,KSW_Phases.afternoon,37000);
+    scr_KSW_AddFish("Darkside",spr_KSW_Fish_Darkside,spr_KSW_Fish_Darkside_Pal,series_KingdomHearts,flux,3,cloudyPark,KSW_Phases.night,30000);
+    scr_KSW_AddFish("Riku Replica",spr_KSW_Fish_Repliku,spr_KSW_Fish_Repliku_Pal,series_KingdomHearts,flux,3,cloudyPark,KSW_Phases.night,85000);
+    scr_KSW_AddFish("Axel",spr_KSW_Fish_Axel,spr_KSW_Fish_Axel_Pal,series_KingdomHearts,borange,2,serranoSprings,KSW_Phases.none,25000);
+    scr_KSW_AddFish("Roxas",spr_KSW_Fish_Roxas,spr_KSW_Fish_Roxas_Pal,series_KingdomHearts,glimmer,3,cloudyPark,KSW_Phases.afternoon,80000);
+    scr_KSW_AddFish("Ansem",spr_KSW_Fish_Ansem,spr_KSW_Fish_Ansem_Pal,series_KingdomHearts,flux,3,cloudyPark,KSW_Phases.night,100000);
+
 	#endregion
 	#endregion
 }
