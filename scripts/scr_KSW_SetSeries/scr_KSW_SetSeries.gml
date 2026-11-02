@@ -176,5 +176,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("TADC","The Amazing Digital Circus");
 	scr_KSW_AddSeries("sinistar","Sinistar");
 	scr_KSW_AddSeries("iceClimbers","Ice Climbers");
+	scr_KSW_AddSeries("skiFree","SkiFree");
 	#endregion
 }

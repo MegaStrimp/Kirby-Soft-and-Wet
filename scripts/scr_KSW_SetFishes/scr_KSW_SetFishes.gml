@@ -179,6 +179,7 @@ function scr_KSW_SetFishes()
 	var series_tadc = global.KSW_SeriesIDs[? "TADC"];
 	var series_Sinistar = global.KSW_SeriesIDs[? "sinistar"];
 	var series_IceClimbers = global.KSW_SeriesIDs[? "iceClimbers"];
+	var series_SkiFree = global.KSW_SeriesIDs[? "skiFree"];
 	#endregion
 	
 	#region Stages
@@ -3305,6 +3306,13 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Butterfly",spr_KSW_Fish_Butterfly,spr_KSW_Fish_Butterfly_Pal,series_IceClimbers,mage,1,creamCrevasse,KSW_Phases.none,1985);
 	scr_KSW_AddFish("Condor",spr_KSW_Fish_Condor,spr_KSW_Fish_Condor_Pal,series_IceClimbers,mage,1,creamCrevasse,KSW_Phases.none,1985);
 	scr_KSW_AddFish("Popo",spr_KSW_Fish_Popo,spr_KSW_Fish_Popo_Pal,series_IceClimbers,mage,2,creamCrevasse,KSW_Phases.none,19850);
+	scr_KSW_AddFish("Dog",spr_KSW_Fish_Dog,spr_KSW_Fish_Dog_Pal,series_SkiFree,mage,0,creamCrevasse,KSW_Phases.none,191);
+	scr_KSW_AddFish("Rival Skier",spr_KSW_Fish_RivalSkier,spr_KSW_Fish_RivalSkier_Pal,series_SkiFree,mage,0,creamCrevasse,KSW_Phases.none,191);
+	scr_KSW_AddFish("Snowboarder",spr_KSW_Fish_Snowboarder,spr_KSW_Fish_Snowboarder_Pal,series_SkiFree,mage,0,creamCrevasse,KSW_Phases.none,191);
+	scr_KSW_AddFish("Burning Tree",spr_KSW_Fish_BurningTree,spr_KSW_Fish_BurningTree_Pal,series_SkiFree,mage,1,creamCrevasse,KSW_Phases.none,1991);
+	scr_KSW_AddFish("Walking Christmas Tree",spr_KSW_Fish_WalkingChristmasTree,spr_KSW_Fish_WalkingChristmasTree_Pal,series_SkiFree,mage,1,creamCrevasse,KSW_Phases.none,1991);
+	scr_KSW_AddFish("Skier",spr_KSW_Fish_Skier,spr_KSW_Fish_Skier_Pal,series_SkiFree,mage,1,creamCrevasse,KSW_Phases.none,1991);
+	scr_KSW_AddFish("Yeti",spr_KSW_Fish_Yeti,spr_KSW_Fish_Yeti_Pal,series_SkiFree,mage,1,creamCrevasse,KSW_Phases.none,1991);
 	#endregion
 	#endregion
 }
