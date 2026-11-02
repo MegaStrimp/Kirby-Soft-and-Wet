@@ -186,6 +186,7 @@ function scr_KSW_SetFishes()
 	var series_FNaC = global.KSW_SeriesIDs[? "FNaC"];
 	var series_deltaruneChapterRewritten = global.KSW_SeriesIDs[? "deltaruneChapterRewritten"];
 	var series_Outcore = global.KSW_SeriesIDs[? "Outcore"];
+	var series_flavorFoley = global.KSW_SeriesIDs[? "flavorFoley"];
 	#endregion
 	
 	#region Stages
@@ -3219,6 +3220,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Cat",spr_KSW_Fish_The_Cat,spr_KSW_Fish_The_Cat_Pal,series_FNaC,borange,2,hallowReen,KSW_Phases.none,8500,-8,-11);
 	scr_KSW_AddFish("The Puppeteer",spr_KSW_Fish_The_Puppeteer,spr_KSW_Fish_The_Puppeteer_Pal,series_FNaC,mage,3,hallowReen,KSW_Phases.night,9000,-8,-11);
 	scr_KSW_AddFish("Lumi",spr_KSW_Fish_Lumi,spr_KSW_Fish_Lumi_Pal,series_Outcore,glimmer,2,androidPort,KSW_Phases.day,1250,-23,-22);
+	scr_KSW_AddFish("Static Miku",spr_KSW_Fish_Static_Miku,spr_KSW_Fish_Static_Miku_Pal,series_flavorFoley,mage,3,androidPort,KSW_Phases.none,2007,-16,-13); //Sprite by AidenIsKing228. Add to the Special Thanks Credits if this sprite is used.
 	#endregion
 	#endregion
 }
