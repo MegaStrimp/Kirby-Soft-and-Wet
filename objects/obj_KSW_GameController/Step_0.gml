@@ -252,7 +252,11 @@ if (!localPause)
 				scr_KSW_ParticleSet_Circle(parTargetX,parTargetY);
 				
 				var ringRng = irandom_range(0,6666);
-				if (ringRng == 0) instance_create_depth(0,0,-666,obj_KSW_Ring);
+				if (ringRng == 0)
+				{
+					scr_KSW_STAR_Obtain(global.KSW_STARIDs[? "lost"]);
+					instance_create_depth(0,0,-666,obj_KSW_Ring);
+				}
 				
 				if (((catchInput_SoundCount % 4) == 3) or (catchInput_CurrentLine == catchInput_CurrentLineMax - 1))
 				{
@@ -999,6 +1003,8 @@ if (!localPause)
 			decorTimer = max(decorTimer - speedMultFinal,0);
 			if (decorTimer == 0)
 			{
+				scr_KSW_STAR_Obtain(global.KSW_STARIDs[? "eternity"]);
+				
 				scr_KSW_ParticleSet_Eternity(irandom_range(0,88),irandom_range(160,320),layer_get_depth(layer_get_id("Collision")),-1);
 				scr_KSW_ParticleSet_Eternity(irandom_range(152,240),irandom_range(160,320),layer_get_depth(layer_get_id("Collision")),-1);
 				

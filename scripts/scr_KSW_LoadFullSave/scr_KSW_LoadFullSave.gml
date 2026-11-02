@@ -128,4 +128,11 @@ function scr_KSW_LoadFullSave(loadFish = true)
 		if (global.KSW_StealthTutorialList[i].isSavable != false) global.KSW_StealthTutorialList[i].isObtained = true;
 	}
 	#endregion
+	
+	#region STAR Status
+	for (var i = 0; i < ds_map_size(global.KSW_STARIDs); i++)
+	{
+		global.KSW_STARList[i].isObtained = true;
+	}
+	#endregion
 }

@@ -3146,6 +3146,17 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Underling",spr_KSW_Fish_The_Underling,spr_KSW_Fish_The_Underling_Pal,series_badendtheater,flux,2,serranoSprings,KSW_Phases.night,8000,-15,-16);
 	scr_KSW_AddFish("The Overlord",spr_KSW_Fish_The_Overlord,spr_KSW_Fish_The_Overlord_Pal,series_badendtheater,candy,3,hallowReen,KSW_Phases.none,8000,-19,-16);
 	scr_KSW_AddFish("Crappy Looking FIsh",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
+	
+	var rainmakerCatchScript = function()
+	{
+		global.KSW_ExModeActive = true;
+	}
+	var rainmakerPoolCondition = function()
+	{
+		return (global.KSW_CaughtTotalFishCount >= 500);
+	}
+	var rainmaker = scr_KSW_AddFish("Rainmaker",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_Misc,legion,3,anyStage,KSW_Phases.none,333333,,,rainmakerCatchScript); //STRIMPTODO
+	rainmaker.poolCondition = rainmakerPoolCondition;
 	#endregion
 	#endregion
 }

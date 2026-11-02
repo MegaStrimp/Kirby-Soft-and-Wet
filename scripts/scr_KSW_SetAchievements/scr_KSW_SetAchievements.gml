@@ -768,7 +768,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_ExModeActive);
 	};
-	scr_KSW_AddAchievement("exMode","The Rainmaker","Catch an Anomaly",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("exMode","The Rainmaker","Reach Extra Mode",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	
 	#region Catch All Shinies

@@ -1,3 +1,4 @@
+* Check STRIMPTODOs
 * Change version number accordingly
 * Update the version number text on GitHub
 * Release the build on GitHub with the correct filename

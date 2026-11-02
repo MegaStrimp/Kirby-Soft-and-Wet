@@ -43,6 +43,7 @@ if (canSelect)
 		if ((global.KSW_EnteredAquariumAlt) and (!global.KSW_EnteredSecretStars) and ((page == pageMax) or (page == 0)))
 		{
 			var rng = irandom(33);
+			scr_Debug_WriteLog("STARS RNG - " + string(rng));
 			if (rng == 0) room_goto(rm_KSW_STARS);
 		}
 	}
@@ -59,6 +60,7 @@ if (canSelect)
 		if ((global.KSW_EnteredAquariumAlt) and (!global.KSW_EnteredSecretStars) and ((page == pageMax) or (page == 0)))
 		{
 			var rng = irandom(33);
+			scr_Debug_WriteLog("STARS RNG - " + string(rng));
 			if (rng == 0) room_goto(rm_KSW_STARS);
 		}
 	}
@@ -102,6 +104,13 @@ if (!localPause)
 			
 			fallingStarTimer = fallingStarTimerMax;
 		}
+	}
+	#endregion
+	
+	#region Debug
+	if ((global.debug) and (keyboard_check_pressed(ord("L"))))
+	{
+		room_goto(rm_KSW_STARS);
 	}
 	#endregion
 	

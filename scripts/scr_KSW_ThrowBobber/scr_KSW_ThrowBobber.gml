@@ -4,6 +4,13 @@ function scr_KSW_ThrowBobber()
 {
 	scr_PlaySfx(snd_KSW_RodThrow);
 	
+	var targetBobberSound = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].sound;
+	if (targetBobberSound != -1)
+	{
+		var sfx = scr_PlaySfx(targetBobberSound);
+		audio_sound_pitch(sfx,random_range(.85,1.15));
+	}
+	
 	bobberInWater = false;
 	
 	if (global.KSW_EquippedBobberShuffle[playerNum])

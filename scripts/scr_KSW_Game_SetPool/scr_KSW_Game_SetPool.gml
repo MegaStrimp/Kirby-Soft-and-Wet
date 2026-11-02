@@ -13,7 +13,15 @@ function scr_KSW_Game_SetPool(playerNum)
 	
 	for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 	{
-		if ((global.KSW_FishList[i].stage == -1) or (global.KSW_CurrentStageID == global.KSW_FishList[i].stage))
+		var passPoolCondition = true;
+		if (global.KSW_FishList[i].poolCondition != -1)
+		{
+			var passPoolCondition = script_execute(global.KSW_FishList[i].poolCondition);
+			
+			scr_Debug_WriteLog("Pool Condition - " + string(global.KSW_FishList[i].name) + " " + string(passPoolCondition));
+		}
+		
+		if ((passPoolCondition) and ((global.KSW_FishList[i].stage == -1) or (global.KSW_CurrentStageID == global.KSW_FishList[i].stage)))
 		{
 			var passPhaseCheck = false;
 			switch (global.KSW_BaitList[global.KSW_EquippedBaitID[playerNum]].ID)
@@ -34,6 +42,7 @@ function scr_KSW_Game_SetPool(playerNum)
 			if ((global.KSW_CurrentPhase == global.KSW_FishList[i].phase) or (passPhaseCheck) or (global.KSW_FishList[i].phase == KSW_Phases.none))
 			{
 				var maxRarity = ((rate[global.KSW_FishList[i].rarity]) - (passPhaseCheck));
+				if (global.KSW_DebugTrailerMode) maxRarity = 1;
 				
 				for (var j = 0; j < maxRarity; j++)
 				{
