@@ -3157,6 +3157,7 @@ function scr_KSW_SetFishes()
 	}
 	var rainmaker = scr_KSW_AddFish("Rainmaker",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_Misc,legion,3,anyStage,KSW_Phases.none,333333,,,rainmakerCatchScript); //STRIMPTODO
 	rainmaker.poolCondition = rainmakerPoolCondition;
+	scr_KSW_AddFish("Sprite Locator",spr_KSW_Fish_SpriteLocator,spr_KSW_Fish_SpriteLocator_Pal,series_Fortnite,candy,2,anyStage,KSW_Phases.none,80000);
 	#endregion
 	#endregion
 }

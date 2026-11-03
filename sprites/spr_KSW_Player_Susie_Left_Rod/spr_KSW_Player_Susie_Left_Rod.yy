@@ -51,7 +51,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":1.0,
-    "lockOrigin":true,
+    "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -77,7 +77,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":13,
-    "yorigin":40,
+    "yorigin":34,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

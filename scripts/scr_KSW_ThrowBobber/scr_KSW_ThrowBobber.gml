@@ -4,19 +4,19 @@ function scr_KSW_ThrowBobber()
 {
 	scr_PlaySfx(snd_KSW_RodThrow);
 	
-	var targetBobberSound = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].sound;
-	if (targetBobberSound != -1)
-	{
-		var sfx = scr_PlaySfx(targetBobberSound);
-		audio_sound_pitch(sfx,random_range(.85,1.15));
-	}
-	
 	bobberInWater = false;
 	
 	if (global.KSW_EquippedBobberShuffle[playerNum])
 	{
 		global.KSW_EquippedBobberID[playerNum] = ds_list_find_value(global.KSW_AvailableBobbers,irandom_range(0,ds_list_size(global.KSW_AvailableBobbers) - 1));
 		global.KSW_EquippedBobberIsShiny[playerNum] = choose(false,global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyIsUnlocked);
+	}
+	
+	var targetBobberSound = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].sound;
+	if (targetBobberSound != -1)
+	{
+		var sfx = scr_PlaySfx(targetBobberSound);
+		audio_sound_pitch(sfx,random_range(.85,1.15));
 	}
 	
 	sprBobber = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].sprite;
