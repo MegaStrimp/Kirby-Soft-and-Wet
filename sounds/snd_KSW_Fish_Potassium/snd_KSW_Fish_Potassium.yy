@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.92,
+  "duration":0.0,
   "exportDir":"",
   "name":"snd_KSW_Fish_Potassium",
   "parent":{
@@ -22,5 +22,8 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_KSW_Fish_Potassium.ogg",
+  "tags":[
+    "Sound Effect",
+  ],
   "volume":1.0,
 }
