@@ -186,5 +186,8 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("Outcore","Outcore: Desktop Adventure");
 	scr_KSW_AddSeries("flavorFoley","FLAVOR FOLEY");
 	scr_KSW_AddSeries("KingdomHearts","Kingdom Hearts");
+	scr_KSW_AddSeries("sinistar","Sinistar");
+	scr_KSW_AddSeries("iceClimbers","Ice Climbers");
+	scr_KSW_AddSeries("skiFree","SkiFree");
 	#endregion
 }
