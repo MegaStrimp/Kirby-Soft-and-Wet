@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.92,
   "exportDir":"",
   "name":"snd_KSW_Fish_Potassium",
   "parent":{
