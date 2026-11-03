@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_KSW_Fish_Mellow_Pal",
+  "%Name":"spr_KSW_Fish_MellowEndacopia_Pal",
   "bboxMode":0,
   "bbox_bottom":14,
   "bbox_left":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"0255fa14-1d8f-427a-84d8-95d37a61cdc4","blendMode":0,"displayName":"default","isLocked":false,"name":"0255fa14-1d8f-427a-84d8-95d37a61cdc4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Fish_Mellow_Pal",
+  "name":"spr_KSW_Fish_MellowEndacopia_Pal",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Mellow",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mellow.yy",
+    "name":"Mellow (Endacopia)",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mellow (Endacopia).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Fish_Mellow_Pal",
+    "%Name":"spr_KSW_Fish_MellowEndacopia_Pal",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Fish_Mellow_Pal",
+    "name":"spr_KSW_Fish_MellowEndacopia_Pal",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e3ceed3-4516-44c7-be7d-677747265318","path":"sprites/spr_KSW_Fish_Mellow_Pal/spr_KSW_Fish_Mellow_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e3ceed3-4516-44c7-be7d-677747265318","path":"sprites/spr_KSW_Fish_MellowEndacopia_Pal/spr_KSW_Fish_MellowEndacopia_Pal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8dfcc5a1-6ff2-47c0-ae78-c9f91eaa994b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

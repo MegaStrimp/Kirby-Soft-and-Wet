@@ -3236,7 +3236,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("The Fallen Star",spr_KSW_Fish_The_Fallen_Star,spr_KSW_Fish_The_Fallen_Star_Pal,series_deltaruneChapterRewritten,mage,3,hallowReen,KSW_Phases.night,2750,-27,-23);
 	scr_KSW_AddFish("Blizzaurus",spr_KSW_Fish_Blizzaurus,spr_KSW_Fish_Blizzaurus_Pal,series_SuperMario,mage,2,creamCrevasse,KSW_Phases.none,8000,-13,-15);
 	scr_KSW_AddFish("Blizzaurus (Dragon)",spr_KSW_Fish_Blizzaurus_Dragon,spr_KSW_Fish_Blizzaurus_Dragon_Pal,series_SuperMario,mage,3,creamCrevasse,KSW_Phases.none,13000,-55,-22);
-	scr_KSW_AddFish("Mellow",spr_KSW_Fish_Mellow,spr_KSW_Fish_Mellow_Pal,series_endacopia,candy,2,androidPort,KSW_Phases.none,550,-33,-28);
+	scr_KSW_AddFish("Mellow (Endacopia)",spr_KSW_Fish_MellowEndacopia,spr_KSW_Fish_MellowEndacopia_Pal,series_endacopia,candy,2,androidPort,KSW_Phases.none,550,-33,-28);
 	scr_KSW_AddFish("Mary Schmidt",spr_KSW_Fish_Mary_Schmidt,spr_KSW_Fish_Mary_Schmidt_Pal,series_FNaC,mint,1,hallowReen,KSW_Phases.day,2500,-8,-11);
 	scr_KSW_AddFish("The Rat",spr_KSW_Fish_The_Rat,spr_KSW_Fish_The_Rat_Pal,series_FNaC,borange,2,hallowReen,KSW_Phases.none,8500,-8,-11);
 	scr_KSW_AddFish("The Cat",spr_KSW_Fish_The_Cat,spr_KSW_Fish_The_Cat_Pal,series_FNaC,borange,2,hallowReen,KSW_Phases.none,8500,-8,-11);

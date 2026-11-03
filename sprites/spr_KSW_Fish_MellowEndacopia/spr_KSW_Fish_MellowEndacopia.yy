@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_KSW_Fish_Mellow",
+  "%Name":"spr_KSW_Fish_MellowEndacopia",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":15,
@@ -39,19 +39,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"da4c8952-779a-470c-8169-c2e9b0d4faf7","blendMode":0,"displayName":"default","isLocked":false,"name":"da4c8952-779a-470c-8169-c2e9b0d4faf7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_KSW_Fish_Mellow",
+  "name":"spr_KSW_Fish_MellowEndacopia",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Mellow",
-    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mellow.yy",
+    "name":"Mellow (Endacopia)",
+    "path":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Mellow (Endacopia).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_KSW_Fish_Mellow",
+    "%Name":"spr_KSW_Fish_MellowEndacopia",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -75,7 +75,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_KSW_Fish_Mellow",
+    "name":"spr_KSW_Fish_MellowEndacopia",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -87,61 +87,61 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"741e37e6-5579-4cc1-a5db-0af815ed07e3","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"741e37e6-5579-4cc1-a5db-0af815ed07e3","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"571adcdd-44ac-4ec6-9a1c-a7becf423d42","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0760799-a9c7-461e-a958-ebeb9e3d11ea","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0760799-a9c7-461e-a958-ebeb9e3d11ea","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"092e19eb-9fdc-4203-a503-00e210ae530b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"af802fc5-7dfb-48ff-bc00-d9954098ce01","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"af802fc5-7dfb-48ff-bc00-d9954098ce01","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"58526121-c88b-47b7-973c-432870538218","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a838505-d4fe-4523-a4af-315e2267e220","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a838505-d4fe-4523-a4af-315e2267e220","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b319513e-ca18-42d7-9e52-aec79dbdba33","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d654e89-69e6-43b3-8c6b-6c04dfef44e2","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d654e89-69e6-43b3-8c6b-6c04dfef44e2","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bab40dc4-b4ea-4b3a-9e8a-14288df764b5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7561e2a8-f634-4b04-af34-f9d5b9ab4cad","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7561e2a8-f634-4b04-af34-f9d5b9ab4cad","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3e199939-8d8d-451b-bd28-f9d0bd77db03","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"068803b4-aaf1-44e1-956d-66b0623a409e","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"068803b4-aaf1-44e1-956d-66b0623a409e","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ef739783-7f3d-43d1-8663-299a52343a2a","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"150af5f0-6e8e-404d-b216-b4d8e7c84366","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"150af5f0-6e8e-404d-b216-b4d8e7c84366","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"dd23e327-bbca-415d-b206-df91da16f796","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c011ab1-2a00-4b14-8896-765f81b89719","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c011ab1-2a00-4b14-8896-765f81b89719","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"65164161-c435-431f-b25d-3472aa311c40","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a0ad7c6-614a-4e33-802b-291757438451","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a0ad7c6-614a-4e33-802b-291757438451","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4b970542-1e7f-456d-b2d4-65261b8e94ae","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8416c546-b5aa-43df-865a-344da18b733a","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8416c546-b5aa-43df-865a-344da18b733a","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4fec460b-244e-4a1f-a940-57b2df3dd63d","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20ac670c-7d78-4cab-a622-6cecacb3484c","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20ac670c-7d78-4cab-a622-6cecacb3484c","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8f79d45b-b3da-4e8a-9521-293b499f7782","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c4e0d03-d7cb-4283-9b94-82477fd87294","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c4e0d03-d7cb-4283-9b94-82477fd87294","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7e6f493b-1f71-4fc2-8615-5e8507488f3a","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"497ac274-bf64-42a9-9dab-0fb645f1da4d","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"497ac274-bf64-42a9-9dab-0fb645f1da4d","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3680bfdf-1f0d-485d-91a9-55f6bb277945","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5a1ed2a-ab54-41b9-a981-5de9ebf92040","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d5a1ed2a-ab54-41b9-a981-5de9ebf92040","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1d1f92e7-a10f-495e-8d0f-bad7ce2ab6d5","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2544c31-cc7b-4398-9118-f758313d9cf6","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2544c31-cc7b-4398-9118-f758313d9cf6","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ab4bc507-256d-4023-a03c-dbcfe0824e95","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64e76174-58f9-43b4-a2e6-982e5a02dacb","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64e76174-58f9-43b4-a2e6-982e5a02dacb","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5e46987e-6735-4b4c-a672-16d12c97e074","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"11823af3-15d2-430c-bede-8db2cdd1d801","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"11823af3-15d2-430c-bede-8db2cdd1d801","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b5ce7209-54ab-4eb1-a704-c8abf6ceb73e","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df1444fb-baae-4796-8a26-3db562c0c9c4","path":"sprites/spr_KSW_Fish_Mellow/spr_KSW_Fish_Mellow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df1444fb-baae-4796-8a26-3db562c0c9c4","path":"sprites/spr_KSW_Fish_MellowEndacopia/spr_KSW_Fish_MellowEndacopia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0f590dfd-e266-4e5a-956c-7992529d4e4d","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
