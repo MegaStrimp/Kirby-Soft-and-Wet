@@ -458,6 +458,8 @@ if (!localPause)
 			if (other.currentFishIsShiny) global.KSW_FishList[other.currentFish].isCaughtShiny += 1;
 			catchCombo_YOffsetTimer = catchCombo_YOffsetTimerMax;
 			
+			if ((!global.KSW_ExModeActive) and (global.KSW_CaughtTotalFishCount == KSW_RainmakerTotalFishCondition)) currentFishPool = scr_KSW_Game_SetPool(playerNum);
+			
 			var achievementID = global.KSW_AchievementIDs[? "catch1"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			
@@ -719,14 +721,17 @@ if (!localPause)
 				}
 			}
 			
-			if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
+			if (global.KSW_ExModeActive)
 			{
-				var eventRng = irandom_range(0,29);
-				if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+				if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
 				{
-					var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
+					var eventRng = irandom_range(0,29);
+					if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+					{
+						var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
 					
-					scr_KSW_Event_Start(targetEvent);
+						scr_KSW_Event_Start(targetEvent);
+					}
 				}
 			}
 			
