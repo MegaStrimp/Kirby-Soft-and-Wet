@@ -3186,7 +3186,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Chronomage",spr_KSW_Fish_Chronomage,spr_KSW_Fish_Chronomage_Pal,series_Castlevania,candy,1,hallowReen,KSW_Phases.day,4500,-10,-14);
 	scr_KSW_AddFish("Old Man Consequences",spr_KSW_Fish_Old_Man_Consequences,spr_KSW_Fish_Old_Man_Consequences_Pal,series_FiveNightsAtFreddys,candy,2,hallowReen,KSW_Phases.night,7500,-11,-11);
 	scr_KSW_AddFish("Mazin Sonic",spr_KSW_Fish_Mazin,spr_KSW_Fish_Mazin_Pal,series_SonicTheHedgehog,mage,2,hallowReen,KSW_Phases.none,8500,-25,-22);
-	scr_KSW_AddFish("Madeline",spr_KSW_Fish_Madeline,spr_KSW_Fish_Madeline_Pal,series_Celeste,borange,1,creamCrevasse,KSW_Phases.none,6500,-11,-14);
+	scr_KSW_AddFish("Madeline",spr_KSW_Fish_Madeline,spr_KSW_Fish_Madeline_Pal,series_Celeste,borange,1,creamCrevasse,KSW_Phases.none,6500);
 	scr_KSW_AddFish("Fih",spr_KSW_Fish_Fih,spr_KSW_Fish_Fih_Pal,series_doors,mint,0,androidPort,KSW_Phases.none,450,-33,-8);
 	scr_KSW_AddFish("Seekfin",spr_KSW_Fish_Seekfin,spr_KSW_Fish_Seekfin_Pal,series_doors,legion,1,hallowReen,KSW_Phases.none,850,-19,-11);
 	scr_KSW_AddFish("Sea Figurefly",spr_KSW_Fish_Sea_Figurefly,spr_KSW_Fish_Sea_Figurefly_Pal,series_doors,borange,2,hallowReen,KSW_Phases.afternoon,3750,-24,-14);
