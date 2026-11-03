@@ -185,5 +185,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("deltaruneChapterRewritten","DELTARUNE: Chapter Rewritten");
 	scr_KSW_AddSeries("Outcore","Outcore: Desktop Adventure");
 	scr_KSW_AddSeries("flavorFoley","FLAVOR FOLEY");
+	scr_KSW_AddSeries("KingdomHearts","Kingdom Hearts");
 	#endregion
 }
