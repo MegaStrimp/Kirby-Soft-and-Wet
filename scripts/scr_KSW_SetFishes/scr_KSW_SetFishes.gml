@@ -3290,8 +3290,6 @@ function scr_KSW_SetFishes()
     scr_KSW_AddFish("Axel",spr_KSW_Fish_Axel,spr_KSW_Fish_Axel_Pal,series_KingdomHearts,borange,2,serranoSprings,KSW_Phases.none,25000);
     scr_KSW_AddFish("Roxas",spr_KSW_Fish_Roxas,spr_KSW_Fish_Roxas_Pal,series_KingdomHearts,glimmer,3,cloudyPark,KSW_Phases.afternoon,80000);
     scr_KSW_AddFish("Ansem",spr_KSW_Fish_Ansem,spr_KSW_Fish_Ansem_Pal,series_KingdomHearts,flux,3,cloudyPark,KSW_Phases.night,100000);
-
-	scr_KSW_AddFish("Crappy Looking Fish",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
 	scr_KSW_AddFish("Sinistar",spr_KSW_Fish_Sinistar,spr_KSW_Fish_Sinistar_Pal,series_Sinistar,flux,3,cloudyPark,KSW_Phases.night,198300,0,0,-1,snd_KSW_Fish_BewareILive);
 	scr_KSW_AddFish("Onkey",spr_KSW_Fish_Onkey,spr_KSW_Fish_Onkey_Pal,series_Misc,glimmer,3,anyStage,KSW_Phases.none,202600,0,0,-1,snd_KSW_Fish_FunkyOnkey);
 	scr_KSW_AddFish("Haha Jonathan, Squid Polyp",spr_KSW_Fish_SquidPolyp,spr_KSW_Fish_SquidPolyp_Pal,series_RiskRain,mint,3,androidPort,KSW_Phases.none,202500);
