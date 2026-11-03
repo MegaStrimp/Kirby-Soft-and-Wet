@@ -175,5 +175,15 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("BadEndTheater","Bad End Theater");
 	scr_KSW_AddSeries("TADC","The Amazing Digital Circus");
 	scr_KSW_AddSeries("animationVERSUS","Animation VERSUS")
+	scr_KSW_AddSeries("terrariaFargoSouls","Terraria: Fargo's Souls Mod");
+    scr_KSW_AddSeries("doors","Roblox DOORS");
+	scr_KSW_AddSeries("bugsnax","Bugsnax");
+	scr_KSW_AddSeries("yumeNikki","Yume Nikki");
+	scr_KSW_AddSeries("cookieRun","Cookie Run");
+	scr_KSW_AddSeries("endacopia","Endacopia");
+	scr_KSW_AddSeries("FNaC","Five Nights at Candy's");
+	scr_KSW_AddSeries("deltaruneChapterRewritten","DELTARUNE: Chapter Rewritten");
+	scr_KSW_AddSeries("Outcore","Outcore: Desktop Adventure");
+	scr_KSW_AddSeries("flavorFoley","FLAVOR FOLEY");
 	#endregion
 }
