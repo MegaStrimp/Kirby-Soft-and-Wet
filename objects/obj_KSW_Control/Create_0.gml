@@ -97,8 +97,8 @@ global.KSW_MusicShuffle = false;
 
 global.KSW_DebugRig = -1;
 global.KSW_DebugTrailerMode = false;
-if (global.debug) global.KSW_DebugTrailerMode = true;
-global.KSW_DebugTrailerMode_FishEndIndex = 3078;
+//if (global.debug) global.KSW_DebugTrailerMode = true;
+//global.KSW_DebugTrailerMode_FishEndIndex = 3078;
 
 global.KSW_BubblePalette = spr_KSW_UI_CatchInput_Palette_Day;
 
