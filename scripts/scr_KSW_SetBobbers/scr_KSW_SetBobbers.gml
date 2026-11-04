@@ -102,6 +102,8 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("heartTank","Heart Tank",spr_KSW_Bobber_HeartTank,spr_KSW_Bobber_HeartTank_Pal,candy,75,,0,-6);
 	scr_KSW_AddBobber("bubble","Bubble",spr_KSW_Bobber_Bubble,spr_KSW_Bobber_Bubble_Pal,mage,75,,0,-5);
 	scr_KSW_AddBobber("tooLong","[shake]TOO LONG[/shake]",spr_KSW_Bobber_TOOLONG,spr_KSW_Bobber_TOOLONG_Pal,candy,75,snd_KSW_Bobber_TOOLONG,0,-6);
+	scr_KSW_AddBobber("mahjong","Mahjong",spr_KSW_Bobber_Mahjong,spr_KSW_Bobber_Mahjong_Pal,candy,75,,0,-7);
+	scr_KSW_AddBobber("damage9","Damage 9",spr_KSW_Bobber_Damage9,spr_KSW_Bobber_Damage9_Pal,candy,75,snd_KSW_Bobber_Damage9,0,-3);
 	
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,snd_KSW_Bobber_Star,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,,0,-7);

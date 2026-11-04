@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Fish_Thrash_Duck",
   "bboxMode":0,
-  "bbox_bottom":77,
+  "bbox_bottom":38,
   "bbox_left":0,
-  "bbox_right":71,
+  "bbox_right":35,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":78,
+  "height":39,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"31b65340-1f8b-478b-aec0-497cb253fd1c","blendMode":0,"displayName":"default","isLocked":false,"name":"31b65340-1f8b-478b-aec0-497cb253fd1c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":72,
+  "width":36,
 }

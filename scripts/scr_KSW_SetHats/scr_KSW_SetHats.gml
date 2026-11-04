@@ -37,6 +37,8 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "KibblyHeadband",playerID,"Kibbly Headband",spr_KSW_Player_Kirby_Hat_KibblyHeadband_Shop,scr_KSW_Player_Kirby_Hat_KibblyHeadband_SpriteSet(),candy,150,3,4);
 	scr_KSW_AddHat(playerID + "_" + "Classic",playerID,"Classic",spr_KSW_Player_Kirby_Hat_Classic_Shop,scr_KSW_Player_Kirby_Hat_Classic_SpriteSet(),candy,150,0,1);
 	scr_KSW_AddHat(playerID + "_" + "MiniMe",playerID,"Mini Me",spr_KSW_Player_Kirby_Hat_MiniMe_Ready_Shadow,scr_KSW_Player_Kirby_Hat_MiniMe_SpriteSet(),candy,150,0,14);
+	scr_KSW_AddHat(playerID + "_" + "Meta",playerID,"Meta",spr_KSW_Player_Kirby_Hat_Meta_Shop,scr_KSW_Player_Kirby_Hat_Meta_SpriteSet(),mage,150,0,0);
+	scr_KSW_AddHat(playerID + "_" + "Dealmaker",playerID,"Dealmaker",spr_KSW_Player_Kirby_Hat_Dealmaker_Ready,scr_KSW_Player_Kirby_Hat_Dealmaker_SpriteSet(),glimmer,150,0,5);
 	#endregion
 	
 	#region Gooey
