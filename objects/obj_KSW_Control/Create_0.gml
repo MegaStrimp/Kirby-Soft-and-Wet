@@ -41,6 +41,7 @@ scr_KSW_SetStealthTutorials();
 scr_KSW_SetMusic();
 scr_KSW_SetBenches();
 scr_KSW_SetDrinks();
+scr_KSW_SetBorderArts();
 scr_KSW_SetSTARs();
 
 for (var i = 0; i < global.maxPlayers; i++)
