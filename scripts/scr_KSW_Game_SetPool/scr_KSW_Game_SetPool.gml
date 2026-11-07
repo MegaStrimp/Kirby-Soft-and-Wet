@@ -21,7 +21,7 @@ function scr_KSW_Game_SetPool(playerNum)
 			scr_Debug_WriteLog("Pool Condition - " + string(global.KSW_FishList[i].name) + " " + string(passPoolCondition));
 		}
 		
-		if ((passPoolCondition) and ((global.KSW_FishList[i].stage == -1) or (global.KSW_CurrentStageID == global.KSW_FishList[i].stage)))
+		if ((passPoolCondition) and ((global.KSW_FishList[i].stage == -1) or (global.KSW_CurrentStageID == global.KSW_FishList[i].stage) or (passStageCheck)))
 		{
 			var passPhaseCheck = false;
 			switch (global.KSW_BaitList[global.KSW_EquippedBaitID[playerNum]].ID)

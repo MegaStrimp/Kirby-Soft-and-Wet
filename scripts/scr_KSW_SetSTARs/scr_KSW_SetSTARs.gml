@@ -21,7 +21,7 @@ function scr_KSW_SetSTARs()
 	
 	#region Add STARs Here
 	scr_KSW_AddSTAR("aGift","A Gift","Humble gift from a beast ever lonely. Every world is protected by a spirit of dreams, found in different shapes and forms. If they fail, there is no going back",spr_KSW_Menu_Aquarium_Fish);
-	scr_KSW_AddSTAR("lost","Lost","What happens when the game is over? When the villain wins? For some, it is the last glimpse they see before falling down",spr_KSW_Ring);
+	scr_KSW_AddSTAR("lost","Lost","What happens when the game is over? When the villain wins? For some, it is the last glimpse they see before falling down",spr_KSW_Ring,-120,-80);
 	scr_KSW_AddSTAR("eternity","Eternity","The Web of Doomed Timelines. When a world is beyond saving, she aborbs it all",spr_KSW_Particle_Eternity);
 	#endregion
 }

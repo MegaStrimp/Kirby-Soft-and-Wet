@@ -23,6 +23,8 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	var boxX = 49 + (75 * (i % pageColumns));
 	var boxY = 14 + (75 * floor((i - page * pageSelectionCount) / pageColumns));
 	var spriteIndex = global.KSW_STARList[ds_list_find_value(selectionList,i)].icon;
+	var spriteXOffset = global.KSW_STARList[ds_list_find_value(selectionList,i)].xOffset;
+	var spriteYOffset = global.KSW_STARList[ds_list_find_value(selectionList,i)].yOffset;
 	var backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
 	#endregion
 	
@@ -49,7 +51,7 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	#region Sprite
 	if (spriteIndex != -1)
 	{
-		draw_sprite(spriteIndex,STARImageIndex[i],boxX + 34,boxY + 34);
+		draw_sprite(spriteIndex,STARImageIndex[i],boxX + 34 + spriteYOffset,boxY + 34 + spriteYOffset);
 	}
 	#endregion
 	
@@ -85,6 +87,8 @@ else
 	#region Zoomed View
 	#region Variables
 	var spriteIndex = global.KSW_STARList[ds_list_find_value(selectionList,selection)].icon;
+	var spriteXOffset = global.KSW_STARList[ds_list_find_value(selectionList,selection)].xOffset;
+	var spriteYOffset = global.KSW_STARList[ds_list_find_value(selectionList,selection)].yOffset;
 	var backgroundPalette = spr_KSW_UI_CaughtBox_Palette_Locked;
 	#endregion
 	
@@ -126,7 +130,7 @@ else
 		shader_set_uniform_f(drawSurface_OutlineColor,255,255,255);
 	}
 	
-	draw_surface(drawSurface,(room_width / 2) - sprite_get_xoffset(spriteIndex) - 1,(room_height / 2) + spriteWave - sprite_get_yoffset(spriteIndex) - 1);
+	draw_surface(drawSurface,(room_width / 2) + spriteXOffset - sprite_get_xoffset(spriteIndex) - 1,(room_height / 2) + spriteYOffset + spriteWave - sprite_get_yoffset(spriteIndex) - 1);
 	
 	if (global.shaders) shader_reset();
 	

@@ -728,9 +728,7 @@ if (!localPause)
 					var eventRng = irandom_range(0,29);
 					if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
 					{
-						var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
-					
-						scr_KSW_Event_Start(targetEvent);
+						queuedEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
 					}
 				}
 			}
@@ -932,6 +930,13 @@ if (!localPause)
 					with (obj_KSW_Player)
 					{
 						scr_ChangeSprite(sprReady);
+					}
+					
+					if (queuedEvent != -1)
+					{
+						scr_KSW_Event_Start(queuedEvent);
+							
+						queuedEvent = -1;
 					}
 					
 					stateReadyTimer = -1;

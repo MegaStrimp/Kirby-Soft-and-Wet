@@ -27,6 +27,8 @@ state = KSW_GameStates.idle_Ready;
 global.KSW_ForcedPhase = global.KSW_StageList[global.KSW_CurrentStageID].forcedPhase;
 global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
 
+passStageCheck = false;
+
 currentFishPool = scr_KSW_Game_SetPool(playerNum);
 currentEventPool = scr_KSW_Game_SetEventPool();
 currentFish = -1;
@@ -116,6 +118,7 @@ bubbleIndex = 0;
 bubbleSpd = sprite_get_speed(spr_KSW_UI_CatchInput_Active) / 60;
 bubbleNumber = sprite_get_number(spr_KSW_UI_CatchInput_Active);
 
+queuedEvent = -1;
 eventTimer = -1;
 
 mousePressed = false;

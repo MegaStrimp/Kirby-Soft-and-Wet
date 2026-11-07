@@ -2556,7 +2556,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Whip Eel",spr_KSW_Fish_WhipEel,spr_KSW_Fish_WhipEel_Pal,series_Undertale2,glimmer,1,-1,KSW_Phases.none,888);
 	scr_KSW_AddFish("Tuna Sashimi",spr_KSW_Fish_TunaSashimi,spr_KSW_Fish_TunaSashimi_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,850);
 	scr_KSW_AddFish("Blobfish Buddy",spr_KSW_Fish_BlobfishBuddy,spr_KSW_Fish_BlobfishBuddy_Pal,series_Undertale2,mint,1,-1,KSW_Phases.day,632);
-	scr_KSW_AddFish("UT2 Angler",spr_KSW_Fish_UT2Angler,spr_KSW_Fish_UT2Angler_Pal,series_Undertale2,glimmer,3,-1,KSW_Phases.night,666,0,0,-1,snd_KSW_Fish_UT2Angler);
+	scr_KSW_AddFish("UT2 Angler",spr_KSW_Fish_UT2Angler,spr_KSW_Fish_UT2Angler_Pal,series_Undertale2,glimmer,3,-1,KSW_Phases.night,666,0,0,-1);
 	scr_KSW_AddFish("Rubber Ducky",spr_KSW_Fish_RubberDucky,spr_KSW_Fish_RubberDucky_Pal,series_Undertale2,mint,1,-1,KSW_Phases.none,50);
 	scr_KSW_AddFish("Haliberd",spr_KSW_Fish_Haliberd,spr_KSW_Fish_Haliberd_Pal,series_Undertale2,legion,2,-1,KSW_Phases.none,777);
 	scr_KSW_AddFish("Goldfish Cracker",spr_KSW_Fish_GoldfishCracker,spr_KSW_Fish_GoldfishCracker_Pal,series_Undertale2,legion,3,-1,KSW_Phases.afternoon,5);

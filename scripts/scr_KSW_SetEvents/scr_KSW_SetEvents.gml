@@ -21,7 +21,8 @@ function scr_KSW_SetEvents()
 	
 	#region Add Events Here
 	#region November Rain
-	scr_KSW_AddEvent("novemberRain","November Rain","#5BD8C1",#5BD8C1,anyStage,KSW_Phases.none,scr_KSW_Event_NovemberRain_Setup,scr_KSW_Event_NovemberRain_End);
+	scr_KSW_AddEvent("novemberRain","November Rain","Quick Fish, Faster Timer","#5BD8C1",#5BD8C1,anyStage,KSW_Phases.none,scr_KSW_Event_NovemberRain_Setup,scr_KSW_Event_NovemberRain_End,,10);
+	scr_KSW_AddEvent("dimensionalFissure","Dimensional Fissure","All Stages Mixed Up","#A8FFFF",#A8FFFF,anyStage,KSW_Phases.none,scr_KSW_Event_DimensionalFissure_Setup,scr_KSW_Event_DimensionalFissure_End,,2);
 	#endregion
 	#endregion
 }
