@@ -41,13 +41,16 @@ function scr_KSW_Game_SetPool(playerNum)
 			
 			if ((global.KSW_CurrentPhase == global.KSW_FishList[i].phase) or (passPhaseCheck) or (global.KSW_FishList[i].phase == KSW_Phases.none))
 			{
-				var maxRarity = ((rate[global.KSW_FishList[i].rarity]) - (passPhaseCheck));
-				if (global.KSW_DebugTrailerMode) maxRarity = 1;
-				
-				for (var j = 0; j < maxRarity; j++)
+				if ((!blockNewFish) or (global.KSW_FishList[i].isCaught != 0))
 				{
-					list[index] = i;
-					index += 1;
+					var maxRarity = ((rate[global.KSW_FishList[i].rarity]) - (passPhaseCheck));
+					if (global.KSW_DebugTrailerMode) maxRarity = 1;
+					
+					for (var j = 0; j < maxRarity; j++)
+					{
+						list[index] = i;
+						index += 1;
+					}
 				}
 			}
 		}

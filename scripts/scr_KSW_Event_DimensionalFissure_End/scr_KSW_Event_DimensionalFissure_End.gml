@@ -10,5 +10,7 @@ function scr_KSW_Event_DimensionalFissure_End()
 	with (obj_KSW_GameController)
 	{
 		passStageCheck = false;
+		
+		scr_KSW_Game_SetPool(playerNum);
 	}
 }

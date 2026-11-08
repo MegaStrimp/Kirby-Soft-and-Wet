@@ -1,6 +1,6 @@
 ///@description KSW - Bench - Set Drink
 
-function scr_KSW_Bench_SetDrink()
+function scr_KSW_SetDrink()
 {
 	var drinkList = ds_list_create();
 	
