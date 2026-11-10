@@ -3475,6 +3475,14 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Big Icedus",spr_KSW_Fish_BigIcedus,spr_KSW_Fish_BigIcedus_Pal,series_SonicTheHedgehog,mage,2,creamCrevasse,KSW_Phases.day,30000);
 	scr_KSW_AddFish("Egg Froster",spr_KSW_Fish_EggFroster,spr_KSW_Fish_EggFroster_Pal,series_SonicTheHedgehog,mage,2,creamCrevasse,KSW_Phases.day,30000);
 	scr_KSW_AddFish("Hyudoro",spr_KSW_Fish_Hyudoro,spr_KSW_Fish_Hyudoro_Pal,series_SonicTheHedgehog,borange,1,hallowReen,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Iwamodoki",spr_KSW_Fish_Iwamodoki,spr_KSW_Fish_Iwamodoki_Pal,series_SonicTheHedgehog,legion,0,serranoSprings,KSW_Phases.night,300);
+	scr_KSW_AddFish("Skorp",spr_KSW_Fish_Skorp,spr_KSW_Fish_Skorp_Pal,series_SonicTheHedgehog,borange,0,serranoSprings,KSW_Phases.day,300);
+	scr_KSW_AddFish("Rexon",spr_KSW_Fish_Rexon,spr_KSW_Fish_Rexon_Pal,series_SonicTheHedgehog,borange,1,serranoSprings,KSW_Phases.afternoon,3000);
+	scr_KSW_AddFish("Egg Scorcher Mk. II",spr_KSW_Fish_EggScorcher2,spr_KSW_Fish_EggScorcher2_Pal,series_SonicTheHedgehog,mint,2,serranoSprings,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Fire Breath",spr_KSW_Fish_FireBreath,spr_KSW_Fish_FireBreath_Pal,series_SonicTheHedgehog,mint,2,serranoSprings,KSW_Phases.afternoon,30000);
+	scr_KSW_AddFish("Egg Scorcher Mk. III",spr_KSW_Fish_EggScorcher3,spr_KSW_Fish_EggScorcher3_Pal,series_SonicTheHedgehog,mage,2,serranoSprings,KSW_Phases.day,30000);
+	scr_KSW_AddFish("Guardian (Sonic)",spr_KSW_Fish_GuardianSonic,spr_KSW_Fish_GuardianSonic_Pal,series_SonicTheHedgehog,glimmer,2,serranoSprings,KSW_Phases.day,30000);
+	scr_KSW_AddFish("Egg Inferno",spr_KSW_Fish_EggInferno,spr_KSW_Fish_EggInferno_Pal,series_SonicTheHedgehog,borange,2,serranoSprings,KSW_Phases.afternoon,30000);
 	#endregion
 	#endregion
 }
