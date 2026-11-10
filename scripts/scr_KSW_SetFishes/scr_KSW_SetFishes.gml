@@ -3470,6 +3470,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Dove",spr_KSW_Fish_Dove,spr_KSW_Fish_Dove_Pal,series_SonicTheHedgehog,mage,0,cloudyPark,KSW_Phases.none,500);
 	scr_KSW_AddFish("Robin",spr_KSW_Fish_Robin,spr_KSW_Fish_Robin_Pal,series_SonicTheHedgehog,borange,0,cloudyPark,KSW_Phases.none,500);
 	scr_KSW_AddFish("Seagull",spr_KSW_Fish_Seagull,spr_KSW_Fish_Seagull_Pal,series_SonicTheHedgehog,mint,0,cloudyPark,KSW_Phases.none,500);
+	scr_KSW_AddFish("Penguinator",spr_KSW_Fish_Penguinator,spr_KSW_Fish_Penguinator_Pal,series_SonicTheHedgehog,legion,0,creamCrevasse,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Star Pointer",spr_KSW_Fish_StarPointer,spr_KSW_Fish_StarPointer_Pal,series_SonicTheHedgehog,legion,1,creamCrevasse,KSW_Phases.afternoon,3000);
+	scr_KSW_AddFish("Big Icedus",spr_KSW_Fish_BigIcedus,spr_KSW_Fish_BigIcedus_Pal,series_SonicTheHedgehog,mage,2,creamCrevasse,KSW_Phases.day,30000);
+	scr_KSW_AddFish("Egg Froster",spr_KSW_Fish_EggFroster,spr_KSW_Fish_EggFroster_Pal,series_SonicTheHedgehog,mage,2,creamCrevasse,KSW_Phases.day,30000);
+	scr_KSW_AddFish("Hyudoro",spr_KSW_Fish_Hyudoro,spr_KSW_Fish_Hyudoro_Pal,series_SonicTheHedgehog,borange,1,hallowReen,KSW_Phases.night,3000);
 	#endregion
 	#endregion
 }
