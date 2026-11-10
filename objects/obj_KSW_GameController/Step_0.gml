@@ -748,7 +748,7 @@ if (!localPause)
 				if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
 				{
 					var eventRng = irandom_range(0,14);
-					//if (global.debug) eventRng = 0; //STRIMPTODO
+					if (global.debug) eventRng = 0; //STRIMPTODO
 					if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
 					{
 						queuedEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
