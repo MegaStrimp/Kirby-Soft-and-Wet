@@ -675,6 +675,9 @@ if (!localPause)
 				var achievementID = global.KSW_AchievementIDs[? "catchUniqueAndroidPort"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueCloudyPark"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				scr_KSW_Game_UpdateDiscord();
 			}
 			else
