@@ -10,5 +10,8 @@ function scr_KSW_Event_BloodMoon_Setup()
 		blockNewFish = true;
 		
 		scr_KSW_Game_SetPool(playerNum);
+		
+		failBarBack = spr_KSW_Event_BloodMoon_FailBarBack;
+		failBarTexture = spr_KSW_Event_BloodMoon_FailBarTexture;
 	}
 }

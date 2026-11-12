@@ -7,5 +7,8 @@ function scr_KSW_Event_Aurora_Setup()
 	with (obj_KSW_GameController)
 	{
 		catchInput_HasAllInputs = true;
+		
+		failBarBack = spr_KSW_Event_Aurora_FailBarBack;
+		failBarTexture = spr_KSW_Event_Aurora_FailBarTexture;
 	}
 }

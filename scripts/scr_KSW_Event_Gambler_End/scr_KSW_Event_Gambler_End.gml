@@ -11,5 +11,8 @@ function scr_KSW_Event_Gambler_End()
 	{
 		catchInput_HasRoulette = false;
 		catchInput_HasInputCoins = false;
+		
+		failBarBack = failBarBackDefault;
+		failBarTexture = failBarTextureDefault;
 	}
 }

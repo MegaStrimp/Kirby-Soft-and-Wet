@@ -7,10 +7,7 @@ localPause = global.pauseFinal;
 alpha = 0;
 alphaTarget = 1;
 
-if (global.shaders)
-{
-	shaderRes = shader_get_uniform(shd_KSW_Event_DimensionalFissure,"iResolution");
-	shaderTime = shader_get_uniform(shd_KSW_Event_DimensionalFissure,"iGlobalTime");
-	shaderAlpha = shader_get_uniform(shd_KSW_Event_DimensionalFissure,"alpha");
-}
+rainIndex = 0;
+rainSpd = sprite_get_speed(spr_KSW_Event_Gambler_CoinRain) / 60;
+rainNumber = sprite_get_number(spr_KSW_Event_Gambler_CoinRain);
 #endregion

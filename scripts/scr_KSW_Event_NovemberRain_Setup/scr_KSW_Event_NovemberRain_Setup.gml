@@ -11,7 +11,7 @@ function scr_KSW_Event_NovemberRain_Setup()
 		
 		failTimerMax = failTimerMaxDefault - 80;
 		failTimerMin = failTimerMinDefault;
-		failTimerOffset = floor(failTimerOffsetDefault / 2.5);
+		failTimerOffset = floor(failTimerOffsetDefault / 2.25);
 		
 		failBarBack = spr_KSW_Event_NovemberRain_FailBarBack;
 		failBarTexture = spr_KSW_Event_NovemberRain_FailBarTexture;

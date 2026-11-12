@@ -10,5 +10,8 @@ function scr_KSW_Event_Starfall_End()
 	with (obj_KSW_GameController)
 	{
 		pityRateMult = 1;
+		
+		failBarBack = failBarBackDefault;
+		failBarTexture = failBarTextureDefault;
 	}
 }

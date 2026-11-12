@@ -7,4 +7,8 @@ if (!localPause)
 	
 	if ((alphaTarget == 0) and (alpha <= .1)) instance_destroy();
 	#endregion
+	
+	#region Rain Animation
+	rainIndex = (rainIndex + (rainSpd * speedMultFinal)) % rainNumber;
+	#endregion
 }

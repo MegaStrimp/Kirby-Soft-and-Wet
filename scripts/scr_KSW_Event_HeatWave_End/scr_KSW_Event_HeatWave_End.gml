@@ -13,5 +13,13 @@ function scr_KSW_Event_HeatWave_End()
 		coinMult = 1;
 		
 		scr_KSW_Game_SetPool(playerNum);
+		
+		failBarBack = failBarBackDefault;
+		failBarTexture = failBarTextureDefault;
+		
+		if (global.shaders)
+		{
+			layer_clear_fx("Environments");
+		}
 	}
 }

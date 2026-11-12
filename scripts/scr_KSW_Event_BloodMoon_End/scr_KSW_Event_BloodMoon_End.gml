@@ -13,5 +13,8 @@ function scr_KSW_Event_BloodMoon_End()
 		blockNewFish = false;
 		
 		scr_KSW_Game_SetPool(playerNum);
+		
+		failBarBack = failBarBackDefault;
+		failBarTexture = failBarTextureDefault;
 	}
 }

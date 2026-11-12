@@ -8,5 +8,8 @@ function scr_KSW_Event_Gambler_Setup()
 	{
 		catchInput_HasRoulette = true;
 		catchInput_HasInputCoins = true;
+		
+		failBarBack = spr_KSW_Event_Gambler_FailBarBack;
+		failBarTexture = spr_KSW_Event_Gambler_FailBarTexture;
 	}
 }
