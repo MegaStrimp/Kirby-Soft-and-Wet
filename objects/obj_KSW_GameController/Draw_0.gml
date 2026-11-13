@@ -44,84 +44,84 @@ if ((state == KSW_GameStates.waiting) or (state == KSW_GameStates.waiting_End) o
 	if (catchInput_UpTriggered)
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,174,40);
-		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,174,40,1,1,0,color,1);
+		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,catchInput_UpBubble_X,catchInput_UpBubble_Y);
+		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,catchInput_UpBubble_X,catchInput_UpBubble_Y,1,1,0,color,1);
 		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("up"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,169,35 + (2 * (buttonInputTimerComponent_UpTimer != -1)));
+		if (targetIcon != undefined) draw_sprite(targetIcon,0,catchInput_UpBubble_X - 5,catchInput_UpBubble_Y - 5 + (2 * (buttonInputTimerComponent_UpTimer != -1)));
 		
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,174,40);
+		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,catchInput_UpBubble_X,catchInput_UpBubble_Y);
 		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput,0,174,40 + (2 * (buttonInputTimerComponent_UpTimer != -1)));
+		draw_sprite(spr_KSW_UI_CatchInput,0,catchInput_UpBubble_X,catchInput_UpBubble_Y + (2 * (buttonInputTimerComponent_UpTimer != -1)));
 		if (global.shaders) pal_swap_reset();
 	}
 	
 	if (catchInput_DownTriggered)
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,174,88);
-		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,174,88,1,1,0,color,1);
+		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,catchInput_DownBubble_X,catchInput_DownBubble_Y);
+		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,catchInput_DownBubble_X,catchInput_DownBubble_Y,1,1,0,color,1);
 		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("down"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,169,83 + (2 * (buttonInputTimerComponent_DownTimer != -1)));
+		if (targetIcon != undefined) draw_sprite(targetIcon,0,catchInput_DownBubble_X - 5,catchInput_DownBubble_Y - 5 + (2 * (buttonInputTimerComponent_DownTimer != -1)));
 		
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,174,88);
+		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,catchInput_DownBubble_X,catchInput_DownBubble_Y);
 		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput,0,174,88 + (2 * (buttonInputTimerComponent_DownTimer != -1)));
+		draw_sprite(spr_KSW_UI_CatchInput,0,catchInput_DownBubble_X,catchInput_DownBubble_Y + (2 * (buttonInputTimerComponent_DownTimer != -1)));
 		if (global.shaders) pal_swap_reset();
 	}
 	
 	if (catchInput_LeftTriggered)
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,150,64);
-		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,150,64,1,1,0,color,1);
+		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,catchInput_LeftBubble_X,catchInput_LeftBubble_Y);
+		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,catchInput_LeftBubble_X,catchInput_LeftBubble_Y,1,1,0,color,1);
 		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("left"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,145,59 + (2 * (buttonInputTimerComponent_LeftTimer != -1)));
+		if (targetIcon != undefined) draw_sprite(targetIcon,0,catchInput_LeftBubble_X - 5,catchInput_LeftBubble_Y - 5 + (2 * (buttonInputTimerComponent_LeftTimer != -1)));
 		
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,150,64);
+		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,catchInput_LeftBubble_X,catchInput_LeftBubble_Y);
 		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput,0,150,64 + (2 * (buttonInputTimerComponent_LeftTimer != -1)));
+		draw_sprite(spr_KSW_UI_CatchInput,0,catchInput_LeftBubble_X,catchInput_LeftBubble_Y + (2 * (buttonInputTimerComponent_LeftTimer != -1)));
 		if (global.shaders) pal_swap_reset();
 	}
 	
 	if (catchInput_RightTriggered)
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,198,64);
-		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,198,64,1,1,0,color,1);
+		draw_sprite(spr_KSW_UI_CatchInput_Active_Back,0,catchInput_RightBubble_X,catchInput_RightBubble_Y);
+		//draw_sprite_ext(spr_KSW_UI_CatchInput_Active,1,catchInput_RightBubble_X,catchInput_RightBubble_Y,1,1,0,color,1);
 		if (global.shaders) pal_swap_reset();
 		
 		var targetIcon = global.UI_IconBindings[? string(input_binding_get("right"))];
-		if (targetIcon != undefined) draw_sprite(targetIcon,0,193,59 + (2 * (buttonInputTimerComponent_RightTimer != -1)));
+		if (targetIcon != undefined) draw_sprite(targetIcon,0,catchInput_RightBubble_X - 5,catchInput_RightBubble_Y - 5 + (2 * (buttonInputTimerComponent_RightTimer != -1)));
 		
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,198,64);
+		draw_sprite(spr_KSW_UI_CatchInput_Active,bubbleIndex,catchInput_RightBubble_X,catchInput_RightBubble_Y);
 		if (global.shaders) pal_swap_reset();
 	}
 	else
 	{
 		if (global.shaders) pal_swap_set(global.KSW_BubblePalette,1,false);
-		draw_sprite(spr_KSW_UI_CatchInput,0,198,64 + (2 * (buttonInputTimerComponent_RightTimer != -1)));
+		draw_sprite(spr_KSW_UI_CatchInput,0,catchInput_RightBubble_X,catchInput_RightBubble_Y + (2 * (buttonInputTimerComponent_RightTimer != -1)));
 		if (global.shaders) pal_swap_reset();
 	}
 }

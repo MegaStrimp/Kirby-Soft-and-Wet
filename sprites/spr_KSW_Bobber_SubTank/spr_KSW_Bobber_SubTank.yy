@@ -50,7 +50,7 @@
   ],
   "name":"spr_KSW_Bobber_SubTank",
   "nineSlice":null,
-  "origin":9,
+  "origin":1,
   "parent":{
     "name":"Sprites",
     "path":"folders/Kirby ~ Soft & Wet/Bobbers/Sprites.yy",
@@ -184,7 +184,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":8,
-    "yorigin":1,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -43,7 +43,12 @@ starTimerMax = 5;
 
 escapeTimer = -1;
 var escapeRng = irandom_range(0,666);
-if (escapeRng == 0) escapeTimer = 15;
+if (escapeRng == 0)
+{
+	scr_KSW_STAR_Obtain(global.KSW_STARIDs[? "theSea"]);
+	
+	escapeTimer = 15;
+}
 
 weirdIcons = [];
 array_insert(weirdIcons,array_length(weirdIcons),spr_KSW_Player_Kirby_Ready);
@@ -58,6 +63,8 @@ weirdIconIndex = 0;
 var weirdIconRng = irandom_range(0,666 - (global.KSW_EnteredAquariumAlt * 333));
 if (weirdIconRng == 0)
 {
+	scr_KSW_STAR_Obtain(global.KSW_STARIDs[? "ego"]);
+	
 	weirdIconIndex = choose(0,array_length(weirdIcons) - 1);
 	weirdIconTimer = 15;
 }

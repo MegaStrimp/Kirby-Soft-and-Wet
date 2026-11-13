@@ -95,13 +95,15 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("yoYo","YoYo",spr_KSW_Bobber_YoYo,spr_KSW_Bobber_YoYo_Pal,mint,75,,0,0);
 	scr_KSW_AddBobber("bBall","B. Ball",spr_KSW_Bobber_BBall,spr_KSW_Bobber_BBall_Pal,candy,75,snd_KSW_Bobber_BBall,0,0);
 	scr_KSW_AddBobber("top","Top",spr_KSW_Bobber_Top,spr_KSW_Bobber_Top_Pal,candy,75,,0,0);
-	scr_KSW_AddBobber("wheel","Wheel",spr_KSW_Bobber_Wheel,spr_KSW_Bobber_Wheel_Pal,glimmer,75,,0,0);
-	scr_KSW_AddBobber("bobbery","Bobbery",spr_KSW_Bobber_Bobbery,spr_KSW_Bobber_Bobbery_Pal,glimmer,75,snd_KSW_Bobber_Bobbery,0,0);
+	scr_KSW_AddBobber("wheel","Wheel",spr_KSW_Bobber_Wheel,spr_KSW_Bobber_Wheel_Pal,glimmer,75,,0,-7);
+	scr_KSW_AddBobber("bobbery","Bobbery",spr_KSW_Bobber_Bobbery,spr_KSW_Bobber_Bobbery_Pal,glimmer,75,snd_KSW_Bobber_Bobbery,0,-8);
 	scr_KSW_AddBobber("attackFly","Attack Fly",spr_KSW_Bobber_AttackFly,spr_KSW_Bobber_AttackFly_Pal,borange,75,,0,0);
-	scr_KSW_AddBobber("subTank","Sub Tank",spr_KSW_Bobber_SubTank,spr_KSW_Bobber_SubTank_Pal,mint,75,,0,-6);
+	scr_KSW_AddBobber("subTank","Sub Tank",spr_KSW_Bobber_SubTank,spr_KSW_Bobber_SubTank_Pal,mint,75,,0,-8);
 	scr_KSW_AddBobber("heartTank","Heart Tank",spr_KSW_Bobber_HeartTank,spr_KSW_Bobber_HeartTank_Pal,candy,75,,0,-6);
 	scr_KSW_AddBobber("bubble","Bubble",spr_KSW_Bobber_Bubble,spr_KSW_Bobber_Bubble_Pal,mage,75,,0,-5);
 	scr_KSW_AddBobber("tooLong","[shake]TOO LONG[/shake]",spr_KSW_Bobber_TOOLONG,spr_KSW_Bobber_TOOLONG_Pal,candy,75,snd_KSW_Bobber_TOOLONG,0,-6);
+	scr_KSW_AddBobber("mahjong","Mahjong",spr_KSW_Bobber_Mahjong,spr_KSW_Bobber_Mahjong_Pal,candy,75,,0,-7);
+	scr_KSW_AddBobber("damage9","Damage 9",spr_KSW_Bobber_Damage9,spr_KSW_Bobber_Damage9_Pal,candy,75,snd_KSW_Bobber_Damage9,0,-3);
 	
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,snd_KSW_Bobber_Star,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,,0,-7);
@@ -110,6 +112,12 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("starry","Starry",spr_KSW_Bobber_Starry,spr_KSW_Bobber_Starry_Pal,mage,0,,0,-4);
 	scr_KSW_AddBobber("rainbowDrop","Rainbow Drop",spr_KSW_Bobber_RainbowDrop,spr_KSW_Bobber_RainbowDrop_Pal,glimmer,0,snd_KSW_Bobber_RainbowDrop,0,-4);
 	scr_KSW_AddBobber("darkMatter","Dark Matter",spr_KSW_Bobber_DarkMatter,spr_KSW_Bobber_DarkMatter_Pal,flux,0,,0,-7);
+	scr_KSW_AddBobber("grassBeach","Grass Beach",spr_KSW_Bobber_GrassBeach,spr_KSW_Bobber_GrassBeach_Pal,mint,0,,0,-9);
+	scr_KSW_AddBobber("creamCrevasse","Cream Crevasse",spr_KSW_Bobber_CreamCrevasse,spr_KSW_Bobber_CreamCrevasse_Pal,candy,0,,0,-9);
+	scr_KSW_AddBobber("hallowReen","Hallow Reen",spr_KSW_Bobber_HallowReen,spr_KSW_Bobber_HallowReen_Pal,flux,0,,0,-6);
+	scr_KSW_AddBobber("serranoSprings","Serrano Springs",spr_KSW_Bobber_SerranoSprings,spr_KSW_Bobber_SerranoSprings_Pal,borange,0,,0,-7);
+	scr_KSW_AddBobber("androidPort","Android Port",spr_KSW_Bobber_AndroidPort,spr_KSW_Bobber_AndroidPort_Pal,mint,0,,0,-8);
+	scr_KSW_AddBobber("cloudyPark","Cloudy Park",spr_KSW_Bobber_CloudyPark,spr_KSW_Bobber_CloudyPark_Pal,legion,0,,0,-6);
 	scr_KSW_AddBobber("kirby","Kirby",spr_KSW_Bobber_Kirby,spr_KSW_Bobber_Kirby_Pal,candy,0,,0,-5);
 	scr_KSW_AddBobber("zero","Zero",spr_KSW_Bobber_Zero,spr_KSW_Bobber_Zero_Pal,candy,0,,0,-7);
 	scr_KSW_AddBobber("masterCrown","Master Crown",spr_KSW_Bobber_MasterCrown,spr_KSW_Bobber_MasterCrown_Pal,glimmer,0,,0,-5);

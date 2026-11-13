@@ -2557,7 +2557,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Whip Eel",spr_KSW_Fish_WhipEel,spr_KSW_Fish_WhipEel_Pal,series_Undertale2,glimmer,1,-1,KSW_Phases.none,888);
 	scr_KSW_AddFish("Tuna Sashimi",spr_KSW_Fish_TunaSashimi,spr_KSW_Fish_TunaSashimi_Pal,series_Undertale2,mage,3,-1,KSW_Phases.none,850);
 	scr_KSW_AddFish("Blobfish Buddy",spr_KSW_Fish_BlobfishBuddy,spr_KSW_Fish_BlobfishBuddy_Pal,series_Undertale2,mint,1,-1,KSW_Phases.day,632);
-	scr_KSW_AddFish("UT2 Angler",spr_KSW_Fish_UT2Angler,spr_KSW_Fish_UT2Angler_Pal,series_Undertale2,glimmer,3,-1,KSW_Phases.night,666,0,0,-1,snd_KSW_Fish_UT2Angler);
+	scr_KSW_AddFish("UT2 Angler",spr_KSW_Fish_UT2Angler,spr_KSW_Fish_UT2Angler_Pal,series_Undertale2,glimmer,3,-1,KSW_Phases.night,666,0,0,-1);
 	scr_KSW_AddFish("Rubber Ducky",spr_KSW_Fish_RubberDucky,spr_KSW_Fish_RubberDucky_Pal,series_Undertale2,mint,1,-1,KSW_Phases.none,50);
 	scr_KSW_AddFish("Haliberd",spr_KSW_Fish_Haliberd,spr_KSW_Fish_Haliberd_Pal,series_Undertale2,legion,2,-1,KSW_Phases.none,777);
 	scr_KSW_AddFish("Goldfish Cracker",spr_KSW_Fish_GoldfishCracker,spr_KSW_Fish_GoldfishCracker_Pal,series_Undertale2,legion,3,-1,KSW_Phases.afternoon,5);
@@ -3142,8 +3142,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("HannyaNED²",spr_KSW_Fish_HannyaNED2,spr_KSW_Fish_HannyaNED2_Pal,series_MegaMan,flux,3,cloudyPark,KSW_Phases.night,70000);
 	scr_KSW_AddFish("Wily Capsule",spr_KSW_Fish_WilyCapsule,spr_KSW_Fish_WilyCapsule_Pal,series_MegaMan,candy,3,cloudyPark,KSW_Phases.none,199500);
 	scr_KSW_AddFish("Baja Blast",spr_KSW_Fish_Baja_Blast,spr_KSW_Fish_Baja_Blast_Pal,series_Misc,mage,1,creamCrevasse,KSW_Phases.none,385,-25,-40); //If I've done any of these wrong, or they're not suitable for the game, or anything else, feel free to remove/change anything.
-	scr_KSW_AddFish("Shadow Mantle Holder",spr_KSW_Fish_MantleHolder,spr_KSW_Fish_MantleHolder_Pal,series_Deltarune,candy,2,hallowReen,KSW_Phases.night,150,-16,-18,,snd_KSW_Fish_MantleLaugh);
-	scr_KSW_AddFish("Thrash Duck",spr_KSW_Fish_Thrash_Duck,spr_KSW_Fish_Thrash_Duck_Pal,series_Deltarune,candy,2,androidPort,KSW_Phases.day,5750,-31,-40);
+	scr_KSW_AddFish("Shadow Mantle Holder",spr_KSW_Fish_MantleHolder,spr_KSW_Fish_MantleHolder_Pal,series_Deltarune,candy,2,hallowReen,KSW_Phases.night,150,0,0,,snd_KSW_Fish_MantleLaugh);
+	scr_KSW_AddFish("Thrash Duck",spr_KSW_Fish_Thrash_Duck,spr_KSW_Fish_Thrash_Duck_Pal,series_Deltarune,candy,2,androidPort,KSW_Phases.day,5750);
 	scr_KSW_AddFish("Heart Shaped Object",spr_KSW_Fish_HeartShapedObject,spr_KSW_Fish_HeartShapedObject_Pal,series_Deltarune,candy,0,hallowReen,KSW_Phases.none,50,-8,-7);
 	scr_KSW_AddFish("ENEMY_FISH",spr_KSW_Fish_FISH_ENEMY,spr_KSW_Fish_FISH_ENEMY_Pal,series_Deltarune,mage,0,androidPort,KSW_Phases.none,250,-7,-5);
 	scr_KSW_AddFish("Anglow",spr_KSW_Fish_Anglow,spr_KSW_Fish_Anglow_Pal,series_msm,mage,2,androidPort,KSW_Phases.night,4500,-31,-31,,snd_KSW_Fish_AnglowSound); //If there's ever a space area, this one would fit better there.
@@ -3187,7 +3187,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Chronomage",spr_KSW_Fish_Chronomage,spr_KSW_Fish_Chronomage_Pal,series_Castlevania,candy,1,hallowReen,KSW_Phases.day,4500,-10,-14);
 	scr_KSW_AddFish("Old Man Consequences",spr_KSW_Fish_Old_Man_Consequences,spr_KSW_Fish_Old_Man_Consequences_Pal,series_FiveNightsAtFreddys,candy,2,hallowReen,KSW_Phases.night,7500,-11,-11);
 	scr_KSW_AddFish("Mazin Sonic",spr_KSW_Fish_Mazin,spr_KSW_Fish_Mazin_Pal,series_SonicTheHedgehog,mage,2,hallowReen,KSW_Phases.none,8500,-25,-22);
-	scr_KSW_AddFish("Madeline",spr_KSW_Fish_Madeline,spr_KSW_Fish_Madeline_Pal,series_Celeste,borange,1,creamCrevasse,KSW_Phases.none,6500,-11,-14);
+	scr_KSW_AddFish("Madeline",spr_KSW_Fish_Madeline,spr_KSW_Fish_Madeline_Pal,series_Celeste,borange,1,creamCrevasse,KSW_Phases.none,6500);
 	scr_KSW_AddFish("Fih",spr_KSW_Fish_Fih,spr_KSW_Fish_Fih_Pal,series_doors,mint,0,androidPort,KSW_Phases.none,450,-33,-8);
 	scr_KSW_AddFish("Seekfin",spr_KSW_Fish_Seekfin,spr_KSW_Fish_Seekfin_Pal,series_doors,legion,1,hallowReen,KSW_Phases.none,850,-19,-11);
 	scr_KSW_AddFish("Sea Figurefly",spr_KSW_Fish_Sea_Figurefly,spr_KSW_Fish_Sea_Figurefly_Pal,series_doors,borange,2,hallowReen,KSW_Phases.afternoon,3750,-24,-14);
@@ -3291,8 +3291,6 @@ function scr_KSW_SetFishes()
     scr_KSW_AddFish("Axel",spr_KSW_Fish_Axel,spr_KSW_Fish_Axel_Pal,series_KingdomHearts,borange,2,serranoSprings,KSW_Phases.none,25000);
     scr_KSW_AddFish("Roxas",spr_KSW_Fish_Roxas,spr_KSW_Fish_Roxas_Pal,series_KingdomHearts,glimmer,3,cloudyPark,KSW_Phases.afternoon,80000);
     scr_KSW_AddFish("Ansem",spr_KSW_Fish_Ansem,spr_KSW_Fish_Ansem_Pal,series_KingdomHearts,flux,3,cloudyPark,KSW_Phases.night,100000);
-
-	scr_KSW_AddFish("Crappy Looking Fish",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_tadc,borange,2,grassBeach,KSW_Phases.none,5350,-70,-48,,snd_KSW_Fish_ZachHadel);
 	scr_KSW_AddFish("Sinistar",spr_KSW_Fish_Sinistar,spr_KSW_Fish_Sinistar_Pal,series_Sinistar,flux,3,cloudyPark,KSW_Phases.night,198300,0,0,-1,snd_KSW_Fish_BewareILive);
 	scr_KSW_AddFish("Onkey",spr_KSW_Fish_Onkey,spr_KSW_Fish_Onkey_Pal,series_Misc,glimmer,3,anyStage,KSW_Phases.none,202600,0,0,-1,snd_KSW_Fish_FunkyOnkey);
 	scr_KSW_AddFish("Haha Jonathan, Squid Polyp",spr_KSW_Fish_SquidPolyp,spr_KSW_Fish_SquidPolyp_Pal,series_RiskRain,mint,3,androidPort,KSW_Phases.none,202500);

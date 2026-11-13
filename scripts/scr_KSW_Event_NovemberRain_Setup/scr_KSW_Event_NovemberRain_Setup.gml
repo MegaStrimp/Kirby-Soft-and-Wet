@@ -7,11 +7,11 @@ function scr_KSW_Event_NovemberRain_Setup()
 	with (obj_KSW_GameController)
 	{
 		findFishTimerMin = findFishTimerMinDefault;
-		findFishTimerMax = floor(findFishTimerMinDefault * 2);
+		findFishTimerMax = floor(findFishTimerMinDefault * 3);
 		
-		failTimerMax = failTimerMaxDefault - 100;
+		failTimerMax = failTimerMaxDefault - 80;
 		failTimerMin = failTimerMinDefault;
-		failTimerOffset = floor(failTimerOffsetDefault / 3);
+		failTimerOffset = floor(failTimerOffsetDefault / 2.25);
 		
 		failBarBack = spr_KSW_Event_NovemberRain_FailBarBack;
 		failBarTexture = spr_KSW_Event_NovemberRain_FailBarTexture;
