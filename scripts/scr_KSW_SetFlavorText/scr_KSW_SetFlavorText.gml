@@ -97,7 +97,9 @@ function scr_KSW_SetFlavorText()
 	"Won't Stop Rocking Til He Clocked In a Gazzilion Grand!",
 	"I'm So Much Flavor You Can Taste Me!",
 	"Berry Game!",
-	"It's Like ANOTHER HIM!"
+	"It's Like ANOTHER HIM!",
+	"Now with Extra Mode!",
+	"Rainmaker!"
 	];
 	
 	var flavorText = flavorTextArray[irandom_range(0,array_length(flavorTextArray) - 1)];

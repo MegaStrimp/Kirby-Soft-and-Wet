@@ -33,6 +33,7 @@ if (!localPause)
 				room_goto(rm_KSW_Menu_TitleScreen);
 				
 				global.KSW_EnteredAquariumAlt = true;
+				scr_KSW_STAR_Obtain(global.KSW_STARIDs[? "aGift"]);
 				scr_KSW_SaveData("data1.ini");
 				
 				stateTimer = -1;

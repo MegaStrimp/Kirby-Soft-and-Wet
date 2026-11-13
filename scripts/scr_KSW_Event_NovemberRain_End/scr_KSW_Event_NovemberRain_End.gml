@@ -2,7 +2,10 @@
 
 function scr_KSW_Event_NovemberRain_End()
 {
-	with (obj_KSW_Event_NovemberRain_Rain) instance_destroy();
+	with (obj_KSW_Event_NovemberRain_Rain)
+	{
+		alphaTarget = 0;
+	}
 	
 	with (obj_KSW_GameController)
 	{

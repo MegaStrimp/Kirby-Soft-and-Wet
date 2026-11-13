@@ -43,29 +43,9 @@ if (canSelect)
 			scr_KSW_Menu_Component_SwitchPage_R();
 		}
 		
-		if ((input_check_pressed("LT",playerNum)) or ((scr_MouseIsInbetween(4,4,43,16)) and (mouse_check_button_pressed(mb_left))))
-		{
-			scr_PlaySfx(snd_KSW_BossHealth);
-			
-			script_execute(ds_list_find_value(sortList,sortIndex));
-			
-			sortIndex = (sortIndex + 1) % ds_list_size(sortList);
-			
-			for (var i = 0; i < global.KSW_FishCount; i++)
-			{
-				fishImageIndex[i] = 0;
-			}
-		}
-		
-		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))) and (global.KSW_STARList[ds_list_find_value(selectionList,selection)].isCaught != 0))
+		if (((input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum))))
 		{
 			scr_PlaySfx(snd_KSW_ButtonYes);
-			
-			if (global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudio != -1)
-			{
-				var sfx = scr_PlaySfx(global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudio);
-				audio_sound_pitch(sfx,random_range(1 - global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset,1 + global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset));
-			}
 			
 			isZoomed = true;
 			selectionImageIndex = 0;
@@ -78,25 +58,10 @@ if (canSelect)
 			
 			if ((scr_MouseIsInbetween(boxX,boxY,boxX + 28,boxY + 28)) and (mouse_check_button_pressed(mb_left)))
 			{
-				if ((selection == i) and (global.KSW_STARList[ds_list_find_value(selectionList,selection)].isCaught != 0))
-				{
-					scr_PlaySfx(snd_KSW_ButtonYes);
-					
-					if (global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudio != -1)
-					{
-						var sfx = scr_PlaySfx(global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudio);
-						audio_sound_pitch(sfx,random_range(1 - global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset,1 + global.KSW_STARList[ds_list_find_value(selectionList,selection)].catchAudioPitchOffset));
-					}
-					
-					isZoomed = true;
-					selectionImageIndex = 0;
-				}
-				else
-				{
-					scr_PlaySfx(snd_KSW_BossHealth);
-					
-					selection = i;
-				}
+				scr_PlaySfx(snd_KSW_ButtonYes);
+				
+				isZoomed = true;
+				selectionImageIndex = 0;
 			}
 		}
 		
@@ -104,18 +69,11 @@ if (canSelect)
 		{
 			scr_PlaySfx(snd_KSW_ButtonNo);
 			
-			scr_GoToRoom(global.roomPrevious,false);
+			room_goto(rm_KSW_Menu_TitleScreen);
 		}
 	}
 	else
 	{
-		if (((input_check_pressed("Y",playerNum)) or ((scr_MouseIsInbetween(97,144,143,156)) and (mouse_check_button_pressed(mb_left)))) and (global.KSW_STARList[ds_list_find_value(selectionList,selection)].isCaught != 0) and (global.KSW_STARList[ds_list_find_value(selectionList,selection)].isCaughtShiny != 0))
-		{
-			scr_PlaySfx(snd_KSW_ButtonChange);
-			
-			fishIsShiny[selection] = !fishIsShiny[selection];
-		}
-		
 		if ((input_check_pressed("B",playerNum)) or ((scr_MouseIsInbetween(4,144,43,156)) and (mouse_check_button_pressed(mb_left))))
 		{
 			scr_PlaySfx(snd_KSW_ButtonNo);
@@ -150,7 +108,7 @@ if (!localPause)
 		if (spriteIndex != -1)
 		{
 			var imageSpeed = sprite_get_speed(spriteIndex) / 60 * speedMultFinal;
-			fishImageIndex[i] = (fishImageIndex[i] + imageSpeed) % sprite_get_number(spriteIndex);
+			STARImageIndex[i] = (STARImageIndex[i] + imageSpeed) % sprite_get_number(spriteIndex);
 		}
 	}
 	

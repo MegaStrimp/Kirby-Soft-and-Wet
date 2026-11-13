@@ -1,0 +1,29 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_KSW_Bobber_Skull",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.5556916,
+  "exportDir":"",
+  "name":"snd_KSW_Bobber_Skull",
+  "parent":{
+    "name":"Bobbers",
+    "path":"folders/Kirby ~ Soft & Wet/Sound Effects/Bobbers.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_KSW_Bobber_Skull.ogg",
+  "tags":[
+    "Sound Effect",
+  ],
+  "volume":1.0,
+}

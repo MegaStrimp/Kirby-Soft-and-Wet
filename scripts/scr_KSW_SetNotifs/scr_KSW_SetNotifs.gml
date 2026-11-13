@@ -71,7 +71,7 @@ function scr_KSW_SetNotifs()
 	"The Ancient Weather Chaos will cause various [#FFD800]Events[/color] to occur!",
 	"Your game is [c_red]Extra[/color] now."];
 	
-	var image = [spr_KSW_UI_NotifBox_Image_AllHail,
+	var image = [spr_KSW_UI_NotifBox_Image_AllHail, //STRIMPTODO
 	spr_KSW_UI_NotifBox_Image_AllHail,
 	spr_KSW_UI_NotifBox_Image_AllHail];
 	

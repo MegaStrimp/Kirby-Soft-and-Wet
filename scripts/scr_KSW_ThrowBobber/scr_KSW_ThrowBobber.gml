@@ -12,6 +12,13 @@ function scr_KSW_ThrowBobber()
 		global.KSW_EquippedBobberIsShiny[playerNum] = choose(false,global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].shinyIsUnlocked);
 	}
 	
+	var targetBobberSound = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].sound;
+	if (targetBobberSound != -1)
+	{
+		var sfx = scr_PlaySfx(targetBobberSound);
+		audio_sound_pitch(sfx,random_range(.85,1.15));
+	}
+	
 	sprBobber = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].sprite;
 	sprBobberPal = global.KSW_BobberList[global.KSW_EquippedBobberID[playerNum]].palette;
 	bobberIsShiny = global.KSW_EquippedBobberIsShiny[playerNum];

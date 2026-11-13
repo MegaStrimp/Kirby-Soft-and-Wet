@@ -22,6 +22,8 @@ function scr_KSW_LoadConfig(file)
 	{
 		global.customCursorSprite = -1;
 	}
+	global.KSW_CurrentBorderArt = ini_read_real("options","borderArt",global.KSW_BorderArtIDs[? "random"]);
+	scr_KSW_ChangeBorderArt(global.KSW_CurrentBorderArt);
 	global.KSW_AlwaysFishPopups = ini_read_real("options","alwaysFishPopups",false);
 	
 	ini_close();

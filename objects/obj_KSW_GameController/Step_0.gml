@@ -125,6 +125,8 @@ if (!localPause)
 			
 			parTargetX = 0;
 			parTargetY = 0;
+			lastBubbleX = 0;
+			lastBubbleY = 0;
 			
 			if ((input_check_pressed("B",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(4,144,64,156)) and (mouse_check_button_pressed(mb_left))))
 			{
@@ -132,7 +134,7 @@ if (!localPause)
 				mousePressed = true;
 			}
 			
-			if ((input_check_pressed("up",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(162,28,186,52)) and (mouse_check_button_pressed(mb_left))))
+			if ((input_check_pressed("up",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(catchInput_UpBubble_X - 12,catchInput_UpBubble_Y - 12,catchInput_UpBubble_X + 12,catchInput_UpBubble_Y + 12)) and (mouse_check_button_pressed(mb_left))))
 			{
 				mousePressed = true;
 				
@@ -142,6 +144,8 @@ if (!localPause)
 					
 					parTargetX = 174;
 					parTargetY = 40;
+					lastBubbleX = catchInput_UpBubble_X;
+					lastBubbleY = catchInput_UpBubble_Y;
 					
 					with (obj_KSW_Player)
 					{
@@ -156,7 +160,7 @@ if (!localPause)
 				}
 			}
 			
-			if ((input_check_pressed("down",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(162,76,186,100)) and (mouse_check_button_pressed(mb_left))))
+			if ((input_check_pressed("down",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(catchInput_DownBubble_X - 12,catchInput_DownBubble_Y - 12,catchInput_DownBubble_X + 12,catchInput_DownBubble_Y + 12)) and (mouse_check_button_pressed(mb_left))))
 			{
 				mousePressed = true;
 				
@@ -166,6 +170,8 @@ if (!localPause)
 					
 					parTargetX = 174;
 					parTargetY = 88;
+					lastBubbleX = catchInput_DownBubble_X;
+					lastBubbleY = catchInput_DownBubble_Y;
 					
 					with (obj_KSW_Player)
 					{
@@ -180,7 +186,7 @@ if (!localPause)
 				}
 			}
 			
-			if ((input_check_pressed("left",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(138,52,162,76)) and (mouse_check_button_pressed(mb_left))))
+			if ((input_check_pressed("left",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(catchInput_LeftBubble_X - 12,catchInput_LeftBubble_Y - 12,catchInput_LeftBubble_X + 12,catchInput_LeftBubble_Y + 12)) and (mouse_check_button_pressed(mb_left))))
 			{
 				mousePressed = true;
 				
@@ -190,6 +196,8 @@ if (!localPause)
 					
 					parTargetX = 150;
 					parTargetY = 64;
+					lastBubbleX = catchInput_LeftBubble_X;
+					lastBubbleY = catchInput_LeftBubble_Y;
 					
 					with (obj_KSW_Player)
 					{
@@ -204,7 +212,7 @@ if (!localPause)
 				}
 			}
 			
-			if ((input_check_pressed("right",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(186,52,210,76)) and (mouse_check_button_pressed(mb_left))))
+			if ((input_check_pressed("right",playerNum)) or ((!mousePressed) and (scr_MouseIsInbetween(catchInput_RightBubble_X - 12,catchInput_RightBubble_Y - 12,catchInput_RightBubble_X + 12,catchInput_RightBubble_Y + 12)) and (mouse_check_button_pressed(mb_left))))
 			{
 				mousePressed = true;
 				
@@ -214,6 +222,8 @@ if (!localPause)
 					
 					parTargetX = 198;
 					parTargetY = 64;
+					lastBubbleX = catchInput_RightBubble_X;
+					lastBubbleY = catchInput_RightBubble_Y;
 					
 					with (obj_KSW_Player)
 					{
@@ -252,7 +262,11 @@ if (!localPause)
 				scr_KSW_ParticleSet_Circle(parTargetX,parTargetY);
 				
 				var ringRng = irandom_range(0,6666);
-				if (ringRng == 0) instance_create_depth(0,0,-666,obj_KSW_Ring);
+				if (ringRng == 0)
+				{
+					scr_KSW_STAR_Obtain(global.KSW_STARIDs[? "lost"]);
+					instance_create_depth(0,0,-666,obj_KSW_Ring);
+				}
 				
 				if (((catchInput_SoundCount % 4) == 3) or (catchInput_CurrentLine == catchInput_CurrentLineMax - 1))
 				{
@@ -265,6 +279,18 @@ if (!localPause)
 				else
 				{
 					scr_Camera_SetScreenshake(1,0);
+				}
+				
+				if (catchInput_HasInputCoins)
+				{
+					var targetCoins = (1 + (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"])) * (choose(1,2));
+					global.KSW_CurrentCoins += targetCoins;
+					global.KSW_TotalCoins += targetCoins;
+					
+					for (var i = 0; i < targetCoins; i++)
+					{
+						instance_create_depth(lastBubbleX + (irandom_range(-6,6)),lastBubbleY + (irandom_range(-6,6)),depth - 1,obj_KSW_UI_Coin);
+					}
 				}
 			}
 			else if ((failed) or ((catchInput_NextLineTimer == -1) and (failTimer == -1)))
@@ -405,7 +431,7 @@ if (!localPause)
 			#endregion
 			
 			#region Give Coins
-			var targetCoins = 1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + (min(3 + (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]),floor(global.KSW_CurrentFishCombo / 15))) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2)));
+			var targetCoins = max(1,floor(1 + (global.KSW_FishList[other.currentFish].rarity) + (currentFishIsNew) + (other.currentFishIsShiny * 3) + (min(3 + (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]),floor(global.KSW_CurrentFishCombo / 15))) + ((global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreCoins"]) * (choose(1,2))) * coinMult));
 			global.KSW_CurrentCoins += targetCoins;
 			global.KSW_TotalCoins += targetCoins;
 			
@@ -453,6 +479,8 @@ if (!localPause)
 			global.KSW_StageList[global.KSW_CurrentStageID].caughtFishCount += 1;
 			if (other.currentFishIsShiny) global.KSW_FishList[other.currentFish].isCaughtShiny += 1;
 			catchCombo_YOffsetTimer = catchCombo_YOffsetTimerMax;
+			
+			if ((!global.KSW_ExModeActive) and (global.KSW_CaughtTotalFishCount == KSW_RainmakerTotalFishCondition)) currentFishPool = scr_KSW_Game_SetPool(playerNum);
 			
 			var achievementID = global.KSW_AchievementIDs[? "catch1"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
@@ -647,6 +675,9 @@ if (!localPause)
 				var achievementID = global.KSW_AchievementIDs[? "catchUniqueAndroidPort"];
 				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 				
+				var achievementID = global.KSW_AchievementIDs[? "catchUniqueCloudyPark"];
+				if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
 				scr_KSW_Game_UpdateDiscord();
 			}
 			else
@@ -681,8 +712,11 @@ if (!localPause)
 				}
 			}
 			
-			if (global.KSW_ExModeActive) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "gold"];
-			if (global.KSW_AchievementList[global.KSW_AchievementIDs[? "doEverything"]].isObtained) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "legend"];
+			if (!global.KSW_DebugTrailerMode)
+			{
+				if (global.KSW_ExModeActive) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "gold"];
+				if (global.KSW_AchievementList[global.KSW_AchievementIDs[? "doEverything"]].isObtained) global.KSW_CurrentBenchID = global.KSW_BenchIDs[? "legend"];
+			}
 			
 			scr_KSW_SaveData("data1.ini");
 			
@@ -712,14 +746,16 @@ if (!localPause)
 				}
 			}
 			
-			if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
+			if (global.KSW_ExModeActive)
 			{
-				var eventRng = irandom_range(0,29);
-				if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+				if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
 				{
-					var targetEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
-					
-					scr_KSW_Event_Start(targetEvent);
+					var eventRng = irandom_range(0,14);
+					if (global.debug) eventRng = 0; //STRIMPTODO
+					if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
+					{
+						queuedEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
+					}
 				}
 			}
 			
@@ -740,14 +776,16 @@ if (!localPause)
 				
 				state = KSW_GameStates.catching;
 				
-				var pityRate = 2 + floor(global.levelScoreCurrent / 5000000);
-				for (var i = 0; i < pityRate; i++)
+				var shinyPityRate_BaseFishCaught = 0;
+				
+				var pityRate = max(1,floor((2 + floor(global.levelScoreCurrent / 5000000) + bonusPityRate) * pityRateMult));
+				
+				for (var i = 0; i < (pityRate + (global.KSW_DebugTrailerMode * 999)); i++)
 				{
 					currentFish = currentFishPool[irandom_range(0,array_length(currentFishPool) - 1)];
 					if ((!global.KSW_FishList[currentFish].isCaught) or ((global.KSW_FishList[currentFish].isCaught != 0) and (!global.KSW_FishList[currentFish].isCaughtShiny)))
 					{
-						pityRate += floor(global.KSW_FishList[currentFish].isCaught / 3);
-						
+						shinyPityRate_BaseFishCaught += floor(global.KSW_FishList[currentFish].isCaught / 3);
 						break;
 					}
 				}
@@ -756,9 +794,11 @@ if (!localPause)
 				
 				var shinyRng = 1;
 				var hasShinyBait = (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "moreShinies"]);
+				var shinyPityRate = max(1,floor((1 + floor(global.levelScoreCurrent / 10000000) + floor(shinyPityRate_BaseFishCaught / 3) + bonusShinyPityRate) * shinyPityRateMult));
+				
 				if (global.KSW_FishList[currentFish].isCaught)
 				{
-					for (var i = 0; i < (max(1,floor(pityRate / 2))); i++)
+					for (var i = 0; i < (max(1,floor(shinyPityRate))); i++)
 					{
 						shinyRng = irandom_range(0,max(31 - (hasShinyBait * 20),1024 - (global.KSW_CurrentFishCombo * 20) - (hasShinyBait * 333)));
 					
@@ -804,12 +844,14 @@ if (!localPause)
 						failTimerTarget = max(failTimerEMin,failTimerMax - (floor(catchInput_CurrentLine - (failTimerOffset / 5)) * failTimerMin));
 					}
 					
+					var giveDirection = false;
+					
 					switch (line)
 					{
 						case KSW_CatchInputList.up:
 						scr_PlaySfx(snd_KSW_CatchInputUp);
 						
-						catchInput_SoundCount += 1;
+						giveDirection = true;
 						catchInput_UpTriggered = true;
 						failTimer = failTimerTarget;
 						
@@ -819,7 +861,7 @@ if (!localPause)
 						case KSW_CatchInputList.down:
 						scr_PlaySfx(snd_KSW_CatchInputDown);
 						
-						catchInput_SoundCount += 1;
+						giveDirection = true;
 						catchInput_DownTriggered = true;
 						failTimer = failTimerTarget;
 						
@@ -829,7 +871,7 @@ if (!localPause)
 						case KSW_CatchInputList.left:
 						scr_PlaySfx(snd_KSW_CatchInputLeft);
 						
-						catchInput_SoundCount += 1;
+						giveDirection = true;
 						catchInput_LeftTriggered = true;
 						failTimer = failTimerTarget;
 						
@@ -839,7 +881,7 @@ if (!localPause)
 						case KSW_CatchInputList.right:
 						scr_PlaySfx(snd_KSW_CatchInputRight);
 						
-						catchInput_SoundCount += 1;
+						giveDirection = true;
 						catchInput_RightTriggered = true;
 						failTimer = failTimerTarget;
 						
@@ -856,6 +898,26 @@ if (!localPause)
 							catchInput_NextLineTimer = irandom_range(catchInput_NextLineTimerEMin,catchInput_NextLineTimerEMax);
 						}
 						break;
+					}
+					
+					if (giveDirection)
+					{
+						catchInput_SoundCount += 1;
+						
+						if (catchInput_HasRoulette)
+						{
+							catchInput_RouletteTimerTarget = max(catchInput_RouletteTimerMin,catchInput_RouletteTimerMax - (catchInput_CurrentLine * 3));
+							catchInput_RouletteTimer = catchInput_RouletteTimerTarget;
+							catchInput_RouletteDir = choose(1,-1);
+						}
+						
+						if (catchInput_HasAllInputs)
+						{
+							catchInput_UpTriggered = true;
+							catchInput_DownTriggered = true;
+							catchInput_LeftTriggered = true;
+							catchInput_RightTriggered = true;
+						}
 					}
 				}
 				else
@@ -921,6 +983,13 @@ if (!localPause)
 						scr_ChangeSprite(sprReady);
 					}
 					
+					if (queuedEvent != -1)
+					{
+						scr_KSW_Event_Start(queuedEvent);
+							
+						queuedEvent = -1;
+					}
+					
 					stateReadyTimer = -1;
 					break;
 					
@@ -948,6 +1017,70 @@ if (!localPause)
 				}
 			}
 		}
+		#endregion
+		
+		if (catchInput_HasRoulette)
+		{
+			#region Catch Input - Roulette Timer
+			if (catchInput_RouletteTimer != -1)
+			{
+				catchInput_RouletteTimer = max(catchInput_RouletteTimer - speedMultFinal,0);
+				if (catchInput_RouletteTimer == 0)
+				{
+					if (catchInput_UpTriggered)
+					{
+						catchInput_UpTriggered = false;
+						if (catchInput_RouletteDir == 1)
+						{
+							catchInput_RightTriggered = true;
+						}
+						else
+						{
+							catchInput_LeftTriggered = true;
+						}
+					}
+					else if (catchInput_RightTriggered)
+					{
+						catchInput_RightTriggered = false;
+						if (catchInput_RouletteDir == 1)
+						{
+							catchInput_DownTriggered = true;
+						}
+						else
+						{
+							catchInput_UpTriggered = true;
+						}
+					}
+					else if (catchInput_DownTriggered)
+					{
+						catchInput_DownTriggered = false;
+						if (catchInput_RouletteDir == 1)
+						{
+							catchInput_LeftTriggered = true;
+						}
+						else
+						{
+							catchInput_RightTriggered = true;
+						}
+					}
+					else if (catchInput_LeftTriggered)
+					{
+						catchInput_LeftTriggered = false;
+						if (catchInput_RouletteDir == 1)
+						{
+							catchInput_UpTriggered = true;
+						}
+						else
+						{
+							catchInput_DownTriggered = true;
+						}
+					}
+					
+					catchInput_RouletteTimer = catchInput_RouletteTimerTarget;
+				}
+			}
+		}
+		#endregion
 		#endregion
 		
 		#region Fail Timer
@@ -995,6 +1128,8 @@ if (!localPause)
 			decorTimer = max(decorTimer - speedMultFinal,0);
 			if (decorTimer == 0)
 			{
+				scr_KSW_STAR_Obtain(global.KSW_STARIDs[? "eternity"]);
+				
 				scr_KSW_ParticleSet_Eternity(irandom_range(0,88),irandom_range(160,320),layer_get_depth(layer_get_id("Collision")),-1);
 				scr_KSW_ParticleSet_Eternity(irandom_range(152,240),irandom_range(160,320),layer_get_depth(layer_get_id("Collision")),-1);
 				

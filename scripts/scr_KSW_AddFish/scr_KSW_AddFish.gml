@@ -96,6 +96,7 @@ function scr_KSW_AddFish(targetName,targetSprite,targetPalette,targetSeries,targ
         catchAudio: targetCatchAudio,
         catchAudioPitchOffset: targetCatchAudioPitchOffset,
 		spriteIsOriginal: false,
+		poolCondition: -1,
 		isCaught: 0,
 		isCaughtShiny: 0
     };

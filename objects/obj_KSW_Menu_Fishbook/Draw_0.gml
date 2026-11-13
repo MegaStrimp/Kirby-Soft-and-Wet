@@ -257,7 +257,7 @@ else
 	#endregion
 
 	#region Fish ID
-	scribble("[fnt_Advance]#" + string(global.KSW_FishList[ds_list_find_value(selectionList,selection)].IDNum) + "[/font]").align(fa_center).blend(c_white,zoomAlpha).draw(4,4);
+	scribble("[fnt_Advance]#" + string(global.KSW_FishList[ds_list_find_value(selectionList,selection)].IDNum) + "[/font]").align(fa_left).blend(c_white,zoomAlpha).draw(4,4);
 	#endregion
 	
 	#region Fish Name
@@ -270,7 +270,7 @@ else
 		scribble(targetName).align(fa_center).blend(c_white,zoomAlpha).draw(room_width / 2,6);
 	}
 	
-	scribble("[fnt_Advance_Small]" + targetSeries + "[/font]").align(fa_left).blend(c_white,zoomAlpha).draw(room_width / 2,14);
+	scribble("[fnt_Advance_Small]" + targetSeries + "[/font]").align(fa_center).blend(c_white,zoomAlpha).draw(room_width / 2,14);
 	#endregion
 	
 	#region Rarity

@@ -133,7 +133,7 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("metalGear","MetalGearSolid");
 	scr_KSW_AddSeries("fallout","Fallout");
 	scr_KSW_AddSeries("portal","Portal");
-	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft & Wet");
+	scr_KSW_AddSeries("kirbySoftnWet","Kirby ~ Soft and Wet");
 	scr_KSW_AddSeries("metaKnightmareStellar","Meta Knightmare Stellar Symphony");
 	scr_KSW_AddSeries("kirbyGambleGalaxyStories","Kirby ~ Beyond the Violet Night");
 	scr_KSW_AddSeries("minatheHollower","Mina The Hollower");
@@ -174,6 +174,21 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("fnf","Friday Night Funkin'");
 	scr_KSW_AddSeries("BadEndTheater","Bad End Theater");
 	scr_KSW_AddSeries("TADC","The Amazing Digital Circus");
-	scr_KSW_AddSeries("TheCaseOfTheGoldenIdol","The Case of the Golden Idol");
+	scr_KSW_AddSeries("animationVERSUS","Animation VERSUS")
+	scr_KSW_AddSeries("terrariaFargoSouls","Terraria: Fargo's Souls Mod");
+    scr_KSW_AddSeries("doors","Roblox DOORS");
+	scr_KSW_AddSeries("bugsnax","Bugsnax");
+	scr_KSW_AddSeries("yumeNikki","Yume Nikki");
+	scr_KSW_AddSeries("cookieRun","Cookie Run");
+	scr_KSW_AddSeries("endacopia","Endacopia");
+	scr_KSW_AddSeries("FNaC","Five Nights at Candy's");
+	scr_KSW_AddSeries("deltaruneChapterRewritten","DELTARUNE: Chapter Rewritten");
+	scr_KSW_AddSeries("Outcore","Outcore: Desktop Adventure");
+	scr_KSW_AddSeries("flavorFoley","FLAVOR FOLEY");
+	scr_KSW_AddSeries("KingdomHearts","Kingdom Hearts");
+	scr_KSW_AddSeries("sinistar","Sinistar");
+	scr_KSW_AddSeries("iceClimbers","Ice Climbers");
+	scr_KSW_AddSeries("skiFree","SkiFree");
+	scr_KSW_AddSeries("fiendFolio","The Binding of Isaac: Fiend Folio");
 	#endregion
 }

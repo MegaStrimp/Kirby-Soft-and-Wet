@@ -14,6 +14,13 @@ function scr_KSW_UI_Customize_Pages_Bobbers_Select()
 		{
 			scr_PlaySfx(snd_KSW_ButtonYes);
 			
+			var targetBobberSound = global.KSW_BobberList[ds_list_find_value(selectionList,selection)].sound;
+			if (targetBobberSound != -1)
+			{
+				var sfx = scr_PlaySfx(targetBobberSound);
+				audio_sound_pitch(sfx,random_range(.85,1.15));
+			}
+			
 			global.KSW_EquippedBobberShuffle[playerNum] = false;
 			global.KSW_EquippedBobberID[playerNum] = ds_list_find_value(selectionList,selection);
 			global.KSW_EquippedBobberIsShiny[playerNum] = bobberIsShiny[selection];

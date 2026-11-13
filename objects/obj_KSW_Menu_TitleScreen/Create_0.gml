@@ -34,6 +34,7 @@ mousePressedNewBubble_Target = -1;
 mousePressedSelectedBubble = false;
 
 trailerShot = false;
+//if (global.debug) trailerShot = true;
 
 global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
 #endregion
