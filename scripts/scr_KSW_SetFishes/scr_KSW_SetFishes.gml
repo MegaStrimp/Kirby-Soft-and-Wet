@@ -192,6 +192,7 @@ function scr_KSW_SetFishes()
 	var series_Sinistar = global.KSW_SeriesIDs[? "sinistar"];
 	var series_IceClimbers = global.KSW_SeriesIDs[? "iceClimbers"];
 	var series_SkiFree = global.KSW_SeriesIDs[? "skiFree"];
+	var series_FiendFolio = global.KSW_SeriesIDs[? "fiendFolio"];
 	#endregion
 	
 	#region Stages
@@ -3483,6 +3484,71 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Egg Scorcher Mk. III",spr_KSW_Fish_EggScorcher3,spr_KSW_Fish_EggScorcher3_Pal,series_SonicTheHedgehog,mage,2,serranoSprings,KSW_Phases.day,30000);
 	scr_KSW_AddFish("Guardian (Sonic)",spr_KSW_Fish_GuardianSonic,spr_KSW_Fish_GuardianSonic_Pal,series_SonicTheHedgehog,glimmer,2,serranoSprings,KSW_Phases.day,30000);
 	scr_KSW_AddFish("Egg Inferno",spr_KSW_Fish_EggInferno,spr_KSW_Fish_EggInferno_Pal,series_SonicTheHedgehog,borange,2,serranoSprings,KSW_Phases.afternoon,30000);
+	scr_KSW_AddFish("Fungus Phillippe",spr_KSW_Fish_Fungus_Phillippe,spr_KSW_Fish_Fungus_Phillippe_Pal,series_LookOutside,legion,2,hallowReen,KSW_Phases.night,2000,-17,-15);
+	scr_KSW_AddFish("Piranha (Look Outside)",spr_KSW_Fish_Piranha_Look_Outside,spr_KSW_Fish_Piranha_Look_Outside_Pal,series_LookOutside,candy,1,hallowReen,KSW_Phases.afternoon,1500,-21,-22);
+	scr_KSW_AddFish("Crab (Look Outside)",spr_KSW_Fish_Crab_Look_Outside,spr_KSW_Fish_Crab_Look_Outside_Pal,series_LookOutside,candy,2,hallowReen,KSW_Phases.afternoon,7500,-51,-37);
+	scr_KSW_AddFish("Dragonfish",spr_KSW_Fish_Dragonfish,spr_KSW_Fish_Dragonfish_Pal,series_LookOutside,mage,1,hallowReen,KSW_Phases.night,8500,-43,-56);
+	scr_KSW_AddFish("Octopus (Look Outside)",spr_KSW_Fish_Octopus_Look_Outside,spr_KSW_Fish_Octopus_Look_Outside_Pal,series_LookOutside,borange,1,hallowReen,KSW_Phases.day,7500,-77,-56);
+	scr_KSW_AddFish("Starfish (Look Outside)",spr_KSW_Fish_Seastar,spr_KSW_Fish_Seastar_Pal,series_LookOutside,borange,1,hallowReen,KSW_Phases.afternoon,6500,-78,-52);
+	scr_KSW_AddFish("Shrimp Knight",spr_KSW_Fish_Shrimp_Knight,spr_KSW_Fish_Shrimp_Knight_Pal,series_LookOutside,candy,3,hallowReen,KSW_Phases.none,38000,-74,-55);
+	scr_KSW_AddFish("Lethargy",spr_KSW_Fish_Lethargy,spr_KSW_Fish_Lethargy_Pal,series_LookOutside,mage,2,hallowReen,KSW_Phases.none,4400,-45,-37);
+	scr_KSW_AddFish("Drowning",spr_KSW_Fish_Drowning,spr_KSW_Fish_Drowning_Pal,series_LookOutside,legion,3,hallowReen,KSW_Phases.night,66666,-116,-64);
+	scr_KSW_AddFish("Isaac",spr_KSW_Fish_Isaac,spr_KSW_Fish_Isaac_Pal,series_TheBindingOfIsaacRebirth,borange,1,hallowReen,KSW_Phases.none,10000,-14,-12);
+	scr_KSW_AddFish("Magdalene",spr_KSW_Fish_Magdalene,spr_KSW_Fish_Magdalene_Pal,series_TheBindingOfIsaacRebirth,glimmer,1,creamCrevasse,KSW_Phases.day,10010,-19,-18);
+	scr_KSW_AddFish("Cain",spr_KSW_Fish_Cain,spr_KSW_Fish_Cain_Pal,series_TheBindingOfIsaacRebirth,borange,1,serranoSprings,KSW_Phases.afternoon,10001,-14,-12);
+	scr_KSW_AddFish("Judas",spr_KSW_Fish_Judas,spr_KSW_Fish_Judas_Pal,series_TheBindingOfIsaacRebirth,candy,1,hallowReen,KSW_Phases.night,10005,-14,-16);
+	scr_KSW_AddFish("Blue Baby",spr_KSW_Fish_Blue_Baby,spr_KSW_Fish_Blue_Baby_Pal,series_TheBindingOfIsaacRebirth,mage,2,hallowReen,KSW_Phases.night,9000,-14,-12);
+	scr_KSW_AddFish("Eve (The Binding of Isaac)",spr_KSW_Fish_Eve_TBOI,spr_KSW_Fish_Eve_TBOI_Pal,series_TheBindingOfIsaacRebirth,legion,1,hallowReen,KSW_Phases.none,10100,-15,-17);
+	scr_KSW_AddFish("Samson",spr_KSW_Fish_Samson,spr_KSW_Fish_Samson_Pal,series_TheBindingOfIsaacRebirth,candy,1,serranoSprings,KSW_Phases.none,10050,-17,-15);
+	scr_KSW_AddFish("Azazel",spr_KSW_Fish_Azazel,spr_KSW_Fish_Azazel_Pal,series_TheBindingOfIsaacRebirth,candy,2,hallowReen,KSW_Phases.night,10666,-19,-21);
+	scr_KSW_AddFish("Lazarus",spr_KSW_Fish_Lazarus,spr_KSW_Fish_Lazarus_Pal,series_TheBindingOfIsaacRebirth,borange,1,hallowReen,KSW_Phases.none,10050,-15,-13);
+	scr_KSW_AddFish("Eden",spr_KSW_Fish_Eden,spr_KSW_Fish_Eden_Pal,series_TheBindingOfIsaacRebirth,legion,2,androidPort,KSW_Phases.day,10404,-14,-12);
+	scr_KSW_AddFish("The Lost",spr_KSW_Fish_The_Lost,spr_KSW_Fish_The_Lost_Pal,series_TheBindingOfIsaacRebirth,legion,1,cloudyPark,KSW_Phases.night,5000,-14,-12);
+	scr_KSW_AddFish("Lilith",spr_KSW_Fish_Lilith,spr_KSW_Fish_Lilith_Pal,series_TheBindingOfIsaacRebirth,candy,2,hallowReen,KSW_Phases.night,15000,-17,-12);
+	scr_KSW_AddFish("Keeper",spr_KSW_Fish_Keeper,spr_KSW_Fish_Keeper_Pal,series_TheBindingOfIsaacRebirth,legion,1,hallowReen,KSW_Phases.day,8000,-14,-12);
+	scr_KSW_AddFish("Apollyon",spr_KSW_Fish_Apollyon,spr_KSW_Fish_Apollyon_Pal,series_TheBindingOfIsaacRebirth,legion,2,hallowReen,KSW_Phases.none,10700,-14,-13);
+	scr_KSW_AddFish("The Forgotten",spr_KSW_Fish_The_Forgotten,spr_KSW_Fish_The_Forgotten_Pal,series_TheBindingOfIsaacRebirth,legion,1,hallowReen,KSW_Phases.night,7500,-14,-13);
+	scr_KSW_AddFish("The Soul",spr_KSW_Fish_The_Soul,spr_KSW_Fish_The_Soul_Pal,series_TheBindingOfIsaacRebirth,mage,1,cloudyPark,KSW_Phases.night,2000,-14,-12);
+	scr_KSW_AddFish("Bethany",spr_KSW_Fish_Bethany,spr_KSW_Fish_Bethany_Pal,series_TheBindingOfIsaacRebirth,mage,1,creamCrevasse,KSW_Phases.day,10000,-22,-18);
+	scr_KSW_AddFish("Jacob",spr_KSW_Fish_Jacob,spr_KSW_Fish_Jacob_Pal,series_TheBindingOfIsaacRebirth,borange,1,hallowReen,KSW_Phases.day,10100,0,6);
+	scr_KSW_AddFish("Esau",spr_KSW_Fish_Esau,spr_KSW_Fish_Esau_Pal,series_TheBindingOfIsaacRebirth,candy,1,hallowReen,KSW_Phases.night,9000,-15,-13);
+	scr_KSW_AddFish("Tainted Isaac",spr_KSW_Fish_Tainted_Isaac,spr_KSW_Fish_Tainted_Isaac_Pal,series_TheBindingOfIsaacRebirth,borange,2,hallowReen,KSW_Phases.night,9500,-14,-12);
+	scr_KSW_AddFish("Tainted Magdalene",spr_KSW_Fish_Tainted_Magdalene,spr_KSW_Fish_Tainted_Magdalene_Pal,series_TheBindingOfIsaacRebirth,glimmer,2,creamCrevasse,KSW_Phases.night,9800,-21,-18);
+	scr_KSW_AddFish("Tainted Cain",spr_KSW_Fish_Tainted_Cain,spr_KSW_Fish_Tainted_Cain_Pal,series_TheBindingOfIsaacRebirth,candy,2,serranoSprings,KSW_Phases.night,9501,-14,-12);
+	scr_KSW_AddFish("Tainted Judas",spr_KSW_Fish_Tainted_Judas,spr_KSW_Fish_Tainted_Judas_Pal,series_TheBindingOfIsaacRebirth,candy,2,hallowReen,KSW_Phases.night,5000,-14,-16);
+	scr_KSW_AddFish("Tainted Blue Baby",spr_KSW_Fish_Tainted_Blue_Baby,spr_KSW_Fish_Tainted_Blue_Baby_Pal,series_TheBindingOfIsaacRebirth,mage,3,hallowReen,KSW_Phases.night,12000,-14,-12);
+	scr_KSW_AddFish("Tainted Eve",spr_KSW_Fish_Tainted_Eve,spr_KSW_Fish_Tainted_Eve_Pal,series_TheBindingOfIsaacRebirth,legion,2,hallowReen,KSW_Phases.night,10150,-17,-17);
+	scr_KSW_AddFish("Tainted Samson",spr_KSW_Fish_Tainted_Samson,spr_KSW_Fish_Tainted_Samson_Pal,series_TheBindingOfIsaacRebirth,candy,2,serranoSprings,KSW_Phases.night,10020,-15,-15);
+	scr_KSW_AddFish("Tainted Azazel",spr_KSW_Fish_Tainted_Azazel,spr_KSW_Fish_Tainted_Azazel_Pal,series_TheBindingOfIsaacRebirth,candy,3,hallowReen,KSW_Phases.night,10666,-16,-18);
+	scr_KSW_AddFish("Tainted Lazarus",spr_KSW_Fish_Tainted_Lazarus,spr_KSW_Fish_Tainted_Lazarus_Pal,series_TheBindingOfIsaacRebirth,borange,2,hallowReen,KSW_Phases.night,10075,-17,-13);
+	scr_KSW_AddFish("Tainted Eden",spr_KSW_Fish_Tainted_Eden,spr_KSW_Fish_Tainted_Eden_Pal,series_TheBindingOfIsaacRebirth,legion,3,androidPort,KSW_Phases.night,10404,-16,-14);
+	scr_KSW_AddFish("Tainted Lost",spr_KSW_Fish_Tainted_Lost,spr_KSW_Fish_Tainted_Lost_Pal,series_TheBindingOfIsaacRebirth,legion,2,cloudyPark,KSW_Phases.night,5010,-14,-12);
+	scr_KSW_AddFish("Tainted Lilith",spr_KSW_Fish_Tainted_Lilith,spr_KSW_Fish_Tainted_Lilith_Pal,series_TheBindingOfIsaacRebirth,candy,3,hallowReen,KSW_Phases.night,12500,-19,-14);
+	scr_KSW_AddFish("Tainted Keeper",spr_KSW_Fish_Tainted_Keeper,spr_KSW_Fish_Tainted_Keeper_Pal,series_TheBindingOfIsaacRebirth,legion,2,hallowReen,KSW_Phases.day,9000,-14,-12);
+	scr_KSW_AddFish("Tainted Apollyon",spr_KSW_Fish_Tainted_Apollyon,spr_KSW_Fish_Tainted_Apollyon_Pal,series_TheBindingOfIsaacRebirth,candy,3,hallowReen,KSW_Phases.night,12000,-15,-14);
+	scr_KSW_AddFish("Tainted Forgotten",spr_KSW_Fish_Tainted_Forgotten,spr_KSW_Fish_Tainted_Forgotten_Pal,series_TheBindingOfIsaacRebirth,legion,2,hallowReen,KSW_Phases.night,5000,-17,-13);
+	scr_KSW_AddFish("Tainted Soul",spr_KSW_Fish_Tainted_Soul,spr_KSW_Fish_Tainted_Soul_Pal,series_TheBindingOfIsaacRebirth,mage,2,cloudyPark,KSW_Phases.night,2500,-17,-16);
+	scr_KSW_AddFish("Tainted Bethany",spr_KSW_Fish_Tainted_Bethany,spr_KSW_Fish_Tainted_Bethany_Pal,series_TheBindingOfIsaacRebirth,flux,2,creamCrevasse,KSW_Phases.night,13000,-21,-18);
+	scr_KSW_AddFish("Tainted Jacob",spr_KSW_Fish_Tainted_Jacob,spr_KSW_Fish_Tainted_Jacob_Pal,series_TheBindingOfIsaacRebirth,borange,2,hallowReen,KSW_Phases.night,10150,-15,-16);
+	scr_KSW_AddFish("Dark Esau",spr_KSW_Fish_Dark_Esau,spr_KSW_Fish_Dark_Esau_Pal,series_TheBindingOfIsaacRebirth,candy,3,hallowReen,KSW_Phases.night,12000,-16,-20);
+	scr_KSW_AddFish("Edith",spr_KSW_Fish_Edith,spr_KSW_Fish_Edith_Pal,series_TheBindingOfIsaacRebirth,legion,3,serranoSprings,KSW_Phases.none,15000,-17,-15);
+	scr_KSW_AddFish("Fiend",spr_KSW_Fish_Fiend,spr_KSW_Fish_Fiend_Pal,series_FiendFolio,flux,1,hallowReen,KSW_Phases.night,11000,-15,-13);
+	scr_KSW_AddFish("Golem",spr_KSW_Fish_Golem,spr_KSW_Fish_Golem_Pal,series_FiendFolio,legion,1,serranoSprings,KSW_Phases.none,15000,-14,-13);
+	scr_KSW_AddFish("Friend",spr_KSW_Fish_Friend,spr_KSW_Fish_Friend_Pal,series_FiendFolio,borange,1,hallowReen,KSW_Phases.day,11000,-14,-14);
+	scr_KSW_AddFish("Inaba",spr_KSW_Fish_Inaba,spr_KSW_Fish_Inaba_Pal,series_FiendFolio,legion,3,creamCrevasse,KSW_Phases.day,10800,-17,-27);
+	scr_KSW_AddFish("Tainted Fiend",spr_KSW_Fish_Tainted_Fiend,spr_KSW_Fish_Tainted_Fiend_Pal,series_FiendFolio,legion,2,hallowReen,KSW_Phases.night,10000,-15,-13);
+	scr_KSW_AddFish("Tainted Golem",spr_KSW_Fish_Tainted_Golem,spr_KSW_Fish_Tainted_Golem_Pal,series_FiendFolio,mage,2,serranoSprings,KSW_Phases.night,14500,-14,-13);
+	scr_KSW_AddFish("Tainted Friend",spr_KSW_Fish_Tainted_Friend,spr_KSW_Fish_Tainted_Friend_Pal,series_FiendFolio,borange,2,hallowReen,KSW_Phases.night,10000,-15,-14);
+	scr_KSW_AddFish("Tainted Inaba",spr_KSW_Fish_Tainted_Inaba,spr_KSW_Fish_Tainted_Inaba_Pal,series_FiendFolio,legion,3,creamCrevasse,KSW_Phases.night,10600,-16,-14);
+	scr_KSW_AddFish("China",spr_KSW_Fish_China,spr_KSW_Fish_China_Pal,series_FiendFolio,candy,1,serranoSprings,KSW_Phases.afternoon,9000,-16,-17);
+	scr_KSW_AddFish("Slippy (Fiend Folio)",spr_KSW_Fish_Slippy_Fiend_Folio,spr_KSW_Fish_Slippy_Fiend_Folio_Pal,series_FiendFolio,mint,1,grassBeach,KSW_Phases.none,9000,-15,-13);
+	scr_KSW_AddFish("Craig",spr_KSW_Fish_Craig,spr_KSW_Fish_Craig_Pal,series_FiendFolio,borange,2,serranoSprings,KSW_Phases.none,11500,-19,-13);
+	scr_KSW_AddFish("Image",spr_KSW_Fish_Image,spr_KSW_Fish_Image_Pal,series_FiendFolio,borange,1,androidPort,KSW_Phases.day,13000,-14,-12);
+	scr_KSW_AddFish("Fend",spr_KSW_Fish_Fend,spr_KSW_Fish_Fend_Pal,series_FiendFolio,glimmer,2,serranoSprings,KSW_Phases.afternoon,11000,-14,-13);
+	scr_KSW_AddFish("Frond",spr_KSW_Fish_Frond,spr_KSW_Fish_Frond_Pal,series_FiendFolio,flux,2,grassBeach,KSW_Phases.night,11000,-15,-13);
+	scr_KSW_AddFish("Fient",spr_KSW_Fish_Fient,spr_KSW_Fish_Fient_Pal,series_FiendFolio,borange,2,creamCrevasse,KSW_Phases.night,11000,-15,-13);
+	scr_KSW_AddFish("Mi",spr_KSW_Fish_Mi,spr_KSW_Fish_Mi_Pal,series_FiendFolio,flux,3,androidPort,KSW_Phases.none,14040,-14,-13);
+	scr_KSW_AddFish("Freezer Jr.",spr_KSW_Fish_Freezer_Jr,spr_KSW_Fish_Freezer_Jr_Pal,series_FiendFolio,mage,2,creamCrevasse,KSW_Phases.night,404,-14,-13);
 	#endregion
 	#endregion
 }
