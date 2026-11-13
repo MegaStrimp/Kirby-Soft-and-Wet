@@ -803,7 +803,7 @@ function scr_KSW_SetAchievements()
 		
 		return (isUnlocked);
 	};
-	scr_KSW_AddAchievement("collectShinyBobbers1","A Reel Gem","Collect 1 Bobber",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,true);
+	scr_KSW_AddAchievement("collectShinyBobbers1","A Reel Gem","Collect 1 Shiny Bobber",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,true);
 	#endregion
 	
 	#region Collect All Shiny Bobbers

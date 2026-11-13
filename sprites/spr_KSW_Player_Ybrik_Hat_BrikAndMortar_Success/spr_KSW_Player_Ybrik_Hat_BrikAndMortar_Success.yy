@@ -18,6 +18,7 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"0327c3cf-76c0-437a-801f-0d4a22707700","name":"0327c3cf-76c0-437a-801f-0d4a22707700","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b10c20f2-c1c7-4e1c-b763-7f7eaeafc1c3","name":"b10c20f2-c1c7-4e1c-b763-7f7eaeafc1c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"f11b58dc-2806-47a1-8eb0-c510ebb92392","name":"f11b58dc-2806-47a1-8eb0-c510ebb92392","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"d942abbd-1aea-44a9-a564-d1ce3cc44c81","name":"d942abbd-1aea-44a9-a564-d1ce3cc44c81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"8e205d5e-33fd-498d-a2f6-41c00a4252c8","name":"8e205d5e-33fd-498d-a2f6-41c00a4252c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -60,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":7.0,
+    "length":8.0,
     "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -83,23 +84,26 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0327c3cf-76c0-437a-801f-0d4a22707700","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ea6a589a-d509-4e54-9e0b-7b33c280c47b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b10c20f2-c1c7-4e1c-b763-7f7eaeafc1c3","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"45fe75d5-b050-499f-b865-38a42196c61e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f11b58dc-2806-47a1-8eb0-c510ebb92392","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9e4d35c3-327a-4ce8-bacb-26cb6e318979","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"9e4d35c3-327a-4ce8-bacb-26cb6e318979","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d942abbd-1aea-44a9-a564-d1ce3cc44c81","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e8473b87-d42a-4092-aac1-a9cd4dda7830","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e8473b87-d42a-4092-aac1-a9cd4dda7830","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e205d5e-33fd-498d-a2f6-41c00a4252c8","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6444e6e6-b4cb-44d6-9864-06f485043cf9","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6444e6e6-b4cb-44d6-9864-06f485043cf9","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d071af0a-76b3-4a74-9dd5-afbee6c2b81d","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0de524b4-1892-4a1d-b0f5-d871a9a6d5b2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"0de524b4-1892-4a1d-b0f5-d871a9a6d5b2","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4893119a-6bda-41db-b92c-68fe11dc5afe","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5b7fbf8d-2926-45da-b2b0-3b34e86aa3fe","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"5b7fbf8d-2926-45da-b2b0-3b34e86aa3fe","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"733a3393-e89e-4f8c-82d4-43a53ee0f831","path":"sprites/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success/spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ff5b9f19-d391-4570-8c82-7b794ef53c95","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"ff5b9f19-d391-4570-8c82-7b794ef53c95","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

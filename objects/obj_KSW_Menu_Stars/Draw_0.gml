@@ -32,7 +32,7 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	var starY = 32 + (32 * floor((i - page * pageSelectionCount) / 2)) + waveY;
 	var title = "???";
 	var description = "";
-	if (!global.KSW_AchievementList[starList[i]].nameHidden)
+	if ((!global.KSW_AchievementList[starList[i]].nameHidden) or (global.KSW_AchievementList[starList[i]].isObtained))
 	{
 		title = string_upper(global.KSW_AchievementList[starList[i]].name);
 		description = string_upper(global.KSW_AchievementList[starList[i]].description);
