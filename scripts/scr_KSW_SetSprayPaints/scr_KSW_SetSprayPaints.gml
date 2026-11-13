@@ -197,7 +197,7 @@ function scr_KSW_SetSprayPaints()
 	spray.gooeyTongueColor = #E2C716;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Ebonian",playerID,"Ebonian",spr_KSW_Player_Gooey_SprayPaint_Ebonian,flux,100);
 	spray.gooeyTongueColor = #E2C716;
-	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Goeyruner",playerID,"Goeyruner",spr_KSW_Player_Gooey_SprayPaint_Goeyruner,mint,100);
+	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Goeyruner",playerID,"Runner",spr_KSW_Player_Gooey_SprayPaint_Goeyruner,mint,100);
 	spray.gooeyTongueColor = #2E2E2E;
 	var spray = scr_KSW_AddSprayPaint(playerID + "_" + "Illuminant",playerID,"Illuminant",spr_KSW_Player_Gooey_SprayPaint_Illuminant,flux,100);
 	spray.gooeyTongueColor = #EF8DD2;
@@ -358,7 +358,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "ThousandYears",playerID,"Thousand Years",spr_KSW_Player_Susie_SprayPaint_ThousandYears,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Peachy",playerID,"Peachy",spr_KSW_Player_Susie_SprayPaint_Peachy,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "RetroPrincess",playerID,"Retro Princess",spr_KSW_Player_Susie_SprayPaint_RetroPrincess,borange,100);
-	scr_KSW_AddSprayPaint(playerID + "_" + "SamsungBig",playerID,"Samsung Big",spr_KSW_Player_Susie_SprayPaint_SamsungBig,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SamsungBig",playerID,"Samson Big",spr_KSW_Player_Susie_SprayPaint_SamsungBig,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Stargirl",playerID,"Stargirl",spr_KSW_Player_Susie_SprayPaint_Stargirl,mage,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Watergirl",playerID,"Watergirl",spr_KSW_Player_Susie_SprayPaint_Watergirl,mage,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "BlizzardSister",playerID,"Blizzard Sister",spr_KSW_Player_Susie_SprayPaint_BlizzardSister,mage,100);
@@ -524,7 +524,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Green",playerID,"Green",spr_KSW_Player_Starman_SprayPaint_Green,mint,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "GreenRing",playerID,"Green Ring",spr_KSW_Player_Starman_SprayPaint_GreenRing,mint,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "HeroicBlue",playerID,"Heroic Blue",spr_KSW_Player_Starman_SprayPaint_HeroicBlue,mage,100);
-	scr_KSW_AddSprayPaint(playerID + "_" + "JoliNite",playerID,"Joli Nite",spr_KSW_Player_Starman_SprayPaint_JoliNite,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "JoliNite",playerID,"Knight",spr_KSW_Player_Starman_SprayPaint_JoliNite,legion,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Pajama",playerID,"Pajama",spr_KSW_Player_Starman_SprayPaint_Pajama,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Pink",playerID,"Pink",spr_KSW_Player_Starman_SprayPaint_Pink,candy,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Purple",playerID,"Purple",spr_KSW_Player_Starman_SprayPaint_Purple,flux,100);

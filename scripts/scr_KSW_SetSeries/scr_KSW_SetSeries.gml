@@ -189,5 +189,5 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("sinistar","Sinistar");
 	scr_KSW_AddSeries("iceClimbers","Ice Climbers");
 	scr_KSW_AddSeries("skiFree","SkiFree");
-	#endregion
-}
+	scr_KSW_AddSeries("umamusumePartyDash", "Umamusume: Party Dash");
+	}#endregion
