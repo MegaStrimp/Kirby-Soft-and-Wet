@@ -3483,6 +3483,33 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Egg Scorcher Mk. III",spr_KSW_Fish_EggScorcher3,spr_KSW_Fish_EggScorcher3_Pal,series_SonicTheHedgehog,mage,2,serranoSprings,KSW_Phases.day,30000);
 	scr_KSW_AddFish("Guardian (Sonic)",spr_KSW_Fish_GuardianSonic,spr_KSW_Fish_GuardianSonic_Pal,series_SonicTheHedgehog,glimmer,2,serranoSprings,KSW_Phases.day,30000);
 	scr_KSW_AddFish("Egg Inferno",spr_KSW_Fish_EggInferno,spr_KSW_Fish_EggInferno_Pal,series_SonicTheHedgehog,borange,2,serranoSprings,KSW_Phases.afternoon,30000);
+	scr_KSW_AddFish("Jaws",spr_KSW_Fish_Jaws,spr_KSW_Fish_Jaws_Pal,series_SonicTheHedgehog,glimmer,0,androidPort,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Amenbo",spr_KSW_Fish_Amenbo,spr_KSW_Fish_Amenbo_Pal,series_SonicTheHedgehog,borange,0,androidPort,KSW_Phases.night,300);
+	scr_KSW_AddFish("Taga-Taga",spr_KSW_Fish_TagaTaga,spr_KSW_Fish_TagaTaga_Pal,series_SonicTheHedgehog,glimmer,0,androidPort,KSW_Phases.night,300);
+	scr_KSW_AddFish("Yago",spr_KSW_Fish_Yago,spr_KSW_Fish_Yago_Pal,series_SonicTheHedgehog,glimmer,0,androidPort,KSW_Phases.night,300);
+	scr_KSW_AddFish("Hotaru",spr_KSW_Fish_Hotaru,spr_KSW_Fish_Hotaru_Pal,series_SonicTheHedgehog,mage,0,androidPort,KSW_Phases.night,300);
+	scr_KSW_AddFish("Spiny",spr_KSW_Fish_Spiny,spr_KSW_Fish_Spiny_Pal,series_SonicTheHedgehog,flux,0,androidPort,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Ribot",spr_KSW_Fish_Ribot,spr_KSW_Fish_Ribot_Pal,series_SonicTheHedgehog,glimmer,0,androidPort,KSW_Phases.day,300);
+	scr_KSW_AddFish("Snail Blaster",spr_KSW_Fish_SnailBlaster,spr_KSW_Fish_SnailBlaster_Pal,series_SonicTheHedgehog,glimmer,0,androidPort,KSW_Phases.day,300);
+	scr_KSW_AddFish("Clamer",spr_KSW_Fish_Clamer,spr_KSW_Fish_Clamer_Pal,series_SonicTheHedgehog,candy,0,androidPort,KSW_Phases.night,300);
+	scr_KSW_AddFish("Piranha (Sonic)",spr_KSW_Fish_PiranhaSonic,spr_KSW_Fish_PiranhaSonic_Pal,series_SonicTheHedgehog,legion,0,androidPort,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Floatsam",spr_KSW_Fish_Floatsam,spr_KSW_Fish_Floatsam_Pal,series_SonicTheHedgehog,legion,0,androidPort,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Crawl",spr_KSW_Fish_Crawl,spr_KSW_Fish_Crawl_Pal,series_SonicTheHedgehog,glimmer,1,androidPort,KSW_Phases.night,300);
+	scr_KSW_AddFish("Jugglesaw",spr_KSW_Fish_Jugglesaw,spr_KSW_Fish_Jugglesaw_Pal,series_SonicTheHedgehog,mint,1,androidPort,KSW_Phases.day,300);
+	scr_KSW_AddFish("Egg Bubble",spr_KSW_Fish_EggBubble,spr_KSW_Fish_EggBubble_Pal,series_SonicTheHedgehog,legion,2,androidPort,KSW_Phases.afternoon,15000);
+	scr_KSW_AddFish("EGG-HVC-001",spr_KSW_Fish_EggHVC,spr_KSW_Fish_EggHVC_Pal,series_SonicTheHedgehog,mint,2,androidPort,KSW_Phases.day,15000);
+	scr_KSW_AddFish("Eggmarine",spr_KSW_Fish_Eggmarine,spr_KSW_Fish_Eggmarine_Pal,series_SonicTheHedgehog,borange,2,androidPort,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Egg Poison",spr_KSW_Fish_EggPoison,spr_KSW_Fish_EggPoison_Pal,series_SonicTheHedgehog,flux,2,androidPort,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Egg Drillster",spr_KSW_Fish_EggDrillster,spr_KSW_Fish_EggDrillster_Pal,series_SonicTheHedgehog,mint,2,androidPort,KSW_Phases.day,20000);
+	scr_KSW_AddFish("Egg Claw",spr_KSW_Fish_EggClaw,spr_KSW_Fish_EggClaw_Pal,series_SonicTheHedgehog,glimmer,2,androidPort,KSW_Phases.night,20000);
+	scr_KSW_AddFish("Egg Gravitron",spr_KSW_Fish_EggGravitron,spr_KSW_Fish_EggGravitron_Pal,series_SonicTheHedgehog,candy,2,androidPort,KSW_Phases.night,30000);
+	scr_KSW_AddFish("Egg Vortex",spr_KSW_Fish_EggVortex,spr_KSW_Fish_EggVortex_Pal,series_SonicTheHedgehog,flux,2,androidPort,KSW_Phases.day,30000);
+	scr_KSW_AddFish("Hotaru Hi-Watt",spr_KSW_Fish_HotaruHiWatt,spr_KSW_Fish_HotaruHiWatt_Pal,series_SonicTheHedgehog,mint,2,androidPort,KSW_Phases.night,40000);
+	scr_KSW_AddFish("Laundro-Mobile",spr_KSW_Fish_LaundroMobile,spr_KSW_Fish_LaundroMobile_Pal,series_SonicTheHedgehog,glimmer,2,androidPort,KSW_Phases.day,40000);
+	scr_KSW_AddFish("Silver Sonic",spr_KSW_Fish_SilverSonic,spr_KSW_Fish_SilverSonic_Pal,series_SonicTheHedgehog,legion,2,androidPort,KSW_Phases.none,14000);
+	scr_KSW_AddFish("Mecha Sonic Mk. I",spr_KSW_Fish_MechaSonic1,spr_KSW_Fish_MechaSonic1_Pal,series_SonicTheHedgehog,flux,2,androidPort,KSW_Phases.none,20000);
+	scr_KSW_AddFish("Mecha Sonic Mk. II",spr_KSW_Fish_MechaSonic2,spr_KSW_Fish_MechaSonic2_Pal,series_SonicTheHedgehog,mint,2,androidPort,KSW_Phases.none,20000);
+	scr_KSW_AddFish("Death Egg Robot",spr_KSW_Fish_DeathEggRobot,spr_KSW_Fish_DeathEggRobot_Pal,series_SonicTheHedgehog,flux,3,androidPort,KSW_Phases.none,200000);
 	#endregion
 	#endregion
 }
