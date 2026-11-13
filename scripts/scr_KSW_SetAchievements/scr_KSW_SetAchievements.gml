@@ -692,7 +692,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "grassBeach"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "grassBeach"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueGrassBeach","Ice Cream Islander","Catch All Unique Fish In Grass Beach",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "grassBeach"]);
+	scr_KSW_AddAchievement("catchUniqueGrassBeach","Ice Cream Islander","Catch All Unique Fish In Grass Beach",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	
 	#region Catch All Unique Fish In Cream Crevasse
@@ -700,7 +700,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "creamCrevasse"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "creamCrevasse"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueCreamCrevasse","Snowman's Land","Catch All Unique Fish In Cream Crevasse",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "creamCrevasse"],,true);
+	scr_KSW_AddAchievement("catchUniqueCreamCrevasse","Snowman's Land","Catch All Unique Fish In Cream Crevasse",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch All Unique Fish In Hallow Reen
@@ -708,7 +708,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "hallowReen"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "hallowReen"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueHallowReen","Scary Monster","Catch All Unique Fish In Hallow Reen",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "hallowReen"],,true);
+	scr_KSW_AddAchievement("catchUniqueHallowReen","Scary Monster","Catch All Unique Fish In Hallow Reen",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch All Unique Fish In Serrano Springs
@@ -716,7 +716,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "serranoSprings"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "serranoSprings"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueSerranoSprings","Hotty Heaty Volcano","Catch All Unique Fish In Serrano Springs",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "serranoSprings"],,true);
+	scr_KSW_AddAchievement("catchUniqueSerranoSprings","Hotty Heaty Volcano","Catch All Unique Fish In Serrano Springs",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	
 	#region Catch All Unique Fish In Android Port
@@ -724,15 +724,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "androidPort"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "androidPort"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueAndroidPort","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "androidPort"],,true);
-	#endregion
-	
-	#region Catch All Unique Fish In Cloudy Park
-	var achievementUnlockMethod = function()
-	{
-		return (global.KSW_StageList[global.KSW_StageIDs[? "cloudyPark"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "cloudyPark"]].fishCountMax);
-	};
-	scr_KSW_AddAchievement("catchUniqueCloudyPark","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "cloudyPark"],,true);
+	scr_KSW_AddAchievement("catchUniqueAndroidPort","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
 	
@@ -776,7 +768,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_ExModeActive);
 	};
-	scr_KSW_AddAchievement("exMode","The Rainmaker","Reach Extra Mode",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
+	scr_KSW_AddAchievement("exMode","The Rainmaker","Catch an Anomaly",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
 	
 	#region Catch All Shinies

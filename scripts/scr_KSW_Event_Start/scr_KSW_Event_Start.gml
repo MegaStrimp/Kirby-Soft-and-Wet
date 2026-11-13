@@ -7,8 +7,6 @@ function scr_KSW_Event_Start(targetEventID)
 	
 	scr_KSW_UI_BackgroundOverlay_Create(10,layer_get_depth("Player") + 1,false,[c_white],,true).alpha = .2;
 	
-	scr_KSW_UI_EventTitle_Create("[" + global.KSW_EventList[targetEventID].color + "]" + string(global.KSW_EventList[targetEventID].name) + "[/color]",global.KSW_EventList[targetEventID].description,obj_KSW_GameController.depth - 1);
-	
 	global.KSW_CurrentEvent = targetEventID;
 	
 	script_execute(global.KSW_EventList[targetEventID].setupScript);

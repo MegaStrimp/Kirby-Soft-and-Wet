@@ -16,7 +16,7 @@ function scr_KSW_Game_GenerateCatchInputList(playerNum,targeteRarity = 0)
 	
 	var rarity = max(0,targeteRarity - (global.KSW_EquippedBaitID[playerNum] == global.KSW_BaitIDs[? "easyInputs"]));
 	
-	var length = max(1,floor(irandom_range(2 + (rarity * 2),3 + (rarity * 3)) * catchInput_Mult));
+	var length = irandom_range(2 + (rarity * 2),3 + (rarity * 3));
 	
 	for (var i = 0; i < length; i++)
 	{

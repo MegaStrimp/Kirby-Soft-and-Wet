@@ -1,6 +1,6 @@
 ///@description KSW - Add Event
 
-function scr_KSW_AddEvent(targetID,targetName,targetDescription,targetColor,targetColorRaw,targetStage,targetPhase,targetSetupScript,targetEndScript,targetEndTimer = 1200,targetWeight = 10)
+function scr_KSW_AddEvent(targetID,targetName,targetColor,targetColorRaw,targetStage,targetPhase,targetSetupScript,targetEndScript,targetEndTimer = 1200,targetWeight = 10)
 {
 	ds_map_add(global.KSW_EventIDs,targetID,global.KSW_EventCount);
 	
@@ -8,7 +8,6 @@ function scr_KSW_AddEvent(targetID,targetName,targetDescription,targetColor,targ
 	{
         ID: targetID,
 		name: targetName,
-		description: targetDescription,
 		color: targetColor,
 		colorRaw: targetColorRaw,
 		stage: targetStage,

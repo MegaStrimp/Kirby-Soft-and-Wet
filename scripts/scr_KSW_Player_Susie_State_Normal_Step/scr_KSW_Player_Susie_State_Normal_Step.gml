@@ -38,8 +38,8 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 			if (image_index >= 4)
 			{
 				scr_KSW_ThrowBobber();
-				rodX = x + 15;
-				rodY = y - 29;
+				rodX = x + 19;
+				rodY = y - 35;
 				
 				threwBobber = true;
 			}
@@ -49,44 +49,44 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 			switch (floor(image_index))
 			{
 				case 4:
-				rodX = x + 15;
-				rodY = y - 29;
+				rodX = x + 19;
+				rodY = y - 35;
 				break;
 				
 				case 5:
-				rodX = x + 25;
-				rodY = y - 19;
+				rodX = x + 29;
+				rodY = y - 25;
 				break;
 				
 				case 6:
-				rodX = x + 31;
-				rodY = y - 6;
+				rodX = x + 35;
+				rodY = y - 12;
 				break;
 				
 				default:
-				rodX = x + 31;
-				rodY = y - 8;
+				rodX = x + 35;
+				rodY = y - 14;
 				break;
 			}
 		}
 		break;
 		
 		case sprWait:
-		rodX = x + 23;
-		rodY = y - 14;
+		rodX = x + 27;
+		rodY = y - 20;
 		break;
 		
 		case sprFound:
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 31;
-			rodY = y - 7;
+			rodX = x + 35;
+			rodY = y - 13;
 			break;
 				
 			default:
-			rodX = x + 31;
-			rodY = y - 6;
+			rodX = x + 35;
+			rodY = y - 12;
 			break;
 		}
 		bobberShake = true;
@@ -120,8 +120,8 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 		break;
 		
 		case sprDown:
-		rodX = x + 29;
-		rodY = y + 11;
+		rodX = x + 33;
+		rodY = y + 5;
 		bobberShake = true;
 		break;
 		
@@ -129,26 +129,26 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 29;
-			rodY = y + 8;
+			rodX = x + 33;
+			rodY = y + 2;
 			break;
 			
 			case 1:
-			rodX = x + 30;
-			rodY = y + 12;
+			rodX = x + 34;
+			rodY = y + 6;
 			break;
 			
 			default:
-			rodX = x + 29;
-			rodY = y + 11;
+			rodX = x + 33;
+			rodY = y + 5;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprLeft:
-		rodX = x + 12;
-		rodY = y - 31;
+		rodX = x + 16;
+		rodY = y - 37;
 		bobberShake = true;
 		break;
 		
@@ -156,26 +156,26 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 12;
-			rodY = y - 31;
+			rodX = x + 16;
+			rodY = y - 37;
 			break;
 			
 			case 1:
-			rodX = x + 14;
-			rodY = y - 29;
+			rodX = x + 18;
+			rodY = y - 35;
 			break;
 			
 			default:
-			rodX = x + 12;
-			rodY = y - 31;
+			rodX = x + 16;
+			rodY = y - 37;
 			break;
 		}
 		bobberShake = true;
 		break;
 		
 		case sprRight:
-		rodX = x + 28;
-		rodY = y - 3;
+		rodX = x + 32;
+		rodY = y - 9;
 		bobberShake = true;
 		break;
 		
@@ -183,18 +183,18 @@ function scr_KSW_Player_Susie_State_Normal_Step()
 		switch (floor(image_index))
 		{
 			case 0:
-			rodX = x + 26;
-			rodY = y - 9;
+			rodX = x + 30;
+			rodY = y - 15;
 			break;
 			
 			case 1:
-			rodX = x + 26;
-			rodY = y - 5;
+			rodX = x + 30;
+			rodY = y - 11;
 			break;
 			
 			default:
-			rodX = x + 28;
-			rodY = y - 3;
+			rodX = x + 32;
+			rodY = y - 9;
 			break;
 		}
 		bobberShake = true;

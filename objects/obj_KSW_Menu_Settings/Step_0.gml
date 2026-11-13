@@ -253,28 +253,6 @@ if (canSelect)
 		break;
 		#endregion
 		
-		case KSW_Settings_Buttons.borderArt:
-		#region Border Art
-		if (input_check_pressed("left",playerNum))
-		{
-			scr_PlaySfx(snd_KSW_ButtonChange);
-			
-			global.KSW_CurrentBorderArt = (global.KSW_CurrentBorderArt + global.KSW_BorderArtCount - 1) % global.KSW_BorderArtCount;
-			
-			scr_KSW_ChangeBorderArt(global.KSW_CurrentBorderArt);
-		}
-		
-		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("right",playerNum)))
-		{
-			scr_PlaySfx(snd_KSW_ButtonChange);
-			
-			global.KSW_CurrentBorderArt = (global.KSW_CurrentBorderArt + 1) % global.KSW_BorderArtCount;
-			
-			scr_KSW_ChangeBorderArt(global.KSW_CurrentBorderArt);
-		}
-		break;
-		#endregion
-		
 		case KSW_Settings_Buttons.alwaysFishPopups:
 		#region Always Fish Popups
 		if ((settingPressed) or (input_check_pressed("A",playerNum)) or (input_check_pressed("start",playerNum)) or (input_check_pressed("left",playerNum)) or (input_check_pressed("right",playerNum)))

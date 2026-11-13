@@ -8,7 +8,11 @@
   "bbox_top":32,
   "collisionKind":1,
   "collisionTolerance":0,
-  "ConfigValues":{},
+  "ConfigValues":{
+    "DesktopDebug":{
+      "textureGroupId":"{ \"name\":\"Default\", \"path\":\"texturegroups/Default\" }",
+    },
+  },
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
@@ -90,8 +94,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"SoftAndWet",
-    "path":"texturegroups/SoftAndWet",
+    "name":"Default",
+    "path":"texturegroups/Default",
   },
   "type":0,
   "VTile":false,

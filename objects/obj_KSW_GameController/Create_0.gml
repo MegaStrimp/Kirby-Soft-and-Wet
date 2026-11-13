@@ -27,9 +27,6 @@ state = KSW_GameStates.idle_Ready;
 global.KSW_ForcedPhase = global.KSW_StageList[global.KSW_CurrentStageID].forcedPhase;
 global.KSW_CurrentPhase = scr_KSW_Game_UpdatePhase();
 
-passStageCheck = false;
-blockNewFish = false;
-
 currentFishPool = scr_KSW_Game_SetPool(playerNum);
 currentEventPool = scr_KSW_Game_SetEventPool();
 currentFish = -1;
@@ -42,14 +39,6 @@ findFishTimerMaxDefault = 400;
 findFishTimerMin = findFishTimerMinDefault;
 findFishTimerMax = findFishTimerMaxDefault;
 
-catchInput_UpBubble_X = 174;
-catchInput_UpBubble_Y = 40;
-catchInput_DownBubble_X = 174;
-catchInput_DownBubble_Y = 88;
-catchInput_LeftBubble_X = 150;
-catchInput_LeftBubble_Y = 64;
-catchInput_RightBubble_X = 198;
-catchInput_RightBubble_Y = 64;
 catchInput_CurrentList = -1;
 catchInput_CurrentLine = -1;
 catchInput_SoundCount = -1;
@@ -64,15 +53,6 @@ catchInput_UpTriggered = false;
 catchInput_DownTriggered = false;
 catchInput_LeftTriggered = false;
 catchInput_RightTriggered = false;
-catchInput_Mult = 1;
-catchInput_HasAllInputs = false;
-catchInput_HasRoulette = false;
-catchInput_RouletteDir = 1;
-catchInput_RouletteTimer = -1;
-catchInput_RouletteTimerTarget = -1;
-catchInput_RouletteTimerMax = 30;
-catchInput_RouletteTimerMin = 5;
-catchInput_HasInputCoins = false;
 
 canGoToMenu = false;
 canGoToFishbook = false;
@@ -127,8 +107,6 @@ catchAnimationTimer = -1;
 
 flag_ScoreSfx = false;
 
-coinMult = 1;
-
 coinsInQueue = 0;
 
 canOffset = false;
@@ -138,13 +116,7 @@ bubbleIndex = 0;
 bubbleSpd = sprite_get_speed(spr_KSW_UI_CatchInput_Active) / 60;
 bubbleNumber = sprite_get_number(spr_KSW_UI_CatchInput_Active);
 
-queuedEvent = -1;
 eventTimer = -1;
-
-bonusPityRate = 0;
-pityRateMult = 1;
-bonusShinyPityRate = 0;
-shinyPityRateMult = 1;
 
 mousePressed = false;
 

@@ -66,7 +66,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":16.0,
-    "lockOrigin":false,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],

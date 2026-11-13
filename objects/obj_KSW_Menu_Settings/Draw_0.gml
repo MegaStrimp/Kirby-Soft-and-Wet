@@ -175,24 +175,6 @@ if ((yy > -space) and (yy < (global.gameHeight - space)))
 
 i += 1;
 
-#region Border Art
-var yy = startY + (space * i);
-
-if ((yy > -space) and (yy < (global.gameHeight - space)))
-{
-	var targetFont = "[fnt_Advance_Gray]";
-	if (selection == i)
-	{
-		var targetFont = "[fnt_Advance]";
-	}
-	
-	var text = "BORDER ART - " + global.KSW_BorderArtList[global.KSW_CurrentBorderArt].name;
-	scribble(targetFont + text + "[/font]").draw(8,yy);
-}
-#endregion
-
-i += 1;
-
 #region Always Fish Popups
 var yy = startY + (space * i);
 

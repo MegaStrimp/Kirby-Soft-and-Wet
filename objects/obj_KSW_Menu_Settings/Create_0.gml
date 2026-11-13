@@ -14,7 +14,6 @@ enum KSW_Settings_Buttons
 	windowSize,
 	shaders,
 	cursor,
-	borderArt,
 	alwaysFishPopups,
 	exportSave,
 	importSave,

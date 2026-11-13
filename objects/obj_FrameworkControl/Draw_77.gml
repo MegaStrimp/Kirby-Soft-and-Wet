@@ -1,12 +1,5 @@
 ///@description Post-Draw
 
-#region Border Art
-if (global.borderArt_Sprite != -1)
-{
-	draw_sprite_stretched(global.borderArt_Sprite,0,0,0,window_get_width(),window_get_height());
-}
-#endregion
-
 #region Screen Palette
 if (!global.applicationSurfaceAutoDraw)
 {

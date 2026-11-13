@@ -148,22 +148,13 @@ function scr_KSW_SaveData(file)
 			if ((global.KSW_NotifList[i].isSavable != false) and (global.KSW_NotifList[i].isObtained != false)) ini_write_real("NotifStatus",string(notifID) + "_Obtained",global.KSW_NotifList[i].isObtained);
 		}
 		#endregion
-		
+	
 		#region Stealth Tutorial Status
 		for (var i = 0; i < ds_map_size(global.KSW_StealthTutorialIDs); i++)
 		{
 			var stealthTutorialID = global.KSW_StealthTutorialList[i].id;
 		
 			if ((global.KSW_StealthTutorialList[i].isSavable != false) and (global.KSW_StealthTutorialList[i].isObtained != false)) ini_write_real("stealthTutorialStatus",string(stealthTutorialID) + "_Obtained",global.KSW_StealthTutorialList[i].isObtained);
-		}
-		#endregion
-		
-		#region STAR Status
-		for (var i = 0; i < ds_map_size(global.KSW_STARIDs); i++)
-		{
-			var STARID = global.KSW_STARList[i].id;
-		
-			if (global.KSW_STARList[i].isObtained != false) ini_write_real("STARStatus",string(STARID) + "_Obtained",global.KSW_STARList[i].isObtained);
 		}
 		#endregion
 		

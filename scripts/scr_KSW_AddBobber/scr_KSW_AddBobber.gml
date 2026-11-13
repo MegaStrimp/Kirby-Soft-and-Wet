@@ -1,6 +1,6 @@
 ///@description KSW - Add Bobber
 
-function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetPalette,targetBoxPalette,targetPrice,targetSound = -1,targetXOffset = 0,targetYOffset = 0,targetIsHidden = false,targetIsDefault = false)
+function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetPalette,targetBoxPalette,targetPrice,targetXOffset,targetYOffset,targetIsHidden = false,targetIsDefault = false)
 {
 	ds_map_add(global.KSW_BobberIDs,targetID,global.KSW_BobberCount);
 	
@@ -12,7 +12,6 @@ function scr_KSW_AddBobber(targetID,targetName,targetSprite,targetPalette,target
         palette: targetPalette,
 		boxPalette: targetBoxPalette,
 		price: targetPrice,
-		sound: targetSound,
         xOffset: targetXOffset,
         yOffset: targetYOffset,
 		isHidden: targetIsHidden,

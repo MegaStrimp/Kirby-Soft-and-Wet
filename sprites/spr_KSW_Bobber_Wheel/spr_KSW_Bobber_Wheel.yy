@@ -23,7 +23,7 @@
   ],
   "name":"spr_KSW_Bobber_Wheel",
   "nineSlice":null,
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Kirby ~ Soft & Wet/Bobbers/Sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":8,
-    "yorigin":0,
+    "yorigin":7,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -41,7 +41,6 @@ scr_KSW_SetStealthTutorials();
 scr_KSW_SetMusic();
 scr_KSW_SetBenches();
 scr_KSW_SetDrinks();
-scr_KSW_SetBorderArts();
 scr_KSW_SetSTARs();
 
 for (var i = 0; i < global.maxPlayers; i++)
@@ -97,9 +96,6 @@ global.KSW_EnteredSecretStars = false;
 global.KSW_MusicShuffle = false;
 
 global.KSW_DebugRig = -1;
-global.KSW_DebugTrailerMode = false;
-//if (global.debug) global.KSW_DebugTrailerMode = true;
-global.KSW_DebugTrailerMode_FishEndIndex = 2206;
 
 global.KSW_BubblePalette = spr_KSW_UI_CatchInput_Palette_Day;
 

@@ -3,7 +3,7 @@
 function scr_KSW_LoadFullSave(loadFish = true)
 {
 	#region Variables
-	if (!global.KSW_DebugTrailerMode) global.fullSaveLoaded = true;
+	global.fullSaveLoaded = true;
 	#endregion
 	
 	#region Character Status
@@ -89,10 +89,7 @@ function scr_KSW_LoadFullSave(loadFish = true)
 	{
 		global.KSW_CaughtUniqueFishCount = 0;
 		
-		var fishSize = ds_map_size(global.KSW_FishIDs);
-		if (global.KSW_DebugTrailerMode) fishSize = global.KSW_DebugTrailerMode_FishEndIndex;
-		
-		for (var i = 0; i < fishSize; i++)
+		for (var i = 0; i < ds_map_size(global.KSW_FishIDs); i++)
 		{
 			global.KSW_FishList[i].isCaught += 2;
 			global.KSW_FishList[i].isCaughtShiny += 1;
@@ -126,13 +123,6 @@ function scr_KSW_LoadFullSave(loadFish = true)
 	for (var i = 0; i < ds_map_size(global.KSW_StealthTutorialIDs); i++)
 	{
 		if (global.KSW_StealthTutorialList[i].isSavable != false) global.KSW_StealthTutorialList[i].isObtained = true;
-	}
-	#endregion
-	
-	#region STAR Status
-	for (var i = 0; i < ds_map_size(global.KSW_STARIDs); i++)
-	{
-		global.KSW_STARList[i].isObtained = true;
 	}
 	#endregion
 }

@@ -245,15 +245,6 @@ function scr_KSW_LoadData(file,importFile = false)
 	}
 	#endregion
 	
-	#region STAR Status
-	for (var i = 0; i < ds_map_size(global.KSW_STARIDs); i++)
-	{
-		var STARID = global.KSW_STARList[i].id;
-		
-		global.KSW_STARList[i].isObtained = ini_read_real("STARStatus",string(STARID) + "_Obtained",false);
-	}
-	#endregion
-	
 	#region Misc
 	global.KSW_EnteredAquariumAlt = ini_read_real("misc","enteredAquariumAlt",false);
 	#endregion
