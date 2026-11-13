@@ -3155,7 +3155,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Cob",spr_KSW_Fish_Cob,spr_KSW_Fish_Cob_Pal,series_OFF,legion,3,cloudyPark,KSW_Phases.none,6000,15,9,-1,snd_KSW_Fish_Cob);
 	scr_KSW_AddFish("Enoch Fly",spr_KSW_Fish_EnochFly,spr_KSW_Fish_EnochFly_Pal,series_OFF,glimmer,1,cloudyPark,KSW_Phases.none,3000,0,0,-1,snd_KSW_Fish_EnochFly);
 	scr_KSW_AddFish("The Golden Idol",spr_KSW_Fish_TheGoldenIdol,spr_KSW_Fish_TheGoldenIdol_Pal,series_TheCaseOfTheGoldenIdol,mage,1,grassBeach,KSW_Phases.day,1000,0,111);
-	scr_KSW_AddFish("Mermaid",spr_KSW_Fish_Mermaid,spr_KSW_Fish_Mermaid_Pal,series_TheCaseOfTheGoldenIdol,flux,2,hallowReen,KSW_Phases.night,3000,0,40);
+	scr_KSW_AddFish("Stuffed Mermaid",spr_KSW_Fish_StuffedMermaid,spr_KSW_Fish_stuffed_Mermaid_Pal,series_TheCaseOfTheGoldenIdol,flux,2,hallowReen,KSW_Phases.night,3000,0,40);
 	#endregion
 	#endregion
 }
