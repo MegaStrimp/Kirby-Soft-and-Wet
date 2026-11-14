@@ -364,6 +364,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "BlizzardSister",playerID,"Blizzard Sister",spr_KSW_Player_Susie_SprayPaint_BlizzardSister,mage,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "PyroSister",playerID,"Pyro Sister",spr_KSW_Player_Susie_SprayPaint_PyroSister,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Lexa",playerID,"Lexa",spr_KSW_Player_Susie_SprayPaint_Lexa,candy,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Detective",playerID,"Detective",spr_KSW_Player_Susie_Spraypaint_Detective,flux,100);
 	#endregion
 	
 	#region Ybrik
@@ -410,6 +411,9 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "TheDevil",playerID,"The Devil",spr_KSW_Player_Ybrik_SprayPaint_TheDevil,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "ComicRed",playerID,"Comic Red",spr_KSW_Player_Ybrik_SprayPaint_ComicRed,legion,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "RIP",playerID,"RIP",spr_KSW_Player_Ybrik_SprayPaint_RIP,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Goner",playerID,"Goner",spr_KSW_Player_Ybrik_SprayPaint_Goner,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "MasterOfHumanity",playerID,"Master Of Humanity",spr_KSW_Player_Ybrik_SprayPaint_MasterOfHumanity,borange,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Needles",playerID,"Needles",spr_KSW_Player_Ybrik_SprayPaint_Needles,candy,100);
 	#endregion
 	
 	#region Chip
@@ -459,6 +463,11 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Sunset",playerID,"Sunset",spr_KSW_Player_Kracko_SprayPaint_Sunset,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "WhizBang",playerID,"Whiz-Bang",spr_KSW_Player_Kracko_SprayPaint_WhizBang,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_Kracko_SprayPaint_Delirious,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Seek",playerID,"Seek",spr_KSW_Player_Kracko_SprayPaint_Seek,candy,100);
+    scr_KSW_AddSprayPaint(playerID + "_" + "Volt",playerID,"Volt",spr_KSW_Player_Kracko_SprayPaint_Volt,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Miracle",playerID,"Miracle",spr_KSW_Player_Kracko_SprayPaint_Miracle,flux,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ShapesAndBeats",playerID,"Shapes And Beats",spr_KSW_Player_Kracko_SprayPaint_ShapesAndBeats,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Prunsel",playerID,"Prunsel",spr_KSW_Player_Kracko_SprayPaint_Prunsel,legion,100);
 	#endregion
 	
 	#region N-Z
