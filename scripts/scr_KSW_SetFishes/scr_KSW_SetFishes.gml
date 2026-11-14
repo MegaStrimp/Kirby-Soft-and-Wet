@@ -3494,8 +3494,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Clamer",spr_KSW_Fish_Clamer,spr_KSW_Fish_Clamer_Pal,series_SonicTheHedgehog,candy,0,androidPort,KSW_Phases.night,300);
 	scr_KSW_AddFish("Piranha (Sonic)",spr_KSW_Fish_PiranhaSonic,spr_KSW_Fish_PiranhaSonic_Pal,series_SonicTheHedgehog,legion,0,androidPort,KSW_Phases.afternoon,300);
 	scr_KSW_AddFish("Floatsam",spr_KSW_Fish_Floatsam,spr_KSW_Fish_Floatsam_Pal,series_SonicTheHedgehog,legion,0,androidPort,KSW_Phases.afternoon,300);
-	scr_KSW_AddFish("Crawl",spr_KSW_Fish_Crawl,spr_KSW_Fish_Crawl_Pal,series_SonicTheHedgehog,glimmer,1,androidPort,KSW_Phases.night,300);
-	scr_KSW_AddFish("Jugglesaw",spr_KSW_Fish_Jugglesaw,spr_KSW_Fish_Jugglesaw_Pal,series_SonicTheHedgehog,mint,1,androidPort,KSW_Phases.day,300);
+	scr_KSW_AddFish("Crawl",spr_KSW_Fish_Crawl,spr_KSW_Fish_Crawl_Pal,series_SonicTheHedgehog,glimmer,1,androidPort,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Jugglesaw",spr_KSW_Fish_Jugglesaw,spr_KSW_Fish_Jugglesaw_Pal,series_SonicTheHedgehog,mint,1,androidPort,KSW_Phases.day,3000);
 	scr_KSW_AddFish("Egg Bubble",spr_KSW_Fish_EggBubble,spr_KSW_Fish_EggBubble_Pal,series_SonicTheHedgehog,legion,2,androidPort,KSW_Phases.afternoon,15000);
 	scr_KSW_AddFish("EGG-HVC-001",spr_KSW_Fish_EggHVC,spr_KSW_Fish_EggHVC_Pal,series_SonicTheHedgehog,mint,2,androidPort,KSW_Phases.day,15000);
 	scr_KSW_AddFish("Eggmarine",spr_KSW_Fish_Eggmarine,spr_KSW_Fish_Eggmarine_Pal,series_SonicTheHedgehog,borange,2,androidPort,KSW_Phases.afternoon,20000);
@@ -3510,6 +3510,30 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Mecha Sonic Mk. I",spr_KSW_Fish_MechaSonic1,spr_KSW_Fish_MechaSonic1_Pal,series_SonicTheHedgehog,flux,2,androidPort,KSW_Phases.none,20000);
 	scr_KSW_AddFish("Mecha Sonic Mk. II",spr_KSW_Fish_MechaSonic2,spr_KSW_Fish_MechaSonic2_Pal,series_SonicTheHedgehog,mint,2,androidPort,KSW_Phases.none,20000);
 	scr_KSW_AddFish("Death Egg Robot",spr_KSW_Fish_DeathEggRobot,spr_KSW_Fish_DeathEggRobot_Pal,series_SonicTheHedgehog,flux,3,androidPort,KSW_Phases.none,200000);
+	scr_KSW_AddFish("Buzz Bomber",spr_KSW_Fish_BuzzBomber,spr_KSW_Fish_BuzzBomber_Pal,series_SonicTheHedgehog,mint,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Batbrain",spr_KSW_Fish_Batbrain,spr_KSW_Fish_Batbrain_Pal,series_SonicTheHedgehog,flux,0,cloudyPark,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Needlenose",spr_KSW_Fish_Needlenose,spr_KSW_Fish_Needlenose_Pal,series_SonicTheHedgehog,borange,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Ga",spr_KSW_Fish_Ga,spr_KSW_Fish_Ga_Pal,series_SonicTheHedgehog,borange,0,cloudyPark,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Pata-Bata",spr_KSW_Fish_PataBata,spr_KSW_Fish_PataBata_Pal,series_SonicTheHedgehog,borange,0,cloudyPark,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Kanabun",spr_KSW_Fish_Kanabun,spr_KSW_Fish_Kanabun_Pal,series_SonicTheHedgehog,flux,0,cloudyPark,KSW_Phases.night,300);
+	scr_KSW_AddFish("Tonbo",spr_KSW_Fish_Tonbo,spr_KSW_Fish_Tonbo_Pal,series_SonicTheHedgehog,glimmer,0,cloudyPark,KSW_Phases.afternoon,300);
+	scr_KSW_AddFish("Buzzer",spr_KSW_Fish_Buzzer,spr_KSW_Fish_Buzzer_Pal,series_SonicTheHedgehog,mint,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Balkiry",spr_KSW_Fish_Balkiry,spr_KSW_Fish_Balkiry_Pal,series_SonicTheHedgehog,mage,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Nebula",spr_KSW_Fish_Nebula,spr_KSW_Fish_Nebula_Pal,series_SonicTheHedgehog,mage,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Batbot",spr_KSW_Fish_Batbot,spr_KSW_Fish_Batbot_Pal,series_SonicTheHedgehog,glimmer,0,cloudyPark,KSW_Phases.night,300);
+	scr_KSW_AddFish("Butterdroid",spr_KSW_Fish_Butterdroid,spr_KSW_Fish_Butterdroid_Pal,series_SonicTheHedgehog,mint,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Flybot767",spr_KSW_Fish_Flybot767,spr_KSW_Fish_Flybot767_Pal,series_SonicTheHedgehog,glimmer,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Shutterbug",spr_KSW_Fish_Shutterbug,spr_KSW_Fish_Shutterbug_Pal,series_SonicTheHedgehog,mage,0,cloudyPark,KSW_Phases.night,300);
+	scr_KSW_AddFish("Vultron",spr_KSW_Fish_Vultron,spr_KSW_Fish_Vultron_Pal,series_SonicTheHedgehog,borange,0,cloudyPark,KSW_Phases.day,300);
+	scr_KSW_AddFish("Poh-Bee",spr_KSW_Fish_PohBee,spr_KSW_Fish_PohBee_Pal,series_SonicTheHedgehog,flux,1,cloudyPark,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Bombbearer",spr_KSW_Fish_Bombbearer,spr_KSW_Fish_Bombbearer_Pal,series_SonicTheHedgehog,flux,1,cloudyPark,KSW_Phases.day,3000);
+	scr_KSW_AddFish("Turbo Turtle",spr_KSW_Fish_TurboTurtle,spr_KSW_Fish_TurboTurtle_Pal,series_SonicTheHedgehog,candy,1,cloudyPark,KSW_Phases.none,3000);
+	scr_KSW_AddFish("UFO (Sonic CD)",spr_KSW_Fish_UFOCD,spr_KSW_Fish_UFOCD_Pal,series_SonicTheHedgehog,legion,2,cloudyPark,KSW_Phases.none,15000);
+	scr_KSW_AddFish("Egg Mobile",spr_KSW_Fish_EggMobile,spr_KSW_Fish_EggMobile_Pal,series_SonicTheHedgehog,mint,2,cloudyPark,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Weather Globe",spr_KSW_Fish_WeatherGlobe,spr_KSW_Fish_WeatherGlobe_Pal,series_SonicTheHedgehog,candy,2,cloudyPark,KSW_Phases.afternoon,40000);
+	scr_KSW_AddFish("Tornado",spr_KSW_Fish_Tornado,spr_KSW_Fish_Tornado_Pal,series_SonicTheHedgehog,mage,3,cloudyPark,KSW_Phases.day,20000);
+	scr_KSW_AddFish("Big Arms",spr_KSW_Fish_BigArms,spr_KSW_Fish_BigArms_Pal,series_SonicTheHedgehog,legion,3,cloudyPark,KSW_Phases.afternoon,30000);
+	scr_KSW_AddFish("Final Weapon",spr_KSW_Fish_FinalWeapon,spr_KSW_Fish_FinalWeapon_Pal,series_SonicTheHedgehog,flux,3,cloudyPark,KSW_Phases.night,350000);
 	#endregion
 	#endregion
 }
