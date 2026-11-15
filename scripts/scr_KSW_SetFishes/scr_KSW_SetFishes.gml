@@ -1450,7 +1450,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Grapps",spr_KSW_Fish_Grapps,spr_KSW_Fish_Grapps_Pal,series_ShovelKnight,candy,1,grassBeach,KSW_Phases.day,1800);
 	scr_KSW_AddFish("Gulper Mage",spr_KSW_Fish_GulperMage,spr_KSW_Fish_GulperMage_Pal,series_ShovelKnight,flux,1,grassBeach,KSW_Phases.night,2000);
 	scr_KSW_AddFish("Mantar",spr_KSW_Fish_Mantar,spr_KSW_Fish_Mantar_Pal,series_ShovelKnight,legion,0,grassBeach,KSW_Phases.day,800);
-	scr_KSW_AddFish("Floundair",spr_KSW_Fish_Floundair,spr_KSW_Fish_Floundair_Pal,series_ShovelKnight,mint,0,grassBeach,KSW_Phases.day,900);
+	scr_KSW_AddFish("Floundair",spr_KSW_Fish_Floundair,spr_KSW_Fish_Floundair_Pal,series_ShovelKnight,mint,0,cloudyPark,KSW_Phases.day,900);
 	scr_KSW_AddFish("Axolongl",spr_KSW_Fish_Axolongl,spr_KSW_Fish_Axolongl_Pal,series_ShovelKnight,glimmer,1,serranoSprings,KSW_Phases.day,1500);
 	scr_KSW_AddFish("Mini Angler",spr_KSW_Fish_MiniAngler,spr_KSW_Fish_MiniAngler_Pal,series_ShovelKnight,flux,0,grassBeach,KSW_Phases.night,800);
 	scr_KSW_AddFish("Lunkeroth",spr_KSW_Fish_Lunkeroth,spr_KSW_Fish_Lunkeroth_Pal,series_ShovelKnight,flux,1,grassBeach,KSW_Phases.night,1700);
@@ -3534,6 +3534,37 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Tornado",spr_KSW_Fish_Tornado,spr_KSW_Fish_Tornado_Pal,series_SonicTheHedgehog,mage,3,cloudyPark,KSW_Phases.day,20000);
 	scr_KSW_AddFish("Big Arms",spr_KSW_Fish_BigArms,spr_KSW_Fish_BigArms_Pal,series_SonicTheHedgehog,legion,3,cloudyPark,KSW_Phases.afternoon,30000);
 	scr_KSW_AddFish("Final Weapon",spr_KSW_Fish_FinalWeapon,spr_KSW_Fish_FinalWeapon_Pal,series_SonicTheHedgehog,flux,3,cloudyPark,KSW_Phases.night,350000);
+	scr_KSW_AddFish("The Alchemeister",spr_KSW_Fish_TheAlchemeister,spr_KSW_Fish_TheAlchemeister_Pal,series_ShovelKnight,flux,2,creamCrevasse,KSW_Phases.night,8000);
+	scr_KSW_AddFish("Specter Knight",spr_KSW_Fish_SpecterKnight,spr_KSW_Fish_SpecterKnight_Pal,series_ShovelKnight,candy,3,hallowReen,KSW_Phases.night,22000);
+	scr_KSW_AddFish("Nightmare Reize",spr_KSW_Fish_NightmareReize,spr_KSW_Fish_NightmareReize_Pal,series_ShovelKnight,flux,3,hallowReen,KSW_Phases.night,99000);
+	scr_KSW_AddFish("King Knight",spr_KSW_Fish_KingKnight,spr_KSW_Fish_KingKnight_Pal,series_ShovelKnight,glimmer,3,serranoSprings,KSW_Phases.day,40000);
+	scr_KSW_AddFish("Croaker",spr_KSW_Fish_Croaker,spr_KSW_Fish_Croaker_Pal,series_ShovelKnight,borange,1,serranoSprings,KSW_Phases.day,2000);
+	scr_KSW_AddFish("Skip",spr_KSW_Fish_Skip,spr_KSW_Fish_Skip_Pal,series_ShovelKnight,borange,1,serranoSprings,KSW_Phases.afternoon,2000);
+	scr_KSW_AddFish("Toader",spr_KSW_Fish_Toader,spr_KSW_Fish_Toader_Pal,series_ShovelKnight,borange,1,serranoSprings,KSW_Phases.night,2000);
+	scr_KSW_AddFish("Mole Minion",spr_KSW_Fish_MoleMinion,spr_KSW_Fish_MoleMinion_Pal,series_ShovelKnight,borange,2,serranoSprings,KSW_Phases.afternoon,7000);
+	scr_KSW_AddFish("Mole Knight",spr_KSW_Fish_MoleKnight,spr_KSW_Fish_MoleKnight_Pal,series_ShovelKnight,borange,3,serranoSprings,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("Plague Minion",spr_KSW_Fish_PlagueMinion,spr_KSW_Fish_PlagueMinion_Pal,series_ShovelKnight,flux,1,androidPort,KSW_Phases.night,1500);
+	scr_KSW_AddFish("Plague Knight",spr_KSW_Fish_PlagueKnight,spr_KSW_Fish_PlagueKnight_Pal,series_ShovelKnight,flux,3,androidPort,KSW_Phases.night,18000);
+	scr_KSW_AddFish("Tinker Knight",spr_KSW_Fish_TinkerKnight,spr_KSW_Fish_TinkerKnight_Pal,series_ShovelKnight,legion,3,androidPort,KSW_Phases.night,9000);
+	scr_KSW_AddFish("Tinker Tank",spr_KSW_Fish_TinkerTank,spr_KSW_Fish_TinkerTank_Pal,series_ShovelKnight,legion,3,androidPort,KSW_Phases.night,90000);
+	scr_KSW_AddFish("Cooper",spr_KSW_Fish_Cooper,spr_KSW_Fish_Cooper_Pal,series_ShovelKnight,glimmer,1,cloudyPark,KSW_Phases.day,2000);
+	scr_KSW_AddFish("Ledge Farmer",spr_KSW_Fish_LedgeFarmer,spr_KSW_Fish_LedgeFarmer_Pal,series_ShovelKnight,legion,1,cloudyPark,KSW_Phases.day,2000);
+	scr_KSW_AddFish("Peacock",spr_KSW_Fish_Peacock,spr_KSW_Fish_Peacock_Pal,series_ShovelKnight,mint,1,cloudyPark,KSW_Phases.afternoon,2000);
+	scr_KSW_AddFish("Creech",spr_KSW_Fish_Creech,spr_KSW_Fish_Creech_Pal,series_ShovelKnight,flux,1,cloudyPark,KSW_Phases.night,2000);
+	scr_KSW_AddFish("Madam Meeber",spr_KSW_Fish_MadamMeeber,spr_KSW_Fish_MadamMeeber_Pal,series_ShovelKnight,candy,1,cloudyPark,KSW_Phases.day,9000);
+	scr_KSW_AddFish("Tadfloat",spr_KSW_Fish_Tadfloat,spr_KSW_Fish_Tadfloat_Pal,series_ShovelKnight,mint,0,cloudyPark,KSW_Phases.night,500);
+	scr_KSW_AddFish("Macawbe",spr_KSW_Fish_Macawbe,spr_KSW_Fish_Macawbe_Pal,series_ShovelKnight,flux,0,cloudyPark,KSW_Phases.night,500);
+	scr_KSW_AddFish("Planto",spr_KSW_Fish_Planto,spr_KSW_Fish_Planto_Pal,series_ShovelKnight,mint,0,cloudyPark,KSW_Phases.day,500);
+	scr_KSW_AddFish("Baby Griffoth",spr_KSW_Fish_BabyGriffoth,spr_KSW_Fish_BabyGriffoth_Pal,series_ShovelKnight,glimmer,0,cloudyPark,KSW_Phases.day,500);
+	scr_KSW_AddFish("Griffoth",spr_KSW_Fish_Griffoth,spr_KSW_Fish_Griffoth_Pal,series_ShovelKnight,glimmer,1,cloudyPark,KSW_Phases.day,5000);
+	scr_KSW_AddFish("Goldome",spr_KSW_Fish_Goldome,spr_KSW_Fish_Goldome_Pal,series_ShovelKnight,glimmer,1,cloudyPark,KSW_Phases.afternoon,2000);
+	scr_KSW_AddFish("Hoverhaft",spr_KSW_Fish_Hoverhaft,spr_KSW_Fish_Hoverhaft_Pal,series_ShovelKnight,glimmer,1,cloudyPark,KSW_Phases.afternoon,2000);
+	scr_KSW_AddFish("Hover Meanie",spr_KSW_Fish_HoverMeanie,spr_KSW_Fish_HoverMeanie_Pal,series_ShovelKnight,glimmer,1,cloudyPark,KSW_Phases.afternoon,2000);
+	scr_KSW_AddFish("Blubber Meanie",spr_KSW_Fish_BlubberMeanie,spr_KSW_Fish_BlubberMeanie_Pal,series_ShovelKnight,glimmer,1,cloudyPark,KSW_Phases.afternoon,5000);
+	scr_KSW_AddFish("The Dinghy Dropper",spr_KSW_Fish_TheDinghyDropper,spr_KSW_Fish_TheDinghyDropper_Pal,series_ShovelKnight,flux,2,cloudyPark,KSW_Phases.afternoon,7000);
+	scr_KSW_AddFish("Propeller Knight",spr_KSW_Fish_PropellerKnight,spr_KSW_Fish_PropellerKnight_Pal,series_ShovelKnight,glimmer,3,cloudyPark,KSW_Phases.afternoon,20000);
+	scr_KSW_AddFish("King Birder",spr_KSW_Fish_KingBirder,spr_KSW_Fish_KingBirder_Pal,series_ShovelKnight,mage,3,cloudyPark,KSW_Phases.day,80000);
+	scr_KSW_AddFish("Giga Cardia",spr_KSW_Fish_GigaCardia,spr_KSW_Fish_GigaCardia_Pal,series_ShovelKnight,flux,3,cloudyPark,KSW_Phases.night,99999);
 	#endregion
 	#endregion
 }
