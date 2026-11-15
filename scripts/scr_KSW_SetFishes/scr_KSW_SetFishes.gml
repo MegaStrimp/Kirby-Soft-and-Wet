@@ -192,6 +192,7 @@ function scr_KSW_SetFishes()
 	var series_Sinistar = global.KSW_SeriesIDs[? "sinistar"];
 	var series_IceClimbers = global.KSW_SeriesIDs[? "iceClimbers"];
 	var series_SkiFree = global.KSW_SeriesIDs[? "skiFree"];
+	var series_HalfLife = global.KSW_SeriesIDs[? "halfLife"];
 	#endregion
 	
 	#region Stages
@@ -3565,6 +3566,17 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Propeller Knight",spr_KSW_Fish_PropellerKnight,spr_KSW_Fish_PropellerKnight_Pal,series_ShovelKnight,glimmer,3,cloudyPark,KSW_Phases.afternoon,20000);
 	scr_KSW_AddFish("King Birder",spr_KSW_Fish_KingBirder,spr_KSW_Fish_KingBirder_Pal,series_ShovelKnight,mage,3,cloudyPark,KSW_Phases.day,80000);
 	scr_KSW_AddFish("Giga Cardia",spr_KSW_Fish_GigaCardia,spr_KSW_Fish_GigaCardia_Pal,series_ShovelKnight,flux,3,cloudyPark,KSW_Phases.night,99999);
+	scr_KSW_AddFish("Gordon Freeman",spr_KSW_Fish_GordonFreeman,spr_KSW_Fish_GordonFreeman_Pal,series_HalfLife,borange,3,androidPort,KSW_Phases.none,19980);
+	scr_KSW_AddFish("The G-Man",spr_KSW_Fish_GMan,spr_KSW_Fish_GMan_Pal,series_HalfLife,flux,3,androidPort,KSW_Phases.none,199900);
+	scr_KSW_AddFish("Alyx Vance",spr_KSW_Fish_AlyxVance,spr_KSW_Fish_AlyxVance_Pal,series_HalfLife,legion,3,androidPort,KSW_Phases.none,20040);
+	scr_KSW_AddFish("Eli Vance",spr_KSW_Fish_EliVance,spr_KSW_Fish_EliVance_Pal,series_HalfLife,mint,2,androidPort,KSW_Phases.none,19980);
+	scr_KSW_AddFish("Barney Calhoun",spr_KSW_Fish_BarneyCalhoun,spr_KSW_Fish_BarneyCalhoun_Pal,series_HalfLife,mage,2,androidPort,KSW_Phases.none,19980);
+	scr_KSW_AddFish("Dr. Kleiner",spr_KSW_Fish_DrKleiner,spr_KSW_Fish_DrKleiner_Pal,series_HalfLife,glimmer,2,androidPort,KSW_Phases.none,19980);
+	scr_KSW_AddFish("Strider",spr_KSW_Fish_Strider,spr_KSW_Fish_Strider_Pal,series_HalfLife,legion,2,androidPort,KSW_Phases.none,20070,0,40);
+	scr_KSW_AddFish("Combine Soldier",spr_KSW_Fish_CombineSoldier,spr_KSW_Fish_CombineSoldier_Pal,series_HalfLife,legion,1,androidPort,KSW_Phases.none,2004);
+	scr_KSW_AddFish("Headcrab Zombie",spr_KSW_Fish_HeadcrabZombie,spr_KSW_Fish_HeadcrabZombie_Pal,series_HalfLife,borange,0,androidPort,KSW_Phases.none,198);
+	scr_KSW_AddFish("Manhack",spr_KSW_Fish_Manhack,spr_KSW_Fish_Manhack_Pal,series_HalfLife,legion,1,cloudyPark,KSW_Phases.day,2004);
+	scr_KSW_AddFish("Gunship",spr_KSW_Fish_Gunship,spr_KSW_Fish_Gunship_Pal,series_HalfLife,legion,2,cloudyPark,KSW_Phases.day,20040,-40,0);
 	#endregion
 	#endregion
 }
