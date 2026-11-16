@@ -34,5 +34,7 @@ function scr_KSW_SetCharacters()
 	scr_KSW_AddCharacter("nz","N-Z",spr_KSW_UI_Customize_CharacterIcon_NZ,legion,scr_KSW_Player_NZ_Setup,400,spr_KSW_UI_Customize_Spray_NZ);
 	scr_KSW_AddCharacter("kabula","Kabula",spr_KSW_UI_Customize_CharacterIcon_Kabula,borange,scr_KSW_Player_Kabula_Setup,400,spr_KSW_UI_Customize_Spray_Kabula,,50);
 	scr_KSW_AddCharacter("starman","Starman",spr_KSW_UI_Customize_CharacterIcon_Starman,glimmer,scr_KSW_Player_Starman_Setup,400,spr_KSW_UI_Customize_Spray_Starman);
+	scr_KSW_AddCharacter("chilly","Chilly",spr_KSW_UI_Customize_CharacterIcon_Chilly,mage,scr_KSW_Player_Chilly_Setup,400,spr_KSW_UI_Customize_Spray_Chilly);
+	scr_KSW_AddCharacter("kingDedede","King Dedede",spr_KSW_UI_Customize_CharacterIcon_KingDedede,candy,scr_KSW_Player_KingDedede_Setup,400,spr_KSW_UI_Customize_Spray_KingDedede);
 	#endregion
 }

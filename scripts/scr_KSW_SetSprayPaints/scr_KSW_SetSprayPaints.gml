@@ -535,5 +535,17 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Starmie",playerID,"Starmie",spr_KSW_Player_Starman_SprayPaint_Starmie,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Staryu",playerID,"Staryu",spr_KSW_Player_Starman_SprayPaint_Staryu,glimmer,100);
 	#endregion
+	
+	#region Chilly
+	var playerID = "chilly";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Freeze",playerID,"Freeze",spr_KSW_Player_Chilly_SprayPaint_Freeze,mage,0,true);
+	#endregion
+	
+	#region King Dedede
+	var playerID = "kingDedede";
+	
+	scr_KSW_AddSprayPaint(playerID + "_" + "Royal",playerID,"Royal",spr_KSW_Player_KingDedede_SprayPaint_Royal,candy,0,true); //STRIMPTODO Add Spray
+	#endregion
 	#endregion
 }

@@ -625,6 +625,18 @@ if (!localPause)
 				
 			var achievementID = global.KSW_AchievementIDs[? "catch1000Starman"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100Chilly"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000Chilly"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch100KingDedede"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
+				
+			var achievementID = global.KSW_AchievementIDs[? "catch1000KingDedede"];
+			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);
 			
 			var achievementID = global.KSW_AchievementIDs[? "exMode"];
 			if (global.KSW_AchievementList[achievementID].unlockScript()) scr_KSW_ObtainAchievement(achievementID);

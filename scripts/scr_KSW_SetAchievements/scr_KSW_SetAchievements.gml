@@ -451,6 +451,42 @@ function scr_KSW_SetAchievements()
 	scr_KSW_AddAchievement("catch1000Starman","Starman Lover","Catch 1000 Fish As Starman",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
 	#endregion
 	#endregion
+	
+	#region Chilly
+	#region Catch 100 Fish As Chilly
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "chilly"]].caughtFishCount >= 100);
+	};
+	scr_KSW_AddAchievement("catch100Chilly","Chilly Fan","Catch 100 Fish As Chilly",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
+	#endregion
+	
+	#region Catch 1000 Fish As Chilly
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "chilly"]].caughtFishCount >= 1000);
+	};
+	scr_KSW_AddAchievement("catch1000Chilly","Chilly Lover","Catch 1000 Fish As Chilly",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
+	#endregion
+	#endregion
+	
+	#region King Dedede
+	#region Catch 100 Fish As King Dedede
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "kingDedede"]].caughtFishCount >= 100);
+	};
+	scr_KSW_AddAchievement("catch100KingDedede","KingDedede Fan","Catch 100 Fish As King Dedede",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
+	#endregion
+	
+	#region Catch 1000 Fish As King Dedede
+	var achievementUnlockMethod = function()
+	{
+		return (global.KSW_CharacterList[global.KSW_CharacterIDs[? "kingDedede"]].caughtFishCount >= 1000);
+	};
+	scr_KSW_AddAchievement("catch1000KingDedede","KingDedede Lover","Catch 1000 Fish As King Dedede",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,,true);
+	#endregion
+	#endregion
 	#endregion
 	
 	#region Collect Spray Paints

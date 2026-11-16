@@ -128,4 +128,16 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,glimmer,0,0,0,true);
 	#endregion
+	
+	#region Chilly
+	var playerID = "chilly";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
+	#endregion
+	
+	#region King Dedede
+	var playerID = "kingDedede";
+	
+	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
+	#endregion
 }
