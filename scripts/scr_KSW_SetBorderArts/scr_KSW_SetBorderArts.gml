@@ -14,5 +14,6 @@ function scr_KSW_SetBorderArts()
 	scr_KSW_AddBorderArt("none","None",-1);
 	scr_KSW_AddBorderArt("default","Default",spr_KSW_BorderArt_Default);
 	scr_KSW_AddBorderArt("androidPort","Android Port",spr_KSW_BorderArt_AndroidPort);
+	scr_KSW_AddBorderArt("monsterInDreamland","MonsterInDreamland",spr_KSW_BorderArt_MonsterInDreamland);
 	#endregion
 }
