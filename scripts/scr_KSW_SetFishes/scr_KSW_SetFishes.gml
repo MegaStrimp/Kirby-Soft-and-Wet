@@ -193,6 +193,7 @@ function scr_KSW_SetFishes()
 	var series_IceClimbers = global.KSW_SeriesIDs[? "iceClimbers"];
 	var series_SkiFree = global.KSW_SeriesIDs[? "skiFree"];
 	var series_FiendFolio = global.KSW_SeriesIDs[? "fiendFolio"];
+	
 	#endregion
 	
 	#region Stages
@@ -3590,6 +3591,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Tsurumaru Tsuyoshi",spr_KSW_Fish_TsurumaruTsuyoshi,spr_KSW_Fish_TsurumaruTsuyoshi_Pal,series_Umamusume,glimmer,2,cloudyPark,KSW_Phases.afternoon,1600);
 	scr_KSW_AddFish("Vodka",spr_KSW_Fish_Vodka,spr_KSW_Fish_Vodka_Pal,series_Umamusume,legion,2,grassBeach,KSW_Phases.afternoon,1650);
 	scr_KSW_AddFish("Gold Ship (Goldshi's Grand Adventure 2)",spr_KSW_Fish_GoldshipGoldshisGrandAdventure2,spr_KSW_Fish_GoldshipGoldshisGrandAdventure2_Pal,series_Umamusume,candy,3,androidPort,KSW_Phases.none,12000);
+	scr_KSW_AddFish("Haru Urara",spr_KSW_Fish_HaruUrara,spr_KSW_Fish_HaruUrara_Pal,series_Umamusume,glimmer,1,grassBeach,KSW_Phases.day,1400,0,0,0,snd_KSW_Fish_HaruUrara);
+	scr_KSW_AddFish("Ransom",spr_KSW_Fish_Ransom,spr_KSW_Fish_Ransom_Pal,series_doors,candy,3,androidPort,KSW_Phases.none,1,0,0,0,snd_KSW_Fish_Ransom);
 	#endregion
 	#endregion
 }
