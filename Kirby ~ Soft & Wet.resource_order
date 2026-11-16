@@ -5256,6 +5256,7 @@
     {"name":"spr_KSW_Bobber_Zero_Pal","order":75,"path":"sprites/spr_KSW_Bobber_Zero_Pal/spr_KSW_Bobber_Zero_Pal.yy",},
     {"name":"spr_KSW_Bobber_Zero","order":74,"path":"sprites/spr_KSW_Bobber_Zero/spr_KSW_Bobber_Zero.yy",},
     {"name":"spr_KSW_BorderArt_AndroidPort","order":1,"path":"sprites/spr_KSW_BorderArt_AndroidPort/spr_KSW_BorderArt_AndroidPort.yy",},
+    {"name":"spr_KSW_BorderArt_MonsterInDreamland","order":2,"path":"sprites/spr_KSW_BorderArt_MonsterInDreamland/spr_KSW_BorderArt_MonsterInDreamland.yy",},
     {"name":"spr_KSW_Drink_AppleBomb","order":8,"path":"sprites/spr_KSW_Drink_AppleBomb/spr_KSW_Drink_AppleBomb.yy",},
     {"name":"spr_KSW_Drink_BajaBlastCan","order":5,"path":"sprites/spr_KSW_Drink_BajaBlastCan/spr_KSW_Drink_BajaBlastCan.yy",},
     {"name":"spr_KSW_Drink_BananaPeel","order":9,"path":"sprites/spr_KSW_Drink_BananaPeel/spr_KSW_Drink_BananaPeel.yy",},
