@@ -614,14 +614,19 @@ function scr_KSW_SetAchievements()
 	#region Collect 30 Percent of the Bobbers
 	var achievementUnlockMethod = function()
 	{
+		var totalBobberCount = 0;
 		var unlockedBobberCount = 0;
 		
 		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
 		{
-			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].isUnlocked) and (global.KSW_BobberList[i].tiedAchievementName == "")) unlockedBobberCount += 1;
+			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].tiedAchievementName == ""))
+			{
+				totalBobberCount += 1;
+				if (global.KSW_BobberList[i].isUnlocked) unlockedBobberCount += 1;
+			}
 		}
 		
-		return (unlockedBobberCount >= floor(global.KSW_VisibleBobberCount * .3));
+		return (unlockedBobberCount >= floor(totalBobberCount * .3));
 	};
 	scr_KSW_AddAchievement("collectBobbers30","Lovely Trinkets","Collect 30 Percent of Bobbers",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -629,14 +634,19 @@ function scr_KSW_SetAchievements()
 	#region Collect 50 Percent of the Bobbers
 	var achievementUnlockMethod = function()
 	{
+		var totalBobberCount = 0;
 		var unlockedBobberCount = 0;
 		
 		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
 		{
-			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].isUnlocked) and (global.KSW_BobberList[i].tiedAchievementName == "")) unlockedBobberCount += 1;
+			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].tiedAchievementName == ""))
+			{
+				totalBobberCount += 1;
+				if (global.KSW_BobberList[i].isUnlocked) unlockedBobberCount += 1;
+			}
 		}
 		
-		return (unlockedBobberCount >= floor(global.KSW_VisibleBobberCount / 2));
+		return (unlockedBobberCount >= floor(totalBobberCount / 2));
 	};
 	scr_KSW_AddAchievement("collectBobbers50","A Floating Collection","Collect 50 Percent of Bobbers",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -644,14 +654,19 @@ function scr_KSW_SetAchievements()
 	#region Collect All Bobbers
 	var achievementUnlockMethod = function()
 	{
+		var totalBobberCount = 0;
 		var unlockedBobberCount = 0;
 		
 		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
 		{
-			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].isUnlocked) and (global.KSW_BobberList[i].tiedAchievementName == "")) unlockedBobberCount += 1;
+			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].tiedAchievementName == ""))
+			{
+				totalBobberCount += 1;
+				if (global.KSW_BobberList[i].isUnlocked) unlockedBobberCount += 1;
+			}
 		}
 		
-		return (unlockedBobberCount >= floor(global.KSW_VisibleBobberCount));
+		return (unlockedBobberCount >= floor(totalBobberCount));
 	};
 	scr_KSW_AddAchievement("collectBobbersAll","Hook, Line, and Sinker","Collect All Bobbers",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod);
 	#endregion
@@ -809,14 +824,19 @@ function scr_KSW_SetAchievements()
 	#region Collect All Shiny Bobbers
 	var achievementUnlockMethod = function()
 	{
+		var totalBobberCount = 0;
 		var unlockedBobberCount = 0;
 		
 		for (var i = 0; i < ds_map_size(global.KSW_BobberIDs); i++)
 		{
-			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].shinyIsUnlocked)) unlockedBobberCount += 1;
+			if ((!global.KSW_BobberList[i].isHidden) and (global.KSW_BobberList[i].tiedAchievementName == ""))
+			{
+				totalBobberCount += 1;
+				if (global.KSW_BobberList[i].shinyIsUnlocked) unlockedBobberCount += 1;
+			}
 		}
 		
-		return (unlockedBobberCount >= floor(global.KSW_VisibleBobberCount));
+		return (unlockedBobberCount >= floor(totalBobberCount));
 	};
 	scr_KSW_AddAchievement("collectShinyBobbersAll","Hooked Til It Shines","Collect All Bobbers",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,,true);
 	#endregion
