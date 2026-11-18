@@ -190,5 +190,6 @@ function scr_KSW_SetSeries()
 	scr_KSW_AddSeries("iceClimbers","Ice Climbers");
 	scr_KSW_AddSeries("skiFree","SkiFree");
 	scr_KSW_AddSeries("fiendFolio","The Binding of Isaac: Fiend Folio");
+	scr_KSW_AddSeries("danganronpa","Danganronpa");
 	#endregion
 }
