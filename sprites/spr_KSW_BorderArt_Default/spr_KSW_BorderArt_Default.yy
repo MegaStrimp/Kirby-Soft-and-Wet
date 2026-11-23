@@ -9,9 +9,6 @@
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet_BorderArts\", \"path\":\"texturegroups/SoftAndWet_BorderArts\" }",
-    },
     "Desktop":{
       "textureGroupId":"{ \"name\":\"SoftAndWet_BorderArts\", \"path\":\"texturegroups/SoftAndWet_BorderArts\" }",
     },

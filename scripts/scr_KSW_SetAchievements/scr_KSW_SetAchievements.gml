@@ -783,7 +783,7 @@ function scr_KSW_SetAchievements()
 	{
 		return (global.KSW_StageList[global.KSW_StageIDs[? "cloudyPark"]].fishCount >= global.KSW_StageList[global.KSW_StageIDs[? "cloudyPark"]].fishCountMax);
 	};
-	scr_KSW_AddAchievement("catchUniqueCloudyPark","Level One of Robot Hell","Catch All Unique Fish In Android Port",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "cloudyPark"],,true);
+	scr_KSW_AddAchievement("catchUniqueCloudyPark","I Wanna Fly Sky High","Catch All Unique Fish In Cloudy Park",spr_KSW_Achievement_Icon_Default,achievementUnlockMethod,global.KSW_BobberIDs[? "cloudyPark"],,true);
 	#endregion
 	#endregion
 	

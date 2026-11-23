@@ -39,6 +39,7 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "MiniMe",playerID,"Mini Me",spr_KSW_Player_Kirby_Hat_MiniMe_Ready_Shadow,scr_KSW_Player_Kirby_Hat_MiniMe_SpriteSet(),candy,150,0,14);
 	scr_KSW_AddHat(playerID + "_" + "Meta",playerID,"Meta",spr_KSW_Player_Kirby_Hat_Meta_Shop,scr_KSW_Player_Kirby_Hat_Meta_SpriteSet(),mage,150,0,0);
 	scr_KSW_AddHat(playerID + "_" + "Dealmaker",playerID,"Dealmaker",spr_KSW_Player_Kirby_Hat_Dealmaker_Ready,scr_KSW_Player_Kirby_Hat_Dealmaker_SpriteSet(),glimmer,150,0,5);
+	scr_KSW_AddHat(playerID + "_" + "Yarn",playerID,"Yarn",spr_KSW_Player_Kirby_Hat_Yarn_Ready_Shadow,scr_KSW_Player_Kirby_Hat_Yarn_SpriteSet(),glimmer,150,0,1,,true);
 	#endregion
 	
 	#region Gooey
@@ -46,6 +47,15 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
 	scr_KSW_AddHat(playerID + "_" + "Diver",playerID,"Diver",spr_KSW_Player_Gooey_Hat_Diver_Ready,scr_KSW_Player_Gooey_Hat_Diver_SpriteSet(),glimmer,150,-3,6);
+	scr_KSW_AddHat(playerID + "_" + "Mini",playerID,"Mini",spr_KSW_Player_Gooey_Hat_Mini_Ready_Shadow,scr_KSW_Player_Gooey_Hat_Mini_SpriteSet(),mage,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "MonsterHunter",playerID,"Monster Hunter",spr_KSW_Player_Gooey_Hat_MonsterHunter_Ready_Shop,scr_KSW_Player_Gooey_Hat_MonsterHunter_SpriteSet(),mage,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "ManyEyed",playerID,"Many Eyed",spr_KSW_Player_Gooey_Hat_ManyEyed_Ready_Shadow,scr_KSW_Player_Gooey_Hat_ManyEyed_SpriteSet(),legion,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Miku",playerID,"Miku",spr_KSW_Player_Gooey_Hat_Miku_Shop,scr_KSW_Player_Gooey_Hat_Miku_SpriteSet(),mage,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Ocarina",playerID,"Ocarina",spr_KSW_Player_Gooey_Hat_Ocarina_Shop,scr_KSW_Player_Gooey_Hat_Ocarina_SpriteSet(),legion,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Phosphor",playerID,"Phosphor",spr_KSW_Player_Gooey_Hat_Phosphor_Shop,scr_KSW_Player_Gooey_Hat_Phosphor_SpriteSet(),legion,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Pikmin",playerID,"Pikmin",spr_KSW_Player_Gooey_Hat_Pikmin_Shop,scr_KSW_Player_Gooey_Hat_Pikmin_SpriteSet(),mint,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Puddle",playerID,"Puddle",spr_KSW_Player_Gooey_Hat_Puddle_Ready,scr_KSW_Player_Gooey_Hat_Puddle_SpriteSet(),borange,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Rock",playerID,"Rock",spr_KSW_Player_Gooey_Hat_Rock_Ready,scr_KSW_Player_Gooey_Hat_Rock_SpriteSet(),legion,150,-2,11);
 	#endregion
 	
 	#region Elfilin
@@ -55,6 +65,8 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "FectoHorns",playerID,"Fecto Horns",spr_KSW_Player_Elfilin_Hat_FectoHorns_Ready,scr_KSW_Player_Elfilin_Hat_FectoHorns_SpriteSet(),glimmer,150,0,14);
 	scr_KSW_AddHat(playerID + "_" + "Ranger",playerID,"Ranger",spr_KSW_Player_Elfilin_Hat_Ranger_Ready,scr_KSW_Player_Elfilin_Hat_Ranger_SpriteSet(),candy,150,0,9);
 	scr_KSW_AddHat(playerID + "_" + "Halo",playerID,"Halo",spr_KSW_Player_Elfilin_Hat_Halo_Ready,scr_KSW_Player_Elfilin_Hat_Halo_SpriteSet(),glimmer,150,1,18);
+	scr_KSW_AddHat(playerID + "_" + "Earring",playerID,"Earring",spr_KSW_Player_Elfilin_Hat_Earring_Ready,scr_KSW_Player_Elfilin_Hat_Earring_SpriteSet(),glimmer,150,9,6);
+	scr_KSW_AddHat(playerID + "_" + "Canon",playerID,"Canon",spr_KSW_Player_Elfilin_Hat_Canon_Ready_Shadow,scr_KSW_Player_Elfilin_Hat_Canon_SpriteSet(),mage,150,2,3,,true);
 	#endregion
 	
 	#region Marx
@@ -71,6 +83,7 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "Sailor",playerID,"Sailor",spr_KSW_Player_WaddleDee_Hat_Sailor_Ready,scr_KSW_Player_WaddleDee_Hat_Sailor_SpriteSet(),mage,150,2,5);
 	scr_KSW_AddHat(playerID + "_" + "Raldee",playerID,"Raldee",spr_KSW_Player_WaddleDee_Hat_Raldee_Ready,scr_KSW_Player_WaddleDee_Hat_Raldee_SpriteSet(),mint,150,3,8);
 	scr_KSW_AddHat(playerID + "_" + "Doo",playerID,"Doo",spr_KSW_Player_WaddleDee_Hat_Doo_Ready,scr_KSW_Player_WaddleDee_Hat_Doo_SpriteSet(),borange,150,1,3);
+	scr_KSW_AddHat(playerID + "_" + "Yarn",playerID,"Yarn",spr_KSW_Player_WaddleDee_Hat_Yarn_Ready_Shadow,scr_KSW_Player_WaddleDee_Hat_Yarn_SpriteSet(),borange,150,1,1,,true);
 	#endregion
 	
 	#region Susie
@@ -78,6 +91,9 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
 	scr_KSW_AddHat(playerID + "_" + "Weekend",playerID,"Weekend",spr_KSW_Player_Susie_Hat_Weekend_Ready,scr_KSW_Player_Susie_Hat_Weekend_SpriteSet(),candy,150,3,16);
+	scr_KSW_AddHat(playerID + "_" + "Doctor",playerID,"Doctor",spr_KSW_Player_Susie_Hat_Doctor_Ready,scr_KSW_Player_Susie_Hat_Doctor_SpriteSet(),mage,150,-1,14);
+	scr_KSW_AddHat(playerID + "_" + "DisasterOfPassion",playerID,"Disaster of Passion",spr_KSW_Player_Susie_Hat_DisasterOfPassion_Ready,scr_KSW_Player_Susie_Hat_DisasterOfPassion_SpriteSet(),borange,150,-1,20);
+	scr_KSW_AddHat(playerID + "_" + "Samus",playerID,"Samus",spr_KSW_Player_Susie_Hat_Samus_Ready,scr_KSW_Player_Susie_Hat_Samus_SpriteSet(),candy,150,1,13);
 	#endregion
 	
 	#region Ybrik
@@ -102,12 +118,15 @@ function scr_KSW_SetHats()
 	var playerID = "chip";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,glimmer,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Cat",playerID,"Cat",spr_KSW_Player_Chip_Hat_Cat_Ready_Shadow,scr_KSW_Player_Chip_Hat_Cat_SpriteSet(),glimmer,150,1,2);
+	scr_KSW_AddHat(playerID + "_" + "Chao",playerID,"Chao",spr_KSW_Player_Chip_Hat_Chao_Ready,scr_KSW_Player_Chip_Hat_Chao_SpriteSet(),mint,150,2,8);
 	#endregion
 	
 	#region Kracko
 	var playerID = "kracko";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Dekofloof",playerID,"Dekofloof",spr_KSW_Player_Kracko_Hat_Dekofloof_Ready,scr_KSW_Player_Kracko_Hat_Dekofloof_SpriteSet(),borange,150,1,37);
 	#endregion
 	
 	#region N-Z
@@ -115,12 +134,14 @@ function scr_KSW_SetHats()
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,legion,0,0,0,true);
 	scr_KSW_AddHat(playerID + "_" + "Stacy",playerID,"Stacy",spr_KSW_Player_NZ_Hat_Stacy_Ready_Shadow,scr_KSW_Player_NZ_Hat_Stacy_SpriteSet(),legion,150,8,7);
+	scr_KSW_AddHat(playerID + "_" + "Bunny",playerID,"Bunny",spr_KSW_Player_NZ_Hat_Bunny_Ready_Shadow,scr_KSW_Player_NZ_Hat_Bunny_SpriteSet(),legion,150,5,11);
 	#endregion
 	
 	#region Kabula
 	var playerID = "kabula";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,borange,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Hurt",playerID,"Hurt",spr_KSW_Player_Kabula_Hat_Hurt_Ready_Shadow,scr_KSW_Player_Kabula_Hat_Hurt_SpriteSet(),borange,150,6,65);
 	#endregion
 	
 	#region Starman

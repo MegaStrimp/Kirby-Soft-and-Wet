@@ -19,13 +19,13 @@ function scr_Screen_WriteAllSpecs(_x = 5, _y = 5, _scale = display_get_gui_heigh
   
   _str += $"Window: {_winRes} - {_winAspect}\n";
   
-  var _appRes =    $"{_appW} x { _appH}";
+  var _appRes =    $"{_appW} x  {_appH}";
   var _appAspect = $"{_appW  /   _appH}";
   var _appScale =  _winW / _appW == _winH / _appH ? $"{_winW / _appW}" : $"({_winW / _appW} : {_winH / _appH})";
   
   _str += $"App Surface: {_appRes} - {_appAspect} - {_appScale}X\n";
   
-  var _guiRes =    $"{_guiW} x { _guiH}";
+  var _guiRes =    $"{_guiW} x  {_guiH}";
   var _guiAspect = $"{_guiW  /   _guiH}";
   var _guiScale =  _appW / _guiW == _appH / _guiH ? $"{_appW / _guiW}" : $"({_appW / _guiW} : {_appH / _guiH})";
   

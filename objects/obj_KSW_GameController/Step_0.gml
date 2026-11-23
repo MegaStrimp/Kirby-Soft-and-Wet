@@ -93,11 +93,25 @@ if (!localPause)
 			
 			if ((global.debug) and (keyboard_check_pressed(ord("L"))))
 			{
-				for (var i = 0; i < ds_map_size(global.KSW_NotifIDs); i++)
+				if (keyboard_check(vk_shift))
 				{
-					var notifID = global.KSW_NotifList[i].id;
-					
-					scr_KSW_ObtainNotif(global.KSW_NotifIDs[? notifID],true);
+					if (global.KSW_CurrentEvent == -1)
+					{
+						queuedEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];
+						
+						scr_KSW_Event_Start(queuedEvent);
+						
+						queuedEvent = -1;
+					}
+				}
+				else
+				{
+					for (var i = 0; i < ds_map_size(global.KSW_NotifIDs); i++)
+					{
+						var notifID = global.KSW_NotifList[i].id;
+						
+						scr_KSW_ObtainNotif(global.KSW_NotifIDs[? notifID],true);
+					}
 				}
 			}
 			#endregion
@@ -763,7 +777,7 @@ if (!localPause)
 				if (global.KSW_EquippedBaitID[playerNum] != global.KSW_BaitIDs[? "noEvents"])
 				{
 					var eventRng = irandom_range(0,14);
-					if (global.debug) eventRng = 0; //STRIMPTODO
+					//if (global.debug) eventRng = 0; //STRIMPTODO
 					if ((eventRng == 0) and (global.KSW_CurrentEvent == -1))
 					{
 						queuedEvent = currentEventPool[irandom_range(0,array_length(currentEventPool) - 1)];

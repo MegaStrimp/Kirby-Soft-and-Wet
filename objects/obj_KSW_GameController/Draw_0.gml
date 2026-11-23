@@ -130,7 +130,7 @@ if ((state == KSW_GameStates.waiting) or (state == KSW_GameStates.waiting_End) o
 #region Fail Timer
 if (failTimer != -1)
 {
-	draw_sprite(spr_KSW_UI_FailTimerBar_Back,0,75,32);
+	draw_sprite(failBarBack,0,75,32);
 	draw_sprite(spr_KSW_UI_FailTimerBar_Border,0,72,28);
 	
 	scr_DrawMask_Begin();
@@ -143,7 +143,7 @@ if (failTimer != -1)
 	gpu_set_blendmode_ext(bm_dest_alpha,bm_inv_dest_alpha);
 	gpu_set_alphatestenable(true);
 	
-	draw_sprite(failBarBackDefault,0,75,28);
+	//draw_sprite(failBarBack,0,75,28);
 	for (var i = 0; i < 6; i++)
 	{
 		draw_sprite(failBarTexture,0,75 + failTimerBarTextureX + ((i - 1) * failTimerBarTextureWidth),28);

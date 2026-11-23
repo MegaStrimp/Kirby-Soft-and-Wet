@@ -11,7 +11,7 @@ function scr_KSW_Event_DimensionalFissure_End()
 	{
 		passStageCheck = false;
 		
-		scr_KSW_Game_SetPool(playerNum);
+		currentFishPool = scr_KSW_Game_SetPool(playerNum);
 		
 		failBarBack = failBarBackDefault;
 		failBarTexture = failBarTextureDefault;
