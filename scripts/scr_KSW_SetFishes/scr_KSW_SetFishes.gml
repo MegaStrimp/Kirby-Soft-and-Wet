@@ -194,6 +194,7 @@ function scr_KSW_SetFishes()
 	var series_SkiFree = global.KSW_SeriesIDs[? "skiFree"];
 	var series_FiendFolio = global.KSW_SeriesIDs[? "fiendFolio"];
 	var series_HalfLife = global.KSW_SeriesIDs[? "halfLife"];
+	var series_Danganronpa = global.KSW_SeriesIDs[? "danganronpa"];
 	#endregion
 	
 	#region Stages
@@ -3590,6 +3591,19 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Tokai Teio",spr_KSW_Fish_TokaiTeio,spr_KSW_Fish_TokaiTeio_Pal,series_Umamusume,mage,3,grassBeach,KSW_Phases.day,1500);
 	scr_KSW_AddFish("Tsurumaru Tsuyoshi",spr_KSW_Fish_TsurumaruTsuyoshi,spr_KSW_Fish_TsurumaruTsuyoshi_Pal,series_Umamusume,glimmer,2,cloudyPark,KSW_Phases.afternoon,1600);
 	scr_KSW_AddFish("Vodka",spr_KSW_Fish_Vodka,spr_KSW_Fish_Vodka_Pal,series_Umamusume,legion,2,grassBeach,KSW_Phases.afternoon,1650);
+	scr_KSW_AddFish("Gold Ship (Goldshi's Grand Adventure 2)",spr_KSW_Fish_GoldshipGoldshisGrandAdventure2,spr_KSW_Fish_GoldshipGoldshisGrandAdventure2_Pal,series_Umamusume,candy,3,androidPort,KSW_Phases.none,12000);
+	scr_KSW_AddFish("Haru Urara",spr_KSW_Fish_HaruUrara,spr_KSW_Fish_HaruUrara_Pal,series_Umamusume,glimmer,1,grassBeach,KSW_Phases.day,1400,0,0,0,snd_KSW_Fish_HaruUrara);
+	scr_KSW_AddFish("Nice Nature",spr_KSW_Fish_NiceNature,spr_KSW_Fish_NiceNature_Pal,series_Umamusume,mint,1,grassBeach,KSW_Phases.day,1570,0,0,0,snd_KSW_Fish_NiceNature);
+	scr_KSW_AddFish("Rice Shower",spr_KSW_Fish_RiceShower,spr_KSW_Fish_RiceShower_Pal,series_Umamusume,flux,3,hallowReen,KSW_Phases.day,1450);
+	scr_KSW_AddFish("Ransom",spr_KSW_Fish_Ransom,spr_KSW_Fish_Ransom_Pal,series_doors,candy,3,androidPort,KSW_Phases.none,1,0,0,0,snd_KSW_Fish_Ransom);
+	scr_KSW_AddFish("School Crest",spr_KSW_Fish_SchoolCrest,spr_KSW_Fish_SchoolCrest_Pal,series_Danganronpa,borange,1,hallowReen,KSW_Phases.night,100)
+	scr_KSW_AddFish("Despair Bat",spr_KSW_Fish_DespairBat,spr_KSW_Fish_DespairBat_Pal,series_Danganronpa,borange,2,grassBeach,KSW_Phases.afternoon,1000);
+	scr_KSW_AddFish("Crazy Diamond (DR)",spr_KSW_Fish_CrazyDiamondDR,spr_KSW_Fish_CrazyDiamondDR_Pal,series_Danganronpa,flux,2,serranoSprings,KSW_Phases.afternoon,2000);
+	scr_KSW_AddFish("Super Robo Justice",spr_KSW_Fish_SuperRoboJustice,spr_KSW_Fish_SuperRoboJustice_Pal,series_Danganronpa,legion,2,grassBeach,KSW_Phases.night,3000);
+	scr_KSW_AddFish("Alter Lump",spr_KSW_Fish_AlterLump,spr_KSW_Fish_AlterLump_Pal,series_Danganronpa,mint,2,androidPort,KSW_Phases.none,4000);
+	scr_KSW_AddFish("Dream Island Rocket",spr_KSW_Fish_DreamIslandRocket,spr_KSW_Fish_DreamIslandRocket_Pal,series_Danganronpa,legion,2,cloudyPark,KSW_Phases.night,5000);
+	scr_KSW_AddFish("Monokuma Hairties",spr_KSW_Fish_MonokumaHairties,spr_KSW_Fish_MonokumaHairties_Pal,series_Danganronpa,candy,3,hallowReen,KSW_Phases.night,6000);
+	scr_KSW_AddFish("Easter Egg",spr_KSW_Fish_EasterEgg,spr_KSW_Fish_EasterEgg_Pal,series_Danganronpa,candy,3,hallowReen,KSW_Phases.none,7000);
 	scr_KSW_AddFish("Gold Ship (GGA 2)",spr_KSW_Fish_GoldshipGoldshisGrandAdventure2,spr_KSW_Fish_GoldshipGoldshisGrandAdventure2_Pal,series_Umamusume,candy,3,androidPort,KSW_Phases.none,12000);
 	scr_KSW_AddFish("Jaws",spr_KSW_Fish_Jaws,spr_KSW_Fish_Jaws_Pal,series_SonicTheHedgehog,glimmer,0,androidPort,KSW_Phases.afternoon,300);
 	scr_KSW_AddFish("Amenbo",spr_KSW_Fish_Amenbo,spr_KSW_Fish_Amenbo_Pal,series_SonicTheHedgehog,borange,0,androidPort,KSW_Phases.night,300);
@@ -3685,5 +3699,4 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Manhack",spr_KSW_Fish_Manhack,spr_KSW_Fish_Manhack_Pal,series_HalfLife,legion,1,cloudyPark,KSW_Phases.day,2004);
 	scr_KSW_AddFish("Gunship",spr_KSW_Fish_Gunship,spr_KSW_Fish_Gunship_Pal,series_HalfLife,legion,2,cloudyPark,KSW_Phases.day,20040,-40,0);
 	#endregion
-	#endregion
-}
+	}#endregion
