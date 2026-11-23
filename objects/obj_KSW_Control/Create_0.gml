@@ -14,8 +14,8 @@ global.KSW_HasCursor = true;
 
 #region Gameplay Variables
 global.gameTitle = "Kirby ~ Soft & Wet";
-global.versionNumber = "1.2.8";
-global.versionSubtitle = "November Rain";
+global.versionNumber = "1.2.X";
+global.versionSubtitle = "November Rain -ROYAL-";
 
 global.pauseScript = scr_KSW_PauseScript;
 

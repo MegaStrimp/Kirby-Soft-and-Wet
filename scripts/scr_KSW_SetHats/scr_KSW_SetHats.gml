@@ -48,14 +48,14 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
 	scr_KSW_AddHat(playerID + "_" + "Diver",playerID,"Diver",spr_KSW_Player_Gooey_Hat_Diver_Ready,scr_KSW_Player_Gooey_Hat_Diver_SpriteSet(),glimmer,150,-3,6);
 	scr_KSW_AddHat(playerID + "_" + "Mini",playerID,"Mini",spr_KSW_Player_Gooey_Hat_Mini_Ready_Shadow,scr_KSW_Player_Gooey_Hat_Mini_SpriteSet(),mage,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "MonsterHunter",playerID,"Monster Hunter",spr_KSW_Player_Gooey_Hat_MonsterHunter_Ready_Shop,scr_KSW_Player_Gooey_Hat_MonsterHunter_SpriteSet(),mage,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "ManyEyed",playerID,"Many Eyed",spr_KSW_Player_Gooey_Hat_ManyEyed_Ready_Shadow,scr_KSW_Player_Gooey_Hat_ManyEyed_SpriteSet(),legion,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "Miku",playerID,"Miku",spr_KSW_Player_Gooey_Hat_Miku_Shop,scr_KSW_Player_Gooey_Hat_Miku_SpriteSet(),mage,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "Ocarina",playerID,"Ocarina",spr_KSW_Player_Gooey_Hat_Ocarina_Shop,scr_KSW_Player_Gooey_Hat_Ocarina_SpriteSet(),legion,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "Phosphor",playerID,"Phosphor",spr_KSW_Player_Gooey_Hat_Phosphor_Shop,scr_KSW_Player_Gooey_Hat_Phosphor_SpriteSet(),legion,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "Pikmin",playerID,"Pikmin",spr_KSW_Player_Gooey_Hat_Pikmin_Shop,scr_KSW_Player_Gooey_Hat_Pikmin_SpriteSet(),mint,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "Puddle",playerID,"Puddle",spr_KSW_Player_Gooey_Hat_Puddle_Ready,scr_KSW_Player_Gooey_Hat_Puddle_SpriteSet(),borange,150,-2,11);
-	scr_KSW_AddHat(playerID + "_" + "Rock",playerID,"Rock",spr_KSW_Player_Gooey_Hat_Rock_Ready,scr_KSW_Player_Gooey_Hat_Rock_SpriteSet(),legion,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "MonsterHunter",playerID,"Monster Hunter",spr_KSW_Player_Gooey_Hat_MonsterHunter_Ready_Shop,scr_KSW_Player_Gooey_Hat_MonsterHunter_SpriteSet(),mage,150,-2,3);
+	scr_KSW_AddHat(playerID + "_" + "ManyEyed",playerID,"Many Eyed",spr_KSW_Player_Gooey_Hat_ManyEyed_Ready_Shadow,scr_KSW_Player_Gooey_Hat_ManyEyed_SpriteSet(),legion,150,-1,3);
+	scr_KSW_AddHat(playerID + "_" + "Miku",playerID,"Miku",spr_KSW_Player_Gooey_Hat_Miku_Shop,scr_KSW_Player_Gooey_Hat_Miku_SpriteSet(),mage,150,-1,1);
+	scr_KSW_AddHat(playerID + "_" + "Ocarina",playerID,"Ocarina",spr_KSW_Player_Gooey_Hat_Ocarina_Shop,scr_KSW_Player_Gooey_Hat_Ocarina_SpriteSet(),legion,150,-2,1);
+	scr_KSW_AddHat(playerID + "_" + "Phosphor",playerID,"Phosphor",spr_KSW_Player_Gooey_Hat_Phosphor_Shop,scr_KSW_Player_Gooey_Hat_Phosphor_SpriteSet(),legion,150,-1,9);
+	scr_KSW_AddHat(playerID + "_" + "Pikmin",playerID,"Pikmin",spr_KSW_Player_Gooey_Hat_Pikmin_Shop,scr_KSW_Player_Gooey_Hat_Pikmin_SpriteSet(),mint,150,3,12);
+	scr_KSW_AddHat(playerID + "_" + "Puddle",playerID,"Puddle",spr_KSW_Player_Gooey_Hat_Puddle_Ready,scr_KSW_Player_Gooey_Hat_Puddle_SpriteSet(),borange,150,-7,8);
+	scr_KSW_AddHat(playerID + "_" + "Rock",playerID,"Rock",spr_KSW_Player_Gooey_Hat_Rock_Ready,scr_KSW_Player_Gooey_Hat_Rock_SpriteSet(),legion,150,-2,2);
 	#endregion
 	
 	#region Elfilin
@@ -154,6 +154,8 @@ function scr_KSW_SetHats()
 	var playerID = "chilly";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "Bald",playerID,"Bald",spr_KSW_Player_Chilly_Hat_Bald_Ready_Shadow,scr_KSW_Player_Chilly_Hat_Bald_SpriteSet(),mage,150,-1,3,,true);
+	scr_KSW_AddHat(playerID + "_" + "HeeHo",playerID,"Hee-Ho",spr_KSW_Player_Chilly_Hat_HeeHo_Ready,scr_KSW_Player_Chilly_Hat_HeeHo_SpriteSet(),mage,150,4,10);
 	#endregion
 	
 	#region King Dedede
