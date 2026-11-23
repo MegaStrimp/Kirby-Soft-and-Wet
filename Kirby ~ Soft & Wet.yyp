@@ -1817,6 +1817,7 @@
     {"$GMFolder":"","%Name":"Gririan","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Gririan.yy","name":"Gririan","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grizby","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Grizby.yy","name":"Grizby","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Groudon","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Groudon.yy","name":"Groudon","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Rainmaker","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Rainmaker.yy","name":"Rainmaker","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grouper","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Grouper.yy","name":"Grouper","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Grub Robs","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Grub Robs.yy","name":"Grub Robs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gruff Goat","folderPath":"folders/Kirby ~ Soft & Wet/Fishes/Characters/1.2/Gruff Goat.yy","name":"Gruff Goat","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -4149,7 +4150,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.1.0.27",
   },
   "name":"Kirby ~ Soft & Wet",
   "resources":[
@@ -10592,6 +10593,8 @@
     {"id":{"name":"spr_KSW_Fish_Rainbowfish","path":"sprites/spr_KSW_Fish_Rainbowfish/spr_KSW_Fish_Rainbowfish.yy",},},
     {"id":{"name":"spr_KSW_Fish_RainbowTrout_Pal","path":"sprites/spr_KSW_Fish_RainbowTrout_Pal/spr_KSW_Fish_RainbowTrout_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_RainbowTrout","path":"sprites/spr_KSW_Fish_RainbowTrout/spr_KSW_Fish_RainbowTrout.yy",},},
+    {"id":{"name":"spr_KSW_Fish_Rainmaker_Pal","path":"sprites/spr_KSW_Fish_Rainmaker_Pal/spr_KSW_Fish_Rainmaker_Pal.yy",},},
+    {"id":{"name":"spr_KSW_Fish_Rainmaker","path":"sprites/spr_KSW_Fish_Rainmaker/spr_KSW_Fish_Rainmaker.yy",},},
     {"id":{"name":"spr_KSW_Fish_Ramb_Pal","path":"sprites/spr_KSW_Fish_Ramb_Pal/spr_KSW_Fish_Ramb_Pal.yy",},},
     {"id":{"name":"spr_KSW_Fish_Ramb","path":"sprites/spr_KSW_Fish_Ramb/spr_KSW_Fish_Ramb.yy",},},
     {"id":{"name":"spr_KSW_Fish_RamblinEvilMushroom_Pal","path":"sprites/spr_KSW_Fish_RamblinEvilMushroom_Pal/spr_KSW_Fish_RamblinEvilMushroom_Pal.yy",},},
@@ -14283,6 +14286,7 @@
     {"id":{"name":"spr_KSW_UI_NotifBox_Image_AllHail","path":"sprites/spr_KSW_UI_NotifBox_Image_AllHail/spr_KSW_UI_NotifBox_Image_AllHail.yy",},},
     {"id":{"name":"spr_KSW_UI_NotifBox_Image_Completion1","path":"sprites/spr_KSW_UI_NotifBox_Image_Completion1/spr_KSW_UI_NotifBox_Image_Completion1.yy",},},
     {"id":{"name":"spr_KSW_UI_NotifBox_Image_Completion2","path":"sprites/spr_KSW_UI_NotifBox_Image_Completion2/spr_KSW_UI_NotifBox_Image_Completion2.yy",},},
+    {"id":{"name":"spr_KSW_UI_NotifBox_Image_EXMode","path":"sprites/spr_KSW_UI_NotifBox_Image_EXMode/spr_KSW_UI_NotifBox_Image_EXMode.yy",},},
     {"id":{"name":"spr_KSW_UI_NotifBox_Image_Legend1","path":"sprites/spr_KSW_UI_NotifBox_Image_Legend1/spr_KSW_UI_NotifBox_Image_Legend1.yy",},},
     {"id":{"name":"spr_KSW_UI_NotifBox_Image_Legend2","path":"sprites/spr_KSW_UI_NotifBox_Image_Legend2/spr_KSW_UI_NotifBox_Image_Legend2.yy",},},
     {"id":{"name":"spr_KSW_UI_NotifBox_Image_Legend3","path":"sprites/spr_KSW_UI_NotifBox_Image_Legend3/spr_KSW_UI_NotifBox_Image_Legend3.yy",},},

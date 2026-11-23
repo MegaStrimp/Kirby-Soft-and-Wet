@@ -17,14 +17,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b3a4a687-0854-4100-8562-28d35a81410d","name":"b3a4a687-0854-4100-8562-28d35a81410d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"279c9957-07a7-407a-970f-d563b2973b12","name":"279c9957-07a7-407a-970f-d563b2973b12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":34,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3f8439d8-e09c-4a21-a625-d936501dc478","blendMode":0,"displayName":"default","isLocked":false,"name":"3f8439d8-e09c-4a21-a625-d936501dc478","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9dc4f33f-7d9c-43db-afc7-fe09fb1a347c","blendMode":0,"displayName":"default","isLocked":false,"name":"9dc4f33f-7d9c-43db-afc7-fe09fb1a347c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Chip_Hat_Cat_Right_Shadow",
   "nineSlice":null,
@@ -74,8 +74,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3a4a687-0854-4100-8562-28d35a81410d","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_Right_Shadow/spr_KSW_Player_Chip_Hat_Cat_Right_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dc7bf1f5-a765-4087-89b1-edbf860d5ebc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"279c9957-07a7-407a-970f-d563b2973b12","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_Right_Shadow/spr_KSW_Player_Chip_Hat_Cat_Right_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c982c59b-e7a6-439b-8270-ab8cbf4487dc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

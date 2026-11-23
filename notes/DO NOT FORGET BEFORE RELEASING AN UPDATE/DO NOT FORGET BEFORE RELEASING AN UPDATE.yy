@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"v1",
+  "$GMNotes":"v2",
   "%Name":"DO NOT FORGET BEFORE RELEASING AN UPDATE",
   "name":"DO NOT FORGET BEFORE RELEASING AN UPDATE",
   "parent":{

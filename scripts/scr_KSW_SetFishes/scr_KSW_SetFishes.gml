@@ -3173,7 +3173,7 @@ function scr_KSW_SetFishes()
 	{
 		return (global.KSW_CaughtTotalFishCount >= KSW_RainmakerTotalFishCondition);
 	}
-	var rainmaker = scr_KSW_AddFish("Rainmaker",spr_KSW_Fish_Crappy_Looking_Fish,spr_KSW_Fish_Crappy_Looking_Fish_Pal,series_Misc,legion,2,anyStage,KSW_Phases.none,333333,,,rainmakerCatchScript); //STRIMPTODO
+	var rainmaker = scr_KSW_AddFish("Rainmaker",spr_KSW_Fish_Rainmaker,spr_KSW_Fish_Rainmaker_Pal,series_Misc,legion,2,anyStage,KSW_Phases.none,333333,,,rainmakerCatchScript);
 	rainmaker.poolCondition = rainmakerPoolCondition;
 	scr_KSW_AddFish("Sprite Locator",spr_KSW_Fish_SpriteLocator,spr_KSW_Fish_SpriteLocator_Pal,series_Fortnite,candy,2,anyStage,KSW_Phases.none,80000);
 	scr_KSW_AddFish("TheSecondComing.exe",spr_KSW_Fish_TheSecondComingExe,spr_KSW_Fish_TheSecondComingExe_Pal,series_AnimationVERSUS,borange,3,androidPort,KSW_Phases.none,21014,-29,-14);

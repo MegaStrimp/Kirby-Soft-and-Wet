@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"v1",
+  "$GMNotes":"v2",
   "%Name":"Color Key Mask",
   "name":"Color Key Mask",
   "parent":{

@@ -13,17 +13,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b78b4eaf-6981-45c5-9307-d90b98e1aab0","name":"b78b4eaf-6981-45c5-9307-d90b98e1aab0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"10854667-13db-401a-b91c-74665a7c8421","name":"10854667-13db-401a-b91c-74665a7c8421","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"16679f47-f09f-4a6e-aa4f-ab446fb38893","name":"16679f47-f09f-4a6e-aa4f-ab446fb38893","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f1fcee3d-910e-4db5-8200-14719e7ef818","name":"f1fcee3d-910e-4db5-8200-14719e7ef818","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c91b58d4-be7e-443f-9f1e-051d442aa3b1","name":"c91b58d4-be7e-443f-9f1e-051d442aa3b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8481c59f-9987-43db-9dbe-f15221202e5c","name":"8481c59f-9987-43db-9dbe-f15221202e5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"09144f2e-bc03-4189-b439-004f605f0fc5","name":"09144f2e-bc03-4189-b439-004f605f0fc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9d6e7cb-8813-4af6-8ac1-1794e50c939a","name":"c9d6e7cb-8813-4af6-8ac1-1794e50c939a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":160,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"207b8606-bb64-4ee4-8b0f-e94dc0970a32","blendMode":0,"displayName":"default","isLocked":false,"name":"207b8606-bb64-4ee4-8b0f-e94dc0970a32","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5e888c31-7b90-4e7e-a116-4914d599a3a5","blendMode":0,"displayName":"default","isLocked":false,"name":"5e888c31-7b90-4e7e-a116-4914d599a3a5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Layout_CloudyPark_Afternoon",
   "nineSlice":null,
@@ -75,17 +75,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b78b4eaf-6981-45c5-9307-d90b98e1aab0","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d329a32a-e6aa-47fd-a9cd-4b75957a970b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c91b58d4-be7e-443f-9f1e-051d442aa3b1","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9e58fde4-f73d-40e5-bf30-200171f8c32d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"10854667-13db-401a-b91c-74665a7c8421","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8b3b45e6-09fa-4ac4-ac10-d5ab9b3dd870","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8481c59f-9987-43db-9dbe-f15221202e5c","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a3dfdecb-469c-4463-9cfa-9447dea873ff","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16679f47-f09f-4a6e-aa4f-ab446fb38893","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"da29f743-66fb-47e7-938f-7628840048d6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"09144f2e-bc03-4189-b439-004f605f0fc5","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"23f88b51-aae4-4e50-958d-d7e023fbbdd8","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1fcee3d-910e-4db5-8200-14719e7ef818","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"abed2231-4915-4e0a-bcdc-9270f609ada8","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9d6e7cb-8813-4af6-8ac1-1794e50c939a","path":"sprites/spr_KSW_Layout_CloudyPark_Afternoon/spr_KSW_Layout_CloudyPark_Afternoon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9c4b28c2-cf99-4845-977c-81515f7a97f0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
