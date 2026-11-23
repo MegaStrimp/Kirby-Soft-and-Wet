@@ -39,7 +39,7 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "MiniMe",playerID,"Mini Me",spr_KSW_Player_Kirby_Hat_MiniMe_Ready_Shadow,scr_KSW_Player_Kirby_Hat_MiniMe_SpriteSet(),candy,150,0,14);
 	scr_KSW_AddHat(playerID + "_" + "Meta",playerID,"Meta",spr_KSW_Player_Kirby_Hat_Meta_Shop,scr_KSW_Player_Kirby_Hat_Meta_SpriteSet(),mage,150,0,0);
 	scr_KSW_AddHat(playerID + "_" + "Dealmaker",playerID,"Dealmaker",spr_KSW_Player_Kirby_Hat_Dealmaker_Ready,scr_KSW_Player_Kirby_Hat_Dealmaker_SpriteSet(),glimmer,150,0,5);
-	scr_KSW_AddHat(playerID + "_" + "Yarn",playerID,"Yarn",spr_KSW_Player_Kirby_Hat_Yarn_Ready_Shadow,scr_KSW_Player_Kirby_Hat_Yarn_SpriteSet(),glimmer,150,0,1);
+	scr_KSW_AddHat(playerID + "_" + "Yarn",playerID,"Yarn",spr_KSW_Player_Kirby_Hat_Yarn_Ready_Shadow,scr_KSW_Player_Kirby_Hat_Yarn_SpriteSet(),glimmer,150,0,1,,true);
 	#endregion
 	
 	#region Gooey
@@ -48,6 +48,14 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,mage,0,0,0,true);
 	scr_KSW_AddHat(playerID + "_" + "Diver",playerID,"Diver",spr_KSW_Player_Gooey_Hat_Diver_Ready,scr_KSW_Player_Gooey_Hat_Diver_SpriteSet(),glimmer,150,-3,6);
 	scr_KSW_AddHat(playerID + "_" + "Mini",playerID,"Mini",spr_KSW_Player_Gooey_Hat_Mini_Ready_Shadow,scr_KSW_Player_Gooey_Hat_Mini_SpriteSet(),mage,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "MonsterHunter",playerID,"Monster Hunter",spr_KSW_Player_Gooey_Hat_MonsterHunter_Ready_Shop,scr_KSW_Player_Gooey_Hat_MonsterHunter_SpriteSet(),mage,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "ManyEyed",playerID,"Many Eyed",spr_KSW_Player_Gooey_Hat_ManyEyed_Ready_Shadow,scr_KSW_Player_Gooey_Hat_ManyEyed_SpriteSet(),legion,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Miku",playerID,"Miku",spr_KSW_Player_Gooey_Hat_Miku_Shop,scr_KSW_Player_Gooey_Hat_Miku_SpriteSet(),mage,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Ocarina",playerID,"Ocarina",spr_KSW_Player_Gooey_Hat_Ocarina_Shop,scr_KSW_Player_Gooey_Hat_Ocarina_SpriteSet(),legion,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Phosphor",playerID,"Phosphor",spr_KSW_Player_Gooey_Hat_Phosphor_Shop,scr_KSW_Player_Gooey_Hat_Phosphor_SpriteSet(),legion,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Pikmin",playerID,"Pikmin",spr_KSW_Player_Gooey_Hat_Pikmin_Shop,scr_KSW_Player_Gooey_Hat_Pikmin_SpriteSet(),mint,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Puddle",playerID,"Puddle",spr_KSW_Player_Gooey_Hat_Puddle_Ready,scr_KSW_Player_Gooey_Hat_Puddle_SpriteSet(),borange,150,-2,11);
+	scr_KSW_AddHat(playerID + "_" + "Rock",playerID,"Rock",spr_KSW_Player_Gooey_Hat_Rock_Ready,scr_KSW_Player_Gooey_Hat_Rock_SpriteSet(),legion,150,-2,11);
 	#endregion
 	
 	#region Elfilin
@@ -58,7 +66,7 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "Ranger",playerID,"Ranger",spr_KSW_Player_Elfilin_Hat_Ranger_Ready,scr_KSW_Player_Elfilin_Hat_Ranger_SpriteSet(),candy,150,0,9);
 	scr_KSW_AddHat(playerID + "_" + "Halo",playerID,"Halo",spr_KSW_Player_Elfilin_Hat_Halo_Ready,scr_KSW_Player_Elfilin_Hat_Halo_SpriteSet(),glimmer,150,1,18);
 	scr_KSW_AddHat(playerID + "_" + "Earring",playerID,"Earring",spr_KSW_Player_Elfilin_Hat_Earring_Ready,scr_KSW_Player_Elfilin_Hat_Earring_SpriteSet(),glimmer,150,9,6);
-	scr_KSW_AddHat(playerID + "_" + "Canon",playerID,"Canon",spr_KSW_Player_Elfilin_Hat_Canon_Ready_Shadow,scr_KSW_Player_Elfilin_Hat_Canon_SpriteSet(),mage,150,2,3);
+	scr_KSW_AddHat(playerID + "_" + "Canon",playerID,"Canon",spr_KSW_Player_Elfilin_Hat_Canon_Ready_Shadow,scr_KSW_Player_Elfilin_Hat_Canon_SpriteSet(),mage,150,2,3,,true);
 	#endregion
 	
 	#region Marx
@@ -75,7 +83,7 @@ function scr_KSW_SetHats()
 	scr_KSW_AddHat(playerID + "_" + "Sailor",playerID,"Sailor",spr_KSW_Player_WaddleDee_Hat_Sailor_Ready,scr_KSW_Player_WaddleDee_Hat_Sailor_SpriteSet(),mage,150,2,5);
 	scr_KSW_AddHat(playerID + "_" + "Raldee",playerID,"Raldee",spr_KSW_Player_WaddleDee_Hat_Raldee_Ready,scr_KSW_Player_WaddleDee_Hat_Raldee_SpriteSet(),mint,150,3,8);
 	scr_KSW_AddHat(playerID + "_" + "Doo",playerID,"Doo",spr_KSW_Player_WaddleDee_Hat_Doo_Ready,scr_KSW_Player_WaddleDee_Hat_Doo_SpriteSet(),borange,150,1,3);
-	scr_KSW_AddHat(playerID + "_" + "Yarn",playerID,"Yarn",spr_KSW_Player_WaddleDee_Hat_Yarn_Ready_Shadow,scr_KSW_Player_WaddleDee_Hat_Yarn_SpriteSet(),borange,150,1,1);
+	scr_KSW_AddHat(playerID + "_" + "Yarn",playerID,"Yarn",spr_KSW_Player_WaddleDee_Hat_Yarn_Ready_Shadow,scr_KSW_Player_WaddleDee_Hat_Yarn_SpriteSet(),borange,150,1,1,,true);
 	#endregion
 	
 	#region Susie

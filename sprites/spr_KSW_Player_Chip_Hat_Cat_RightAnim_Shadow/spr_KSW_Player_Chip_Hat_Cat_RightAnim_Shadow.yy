@@ -8,26 +8,22 @@
   "bbox_top":14,
   "collisionKind":1,
   "collisionTolerance":0,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
-  },
+  "ConfigValues":{},
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1db26c7f-3193-445f-9132-17b49064314e","name":"1db26c7f-3193-445f-9132-17b49064314e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e0ed0db5-f611-4d17-a314-eed43df89ef6","name":"e0ed0db5-f611-4d17-a314-eed43df89ef6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6d175f48-9eec-4247-b9f1-86ab3f58afa5","name":"6d175f48-9eec-4247-b9f1-86ab3f58afa5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8e99f4d8-f2d0-4768-bd45-a0ef3366f05a","name":"8e99f4d8-f2d0-4768-bd45-a0ef3366f05a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e1b37b08-36e9-4ed2-be85-5646aa9121e9","name":"e1b37b08-36e9-4ed2-be85-5646aa9121e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a0f6e4af-a67e-484f-94d8-860bdbb22e5a","name":"a0f6e4af-a67e-484f-94d8-860bdbb22e5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62cad612-dfb6-4f3d-9aeb-357d4dcfdc59","name":"62cad612-dfb6-4f3d-9aeb-357d4dcfdc59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f52f6d28-d00c-4084-a3d9-d8fffa96d64f","name":"f52f6d28-d00c-4084-a3d9-d8fffa96d64f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":34,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c4b69bfa-22bb-4081-9a8d-bac3c6d74013","blendMode":0,"displayName":"default","isLocked":false,"name":"c4b69bfa-22bb-4081-9a8d-bac3c6d74013","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"92200f0a-e6f6-4dc3-a5b7-917b513b9a71","blendMode":0,"displayName":"default","isLocked":false,"name":"92200f0a-e6f6-4dc3-a5b7-917b513b9a71","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow",
   "nineSlice":null,
@@ -77,17 +73,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1db26c7f-3193-445f-9132-17b49064314e","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"491eea2a-048a-4f73-b12f-ffbc27800908","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1b37b08-36e9-4ed2-be85-5646aa9121e9","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"26ff1a14-27a8-4900-8c31-87f57028e70b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0ed0db5-f611-4d17-a314-eed43df89ef6","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"54271d35-212f-433b-978c-bc6b307b2212","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0f6e4af-a67e-484f-94d8-860bdbb22e5a","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6fe741fa-e3ff-461a-9db1-acb72e378de1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d175f48-9eec-4247-b9f1-86ab3f58afa5","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9ac840a6-ac96-42d8-8e7b-25a1574ea9f3","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62cad612-dfb6-4f3d-9aeb-357d4dcfdc59","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2cf7a123-48da-4ebf-beb1-e1ab425d3604","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e99f4d8-f2d0-4768-bd45-a0ef3366f05a","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bbf56321-adba-4d3c-b642-eb01b1eb56b1","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f52f6d28-d00c-4084-a3d9-d8fffa96d64f","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow/spr_KSW_Player_Chip_Hat_Cat_RightAnim_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f95cb7a9-acd3-4caf-8d8d-bb18121d857c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

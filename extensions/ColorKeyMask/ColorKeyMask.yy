@@ -1,5 +1,5 @@
 {
-  "$GMExtension":"",
+  "$GMExtension":"v1",
   "%Name":"ColorKeyMask",
   "androidactivityinject":"",
   "androidclassname":"",
@@ -37,8 +37,10 @@
   "iosSystemFrameworkEntries":[],
   "iosThirdPartyFrameworkEntries":[],
   "license":"",
+  "maccodeinjection":"",
   "maccompilerflags":"",
   "maclinkerflags":"",
+  "macProps":false,
   "macsourcedir":"",
   "name":"ColorKeyMask",
   "options":[],

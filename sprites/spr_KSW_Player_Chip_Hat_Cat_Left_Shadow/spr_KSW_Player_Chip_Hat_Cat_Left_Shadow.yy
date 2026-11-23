@@ -8,23 +8,19 @@
   "bbox_top":14,
   "collisionKind":1,
   "collisionTolerance":0,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
-  },
+  "ConfigValues":{},
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"55f2deb8-45d5-4580-9e7b-92bd4806c3ae","name":"55f2deb8-45d5-4580-9e7b-92bd4806c3ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f1996f5-f6f4-4e28-8a56-e0a9f5c6a717","name":"7f1996f5-f6f4-4e28-8a56-e0a9f5c6a717","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":34,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"018c144a-27dd-44d3-9043-567412c31f42","blendMode":0,"displayName":"default","isLocked":false,"name":"018c144a-27dd-44d3-9043-567412c31f42","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c4354343-58ea-421f-99dc-0d1420ea714c","blendMode":0,"displayName":"default","isLocked":false,"name":"c4354343-58ea-421f-99dc-0d1420ea714c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Chip_Hat_Cat_Left_Shadow",
   "nineSlice":null,
@@ -74,8 +70,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"55f2deb8-45d5-4580-9e7b-92bd4806c3ae","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_Left_Shadow/spr_KSW_Player_Chip_Hat_Cat_Left_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"18c1ea56-2bcc-4b90-af9e-7a63b194eb67","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f1996f5-f6f4-4e28-8a56-e0a9f5c6a717","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_Left_Shadow/spr_KSW_Player_Chip_Hat_Cat_Left_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"14d5a08f-7075-40e2-b4cc-0238a23b4037","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

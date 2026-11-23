@@ -104,6 +104,7 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("tooLong","[shake]TOO LONG[/shake]",spr_KSW_Bobber_TOOLONG,spr_KSW_Bobber_TOOLONG_Pal,candy,75,snd_KSW_Bobber_TOOLONG,0,-6);
 	scr_KSW_AddBobber("mahjong","Mahjong",spr_KSW_Bobber_Mahjong,spr_KSW_Bobber_Mahjong_Pal,candy,75,,0,-7);
 	scr_KSW_AddBobber("damage9","Damage 9",spr_KSW_Bobber_Damage9,spr_KSW_Bobber_Damage9_Pal,candy,75,snd_KSW_Bobber_Damage9,0,-3);
+	scr_KSW_AddBobber("monokuma","Monokuma",spr_KSW_Bobber_Monokuma,spr_KSW_Bobber_Monokuma_Pal,candy,75,snd_KSW_Bobber_Monokuma,0,0);
 	scr_KSW_AddBobber("dekofloof","Dekofloof",spr_KSW_Bobber_Dekofloof,spr_KSW_Bobber_Dekofloof_Pal,flux,75,,0,-9);
 	scr_KSW_AddBobber("titanhead","Titan Head",spr_KSW_Bobber_TitanHead,spr_KSW_Bobber_TitanHead_Pal,mage,75,,1,2);
 	scr_KSW_AddBobber("beanbon","Beanbon",spr_KSW_Bobber_Beanbon,spr_KSW_Bobber_Beanbon_Pal,mint,75,,0,2);
@@ -130,5 +131,4 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("rogueMatter","Rogue Matter",spr_KSW_Bobber_TK_RogueMatter,spr_KSW_Bobber_TK_RogueMatter_Pal,flux,0,,0,-5,true);
 	scr_KSW_AddBobber("daremo","Daremo",spr_KSW_Bobber_TK_Daremo,spr_KSW_Bobber_TK_Daremo_Pal,legion,0,,0,-6,true);
 	scr_KSW_AddBobber("rosemarie","Rosemarie",spr_KSW_Bobber_TK_Rosemarie,spr_KSW_Bobber_TK_Rosemarie_Pal,flux,0,,0,-9,true);
-	#endregion
-}
+	}#endregion

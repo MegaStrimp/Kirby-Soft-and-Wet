@@ -8,23 +8,19 @@
   "bbox_top":14,
   "collisionKind":1,
   "collisionTolerance":0,
-  "ConfigValues":{
-    "DesktopDebug":{
-      "textureGroupId":"{ \"name\":\"SoftAndWet\", \"path\":\"texturegroups/SoftAndWet\" }",
-    },
-  },
+  "ConfigValues":{},
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c017c895-a4dd-4cce-91e7-6c6c388ef075","name":"c017c895-a4dd-4cce-91e7-6c6c388ef075","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3e652b40-4975-4a5d-bf9f-6a44337f8d4b","name":"3e652b40-4975-4a5d-bf9f-6a44337f8d4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":34,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1b124c0a-8738-4e83-b975-abe464e07d5c","blendMode":0,"displayName":"default","isLocked":false,"name":"1b124c0a-8738-4e83-b975-abe464e07d5c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"54ea668b-28fa-4a01-8bb3-d293f3ee6c5c","blendMode":0,"displayName":"default","isLocked":false,"name":"54ea668b-28fa-4a01-8bb3-d293f3ee6c5c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Chip_Hat_Cat_Failed_Shadow",
   "nineSlice":null,
@@ -74,8 +70,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c017c895-a4dd-4cce-91e7-6c6c388ef075","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_Failed_Shadow/spr_KSW_Player_Chip_Hat_Cat_Failed_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ac893a2e-a2cb-4952-8133-02a0cf30add0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3e652b40-4975-4a5d-bf9f-6a44337f8d4b","path":"sprites/spr_KSW_Player_Chip_Hat_Cat_Failed_Shadow/spr_KSW_Player_Chip_Hat_Cat_Failed_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f3ed5915-4084-42ed-baea-4a3a32e13cf5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
