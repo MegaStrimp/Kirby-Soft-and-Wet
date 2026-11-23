@@ -12,7 +12,7 @@ function scr_KSW_Event_BloodMoon_End()
 		shinyPityRateMult = 1;
 		blockNewFish = false;
 		
-		scr_KSW_Game_SetPool(playerNum);
+		currentFishPool = scr_KSW_Game_SetPool(playerNum);
 		
 		failBarBack = failBarBackDefault;
 		failBarTexture = failBarTextureDefault;

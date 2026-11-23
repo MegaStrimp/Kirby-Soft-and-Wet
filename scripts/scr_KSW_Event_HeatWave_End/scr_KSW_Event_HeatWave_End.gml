@@ -12,8 +12,6 @@ function scr_KSW_Event_HeatWave_End()
 		catchInput_Mult = 1;
 		coinMult = 1;
 		
-		scr_KSW_Game_SetPool(playerNum);
-		
 		failBarBack = failBarBackDefault;
 		failBarTexture = failBarTextureDefault;
 		

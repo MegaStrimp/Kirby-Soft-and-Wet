@@ -257,7 +257,7 @@ else
 	#endregion
 
 	#region Fish ID
-	scribble("[fnt_Advance]#" + string(global.KSW_FishList[ds_list_find_value(selectionList,selection)].IDNum) + "[/font]").align(fa_left).blend(c_white,zoomAlpha).draw(4,4);
+	scribble("[fnt_Advance]#" + string(global.KSW_FishList[ds_list_find_value(selectionList,selection)].IDNum) + "[/font]").align(fa_left).blend(c_white,zoomAlpha).draw(0,0);
 	#endregion
 	
 	#region Fish Name

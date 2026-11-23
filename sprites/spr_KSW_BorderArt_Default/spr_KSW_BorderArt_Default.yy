@@ -89,8 +89,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SoftAndWet_BorderArts",
+    "path":"texturegroups/SoftAndWet_BorderArts",
   },
   "type":0,
   "VTile":false,
