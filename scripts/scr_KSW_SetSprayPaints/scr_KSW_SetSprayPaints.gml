@@ -487,6 +487,8 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Miracle",playerID,"Miracle",spr_KSW_Player_Kracko_SprayPaint_Miracle,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "ShapesAndBeats",playerID,"Shapes And Beats",spr_KSW_Player_Kracko_SprayPaint_ShapesAndBeats,legion,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Prunsel",playerID,"Prunsel",spr_KSW_Player_Kracko_SprayPaint_Prunsel,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "TheWeather",playerID,"The Weather",spr_KSW_Player_Kracko_SprayPaint_TheWeather,mage,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "SticksTogether",playerID,"Sticks Together",spr_KSW_Player_Kracko_SprayPaint_SticksTogether,borange,100);
 	#endregion
 	
 	#region N-Z
@@ -527,6 +529,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Scorbunny",playerID,"Scorbunny",spr_KSW_Player_NZ_SprayPaint_Scorbunny,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Reisen",playerID,"Reisen",spr_KSW_Player_NZ_SprayPaint_Reisen,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Monomi",playerID,"Monomi",spr_KSW_Player_NZ_SprayPaint_Monomi,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ArtBnnuy",playerID,"Art Bnnuy",spr_KSW_Player_NZ_SprayPaint_ArtBnnuy,mage,100);
 	#endregion
 	
 	#region Kabula
