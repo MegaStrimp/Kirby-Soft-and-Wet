@@ -53,8 +53,8 @@ if (canSelect)
 		
 		for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,ds_list_size(selectionList)); i++)
 		{
-			var boxX = 6 + (40 * (i % pageColumns));
-			var boxY = 34 + (40 * floor((i - page * pageSelectionCount) / pageColumns));
+			var boxX = 49 + (75 * (i % pageColumns));
+			var boxY = 14 + (75 * floor((i - page * pageSelectionCount) / pageColumns));
 			
 			if ((scr_MouseIsInbetween(boxX,boxY,boxX + 28,boxY + 28)) and (mouse_check_button_pressed(mb_left)))
 			{

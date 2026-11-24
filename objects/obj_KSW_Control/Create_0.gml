@@ -140,7 +140,7 @@ scr_KSW_AudioSetup();
 #region Set Window Caption
 var flavorText = scr_KSW_SetFlavorText();
 
-window_set_caption(global.gameTitle + " " + string(global.versionNumber) + " - " + string(flavorText));
+window_set_caption(global.gameTitle + " " + string(global.versionNumber) + " - " + string(global.versionSubtitle) + " - " + string(flavorText));
 #endregion
 
 #region Load Data
@@ -174,5 +174,5 @@ if (!np_initdiscord(appId, true, np_steam_app_id_empty))
 	Error_msg = "Discord RPC unable to initialize";
 }
 
-scr_Discord_Setup(-1,-1,"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
+scr_Discord_Setup(-1,-1,"icon",global.gameTitle + " " + global.versionNumber + " - " + global.versionSubtitle,"strimp","From Strimp's Kitchen");
 #endregion
