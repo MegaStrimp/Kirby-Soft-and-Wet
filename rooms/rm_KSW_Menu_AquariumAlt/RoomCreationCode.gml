@@ -13,5 +13,5 @@ if (audio_get_name(global.musicPlaying) != "mus_KSW_AquariumAlt")
 #endregion
 
 #region Discord
-scr_Discord_Setup("Aquarium ?",-1,"icon",global.gameTitle + " " + global.versionNumber,"strimp","From Strimp's Kitchen");
+scr_Discord_Setup("Aquarium ?",-1,"icon",global.gameTitle + " " + global.versionNumber + " - " + global.versionSubtitle,"strimp","From Strimp's Kitchen");
 #endregion

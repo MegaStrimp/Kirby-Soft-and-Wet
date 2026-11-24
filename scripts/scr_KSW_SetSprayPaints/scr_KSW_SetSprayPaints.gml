@@ -255,6 +255,10 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "TearsBeforeBedtime",playerID,"Tears Before Bedtime",spr_KSW_Player_Elfilin_SprayPaint_TearsBeforeBedtime,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Nightmare",playerID,"Nightmare",spr_KSW_Player_Elfilin_SprayPaint_Nightmare,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Cosmo",playerID,"Cosmo",spr_KSW_Player_Elfilin_SprayPaint_Cosmo,mage,100);
+	//scr_KSW_AddSprayPaint(playerID + "_" + "Lovey",playerID,"Lovey",spr_KSW_Player_Elfilin_SprayPaint_Lovey,candy,100); HoG
+	scr_KSW_AddSprayPaint(playerID + "_" + "Pikachu",playerID,"Pikachu",spr_KSW_Player_Elfilin_SprayPaint_Pikachu,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "MrElfilin",playerID,"Mr. Elfilin",spr_KSW_Player_Elfilin_SprayPaint_MrElfilin,legion,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "ComputerMaus",playerID,"Computer Maus",spr_KSW_Player_Elfilin_SprayPaint_ComputerMaus,flux,100);
 	#endregion
 	
 	#region Marx
@@ -378,6 +382,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Beatrix",playerID,"Beatrix",spr_KSW_Player_Susie_SprayPaint_Beatrix,legion,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Rei",playerID,"Rei",spr_KSW_Player_Susie_SprayPaint_Rei,borange,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "AppleGirlington",playerID,"Apple Girlington",spr_KSW_Player_Susie_SprayPaint_AppleGirlington,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Shiki",playerID,"Shiki",spr_KSW_Player_Susie_SprayPaint_Shiki,candy,100);
 	#endregion
 	
 	#region Ybrik
@@ -574,6 +579,7 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Starwalker",playerID,"Starwalker",spr_KSW_Player_Starman_SprayPaint_Starwalker,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Starmie",playerID,"Starmie",spr_KSW_Player_Starman_SprayPaint_Starmie,flux,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Staryu",playerID,"Staryu",spr_KSW_Player_Starman_SprayPaint_Staryu,glimmer,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "Jarona",playerID,"Jarona",spr_KSW_Player_Starman_SprayPaint_Jarona,glimmer,100);
 	#endregion
 	#endregion
 }

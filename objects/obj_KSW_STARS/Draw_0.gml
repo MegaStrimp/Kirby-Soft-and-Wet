@@ -4,18 +4,6 @@
 scribble_font_set_default("fnt_Advance");
 #endregion
 
-#region Page Title
-scribble("PAGE " + string(page + 1)).align(fa_center).draw(room_width / 2,6 - hintOffset);
-#endregion
-
-#region STAR Name
-var targetName = "???";
-targetName = global.KSW_STARList[ds_list_find_value(selectionList,selection)].name;
-var targetDescription = global.KSW_STARList[ds_list_find_value(selectionList,selection)].description;
-var STARName = scribble(targetName).align(fa_right);
-STARName.draw(room_width - 4,room_height - 14 + hintOffset);
-#endregion
-
 #region STARS
 for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,ds_list_size(selectionList)); i++)
 {
@@ -62,6 +50,18 @@ for (var i = page * pageSelectionCount; i < min((page + 1) * pageSelectionCount,
 	if (i == selection) draw_sprite_ext(spr_KSW_Menu_Fishbook_Selection,selectionIndex,boxX + 34,boxY + 34,selectionScale + 1,selectionScale + 1,0,c_white,1);
 	#endregion
 }
+#endregion
+
+#region Page Title
+scribble("PAGE " + string(page + 1)).align(fa_center).draw(room_width / 2,6 - hintOffset);
+#endregion
+
+#region STAR Name
+var targetName = "???";
+targetName = global.KSW_STARList[ds_list_find_value(selectionList,selection)].name;
+var targetDescription = global.KSW_STARList[ds_list_find_value(selectionList,selection)].description;
+var STARName = scribble(targetName).align(fa_right);
+STARName.draw(room_width - 4,room_height - 14 + hintOffset);
 #endregion
 
 if (!isZoomed)
