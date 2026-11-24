@@ -109,6 +109,24 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("titanhead","Titan Head",spr_KSW_Bobber_TitanHead,spr_KSW_Bobber_TitanHead_Pal,mage,75,,1,2);
 	scr_KSW_AddBobber("beanbon","Beanbon",spr_KSW_Bobber_Beanbon,spr_KSW_Bobber_Beanbon_Pal,mint,75,,0,2);
 	scr_KSW_AddBobber("wiz","Wiz",spr_KSW_Bobber_Wiz,spr_KSW_Bobber_Wiz_Pal,candy,75,,0,2);
+	scr_KSW_AddBobber("wooden","Wooden",spr_KSW_Bobber_Wooden,spr_KSW_Bobber_Wooden_Pal,borange,75,,0,0);
+	scr_KSW_AddBobber("reinforced","Reinforced",spr_KSW_Bobber_Reinforced,spr_KSW_Bobber_Reinforced_Pal,legion,75,,-3,-3);
+	scr_KSW_AddBobber("fisherofsouls","Fisher of Souls",spr_KSW_Bobber_FisherOfSouls,spr_KSW_Bobber_FisherOfSouls_Pal,flux,75,,1,0);
+	scr_KSW_AddBobber("fleshcatcher","Fleshcatcher",spr_KSW_Bobber_Fleshcatcher,spr_KSW_Bobber_Fleshcatcher_Pal,candy,75,,-1,0);
+	scr_KSW_AddBobber("bloody","Bloody",spr_KSW_Bobber_Bloody,spr_KSW_Bobber_Bloody_Pal,candy,75,,0,-2);
+	scr_KSW_AddBobber("scarab","Scarab",spr_KSW_Bobber_Scarab,spr_KSW_Bobber_Scarab_Pal,mage,75,,0,-1);
+	scr_KSW_AddBobber("fiberglass","Fiberglass",spr_KSW_Bobber_Fiberglass,spr_KSW_Bobber_Fiberglass_Pal,mage,75,,1,-1);
+	scr_KSW_AddBobber("mechanic","Mechanic",spr_KSW_Bobber_Mechanic,spr_KSW_Bobber_Mechanic_Pal,candy,75,,1,0);
+	scr_KSW_AddBobber("sittingduck","Sitting Duck",spr_KSW_Bobber_SittingDuck,spr_KSW_Bobber_SittingDuck_Pal,legion,75,,1,0);
+	scr_KSW_AddBobber("hotline","Hotline",spr_KSW_Bobber_Hotline,spr_KSW_Bobber_Hotline_Pal,borange,75,,0,0);
+	scr_KSW_AddBobber("golden","Golden",spr_KSW_Bobber_Golden,spr_KSW_Bobber_Golden_Pal,glimmer,75,,1,0);
+	scr_KSW_AddBobber("starfall","Starfall",spr_KSW_Bobber_Starfall,spr_KSW_Bobber_Starfall_Pal,glimmer,75,,0,-2);
+	scr_KSW_AddBobber("lavamoss","Lava Moss",spr_KSW_Bobber_Lava_Moss,spr_KSW_Bobber_Lava_Moss_Pal,borange,75,,0,-2);
+	scr_KSW_AddBobber("kryptonmoss","Krypton Moss",spr_KSW_Bobber_Krypton_Moss,spr_KSW_Bobber_Krypton_Moss_Pal,mint,75,,0,-2);
+	scr_KSW_AddBobber("xenonmoss","Xenon Moss",spr_KSW_Bobber_Xenon_Moss,spr_KSW_Bobber_Xenon_Moss_Pal,mage,75,,0,-2);
+	scr_KSW_AddBobber("argonmoss","Argon Moss",spr_KSW_Bobber_Argon_Moss,spr_KSW_Bobber_Argon_Moss_Pal,flux,75,,0,-2);
+	scr_KSW_AddBobber("neonmoss","Neon Moss",spr_KSW_Bobber_Neon_Moss,spr_KSW_Bobber_Neon_Moss_Pal,flux,75,,0,-2);
+	scr_KSW_AddBobber("heliummoss","Helium Moss",spr_KSW_Bobber_Helium_Moss,spr_KSW_Bobber_Helium_Moss_Pal,glimmer,75,,0,-2);
 	
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,snd_KSW_Bobber_Star,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,,0,-7);
