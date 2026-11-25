@@ -3,7 +3,6 @@
 function scr_KSW_ChangeBorderArt(targetMappedID)
 {
 	var targetSprite = global.KSW_BorderArtList[targetMappedID].sprite;
-	show_debug_message(targetSprite)
 	
 	switch (targetSprite)
 	{

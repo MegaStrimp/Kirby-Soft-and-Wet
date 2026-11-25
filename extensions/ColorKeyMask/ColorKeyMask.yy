@@ -11,16 +11,7 @@
   "androidsourcedir":"",
   "author":"",
   "classname":"",
-  "ConfigValues":{
-    "DesktopDebug":{
-      "HTML5CodeInjection":"",
-      "androidcodeinjection":"",
-      "ioscodeinjection":"",
-      "tvoscodeinjection":"",
-      "maccodeinjection":"",
-      "copyToTargets":"3035426163880100078",
-    },
-  },
+  "ConfigValues":{},
   "copyToTargets":3035426163880100078,
   "description":"",
   "exportToGame":true,
