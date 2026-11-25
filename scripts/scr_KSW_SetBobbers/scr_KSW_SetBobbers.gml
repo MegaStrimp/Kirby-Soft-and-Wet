@@ -126,7 +126,23 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("xenonmoss","Xenon Moss",spr_KSW_Bobber_Xenon_Moss,spr_KSW_Bobber_Xenon_Moss_Pal,mage,75,,0,-2);
 	scr_KSW_AddBobber("argonmoss","Argon Moss",spr_KSW_Bobber_Argon_Moss,spr_KSW_Bobber_Argon_Moss_Pal,flux,75,,0,-2);
 	scr_KSW_AddBobber("neonmoss","Neon Moss",spr_KSW_Bobber_Neon_Moss,spr_KSW_Bobber_Neon_Moss_Pal,flux,75,,0,-2);
-	scr_KSW_AddBobber("heliummoss","Helium Moss",spr_KSW_Bobber_Helium_Moss,spr_KSW_Bobber_Helium_Moss_Pal,glimmer,75,,0,-2);
+	scr_KSW_AddBobber("heliummoss","Helium Moss",spr_KSW_Bobber_Helium_Moss,spr_KSW_Bobber_Helium_Moss_Pal,glimmer,75,,0,-1);
+	scr_KSW_AddBobber("wulfrum","Wulfrum",spr_KSW_Bobber_Wulfrum,spr_KSW_Bobber_Wulfrum_Pal,mint,75,,0,0);
+	scr_KSW_AddBobber("sunkensinker","Sunken Sinker",spr_KSW_Bobber_SunkenSinker,spr_KSW_Bobber_SunkenSinker_Pal,mage,75,,1,0);
+	scr_KSW_AddBobber("acrobatic","Acrobatic",spr_KSW_Bobber_Acrobatic,spr_KSW_Bobber_Acrobatic_Pal,mage,75,,0,0);
+	scr_KSW_AddBobber("slurper","Slurper",spr_KSW_Bobber_Slurper,spr_KSW_Bobber_Slurper_Pal,candy,75,,0,0);
+	scr_KSW_AddBobber("verstaltite","Verstaltite",spr_KSW_Bobber_Verstaltite,spr_KSW_Bobber_Verstaltite_Pal,mage,75,,1,0);
+	scr_KSW_AddBobber("feral","Feral",spr_KSW_Bobber_Feral,spr_KSW_Bobber_Feral_Pal,borange,75,,1,-1);
+	scr_KSW_AddBobber("volcanicsinker","Volcanic Sinker",spr_KSW_Bobber_VolcanicSinker,spr_KSW_Bobber_VolcanicSinker_Pal,borange,75,,0,0);
+	scr_KSW_AddBobber("earlybloom","Early Bloom",spr_KSW_Bobber_EarlyBloom,spr_KSW_Bobber_EarlyBloom_Pal,borange,75,,0,-1);
+	scr_KSW_AddBobber("devourerofcods","Devourer of Cods",spr_KSW_Bobber_DevourerOfCods,spr_KSW_Bobber_DevourerOfCods_Pal,flux,75,,0,0);
+	scr_KSW_AddBobber("marine","Marine",spr_KSW_Bobber_Marine,spr_KSW_Bobber_Marine_Pal,borange,75,,1,-1);
+	scr_KSW_AddBobber("shark","Shark",spr_KSW_Bobber_Shark,spr_KSW_Bobber_Shark_Pal,mage,75,,1,-1);
+	scr_KSW_AddBobber("granite","Granite",spr_KSW_Bobber_Granite,spr_KSW_Bobber_Granite_Pal,mage,75,,1,0);
+	scr_KSW_AddBobber("champion","Champion",spr_KSW_Bobber_Champion,spr_KSW_Bobber_Champion_Pal,legion,75,,1,-1);
+	scr_KSW_AddBobber("geode","Geode",spr_KSW_Bobber_Geode,spr_KSW_Bobber_Geode_Pal,glimmer,75,,1,-1);
+	scr_KSW_AddBobber("rlyeh","R'lyeh",spr_KSW_Bobber_Rlyeh,spr_KSW_Bobber_Rlyeh_Pal,glimmer,75,,1,-3);
+	scr_KSW_AddBobber("terrarium","Terrarium",spr_KSW_Bobber_Terrarium,spr_KSW_Bobber_Terrarium_Pal,legion,75,,0,-1);
 	
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,snd_KSW_Bobber_Star,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,,0,-7);

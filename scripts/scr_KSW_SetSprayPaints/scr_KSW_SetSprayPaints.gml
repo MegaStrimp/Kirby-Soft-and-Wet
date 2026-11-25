@@ -331,6 +331,8 @@ function scr_KSW_SetSprayPaints()
 	scr_KSW_AddSprayPaint(playerID + "_" + "Delirious",playerID,"Delirious",spr_KSW_Player_WaddleDee_SprayPaint_Delirious,glimmer,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Siamese",playerID,"Siamese",spr_KSW_Player_WaddleDee_SprayPaint_Siamese,legion,100);
 	scr_KSW_AddSprayPaint(playerID + "_" + "Melon",playerID,"Melon",spr_KSW_Player_WaddleDee_SprayPaint_Melon,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BackgroundGreen",playerID,"Background Green",spr_KSW_Player_WaddleDee_SprayPaint_BackgroundGreen,mint,100);
+	scr_KSW_AddSprayPaint(playerID + "_" + "BackgroundPink",playerID,"Background Pink",spr_KSW_Player_WaddleDee_SprayPaint_BackgroundPink,glimmer,100);
 	#endregion
 	
 	#region Susie
