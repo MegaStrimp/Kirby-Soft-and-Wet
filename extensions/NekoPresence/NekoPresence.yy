@@ -11,6 +11,16 @@
   "androidsourcedir":"",
   "author":"",
   "classname":"",
+  "ConfigValues":{
+    "DesktopDebug":{
+      "HTML5CodeInjection":"",
+      "androidcodeinjection":"",
+      "ioscodeinjection":"",
+      "tvoscodeinjection":"",
+      "maccodeinjection":"",
+      "copyToTargets":"194",
+    },
+  },
   "copyToTargets":194,
   "description":"",
   "exportToGame":true,

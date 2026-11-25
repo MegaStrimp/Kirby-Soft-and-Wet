@@ -3,7 +3,7 @@
   "%Name":"spr_KSW_Player_Ybrik_Hat_BrikAndMortar_Throw",
   "bboxMode":0,
   "bbox_bottom":34,
-  "bbox_left":26,
+  "bbox_left":27,
   "bbox_right":48,
   "bbox_top":18,
   "collisionKind":1,

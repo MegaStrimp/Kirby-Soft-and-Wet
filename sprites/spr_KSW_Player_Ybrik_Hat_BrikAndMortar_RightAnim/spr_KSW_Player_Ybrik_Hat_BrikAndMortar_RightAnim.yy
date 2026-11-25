@@ -3,9 +3,9 @@
   "%Name":"spr_KSW_Player_Ybrik_Hat_BrikAndMortar_RightAnim",
   "bboxMode":0,
   "bbox_bottom":32,
-  "bbox_left":29,
+  "bbox_left":30,
   "bbox_right":44,
-  "bbox_top":21,
+  "bbox_top":22,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{
