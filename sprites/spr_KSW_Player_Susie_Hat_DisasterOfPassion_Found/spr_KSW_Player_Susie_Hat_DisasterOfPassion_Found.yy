@@ -13,15 +13,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d4922868-c570-459f-9943-4607d3fa61c1","name":"d4922868-c570-459f-9943-4607d3fa61c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e912844c-4aff-42a6-9f30-379a96e3c2da","name":"e912844c-4aff-42a6-9f30-379a96e3c2da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bd72e2c4-52fe-4012-88cb-ec57da7eb444","name":"bd72e2c4-52fe-4012-88cb-ec57da7eb444","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"765bca49-e9bd-4a43-beff-1ffdd0648f4c","name":"765bca49-e9bd-4a43-beff-1ffdd0648f4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":63,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5fbb9c40-f767-4107-91aa-ee918f93160f","blendMode":0,"displayName":"default","isLocked":false,"name":"5fbb9c40-f767-4107-91aa-ee918f93160f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8f7a51c8-22c9-4fe5-bd73-34ec10c43f44","blendMode":0,"displayName":"default","isLocked":false,"name":"8f7a51c8-22c9-4fe5-bd73-34ec10c43f44","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found",
   "nineSlice":null,
@@ -71,11 +71,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4922868-c570-459f-9943-4607d3fa61c1","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b8346b46-b716-435e-a950-d9100a876cea","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd72e2c4-52fe-4012-88cb-ec57da7eb444","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eb936465-c1e4-44b9-b623-ad7f16c6d91a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e912844c-4aff-42a6-9f30-379a96e3c2da","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"423c2c61-b060-4288-a88d-f8db126c94ac","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"765bca49-e9bd-4a43-beff-1ffdd0648f4c","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Found.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f9ac93a5-3226-48c2-8f73-19d6f102027e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

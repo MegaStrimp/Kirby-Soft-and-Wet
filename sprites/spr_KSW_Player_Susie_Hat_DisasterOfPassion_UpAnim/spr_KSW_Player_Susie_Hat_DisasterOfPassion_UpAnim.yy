@@ -13,16 +13,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e9f91fd2-4a22-41da-bf16-73e83d9de044","name":"e9f91fd2-4a22-41da-bf16-73e83d9de044","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"552e5fe5-f925-4a6d-8db3-14a611909d49","name":"552e5fe5-f925-4a6d-8db3-14a611909d49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"56cedc68-dd65-446d-81e7-f9e08e3e2758","name":"56cedc68-dd65-446d-81e7-f9e08e3e2758","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"453817b9-fed2-4aed-ae77-1dec8b544aed","name":"453817b9-fed2-4aed-ae77-1dec8b544aed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f79e3ab-a0fa-4d8c-bf3a-a5a172c549a4","name":"7f79e3ab-a0fa-4d8c-bf3a-a5a172c549a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7bc8fc40-c8fc-4ed0-b75c-de1afb6dac72","name":"7bc8fc40-c8fc-4ed0-b75c-de1afb6dac72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":63,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"bc9d6b71-12fa-4b5f-b0b6-f3f7c555ceb7","blendMode":0,"displayName":"default","isLocked":false,"name":"bc9d6b71-12fa-4b5f-b0b6-f3f7c555ceb7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cc8fd794-d49e-489c-8130-119bafb9f1bb","blendMode":0,"displayName":"default","isLocked":false,"name":"cc8fd794-d49e-489c-8130-119bafb9f1bb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim",
   "nineSlice":null,
@@ -72,14 +72,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9f91fd2-4a22-41da-bf16-73e83d9de044","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e9441183-44d4-46ca-a61f-1f06746a08fa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"453817b9-fed2-4aed-ae77-1dec8b544aed","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e8881914-3036-4afb-9449-28bbf2bb4bcf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"552e5fe5-f925-4a6d-8db3-14a611909d49","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e1c00e41-119c-4d86-af2f-22aafacb9642","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f79e3ab-a0fa-4d8c-bf3a-a5a172c549a4","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1f43b438-dd62-4e63-9c53-bcd0901582ea","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"56cedc68-dd65-446d-81e7-f9e08e3e2758","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b6aea7fe-9242-4531-8713-424bbb0bea93","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7bc8fc40-c8fc-4ed0-b75c-de1afb6dac72","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim/spr_KSW_Player_Susie_Hat_DisasterOfPassion_UpAnim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7296cc85-919a-4443-8224-1be32dec9a0a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

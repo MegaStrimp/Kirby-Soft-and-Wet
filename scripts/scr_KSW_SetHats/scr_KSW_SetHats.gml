@@ -73,6 +73,7 @@ function scr_KSW_SetHats()
 	var playerID = "marx";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,flux,0,0,0,true);
+	scr_KSW_AddHat(playerID + "_" + "AngelAndDevil",playerID,"Angel and Devil",spr_KSW_Player_Marx_Hat_AngelAndDevil_Ready,scr_KSW_Player_Marx_Hat_AngelAndDevil_SpriteSet(),legion,150,3,23);
 	#endregion
 	
 	#region Waddle Dee
@@ -90,7 +91,7 @@ function scr_KSW_SetHats()
 	var playerID = "susie";
 	
 	scr_KSW_AddHat(playerID + "_" + "None",playerID,"None",spr_KSW_UI_Shared_None,undefined,candy,0,0,0,true);
-	scr_KSW_AddHat(playerID + "_" + "Weekend",playerID,"Weekend",spr_KSW_Player_Susie_Hat_Weekend_Ready,scr_KSW_Player_Susie_Hat_Weekend_SpriteSet(),candy,150,3,16);
+	scr_KSW_AddHat(playerID + "_" + "Weekend",playerID,"Weekend",spr_KSW_Player_Susie_Hat_Weekend_Ready,scr_KSW_Player_Susie_Hat_Weekend_SpriteSet(),candy,150,-1,16);
 	scr_KSW_AddHat(playerID + "_" + "Doctor",playerID,"Doctor",spr_KSW_Player_Susie_Hat_Doctor_Ready,scr_KSW_Player_Susie_Hat_Doctor_SpriteSet(),mage,150,-1,14);
 	scr_KSW_AddHat(playerID + "_" + "DisasterOfPassion",playerID,"Disaster of Passion",spr_KSW_Player_Susie_Hat_DisasterOfPassion_Ready,scr_KSW_Player_Susie_Hat_DisasterOfPassion_SpriteSet(),borange,150,-1,20);
 	scr_KSW_AddHat(playerID + "_" + "Samus",playerID,"Samus",spr_KSW_Player_Susie_Hat_Samus_Ready,scr_KSW_Player_Susie_Hat_Samus_SpriteSet(),candy,150,1,13);

@@ -13,14 +13,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e014fda1-1df6-4ddf-87cc-eef569fe221b","name":"e014fda1-1df6-4ddf-87cc-eef569fe221b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f73d01bb-0de9-4dd0-9585-aefae8a361c0","name":"f73d01bb-0de9-4dd0-9585-aefae8a361c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":63,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f19283c4-61e2-4a6e-9638-ceefde3b6b0e","blendMode":0,"displayName":"default","isLocked":false,"name":"f19283c4-61e2-4a6e-9638-ceefde3b6b0e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8d9c9fc2-e0a5-4a00-a523-b62616ae09bc","blendMode":0,"displayName":"default","isLocked":false,"name":"8d9c9fc2-e0a5-4a00-a523-b62616ae09bc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Susie_Hat_DisasterOfPassion_Wait",
   "nineSlice":null,
@@ -70,8 +70,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e014fda1-1df6-4ddf-87cc-eef569fe221b","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Wait/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"29ec9c94-2ca0-45c1-b035-25b3bdc8fe7b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f73d01bb-0de9-4dd0-9585-aefae8a361c0","path":"sprites/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Wait/spr_KSW_Player_Susie_Hat_DisasterOfPassion_Wait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"628c8048-6683-4238-9d89-ba5cb3fbf326","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
