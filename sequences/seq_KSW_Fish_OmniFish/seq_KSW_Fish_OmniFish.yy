@@ -181,7 +181,7 @@
                     },"Disabled":false,"id":"a622af96-0c0b-46a8-8e19-607df42a31e7","IsCreationKey":false,"Key":15.9999,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
                 ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"scale","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4290114120,"tracks":[],"traits":0,},
           ],"traits":0,},
-      ],"traits":0,},
+      ],"traits":1,},
   ],
   "visibleRange":{
     "x":0.0,
