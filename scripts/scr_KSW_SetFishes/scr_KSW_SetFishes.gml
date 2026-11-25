@@ -3698,5 +3698,17 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Headcrab Zombie",spr_KSW_Fish_HeadcrabZombie,spr_KSW_Fish_HeadcrabZombie_Pal,series_HalfLife,borange,0,androidPort,KSW_Phases.none,198);
 	scr_KSW_AddFish("Manhack",spr_KSW_Fish_Manhack,spr_KSW_Fish_Manhack_Pal,series_HalfLife,legion,1,cloudyPark,KSW_Phases.day,2004);
 	scr_KSW_AddFish("Gunship",spr_KSW_Fish_Gunship,spr_KSW_Fish_Gunship_Pal,series_HalfLife,legion,2,cloudyPark,KSW_Phases.day,20040,-40,0);
+	scr_KSW_AddFish("Snow Pippi",spr_KSW_Fish_SnowPippi,spr_KSW_Fish_SnowPippi_Pal,series_Mother,legion,1,creamCrevasse,KSW_Phases.day,1000);
+	scr_KSW_AddFish("Canary Chick",spr_KSW_Fish_CanaryChick,spr_KSW_Fish_CanaryChick_Pal,series_MotherEncore,borange,0,cloudyPark,KSW_Phases.day,100);
+	scr_KSW_AddFish("Alligator (Mother)",spr_KSW_Fish_AlligatorMother,spr_KSW_Fish_AlligatorMother_Pal,series_MotherEncore,mint,0,hallowReen,KSW_Phases.day,100);
+	scr_KSW_AddFish("Woodoh",spr_KSW_Fish_Woodoh,spr_KSW_Fish_Woodoh_Pal,series_MotherEncore,glimmer,0,hallowReen,KSW_Phases.day,100);
+	scr_KSW_AddFish("Rat King (Mother)",spr_KSW_Fish_RatKingMother,spr_KSW_Fish_RatKingMother_Pal,series_MotherEncore,legion,2,hallowReen,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Fire Ball",spr_KSW_Fish_FireBall,spr_KSW_Fish_FireBall_Pal,series_MotherEncore,borange,0,serranoSprings,KSW_Phases.none,100);
+	scr_KSW_AddFish("Bomber",spr_KSW_Fish_Bomber,spr_KSW_Fish_Bomber_Pal,series_MotherEncore,legion,0,androidPort,KSW_Phases.none,100);
+	scr_KSW_AddFish("Scrapper",spr_KSW_Fish_Scrapper,spr_KSW_Fish_Scrapper_Pal,series_MotherEncore,legion,1,androidPort,KSW_Phases.none,1000);
+	scr_KSW_AddFish("Dr. Distorto",spr_KSW_Fish_DrDistorto,spr_KSW_Fish_DrDistorto_Pal,series_MotherEncore,legion,2,androidPort,KSW_Phases.none,10000);
+	scr_KSW_AddFish("Magic Snail",spr_KSW_Fish_MagicSnail,spr_KSW_Fish_MagicSnail_Pal,series_MotherEncore,candy,0,cloudyPark,KSW_Phases.day,100);
+	scr_KSW_AddFish("Eagle",spr_KSW_Fish_Eagle,spr_KSW_Fish_Eagle_Pal,series_MotherEncore,mint,1,cloudyPark,KSW_Phases.afternoon,1000);
+	scr_KSW_AddFish("The Fish",spr_KSW_Fish_TheFish,spr_KSW_Fish_TheFish_Pal,series_MotherEncore,flux,2,cloudyPark,KSW_Phases.night,10000);
 	#endregion
 	}#endregion
