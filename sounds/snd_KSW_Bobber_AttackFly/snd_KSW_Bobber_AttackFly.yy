@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.472109,
+  "duration":1.5212698,
   "exportDir":"",
   "name":"snd_KSW_Bobber_AttackFly",
   "parent":{

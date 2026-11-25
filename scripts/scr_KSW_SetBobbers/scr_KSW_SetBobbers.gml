@@ -143,6 +143,13 @@ function scr_KSW_SetBobbers()
 	scr_KSW_AddBobber("geode","Geode",spr_KSW_Bobber_Geode,spr_KSW_Bobber_Geode_Pal,glimmer,75,,1,-1);
 	scr_KSW_AddBobber("rlyeh","R'lyeh",spr_KSW_Bobber_Rlyeh,spr_KSW_Bobber_Rlyeh_Pal,glimmer,75,,1,-3);
 	scr_KSW_AddBobber("terrarium","Terrarium",spr_KSW_Bobber_Terrarium,spr_KSW_Bobber_Terrarium_Pal,legion,75,,0,-1);
+	scr_KSW_AddBobber("soulofflight","Soul of Flight",spr_KSW_Bobber_SoulOfFlight,spr_KSW_Bobber_SoulOfFlight_Pal,mage,75,,0,2);
+	scr_KSW_AddBobber("souloflight","Soul of Light",spr_KSW_Bobber_SoulOfLight,spr_KSW_Bobber_SoulOfLight_Pal,glimmer,75,,0,2);
+	scr_KSW_AddBobber("soulofnight","Soul of Night",spr_KSW_Bobber_SoulOfNight,spr_KSW_Bobber_SoulOfNight_Pal,flux,75,,0,2);
+	scr_KSW_AddBobber("souloffright","Soul of Fright",spr_KSW_Bobber_SoulOfFright,spr_KSW_Bobber_SoulOfFright_Pal,candy,75,,1,2);
+	scr_KSW_AddBobber("soulofmight","Soul of Might",spr_KSW_Bobber_SoulOfMight,spr_KSW_Bobber_SoulOfMight_Pal,mage,75,,1,2);
+	scr_KSW_AddBobber("soulofsight","Soul of Sight",spr_KSW_Bobber_SoulOfSight,spr_KSW_Bobber_SoulOfSight_Pal,mint,75,,0,2);
+	scr_KSW_AddBobber("soulofblight","Soul of Blight",spr_KSW_Bobber_SoulOfBlight,spr_KSW_Bobber_SoulOfBlight_Pal,glimmer,75,,1,2);
 	
 	scr_KSW_AddBobber("star","Star",spr_KSW_Bobber_Star,spr_KSW_Bobber_Star_Pal,glimmer,0,snd_KSW_Bobber_Star,0,-4);
 	scr_KSW_AddBobber("darkMind","Dark Mind",spr_KSW_Bobber_DarkMind,spr_KSW_Bobber_DarkMind_Pal,borange,0,,0,-7);
