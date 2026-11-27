@@ -2,10 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow",
   "bboxMode":0,
-  "bbox_bottom":22,
-  "bbox_left":16,
-  "bbox_right":28,
-  "bbox_top":8,
+  "bbox_bottom":27,
+  "bbox_left":15,
+  "bbox_right":31,
+  "bbox_top":6,
   "collisionKind":1,
   "collisionTolerance":0,
   "ConfigValues":{},
@@ -13,18 +13,25 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ae37f421-538b-4cd7-99ad-80a29e0b8284","name":"ae37f421-538b-4cd7-99ad-80a29e0b8284","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"37691984-ebc3-45f1-add1-062ceea545a8","name":"37691984-ebc3-45f1-add1-062ceea545a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"89a782b1-bc0f-443f-8c5b-ac79b012ad14","name":"89a782b1-bc0f-443f-8c5b-ac79b012ad14","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"89cbf9a0-9e68-4d77-9243-c64b445fc593","name":"89cbf9a0-9e68-4d77-9243-c64b445fc593","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"64f3bdc4-c552-4c71-b35e-6e1bcb5653aa","name":"64f3bdc4-c552-4c71-b35e-6e1bcb5653aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"baa224c5-2819-42fa-81f0-f441644d73d7","name":"baa224c5-2819-42fa-81f0-f441644d73d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e66233d5-9b5a-4f86-98f7-444c32c5d27d","name":"e66233d5-9b5a-4f86-98f7-444c32c5d27d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2d45fc40-adb4-4a3f-bdff-88b1d5463a11","name":"2d45fc40-adb4-4a3f-bdff-88b1d5463a11","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f6d6c3b-9336-45b3-b877-ab7ac690f8d0","name":"4f6d6c3b-9336-45b3-b877-ab7ac690f8d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0b867c3c-f80d-4c27-b838-a98758dd11b6","name":"0b867c3c-f80d-4c27-b838-a98758dd11b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc0b48f1-5d18-497e-acde-f0f40c396846","name":"fc0b48f1-5d18-497e-acde-f0f40c396846","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b48302fe-d8d0-46e5-a370-719b07c825a3","name":"b48302fe-d8d0-46e5-a370-719b07c825a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8264846a-e863-4f7f-9331-fb9eab8b9290","name":"8264846a-e863-4f7f-9331-fb9eab8b9290","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"971f093a-0f4f-4cf0-bc63-035a1be5fd1b","name":"971f093a-0f4f-4cf0-bc63-035a1be5fd1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"caceb385-35dc-4998-a770-3018b7e2deda","name":"caceb385-35dc-4998-a770-3018b7e2deda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fef90282-cfa4-49aa-bf16-c6ef46b53650","name":"fef90282-cfa4-49aa-bf16-c6ef46b53650","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb39d7bc-29fc-4458-b544-9db755c005e6","name":"cb39d7bc-29fc-4458-b544-9db755c005e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"85121da6-8d82-4314-a244-1697b8394145","blendMode":0,"displayName":"default","isLocked":false,"name":"85121da6-8d82-4314-a244-1697b8394145","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e385c86f-7b42-41b0-bdc6-25fa060924c9","blendMode":0,"displayName":"default","isLocked":false,"name":"e385c86f-7b42-41b0-bdc6-25fa060924c9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow",
   "nineSlice":null,
@@ -54,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":5.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -74,20 +81,41 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae37f421-538b-4cd7-99ad-80a29e0b8284","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fbbc2858-ac22-4d74-982a-515afd9d6d25","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"baa224c5-2819-42fa-81f0-f441644d73d7","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7fe8b677-5d72-445d-965f-5499fb2e3ba5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37691984-ebc3-45f1-add1-062ceea545a8","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9c153d57-57f8-423a-9a1b-bb0e16d0a477","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e66233d5-9b5a-4f86-98f7-444c32c5d27d","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a571bbd2-f893-49b9-ab91-002fd25e4352","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89a782b1-bc0f-443f-8c5b-ac79b012ad14","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8ab627b1-a989-43a3-98e7-956f255d0c99","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2d45fc40-adb4-4a3f-bdff-88b1d5463a11","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7d50da80-4b8f-4c24-b679-cc2a923d5024","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89cbf9a0-9e68-4d77-9243-c64b445fc593","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d1ce9ad-ef4f-404f-8b90-fa4c09de71a3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f6d6c3b-9336-45b3-b877-ab7ac690f8d0","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"268af5f6-6e14-432e-83da-caaf56d07779","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64f3bdc4-c552-4c71-b35e-6e1bcb5653aa","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"492bd269-001e-4393-a37c-504108c3b251","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b867c3c-f80d-4c27-b838-a98758dd11b6","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a364cb87-7bfc-4fca-91ed-6b1aeec18272","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fc0b48f1-5d18-497e-acde-f0f40c396846","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0c7e26a4-9fcd-48f0-85c5-9e1875a17c2e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b48302fe-d8d0-46e5-a370-719b07c825a3","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1b9d56bf-d658-47e6-933f-4e161ab9c62f","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8264846a-e863-4f7f-9331-fb9eab8b9290","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1f845dfa-58dd-483c-a278-d3bf40a1c858","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"971f093a-0f4f-4cf0-bc63-035a1be5fd1b","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"09b04744-6eb2-4e31-bac5-3d06dfda55dc","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"caceb385-35dc-4998-a770-3018b7e2deda","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ebebb34c-a1ea-48da-a921-37fb52071364","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fef90282-cfa4-49aa-bf16-c6ef46b53650","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c6d4419e-3db1-437b-9fca-d2c4aafaaffd","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb39d7bc-29fc-4458-b544-9db755c005e6","path":"sprites/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow/spr_KSW_Player_Gooey_Hat_MonsterHunter_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b9124bb2-2cd8-45ed-bacd-a7440898abbd","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

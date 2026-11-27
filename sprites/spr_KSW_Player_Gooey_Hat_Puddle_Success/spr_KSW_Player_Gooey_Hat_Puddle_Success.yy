@@ -23,6 +23,8 @@
     {"$GMSpriteFrame":"v1","%Name":"e9b046fc-55df-4e04-8c11-0bc29831b191","name":"e9b046fc-55df-4e04-8c11-0bc29831b191","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"0443bccc-03fe-4868-ace1-6ab0b9452aea","name":"0443bccc-03fe-4868-ace1-6ab0b9452aea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"c5b28e31-f2d0-414f-ba28-f137c6c09c61","name":"c5b28e31-f2d0-414f-ba28-f137c6c09c61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bdf2119b-825d-499c-a1b7-f108d226e3a1","name":"bdf2119b-825d-499c-a1b7-f108d226e3a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"939e85d5-4bb2-4607-877d-73fb4d2be473","name":"939e85d5-4bb2-4607-877d-73fb4d2be473","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -59,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":10.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -108,6 +110,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5b28e31-f2d0-414f-ba28-f137c6c09c61","path":"sprites/spr_KSW_Player_Gooey_Hat_Puddle_Success/spr_KSW_Player_Gooey_Hat_Puddle_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d129c161-77ff-4cd1-871e-014e37f6d530","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdf2119b-825d-499c-a1b7-f108d226e3a1","path":"sprites/spr_KSW_Player_Gooey_Hat_Puddle_Success/spr_KSW_Player_Gooey_Hat_Puddle_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"87c24065-3bb2-4557-bc53-6108b6176ce1","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"939e85d5-4bb2-4607-877d-73fb4d2be473","path":"sprites/spr_KSW_Player_Gooey_Hat_Puddle_Success/spr_KSW_Player_Gooey_Hat_Puddle_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d6b092f9-b121-42ed-8378-b8c24a94c2df","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

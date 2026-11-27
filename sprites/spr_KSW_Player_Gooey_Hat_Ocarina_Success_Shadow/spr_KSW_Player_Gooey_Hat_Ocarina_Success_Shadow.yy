@@ -23,6 +23,8 @@
     {"$GMSpriteFrame":"v1","%Name":"952b36f8-4f69-4911-b49c-f602a1efac0a","name":"952b36f8-4f69-4911-b49c-f602a1efac0a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"adbacba3-5127-43fe-9a7f-005c28aa46d7","name":"adbacba3-5127-43fe-9a7f-005c28aa46d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"f437560a-d3fb-4d1e-a998-bc5f4931b0d5","name":"f437560a-d3fb-4d1e-a998-bc5f4931b0d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"19f82613-9853-416b-9880-98a5488e60ec","name":"19f82613-9853-416b-9880-98a5488e60ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ee92dcda-9347-4fb5-aa3e-3c104413cb79","name":"ee92dcda-9347-4fb5-aa3e-3c104413cb79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -59,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":10.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -108,6 +110,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f437560a-d3fb-4d1e-a998-bc5f4931b0d5","path":"sprites/spr_KSW_Player_Gooey_Hat_Ocarina_Success_Shadow/spr_KSW_Player_Gooey_Hat_Ocarina_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"87bc66e3-9d51-48d8-9d49-0e71240692fb","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"19f82613-9853-416b-9880-98a5488e60ec","path":"sprites/spr_KSW_Player_Gooey_Hat_Ocarina_Success_Shadow/spr_KSW_Player_Gooey_Hat_Ocarina_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ef3e2655-561b-41f2-b4eb-e20fe7485a0c","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee92dcda-9347-4fb5-aa3e-3c104413cb79","path":"sprites/spr_KSW_Player_Gooey_Hat_Ocarina_Success_Shadow/spr_KSW_Player_Gooey_Hat_Ocarina_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0cee4069-b4f7-4f56-8a6f-59213b0ce64e","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -23,6 +23,8 @@
     {"$GMSpriteFrame":"v1","%Name":"315f30cd-27a5-47e6-8e3e-1c36bcc9b79d","name":"315f30cd-27a5-47e6-8e3e-1c36bcc9b79d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"4021bdcf-6cc0-4b5c-83f5-0ccbc8ce0fd5","name":"4021bdcf-6cc0-4b5c-83f5-0ccbc8ce0fd5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"f150211d-48a6-4fde-987d-b364fb3ae30c","name":"f150211d-48a6-4fde-987d-b364fb3ae30c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"97d60958-3677-489b-ae82-851e5bdcfa60","name":"97d60958-3677-489b-ae82-851e5bdcfa60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e9f31c07-2758-40ca-a786-bbeed8ce5ca2","name":"e9f31c07-2758-40ca-a786-bbeed8ce5ca2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -59,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":10.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -108,6 +110,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f150211d-48a6-4fde-987d-b364fb3ae30c","path":"sprites/spr_KSW_Player_Gooey_Hat_Phosphor_Success/spr_KSW_Player_Gooey_Hat_Phosphor_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4fbede06-cffc-4d0e-b387-bbb0855edde0","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97d60958-3677-489b-ae82-851e5bdcfa60","path":"sprites/spr_KSW_Player_Gooey_Hat_Phosphor_Success/spr_KSW_Player_Gooey_Hat_Phosphor_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ea0c7500-d94d-4f96-9cc8-14005f465204","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9f31c07-2758-40ca-a786-bbeed8ce5ca2","path":"sprites/spr_KSW_Player_Gooey_Hat_Phosphor_Success/spr_KSW_Player_Gooey_Hat_Phosphor_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c8f67d13-c252-4ce5-9870-c4f412ef4515","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

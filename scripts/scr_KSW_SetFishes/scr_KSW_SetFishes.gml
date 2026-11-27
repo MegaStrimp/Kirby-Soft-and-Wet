@@ -1397,7 +1397,7 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Touchy Fish",spr_KSW_Fish_TouchyFish,spr_KSW_Fish_TouchyFish_Pal,series_WiiPlay,mage,1,grassBeach,KSW_Phases.none,200);
 	scr_KSW_AddFish("Mystery Fish",spr_KSW_Fish_MysteryFish,spr_KSW_Fish_MysteryFish_Pal,series_WiiPlay,flux,2,grassBeach,KSW_Phases.none,250);
 	scr_KSW_AddFish("King of the Pond",spr_KSW_Fish_PondKing,spr_KSW_Fish_PondKing_Pal,series_WiiPlay,legion,3,grassBeach,KSW_Phases.none,350);
-	scr_KSW_AddFish("Eleking",spr_KSW_Fish_Eleking,spr_KSW_Fish_Eleking_Pal,series_Ultraman,borange,3,serranoSprings,KSW_Phases.day,90000);
+	scr_KSW_AddFish("Eleking",spr_KSW_Fish_Eleking,spr_KSW_Fish_Eleking_Pal,series_Ultraman,borange,3,serranoSprings,KSW_Phases.day,90000,-32,28);
 	scr_KSW_AddFish("Frog The Jam",spr_KSW_Fish_FrogTheJam,spr_KSW_Fish_FrogTheJam_Pal,series_Yugioh,mint,0,hallowReen,KSW_Phases.day,1000);
 	scr_KSW_AddFish("Star Boy",spr_KSW_Fish_StarBoy,spr_KSW_Fish_StarBoy_Pal,series_Yugioh,candy,0,hallowReen,KSW_Phases.day,1200);
 	scr_KSW_AddFish("Treeborn Frog",spr_KSW_Fish_TreebornFrog,spr_KSW_Fish_TreebornFrog_Pal,series_Yugioh,mint,0,cloudyPark,KSW_Phases.day,900);

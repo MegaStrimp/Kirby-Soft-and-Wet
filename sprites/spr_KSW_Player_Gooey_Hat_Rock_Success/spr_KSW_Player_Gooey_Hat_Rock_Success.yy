@@ -23,6 +23,8 @@
     {"$GMSpriteFrame":"v1","%Name":"6f4078ff-b437-4959-bf7b-4f4654ed3e02","name":"6f4078ff-b437-4959-bf7b-4f4654ed3e02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"15f45540-4a94-48f8-b47a-683ed2b454ca","name":"15f45540-4a94-48f8-b47a-683ed2b454ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"80928c55-ac27-4fb3-9d5e-3dd2320c3ffc","name":"80928c55-ac27-4fb3-9d5e-3dd2320c3ffc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"891c7aff-c445-418a-811a-ef2591d9eee4","name":"891c7aff-c445-418a-811a-ef2591d9eee4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cae4182c-6211-413e-931d-660606c88e5d","name":"cae4182c-6211-413e-931d-660606c88e5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -59,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":10.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -108,6 +110,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"80928c55-ac27-4fb3-9d5e-3dd2320c3ffc","path":"sprites/spr_KSW_Player_Gooey_Hat_Rock_Success/spr_KSW_Player_Gooey_Hat_Rock_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c30b08ea-7c32-42fc-b684-2d2c089748ad","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"891c7aff-c445-418a-811a-ef2591d9eee4","path":"sprites/spr_KSW_Player_Gooey_Hat_Rock_Success/spr_KSW_Player_Gooey_Hat_Rock_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bd57147c-184b-46e9-8d24-6ca23edcefb9","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cae4182c-6211-413e-931d-660606c88e5d","path":"sprites/spr_KSW_Player_Gooey_Hat_Rock_Success/spr_KSW_Player_Gooey_Hat_Rock_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6c1b1e83-a763-4b78-b365-ec6bfb3a4f08","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

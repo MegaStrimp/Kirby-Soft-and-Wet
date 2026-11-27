@@ -23,6 +23,8 @@
     {"$GMSpriteFrame":"v1","%Name":"66cee51f-b0a4-40e3-bc84-21edb20225aa","name":"66cee51f-b0a4-40e3-bc84-21edb20225aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"1f7279e6-e22d-4ce1-9609-e548bd17d25c","name":"1f7279e6-e22d-4ce1-9609-e548bd17d25c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"9d3f9619-3a1a-45cd-93c2-44b1de7bcee8","name":"9d3f9619-3a1a-45cd-93c2-44b1de7bcee8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce330239-ce9f-4d38-a6d8-1369260b02b2","name":"ce330239-ce9f-4d38-a6d8-1369260b02b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"42d32937-c4fd-4b76-950f-f3dc5a79d53b","name":"42d32937-c4fd-4b76-950f-f3dc5a79d53b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -59,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":10.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -108,6 +110,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d3f9619-3a1a-45cd-93c2-44b1de7bcee8","path":"sprites/spr_KSW_Player_Gooey_Hat_Pikmin_Success_Shadow/spr_KSW_Player_Gooey_Hat_Pikmin_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"53f68cf8-a302-45a2-801f-3ec4d02d8dc9","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ce330239-ce9f-4d38-a6d8-1369260b02b2","path":"sprites/spr_KSW_Player_Gooey_Hat_Pikmin_Success_Shadow/spr_KSW_Player_Gooey_Hat_Pikmin_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f6183397-2106-4786-ad1e-4c35b74b12be","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42d32937-c4fd-4b76-950f-f3dc5a79d53b","path":"sprites/spr_KSW_Player_Gooey_Hat_Pikmin_Success_Shadow/spr_KSW_Player_Gooey_Hat_Pikmin_Success_Shadow.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ec217f33-0d81-41e5-9df2-95fafd070768","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

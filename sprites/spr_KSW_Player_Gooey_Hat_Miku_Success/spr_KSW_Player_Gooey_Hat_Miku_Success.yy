@@ -23,6 +23,8 @@
     {"$GMSpriteFrame":"v1","%Name":"73b583d4-c7dd-436b-85ce-1d461bb35d25","name":"73b583d4-c7dd-436b-85ce-1d461bb35d25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"9236728e-3ac2-4079-a877-5ef683bb9ddc","name":"9236728e-3ac2-4079-a877-5ef683bb9ddc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"52e61be0-b9b1-4b4d-9f98-e54a23dd72e6","name":"52e61be0-b9b1-4b4d-9f98-e54a23dd72e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3a75411f-3ebc-42be-b5ed-539bde7eeea4","name":"3a75411f-3ebc-42be-b5ed-539bde7eeea4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f12a628-1d24-45b6-a563-3ee09bd40e20","name":"9f12a628-1d24-45b6-a563-3ee09bd40e20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -59,7 +61,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":10.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -108,6 +110,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52e61be0-b9b1-4b4d-9f98-e54a23dd72e6","path":"sprites/spr_KSW_Player_Gooey_Hat_Miku_Success/spr_KSW_Player_Gooey_Hat_Miku_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1956f3c7-e394-4c6f-87c3-3023b37bf301","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a75411f-3ebc-42be-b5ed-539bde7eeea4","path":"sprites/spr_KSW_Player_Gooey_Hat_Miku_Success/spr_KSW_Player_Gooey_Hat_Miku_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0079e82e-f119-4511-b234-f8c771ed8c68","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f12a628-1d24-45b6-a563-3ee09bd40e20","path":"sprites/spr_KSW_Player_Gooey_Hat_Miku_Success/spr_KSW_Player_Gooey_Hat_Miku_Success.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e841d6b0-6dab-436e-b0ee-3b94df5f9c2e","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
